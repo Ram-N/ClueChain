@@ -4,6 +4,8 @@
  * @module ui-manager
  */
 
+console.log("🔄 UI Manager loaded - Version 1.1 with fixes for vowel selection and correct guess notifications");
+
 /**
  * @typedef {import('./game-state.js').GameWord} GameWord
  * @typedef {import('./game-state.js').GameParagraph} GameParagraph
@@ -38,7 +40,7 @@ import {
   gameState,
   revealSelectedLetters,
   showInitialCluesAfterSelection,
-} from "./game-state.js";
+} from "./game-state.js?v=1.1";
 
 import {
   celebrateGameOver,
@@ -59,6 +61,24 @@ const animatingClues = new Map();
 const animatedChainLinks = new Map();
 
 /**
+ * Counter for notification IDs
+ * @type {number}
+ */
+let notificationIdCounter = 0;
+
+/**
+ * Maximum number of notifications to keep in the panel
+ * @type {number}
+ */
+const MAX_NOTIFICATIONS = 10;
+
+/**
+ * Track whether initial message has been shown
+ * @type {boolean}
+ */
+let initialMessageShown = false;
+
+/**
  * Updates the DOM element if it exists
  * @param {string} id - Element ID
  * @param {(element: HTMLElement) => void} updater - Function to update the element
@@ -66,6 +86,180 @@ const animatedChainLinks = new Map();
 function updateElement(id, updater) {
   const element = document.getElementById(id);
   if (element) updater(element);
+}
+
+/**
+ * Adds a notification to the notification panel
+ * @param {string} message - The notification message
+ * @param {string} type - The notification type (info, success, error, warning)
+ * @param {boolean} persistent - Whether the notification should persist
+ * @returns {string} The notification ID
+ */
+export function addNotification(message, type = "info", persistent = true) {
+  const notificationContent = document.querySelector(".notification-content");
+  if (!notificationContent) return "";
+
+  // Check for duplicate messages to prevent showing the same message multiple times
+  // Skip duplicate check for guess notifications to allow multiple correct/wrong guesses
+  if (!type.includes("success") && !type.includes("error")) {
+    const existingNotifications = notificationContent.querySelectorAll(".notification-text");
+    for (const existingNotification of existingNotifications) {
+      if (existingNotification.textContent === message) {
+        console.log(`Duplicate notification prevented: "${message}"`);
+        return ""; // Don't add duplicate
+      }
+    }
+  }
+
+  const notificationId = `notification-${++notificationIdCounter}`;
+  
+  // Create notification card
+  const card = document.createElement("div");
+  card.className = `notification-card notification-${type}`;
+  card.id = notificationId;
+  
+  // Add timestamp for newer notifications
+  const now = new Date();
+  const timeStr = now.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+  
+  card.innerHTML = `
+    <span class="notification-text">${message}</span>
+    <span class="notification-time" style="font-size: 0.7em; color: #888; float: right;">${timeStr}</span>
+  `;
+  
+  // Add click handler to dismiss notification if not persistent
+  if (!persistent) {
+    card.style.cursor = "pointer";
+    card.addEventListener("click", () => removeNotification(notificationId));
+  }
+  
+  // Add to top of notifications
+  notificationContent.insertBefore(card, notificationContent.firstChild);
+  
+  // Limit number of notifications
+  const notifications = notificationContent.querySelectorAll(".notification-card");
+  if (notifications.length > MAX_NOTIFICATIONS) {
+    // Remove oldest notifications
+    for (let i = MAX_NOTIFICATIONS; i < notifications.length; i++) {
+      notifications[i].remove();
+    }
+  }
+  
+  // Scroll to top to show new notification
+  notificationContent.scrollTop = 0;
+  
+  return notificationId;
+}
+
+/**
+ * Removes a specific notification by ID
+ * @param {string} notificationId - The ID of the notification to remove
+ */
+export function removeNotification(notificationId) {
+  const notification = document.getElementById(notificationId);
+  if (notification) {
+    notification.style.transition = "all 0.3s ease";
+    notification.style.opacity = "0";
+    notification.style.transform = "translateX(-20px)";
+    setTimeout(() => {
+      if (notification.parentNode) {
+        notification.remove();
+      }
+    }, 300);
+  }
+}
+
+/**
+ * Clears all notifications from the panel
+ */
+export function clearNotifications() {
+  const notificationContent = document.querySelector(".notification-content");
+  if (notificationContent) {
+    notificationContent.innerHTML = "";
+  }
+}
+
+/**
+ * Shows the initial game message only once
+ */
+export function showInitialMessage() {
+  if (!initialMessageShown) {
+    addNotification("Please select 1 vowel and 2 consonants to begin", "info", true);
+    initialMessageShown = true;
+  }
+}
+
+/**
+ * Adds a notification for a correct guess
+ * @param {string} word - The correctly guessed word
+ * @param {number} points - Points earned for the guess
+ */
+export function addCorrectGuessNotification(word, points) {
+  console.log(`Adding correct guess notification: word="${word}", points=${points}`);
+  const message = `${word.toUpperCase()} Correct! You earned ${points} links!`;
+  console.log(`Notification message: "${message}"`);
+  const notificationId = addNotification(message, "success", true);
+  const notification = document.getElementById(notificationId);
+  if (notification) {
+    notification.classList.add("notification-correct-guess");
+    console.log(`Successfully added correct guess notification with ID: ${notificationId}`);
+  } else {
+    console.log(`Failed to find notification element with ID: ${notificationId}`);
+  }
+}
+
+/**
+ * Adds a notification for an incorrect guess
+ * @param {string} word - The incorrectly guessed word
+ */
+export function addIncorrectGuessNotification(word) {
+  const message = `${word.toUpperCase()} - Wrong guess`;
+  const notificationId = addNotification(message, "error", true);
+  const notification = document.getElementById(notificationId);
+  if (notification) {
+    notification.classList.add("notification-wrong-guess");
+  }
+}
+
+/**
+ * Updates the selection status in notifications with contextual messages
+ * @param {string} vowel - Selected vowel
+ * @param {string[]} consonants - Selected consonants
+ */
+export function updateSelectionStatus(vowel = "", consonants = []) {
+  // Don't show status message if initial message hasn't been shown yet or no selections made
+  if (!vowel && consonants.length === 0 && !initialMessageShown) {
+    return; // Let showInitialMessage handle the first message
+  }
+  
+  // Generate contextual message based on current selection state
+  let statusMessage = "";
+  
+  if (!vowel && consonants.length === 0) {
+    // Don't add another initial message if we already have one
+    return;
+  } else if (vowel && consonants.length === 0) {
+    statusMessage = `Vowel selected: ${vowel.toUpperCase()}. Select 2 consonants to continue`;
+  } else if (vowel && consonants.length === 1) {
+    statusMessage = `Selected: ${vowel.toUpperCase()}, ${consonants[0].toUpperCase()}. Select 1 more consonant to continue`;
+  } else if (vowel && consonants.length === 2) {
+    statusMessage = `Selection complete: ${vowel.toUpperCase()}, ${consonants.join(', ').toUpperCase()}`;
+  }
+  
+  // Find existing status notification and update it, or create new one
+  const existingStatus = document.querySelector('[data-notification-type="selection-status"]');
+  if (existingStatus) {
+    const textSpan = existingStatus.querySelector('.notification-text');
+    if (textSpan) {
+      textSpan.textContent = statusMessage;
+    }
+  } else if (statusMessage) {
+    const notificationId = addNotification(statusMessage, "info", true);
+    const notification = document.getElementById(notificationId);
+    if (notification) {
+      notification.setAttribute('data-notification-type', 'selection-status');
+    }
+  }
 }
 
 /**
@@ -823,35 +1017,14 @@ export function showGameOver() {
 }
 
 /**
- * Shows a toast notification message
+ * Shows a notification message (replaces old toast system)
  * @param {string} message - The message to display
- * @param {string} type - The type of toast (success, error, info)
- * @param {number} duration - Duration in milliseconds to show the toast
+ * @param {string} type - The type of notification (success, error, info, warning)
+ * @param {number} duration - Duration in milliseconds (unused for persistent notifications)
  */
 export function showToast(message, type = "info", duration = 3000) {
-  // Remove any existing toast
-  const existingToast = document.querySelector(".toast");
-  if (existingToast) {
-    existingToast.remove();
-  }
-
-  // Create new toast
-  const toast = document.createElement("div");
-  toast.className = `toast toast-${type}`;
-  toast.textContent = message;
-
-  // Add to document
-  document.body.appendChild(toast);
-
-  // Show the toast with animation
-  setTimeout(() => toast.classList.add("show"), 10);
-
-  // Hide after duration
-  setTimeout(() => {
-    toast.classList.remove("show");
-    // Remove from DOM after animation completes
-    setTimeout(() => toast.remove(), 300);
-  }, duration);
+  // Use the new notification system instead of toasts
+  addNotification(message, type, true);
 }
 
 /**
@@ -1007,30 +1180,38 @@ function handleLetterSelection(tile, isVowel) {
  * @param {string} vowel - The selected vowel
  */
 function updateSelectedVowelDisplay(vowel) {
+  // Update legacy display for backward compatibility
   const vowelDisplay = document.getElementById("selected-vowel");
   if (vowelDisplay) {
     vowelDisplay.textContent = vowel.toUpperCase();
   }
+  
+  // Update notification system
+  updateSelectionStatus(vowel, getSelectedConsonants());
 }
 
 /**
  * Updates the display of selected consonants
  */
 function updateSelectedConsonantsDisplay() {
+  // Update legacy display for backward compatibility
   const consonantsDisplay = document.getElementById("selected-consonants");
-  if (!consonantsDisplay) return;
+  if (consonantsDisplay) {
+    const selectedConsonants = getSelectedConsonants();
 
-  const selectedConsonants = getSelectedConsonants();
+    // Create display text with placeholders for unselected consonants
+    let displayText = "";
+    for (let i = 0; i < 2; i++) {
+      if (i > 0) displayText += " ";
+      displayText +=
+        i < selectedConsonants.length ? selectedConsonants[i].toUpperCase() : "-";
+    }
 
-  // Create display text with placeholders for unselected consonants
-  let displayText = "";
-  for (let i = 0; i < 2; i++) {
-    if (i > 0) displayText += " ";
-    displayText +=
-      i < selectedConsonants.length ? selectedConsonants[i].toUpperCase() : "-";
+    consonantsDisplay.textContent = displayText;
   }
-
-  consonantsDisplay.textContent = displayText;
+  
+  // Update notification system
+  updateSelectionStatus(getSelectedVowel(), getSelectedConsonants());
 }
 
 /**
@@ -1044,19 +1225,11 @@ function checkSelectionComplete() {
     // Selection is complete, finalize
     completeLetterSelection();
 
-    // Show toast notification
-    showToast(
+    // Show notification
+    addNotification(
       `Selection complete: ${vowel.toUpperCase()}, ${consonants[0].toUpperCase()}, ${consonants[1].toUpperCase()}`,
       "success"
     );
-
-    // Hide the selection instructions
-    const instructionsElement = document.getElementById(
-      "selection-instructions"
-    );
-    if (instructionsElement) {
-      instructionsElement.style.display = "none";
-    }
 
     // Enable the clues container
     const cluesContainer = document.getElementById("clues-container");
@@ -1173,13 +1346,14 @@ export function resetUI() {
     }
   });
 
-  // Show selection instructions again
-  const instructionsElement = document.getElementById("selection-instructions");
-  if (instructionsElement) {
-    instructionsElement.style.display = "block";
-  }
+  // Reset notification panel
+  clearNotifications();
+  
+  // Reset initial message flag and show initial message
+  initialMessageShown = false;
+  showInitialMessage();
 
-  // Reset selected letter displays
+  // Reset selected letter displays (for backward compatibility)
   const vowelDisplay = document.getElementById("selected-vowel");
   if (vowelDisplay) {
     vowelDisplay.textContent = "-";

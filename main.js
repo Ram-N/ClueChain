@@ -1,5 +1,5 @@
 // Main entry point for ParaSight
-import { initializeGame } from "./js/game-controller.js";
+import { initializeGame } from "./js/game-controller.js?v=1.1";
 import { setupHelpButton } from "./assets/js/help-modal.js";
 
 // Initialize the game when the window loads
@@ -181,9 +181,7 @@ window.onload = () => {
           // More comprehensive check if game is in progress
           const isGameInProgress = document.querySelectorAll('#clues-list li.found').length > 0 || 
                                    document.querySelectorAll('.letter-tile.purchased').length > 0 ||
-                                   !document.getElementById('selection-instructions') || 
-                                   (document.getElementById('selection-instructions') && 
-                                    document.getElementById('selection-instructions').style.display === 'none');
+                                   document.querySelectorAll('.letter-tile.selected').length > 0;
           
           if (isGameInProgress) {
             // Ask for confirmation before changing date and resetting game
@@ -352,8 +350,7 @@ window.onload = () => {
       const isGameInProgress = !isGameComplete && (
         document.querySelectorAll('#clues-list li.found').length > 0 || 
         document.querySelectorAll('.letter-tile.purchased').length > 0 ||
-        (document.getElementById('selection-instructions') && 
-         document.getElementById('selection-instructions').style.display === 'none')
+        document.querySelectorAll('.letter-tile.selected').length > 0
       );
       
       // Only ask for confirmation if game is in progress but not complete

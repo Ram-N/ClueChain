@@ -4,6 +4,8 @@
  * @module game-state
  */
 
+console.log("🔄 Game State loaded - Version 1.1 with fixed vowel selection logic");
+
 /**
  * @typedef {Object} GameWord
  * @property {string} word - The actual word
@@ -371,7 +373,7 @@ export function setVowel(vowel) {
  * @param {string} vowel - The vowel to be set as selected
  */
 export function setSelectedVowel(vowel) {
-  if (gameState.current.initPhase && !gameState.current.selectedVowel) {
+  if (gameState.current.initPhase) {
     gameState.current.selectedVowel = vowel.toLowerCase();
     return true;
   }

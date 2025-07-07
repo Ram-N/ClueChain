@@ -864,33 +864,134 @@ button:hover {
   width: 100%;
 }
 
-.selection-instructions {
+/* Notification Panel Styles */
+.notification-panel {
   background: #e3f2fd;
   border: 1px solid #bbdefb;
   border-radius: 8px;
-  padding: 12px 15px;
   margin-left: 15px;
-  min-width: 200px;
+  min-width: 250px;
   flex-grow: 1;
-  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  max-height: 200px;
 }
 
-.selection-message {
-  font-weight: bold;
-  color: #1565c0;
-  margin-top: 0;
-  margin-bottom: 15px;
-  text-align: center;
-  font-size: 1.1em;
-}
-
-.selection-status {
-  background: #fff;
-  border-radius: 6px;
+.notification-header {
+  background: #1565c0;
+  color: white;
   padding: 8px 12px;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  border-radius: 7px 7px 0 0;
+  margin: 0;
+  border-bottom: 1px solid #1565c0;
 }
 
+.notification-header h4 {
+  margin: 0;
+  font-size: 0.9em;
+  font-weight: 600;
+  text-align: center;
+}
+
+.notification-content {
+  flex: 1;
+  overflow-y: auto;
+  padding: 8px;
+  max-height: calc(200px - 40px);
+  scrollbar-width: thin;
+  scrollbar-color: #bbdefb #f5f5f5;
+}
+
+.notification-content::-webkit-scrollbar {
+  width: 6px;
+}
+
+.notification-content::-webkit-scrollbar-track {
+  background: #f5f5f5;
+  border-radius: 3px;
+}
+
+.notification-content::-webkit-scrollbar-thumb {
+  background: #bbdefb;
+  border-radius: 3px;
+}
+
+.notification-content::-webkit-scrollbar-thumb:hover {
+  background: #90caf9;
+}
+
+.notification-card {
+  background: white;
+  border-radius: 6px;
+  padding: 8px 10px;
+  margin-bottom: 6px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  border-left: 3px solid #2196f3;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.notification-card:last-child {
+  margin-bottom: 0;
+}
+
+.notification-card:hover {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+  transform: translateX(2px);
+}
+
+.notification-text {
+  font-size: 0.85em;
+  line-height: 1.3;
+  color: #333;
+  display: block;
+}
+
+/* Notification Types */
+.notification-info {
+  border-left-color: #2196f3;
+}
+
+.notification-success {
+  border-left-color: #4caf50;
+  background: #f1f8e9;
+}
+
+.notification-error {
+  border-left-color: #f44336;
+  background: #ffebee;
+}
+
+.notification-warning {
+  border-left-color: #ff9800;
+  background: #fff3e0;
+}
+
+/* Guess Result Notifications */
+.notification-correct-guess {
+  border-left-color: #4caf50;
+  background: #e8f5e9;
+  border-left-width: 4px;
+}
+
+.notification-correct-guess .notification-text {
+  color: #2e7d32;
+  font-weight: 600;
+}
+
+.notification-wrong-guess {
+  border-left-color: #f44336;
+  background: #ffebee;
+  border-left-width: 4px;
+}
+
+.notification-wrong-guess .notification-text {
+  color: #c62828;
+  font-weight: 600;
+}
+
+/* Legacy styles for backward compatibility - can be removed later */
 .selection-label {
   font-weight: bold;
   color: #555;

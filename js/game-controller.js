@@ -23,7 +23,7 @@ import {
   initializeSuffixes,
   resetGameState,
   showInitialCluesAfterSelection,
-} from "./game-state.js";
+} from "./game-state.js?v=1.1";
 
 import {
   renderParagraph,
@@ -35,8 +35,13 @@ import {
   updateLetterCounts,
   showToast,
   animateClueForWord,
-  updateInputState
-} from "./ui-manager.js";
+  updateInputState,
+  addNotification,
+  clearNotifications,
+  showInitialMessage,
+  addCorrectGuessNotification,
+  addIncorrectGuessNotification
+} from "./ui-manager.js?v=1.1";
 
 import {
   highlightCorrectWord,
@@ -133,16 +138,16 @@ function handleGuess(e) {
     updateScore();
     updateLetterCounts();
     
-    // Show toast with points earned
+    // Add notification for correct guess
+    addCorrectGuessNotification(guess, result.pointsEarned);
+    
+    // Show additional context about point reduction if applicable
     if (word) {
       const lowestClueIndexSeen = word.lowestClueIndexSeen || 0;
       const originalPoints = word.clues && word.clues[0] ? word.clues[0].points : 0;
       
-      // If they've seen easier clues, explain the reduced points
       if (lowestClueIndexSeen > 0 && originalPoints > result.pointsEarned) {
-        showToast(`Correct! You earned ${result.pointsEarned} links (reduced from ${originalPoints} because you've seen easier clues).`, "success");
-      } else {
-        showToast(`Correct! You earned ${result.pointsEarned} links.`, "success");
+        showToast(`Points reduced from ${originalPoints} because you viewed easier clues`, "info");
       }
       
       // Animate the clue tumbling down
@@ -156,6 +161,9 @@ function handleGuess(e) {
   } else {
     input.classList.add("wrong");
     setTimeout(() => input.classList.remove("wrong"), 1000);
+    
+    // Add notification for incorrect guess
+    addIncorrectGuessNotification(guess);
     
     // Reveal next suffix after wrong guess too
     const suffixRevealed = revealNextSuffix();
@@ -236,15 +244,15 @@ function setupGuessInput() {
       updateScore();
       updateLetterCounts();
       
-      // Show toast with points earned and information about why
+      // Add notification for correct guess
+      addCorrectGuessNotification(guess, result.pointsEarned);
+      
+      // Show additional toast with context about point reduction if applicable
       const lowestClueIndexSeen = word ? word.lowestClueIndexSeen : 0;
       const originalPoints = word && word.clues && word.clues[0] ? word.clues[0].points : 0;
       
-      // If they've seen easier clues, explain the reduced points
       if (lowestClueIndexSeen > 0 && originalPoints > result.pointsEarned) {
-        showToast(`Correct! You earned ${result.pointsEarned} links (reduced from ${originalPoints} because you've seen easier clues).`, "success");
-      } else {
-        showToast(`Correct! You earned ${result.pointsEarned} links.`, "success");
+        showToast(`Points reduced from ${originalPoints} because you viewed easier clues`, "info");
       }
       
       // Animate the clue tumbling down
@@ -258,6 +266,9 @@ function setupGuessInput() {
     } else {
       input.classList.add("wrong");
       setTimeout(() => input.classList.remove("wrong"), 1000);
+      
+      // Add notification for incorrect guess
+      addIncorrectGuessNotification(guess);
       
       // Reveal next suffix after wrong guess too
       const suffixRevealed = revealNextSuffix();
@@ -505,8 +516,8 @@ export async function initializeGame() {
         updateLetterCounts(false);
         // Disable input and submit button during selection phase
         updateInputState();
-        // Show toast prompting letter selection
-        showToast("Please select 1 vowel and 2 consonants to begin", "info", 10000);
+        // Show initial notification prompting letter selection
+        showInitialMessage();
       } else {
         // Normal game initialization (after selection or on reload)
         // Make sure we have initial clues if selection is already complete
