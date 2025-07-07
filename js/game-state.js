@@ -411,36 +411,19 @@ export function completeLetterSelection() {
     // Set the chosen vowel
     gameState.current.chosenVowel = gameState.current.selectedVowel;
     
-    // Update letter counts to exclude the revealed letters
-    updateLetterCountsAfterSelection();
-    
-    // Initialize the suffix reveal system
+    // Initialize the suffix reveal system first (before counting letters)
     initializeSuffixes();
+    
+    // Now initialize letter counts with suffixes already revealed
+    initializeLetterCounts();
     
     return true;
   }
   return false;
 }
 
-/**
- * Updates letter counts after initial selection to exclude revealed letters
- * @private
- */
-function updateLetterCountsAfterSelection() {
-  const selectedVowel = gameState.current.selectedVowel;
-  const selectedConsonants = gameState.current.selectedConsonants;
-  
-  // Remove the selected letters from the counts
-  if (selectedVowel && letterCounts[selectedVowel]) {
-    delete letterCounts[selectedVowel];
-  }
-  
-  selectedConsonants.forEach(consonant => {
-    if (letterCounts[consonant]) {
-      delete letterCounts[consonant];
-    }
-  });
-}
+// Note: updateLetterCountsAfterSelection() function removed as it's now handled
+// by initializeLetterCounts() which is called after suffix initialization
 
 /**
  * Sets the list of words for the current paragraph
@@ -491,7 +474,7 @@ export function setCurrentWords(words) {
   
   gameState.current.score = 100; // Start with 100 links
   gameState.current.clueAttempts = 0; // Reset attempt counter
-  initializeLetterCounts();
+  // Note: initializeLetterCounts() will be called later after suffix initialization
 }
 
 /**
@@ -940,7 +923,10 @@ function initializeLetterCounts() {
     }
   });
   
-  console.log("Initialized letter counts:", letterCounts);
+  console.log("Initialized letter counts (after suffix reveals):", letterCounts);
+  console.log("Words with revealed suffixes:", wordsWithRevealedSuffixes.map(idx => 
+    words[idx] ? `${words[idx].word} (index ${idx})` : `invalid index ${idx}`
+  ));
 }
 
 /**
@@ -949,6 +935,15 @@ function initializeLetterCounts() {
  * @param {string} word - The word that was found
  */
 function updateLetterCounts(word) {
+  // Find the word index to check for revealed suffixes
+  const words = getCurrentWords();
+  const wordIndex = words.findIndex(w => w.word.toLowerCase() === word.toLowerCase());
+  
+  if (wordIndex === -1) {
+    console.error(`Could not find word "${word}" in current words list`);
+    return;
+  }
+  
   // Count occurrences of each letter in this word
   const wordLetterCounts = {};
   
@@ -957,8 +952,28 @@ function updateLetterCounts(word) {
   marketState.vowels.forEach(vowel => alreadyRevealedLetters.add(vowel));
   marketState.consonants.forEach(consonant => alreadyRevealedLetters.add(consonant));
   
-  // Count each letter in the word, excluding already revealed letters
-  word.toLowerCase().split("").forEach(char => {
+  // Check if this word has a revealed suffix
+  const wordsWithRevealedSuffixes = getWordsWithRevealedSuffixes();
+  const hasSuffix = wordsWithRevealedSuffixes.includes(wordIndex);
+  let suffixStart = word.length;
+  
+  // If this word has a revealed suffix, get its starting position
+  if (hasSuffix) {
+    const suffix = getWordSuffix(word);
+    if (suffix && suffix.ending) {
+      suffixStart = word.length - suffix.ending.length;
+      console.log(`Word "${word}" has revealed suffix "${suffix.ending}" starting at index ${suffixStart}`);
+    }
+  }
+  
+  // Count each letter in the word, excluding already revealed letters AND suffix letters
+  word.toLowerCase().split("").forEach((char, charIndex) => {
+    // Skip if this char is part of a revealed suffix (matches initializeLetterCounts logic)
+    if (hasSuffix && charIndex >= suffixStart) {
+      console.log(`Skipping suffix character '${char}' at position ${charIndex} in word "${word}"`);
+      return;
+    }
+    
     // Skip if this char is already revealed through selection or purchase
     if (alreadyRevealedLetters.has(char)) {
       return;
@@ -977,7 +992,7 @@ function updateLetterCounts(word) {
     }
   });
   
-  console.log(`Updated letter counts after finding word "${word}":`, letterCounts);
+  console.log(`Updated letter counts after finding word "${word}" (suffix excluded: ${hasSuffix}):`, letterCounts);
 }
 
 /**
@@ -1217,8 +1232,8 @@ export function initializeSuffixes() {
     revealedWordIndices.push(wordIndex);
     gameState.current.wordsWithRevealedSuffixes.push(wordIndex);
     
-    // Update letter counts for this word's suffix
-    updateLetterCountsForWordSuffix(wordIndex);
+    // Note: Letter counts will be initialized after this function completes
+    // No need to update them here during initial setup
   }
   
   console.log(`Revealed suffixes for ${revealedWordIndices.length} initial words:`, 

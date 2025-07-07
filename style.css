@@ -53,11 +53,12 @@ h1 {
   background-color: #ffd54f;
   border-color: #ffa000;
   box-shadow: 0 2px 6px rgba(255, 160, 0, 0.2);
-  transform: scale(1.02) translateY(-1px);
+  transform: translateY(-1px);
   color: #333333;
   z-index: 1;
   position: relative;
   font-weight: 600;
+  letter-spacing: 4px; /* Increase letter spacing when highlighted */
 }
 
 #clues-container {
@@ -638,8 +639,9 @@ button:hover {
   border-color: #66bb6a;
   color: #1b5e20;
   box-shadow: 0 2px 6px rgba(46, 125, 50, 0.2);
-  transform: scale(1.02) translateY(-1px);
+  transform: translateY(-1px);
   font-weight: 600;
+  letter-spacing: 4px; /* Maintain letter spacing when highlighted */
 }
 
 #paragraph-container span[data-masked="true"].revealed.highlight {
@@ -647,8 +649,9 @@ button:hover {
   border-color: #ff8a65;
   color: #bf360c;
   box-shadow: 0 2px 6px rgba(216, 67, 21, 0.25);
-  transform: scale(1.02) translateY(-1px);
+  transform: translateY(-1px);
   font-weight: 600;
+  letter-spacing: 4px; /* Maintain letter spacing when highlighted */
 }
 
 .game-over-message {
@@ -1098,6 +1101,12 @@ button:hover {
   user-select: none;
 }
 
+.arrow.disabled {
+  cursor: not-allowed;
+  opacity: 0.4;
+  color: #999;
+}
+
 .date-picker-container {
   position: relative;
   display: flex;
@@ -1310,6 +1319,22 @@ button:hover {
 /* Remove the old dot indicator */
 .calendar-day.has-content::after {
   display: none;
+}
+
+/* Future date styles */
+.calendar-day.future-date {
+  cursor: not-allowed;
+  opacity: 0.4;
+  color: #999;
+}
+
+.calendar-day.future-date::before {
+  border-color: #999;
+  animation: none;
+}
+
+.calendar-day.future-date:hover {
+  background-color: transparent;
 }
 
 /* Style for dates without content - make them appear grayed out and non-clickable */

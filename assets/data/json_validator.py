@@ -2,6 +2,7 @@
 import sys
 import json
 import re
+import os
 
 REQUIRED_TOP_KEYS = ['id', 'date', 'title', 'text', 'hiddenWords']
 DATE_REGEX = r'^\d{4}-\d{2}-\d{2}$'
@@ -89,6 +90,25 @@ def main():
     except json.JSONDecodeError as e:
         print(f"Error: Invalid JSON - {e}")
         sys.exit(1)
+
+    # --- Date filename vs. internal date check ---
+    # Extract date from filename (expecting YYYY-MM-DD.json)
+    base = os.path.basename(filename)
+    match = re.match(r"(\d{4}-\d{2}-\d{2})", base)
+    file_date = match.group(1) if match else None
+    json_date = data.get('date')
+    if file_date and json_date:
+        file_date_comp = file_date.replace('-', '')
+        json_date_comp = json_date.replace('-', '')
+        if file_date_comp != json_date_comp:
+            print(f"Error: Date in filename ({file_date}) does not match date in JSON ({json_date})")
+            sys.exit(1)
+        else:
+            print(f"Date verified and okay: {file_date} matches {json_date}")
+    elif file_date:
+        print(f"Error: No 'date' key found in JSON to compare with filename date {file_date}")
+        sys.exit(1)
+    # else: if no date in filename, skip this check
 
     errors = validate_json(data)
     if errors:

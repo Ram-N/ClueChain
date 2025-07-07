@@ -164,12 +164,20 @@ window.onload = () => {
         dayElement.classList.add("today");
       }
       
+      // Check if this date is in the future
+      const isFutureDate = thisDateStr > todayDateStr;
+      
       // Mark days that have content and handle clickability
       if (daysWithContent.includes(thisDateStr)) {
         dayElement.classList.add("has-content");
         
-        // Add click handler to select date (only for dates with content)
-        dayElement.addEventListener("click", () => {
+        // If it's a future date, disable it
+        if (isFutureDate) {
+          dayElement.classList.add("future-date");
+          dayElement.title = "Cannot access future dates";
+        } else {
+          // Add click handler to select date (only for dates with content and not in future)
+          dayElement.addEventListener("click", () => {
           // More comprehensive check if game is in progress
           const isGameInProgress = document.querySelectorAll('#clues-list li.found').length > 0 || 
                                    document.querySelectorAll('.letter-tile.purchased').length > 0 ||
@@ -192,6 +200,9 @@ window.onload = () => {
               
               // Reinitialize game with new date
               initializeGame();
+              
+              // Update arrow states after date change
+              updateArrowStates();
             }
           } else {
             // No game in progress, proceed without confirmation
@@ -206,8 +217,12 @@ window.onload = () => {
             
             // Reinitialize game with new date
             initializeGame();
+            
+            // Update arrow states after date change
+            updateArrowStates();
           }
         });
+        }
       } else {
         // For dates without content, add a class to show they're not clickable
         dayElement.classList.add("no-content");
@@ -286,9 +301,50 @@ window.onload = () => {
     fetchContentDates();
   }
 
+  // Helper function to check if a date is today or in the future
+  function isDateTodayOrFuture(date) {
+    const today = new Date();
+    const todayStr = today.toISOString().split('T')[0];
+    const dateStr = date.toISOString().split('T')[0];
+    return dateStr >= todayStr;
+  }
+
+  // Helper function to check if a date is in the future
+  function isDateInFuture(date) {
+    const today = new Date();
+    const todayStr = today.toISOString().split('T')[0];
+    const dateStr = date.toISOString().split('T')[0];
+    return dateStr > todayStr;
+  }
+
+  // Function to update arrow states based on current date
+  function updateArrowStates() {
+    const leftArrow = document.querySelector('.arrow:first-child');
+    const rightArrow = document.querySelector('.arrow:last-child');
+    
+    if (rightArrow) {
+      const isCurrentDateToday = isDateTodayOrFuture(currentDate) && !isDateInFuture(currentDate);
+      
+      if (isCurrentDateToday) {
+        rightArrow.classList.add('disabled');
+        rightArrow.setAttribute('aria-disabled', 'true');
+        rightArrow.title = 'Cannot navigate to future dates';
+      } else {
+        rightArrow.classList.remove('disabled');
+        rightArrow.removeAttribute('aria-disabled');
+        rightArrow.title = '';
+      }
+    }
+  }
+
   // Add date navigation handlers
   arrows.forEach((arrow) => {
     arrow.addEventListener("click", (e) => {
+      // Check if the arrow is disabled
+      if (e.target.classList.contains('disabled')) {
+        return;
+      }
+
       // Check if game is complete (victory message shown)
       const isGameComplete = document.querySelector('.game-over-message') !== null;
       
@@ -313,11 +369,16 @@ window.onload = () => {
       if (isLeft) {
         newDate.setDate(newDate.getDate() - 1);
       } else {
+        // Additional check to prevent future navigation
+        if (isDateTodayOrFuture(currentDate) && !isDateInFuture(currentDate)) {
+          return; // Don't allow navigation to future from today
+        }
         newDate.setDate(newDate.getDate() + 1);
       }
 
       currentDate = newDate;
       updateDateDisplay(currentDate);
+      updateArrowStates();
       
       // Log the navigated date for debugging
       const dateStr = currentDate.toISOString().split('T')[0];
@@ -327,4 +388,7 @@ window.onload = () => {
       initializeGame();
     });
   });
+  
+  // Initialize arrow states after setting up navigation
+  updateArrowStates();
 };
