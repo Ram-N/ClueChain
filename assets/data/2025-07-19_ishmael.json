@@ -1,0 +1,228 @@
+{
+  "id": "ClueChain-2025-07-19",
+  "date": "2025-07-19",
+  "title": "Moby Dick (1851)",
+  "text": "“Call me Ishmael.”\nSimple, to the point and unassuming, the opening line of Melville’s whale of a tale introduces the plainspoken narrator—who, it turns out, may not be quite as reliable a narrator as it first seems (why not just say, “my name is Ishmael”). He describes his captain’s quest to hunt down the great Moby Dick.",
+  "hiddenWords": [
+    {
+      "word": "Call",
+      "difficulty": "Easy",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "To give a name, or to summon near, a beckoning sound, for all to hear.",
+          "points": 4
+        },
+        {
+          "type": "Suggestive",
+          "clue": "What you do on the phone, or to give a name to someone.",
+          "points": 2
+        },
+        {
+          "type": "Straight",
+          "clue": "To give (someone or something) a name or particular designation.",
+          "points": 1
+        }
+      ],
+      "related_words": ["name"]
+    },
+    {
+      "word": "Simple",
+      "difficulty": "Easy",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "Not complex, easy to grasp, without embellishment, holding fast.",
+          "points": 4
+        },
+        {
+          "type": "Suggestive",
+          "clue": "Easy to understand or do; not complicated.",
+          "points": 2
+        },
+        {
+          "type": "Straight",
+          "clue": "Easily understood or done; presenting no difficulty.",
+          "points": 1
+        }
+      ],
+      "related_words": ["unassuming"]
+    },
+    {
+      "word": "point",
+      "difficulty": "Intermediate",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "A sharp end, a critical moment, or the core idea, clearly sent.",
+          "points": 5
+        },
+        {
+          "type": "Suggestive",
+          "clue": "A specific location, or the main idea of an argument.",
+          "points": 3
+        },
+        {
+          "type": "Straight",
+          "clue": "The purpose or aim of something.",
+          "points": 1
+        }
+      ],
+      "related_words": []
+    },
+    {
+      "word": "unassuming",
+      "difficulty": "Hard",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "Humble and modest, without pretense, not drawing attention, a quiet defense.",
+          "points": 7
+        },
+        {
+          "type": "Suggestive",
+          "clue": "Not pretentious or arrogant; modest.",
+          "points": 4
+        },
+        {
+          "type": "Straight",
+          "clue": "Not pompous or arrogant; modest.",
+          "points": 2
+        }
+      ],
+      "related_words": ["Simple"]
+    },
+    {
+      "word": "introduces",
+      "difficulty": "Intermediate",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "Presents for the first time, a new beginning, a character's entrance, gracefully winning.",
+          "points": 5
+        },
+        {
+          "type": "Suggestive",
+          "clue": "To present (someone or something) to another for the first time.",
+          "points": 3
+        },
+        {
+          "type": "Straight",
+          "clue": "Presents (someone or something) to another for the first time.",
+          "points": 1
+        }
+      ],
+      "related_words": ["narrator"]
+    },
+    {
+      "word": "narrator",
+      "difficulty": "Intermediate",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "The voice of the story, shaping what we hear, a perspective offered, drawing us near.",
+          "points": 5
+        },
+        {
+          "type": "Suggestive",
+          "clue": "A person who tells a story, especially in a literary work.",
+          "points": 3
+        },
+        {
+          "type": "Straight",
+          "clue": "A person who narrates something, especially a character who recounts the events of a novel or narrative poem.",
+          "points": 1
+        }
+      ],
+      "related_words": ["introduces", "reliable"]
+    },
+    {
+      "word": "reliable",
+      "difficulty": "Intermediate",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "Trustworthy, consistent, always true, a steadfast presence, seen through and through.",
+          "points": 5
+        },
+        {
+          "type": "Suggestive",
+          "clue": "Consistently good in quality or performance; able to be trusted.",
+          "points": 3
+        },
+        {
+          "type": "Straight",
+          "clue": "Consistently good in quality or performance; able to be trusted or believed.",
+          "points": 1
+        }
+      ],
+      "related_words": ["narrator"]
+    },
+    {
+      "word": "name",
+      "difficulty": "Easy",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "A chosen label, a word that defines, identifying being, in all its designs.",
+          "points": 4
+        },
+        {
+          "type": "Suggestive",
+          "clue": "What someone is called, or to identify something.",
+          "points": 2
+        },
+        {
+          "type": "Straight",
+          "clue": "A word or term by which a person, animal, place, or thing is known, addressed, or referred to.",
+          "points": 1
+        }
+      ],
+      "related_words": ["Call"]
+    },
+    {
+      "word": "describes",
+      "difficulty": "Intermediate",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "Paints a picture with words, vividly portrayed, detailing features, carefully laid.",
+          "points": 5
+        },
+        {
+          "type": "Suggestive",
+          "clue": "To give an account in words of (someone or something), including all the relevant characteristics, qualities, or events.",
+          "points": 3
+        },
+        {
+          "type": "Straight",
+          "clue": "Gives an account in words of (someone or something), including all the relevant characteristics, qualities, or events.",
+          "points": 1
+        }
+      ],
+      "related_words": ["hunt"]
+    },
+    {
+      "word": "hunt",
+      "difficulty": "Intermediate",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "To chase a target, for sport or for need, a determined pursuit, sowing a seed.",
+          "points": 5
+        },
+        {
+          "type": "Suggestive",
+          "clue": "To pursue and kill (wild animals) for sport or food; to search for something.",
+          "points": 3
+        },
+        {
+          "type": "Straight",
+          "clue": "To pursue and kill (wild animals) for sport or food.",
+          "points": 1
+        }
+      ],
+      "related_words": ["describes"]
+    }
+  ]
+}

@@ -1,0 +1,228 @@
+{
+  "id": "ClueChain-2025-07-11",
+  "date": "2025-07-11",
+  "title": "One Hundred Years of Solitude by Gabriel García Márquez (1967)",
+  "text": "“Many years later, as he faced the firing squad, Colonel Aureliano Buendía was to remember that distant afternoon when his father took him to discover ice.\" The opening line of this epic Latin American classic brilliantly uses foreshadowing to introduce the book’s main character. Referencing childhood softens the colonel’s military title, but looking ahead to his possible death suggests a chasm between childhood wonder and regret. The book spins the story of the Buendías spanning generations and examines themes of isolation.",
+  "hiddenWords": [
+    {
+      "word": "faced",
+      "difficulty": "Easy",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "To stand opposite, perhaps to confront a challenge head-on.",
+          "points": 4
+        },
+        {
+          "type": "Suggestive",
+          "clue": "What you do when you confront a problem or look directly at something.",
+          "points": 2
+        },
+        {
+          "type": "Straight",
+          "clue": "To confront and deal with (a difficult situation or person).",
+          "points": 1
+        }
+      ],
+      "related_words": []
+    },
+    {
+      "word": "firing",
+      "difficulty": "Intermediate",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "It can ignite, or dismiss, or even lead to a loud bang.",
+          "points": 5
+        },
+        {
+          "type": "Suggestive",
+          "clue": "Associated with guns, furnaces, or dismissing an employee.",
+          "points": 3
+        },
+        {
+          "type": "Straight",
+          "clue": "The action of discharging a gun or other weapon.",
+          "points": 1
+        }
+      ],
+      "related_words": ["squad"]
+    },
+    {
+      "word": "squad",
+      "difficulty": "Intermediate",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "A small band, often with a mission, working as a unit, without division.",
+          "points": 5
+        },
+        {
+          "type": "Suggestive",
+          "clue": "A small group of people working together for a specific purpose, like in sports or the military.",
+          "points": 3
+        },
+        {
+          "type": "Straight",
+          "clue": "A small group of people having a particular task.",
+          "points": 1
+        }
+      ],
+      "related_words": ["firing"]
+    },
+    {
+      "word": "distant",
+      "difficulty": "Intermediate",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "Far away in space or time, like a memory fading in the mind.",
+          "points": 5
+        },
+        {
+          "type": "Suggestive",
+          "clue": "Describes something that is far off, either in physical space or time.",
+          "points": 3
+        },
+        {
+          "type": "Straight",
+          "clue": "Far off in space or time.",
+          "points": 1
+        }
+      ],
+      "related_words": []
+    },
+    {
+      "word": "discover",
+      "difficulty": "Intermediate",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "To uncover a truth, or find a treasure, often with a moment of delightful pleasure.",
+          "points": 5
+        },
+        {
+          "type": "Suggestive",
+          "clue": "What an explorer does with new lands, or a scientist with new theories.",
+          "points": 3
+        },
+        {
+          "type": "Straight",
+          "clue": "To find (something or someone) unexpectedly or in the course of a search.",
+          "points": 1
+        }
+      ],
+      "related_words": []
+    },
+    {
+      "word": "classic",
+      "difficulty": "Intermediate",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "Timeless, exemplary, a model of excellence, oft imitated, rarely matched.",
+          "points": 5
+        },
+        {
+          "type": "Suggestive",
+          "clue": "Describes something that is judged over a period of time to be of the highest quality and outstanding of its kind.",
+          "points": 3
+        },
+        {
+          "type": "Straight",
+          "clue": "Judged over a period of time to be of the highest quality and outstanding of its kind.",
+          "points": 1
+        }
+      ],
+      "related_words": []
+    },
+    {
+      "word": "brilliantly",
+      "difficulty": "Hard",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "With dazzling intellect or gleaming light, a performance that shines ever so bright.",
+          "points": 7
+        },
+        {
+          "type": "Suggestive",
+          "clue": "Describes something done with great intelligence or talent, or shining very brightly.",
+          "points": 4
+        },
+        {
+          "type": "Straight",
+          "clue": "In a very intelligent or skillful way.",
+          "points": 2
+        }
+      ],
+      "related_words": []
+    },
+    {
+      "word": "introduce",
+      "difficulty": "Intermediate",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "To bring forth for the first time, or make known to an acquaintance.",
+          "points": 5
+        },
+        {
+          "type": "Suggestive",
+          "clue": "What you do when you present one person to another, or begin a new topic.",
+          "points": 3
+        },
+        {
+          "type": "Straight",
+          "clue": "To present (someone or something) to another for the first time.",
+          "points": 1
+        }
+      ],
+      "related_words": []
+    },
+    {
+      "word": "softens",
+      "difficulty": "Intermediate",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "When hard edges yield, and harsh tones cease, bringing comfort and a gentle peace.",
+          "points": 5
+        },
+        {
+          "type": "Suggestive",
+          "clue": "To make something less hard, harsh, or severe.",
+          "points": 3
+        },
+        {
+          "type": "Straight",
+          "clue": "To make or become less hard or firm.",
+          "points": 1
+        }
+      ],
+      "related_words": []
+    },
+    {
+      "word": "isolation",
+      "difficulty": "Hard",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "A state of being apart, where one is a solitary art.",
+          "points": 7
+        },
+        {
+          "type": "Suggestive",
+          "clue": "The state of being separated from others, like a hermit.",
+          "points": 4
+        },
+        {
+          "type": "Straight",
+          "clue": "The process or fact of isolating or being isolated.",
+          "points": 2
+        }
+      ],
+      "related_words": []
+    }
+  ]
+}

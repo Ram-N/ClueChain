@@ -1,0 +1,228 @@
+{
+  "id": "ClueChain-2025-07-16",
+  "date": "2025-07-16",
+  "title": "—Nineteen Eighty-Four by George Orwell (1949)",
+  "text": "“It was a bright cold day in April, and the clocks were striking thirteen.”\nThe dichotomy between the first half of this opening sentence—just a brisk spring day—and the second part—the equivalent of pigs flying—forms a brilliant opener to Orwell’s dystopian novel. Clearly, all is not right in this future where The Party controls everything, and one ordinary man dares to push back.",
+  "hiddenWords": [
+    {
+      "word": "bright",
+      "difficulty": "Easy",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "Shining with light, or quick in thought, a beacon of hope, lessons well taught.",
+          "points": 4
+        },
+        {
+          "type": "Suggestive",
+          "clue": "Giving out or reflecting a lot of light; shining.",
+          "points": 2
+        },
+        {
+          "type": "Straight",
+          "clue": "Emitting or reflecting a lot of light.",
+          "points": 1
+        }
+      ],
+      "related_words": ["cold"]
+    },
+    {
+      "word": "cold",
+      "difficulty": "Easy",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "Lacking warmth, a shiver's embrace, an icy touch, leaving no trace.",
+          "points": 4
+        },
+        {
+          "type": "Suggestive",
+          "clue": "Having a low temperature, or a common illness.",
+          "points": 2
+        },
+        {
+          "type": "Straight",
+          "clue": "Of or at a low or relatively low temperature, especially when compared with the human body.",
+          "points": 1
+        }
+      ],
+      "related_words": ["bright"]
+    },
+    {
+      "word": "clocks",
+      "difficulty": "Easy",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "They mark the moments, minute by minute, telling time, without limit.",
+          "points": 4
+        },
+        {
+          "type": "Suggestive",
+          "clue": "Devices for measuring and indicating time.",
+          "points": 2
+        },
+        {
+          "type": "Straight",
+          "clue": "Instruments that measure and indicate time.",
+          "points": 1
+        }
+      ],
+      "related_words": ["striking"]
+    },
+    {
+      "word": "striking",
+      "difficulty": "Intermediate",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "Hitting with force, or catching the eye, a remarkable sight, passing by.",
+          "points": 5
+        },
+        {
+          "type": "Suggestive",
+          "clue": "To hit, or to be very impressive or attractive.",
+          "points": 3
+        },
+        {
+          "type": "Straight",
+          "clue": "Attracting attention by reason of being unusual, extreme, or prominent.",
+          "points": 1
+        }
+      ],
+      "related_words": ["clocks"]
+    },
+    {
+      "word": "dichotomy",
+      "difficulty": "Hard",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "A sharp division, a contrasting pair, where two halves exist, without a shared heir.",
+          "points": 7
+        },
+        {
+          "type": "Suggestive",
+          "clue": "A division or contrast between two things that are or are represented as being opposed or entirely different.",
+          "points": 4
+        },
+        {
+          "type": "Straight",
+          "clue": "A division or contrast between two things that are or are represented as being opposed or entirely different.",
+          "points": 2
+        }
+      ],
+      "related_words": []
+    },
+    {
+      "word": "brilliant",
+      "difficulty": "Hard",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "Shining with excellence, a mind so keen, illuminating ideas, a clever scene.",
+          "points": 7
+        },
+        {
+          "type": "Suggestive",
+          "clue": "Very clever or talented, or very bright and radiant.",
+          "points": 4
+        },
+        {
+          "type": "Straight",
+          "clue": "Very intelligent or skillful.",
+          "points": 2
+        }
+      ],
+      "related_words": ["opener"]
+    },
+    {
+      "word": "opener",
+      "difficulty": "Intermediate",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "The very first, the start of the show, a beginning revealed, letting stories flow.",
+          "points": 5
+        },
+        {
+          "type": "Suggestive",
+          "clue": "The first item or part of something, such as a sports season or a concert.",
+          "points": 3
+        },
+        {
+          "type": "Straight",
+          "clue": "A thing that opens, especially a device for opening cans or bottles.",
+          "points": 1
+        }
+      ],
+      "related_words": ["brilliant"]
+    },
+    {
+      "word": "dystopian",
+      "difficulty": "Hard",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "A grim future, where hope is suppressed, a society's nightmare, deeply distressed.",
+          "points": 7
+        },
+        {
+          "type": "Suggestive",
+          "clue": "Relating to an imagined state or society where there is great suffering or injustice.",
+          "points": 4
+        },
+        {
+          "type": "Straight",
+          "clue": "Relating to or denoting an imagined state or society where there is great suffering or injustice.",
+          "points": 2
+        }
+      ],
+      "related_words": ["novel"]
+    },
+    {
+      "word": "novel",
+      "difficulty": "Intermediate",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "A long-form tale, new and unique, a written journey, stories to seek.",
+          "points": 5
+        },
+        {
+          "type": "Suggestive",
+          "clue": "A long fictional prose narrative, or something new and unusual.",
+          "points": 3
+        },
+        {
+          "type": "Straight",
+          "clue": "A fictional prose narrative of book length, typically representing character and action with some degree of realism.",
+          "points": 1
+        }
+      ],
+      "related_words": ["dystopian"]
+    },
+    {
+      "word": "controls",
+      "difficulty": "Intermediate",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "To wield authority, to guide the way, exerting power, come what may.",
+          "points": 5
+        },
+        {
+          "type": "Suggestive",
+          "clue": "To determine the behavior or supervise the running of something.",
+          "points": 3
+        },
+        {
+          "type": "Straight",
+          "clue": "Determines the behavior or supervises the running of.",
+          "points": 1
+        }
+      ],
+      "related_words": []
+    }
+  ]
+}
