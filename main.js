@@ -3,7 +3,7 @@ import { initializeGame } from "./js/game-controller.js?v=1.1";
 import { setupHelpButton } from "./assets/js/help-modal.js";
 
 // Initialize the game when the window loads
-window.onload = () => {
+window.onload = async () => {
   // Set the date display to today's date on page load
   const dateElementInit = document.getElementById("current-date");
   if (dateElementInit) {
@@ -15,7 +15,18 @@ window.onload = () => {
     });
   }
 
-  // First initialize the game
+  // Initialize authentication system first
+  try {
+    await window.authManager.initialize();
+    await window.streakTracker.initialize();
+    await window.authUI.initialize();
+    console.log('✅ Authentication system initialized');
+  } catch (error) {
+    console.error('❌ Failed to initialize authentication system:', error);
+    // Continue with game initialization even if auth fails
+  }
+
+  // Then initialize the game
   initializeGame();
 
   // Then set up header controls

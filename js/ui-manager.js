@@ -981,7 +981,7 @@ export function updateScore() {
 /**
  * Displays the game over message with final score and celebration animations
  */
-export function showGameOver() {
+export async function showGameOver() {
   const score = getCurrentScore();
   const maxScore = getMaxScore();
   const scorePercentage = Math.round((score / maxScore) * 100);
@@ -990,6 +990,44 @@ export function showGameOver() {
   if (input && input instanceof HTMLInputElement) {
     input.disabled = true;
     input.placeholder = "Game Complete!";
+  }
+
+  // Record game completion for authenticated users
+  if (window.authManager && window.authManager.isAuthenticated() && window.streakTracker) {
+    try {
+      const currentParagraph = getCurrentParagraph();
+      const currentWords = getCurrentWords();
+      
+      const gameData = {
+        score: score,
+        maxPossibleScore: maxScore,
+        wordsFound: currentWords.filter(w => w.found).length,
+        totalWords: currentWords.length,
+        gameDate: currentParagraph ? currentParagraph.date : new Date().toISOString().split('T')[0],
+        completionTime: null, // Could be tracked if needed
+        metadata: {
+          percentage: scorePercentage,
+          paragraphId: currentParagraph ? currentParagraph.id : null,
+          paragraphTitle: currentParagraph ? currentParagraph.title : null
+        }
+      };
+
+      const result = await window.streakTracker.recordGameCompletion(gameData);
+      
+      if (result.success) {
+        console.log('✅ Game completion recorded successfully');
+        
+        // Update streak display in UI
+        const streakResult = await window.streakTracker.getCurrentStreak();
+        if (streakResult.success && window.authUI) {
+          window.authUI.updateStreakDisplay(streakResult.streak.current_streak || 0);
+        }
+      } else {
+        console.warn('⚠️ Failed to record game completion:', result.error);
+      }
+    } catch (error) {
+      console.error('❌ Error recording game completion:', error);
+    }
   }
 
   const endGameMessage = document.createElement("div");
