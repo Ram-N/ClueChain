@@ -483,35 +483,34 @@ button:hover {
 
 .chain-link.active {
   color: #4a90e2;
-  transform: scale(1.2) rotate(var(--rotation, 10deg));
+  transform: scale(1.2);
   z-index: 3;
 }
 
 .chain-link.inactive {
   color: #ccc;
   opacity: 0.7;
-  transform: rotate(var(--rotation, 10deg));
   z-index: 1;
 }
 
 .chain-link.revealed {
   color: #e65100; /* Orange color for revealed words */
-  transform: scale(1.1) rotate(var(--rotation, 10deg));
+  transform: scale(1.1);
   z-index: 2;
 }
 
 /* Animation for new chain link */
 @keyframes linkAdded {
   0% {
-    transform: scale(0.5) rotate(var(--rotation, 10deg));
+    transform: scale(0.5);
     opacity: 0;
   }
   50% {
-    transform: scale(1.4) rotate(var(--rotation, 10deg));
+    transform: scale(1.4);
     opacity: 1;
   }
   100% {
-    transform: scale(1.2) rotate(var(--rotation, 10deg));
+    transform: scale(1.2);
     opacity: 1;
   }
 }

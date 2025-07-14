@@ -884,14 +884,8 @@ export function updateChainLinks() {
       const chainLink = document.createElement("div");
       chainLink.className = "chain-link inactive";
 
-      // Alternate link directions and set as CSS variable for animations
-      const rotation = i % 2 === 0 ? 10 : -10;
-      chainLink.style.setProperty("--rotation", `${rotation}deg`);
-      chainLink.style.transform = `rotate(${rotation}deg)`;
-
-      // Adjust position to create a slight wave pattern
-      const verticalOffset = i % 4 < 2 ? 0 : 3;
-      chainLink.style.marginTop = `${verticalOffset}px`;
+      // Chain links will be displayed in a simple straight line
+      chainLink.textContent = "🔗";
 
       chainLink.innerHTML = '<i class="fas fa-link"></i>';
       chainLink.setAttribute("data-index", i.toString());
@@ -915,8 +909,8 @@ export function updateChainLinks() {
         chainLink.classList.remove("inactive", "revealed");
         chainLink.classList.add("active");
 
-        // Apply rotation using CSS variable set earlier
-        chainLink.style.transform = `scale(1.2) rotate(var(--rotation, 10deg))`;
+        // Apply scaling for active links
+        chainLink.style.transform = `scale(1.2)`;
 
         // Add animation class if this is a newly found word
         if (!animatedChainLinks.has(index)) {
@@ -936,8 +930,8 @@ export function updateChainLinks() {
         chainLink.classList.remove("inactive", "active");
         chainLink.classList.add("revealed");
 
-        // Apply rotation using CSS variable set earlier
-        chainLink.style.transform = `scale(1.1) rotate(var(--rotation, 10deg))`;
+        // Apply scaling for revealed links
+        chainLink.style.transform = `scale(1.1)`;
 
         // Add animation class if this is a newly revealed word
         if (!animatedChainLinks.has(index)) {
@@ -956,8 +950,8 @@ export function updateChainLinks() {
       chainLink.classList.remove("active", "revealed");
       chainLink.classList.add("inactive");
 
-      // Apply rotation using CSS variable set earlier
-      chainLink.style.transform = `rotate(var(--rotation, 10deg))`;
+      // Reset transform for inactive links
+      chainLink.style.transform = ``;
 
       chainLink.setAttribute("title", `Word ${index + 1} of ${totalWords}`);
     }
@@ -1001,8 +995,8 @@ export function showGameOver() {
   const endGameMessage = document.createElement("div");
   endGameMessage.className = "game-over-message";
   endGameMessage.innerHTML = `
-        <h2>Congratulations! 🎉</h2>
-        <p>You've found all the hidden words!</p>
+        <h2>Chain Complete! 🎉</h2>
+        <p>You've linked every word in the paragraph!</p>
         <p>Final Score: <span class="final-score">${score}</span> <span class="max-score">(Max Possible: ${maxScore})</span> - ${scorePercentage}%</p>
     `;
 
