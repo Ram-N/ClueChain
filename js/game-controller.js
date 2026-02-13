@@ -394,28 +394,25 @@ export async function initializeGame() {
     const dateElement = document.getElementById("current-date");
     const currentDateStr = dateElement ? dateElement.textContent : null;
     let selectedParagraph = null;
-    
+
     if (currentDateStr) {
       try {
         // Parse the displayed date string to a Date object
         const currentDate = new Date(currentDateStr);
-        
-        // Format date for comparison (YYYY-MM-DD)
-        const formattedDate = currentDate.toISOString().split('T')[0];
-        
+
+        // Format date as MM-DD (year-agnostic)
+        const month = String(currentDate.getMonth() + 1).padStart(2, '0');
+        const day = String(currentDate.getDate()).padStart(2, '0');
+        const formattedDate = `${month}-${day}`;
+
         console.log(`Looking for paragraph with date: ${formattedDate}`);
-        
-        // Find paragraph matching the current date
+
+        // Find paragraph matching MM-DD format
         selectedParagraph = allParagraphs.find(paragraph => {
           if (!paragraph || !paragraph.date) return false;
-          
-          // Convert paragraph date to same format for comparison
-          const paragraphDate = new Date(paragraph.date);
-          const formattedParagraphDate = paragraphDate.toISOString().split('T')[0];
-          
-          return formattedParagraphDate === formattedDate;
+          return paragraph.date === formattedDate;
         });
-        
+
         if (selectedParagraph) {
           console.log(`Found matching paragraph for date: ${formattedDate}`);
         } else {
@@ -528,6 +525,18 @@ export async function initializeGame() {
         updateLetterCounts(true); // Update initial letter counts
         // Make sure input is enabled
         updateInputState();
+      }
+
+      // Show one-time banner about auth coming soon (only for guest users)
+      if (!window.authManager.isAuthenticated() && !localStorage.getItem('auth-banner-dismissed')) {
+        setTimeout(() => {
+          if (window.showToast) {
+            showToast('🔥 Sign in coming soon to track your streak!', 'info');
+          } else {
+            addNotification('🔥 Sign in coming soon to track your streak!', 'info');
+          }
+          localStorage.setItem('auth-banner-dismissed', 'true');
+        }, 2000); // Show after 2 seconds to let game load first
       }
     }, 0);
   } catch (error) {
