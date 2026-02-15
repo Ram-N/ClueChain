@@ -1,0 +1,237 @@
+{
+  "title": "Kenyan Gourmet",
+  "date": "01-16",
+  "text": "Kenyan Gourmet\nSA Expeditions\n\nKenyan cuisine is a vibrant blend of flavors, reflecting the country's diverse ethnic groups. The coastal region offers tantalizing dishes like biryani, a fragrant rice dish typically prepared with meat or seafood. Explore the influence of` Indian cuisine with dishes like chapati (unleavened bread) and samosas (flaky pastry filled with savory fillings). \n\nInland, Kenyan staples like ugali (maize meal) and sukuma wiki (collard greens) take center stage, often served alongside nyama choma (grilled meat) or irio (a mixture of mashed potatoes, peas, corn, and greens). Delve into the thriving street food scene, where vendors serve up mouthwatering treats such as viazi karai (deep-fried potatoes) and mandazi (sweet fried bread). End your culinary journey with a cup of Kenyan tea, known for its strong flavor and aromatic qualities.",
+  "hiddenWords": [
+    {
+      "word": "flavors",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A mix of salty, sweet, and umami that dance on your tongue",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Characteristics of food that are perceived by the sense of taste",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Tastes or aromas",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "coastal",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "region",
+        "inland"
+      ],
+      "clues": [
+        {
+          "clue": "Where the land meets the sea, and the food is as fresh as the breeze",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Relating to or located near the coast",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Near the sea",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "region",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "coastal",
+        "inland"
+      ],
+      "clues": [
+        {
+          "clue": "A geographic area with its own distinct culture and cuisine",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A part of a country or the world with its own characteristics",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "An area of a country",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "inland",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "coastal",
+        "region"
+      ],
+      "clues": [
+        {
+          "clue": "Away from the coast, where the heart of the country's cuisine beats",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Located in the interior of a country",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Not near the sea",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "vibrant",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Like a rainbow of colors on a plate, full of life and energy",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Full of energy and vitality, like a thriving food scene",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Full of life and energy",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "diverse",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Like a tapestry with many threads, each one unique and beautiful",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Having many different types or varieties, like a multicultural cuisine",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Many different types",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "groups",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Like a gathering of friends, each one bringing their own flavor to the table",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A number of people or things that are together or associated",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A set of people or things",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "meat",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The main course, the star of the show, the centerpiece of the meal",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "The flesh of an animal, used as food",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Animal flesh used as food",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "potatoes",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A treasure trove of flavors, from sweet to savory, and everything in between",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A type of root vegetable, often served as a side dish",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A type of root vegetable",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "aromatic",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Like a whisper of fragrance, that teases the senses and tantalizes the taste buds",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Having a pleasant and distinctive smell, like a cup of tea",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Having a pleasant smell",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-01-16"
+}

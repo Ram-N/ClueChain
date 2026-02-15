@@ -1,0 +1,237 @@
+{
+  "title": "British Fighter Jet Takes Unexpected Detour to India",
+  "date": "04-15",
+  "text": "British Fighter Jet Takes Unexpected Detour to India\n\nA top-of-the-line British F-35B fighter jet recently became stranded at an airport in Kerala, in southern India, after a hiccup over the Arabian Sea — and has become something of a local celebrity.\n\nAs the British military works to find a way to bring it home, A.I.-generated images of the jet — an aircraft worth more than $100 million currently parked on the airport’s tarmac — have spread across India.\n\nThe region’s tourism agency has joined in, posting a fictitious five-star review from the plane on social media: “Kerala is such an amazing place, I don’t want to leave. Definitely recommend.”\n\nThe plane, which arrived at the airport in mid-June, may be grounded for a bit longer too, as British engineers scramble to figure out how to get it back to its home country.",
+  "hiddenWords": [
+    {
+      "word": "jet",
+      "difficulty": "Easy",
+      "related_words": [
+        "plane",
+        "aircraft"
+      ],
+      "clues": [
+        {
+          "clue": "Fast mover in the sky, not a gemstone",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A type of fast military plane",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A fast-moving aircraft",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "plane",
+      "difficulty": "Easy",
+      "related_words": [
+        "jet",
+        "aircraft"
+      ],
+      "clues": [
+        {
+          "clue": "Not just a tree, but a way to travel",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A type of aircraft for transportation",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A flying machine",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "aircraft",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "jet",
+        "plane"
+      ],
+      "clues": [
+        {
+          "clue": "In the air, it's not a natural wonder",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A machine that flies, carrying people or goods",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A vehicle that flies through the air",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "airport",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Where you might find a lot of 'arrivals' and 'departures'",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A place where planes take off and land",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A location for air travel",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "tarmac",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Black and flat, but not a type of music or a dance move",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "A surface for planes to park or move on",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A type of road surface, often found at airports",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "military",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Not just a strategy game, but a real-life force",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "An organization that defends a country",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The armed forces of a nation",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "engineers",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Problem solvers, but not just with math",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "People who design and build things, like bridges or machines",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Professionals who apply scientific knowledge to solve problems",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "celebrity",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Famous for a day, or maybe more",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A person who is widely known and admired",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A famous person",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "review",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Not just for movies, but for anything",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A written opinion or assessment",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "An evaluation of something",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "agency",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Not just a spy, but an organization",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "A business or organization that provides a service",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "An organization that acts on behalf of others",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-04-15"
+}

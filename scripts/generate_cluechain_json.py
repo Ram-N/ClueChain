@@ -92,6 +92,7 @@ Return ONLY the JSON object with this structure:
 {{
   "title": "{title_text}",
   "date": "{date}",
+  "text": "{paragraph}",
   "hiddenWords": [
     {{
       "word": "word_text",
@@ -153,6 +154,15 @@ Remember:
             content = response.choices[0].message.content
             result = json.loads(content)
 
+            # Ensure the paragraph text is included (AI might not include it)
+            if "text" not in result:
+                result["text"] = paragraph
+
+            # Add id field for backward compatibility (format: ClueChain-YYYY-MM-DD)
+            if "id" not in result and date:
+                current_year = datetime.now().year
+                result["id"] = f"ClueChain-{current_year}-{date}"
+
             # Validate the response
             self._validate_json(result)
 
@@ -171,7 +181,7 @@ Remember:
             ValueError: If validation fails
         """
         # Check top-level keys
-        required_keys = {"title", "date", "hiddenWords"}
+        required_keys = {"title", "date", "text", "hiddenWords"}
         if not required_keys.issubset(data.keys()):
             raise ValueError(f"Missing required keys. Expected: {required_keys}")
 

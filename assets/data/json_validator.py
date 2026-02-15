@@ -4,8 +4,9 @@ import json
 import re
 import os
 
-REQUIRED_TOP_KEYS = ['id', 'date', 'title', 'text', 'hiddenWords']
-DATE_REGEX = r'^\d{4}-\d{2}-\d{2}$'
+REQUIRED_TOP_KEYS = ['date', 'title', 'text', 'hiddenWords']
+OPTIONAL_TOP_KEYS = ['id']  # Legacy field from old format
+DATE_REGEX = r'^\d{2}-\d{2}$'  # MM-DD format (year-agnostic)
 DIFFICULTY_LEVELS = ['Easy', 'Intermediate', 'Medium', 'Hard']
 CLUE_TYPES = ['Indirect', 'Suggestive', 'Straight']
 
@@ -19,7 +20,7 @@ def validate_json(data):
 
     # Check date format
     if 'date' in data and not re.match(DATE_REGEX, data['date']):
-        errors.append(f"Invalid date format: '{data['date']}' (expected YYYY-MM-DD)")
+        errors.append(f"Invalid date format: '{data['date']}' (expected MM-DD)")
 
     # Check hiddenWords
     if 'hiddenWords' in data:
@@ -92,15 +93,13 @@ def main():
         sys.exit(1)
 
     # --- Date filename vs. internal date check ---
-    # Extract date from filename (expecting YYYY-MM-DD.json)
+    # Extract date from filename (expecting MM-DD.json or MM-DD_Title.json)
     base = os.path.basename(filename)
-    match = re.match(r"(\d{4}-\d{2}-\d{2})", base)
+    match = re.match(r"(\d{2}-\d{2})", base)
     file_date = match.group(1) if match else None
     json_date = data.get('date')
     if file_date and json_date:
-        file_date_comp = file_date.replace('-', '')
-        json_date_comp = json_date.replace('-', '')
-        if file_date_comp != json_date_comp:
+        if file_date != json_date:
             print(f"Error: Date in filename ({file_date}) does not match date in JSON ({json_date})")
             sys.exit(1)
         else:

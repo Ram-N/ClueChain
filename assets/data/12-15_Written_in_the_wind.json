@@ -1,0 +1,237 @@
+{
+  "title": "Written in the wind",
+  "date": "12-15",
+  "text": "The mist, mystery, and mountains of Sikkim\nby Mariellen Ward\n\nWhile Gangtok is the capital city of Sikkim, I chose to go to Pelling because it is a small town surrounded by historic ruins, important monasteries, authentic villages and of course the mountains, especially Kanchendzonga, the world’s third highest. Sikkim seems to be an entirely mountainous state, and it is one of the smallest of India’s 28 states. It is also one of the newest. Until the mid-1970s, Sikkim was an independent mountain kingdom, ruled by a Buddhist King. How it came to be part of India is a controversial subject that still stirs up feelings. The book about the modern history of Sikkim and its annexation by India is called “Smash and Grab,” which gives you some idea about how some people think about it.",
+  "hiddenWords": [
+    {
+      "word": "mist",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A mysterious atmosphere can be created by this weather condition.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "It is a type of cloud that touches the ground.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A cloud of tiny water droplets suspended in the air.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "mountainous",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "mountains",
+        "kingdom"
+      ],
+      "clues": [
+        {
+          "clue": "This type of terrain is often preferred by those who enjoy hiking.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "It describes a region with many mountains.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Having many mountains.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "mountains",
+      "difficulty": "Easy",
+      "related_words": [
+        "mountainous",
+        "kingdom"
+      ],
+      "clues": [
+        {
+          "clue": "A common destination for skiing and snowboarding.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Natural elevations of the earth's surface.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A natural elevation of the earth's surface.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "kingdom",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "mountainous",
+        "mountains"
+      ],
+      "clues": [
+        {
+          "clue": "A territory ruled by a king or queen.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "It can be a realm or a domain.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The territory ruled by a king or queen.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "villages",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Small groups of houses and associated buildings.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "They are often found in rural areas.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A group of houses and associated buildings.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "monasteries",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Places where monks or nuns live and work.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "They are often associated with religious orders.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Buildings where monks or nuns live.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "independent",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Free from the control of others.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "It describes a state that is self-governing.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Not depending on others for support or guidance.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "controversial",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A topic that sparks heated debates.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "It describes a subject that is disputed or argued about.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Giving rise to controversy.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "authentic",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Genuine and true to its origins.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "It describes something that is real or genuine.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Genuine and not fake.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "annexation",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The act of taking control of a territory or state.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "It describes the act of adding territory to a country.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "The act of annexing something.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-12-15"
+}

@@ -1,0 +1,237 @@
+{
+  "title": "Relative Locations",
+  "date": "04-17",
+  "text": "Relative Locations\nNational Geographic\n\nLocation can sometimes be expressed in relative terms. Relative location is a description of how a place is related to other places. For example, the Empire State Building is 365 kilometers (227 miles) north of America's White House in Washington, D.C. It is also about 15 blocks from New York's Central Park. These are just two of the building's relative locations.\n\nRelative location can help analyze how two places are connected, whether by distance, culture, or even technology. The city of Kiev, Ukraine, for example, is about 2,298 kilometers (1,428 miles) east of London, England. The U.S. cities of Key West, Florida, and Anchorage, Alaska, are even further apart—6,436 kilometers (3,999 miles).",
+  "hiddenWords": [
+    {
+      "word": "place",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A location where memories are made.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A spot or area with a specific purpose.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A location or point in space.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "relative",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "location",
+        "distance"
+      ],
+      "clues": [
+        {
+          "clue": "A concept that's all about family ties, but not just blood.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Describing a connection or relationship between things.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Connected by blood or marriage.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "location",
+      "difficulty": "Easy",
+      "related_words": [
+        "relative",
+        "distance"
+      ],
+      "clues": [
+        {
+          "clue": "The spot where your favorite story unfolds.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A specific point or area with defined boundaries.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A particular place or point.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "distance",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "relative",
+        "location"
+      ],
+      "clues": [
+        {
+          "clue": "The measure of how far love can reach.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A quantity that expresses the extent of something.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The amount of space between two points.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "blocks",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Building blocks of life, or just of a city?",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A rectangular area in a city, often with streets.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A rectangular section of a city.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "culture",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The art of being different, yet the same.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "The social behavior, norms, and knowledge of a group.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "The customs, arts, and achievements of a particular group.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "technology",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The magic that connects us all, yet keeps us apart.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "The application of scientific knowledge for practical purposes.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "The use of science to create machines and devices.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "example",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A model for imitation, or just a good story?",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Something that illustrates or explains a concept.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A person or thing that illustrates a principle.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "analyze",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "To break down, but not to destroy.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "To examine methodically and in detail.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "To study or examine in detail.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "connected",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Like the threads of a spider's web.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Linked or joined in some way.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Linked or united in some way.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-04-17"
+}

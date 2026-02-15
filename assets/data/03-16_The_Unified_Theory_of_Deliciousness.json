@@ -1,0 +1,237 @@
+{
+  "title": "The Unified Theory of Deliciousness",
+  "date": "03-16",
+  "text": "The Unified Theory of Deliciousness\nChef David Chang | Wired\n\nMy first restaurant, Momofuku Noodle Bar, had an open kitchen. This wasn’t by choice—I didn’t have enough money or space to put it farther away from the diners. But cooking in front of my customers changed the way I look at food. In the early years, around 2004, we were improvising new recipes every day, and I could instantly tell what was working and what wasn’t by watching people eat. A great dish hits you like a Whip-It: There’s momentary elation, a brief ripple of pure pleasure in the spacetime continuum. That’s what I was chasing, that split second when someone tastes something so delicious that their conversation suddenly derails and they blurt out something guttural like they stubbed their toe.",
+  "hiddenWords": [
+    {
+      "word": "kitchen",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Where culinary magic happens, often filled with heat and aromas.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A room where food is prepared and cooked.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Room for cooking.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "pleasure",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "delicious",
+        "elation"
+      ],
+      "clues": [
+        {
+          "clue": "A feeling that's hard to put into words, but easy to recognize on someone's face.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A feeling of enjoyment or satisfaction.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Enjoyment or satisfaction.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "delicious",
+      "difficulty": "Easy",
+      "related_words": [
+        "pleasure",
+        "elation"
+      ],
+      "clues": [
+        {
+          "clue": "Tastes that make time stand still, if only for a moment.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Having a very pleasant taste or smell.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Tasting very good.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "elation",
+      "difficulty": "Hard",
+      "related_words": [
+        "pleasure",
+        "delicious"
+      ],
+      "clues": [
+        {
+          "clue": "A state of being that's akin to walking on clouds, but without the risk of stormy weather.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A feeling of great happiness or excitement.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Intense happiness.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "money",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Something you wish you had more of when the bill arrives.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A medium of exchange.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Currency or funds.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "space",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The final frontier, or just the empty area between things.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A continuous area or expanse.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "An empty area.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "conversation",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "An exchange of words that can be derailed by a great dish.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Talk between two or more people.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Discussion or talk.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "moment",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A fleeting instant that can change the course of a meal.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A very short period of time.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A brief period of time.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "customers",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "People you hope will enjoy their meal and come back for more.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "People who buy or receive goods or services.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "People who buy goods or services.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "dish",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The culmination of culinary art, or just something you eat.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A plate or serving of food.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A type of food.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-03-16"
+}

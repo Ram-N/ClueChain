@@ -1,0 +1,228 @@
+{
+  "id": "ClueChain-2025-07-17",
+  "date": "07-17",
+  "title": "Their Eyes Were Watching God by Zora Neale Hurston (1937)",
+  "text": "“Ships at a distance have every man's wish on board.”\nNeale Hurston’s writing style is pure poetry, and this opener captures the romance of the unknown. When you can’t touch something, it always carries the promise of being exactly what you want; but no “ship” grants everyone’s wish. This treatise on gender and race inequality follows Janie as she falls in love with Tea Cake.",
+  "hiddenWords": [
+    {
+      "word": "ships",
+      "difficulty": "Easy",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "They sail the seas, carrying dreams and cargo, from distant shores to harbors they go.",
+          "points": 4
+        },
+        {
+          "type": "Suggestive",
+          "clue": "Large vessels that travel on water, often used for transport.",
+          "points": 2
+        },
+        {
+          "type": "Straight",
+          "clue": "Large boats for traveling over water.",
+          "points": 1
+        }
+      ],
+      "related_words": ["board"]
+    },
+    {
+      "word": "distance",
+      "difficulty": "Intermediate",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "The space between, a gap undefined, where hopes linger, and dreams are entwined.",
+          "points": 5
+        },
+        {
+          "type": "Suggestive",
+          "clue": "The amount of space between two points or places.",
+          "points": 3
+        },
+        {
+          "type": "Straight",
+          "clue": "The extent of space between two objects or places.",
+          "points": 1
+        }
+      ],
+      "related_words": ["unknown"]
+    },
+    {
+      "word": "wish",
+      "difficulty": "Easy",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "A silent plea, a heart's desire, sparking a hope, setting dreams afire.",
+          "points": 4
+        },
+        {
+          "type": "Suggestive",
+          "clue": "A strong desire or hope for something.",
+          "points": 2
+        },
+        {
+          "type": "Straight",
+          "clue": "A desire or hope for something to happen.",
+          "points": 1
+        }
+      ],
+      "related_words": ["promise"]
+    },
+    {
+      "word": "board",
+      "difficulty": "Intermediate",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "It can be flat and wooden, or a council's decree, where decisions are made, for all to see.",
+          "points": 5
+        },
+        {
+          "type": "Suggestive",
+          "clue": "A long, thin, flat piece of wood or other hard material, or to get on a ship or plane.",
+          "points": 3
+        },
+        {
+          "type": "Straight",
+          "clue": "A long, thin, flat piece of wood or other hard material, used for floors or other building purposes.",
+          "points": 1
+        }
+      ],
+      "related_words": ["ships"]
+    },
+    {
+      "word": "writing",
+      "difficulty": "Easy",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "The art of script, a story unfurled, putting thoughts to paper, creating a world.",
+          "points": 4
+        },
+        {
+          "type": "Suggestive",
+          "clue": "The activity or skill of marking coherent words on paper.",
+          "points": 2
+        },
+        {
+          "type": "Straight",
+          "clue": "The activity or occupation of composing text for books, articles, etc.",
+          "points": 1
+        }
+      ],
+      "related_words": ["poetry"]
+    },
+    {
+      "word": "poetry",
+      "difficulty": "Intermediate",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "Rhythmic verses, a dance of words, painting emotions, like singing birds.",
+          "points": 5
+        },
+        {
+          "type": "Suggestive",
+          "clue": "Literary work in which special intensity is given to the expression of feelings and ideas by the use of distinctive style and rhythm.",
+          "points": 3
+        },
+        {
+          "type": "Straight",
+          "clue": "Literary work in which the expression of feelings and ideas is given intensity by the use of distinctive style and rhythm.",
+          "points": 1
+        }
+      ],
+      "related_words": ["writing"]
+    },
+    {
+      "word": "unknown",
+      "difficulty": "Hard",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "A mystery veiled, a path untrod, beyond the grasp, held by God.",
+          "points": 7
+        },
+        {
+          "type": "Suggestive",
+          "clue": "Not known or familiar, mysterious.",
+          "points": 4
+        },
+        {
+          "type": "Straight",
+          "clue": "Not known or unfamiliar.",
+          "points": 2
+        }
+      ],
+      "related_words": ["distance"]
+    },
+    {
+      "word": "promise",
+      "difficulty": "Intermediate",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "A solemn vow, a hopeful sign, a future pledge, divinely aligned.",
+          "points": 5
+        },
+        {
+          "type": "Suggestive",
+          "clue": "A declaration that one will do or refrain from doing something, or an indication of future potential.",
+          "points": 3
+        },
+        {
+          "type": "Straight",
+          "clue": "A declaration or assurance that one will do a particular thing or that a particular thing will happen.",
+          "points": 1
+        }
+      ],
+      "related_words": ["wish"]
+    },
+    {
+      "word": "treatise",
+      "difficulty": "Hard",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "A scholarly discourse, deeply explored, a written argument, thoughtfully poured.",
+          "points": 7
+        },
+        {
+          "type": "Suggestive",
+          "clue": "A formal written work dealing systematically with a subject.",
+          "points": 4
+        },
+        {
+          "type": "Straight",
+          "clue": "A written work dealing systematically with a subject, often longer and more detailed than an essay.",
+          "points": 2
+        }
+      ],
+      "related_words": ["gender"]
+    },
+    {
+      "word": "gender",
+      "difficulty": "Intermediate",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "A social construct, roles assigned, identities formed, complexly entwined.",
+          "points": 5
+        },
+        {
+          "type": "Suggestive",
+          "clue": "The state of being male or female, typically used with reference to social and cultural differences rather than biological ones.",
+          "points": 3
+        },
+        {
+          "type": "Straight",
+          "clue": "The state of being male or female (typically used with reference to social and cultural differences rather than biological ones).",
+          "points": 1
+        }
+      ],
+      "related_words": ["treatise"]
+    }
+  ]
+}

@@ -1,0 +1,237 @@
+{
+  "title": "The Noma Way Part2",
+  "date": "11-16",
+  "text": "The Noma Way -part 2 \nBy Tienlon Ho\nThey tasted a bunya nut, a huge cone containing juicy pine nuts the size of oysters that the Aborigines in eastern Australia would eat raw or roasted, pound into meal and bake, or bury in mud for months until pungent and ripe. Redzepi thought they should try fermenting theirs in seawater. There were cobalt-blue seeds that no one knew the name of that looked like alien river rocks. Clugston cracked one open with a vise, and it tasted like a coconut from Mars.\n\n“Everything is so completely new! We should read up on some of these so we don’t end up with holes in our stomachs.”\n“Everything is so completely new!” Redzepi said. “We should read up on some of these so we don’t end up with holes in our stomachs.”\n\nRedzepi also continued sampling the test-kitchen projects. The mountain pepper berries had turned out particularly astounding, like gently spicy blueberries. “Picture that as a coarse paste, brushed on a pancake. You lift it up,” he said, miming. Mikkola suggested a drop of reduced celery juice to round out the flavor further. “Oh, I can see it, Chef,” Redzepi said.",
+  "hiddenWords": [
+    {
+      "word": "seeds",
+      "difficulty": "Easy",
+      "related_words": [
+        "nuts",
+        "berries"
+      ],
+      "clues": [
+        {
+          "clue": "These are often planted in the ground to grow into plants",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Small, usually produced by plants",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Plant reproductive structures",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "nuts",
+      "difficulty": "Easy",
+      "related_words": [
+        "seeds",
+        "berries"
+      ],
+      "clues": [
+        {
+          "clue": "Cracking one open might reveal a tasty surprise",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Hard, edible plant product",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Type of snack",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "berries",
+      "difficulty": "Easy",
+      "related_words": [
+        "seeds",
+        "nuts"
+      ],
+      "clues": [
+        {
+          "clue": "Sweet or tart, often eaten as a snack",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Small, typically round fruit",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Type of fruit",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "flavor",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "It's the reason you might add spices or herbs to your dish",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Quality of a substance that is perceived by the sense of taste",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Taste or savor",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "spicy",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Might make your mouth feel like it's on fire",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Having a strong, pungent taste or smell",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Having a strong, hot flavor",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "pepper",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Shaking this over your meal might add a bit of zest",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Used to add flavor to food",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Type of spice",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "celery",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A certain part of this plant is often used in soups",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Crunchy, green vegetable",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Type of vegetable",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "mud",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "You might find yourself covered in this after a messy outdoor adventure",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Wet, soft earth",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Type of soil",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "oysters",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "These are often eaten raw, and might be found in a fancy restaurant",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Type of shellfish",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Mollusk",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "roasted",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Cooking method that brings out the natural flavors of food",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Cooked in an oven or over an open flame",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Type of cooking method",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-11-16"
+}

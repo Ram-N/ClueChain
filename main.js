@@ -108,12 +108,20 @@ window.onload = async () => {
       );
       
       // Extract dates from all paragraphs
+      // For MM-DD format, store just the MM-DD part for year-agnostic matching
       paragraphsData.forEach(paragraph => {
         if (paragraph && paragraph.date) {
           try {
-            const dateStr = new Date(paragraph.date).toISOString().split('T')[0];
-            daysWithContent.push(dateStr);
-            console.log(`Added content date: ${dateStr}, Title: ${paragraph.title?.substring(0, 30) || 'Unknown'}...`);
+            // Handle MM-DD format (year-agnostic)
+            if (paragraph.date.match(/^\d{2}-\d{2}$/)) {
+              // MM-DD format - store just the MM-DD for year-agnostic matching
+              daysWithContent.push(paragraph.date);
+              console.log(`Added content date: ${paragraph.date} (year-agnostic), Title: ${paragraph.title?.substring(0, 30) || 'Unknown'}...`);
+            } else {
+              // Legacy YYYY-MM-DD format - store as-is
+              daysWithContent.push(paragraph.date);
+              console.log(`Added content date: ${paragraph.date}, Title: ${paragraph.title?.substring(0, 30) || 'Unknown'}...`);
+            }
           } catch (error) {
             console.error(`Error parsing date from paragraph: ${paragraph.date}`, error);
           }
@@ -177,9 +185,13 @@ window.onload = async () => {
       
       // Check if this date is in the future
       const isFutureDate = thisDateStr > todayDateStr;
-      
+
+      // Extract MM-DD from this date for year-agnostic matching
+      const mmDD = thisDateStr.substring(5); // Get MM-DD from YYYY-MM-DD
+
       // Mark days that have content and handle clickability
-      if (daysWithContent.includes(thisDateStr)) {
+      // Check both full date (YYYY-MM-DD) and year-agnostic (MM-DD)
+      if (daysWithContent.includes(thisDateStr) || daysWithContent.includes(mmDD)) {
         dayElement.classList.add("has-content");
         
         // If it's a future date, disable it

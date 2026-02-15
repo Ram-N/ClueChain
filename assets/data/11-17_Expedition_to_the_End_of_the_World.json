@@ -1,0 +1,237 @@
+{
+  "title": "“Expedition to the End of the World”",
+  "date": "11-17",
+  "text": "“Expedition to the End of the World”\nSalon.com\nWe are our own worst enemy,” one acerbic Danish scientist observes from the deck of a three-masted schooner as \nit sails through the northeastern fjords of Greenland, quite likely the most remote part of the world. \n(I think he says it in English, but the collection of oddball characters on this voyage constantly \nswitch languages.) He doesn’t even mean this in the philosophical or global-historical sense, \nalthough there’s plenty of that kind of talk in Daniel Dencik’s mesmerizing and spectacular \nwilderness documentary “Expedition to the End of the World.” (I’m well aware that the most \npopular venue for independent cinema is now the living room, but this is one to see on a big screen if you possibly can.) He means that the human beings aboard the old ship are so far from human civilization, and the stark landscape around them seems so devoid of life, that they are literally the most dangerous predators to be found.",
+  "hiddenWords": [
+    {
+      "word": "world",
+      "difficulty": "Easy",
+      "related_words": [
+        "civilization",
+        "landscape"
+      ],
+      "clues": [
+        {
+          "clue": "A place where humans live",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "It can be big or small, depending on perspective",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The scientist observes it from a unique vantage point",
+          "type": "Indirect",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "word": "civilization",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "world",
+        "landscape"
+      ],
+      "clues": [
+        {
+          "clue": "The opposite of wilderness",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "It's what humans try to impose on nature",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The scientist is far from it, but still discusses its impact",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "word": "landscape",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "world",
+        "civilization"
+      ],
+      "clues": [
+        {
+          "clue": "What you see when you look out the window",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "It can be altered by human activity",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The stark landscape is devoid of life, but full of meaning",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "word": "ship",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A vessel that sails through water",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "It can be old or new, big or small",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The scientist is aboard one, but it's not just any ship",
+          "type": "Indirect",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "word": "voyage",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A journey, especially by sea",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "It can be long or short, but always has a purpose",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The scientist is on a voyage, but it's not just about the destination",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "word": "documentary",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A film that shows real events",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "It's a way to learn about the world, but also to entertain",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The scientist is part of a documentary, but it's not just about him",
+          "type": "Indirect",
+          "points": 7
+        }
+      ]
+    },
+    {
+      "word": "predators",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Animals that hunt other animals",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "They can be found in the wilderness, but also in human society",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The scientist says that humans are the most dangerous predators, but why?",
+          "type": "Indirect",
+          "points": 7
+        }
+      ]
+    },
+    {
+      "word": "screen",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A surface for showing images",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "It can be big or small, but always serves a purpose",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The documentary is best seen on a big screen, but why is that?",
+          "type": "Indirect",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "word": "languages",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Systems of communication",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "They can be spoken or written, but always convey meaning",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The characters on the voyage switch languages, but what does that reveal?",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "word": "wilderness",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A natural environment, untouched by humans",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "It can be beautiful or harsh, but always has a power",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The documentary is set in the wilderness, but it's not just about nature",
+          "type": "Indirect",
+          "points": 7
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-11-17"
+}

@@ -1,0 +1,237 @@
+{
+  "title": "Fancy a Kulfi? From Granita to Queso Helado",
+  "date": "02-16",
+  "text": "Fancy a Kulfi? From Granita to Queso Helado\nSmithsonian magazine\n\nThe colorful streets of Chandni Chowk, a shopping area in India’s Old Delhi, are filled with bustling shops, frenetic alleyways and delicious treats. Last spring, on a food tour through the area, I spent the afternoon sipping mango lassi from clay cups and nibbling on samosas, but it was the orange-flavored kulfi—a frozen dessert that’s both denser and creamier than traditional ice cream—that served as the perfect cool-down in Delhi’s sweltering heat.\n\nKulfi gets its name from the Persian word qulfi, which refers to the cone-shaped mold in which it’s traditionally made. The dish is believed to have originated during the 16th century with the Mughal dynasty, with royal kitchen workers using ice brought down from the Himalayas to whip up frozen delicacies by slow-cooking milk, sugar and flavorings like cardamom and pistachios for a rich, intensely flavored dessert that melts more slowly than ice cream due to its consistency. Today kulfi is a part of India’s national cuisine, as well as that of greater South Asia, including Pakistan.",
+  "hiddenWords": [
+    {
+      "word": "kulfi",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "milk",
+        "ice"
+      ],
+      "clues": [
+        {
+          "clue": "A frozen delight from the Mughal era, fit for royalty",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A type of Indian dessert made from milk and cream",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Frozen dessert that is denser than traditional ice cream",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "milk",
+      "difficulty": "Easy",
+      "related_words": [
+        "kulfi",
+        "ice"
+      ],
+      "clues": [
+        {
+          "clue": "A source of creamy texture in a popular Indian dessert",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A common ingredient used in Indian cooking",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A nutritious liquid produced by mammary glands of female mammals",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "ice",
+      "difficulty": "Easy",
+      "related_words": [
+        "kulfi",
+        "milk"
+      ],
+      "clues": [
+        {
+          "clue": "A substance used for cooling, also found in frozen desserts",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A solid form of water used for cooling purposes",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Frozen water",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "cardamom",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A spice commonly used in Scandinavian baked goods and Indian desserts, known for its unique flavor and aroma",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "A type of spice often used in Indian and Middle Eastern cooking",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Aromatic spice with a sweet, pungent flavor",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "pistachios",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A type of nut often used as a flavoring in Indian desserts",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A common ingredient used in baking and cooking",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A type of tree nut with a distinctive green color",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "samosas",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Crispy fried or baked pastry filled with spiced potatoes and peas, often served as a snack",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A popular Indian snack food",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Fried or baked pastry filled with spiced potatoes and peas",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "lassi",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A yogurt-based drink popular in India, often flavored with spices or fruit",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "A type of Indian drink made with yogurt and spices",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A yogurt-based drink from the Indian subcontinent",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "delicious",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Having a pleasant and pleasing taste, often used to describe food",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Giving great pleasure to the senses, especially taste",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Having a pleasing taste or smell",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "frenetic",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Characterized by intense and frantic energy, often used to describe chaotic or hectic situations",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Describing a situation or atmosphere that is chaotic or frantic",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Frantic or wildly excited",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "royal",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Relating to a monarch or kingdom, often used to describe something luxurious or high-quality",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Relating to a king or queen, or their family",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Relating to a monarch or royal family",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-02-16"
+}

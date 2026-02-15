@@ -1,0 +1,237 @@
+{
+  "title": "Columbus Lands",
+  "date": "02-17",
+  "text": "History of geography\nNational Geographic\n\nOf course, the Greeks were not the only people interested in geography, nor were they the first. \nThroughout human history, most societies have sought to understand something about their \nplace in the world and the people and environments around them. Mesopotamian societies \ninscribed maps on clay tablets, some of which survive to this day. The earliest known \nattempt at mapping the world is a Babylonian clay tablet known as the Imago Mundi. \n\nThis map, created in the sixth century B.C.E., is more of a metaphorical and spiritual \nrepresentation of Babylonian society rather than an accurate depiction of geography. \nOther Mesopotamian maps were more practical, marking irrigation networks and landholdings.",
+  "hiddenWords": [
+    {
+      "word": "maps",
+      "difficulty": "Easy",
+      "related_words": [
+        "geography",
+        "societies"
+      ],
+      "clues": [
+        {
+          "clue": "Helped ancient people navigate their surroundings",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Visual representations of areas",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Diagrams of areas",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "geography",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "maps",
+        "societies"
+      ],
+      "clues": [
+        {
+          "clue": "Field of study that looks at the layout of the Earth's surface",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Study of the Earth's physical features and how they relate to humans",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Study of the Earth's physical features",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "societies",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "maps",
+        "geography"
+      ],
+      "clues": [
+        {
+          "clue": "Groups of people that have their own culture and way of life",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Human groups with their own culture",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Human groups",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "people",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Humans are social creatures",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Human beings",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Humans",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "environs",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The surroundings can influence one's mood",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "The area surrounding a place",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Surroundings",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "place",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A location can be a physical or emotional space",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A location or position",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Location",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "world",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The world is full of diverse cultures",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "The Earth and all its inhabitants",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The Earth",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "century",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A period of 100 years can be a long time for change",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "A period of 100 years",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "100 years",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "networks",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Connections between people or things can be complex",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Systems of connected things",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Connected systems",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "tablet",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "An ancient writing surface",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A flat surface for writing",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A writing surface",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-02-17"
+}
