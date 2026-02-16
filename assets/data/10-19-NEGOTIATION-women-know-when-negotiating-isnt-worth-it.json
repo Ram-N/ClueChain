@@ -1,0 +1,237 @@
+{
+  "title": "Women Know When Negotiating Isn't Worth It",
+  "date": "10-19",
+  "text": "Women Know When Negotiating Isn't Worth It\nThe Atlantic -- One of the most common explanations for the gender-wage gap is that women simply don’t ask for higher salaries, while men do. The idea that one should “always negotiate your salary” is standard college-counselor fare. In a blog post about the gender wage gap, the U.S. Department of Labor suggests women “aim higher and negotiate better” as one of the possible remedies.\nAnd at first, it seems innocuous, right? Negotiating is one of the few ways workers in today’s economy can secure better salaries and benefits. Women, the thinking goes, should do it or risk being ground up by the merciless gears of capitalism. Or, you know, make at most 93 cents to the dollar.",
+  "hiddenWords": [
+    {
+      "word": "economy",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "salaries",
+        "benefits"
+      ],
+      "clues": [
+        {
+          "clue": "A system of trade and industry, where money makes the world go round.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "The state of a country in terms of the production and consumption of goods and services.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A system of production, distribution, and exchange of goods and services.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "salaries",
+      "difficulty": "Easy",
+      "related_words": [
+        "economy",
+        "benefits"
+      ],
+      "clues": [
+        {
+          "clue": "What you get for showing up to work every day, or so you hope.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A payment for work or services, usually given at regular intervals.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A fixed payment for work or services.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "benefits",
+      "difficulty": "Easy",
+      "related_words": [
+        "economy",
+        "salaries"
+      ],
+      "clues": [
+        {
+          "clue": "The good stuff that comes with a job, besides the money.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Advantages or rewards given to employees, such as health insurance or paid time off.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Advantages or rewards given to employees.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "women",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The ones who are often underpaid, but not underappreciated.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Adult human females, who make up about half of the population.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Female humans.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "negotiate",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The art of getting what you want without giving up too much.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "To discuss and reach an agreement, often involving compromise.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "To discuss and reach an agreement.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "capitalism",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A system where the means of production are owned by private individuals, and the pursuit of profit is the ultimate goal.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "An economic system characterized by private ownership and the creation of goods and services for profit.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "An economic system based on private ownership and profit.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "remedies",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Solutions to problems, or cures for what ails you.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Actions or treatments intended to cure or alleviate a problem.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Solutions or cures for problems.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "gap",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A space or opening, often used to describe a difference or disparity.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A difference or disparity, often used to describe a statistical or social inequality.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A difference or opening.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "labor",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The value of work, or the effort and toil that goes into creating something.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Work, especially physical or manual work, often used to describe the workforce or labor market.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Work, especially physical or manual work.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "department",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A part of a larger organization, often responsible for a specific function or task.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A division of a government, company, or organization, responsible for a specific area or function.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A division of a government or organization.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-10-19"
+}

@@ -1,0 +1,239 @@
+{
+  "title": "How I learned to haggle",
+  "date": "04-19",
+  "text": "How I learned to haggle\n\nYes, there are people who haggle just for fun. Me, not so much. The mere thought of asking for someone to knock a buck or two off the price of a damaged item causes my stomach to push against my throat, my vision to narrow, my breathing to grow shallow. But the global economic crunch, plus my own current circumstances — no full-time job, staggering COBRA payments, a house I’d prefer not to foreclose upon, children who require irritatingly regular feedings — dictate that I save wherever possible. And so, a few months back, I got on the horn to the cable company and sheepishly asked if there was a way to lower my monthly payments without sacrificing the children’s TV programming on which my early-morning sleep depends: To my surprise, the customer-service representative instantly slashed my monthly bill in half by cutting some feature I didn’t even know I had. Emboldened, I dialed up the New York Times, my long-distance phone carrier and anyone else I could think of, whittling down my standing monthly charges until they were as slim as a post-NutriSystem Marie Osmond, or — more aptly — as slim as my wallet these days.",
+  "hiddenWords": [
+    {
+      "word": "buck",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A term for a male deer, but also a unit of currency",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A common slang term for a US dollar",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A dollar",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "crunch",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "economy",
+        " payments"
+      ],
+      "clues": [
+        {
+          "clue": "A satisfying sound when biting into a fresh apple, but also a term for a difficult financial period",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A time of financial difficulty or a severe economic downturn",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A period of severe economic hardship",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "economy",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "crunch",
+        " payments"
+      ],
+      "clues": [
+        {
+          "clue": "The system of production, distribution, and exchange of goods and services, but also the art of managing household expenses",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "The state of a country's or region's financial situation",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The system of production and distribution of goods and services",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "feature",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A distinctive part or characteristic of something, like a facial feature",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A characteristic or attribute of something",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A characteristic or part of something",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "global",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "economy"
+      ],
+      "clues": [
+        {
+          "clue": "Describing something that affects the entire world, like a pandemic or a global economic crisis",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Relating to the whole world, or something that is worldwide in scope",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Worldwide or universal",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "job",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A regular activity or task that someone is paid to do, like a 9-to-5 job",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A paid position or occupation",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A regular activity or task that someone is paid to do",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "price",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The amount that something is worth, or the cost of something",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "The amount of money expected or required in payment for something",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The amount of money expected or required in payment",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "payments",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "crunch",
+        "economy"
+      ],
+      "clues": [
+        {
+          "clue": "The act of paying or the state of being paid, but also a regular sum of money paid or received",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A sum of money paid or received at regular intervals",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The act of paying or the state of being paid",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "stomach",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The organ that digests food, but also a metaphor for courage or determination",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "The organ in the body that digests food",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The organ that digests food",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "vision",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The ability to see or a vivid mental image, but also a metaphor for a person's perception or insight",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "The ability to see or a person's perception or insight",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The ability to see",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-04-19"
+}
