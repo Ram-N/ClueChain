@@ -1,0 +1,237 @@
+{
+  "title": "Unreal City",
+  "date": "11-18",
+  "text": "Unreal City\n\nHarper's Magazine\n\nWhen I was writing “Another London,” I talked to one of my more uncompromisingly cool London friends and told him that I was writing about psychogeography and history. He said something like, “What do you want to do that for? That’s so Aughts of you!” I do think the Nineties was the moment when psychogeography felt most politically active. It came to a head with the Reclaim the Streets politics of Seattle in 1999 and then ran into the war on terror and got squashed. What happened to it later on, culturally, is that psychogeography became a kind of hipster heritage. It degenerated into a sort of history walk, which is interesting, but not necessarily radical. So the moment for psychogeography has passed, but that doesn’t mean it has nothing to offer. For me, it remains a vital way of reconnecting with one’s past, of making personal meaning, of spiritually locating oneself.",
+  "hiddenWords": [
+    {
+      "word": "history",
+      "difficulty": "Easy",
+      "related_words": [
+        "psychogeography",
+        "heritage"
+      ],
+      "clues": [
+        {
+          "clue": "A subject that's often studied in school",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "The study of past events",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The past considered as a whole",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "psychogeography",
+      "difficulty": "Hard",
+      "related_words": [
+        "history",
+        "heritage"
+      ],
+      "clues": [
+        {
+          "clue": "A term that sounds like geography but is more about the mind",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "The study of how places affect the mind",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A way of exploring the relationship between environment and emotion",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "heritage",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "history",
+        "psychogeography"
+      ],
+      "clues": [
+        {
+          "clue": "Something that's passed down through generations, but not necessarily a family heirloom",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A cultural or historical legacy",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Something inherited from the past",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "war",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A state of conflict that's not just about words",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A period of fighting between nations or groups",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Armed conflict",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "radical",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A word that's often associated with change, but not always in a good way",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Favoring fundamental change",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Extremely liberal or progressive",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "past",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A time that's gone, but not forgotten",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A previous time in someone's life",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Gone by",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "moment",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A brief period of time that can be very significant",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A short period of time",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A particular point in time",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "spiritually",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A way of connecting with something deeper, but not necessarily a specific religion",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Relating to the spirit or soul",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Concerned with the spirit or soul",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "locating",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Finding one's place, but not just physically",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Determining the position or location of something",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Finding the place or position of something",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "vital",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Essential for life, but not just about being alive",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Absolutely necessary or important",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Full of energy and life",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-11-18"
+}

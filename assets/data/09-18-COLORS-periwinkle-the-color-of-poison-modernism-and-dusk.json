@@ -1,0 +1,237 @@
+{
+  "title": "Periwinkle, the Color of Poison, Modernism, and Dusk",
+  "date": "09-18",
+  "text": "Periwinkle, the Color of Poison, Modernism, and Dusk\nOn a stretch of rural road not far from my house, there is a small wood where, once a year, for just a few short and cold days, the ground turns a magnificent shade of purple. In a reversal of fortunes, the stand of gracious Maine trees becomes secondary to the ground cover below. When the periwinkles are blooming, it’s hard to have eyes for anything else. The delicate mist is an impossibly soft color, like clouds descending into twilight, like the snowfall in an Impressionist masterpiece. It’s a color that almost doesn’t belong here—it’s a plant that certainly doesn’t.\n\nPeriwinkle goes by many names. You might know her by one of her more fabulous monikers, like sorcerer’s violet or fairy’s paintbrush. In Italy, she is called fiore di morte (flower of death), because it was common to lay wreaths of the evergreen on the graves of dead children.",
+  "hiddenWords": [
+    {
+      "word": "rural",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A place where you might find a farm",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Located in the countryside",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Not urban",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "mist",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "twilight",
+        "clouds"
+      ],
+      "clues": [
+        {
+          "clue": "A romantic atmosphere in a painting",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A type of atmospheric condition",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A cloud of tiny water droplets",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "twilight",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "mist",
+        "clouds"
+      ],
+      "clues": [
+        {
+          "clue": "The time of day when vampires come out",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "The time between day and night",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Dusk",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "clouds",
+      "difficulty": "Easy",
+      "related_words": [
+        "mist",
+        "twilight"
+      ],
+      "clues": [
+        {
+          "clue": "White, puffy things in the sky",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Things that can bring rain",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Fluffy white masses in the atmosphere",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "violet",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A color often associated with luxury",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "A type of flower",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A purple color",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "masterpiece",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Something created by a master",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "An exceptional work of art",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A work of outstanding quality",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "evergreen",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A type of tree that stays green year-round",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A plant that keeps its leaves in winter",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A plant that remains green throughout the year",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "wreaths",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A circular arrangement of flowers",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Something used to decorate a grave",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A circular arrangement of objects",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "fortune",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A chance event that can change your life",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "A person's luck or chance",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Wealth or prosperity",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "graves",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Places where people are buried",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Final resting places",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Burial sites",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-09-18"
+}

@@ -1,0 +1,237 @@
+{
+  "title": "A Brief History of The New Republic",
+  "date": "06-18",
+  "text": "A Brief History of The New Republic\nWhen the first issue of The New Republic hit newsstands on 7 November 1914, it sold a mere 875 copies. After the first year, the number ballooned to 15,000, hitting a wartime high of 43,000 copies (when the U.S. population was about one-third of what it is today), favored mostly by young intellectuals – white, educated and well-to-do. But these glory days were shortlived. By 1924, The New Republic filed for bankruptcy. It soon revived and began publishing again, Croly remaining at the editorial helm until his death in 1930, but some believed that the magazine was never the same as in the early years.",
+  "hiddenWords": [
+    {
+      "word": "year",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A period of time that seems to fly by when you're having fun, but crawls when you're waiting for something.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A unit of time that is used to measure the passage of time.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A period of 365 days.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "population",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "number",
+        "copies"
+      ],
+      "clues": [
+        {
+          "clue": "The number of people living in a particular area can affect the demand for certain products.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "The total number of people living in a country or region.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The people who live in a particular area.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "number",
+      "difficulty": "Easy",
+      "related_words": [
+        "population",
+        "copies"
+      ],
+      "clues": [
+        {
+          "clue": "A mathematical value that can be used to count or measure things.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A quantity or amount of something.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A numeral or figure.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "copies",
+      "difficulty": "Easy",
+      "related_words": [
+        "population",
+        "number"
+      ],
+      "clues": [
+        {
+          "clue": "Duplicates of a document or other item.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Replicas or reproductions of something.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Duplicates or reproductions.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "high",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A point or level that is greater than normal or expected.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A level or point that is above average or expected.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Elevated or lofty.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "educated",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Having or showing a good understanding of a subject or activity.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Having a good education or knowledge.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Well-informed or knowledgeable.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "bankruptcy",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A financial situation that can be a heavy burden to bear, like a weight on one's shoulders.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "A state of being insolvent or unable to pay debts.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "The state of being bankrupt.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "editorial",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A piece of writing that expresses the opinion of a newspaper or magazine.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Relating to the editing or supervision of a publication.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Relating to the process of editing or supervising a publication.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "death",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The end of life, a moment that is both inevitable and mysterious.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "The end of a person's life or existence.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The end of life.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "magazine",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A publication that is issued regularly, like a visit from an old friend.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A publication that contains articles, stories, and pictures.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A periodical publication.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-06-18"
+}

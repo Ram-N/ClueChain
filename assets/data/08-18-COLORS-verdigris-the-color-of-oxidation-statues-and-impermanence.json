@@ -1,0 +1,237 @@
+{
+  "title": "Verdigris: The Color of Oxidation, Statues, and Impermanence",
+  "date": "08-18",
+  "text": "Verdigris: The Color of Oxidation, Statues, and Impermanence\n\nIt’s hard to imagine now, but people once gathered together freely, shoulders rubbing against shoulders, breath exchanged between lungs, bodies open to one another—all this closeness, almost a million people standing in a crowd just to watch a statue get undressed.\n\nIt was a rainy October day in 1886 and the Statue of Liberty was shrouded in a French flag. The weather was miserable and the ceremonial unveiling went poorly. The drapery was pulled off too soon (right in the middle of a speech), and the fireworks display had to be canceled and rescheduled. Still, over a million freezing New Yorkers came out (including a boat full of suffragettes, protesting the statue).",
+  "hiddenWords": [
+    {
+      "word": "statue",
+      "difficulty": "Easy",
+      "related_words": [
+        "liberty",
+        "ceremonial"
+      ],
+      "clues": [
+        {
+          "clue": "A work of art that's often monumental in scale.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A sculpture, typically of a person or animal.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A three-dimensional representation of a person or thing.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "liberty",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "statue",
+        "ceremonial"
+      ],
+      "clues": [
+        {
+          "clue": "A concept that's hard to grasp, yet essential to humanity.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "The state of being free from oppressive restrictions.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Freedom from captivity or slavery.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "ceremonial",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "statue",
+        "liberty"
+      ],
+      "clues": [
+        {
+          "clue": "A ritual that's full of pomp and circumstance.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A formal event with a specific purpose or ritual.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Relating to a ceremony or formal ritual.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "rainy",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The kind of weather that makes you want to stay indoors.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A day with precipitation, often gloomy.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": " Characterized by or producing rain.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "shoulders",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The part of the body where you carry the weight of the world.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "The joint that connects the arm to the body.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The part of the human body between the neck and upper arm.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "breath",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The essence of life, yet often taken for granted.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "The act of inhaling and exhaling air.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The air that is inhaled and exhaled by the lungs.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "drapery",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A type of fabric that's often used for dramatic effect.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Fabric that hangs in folds, often used for decoration.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Hangings or curtains, typically made of fabric.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "fireworks",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A celebration in the sky, full of color and light.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Explosive devices that produce a display of color and sound.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Devices that produce a colorful display of lights and sounds.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "suffragettes",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Women who fought for the right to have a voice.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Women who campaigned for the right to vote.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Women who advocated for women's right to vote.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "impermanence",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A concept that's both beautiful and terrifying.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "The state of being transient or ephemeral.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "The state of not being permanent.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-08-18"
+}

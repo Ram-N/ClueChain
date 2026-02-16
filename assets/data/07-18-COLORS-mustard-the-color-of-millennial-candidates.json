@@ -1,0 +1,237 @@
+{
+  "title": "Mustard, the Color of Millennial Candidates",
+  "date": "07-18",
+  "text": "Mustard, the Color of Millennial Candidates\nThe Paris Review\nLate last year, I found myself in a meeting with three other women, and we were all dressed identically. Blue jeans of various washes, clumpy, Chelsea-style black boots with pull-on tabs, parkas (shed over the backs of our chairs), and mustard yellow sweaters. We noticed it and laughed. “This is the only kind of yellow I wear,” said a woman with wispy blonde hair. “It’s the only one that looks good on me.”",
+  "hiddenWords": [
+    {
+      "word": "yellow",
+      "difficulty": "Easy",
+      "related_words": [
+        "mustard",
+        "blonde"
+      ],
+      "clues": [
+        {
+          "clue": "A bright and cheerful color often associated with sunshine",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A color often linked to happiness and optimism",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A primary color",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "mustard",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "yellow",
+        "blonde"
+      ],
+      "clues": [
+        {
+          "clue": "A condiment often paired with hot dogs or burgers, also a fashion trend",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A color that can add a vintage touch to an outfit",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A type of plant-based condiment",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "blonde",
+      "difficulty": "Easy",
+      "related_words": [
+        "yellow",
+        "mustard"
+      ],
+      "clues": [
+        {
+          "clue": "A hair color that's often associated with Scandinavian origins",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A hair color that can be achieved through various dyeing processes",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A hair color",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "jeans",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A type of pants that's popular worldwide, often made from denim",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A casual, versatile piece of clothing",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A type of pants",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "boots",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A type of footwear that can be dressed up or down, from ankle to knee-high",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A type of footwear often associated with winter or outdoor activities",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A type of footwear that covers the foot and lower leg",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "parkas",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A type of coat that's warm, waterproof, and often has a hood",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A type of coat that's popular among outdoor enthusiasts",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A type of coat",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "sweaters",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A type of clothing that's often worn in cold weather, can be made from various materials",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A type of clothing that can add a layer of warmth and comfort",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A type of clothing",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "women",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A group of individuals who share a common gender identity",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A group of people who are often associated with certain social or cultural roles",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Adult human females",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "meeting",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A gathering of people, often with a specific purpose or agenda",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A social or business gathering",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A gathering of people",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "laughed",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "An expression of joy or amusement, often accompanied by a distinctive sound",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "A reaction to something humorous or entertaining",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Past tense of laugh",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-07-18"
+}

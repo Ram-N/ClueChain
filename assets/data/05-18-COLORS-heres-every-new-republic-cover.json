@@ -1,0 +1,237 @@
+{
+  "title": "Here's Every New Republic Cover",
+  "date": "05-18",
+  "text": "Here's Every New Republic Cover\nThe New Republic\n\nThe New Republic was \"frankly an experiment\" when it was founded in 1914, and not just in ideas—in design, too. From our austere, text-heavy first issue to the colorful cover of our 100th anniversary issue, only the name at the top has stayed the same. The various redesigns of the magazine, seen here, reflect the shifts in artistic sensibility and changes in the way news is consumed. The magazine didn’t print colored covers until the ‘60s, and it took another ten years for images to appear consistently on the cover. Take a look at the first issue of every redesign in the magazine's history.",
+  "hiddenWords": [
+    {
+      "word": "design",
+      "difficulty": "Easy",
+      "related_words": [
+        "issue",
+        "redesigns"
+      ],
+      "clues": [
+        {
+          "clue": "It's the plan or concept behind something",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "This is related to the layout or look of something",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A plan or concept for something",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "issue",
+      "difficulty": "Easy",
+      "related_words": [
+        "design",
+        "redesigns"
+      ],
+      "clues": [
+        {
+          "clue": "A problem or a publication",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "This can be a single edition of a magazine",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A single edition of a magazine or newspaper",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "redesigns",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "design",
+        "issue"
+      ],
+      "clues": [
+        {
+          "clue": "Changes to something to make it look new",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "These are changes made to the layout or look of something",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "To change the design or layout of something",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "ideas",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Thoughts or opinions in your mind",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "These are thoughts or concepts",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Thoughts or opinions",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "austere",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A lifestyle that avoids luxury",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "This word describes something that is simple or severe",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Severe or strict in manner or appearance",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "colorful",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Having a lot of different colors",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "This word describes something with a lot of color",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Full of color",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "images",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Pictures in your mind or in a magazine",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "These are pictures or representations",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": " Pictures or representations",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "news",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Information about recent events",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "This is information about current events",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Information about recent events",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "consumed",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Eaten or destroyed",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "This word can mean to eat or use up something",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "To eat or use up something",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "history",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The study of past events",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "This is the record of past events",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The record of past events",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-05-18"
+}
