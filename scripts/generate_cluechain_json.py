@@ -225,6 +225,17 @@ Remember:
 
         print("✅ JSON validation passed!")
 
+        # Show hidden words by difficulty
+        print("\n📝 Hidden Words (10):")
+        by_difficulty = {"Easy": [], "Intermediate": [], "Hard": []}
+        for word_obj in hidden_words:
+            by_difficulty[word_obj["difficulty"]].append(word_obj["word"])
+
+        for difficulty in ["Easy", "Intermediate", "Hard"]:
+            words = by_difficulty[difficulty]
+            if words:
+                print(f"   {difficulty}: {', '.join(words)}")
+
     def save_json(self, data: Dict, output_dir: str, date: str, title: Optional[str] = None) -> Path:
         """
         Save the generated JSON to a file.
