@@ -1,0 +1,237 @@
+{
+  "title": "Need a Father's Day Gift?",
+  "date": "09-20",
+  "text": "Need a Father's Day Gift?\n\nIf Black Friday is the busiest shopping day of the year, Father's Day is surely the hardest. What do you get for the member of the family—at least if your dad is anything like mine—who claims to never want anything? Peruse the mall in early June and the choices appear to fall into three categories: 1. yawningly boring shirt-and-tie combos, 2. assorted World's Greatest Dad paraphernalia, and 3. gadgets. So many gadgets. Bluetooth-enabled titanium-alloy grilling spatulas. Bottle openers made from machine-gun rounds. Star Wars waffle makers.\n\nThere are, of course, messages encoded in each category. A shirt and tie says, Keep working, Pops. Anything labeled World's Greatest Dad is an overcompensation, either on your part or his. And the gadgets, no matter how futuristic or flashy, tell Dad he's basically a child in want of a toy. For the last several years, my own father and I have sent each other cards with a one-dollar bill inside (basically a handshake by mail) and called it even.\n\nBut the best Father's Day gifts might be the most novel. I'm not talking about the Apple Watch or robot vacuum cleaners. I'm talking about actual novels.",
+  "hiddenWords": [
+    {
+      "word": "novel",
+      "difficulty": "Easy",
+      "related_words": [
+        "book",
+        "gift"
+      ],
+      "clues": [
+        {
+          "clue": "A new idea in a story",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A type of book",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A written work of fiction",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "gift",
+      "difficulty": "Easy",
+      "related_words": [
+        "novel",
+        "book"
+      ],
+      "clues": [
+        {
+          "clue": "Something you give to show love",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A present for someone",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Something given to someone",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "book",
+      "difficulty": "Easy",
+      "related_words": [
+        "novel",
+        "gift"
+      ],
+      "clues": [
+        {
+          "clue": "A collection of written pages",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Something you read",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A written or printed work",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "father",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A male figure who guides",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A male parent",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A male who has a child",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "year",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A long time, but short in life",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A period of 365 days",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A unit of time",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "mall",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A place to buy and be entertained",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A large shopping center",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A shopping area",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "machine",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A thing that makes life easier, or harder",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "A device that operates automatically",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "An apparatus for a specific task",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "gadgets",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Small devices that bring joy, or frustration",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Small mechanical devices",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Small devices with a specific function",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "titanium",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A strong metal, but not the strongest heart",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "A strong, lightweight metal",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A chemical element with symbol Ti",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "watch",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A device to keep track of time, but not memories",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A time-keeping device",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A device to show time",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-09-20"
+}

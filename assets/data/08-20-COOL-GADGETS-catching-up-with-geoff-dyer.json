@@ -1,0 +1,237 @@
+{
+  "title": "Catching up with Geoff Dyer",
+  "date": "08-20",
+  "text": "Catching up with Geoff Dyer\n\nGeoff Dyer's new memoir, Homework, was originally called \"A Happening.\" There would have been something of a joke to this discarded title; from one point of view, nothing much happens in the book. There's an indelible ordinariness to this coming-of-age story, which, with a few detours, follows Dyer's early life until he reaches the age of eighteen, in the world of working-class Gloucestershire of the sixties and seventies. Any readers hoping for shocking revelations about the author's childhood will not find much to titillate them. But of course from another point of view, everything happens. Dyer—has written many books, including Out of Sheer Rage, Jeff in Venice, and most recently The Last Days of Roger Federer—describes in great detail the period in which he became himself, in all the erudition, playfulness, and creativity we might already be familiar with.",
+  "hiddenWords": [
+    {
+      "word": "life",
+      "difficulty": "Easy",
+      "related_words": [
+        "age",
+        "childhood"
+      ],
+      "clues": [
+        {
+          "clue": "A word that's full of twists and turns, it has its ups and downs, but always keeps on spinning.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "The period of time when someone is alive and experiencing various events.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The condition that distinguishes animals and plants from inorganic matter.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "age",
+      "difficulty": "Easy",
+      "related_words": [
+        "life",
+        "childhood"
+      ],
+      "clues": [
+        {
+          "clue": "The stage of development when someone finally gets to drive, vote, and pretend to be an adult.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A period of time in someone's life, often measured in years.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The stage of life at which a person becomes eligible to vote or marry.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "childhood",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "life",
+        "age"
+      ],
+      "clues": [
+        {
+          "clue": "When the line between reality and fantasy is blurred, and anything seems possible.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "The early stage of a person's life, usually considered to be from birth to adolescence.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The state of being a child.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "book",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A collection of blank pages, waiting for the reader to fill them with their imagination.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A written or printed work consisting of pages glued or sewn together.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A written or printed work consisting of pages glued or sewn together.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "detail",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The tiny brushstrokes that make up the bigger picture, often overlooked but always significant.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A small part or aspect of something, often considered important for understanding the whole.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A small part or aspect of something.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "period",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A punctuation mark, but also a moment in time that defines an era.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A length of time during which a particular activity or situation exists or continues.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A length of time.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "view",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A perspective that's skewed, yet revealing, like a funhouse mirror reflection.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A particular way of considering or regarding something.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A visual perception or opinion.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "point",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The sharp end of a pencil, or a moment in time when everything comes together.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A particular moment or stage in a process or series of events.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A sharp or tapering end.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "story",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A sequence of events that are woven together like a tapestry, with each thread telling a different tale.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "An account of imaginary or real people and events told for entertainment.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "An account of events.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "detour",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A scenic route that's not on the map, but leads to unexpected discoveries.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A deviation from a planned or intended course.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A deviation from a direct course.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-08-20"
+}
