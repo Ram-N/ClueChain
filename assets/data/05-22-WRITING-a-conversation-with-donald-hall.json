@@ -1,0 +1,237 @@
+{
+  "title": "A Conversation with Donald Hall",
+  "date": "05-22",
+  "text": "Title: A Conversation with Donald Hall\n\nDonald Hall is staggeringly prolific: he has produced twelve books of verse, four plays, twenty-two books of prose (including children's books, \ncollected essays and short stories, literary criticism, textbooks, and more), and has been published regularly in such publications as The Atlantic Monthly \nand The New Yorker. Praise for Hall's work piles up almost as fast as the work itself -- he is New Hampshire's Poet Laureate, and has won, among other awards, the \nNational Book Critics Circle Award, a Caldecott Medal, the Los Angeles Times Book Prize in Poetry, the Lenore Marshall Award, the Frost Medal from the \nPoetry Society of America, and the Ruth Lilly Poetry Prize from the American Council for the Arts. Hall was married to \nthe poet Jane Kenyon until her death, from leukemia, in 1995. His latest collection of poems, The Old Life, was published in June, 1996.",
+  "hiddenWords": [
+    {
+      "word": "prolific",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A description fitting a jack-of-all-trades",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Characterized by producing a large amount of something",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Producing a large amount of something, especially books or ideas",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "verse",
+      "difficulty": "Easy",
+      "related_words": [
+        "poems",
+        "poetry"
+      ],
+      "clues": [
+        {
+          "clue": "A poet's playground, where rhythm and rhyme entwine",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A type of writing that often has a musical quality",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A line or sequence of lines in a poem",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "poems",
+      "difficulty": "Easy",
+      "related_words": [
+        "verse",
+        "poetry"
+      ],
+      "clues": [
+        {
+          "clue": "The fruits of a poet's labor, often sweet and expressive",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Creative writings that use language in a unique way",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Short pieces of writing that often rhyme",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "poetry",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "verse",
+        "poems"
+      ],
+      "clues": [
+        {
+          "clue": "A world where words dance and emotions sing",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A type of writing that uses language to create a certain atmosphere",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The art of writing poems",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "prose",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The written word, without the rhythm and rhyme",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A type of writing that is not poetry",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Ordinary written language, without a regular rhythm",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "laureate",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A title given to a poet, like a crown on their head",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "A person who has been honored for their achievements in a particular field",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A person who has been awarded a high honor, especially in literature",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "awards",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Tokens of appreciation, given to those who excel",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Prizes or honors given for achievement",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Prizes or recognition given for achievement",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "leukemia",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A silent enemy, that can strike without warning",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "A type of cancer that affects the blood and bone marrow",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A type of blood cancer",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "collection",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A gathering of things, like flowers in a bouquet",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A group of things gathered together",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A group of things, such as poems or stories, gathered together",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "published",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A dream come true, for a writer's work to be shared",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Made available to the public, often in a book or magazine",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Made available to the public, often in print or online",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-05-22"
+}

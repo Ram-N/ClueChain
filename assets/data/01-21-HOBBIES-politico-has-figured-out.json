@@ -1,0 +1,237 @@
+{
+  "title": "Politico has figured out",
+  "date": "01-21",
+  "text": "Title: Politico has figured out\n\nObama famously plays a lot of golf — mostly on weekends, and about everyday when he’s on vacation. That’s because golf is fun! This writer, too, plays golf. (I can’t afford it, but I’m not very good at managing money, so YOLO.) It’s a game that, once you get addicted to it, you try to play during every non-workday or moment of downtime you get, especially when you start showing signs of improvement. And if you’re the president, not only do you get to play without long waits or difficulty scheduling tee times, but you get to focus on something else with your buddies for a little while. People have hobbies and Barack Obama’s favorite hobby appears to be playing golf, the end.\n\nHirsch, however, thinks there’s a lot more to the president’s golfing than a mere enjoyment of the game. After establishing that Obama plays a lot of golf — again, it’s true! — we are gradually led to the following conclusions about his personality and his presidency",
+  "hiddenWords": [
+    {
+      "word": "golf",
+      "difficulty": "Easy",
+      "related_words": [
+        "president",
+        "hobbies"
+      ],
+      "clues": [
+        {
+          "clue": "A game where you use sticks to hit a ball into a hole",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A sport often played on large grassy fields with obstacles",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A game played with clubs and balls",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "president",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "golf",
+        "hobbies"
+      ],
+      "clues": [
+        {
+          "clue": "The head of a country, often with a busy schedule",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A high-ranking government official",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The leader of a nation",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "hobbies",
+      "difficulty": "Easy",
+      "related_words": [
+        "golf",
+        "president"
+      ],
+      "clues": [
+        {
+          "clue": "Activities people do for fun in their free time",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Leisure activities that bring joy",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Things people enjoy doing in their spare time",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "vacation",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A break from work, often to a relaxing location",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Time off from work or school",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A trip or break from daily activities",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "buddies",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Close friends or companions",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "People you enjoy spending time with",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Friends or pals",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "money",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The root of all evil, or so they say",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A medium of exchange",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Currency or funds",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "addicted",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Unable to stop doing something, like a moth to a flame",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Physically or mentally dependent on something",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Unable to stop or control a behavior",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "improvement",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The act of getting better at something",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A positive change or progress",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The state of being better than before",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "personality",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The unique combination of traits that make you, you",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "A person's character or nature",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "The combination of characteristics that form an individual's behavior",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "conclusions",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The final thoughts or opinions after considering the facts",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "The outcome or result of a process",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "The final judgment or decision",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-01-21"
+}

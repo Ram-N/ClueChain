@@ -1,0 +1,237 @@
+{
+  "title": "A writers guide to just getting on with it",
+  "date": "09-22",
+  "text": "Title:  A writers guide to just getting on with it\n\n\"when I am working I write in a kind of trance, longhand, in these several copybooks. I write in the morning because one \nis nearer to the unconscious, the source of inspiration. I never work at night because by then the shackles of the day are around me, what James Stephens (author of The Crock of Gold) called “That flat, dull catalogue of dreary things that fasten themselves to my wings,” and I don’t sit down three hundred and sixty-five days a year because I’m not that kind of writer. I wish I were! \n\nI get up in the morning, have a cup of tea, and come into this room to work. I never go out to lunch, never, but I stop around one or two and spend the rest of the afternoon attending to mundane things. In the evening I might read or go out to a play or a film, or see my sons.”",
+  "hiddenWords": [
+    {
+      "word": "trance",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A state where one is fully immersed, often losing track of surroundings.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "It's a mental state often associated with meditation or deep focus.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A state of being completely absorbed in something.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "inspiration",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "morning",
+        "unconscious"
+      ],
+      "clues": [
+        {
+          "clue": "The morning dew can spark it, as can the stillness of the night, but for our author, it's the morning that brings it.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "It's what drives creativity and is often sought by artists and writers.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The process of being mentally stimulated to do or feel something.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "morning",
+      "difficulty": "Easy",
+      "related_words": [
+        "inspiration",
+        "unconscious"
+      ],
+      "clues": [
+        {
+          "clue": "The time of day when the world is full of possibilities, and for our writer, the best time to create.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "The part of the day when one is often most refreshed and alert.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The first part of the day, after sunrise.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "unconscious",
+      "difficulty": "Hard",
+      "related_words": [
+        "inspiration",
+        "morning"
+      ],
+      "clues": [
+        {
+          "clue": "The part of our mind that operates beneath our awareness, influencing our thoughts and feelings in mysterious ways.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "It's the part of the mind that contains memories and desires that are not currently conscious.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "The part of the mind of which one is not fully aware but that influences one's actions and feelings.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "shackles",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Chains that bind, but in this context, they're metaphorical, weighing down the mind.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Restrictions or limitations that prevent someone from doing something.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Metal fetters for the feet or wrists.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "mundane",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The tasks that keep us grounded but don't necessarily spark joy, like laundry or grocery shopping.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Lacking interest or excitement; dull.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Lacking interest or excitement.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "afternoon",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The time of day when the morning's energy has waned, and the evening's relaxation is still ahead.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "The part of the day between noon and evening.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The middle part of the day.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "evening",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A time for unwinding, perhaps with a good book or a stroll under the stars.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "The part of the day between afternoon and night.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The time of day between late afternoon and nightfall.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "play",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A form of entertainment that can be a performance or a leisure activity.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A theatrical performance.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A performance, especially a theatrical one.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "film",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A medium that tells stories through moving images, often a source of inspiration or escape.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A series of moving images that tell a story.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A movie or cinematic production.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-09-22"
+}

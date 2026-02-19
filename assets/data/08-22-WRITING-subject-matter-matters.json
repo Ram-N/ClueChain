@@ -1,0 +1,237 @@
+{
+  "title": "Subject matter matters",
+  "date": "08-22",
+  "text": "Title: Subject matter matters\nI feel like I’m bordering on saying something sacrilegious here, but here it goes: There’s a \ncommon strain of thinking among writers, particularly literary writers and the institutions that foster them (conference/colonies/workshops), that insists a book is only as good as its writing. I subscribe wholeheartedly to this belief and have defended it to both students and friends. Every one of my favorite books is a little case study in this — a subject that I knew little about or could care less for (or, worse, assumed I knew very well) that on the page came vividly, mind-alteringly alive. They’re books that transcend their subjects and they do this, always, through the spell of the language. Trying to shortcut that work by choosing a subject that is already salacious or provocative or easy seems to me like a cynical move that underestimates the reader, or is just kind of lazy. Most of the time subject matter finds you, not the other way around. It’s what fascinates or angers \nor scares you, it’s a deeply internal (and unteachable) part of writing that seems less of a choice than a discovery.",
+  "hiddenWords": [
+    {
+      "word": "writing",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "language",
+        "books"
+      ],
+      "clues": [
+        {
+          "clue": "A creative process that can be both therapeutic and frustrating",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "The act of creating written content",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The act of putting words on paper",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "language",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "writing",
+        "books"
+      ],
+      "clues": [
+        {
+          "clue": "A tool used to convey emotions and ideas",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A system of communication used by humans",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A means of expression",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "books",
+      "difficulty": "Easy",
+      "related_words": [
+        "writing",
+        "language"
+      ],
+      "clues": [
+        {
+          "clue": "A collection of written or printed pages",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A source of knowledge and entertainment",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Bound pages with written content",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "subject",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A topic that can spark interesting discussions",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A theme or topic of a book or conversation",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A topic of study or discussion",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "internal",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A personal struggle that can be hard to express",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Relating to the inner workings of the mind",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Located or occurring within the body or mind",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "discovery",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A moment of sudden understanding or realization",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "The act of finding or learning something new",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The act of finding something for the first time",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "cynical",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A worldview that can be both protective and limiting",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Having a negative or distrustful attitude",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Having a lack of trust or faith in people",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "lazy",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A state of mind that can be hard to shake off",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Not willing to work or make an effort",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Unwilling to exert oneself",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "fascinates",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A feeling that can be both captivating and unsettling",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "To attract and hold someone's attention",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "To interest or attract someone",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "scares",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A feeling that can be both thrilling and terrifying",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "To cause fear or anxiety in someone",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "To frighten or intimidate someone",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-08-22"
+}

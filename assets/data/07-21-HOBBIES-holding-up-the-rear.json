@@ -1,0 +1,237 @@
+{
+  "title": "Holding up the rear",
+  "date": "07-21",
+  "text": "Title: Holding up the rear\nLewis doesn’t want his real name used. He worries that describing his investigation \ninto the plush world of high-end office furniture, conducted during working hours, \nmight give the impression that he and his friends were slacking on the job. Now that he’s a \nfreelancer he has his reputation to consider. It’s only after having detailed the grueling days and the \nnights spent curled up in a cubicle at his old workplace that Lewis is willing to admit that he and his\n co-workers needed a break. “When you’re working 12- to 14-hour days, you’re trying to break the flow. \nYou’ll build weird little abstract hobbies.”",
+  "hiddenWords": [
+    {
+      "word": "job",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Something you do for a living",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "A task or activity that needs to be done",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The thing that pays the bills, but often feels like a chore",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "word": "break",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "flow",
+        "hobbies"
+      ],
+      "clues": [
+        {
+          "clue": "To interrupt or stop something",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "A pause or rest from work or activity",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The freedom to pursue weird little abstract hobbies",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "word": "flow",
+      "difficulty": "Hard",
+      "related_words": [
+        "break",
+        "hobbies"
+      ],
+      "clues": [
+        {
+          "clue": "A continuous stream of fluid",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "The smooth and continuous progress of something",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A mental state of complete focus, but also something you try to break",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "word": "hobbies",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "break",
+        "flow"
+      ],
+      "clues": [
+        {
+          "clue": "Activities or interests pursued for pleasure",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "Things you do in your free time to relax and have fun",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Weird little abstract things you build when you’re trying to break the flow",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "word": "freelancer",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A self-employed person",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "Someone who works on a project basis, without a long-term contract",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A person who has the freedom to choose their own projects, but also has to consider their reputation",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "word": "reputation",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The opinion or view that people have of someone or something",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "A person's character or standing in the eyes of others",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Something that can be damaged if you’re seen as slacking on the job",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "word": "cubicle",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A small enclosed space",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "A small area in an office where an employee works",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A cozy little box where you can curl up and try to sleep",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "word": "investigation",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A systematic inquiry or research into something",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "The act of trying to find out the truth about something",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A secret inquiry into the plush world of high-end office furniture",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "word": "plush",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Soft and luxurious",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "High-quality and comfortable",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The kind of world where high-end office furniture is the norm",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "word": "abstract",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Not concrete or tangible",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "Difficult to understand or define",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The kind of thing you build when you’re trying to break the flow, and it’s weird and little",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-07-21"
+}

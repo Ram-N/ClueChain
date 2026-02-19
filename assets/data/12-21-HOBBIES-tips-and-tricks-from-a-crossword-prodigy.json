@@ -1,0 +1,237 @@
+{
+  "title": "Tips and Tricks From a Crossword Prodigy",
+  "date": "12-21",
+  "text": "Title: Tips and Tricks From a Crossword Prodigy\n\nIf you’ve ever tussled with our daily mini crossword puzzles, you can most likely blame Paolo Pasco. The good news is that the constructor who stumped you is now the champion of the American Crossword Puzzle Tournament at the ripe old age of 23. The ACPT is the largest speed-solving tournament in the world, this year welcoming more than 800 competitors. The three finalists solve puzzles on a big whiteboard in front of a crowd; wins come down to literal seconds.\n\nWhen I first met Paolo, he was 13 and already creating stellar grids as elegant as they were playful. These days, I rely on him as The Atlantic’s main crossword contributor. To put into perspective what a phenomenal speed-solver Paolo is: He solved the latest Inferno (our special magazine puzzle that gets more difficult as you descend into its depths) in one minute and 27 seconds. The average solve time for that puzzle is 16 minutes, 28 seconds. I spoke with Paolo recently about his win, his speed-solving tactics, and, inevitably, the 2024 Marvel masterpiece Madame Web.",
+  "hiddenWords": [
+    {
+      "word": "puzzle",
+      "difficulty": "Easy",
+      "related_words": [
+        "grid",
+        "tactics"
+      ],
+      "clues": [
+        {
+          "clue": "A challenge that requires thought and skill to solve, often found in newspapers or magazines",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A problem or enigma that needs to be figured out",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A game or problem to be solved",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "grid",
+      "difficulty": "Easy",
+      "related_words": [
+        "puzzle",
+        "tactics"
+      ],
+      "clues": [
+        {
+          "clue": "A network of lines or bars that intersect to form squares or rectangles, often used for puzzles",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A pattern of lines that intersect, used for organization or problem-solving",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A rectangular array of squares or lines",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "tactics",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "puzzle",
+        "grid"
+      ],
+      "clues": [
+        {
+          "clue": "The art of achieving a goal through clever or strategic planning, often used in games or competitions",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Methods or plans used to achieve a specific goal, often requiring thought and strategy",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Plans or actions taken to achieve a specific objective",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "speed",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The rate at which someone or something moves or operates, often used to describe quickness or swiftness",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "The quality of moving or operating quickly",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The rate of movement or operation",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "winner",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A person who achieves a goal or succeeds in a competition, often receiving a prize or recognition",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Someone who emerges victorious or successful in a contest or challenge",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A person who wins a competition or contest",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "crowd",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A large group of people gathered together, often in a public place",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A multitude of people, often assembled for a specific purpose or event",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A large group of people",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "minutes",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Units of time, often used to measure the duration of an event or activity",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A unit of time, equal to 60 seconds",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A unit of time",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "stellar",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Resembling or relating to stars, often used to describe something as exceptional or outstanding",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Exceptionally good or impressive, often used to describe a performance or achievement",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Extremely good or excellent",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "masterpiece",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A work of art or creation that is considered to be of the highest quality or excellence",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "A work of exceptional quality or skill, often considered to be the best of its kind",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A work of art or creation that is considered to be of the highest quality",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "phenomenal",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Exceptionally good or remarkable, often used to describe something that is extraordinary or impressive",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Extraordinarily good or impressive, often used to describe a performance or achievement",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Exceptionally good or impressive",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-12-21"
+}

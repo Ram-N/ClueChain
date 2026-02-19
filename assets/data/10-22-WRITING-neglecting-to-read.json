@@ -1,0 +1,237 @@
+{
+  "title": "Neglecting to Read",
+  "date": "10-22",
+  "text": "Title: Neglecting to Read\nWriting for a living without regularly picking up new books, articles, or other content is like being a professional chef who never tastes anyone else’s food. To hone your skills, you need to sample what’s out there.\n\nExposing yourself to great writing helps you find new rhetorical techniques, strategies, and effective turns of phrase. It also sharpens your “ear” for rhythm and flow.\n\nNothing makes or breaks a piece like good rhythm. You might have compelling ideas and interesting quotes, but clunky sentences or poorly constructed paragraphs will doom your work. It’s nearly impossible to learn rhythm by taking a course or reading a manual. Most writers acquire this skill by absorbing as much writing as they can.",
+  "hiddenWords": [
+    {
+      "word": "rhythm",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "flow",
+        "phrase"
+      ],
+      "clues": [
+        {
+          "clue": "It's what makes music and writing harmonious",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Refers to a pattern of sounds or movements",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A regular pattern of beat or sound",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "flow",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "rhythm",
+        "phrase"
+      ],
+      "clues": [
+        {
+          "clue": "Like a river, it keeps moving smoothly",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Describes the smooth progression of something",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The act of moving smoothly and continuously",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "phrase",
+      "difficulty": "Easy",
+      "related_words": [
+        "rhythm",
+        "flow"
+      ],
+      "clues": [
+        {
+          "clue": "A short expression that's often memorable",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A group of words expressing a concept",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A small group of words",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "sample",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Taste a little bit of something to experience it",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Try out a small part of something",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A small part of something",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "techniques",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Ways of doing something that require skill",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Methods used to achieve a particular goal",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Skilled or systematic ways of doing something",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "strategies",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A plan of action to achieve a long-term goal",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "A careful plan or method",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A plan of action designed to achieve a goal",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "compelling",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Like a magnet, it attracts and holds attention",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Strongly attractive or convincing",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Very interesting or convincing",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "clunky",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Like an old machine, it's awkward and hard to use",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Describes something that's awkward or poorly made",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Awkward or uncoordinated in movement or use",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "construct",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Build something using parts or ideas",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "To build or make something by putting parts together",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "To build or create something",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "absorbing",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Like a sponge, it takes in and holds something",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Highly interesting or engaging",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Taking in and holding something, like a liquid",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-10-22"
+}

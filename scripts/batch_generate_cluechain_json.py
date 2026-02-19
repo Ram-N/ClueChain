@@ -178,8 +178,8 @@ def parse_paragraphs(file_path: str, delimiter: str = "===") -> List[ParagraphDa
         raise ValueError("File is empty")
 
     # Build delimiter regex pattern
-    # Supports: ===, ====, #, ##, ###, ---
-    delimiter_pattern = r'^(={3,}|#{1,3}|-{3,})\s*$'
+    # Supports: ===, ====, #, ##, ###, ---, or numbered (1., 2., ... 12.)
+    delimiter_pattern = r'^\s*(={3,}|#{1,3}|-{3,}|\d{1,2}\.)\s*$'
 
     # Split by delimiter
     sections = re.split(delimiter_pattern, content, flags=re.MULTILINE)
@@ -219,7 +219,7 @@ def parse_paragraphs(file_path: str, delimiter: str = "===") -> List[ParagraphDa
             print(f"⚠️  Warning: Skipping paragraph {idx} - no title found")
             continue
 
-        title = lines[title_idx].strip()
+        title = re.sub(r'^[Tt]itle:\s*', '', lines[title_idx].strip())
 
         # Next non-empty line is attribution
         attribution_idx = title_idx + 1

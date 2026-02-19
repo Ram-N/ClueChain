@@ -1,0 +1,236 @@
+{
+  "title": "A Window To The World",
+  "date": "06-22",
+  "text": "Title: A Window To The World\n\nSome writers begin to write with talent, quickly earn a reputation among readers and critics, \nand then are suddenly silenced forever. We had two such men at the Yiddish Writers’ Club in Warsaw. \nOne, Menahem Roshbom, had managed, before he was thirty, to publish three novels. The other, Zimmel Hesheles, \nhad at the age of twenty-three written one long poem. Both got enthusiastic reviews in the Yiddish press. \nBut then, as the saying goes, their literary wombs closed up and never opened again.",
+  "hiddenWords": [
+    {
+      "word": "talent",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A natural ability to do something well, often discovered at a young age.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A skill or aptitude that someone has, especially a creative one.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Natural ability or skill.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "reputation",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "critics"
+      ],
+      "clues": [
+        {
+          "clue": "What people think of you when you're not in the room, can be built or broken.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "The opinion that people have about someone or something, based on past behavior or performance.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The state of being widely respected or admired.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "critics",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "reputation"
+      ],
+      "clues": [
+        {
+          "clue": "People who love to give their two cents, but may not always be right.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Those who evaluate or judge the quality of something, like a book or a performance.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "People who give opinions and judgments about something.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "novels",
+      "difficulty": "Easy",
+      "related_words": [
+        "poem"
+      ],
+      "clues": [
+        {
+          "clue": "Long stories that take you on a journey, often with complex characters and plot twists.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Book-length works of fiction, often with detailed descriptions and dialogue.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Fiction books of a certain length.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "poem",
+      "difficulty": "Easy",
+      "related_words": [
+        "novels"
+      ],
+      "clues": [
+        {
+          "clue": "A short piece of writing that uses rhythm and rhyme to express feelings or ideas.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A piece of writing that uses language in a creative and imaginative way, often with a musical quality.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A piece of writing that uses verse and rhythm to express thoughts and feelings.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "reviews",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Opinions that can make or break a career, often written by experts or critics.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Written evaluations or assessments of something, like a book or a product.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Written opinions or evaluations of something.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "saying",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A phrase or expression that is often repeated, but may not always be true.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A common expression or phrase, often used to convey a particular idea or message.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A phrase or expression that is often used.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "wombs",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A place where life begins, but in this context, it's not just about biology.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "The part of the body where a fetus develops during pregnancy, but here it's used metaphorically.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The part of the body where a baby grows.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "silenced",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "When someone or something is quieted or made to be still, often against their will.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "To make someone or something quiet, often by suppressing their voice or expression.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Made to be quiet or still.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "forever",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A very long time, often used to emphasize the permanence of something.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "For all time, without end or limit.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Always, without end.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-06-22"
+}

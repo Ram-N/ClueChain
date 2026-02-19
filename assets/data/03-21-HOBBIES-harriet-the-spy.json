@@ -1,0 +1,237 @@
+{
+  "title": "Harriet the Spy",
+  "date": "03-21",
+  "text": "Title: Harriet the Spy\n\nI don’t have any tomatoes and it’s a crisis. \n\nWell, that’s not exactly true — at least the former part isn’t. I’m specifically out of red globe tomatoes. In a frantic search through my kitchen and cupboards, I find several cans of Trader Joe’s tomato paste, and some cherry tomatoes are sitting on my counter. But neither of those will do. On a normal day, a tomatoless household wouldn’t be a problem. But in a grief-stricken panic, trying to use the 20 remaining minutes before a meeting to make myself a tomato sandwich for lunch in honor of Harriet M. Welsch, not having any juicy, red fruits on my counter is a disaster.\n\n“Harriet the Spy” opened my world. It's unlike any other children’s movie I’ve seen, brutally honest in the way that so much media made for kids is not.\n\nAfter hearing of actress and millennial icon Michelle Trachtenberg’s untimely passing Wednesday afternoon, a tomato sandwich was one of the first things that popped into my mind.",
+  "hiddenWords": [
+    {
+      "word": "crisis",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A situation that requires immediate attention, like a math problem that needs a creative solution",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A state of instability or danger",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A serious emergency",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "kitchen",
+      "difficulty": "Easy",
+      "related_words": [
+        "tomatoes",
+        "counter"
+      ],
+      "clues": [
+        {
+          "clue": "Where you might find a knife, but not for a fight",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A room used for cooking and food preparation",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The room with the sink and stove",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "tomatoes",
+      "difficulty": "Easy",
+      "related_words": [
+        "kitchen",
+        "counter"
+      ],
+      "clues": [
+        {
+          "clue": "Often red, but sometimes yellow or green, these fruits are a salad's best friend",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A type of fruit commonly used in cooking",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A juicy red fruit",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "counter",
+      "difficulty": "Easy",
+      "related_words": [
+        "kitchen",
+        "tomatoes"
+      ],
+      "clues": [
+        {
+          "clue": "A surface where you might find a scale, but not for weighing your feelings",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A flat surface in a kitchen for food preparation",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A surface for holding objects",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "panic",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A feeling that might cause you to run, but not for exercise",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A sudden feeling of fear or anxiety",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A state of intense fear",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "grief",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A feeling that might make you cry, but not from laughing",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "A deep emotional pain, often caused by loss",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Intense sorrow",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "honest",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The best policy, or so they say, but what if it's not always easy to tell the truth?",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Free from deceit or dishonesty",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Truthful",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "media",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A way to spread information, but not always the truth, and sometimes it's hard to know what's real",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Means of communication, such as TV or newspapers",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "News outlets",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "meeting",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A gathering of people, but not always a party",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A planned gathering of people, often for discussion or business",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A get-together",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "icon",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A symbol of something, but not always a picture, and sometimes it's hard to understand its meaning",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "A person or thing that is widely admired or respected",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A famous person",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-03-21"
+}
