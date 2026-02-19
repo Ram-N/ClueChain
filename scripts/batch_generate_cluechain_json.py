@@ -85,7 +85,7 @@ class ProgressReporter:
 
     def print_error(self, month: int, title: str, error: str):
         """Print error message."""
-        print(f"❌ [{month}/12] FAILED: {title}")
+        print(f"❌ [{month}/12] FAILED (all retries exhausted): {title}")
         print(f"   Error: {error}")
         print(f"   Completed: {len(self.successful)}/{self.total}")
         print(f"   Failed: {len(self.failed) + 1}/{self.total}\n")
@@ -289,9 +289,11 @@ def rename_output_file(output_dir: str, month: int, day: int,
 
 def generate_single_paragraph(paragraph: ParagraphData, day: int,
                               category: str, output_dir: str,
-                              script_path: str) -> Tuple[bool, str, float]:
+                              script_path: str,
+                              max_retries: int = 3) -> Tuple[bool, str, float]:
     """
     Generate JSON for a single paragraph using the existing script.
+    Retries up to max_retries times on validation failure.
 
     Args:
         paragraph: ParagraphData object
@@ -299,68 +301,77 @@ def generate_single_paragraph(paragraph: ParagraphData, day: int,
         category: Category name
         output_dir: Output directory
         script_path: Path to generate_cluechain_json.py
+        max_retries: Maximum number of attempts (default: 3)
 
     Returns:
         Tuple of (success, filename_or_error, duration)
     """
     start_time = time.time()
+    last_error = "Unknown error"
 
-    # Create temporary file with paragraph text
-    temp_file = None
-    try:
-        # Create temp file
-        with tempfile.NamedTemporaryFile(mode='w', suffix='.txt',
-                                         delete=False, encoding='utf-8') as f:
-            f.write(paragraph.text)
-            temp_file = f.name
+    for attempt in range(1, max_retries + 1):
+        if attempt > 1:
+            print(f"       ↻ Retry {attempt}/{max_retries}...")
 
-        # Build subprocess command
-        date_str = f"{paragraph.month:02d}-{day:02d}"
-        cmd = [
-            sys.executable,  # Use same Python interpreter
-            script_path,
-            "--file", temp_file,
-            "--title", paragraph.title,
-            "--date", date_str,
-            "--output", output_dir
-        ]
-
-        # Execute subprocess
-        result = subprocess.run(
-            cmd,
-            capture_output=True,
-            text=True,
-            timeout=300  # 5 minute timeout
-        )
-
-        if result.returncode != 0:
-            # Try to extract meaningful error from stderr
-            error_msg = "Unknown error"
-            if result.stderr:
-                error_msg = result.stderr.strip()
-            # Also include stdout if stderr is empty (some errors go to stdout)
-            elif result.stdout:
-                error_msg = result.stdout.strip()
-            return False, error_msg, time.time() - start_time
-
-        # Rename the generated file
+        # Create temporary file with paragraph text
+        temp_file = None
         try:
-            new_path = rename_output_file(
-                output_dir, paragraph.month, day, paragraph.title, category
-            )
-            duration = time.time() - start_time
-            return True, new_path.name, duration
-        except FileNotFoundError as e:
-            return False, str(e), time.time() - start_time
+            # Create temp file
+            with tempfile.NamedTemporaryFile(mode='w', suffix='.txt',
+                                             delete=False, encoding='utf-8') as f:
+                f.write(paragraph.text)
+                temp_file = f.name
 
-    except subprocess.TimeoutExpired:
-        return False, "API call timeout (>5 minutes)", time.time() - start_time
-    except Exception as e:
-        return False, str(e), time.time() - start_time
-    finally:
-        # Clean up temp file
-        if temp_file and Path(temp_file).exists():
-            Path(temp_file).unlink()
+            # Build subprocess command
+            date_str = f"{paragraph.month:02d}-{day:02d}"
+            cmd = [
+                sys.executable,  # Use same Python interpreter
+                script_path,
+                "--file", temp_file,
+                "--title", paragraph.title,
+                "--date", date_str,
+                "--output", output_dir
+            ]
+
+            # Execute subprocess
+            result = subprocess.run(
+                cmd,
+                capture_output=True,
+                text=True,
+                timeout=300  # 5 minute timeout
+            )
+
+            if result.returncode != 0:
+                # Try to extract meaningful error from stderr
+                if result.stderr:
+                    last_error = result.stderr.strip()
+                elif result.stdout:
+                    last_error = result.stdout.strip()
+                continue  # Retry
+
+            # Rename the generated file
+            try:
+                new_path = rename_output_file(
+                    output_dir, paragraph.month, day, paragraph.title, category
+                )
+                duration = time.time() - start_time
+                return True, new_path.name, duration
+            except FileNotFoundError as e:
+                last_error = str(e)
+                continue  # Retry
+
+        except subprocess.TimeoutExpired:
+            last_error = "API call timeout (>5 minutes)"
+            break  # Don't retry timeouts
+        except Exception as e:
+            last_error = str(e)
+            break  # Don't retry unexpected errors
+        finally:
+            # Clean up temp file
+            if temp_file and Path(temp_file).exists():
+                Path(temp_file).unlink()
+
+    return False, last_error, time.time() - start_time
 
 
 def process_batch(paragraphs: List[ParagraphData], day: int, category: str,

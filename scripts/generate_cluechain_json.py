@@ -46,27 +46,41 @@ class ClueChainGenerator:
 CRITICAL RULES FOR WORD SELECTION:
 1. Select EXACTLY 10 single words (no more, no less)
 2. EXCLUDE:
-   - Names or proper nouns (capitalized words, except sentence starters)
+   - Short words: any word with 3 or fewer letters (e.g., 'the', 'run', 'big') — minimum 4 letters
+   - Proper nouns, names, places, brands: even if lowercase in the text (e.g., 'google', 'london')
+   - Made-up or invented words that don't appear in a standard English dictionary
    - Compound words (e.g., 'spaceship')
    - Words with spaces, hyphens, apostrophes, or punctuation
 3. Difficulty Balance: Mix of Easy (3-4), Intermediate (3-4), and Hard (2-3) words
 4. All words MUST exist in the provided paragraph text
 
 CLUE GENERATION RULES (3 clues per word):
+Each word MUST have exactly one clue of each type: Indirect, Suggestive, Straight. Never repeat a type.
+
 1. INDIRECT (Hard, 5-7 points):
    - Lateral thinking, wordplay, riddles, puns
    - Poetic, humorous, or multi-layered
    - Max 2 sentences
+   - Valid points: 5, 6, or 7 ONLY
 
 2. SUGGESTIVE (Intermediate, 3-4 points):
    - Describes characteristic, association, or function
    - Requires simple deduction
    - Max 2 sentences
+   - Valid points: 3 or 4 ONLY — never 2, never 5
 
 3. STRAIGHT (Easy, 1-2 points):
    - Direct definition or synonym
    - Dictionary-style, unambiguous
    - Max 1 sentence
+   - Valid points: 1 or 2 ONLY — never 3
+
+COMMON MISTAKES TO AVOID:
+- Do NOT assign points: 2 to a Suggestive clue (valid: 3 or 4)
+- Do NOT assign points: 5 to a Straight clue (valid: 1 or 2)
+- Do NOT generate two Suggestive clues and omit the Straight clue
+- Do NOT generate two Indirect clues and omit the Suggestive clue
+- Every word must have all three types: one Indirect, one Suggestive, one Straight
 
 THEMATIC LINKING:
 - If exactly 2-3 words are thematically related, populate their related_words arrays
