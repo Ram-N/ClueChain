@@ -58,6 +58,7 @@ def validate_json(data):
                     if not isinstance(clues, list) or len(clues) != 3:
                         errors.append(f"{prefix}: 'clues' must be a list of 3 items")
                     else:
+                        hidden_word = word_entry.get('word', '').lower()
                         for j, clue in enumerate(clues):
                             clue_prefix = f"{prefix}.clues[{j}]"
 
@@ -75,6 +76,12 @@ def validate_json(data):
 
                             if 'points' in clue and not isinstance(clue['points'], int):
                                 errors.append(f"{clue_prefix}: 'points' must be an integer")
+
+                            # Check that the clue text does not contain the hidden word
+                            if hidden_word and 'clue' in clue and isinstance(clue['clue'], str):
+                                clue_words = re.findall(r"[a-zA-Z]+", clue['clue'].lower())
+                                if hidden_word in clue_words:
+                                    errors.append(f"{clue_prefix}: clue text contains the hidden word '{word_entry['word']}'")
 
                 # Check related_words
                 if 'related_words' in word_entry:

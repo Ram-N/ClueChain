@@ -1,0 +1,237 @@
+{
+  "title": "Jazz — Latin jazz",
+  "date": "03-25",
+  "text": "Title: Jazz — Latin jazz\n\nIn the 1960s and 1970s, many jazz musicians had only a basic understanding of Cuban and Brazilian music, and jazz compositions which used Cuban or Brazilian elements were often referred to as \"Latin tunes\", with no distinction between a Cuban son montuno and a Brazilian bossa nova. Even as late as 2000, in Mark Gridley's Jazz Styles: History and Analysis, a bossa nova bass line is referred to as a \"Latin bass figure\". It was not uncommon during the 1960s and 1970s to hear a conga playing a Cuban tumbao while the drumset and bass played a Brazilian bossa nova pattern. Many jazz standards such as \"Manteca\", \"On Green Dolphin Street\" and \"Song for My Father\" have a \"Latin\" A section and a swung B section. Typically, the band would only play an even-eighth \"Latin\" feel in the A section of the head and swing throughout all of the solos. Latin jazz specialists like Cal Tjader tended to be the exception. For example, on a 1959 live Tjader recording of \"A Night in Tunisia\", pianist Vince Guaraldi soloed through the entire form over an authentic mambo.",
+  "hiddenWords": [
+    {
+      "word": "jazz",
+      "difficulty": "Easy",
+      "related_words": [
+        "latin",
+        "bossa"
+      ],
+      "clues": [
+        {
+          "clue": "It's the music of improvisation and syncopated rhythms",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A genre of music originating from African American communities",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A style of music characterized by its use of blue notes and swing rhythms",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "latin",
+      "difficulty": "Easy",
+      "related_words": [
+        "jazz",
+        "bossa"
+      ],
+      "clues": [
+        {
+          "clue": "The language of love, also a genre of music",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Relating to the Romance languages or cultures",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Pertaining to Latin America or its people",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "bossa",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "jazz",
+        "latin"
+      ],
+      "clues": [
+        {
+          "clue": "A Brazilian style that's a fusion of samba and jazz",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A style of music characterized by its gentle, swaying rhythm",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A genre of Brazilian music known for its melodic and harmonic complexity",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "bass",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The lowest part of a musical range, or a type of fish",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "The lowest-pitched instrument in a musical ensemble",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A low-pitched sound or instrument",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "drumset",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A collection of drums, often used in jazz and rock music",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A set of drums played by a single musician",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A musical instrument consisting of a set of drums",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "conga",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A type of drum, or a line of people dancing",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "A type of hand drum originating from Africa",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A type of percussion instrument",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "tumbao",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A rhythmic pattern in Afro-Cuban music, or a type of Cuban sandwich",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A type of rhythmic pattern used in Cuban music",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A rhythmic pattern used in Afro-Cuban music",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "pattern",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A design or sequence of events, or a template for making something",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A repeated or regular arrangement of things",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A design or sequence of events",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "standards",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Music that's widely accepted and appreciated, or a measure of quality",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Established or widely accepted musical compositions",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Well-known and widely performed musical pieces",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "solos",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A performance by a single musician, or a type of Italian pasta",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A musical performance by a single musician",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A musical piece played by one person",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-03-25"
+}

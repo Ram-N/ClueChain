@@ -1,0 +1,237 @@
+{
+  "title": "Robotics — Locomotion",
+  "date": "04-26",
+  "text": "Title: Robotics — Locomotion\n\nWalking is a difficult and dynamic problem to solve. Several robots have been made which can walk reliably on two legs, but none can yet do so as reliably as a human. There has been much study on human-inspired walking, such as AMBER lab, which was established in 2008 by the mechanical engineering department at Texas A&M University. Many other robots have been built that walk on more than two legs, being significantly easier. Walking robots could be used for uneven terrains, providing a high degree of mobility and efficiency, but two-legged robots can currently only handle flat floors or perhaps stairs. Some approaches have included:",
+  "hiddenWords": [
+    {
+      "word": "dynamic",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "It's like a dance, but not quite",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Characterized by constant change",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Means constantly changing",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "reliably",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "No need to worry, it's got this",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "In a way that gives confidence",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Means in a dependable manner",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "human",
+      "difficulty": "Easy",
+      "related_words": [
+        "mobility",
+        "efficiency"
+      ],
+      "clues": [
+        {
+          "clue": "The one who walks on two feet",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Pertaining to people",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Means related to Homo sapiens",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "mobility",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "human",
+        "efficiency"
+      ],
+      "clues": [
+        {
+          "clue": "The freedom to move about",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "The ability to move freely",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Means the state of being mobile",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "efficiency",
+      "difficulty": "Hard",
+      "related_words": [
+        "human",
+        "mobility"
+      ],
+      "clues": [
+        {
+          "clue": "Getting the most out of something",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "The quality of being efficient",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Means achieving maximum productivity",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "established",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Set up like a foundation",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Brought into existence",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Means founded or set up",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "mechanical",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Like gears and levers",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Relating to machines",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Means relating to physics and engineering",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "department",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A part of a larger organization",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A division with a specific function",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Means a section of a university or company",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "uneven",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Not perfectly flat",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Lacking uniformity",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Means not level or smooth",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "terrains",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Like mountains and valleys",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Areas of land with distinct features",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Means areas of land with varied elevations",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-04-26"
+}

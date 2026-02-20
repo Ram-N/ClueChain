@@ -1,0 +1,237 @@
+{
+  "title": "History of India — Trade and travels to India",
+  "date": "02-24",
+  "text": "The spice trade in Kerala attracted traders from all over the Old World to India. India's Southwest coastal port Muziris had established itself as a major spice trade centre from as early as 3,000 BCE, according to Sumerian records. Jewish traders arrived in Kochi, Kerala, India as early as 562 BCE. The Greco-Roman world followed by trading along the incense route and the Roman-India routes. During the 2nd century BCE Greek and Indian ships met to trade at Arabian ports such as Aden. During the first millennium, the sea routes to India were controlled by the Indians and Ethiopians that became the maritime trading power of the Red Sea. Indian merchants involved in spice trade took Indian cuisine to Southeast Asia, where spice mixtures and curries became popular with the native inhabitants. Buddhism entered China through the Silk Road in the 1st or 2nd century CE. Hindu and Buddhist religious establishments of South and Southeast Asia came to be centres of production and commerce as they accumulated capital donated by patrons. They engaged in estate management, craftsmanship, and trade. Buddhism in particular travelled alongside the maritime trade, promoting literacy, art, and the use of coinage.",
+  "hiddenWords": [
+    {
+      "word": "trade",
+      "difficulty": "Easy",
+      "related_words": [
+        "spice",
+        "commerce"
+      ],
+      "clues": [
+        {
+          "clue": "Exchange of goods without using money is called barter, but what is the term for exchange using money?",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "The process of buying and selling goods or services",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "To buy and sell goods or services",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "spice",
+      "difficulty": "Easy",
+      "related_words": [
+        "trade",
+        "commerce"
+      ],
+      "clues": [
+        {
+          "clue": "Cinnamon, pepper, and cardamom are examples of this category of goods",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Aromatic or pungent plant products used to flavor food",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A substance used to flavor food",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "commerce",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "trade",
+        "spice"
+      ],
+      "clues": [
+        {
+          "clue": "The exchange of goods and services is the backbone of this system",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "The activity of buying and selling goods and services on a large scale",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The field of business and trade",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "maritime",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The sea has been the lifeblood of this type of trade for centuries",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Relating to the sea, especially in relation to navigation or trade",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Connected to the sea",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "incense",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Aromatic substances are burned to produce a fragrant smoke, often used in this context",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A substance that is burned to produce a pleasant smell",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A material used to produce a fragrant smell when burned",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "literacy",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The ability to read and write is a fundamental aspect of this concept",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "The ability to read and write, especially in an adult population",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "The ability to read and write",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "coinage",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The system of money, in the form of metal discs, has been in use for millennia",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "The production or use of coins as a medium of exchange",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Coins used as money",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "craftsmanship",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The skill of a craftsman, demonstrated through the quality of their work",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "The quality of design and work shown in something made by hand",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Skill in a particular craft",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "patrons",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "People who give money or support to artists or charitable causes",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A person who gives financial or other support to a person, organization, or cause",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A person who supports or sponsors something",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "establishments",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Institutions or organizations that have been set up or founded",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "A place or organization that has been established, especially a business or institution",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "An organization or business that has been set up",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-02-24"
+}

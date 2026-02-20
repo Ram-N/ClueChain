@@ -55,7 +55,7 @@ python scripts/batch_generate_cluechain_json.py \
   --category {CATEGORY} \
   --day {day} \
   --output assets/data \
-  --delay 3 \
+  --delay 6 \
   --continue-on-error
 ```
 

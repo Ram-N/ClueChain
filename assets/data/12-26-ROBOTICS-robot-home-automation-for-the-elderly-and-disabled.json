@@ -1,0 +1,237 @@
+{
+  "title": "Robot — Home automation for the elderly and disabled",
+  "date": "12-26",
+  "text": "Title: Robot — Home automation for the elderly and disabled\n\nRobots used in home automation have developed over time from simple basic robotic assistants, such as the Handy 1, through to semi-autonomous robots, such as Care-Providing Robot \"FRIEND\" which can assist the elderly and disabled with common tasks. The population is aging in many countries, especially Japan, meaning that there are increasing numbers of elderly people to care for, but relatively fewer young people to care for them. Humans make the best carers, but where they are unavailable, robots are gradually being introduced. FRIEND is a semi-autonomous robot designed to support disabled and elderly people in their daily life activities, like preparing and serving a meal. FRIEND make it possible for patients who are paraplegic, have muscle diseases or serious paralysis (due to strokes etc.), to perform tasks without help from other people like therapists or nursing staff.",
+  "hiddenWords": [
+    {
+      "word": "paralysis",
+      "difficulty": "Hard",
+      "related_words": [
+        "paraplegic",
+        "muscle"
+      ],
+      "clues": [
+        {
+          "clue": "A state that can result from a stroke, leaving one unable to move.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A condition characterized by the loss of muscle function.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "The loss of ability to move or function.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "paraplegic",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "paralysis",
+        "muscle"
+      ],
+      "clues": [
+        {
+          "clue": "Someone who has lost the use of their legs, often due to spinal injury.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A person with a condition affecting the lower half of the body.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A person who is paralyzed from the waist down.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "muscle",
+      "difficulty": "Easy",
+      "related_words": [
+        "paralysis",
+        "paraplegic"
+      ],
+      "clues": [
+        {
+          "clue": "Tissue in the body that allows for movement.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "A part of the body that helps with movement and support.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A type of body tissue that contracts to produce movement.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "population",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A group of people living in a particular area, with their own unique characteristics.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "The total number of people living in a specific region.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The number of people in a given area.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "therapists",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Professionals who help people recover from injuries or illnesses, using various techniques.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "People who provide treatment to help patients recover or improve.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Health professionals who help patients with physical or mental problems.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "autonomous",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Able to function independently, without outside control.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Having the ability to operate on its own, without human intervention.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Able to act independently.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "assistance",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Help or support given to someone, to make their life easier.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Aid or support provided to someone in need.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Help given to someone.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "carers",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "People who provide care and support to those in need.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Individuals who look after the well-being of others.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "People who care for others.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "semi",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Partly, but not completely, having a certain quality.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Not completely, but to some extent.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Partly.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": " strokes",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A medical condition that occurs when the blood supply to the brain is interrupted.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A serious medical condition that affects the brain.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A condition that occurs when the brain does not get enough blood.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-12-26"
+}

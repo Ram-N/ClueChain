@@ -4,12 +4,16 @@
     },
     "marketplace": {
         "vowel": {
-            "cost": 10,
-            "description": "Reveal another vowel"
+            "costPerInstance": 2,
+            "description": "Reveal another vowel (2 links per instance)"
         },
         "consonant": {
-            "cost": 15,
-            "description": "Reveal a common consonant"
+            "costPerInstance": 3,
+            "description": "Reveal a consonant (3 links per instance)"
+        },
+        "wordReveal": {
+            "cost": 8,
+            "description": "Reveal a word (flat 8 links)"
         }
     },
     "styles": {

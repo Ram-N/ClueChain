@@ -1,0 +1,241 @@
+{
+  "title": "Robot \u2014 Mesopotamia",
+  "date": "07-26",
+  "text": "Ismail al-Jazari was a 13th-century polymath who built several automated devices driven by hydropower, including peacocks, automatic gates, and water clocks. Among al-Jazari's humanoid automata was a waitress that could serve drinks. The drink was stored in a reservoir tank, from where it would drip into a bucket and then a cup, after which the waitress would appear out of an automatic door to serve the drink. Al-Jazari also invented a hand washing automaton that incorporated a flush mechanism similar to that used in modern flush toilets. The automaton stood next to a basin filled with water. When the user pulled a lever, the water would drain, and the automaton would refill the basin.",
+  "hiddenWords": [
+    {
+      "word": "polymath",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A person with many talents is like a puzzle with many pieces.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Someone who has a broad range of knowledge and expertise.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A person of great and varied learning.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "devices",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "In a world of machines, they are the building blocks.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Objects that perform a specific function.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Machines or apparatus used for a particular purpose.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "hydropower",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "water",
+        "drain"
+      ],
+      "clues": [
+        {
+          "clue": "The force that drives the wheels of change.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Energy generated from the movement of water.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Power derived from the energy of flowing or falling water.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "automata",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "They mimic life, but are they alive?",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Self-operating machines that can perform tasks.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Machines that can operate automatically.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "waitress",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A server with a smile and a tray.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A person who serves food and drinks in a restaurant.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A female server in a restaurant.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "reservoir",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "water",
+        "basin"
+      ],
+      "clues": [
+        {
+          "clue": "A place where things are stored, like a treasure chest.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A container that holds a supply of something, especially water.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A tank or container for storing a liquid.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "mechanism",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The inner workings of a clock, a symphony of gears.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "A system of parts that work together to perform a function.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A process or system that operates in a specific way.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "lever",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A bar that helps you lift the heavy load.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A simple machine that makes it easier to lift or move things.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A bar or handle used to operate a machine.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "water",
+      "difficulty": "Easy",
+      "related_words": [
+        "hydropower",
+        "reservoir",
+        "basin"
+      ],
+      "clues": [
+        {
+          "clue": "It's clear, but not always calm.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A liquid essential for life and many industrial processes.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A colorless, odorless, and tasteless liquid.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "drain",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "water",
+        "hydropower"
+      ],
+      "clues": [
+        {
+          "clue": "The exit strategy for unwanted liquids.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A pipe or channel that carries away liquid waste.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "To remove liquid from a container or area.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-07-26"
+}

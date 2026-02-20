@@ -243,6 +243,28 @@ h1 {
   margin-right: 8px;
 }
 
+/* Stack multiple revealed clues vertically */
+.clue-line {
+  display: block;
+  color: #999;
+  font-style: italic;
+  font-size: 0.9em;
+}
+
+/* The most recently revealed clue is shown prominently */
+.clue-line-current {
+  color: inherit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1em;
+}
+
+/* Earlier (dimmed) clues get a subtle indent marker */
+.clue-line:not(.clue-line-current)::before {
+  content: "• ";
+  font-style: normal;
+}
+
 .clue-icons {
   display: flex;
   align-items: center;

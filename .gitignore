@@ -37,3 +37,6 @@ docs
 
 #CLAUDE
 CLAUDE.md
+
+# Paragraph library source files
+assets/data/library/

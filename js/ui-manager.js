@@ -22,6 +22,7 @@ import {
   purchaseVowel,
   purchaseConsonant,
   getLetterCounts,
+  getGameParameters,
   marketState,
   getInitialCluesShown,
   getClueAttempts,
@@ -486,11 +487,23 @@ function setupClueInteractions() {
           const selectedClue = cluesData[clueIndex];
 
           if (selectedClue && clueText) {
-            // Update the displayed clue text
             const word = getCurrentWords()[parseInt(wordIndex, 10)];
-            clueText.textContent = `${selectedClue.clue} (${
-              word?.word?.length || 0
-            })`;
+            const wordLen = word?.word?.length || 0;
+
+            // Show all revealed clues up to and including the selected one
+            if (clueIndex === 0) {
+              clueText.textContent = `${selectedClue.clue} (${wordLen})`;
+            } else {
+              clueText.innerHTML = "";
+              for (let ci = 0; ci <= clueIndex; ci++) {
+                const clueEntry = document.createElement("span");
+                clueEntry.className = `clue-line clue-line-${ci}${ci === clueIndex ? " clue-line-current" : ""}`;
+                clueEntry.textContent = ci === clueIndex
+                  ? `${cluesData[ci]?.clue || ""} (${wordLen})`
+                  : cluesData[ci]?.clue || "";
+                clueText.appendChild(clueEntry);
+              }
+            }
 
             // Update the active clue index in the UI
             clue.setAttribute("data-active-clue", clueIndex.toString());
@@ -728,9 +741,23 @@ export function renderClues() {
         clues[activeClueIndex]?.points || clues[0]?.points || 0;
 
       // Create a container for clue text and icons
+      // Show all revealed clues (from index 0 up to activeClueIndex), not just the current one
       const clueTextSpan = document.createElement("span");
       clueTextSpan.className = "clue-text";
-      clueTextSpan.textContent = `${activeClue} (${word.length})`;
+      if (activeClueIndex === 0) {
+        clueTextSpan.textContent = `${activeClue} (${word.length})`;
+      } else {
+        // Build stacked display: each revealed clue on its own line
+        clueTextSpan.innerHTML = "";
+        for (let ci = 0; ci <= activeClueIndex; ci++) {
+          const clueEntry = document.createElement("span");
+          clueEntry.className = `clue-line clue-line-${ci}${ci === activeClueIndex ? " clue-line-current" : ""}`;
+          clueEntry.textContent = ci === activeClueIndex
+            ? `${clues[ci]?.clue || ""} (${word.length})`
+            : clues[ci]?.clue || "";
+          clueTextSpan.appendChild(clueEntry);
+        }
+      }
 
       // Create a container for all icons
       const iconsContainer = document.createElement("span");
@@ -761,8 +788,8 @@ export function renderClues() {
             : cluePoints;
         indirectIcon.title =
           lowestClueIndexSeen > 0
-            ? `Indirect Clue - ${actualPoints} links (reduced from ${cluePoints})`
-            : `Indirect Clue - ${cluePoints} links`;
+            ? `Indirect Clue. Worth: ${actualPoints} links (reduced from ${cluePoints})`
+            : `Indirect Clue. Worth: ${cluePoints} links`;
         indirectIcon.setAttribute("data-clue-index", "0");
         iconsContainer.appendChild(indirectIcon);
 
@@ -774,9 +801,7 @@ export function renderClues() {
             activeClueIndex === 1 ? "active" : ""
           }`;
           suggestiveIcon.innerHTML = '<i class="fa fa-unlock-alt"></i>';
-          suggestiveIcon.title = `Suggestive Clue - ${
-            clues[1]?.points || 0
-          } links`;
+          suggestiveIcon.title = `Suggestive Clue. Worth: ${clues[1]?.points || 0} links`;
           suggestiveIcon.setAttribute("data-clue-index", "1");
           iconsContainer.appendChild(suggestiveIcon);
         }
@@ -789,7 +814,7 @@ export function renderClues() {
             activeClueIndex === 2 ? "active" : ""
           }`;
           straightIcon.innerHTML = '<i class="fa fa-unlock"></i>';
-          straightIcon.title = `Straight Clue - ${clues[2]?.points || 0} links`;
+          straightIcon.title = `Straight Clue. Worth: ${clues[2]?.points || 0} links`;
           straightIcon.setAttribute("data-clue-index", "2");
           iconsContainer.appendChild(straightIcon);
         }
@@ -798,7 +823,7 @@ export function renderClues() {
         const eyeIcon = document.createElement("span");
         eyeIcon.className = "clue-eye";
         eyeIcon.innerHTML = '<i class="fa fa-eye"></i>';
-        eyeIcon.title = `Reveal Word (-${gameState.current.revealPenalty} links)`;
+        eyeIcon.title = `Reveal Word. Costs: ${getGameParameters()?.marketplace?.wordReveal?.cost ?? 8} links`;
         iconsContainer.appendChild(eyeIcon);
       } else if (statusMark) {
         // If the word is found or revealed, append the status mark to the clue text
@@ -1090,6 +1115,11 @@ export function updateLetterCounts(showCounts = true) {
     [selectedVowel, ...selectedConsonants].filter(Boolean)
   );
 
+  // Get per-instance rates from parameters for tooltips
+  const params = getGameParameters();
+  const vowelRate = params?.marketplace?.vowel?.costPerInstance ?? 2;
+  const consonantRate = params?.marketplace?.consonant?.costPerInstance ?? 3;
+
   letterTiles.forEach((tile) => {
     const letter = tile.getAttribute("data-letter");
     if (!letter) return;
@@ -1114,14 +1144,23 @@ export function updateLetterCounts(showCounts = true) {
       ) {
         // Gray out tiles with zero count (unless they're selected initial letters)
         tile.classList.add("empty");
+        tile.removeAttribute("title");
       } else {
         tile.classList.remove("empty");
+        // Set tooltip for in-play letters
+        if (!tile.classList.contains("purchased")) {
+          const isVowel = VOWELS.includes(letter.toLowerCase());
+          const rate = isVowel ? vowelRate : consonantRate;
+          const totalCost = count * rate;
+          tile.title = `Reveal cost: ${totalCost} links (${count}×${rate})`;
+        }
       }
     } else {
       // Hide all counts in initial selection phase
       countSpan.textContent = "";
       // Don't apply empty styling during initial phase
       tile.classList.remove("empty");
+      tile.removeAttribute("title");
     }
   });
 }

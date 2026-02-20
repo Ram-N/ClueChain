@@ -598,11 +598,20 @@ export function purchaseVowel(vowel) {
   if (!params)
     return { success: false, cost: 0, newScore: gameState.current.score };
 
-  const cost = params.marketplace.vowel.cost;
-  if (gameState.current.score >= cost && !marketState.vowels.has(vowel)) {
+  if (marketState.vowels.has(vowel))
+    return { success: false, cost: 0, newScore: gameState.current.score };
+
+  const instances = letterCounts[vowel.toLowerCase()] || 0;
+  const costPerInstance = params.marketplace.vowel.costPerInstance ?? 2;
+  const cost = instances * costPerInstance;
+
+  if (cost === 0)
+    return { success: false, cost: 0, newScore: gameState.current.score };
+
+  if (gameState.current.score >= cost) {
     gameState.current.score -= cost;
     marketState.vowels.add(vowel);
-    clearLetterCount(vowel.toLowerCase()); // Clear the count for purchased vowel
+    clearLetterCount(vowel.toLowerCase());
     return { success: true, cost, newScore: gameState.current.score };
   }
   return { success: false, cost, newScore: gameState.current.score };
@@ -617,17 +626,23 @@ export function purchaseConsonant(consonant) {
   const params = gameState.config.parameters;
   if (!params)
     return { success: false, cost: 0, newScore: gameState.current.score };
-  const cost = params.marketplace.consonant.cost;
-  // Check if it's a valid consonant and not already purchased
+
   const isConsonant = "bcdfghjklmnpqrstvwxyz".includes(consonant.toLowerCase());
   if (!isConsonant || marketState.consonants.has(consonant.toLowerCase())) {
-    return { success: false, cost, newScore: gameState.current.score };
+    return { success: false, cost: 0, newScore: gameState.current.score };
   }
+
+  const instances = letterCounts[consonant.toLowerCase()] || 0;
+  const costPerInstance = params.marketplace.consonant.costPerInstance ?? 3;
+  const cost = instances * costPerInstance;
+
+  if (cost === 0)
+    return { success: false, cost: 0, newScore: gameState.current.score };
 
   if (gameState.current.score >= cost) {
     gameState.current.score -= cost;
     marketState.consonants.add(consonant.toLowerCase());
-    clearLetterCount(consonant.toLowerCase()); // Clear the count for purchased consonant
+    clearLetterCount(consonant.toLowerCase());
     return {
       success: true,
       cost,
@@ -722,7 +737,7 @@ export function checkGuess(guess) {
     // Update letter counts when a word is found
     updateLetterCounts(wordObj.word);
 
-    const allFound = getCurrentWords().every((w) => w.found);
+    const allFound = getCurrentWords().every((w) => w.found || w.revealed);
     return {
       success: true,
       gameComplete: allFound,
@@ -1041,8 +1056,9 @@ export function revealWord(wordIndex) {
     return { success: false, pointsDeducted: 0 };
   }
   
-  // Calculate penalty - use word points or default reveal penalty
-  const penalty = word.points || gameState.current.revealPenalty;
+  // Flat 8-link penalty for word reveal (from parameters, fallback 8)
+  const params = gameState.config.parameters;
+  const penalty = params?.marketplace?.wordReveal?.cost ?? 8;
   
   // Make sure we don't go below 0 points
   const pointsToDeduct = Math.min(gameState.current.score, penalty);

@@ -1,0 +1,232 @@
+{
+  "title": "Jazz — Syncopation",
+  "date": "09-25",
+  "text": "Title: Jazz — Syncopation\n\nAfro-Creole pianist Jelly Roll Morton began his career in Storyville. Beginning in 1904, he toured with vaudeville shows to southern cities, Chicago, and New York City. In 1905, he composed \"Jelly Roll Blues\", which became the first jazz arrangement in print when it was published in 1915. It introduced more musicians to the New Orleans style. Morton considered the tresillo/habanera, which he called the Spanish tinge, an essential ingredient of jazz. \"Now in one of my earliest tunes, 'New Orleans Blues,' you can notice the Spanish tinge. In fact, if you can't manage to put tinges of Spanish in your tunes, you will never be able to get the right seasoning, I call it, for jazz.\" An excerpt of \"New Orleans Blues\" is shown below. In the excerpt, the left hand plays the tresillo rhythm, while the right hand plays variations on cinquillo.",
+  "hiddenWords": [
+    {
+      "word": "career",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A path that's chosen with care, it may have twists and turns to share.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A profession or occupation that someone pursues.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A person's working life or profession.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "vaudeville",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A type of entertainment that's a mix of acts, a true variety show.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A type of theater that features a mix of performances.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A type of theatrical entertainment.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "southern",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A direction that's warm and bright, where the sun shines with delight.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Relating to the south part of a country or region.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Located in or relating to the south.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "arrangement",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A plan or organization of things, like a puzzle coming together.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "The act of arranging things in a specific order or pattern.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A plan or organization of things.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "ingredient",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A small part of a larger whole, like a spice that adds flavor to a dish.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "A component or part of something, especially a food or mixture.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A substance that is used in a particular recipe or mixture.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "essential",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A vital part of something, like the missing piece of a puzzle.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Absolutely necessary or extremely important.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Something that is necessary or extremely important.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "tinge",
+      "difficulty": "Hard",
+      "related_words": [
+        "Spanish"
+      ],
+      "clues": [
+        {
+          "clue": "A small amount of something, like a hint of flavor or color.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A small amount of a quality or feeling.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A small amount of a particular quality or characteristic.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "Spanish",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "tinge"
+      ],
+      "clues": [
+        {
+          "clue": "A language and culture that's full of passion and flair.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Relating to Spain or its language and culture.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Of or relating to Spain.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "seasoning",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A way to add flavor to food, like a pinch of magic.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Something used to add flavor to food.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A substance used to add flavor to food.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "rhythm",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A pattern of sounds or movements, like a heartbeat or a dance.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A pattern of sounds or movements, especially in music or poetry.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A pattern of sounds or movements, especially in music.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-09-25"
+}
