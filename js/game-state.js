@@ -381,6 +381,15 @@ export function setSelectedVowel(vowel) {
 }
 
 /**
+ * Clears all selected consonants (used by the Reset button during init phase)
+ */
+export function clearSelectedConsonants() {
+  if (gameState.current.initPhase) {
+    gameState.current.selectedConsonants = [];
+  }
+}
+
+/**
  * Adds a selected consonant during initialization
  * @param {string} consonant - The consonant to be added
  * @returns {boolean} Whether the consonant was added successfully
@@ -460,21 +469,18 @@ export function setCurrentWords(words) {
     gameState.current.shownWordIndices.push(wordIndex);
   }
   
-  // Calculate the maximum possible score (initial score + sum of all word points)
-  let maxScore = 100; // Start with 100 links (initial score)
+  // Calculate starting score so that perfect play always yields exactly 100
+  let totalWordPoints = 0;
   words.forEach(word => {
-    // Get the highest point value from the clues (typically the first clue - Indirect type)
     if (word.clues && Array.isArray(word.clues) && word.clues.length > 0) {
-      // Use the first clue (Indirect type) which has the highest points
-      maxScore += word.clues[0].points || 0;
+      totalWordPoints += word.clues[0].points || 0;
     } else if (word.points) {
-      // Fallback to word's points property if clues aren't available
-      maxScore += word.points;
+      totalWordPoints += word.points;
     }
   });
-  gameState.current.maxScore = maxScore;
-  
-  gameState.current.score = 100; // Start with 100 links
+  gameState.current.maxScore = 100;
+
+  gameState.current.score = Math.max(0, 100 - totalWordPoints); // Start in deficit; earn up to 100
   gameState.current.clueAttempts = 0; // Reset attempt counter
   // Note: initializeLetterCounts() will be called later after suffix initialization
 }
@@ -1054,8 +1060,21 @@ export function revealWord(wordIndex) {
   if (!gameState.current.shownWordIndices.includes(wordIndex)) {
     gameState.current.shownWordIndices.push(wordIndex);
   }
-  
-  return { success: true, pointsDeducted: pointsToDeduct };
+
+  // Surface a new clue for a word that is still hidden (not found, not revealed, not yet shown)
+  const unstartedIndices = getCurrentWords()
+    .map((w, i) => (w.found || w.revealed ? -1 : i))
+    .filter(i => i !== -1 && !gameState.current.shownWordIndices.includes(i));
+
+  if (unstartedIndices.length > 0) {
+    const pick = unstartedIndices[Math.floor(Math.random() * unstartedIndices.length)];
+    gameState.current.shownWordIndices.push(pick);
+  }
+
+  // Game is complete when every word is either found or revealed
+  const gameComplete = getCurrentWords().every((w) => w.found || w.revealed);
+
+  return { success: true, pointsDeducted: pointsToDeduct, gameComplete };
 }
 
 /**

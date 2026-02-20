@@ -1134,6 +1134,60 @@ button:hover {
   color: #1565c0;
 }
 
+/* Selection-phase highlighting */
+.letter-tile.vowel-enabled {
+  background: #fff9c4;
+  border-color: #f9a825;
+  color: #e65100;
+  font-weight: bold;
+  box-shadow: 0 2px 4px rgba(249, 168, 37, 0.4);
+}
+
+.letter-tile.vowel-enabled:hover {
+  background: #fff176;
+  transform: translateY(-2px);
+}
+
+.letter-tile.consonant-enabled {
+  background: #e8f5e9;
+  border-color: #66bb6a;
+  color: #1b5e20;
+  font-weight: bold;
+  box-shadow: 0 2px 4px rgba(102, 187, 106, 0.4);
+}
+
+.letter-tile.consonant-enabled:hover {
+  background: #c8e6c9;
+  transform: translateY(-2px);
+}
+
+.letter-tile.phase-disabled {
+  background: #f0f0f0;
+  border-color: #d0d0d0;
+  color: #bdbdbd;
+  cursor: default;
+  transform: none;
+  box-shadow: none;
+  opacity: 0.45;
+}
+
+#reset-selection {
+  margin-top: 6px;
+  padding: 4px 12px;
+  font-size: 12px;
+  background: #fff;
+  border: 1px solid #bdbdbd;
+  border-radius: 4px;
+  cursor: pointer;
+  color: #555;
+  display: none;
+}
+
+#reset-selection:hover {
+  background: #f5f5f5;
+  border-color: #999;
+}
+
 .game-header {
   width: 100%;
   padding: 10px 0;

@@ -33,6 +33,7 @@ import {
   getSelectedConsonants,
   setSelectedVowel,
   addSelectedConsonant,
+  clearSelectedConsonants,
   completeLetterSelection,
   updateActiveClueIndex,
   getActiveClueIndex,
@@ -44,6 +45,7 @@ import {
 
 import {
   celebrateGameOver,
+  celebrateRevealGameOver,
   highlightCorrectWord,
   createSparklesAroundElement,
 } from "./animations.js";
@@ -533,11 +535,15 @@ function setupClueInteractions() {
           updateScore(); // This now also updates chain links
           updateLetterCounts();
 
-          // Show toast notification
-          showToast(
-            `Word revealed for ${result.pointsDeducted} link penalty`,
-            "info"
-          );
+          if (result.gameComplete) {
+            showGameOver(true);
+          } else {
+            // Show toast notification only when game isn't over
+            showToast(
+              `Word revealed for ${result.pointsDeducted} link penalty`,
+              "info"
+            );
+          }
         }
       });
     }
@@ -981,7 +987,7 @@ export function updateScore() {
 /**
  * Displays the game over message with final score and celebration animations
  */
-export async function showGameOver() {
+export async function showGameOver(lastWordRevealed = false) {
   const score = getCurrentScore();
   const maxScore = getMaxScore();
   const scorePercentage = Math.round((score / maxScore) * 100);
@@ -1032,7 +1038,12 @@ export async function showGameOver() {
 
   const endGameMessage = document.createElement("div");
   endGameMessage.className = "game-over-message";
-  endGameMessage.innerHTML = `
+  endGameMessage.innerHTML = lastWordRevealed
+    ? `
+        <h2>Chain Complete 🔓</h2>
+        <p>Final Score: <span class="final-score">${score}</span> <span class="max-score">(Max Possible: ${maxScore})</span> - ${scorePercentage}%</p>
+    `
+    : `
         <h2>Chain Complete! 🎉</h2>
         <p>You've linked every word in the paragraph!</p>
         <p>Final Score: <span class="final-score">${score}</span> <span class="max-score">(Max Possible: ${maxScore})</span> - ${scorePercentage}%</p>
@@ -1044,7 +1055,11 @@ export async function showGameOver() {
 
   // Start the celebration animations
   setTimeout(() => {
-    celebrateGameOver();
+    if (lastWordRevealed) {
+      celebrateRevealGameOver();
+    } else {
+      celebrateGameOver();
+    }
   }, 300);
 }
 
@@ -1114,16 +1129,64 @@ export function updateLetterCounts(showCounts = true) {
 /**
  * Sets up the marketplace interactions including letter selection
  */
+const VOWELS = ["a", "e", "i", "o", "u"];
+
+/**
+ * Applies visual highlighting to letter tiles based on current selection phase.
+ * Step 1 (no vowel yet): vowels highlighted, consonants dimmed.
+ * Step 2 (vowel chosen, need consonants): consonants highlighted, vowels dimmed.
+ * Step 3 (complete): all phase classes removed.
+ */
+function applySelectionPhaseStyles() {
+  if (!isInitPhase() || isSelectionComplete()) {
+    // Remove all phase classes once selection is done
+    document.querySelectorAll(".letter-tile").forEach((t) => {
+      t.classList.remove("vowel-enabled", "consonant-enabled", "phase-disabled");
+    });
+    const resetBtn = document.getElementById("reset-selection");
+    if (resetBtn) resetBtn.style.display = "none";
+    return;
+  }
+
+  const vowelChosen = !!getSelectedVowel();
+  const resetBtn = document.getElementById("reset-selection");
+
+  document.querySelectorAll(".letter-tile").forEach((t) => {
+    const letter = t.getAttribute("data-letter");
+    if (!letter) return;
+    const isVowel = VOWELS.includes(letter.toLowerCase());
+
+    t.classList.remove("vowel-enabled", "consonant-enabled", "phase-disabled");
+
+    if (!vowelChosen) {
+      // Step 1: highlight vowels, dim consonants
+      if (isVowel) {
+        t.classList.add("vowel-enabled");
+      } else {
+        t.classList.add("phase-disabled");
+      }
+    } else {
+      // Step 2: highlight consonants, dim vowels (unless already selected)
+      if (!isVowel && !t.classList.contains("selected")) {
+        t.classList.add("consonant-enabled");
+      } else if (isVowel && !t.classList.contains("selected")) {
+        t.classList.add("phase-disabled");
+      }
+    }
+  });
+
+  if (resetBtn) resetBtn.style.display = vowelChosen ? "block" : "none";
+}
+
 export function setupMarketplace() {
   // Set up letter selection in the marketplace
   const letterTiles = document.querySelectorAll(".letter-tile");
-  const vowels = ["a", "e", "i", "o", "u"];
 
   letterTiles.forEach((tile) => {
     const letter = tile.getAttribute("data-letter");
     if (!letter) return;
 
-    const isVowel = vowels.includes(letter.toLowerCase());
+    const isVowel = VOWELS.includes(letter.toLowerCase());
 
     // Clear any existing event listeners by cloning and replacing
     const newTile = tile.cloneNode(true);
@@ -1141,6 +1204,37 @@ export function setupMarketplace() {
       }
     });
   });
+
+  // Apply initial phase styles
+  applySelectionPhaseStyles();
+
+  // Wire up reset button (clone to clear old listeners)
+  const resetBtn = document.getElementById("reset-selection");
+  if (resetBtn) {
+    const newBtn = resetBtn.cloneNode(true);
+    resetBtn.parentNode.replaceChild(newBtn, resetBtn);
+    newBtn.addEventListener("click", () => {
+      if (!isInitPhase() || isSelectionComplete()) return;
+
+      // Deselect vowel
+      const currentVowel = getSelectedVowel();
+      if (currentVowel) {
+        const vowelTile = document.querySelector(`.letter-tile[data-letter="${currentVowel}"]`);
+        if (vowelTile) vowelTile.classList.remove("selected");
+        setSelectedVowel("");
+      }
+
+      // Deselect consonants
+      getSelectedConsonants().forEach((c) => {
+        const cTile = document.querySelector(`.letter-tile[data-letter="${c}"]`);
+        if (cTile) cTile.classList.remove("selected");
+      });
+      clearSelectedConsonants();
+
+      updateSelectionStatus("", []);
+      applySelectionPhaseStyles();
+    });
+  }
 }
 
 /**
@@ -1179,6 +1273,9 @@ function handleLetterSelection(tile, isVowel) {
 
     // Update the vowel display
     updateSelectedVowelDisplay(letter);
+
+    // Advance to consonant-selection phase
+    applySelectionPhaseStyles();
   } else {
     // Handle consonant selection
     const currentConsonants = getSelectedConsonants();
@@ -1256,6 +1353,7 @@ function checkSelectionComplete() {
   if (vowel && consonants.length === 2) {
     // Selection is complete, finalize
     completeLetterSelection();
+    applySelectionPhaseStyles(); // Removes all phase highlight classes
 
     // Show notification
     addNotification(

@@ -83,6 +83,15 @@ export function createConfetti(count = 30) {
 }
 
 /**
+ * Displays a mild celebration for game completion when the last word was revealed (given up)
+ */
+export function celebrateRevealGameOver() {
+  // Single small burst + a handful of confetti
+  createFirework(1);
+  createConfetti(20);
+}
+
+/**
  * Displays a big celebration animation for game completion
  */
 export function celebrateGameOver() {

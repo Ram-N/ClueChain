@@ -1,2 +1,7 @@
 groq
 python-dotenv
+wikipedia-api
+wikipedia
+textstat
+spacy
+vaderSentiment

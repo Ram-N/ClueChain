@@ -22,6 +22,11 @@ def validate_json(data):
     if 'date' in data and not re.match(DATE_REGEX, data['date']):
         errors.append(f"Invalid date format: '{data['date']}' (expected MM-DD)")
 
+    # Check that no hidden word appears in the title
+    title_words = set()
+    if 'title' in data and isinstance(data['title'], str):
+        title_words = {w.lower() for w in re.findall(r"[a-zA-Z]+", data['title'])}
+
     # Check hiddenWords
     if 'hiddenWords' in data:
         hw = data['hiddenWords']
@@ -37,6 +42,11 @@ def validate_json(data):
                 for sub_key in ['word', 'difficulty', 'clues', 'related_words']:
                     if sub_key not in word_entry:
                         errors.append(f"{prefix}: Missing key '{sub_key}'")
+
+                # Check word does not appear in the title
+                if 'word' in word_entry and title_words:
+                    if word_entry['word'].lower() in title_words:
+                        errors.append(f"{prefix}: word '{word_entry['word']}' appears in the title and must not be hidden")
 
                 # Check difficulty level
                 if 'difficulty' in word_entry and word_entry['difficulty'] not in DIFFICULTY_LEVELS:

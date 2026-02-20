@@ -51,6 +51,7 @@ CRITICAL RULES FOR WORD SELECTION:
    - Made-up or invented words that don't appear in a standard English dictionary
    - Compound words (e.g., 'spaceship')
    - Words with spaces, hyphens, apostrophes, or punctuation
+   - Any word that appears in the TITLE (case-insensitive) — title words are already visible to the player and must never be hidden
 3. Difficulty Balance: Mix of Easy (3-4), Intermediate (3-4), and Hard (2-3) words
 4. All words MUST exist in the provided paragraph text
 
@@ -125,7 +126,8 @@ Remember:
 - Exactly 10 hidden words
 - 3 clues per word (Indirect, Suggestive, Straight)
 - Points must be within valid ranges for each type
-- Check for 2-3 word thematic groups and link them properly"""
+- Check for 2-3 word thematic groups and link them properly
+- NEVER use a word from the title "{title_text}" as a hidden word"""
 
     def generate_json(self, paragraph: str, title: Optional[str] = None,
                      date: Optional[str] = None) -> Dict:
