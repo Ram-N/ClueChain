@@ -1,0 +1,232 @@
+{
+  "title": "Destiny 2 — 2019",
+  "date": "07-28",
+  "text": "With the release of the free-to-play New Light version of Destiny 2 in October 2019, Bungie changed the beginning of the game for new players, reintroducing the first mission from the original Destiny as the introductory mission for new players. Upon completing this brief mission, which ended with the player finding a jumpship, the player was taken to the Tower, where they met the various NPCs and could begin the Destiny 2 campaign (The Red War), as well as the Curse of Osiris and Warmind campaigns, after talking to Amanda Holliday in the Tower Hangar. Returning players could play this opening mission by creating a new character.",
+  "hiddenWords": [
+    {
+      "word": "player",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The one who interacts with the game world.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A person who participates in a game.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A gamer.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "mission",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "campaign"
+      ],
+      "clues": [
+        {
+          "clue": "A task that must be completed, often with a specific objective.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A series of tasks or quests that are part of a larger goal.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "An assignment or a quest.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "campaign",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "mission"
+      ],
+      "clues": [
+        {
+          "clue": "A series of connected events or tasks that make up a larger story.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A set of missions or quests that are part of a larger narrative.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A series of military operations or a political strategy.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "jumpship",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A vehicle that allows for quick transportation, often used for escape or pursuit.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "A mode of transportation that is fast and agile.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A type of spacecraft.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "tower",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A tall structure that serves as a landmark or a hub.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A high building that offers a panoramic view.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A tall, narrow structure.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "npcs",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Non-player characters that are part of the game world.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Characters in the game that are controlled by the computer.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Non-player characters.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "brief",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A short or concise message or document.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Something that is short in duration or length.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Short or to the point.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "character",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A person or being in a game or story.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A person or being with their own personality and traits.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A person or being in a game or story.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "hangar",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A large building where aircraft or spacecraft are stored or maintained.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "A structure that houses vehicles or equipment.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A building for housing aircraft.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "version",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A particular form or variant of something.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A specific edition or iteration of a product or service.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A specific form or variant.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-07-28"
+}

@@ -1,0 +1,232 @@
+{
+  "title": "Manifest destiny — Journal articles",
+  "date": "04-28",
+  "text": "Title: Manifest destiny — Journal articles\n\nVictor, Frances Fuller (August 1869). \"Manifest Destiny in the West\" . Overland Monthly. 3 (2). Dunning, Mike (2001). \"Manifest Destiny and the Trans-Mississippi South: Natural Laws and the Extension of Slavery into Mexico\". Journal of Popular Culture. 35 (2): 111–127. doi:10.1111/j.0022-3840.2001.00111.x. ISSN 0022-3840. Fulltext: Ebsco. Pinheiro, John C (2003). ''Religion Without Restriction'': Anti-catholicism, All Mexico, and the Treaty of Guadalupe Hidalgo\". Journal of the Early Republic. 23 (1): 69–96. doi:10.2307/3124986. ISSN 0275-1275. JSTOR 3124986. Sampson, Robert D (2002). \"The Pacifist-reform Roots of John L. O'Sullivan's Manifest Destiny\". Mid-America. 84 (1–3): 129–144. ISSN 0026-2927.",
+  "hiddenWords": [
+    {
+      "word": "culture",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "It's the way we live and think, a shared attitude that's quite unique.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "This is the social behavior and norms found in human societies.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The arts, customs, and achievements of a particular civilization.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "monthly",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A magazine that comes out once a month might be called this.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "It refers to something that happens or is published every month.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A periodical that is issued once a month.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "republic",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "democracy"
+      ],
+      "clues": [
+        {
+          "clue": "In ancient Rome, this form of government was quite a feat.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A system of government where power is held by the people or their representatives.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A state in which the power is held by the people or their elected representatives.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "democracy",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "republic"
+      ],
+      "clues": [
+        {
+          "clue": "A system where the people rule, either directly or through elected officials.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "This form of government is characterized by free and fair elections.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A system of government by the whole population, usually through elected representatives.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "extension",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A new wing added to a house could be seen as this.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "The act of extending something, like a deadline or a piece of land.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "The process of making something longer or larger.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "treaty",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "When countries agree on something, they sign one of these.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A formally concluded and ratified agreement between countries.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A formal agreement between two or more nations.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "popular",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Something that is liked or enjoyed by a lot of people might be called this.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Widely liked or enjoyed by a large number of people.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Liked or enjoyed by many people.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "natural",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The earth and its processes are often described as this.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Existing in or caused by nature; not made or caused by people.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Occurring in nature; not artificial.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "roots",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Plants have these underground, and ideas can have them too.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "The underlying basis or origin of something.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "The underground part of a plant.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "pacific",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A ocean that's often associated with peace might be called this.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Calm and peaceful, or describing the world's largest ocean.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Inclined to peace; not warlike.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-04-28"
+}

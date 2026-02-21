@@ -1,0 +1,232 @@
+{
+  "title": "Manifest destiny — Spanish–American War",
+  "date": "11-28",
+  "text": "In 1898, the United States intervened in the Cuban insurrection and launched the Spanish–American War to force Spain out. According to the terms of the Treaty of Paris, Spain relinquished sovereignty over Cuba and ceded the Philippine Islands, Puerto Rico, and Guam to the United States. The terms of cession for the Philippines involved a payment of the sum of $20 million by the United States to Spain. The treaty was highly contentious and denounced by William Jennings Bryan, who tried to make it a central issue in the 1900 election, which he lost to McKinley. The Teller Amendment, passed unanimously by the U.S. Senate before the war, which proclaimed Cuba \"free and independent\", forestalled annexation of the island. The Platt Amendment (1902) then established Cuba as a virtual protectorate of the United States.",
+  "hiddenWords": [
+    {
+      "word": "intervened",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A step taken to prevent something from happening",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "To become involved in a situation to improve or change it",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "To take action to stop or change something",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "sovereignty",
+      "difficulty": "Hard",
+      "related_words": [
+        "independent"
+      ],
+      "clues": [
+        {
+          "clue": "A concept often tied to crowns and thrones",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "The power of a country to govern itself",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A state of being self-governing",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "independent",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "sovereignty"
+      ],
+      "clues": [
+        {
+          "clue": "Not relying on others for support",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Free from the control of others",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Self-sufficient and not dependent",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "cession",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A transfer of land that might involve negotiations and treaties",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "The act of giving up something, especially land or power, to another country",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "The act of surrendering or yielding",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "payment",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Something you give to get something else",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "The act of giving money to someone for something",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The act of paying or giving money",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "contentious",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Causing disagreement or argument",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Characterized by argument or controversy",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Causing or likely to cause disagreement",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "denounced",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "To speak out against something strongly",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "To publicly declare something as wrong or bad",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "To condemn or criticize openly",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "unanimously",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A decision made with complete agreement",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Without any opposition or disagreement",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "With everyone in agreement",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "forestalled",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "To prevent something from happening by taking action first",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "To take action to prevent something from happening",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "To prevent or hinder something by taking action beforehand",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "protectorate",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A state of being protected by a stronger power",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A country or area under the protection of another country",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A territory under the protection of a stronger state",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-11-28"
+}

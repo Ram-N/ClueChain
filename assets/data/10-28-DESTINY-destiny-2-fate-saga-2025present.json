@@ -1,0 +1,237 @@
+{
+  "title": "Destiny 2 — Fate Saga (2025–present)",
+  "date": "10-28",
+  "text": "Following The Final Shape, Bungie moved into a long-term story called the Fate Saga, which began with the Year of Prophecy expansions. Instead of four seasons as in past expansions, Bungie plans to offer two mid-sized expansions, along with a free seasonal content update within each expansion. The first expansion, The Edge of Fate, launched in July 2025, and features the Guardians traveling to the planet Kepler with the Sol system's Oort Cloud, which involves the Nine. The next expansion, Renegades, launched in December 2025, and themed around concepts from Star Wars, a significant influence on Destiny's design, and includes crossover Star Wars elements into Destiny.",
+  "hiddenWords": [
+    {
+      "word": "expansions",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Growing parts of a story",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Additions to the main game",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Enlargements or extensions",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "Kepler",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "Oort",
+        "Sol"
+      ],
+      "clues": [
+        {
+          "clue": "A famous astronomer's namesake",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Related to space and planets",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A planet's name",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "Oort",
+      "difficulty": "Hard",
+      "related_words": [
+        "Kepler",
+        "Sol"
+      ],
+      "clues": [
+        {
+          "clue": "A region of icy bodies",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Connected to our solar system",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Cloud of icy bodies",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "Sol",
+      "difficulty": "Easy",
+      "related_words": [
+        "Kepler",
+        "Oort"
+      ],
+      "clues": [
+        {
+          "clue": "The center of our solar system",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "The star at the center",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Our sun",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "Guardians",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Protectors of the realm",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Characters in the game",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Defenders",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "Renegades",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Those who reject the norm",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Outcasts or nonconformists",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Rebels",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "influence",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A subtle but significant impact",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A factor that affects something",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "To have an effect on",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "concepts",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Abstract ideas or notions",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Theoretical or general ideas",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Ideas or theories",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "crossover",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "When two things intersect or meet",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Combining elements from different sources",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A point where two things meet",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "design",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A plan or concept for something",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "The way something is made or planned",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A plan or pattern",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-10-28"
+}
