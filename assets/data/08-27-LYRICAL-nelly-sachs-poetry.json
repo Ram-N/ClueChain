@@ -1,0 +1,237 @@
+{
+  "title": "Nelly Sachs — Poetry",
+  "date": "08-27",
+  "text": "Title: Nelly Sachs — Poetry\n\nIn den Wohnungen des Todes [In the Houses of Death], 1947. Sternverdunkelung [Eclipse of Stars], 1949. Und niemand weiss weiter [And No One Knows Where to Go], 1957. Flucht und Verwandlung [Flight and Metamorphosis], 1959. Fahrt ins Staublose: Die Gedichte der Nelly Sachs 1 [Journey into the Dustless Realm: The Poetry of Nelly Sachs, 1], 1961. Zeichen im Sand [Signs in the Sand], 1962 Suche nach Lebenden: Die Gedichte der Nelly Sachs 2 [Search for the Living: The Poetry of Nelly Sachs, 2], 1971.",
+  "hiddenWords": [
+    {
+      "word": "eclipse",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A moment of great change, when light fades to dark, yet reveals the beauty of the stars.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "An event where the moon passes between the earth and the sun, blocking the sun's light.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "The blocking of light from one celestial body by another.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "houses",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Places where memories are made and stories are told, but also where darkness can reside.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Structures built for human habitation, providing shelter and protection.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Buildings where people live.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "journey",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "flight",
+        "search"
+      ],
+      "clues": [
+        {
+          "clue": "A path that winds through the realms of the heart, where one may find the dustless and the unknown.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Travel from one place to another, often with a purpose or goal in mind.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A long and often difficult process of personal change and growth.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "flight",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "journey",
+        "search"
+      ],
+      "clues": [
+        {
+          "clue": "A feeling of weightlessness, as if the heart has taken wing, leaving the earthly bounds behind.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "The act of moving through the air, often in a quick or hurried manner.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "To move quickly through the air, often using wings or an aircraft.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "search",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "journey",
+        "flight"
+      ],
+      "clues": [
+        {
+          "clue": "A quest that takes one through the inner realms of the soul, seeking answers to life's great mysteries.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "To look carefully and thoroughly for something, often with a sense of purpose or urgency.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "To examine or investigate something in order to find or discover it.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "dustless",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A realm where the whispers of the past are preserved, untouched by the erosive forces of time.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Free from dust or dirt, often describing a clean or pristine environment.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Completely clean and free of dust.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "signs",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Marks or indications that guide us through life's journey, pointing the way to hidden truths.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Symbols or indicators that convey meaning or information.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Symbols or marks that convey information or instruction.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "living",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The essence of life, where the heartbeat of existence pulses through every moment.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Having life or vitality, often describing something that is alive or thriving.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Having life or existence.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "death",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A mysterious door that swings open, revealing the unknown, and the secrets that lie beyond.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "The end of life, often associated with mourning, loss, and remembrance.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "The permanent cessation of all biological functions.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "metamorphosis",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A magical transformation, where the essence of being is reshaped, like a butterfly emerging from its cocoon.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "A profound change in form or structure, often describing a process of transformation or growth.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A biological process where an animal undergoes a dramatic change in form, such as from a caterpillar to a butterfly.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-08-27"
+}

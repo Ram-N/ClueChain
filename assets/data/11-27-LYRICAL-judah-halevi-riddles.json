@@ -1,0 +1,237 @@
+{
+  "title": "Judah Halevi — Riddles",
+  "date": "11-27",
+  "text": "11. \nTitle: Judah Halevi — Riddles\n\nJudah is noted as the most prolific composer of Hebrew riddles, with a corpus of at least sixty-seven riddles, some of which survive in his own hand, and even in draft form, though only a few have been translated into English. Judah's riddles are mostly short, monorhyme compositions on concrete subjects such as everyday objects, animals and plants, or names or words. One example is the following: \"What is it that's blind with an eye in its head, but the race of mankind its use can not spare; spends all its life in clothing the dead, but always itself is naked and bare?\"",
+  "hiddenWords": [
+    {
+      "word": "composer",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A person who creates music or verses, often with a hidden meaning.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Someone who creates artistic works, like songs or poems.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A person who creates musical or literary works.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "concrete",
+      "difficulty": "Easy",
+      "related_words": [
+        "animals",
+        "plants"
+      ],
+      "clues": [
+        {
+          "clue": "Think of a substance that's strong and often used in construction.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "This term can describe something that's solid or tangible.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A material that's strong and durable.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "animals",
+      "difficulty": "Easy",
+      "related_words": [
+        "concrete",
+        "plants"
+      ],
+      "clues": [
+        {
+          "clue": "These creatures can be found in the forest, or in your backyard.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Living things that move and have senses.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Creatures that are not human.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "plants",
+      "difficulty": "Easy",
+      "related_words": [
+        "concrete",
+        "animals"
+      ],
+      "clues": [
+        {
+          "clue": "Green things that grow in the ground.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Living things that make their own food from sunlight.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Organisms that photosynthesize.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "corpus",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A collection of written works, like a body of texts.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "A large collection of written or spoken material.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A collection of texts or writings.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "draft",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A preliminary version of a document or plan.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A version of something that's not yet finished.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A preliminary version of a document.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "monorhyme",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A poetic device where all lines have the same ending sound.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "A type of poem where all the lines rhyme with each other.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A poetic form with a single rhyme sound.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "naked",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Without clothes, like a newborn baby.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Not wearing any clothes.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Without clothing.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "prolific",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Producing a large amount of something, like a fertile garden.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Someone who creates many works, like a busy artist.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Producing a large amount of work or output.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "translated",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Changed from one language to another, like a message in a bottle.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Changed into a different language, so people can understand.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Changed from one language to another.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-11-27"
+}

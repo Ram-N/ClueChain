@@ -1,0 +1,232 @@
+{
+  "title": "Nelly Sachs — Further reading",
+  "date": "05-27",
+  "text": "Title: Nelly Sachs — Further reading\n\nRuth Dinesen (2005). \"Sachs, Nelly\". Neue Deutsche Biographie (in German). Vol. 22. Berlin: Duncker & Humblot. pp. 336–337. Walter A. Berendsohn: Nelly Sachs: Einführung in das Werk der Dichterin jüdischen Schicksals. Agora, Darmstadt 1974, ISBN 978-3-87008-046-4. Gudrun Dähnert: \"Wie Nelly Sachs 1940 aus Deutschland entkam. Mit einem Brief an Ruth Mövius.\" in: Sinn und Form February 2009, pp. 226–257 Ruth Dinesen: Nelly Sachs. Eine Biographie. Suhrkamp, Frankfurt 1992, ISBN 978-3-518-40426-3 Gabriele Fritsch-Vivié: Nelly Sachs. Monographie. Rowohlt, Reinbek, 3rd edition, 2001, ISBN 978-3-499-50496-9. Petra Oelker: \"Und doch, am Ende steht wieder das Licht, wenn auch noch so fern\". In: Charlotte Kerner: Nicht nur Madame Curie. Frauen, die den Nobelpreis bekamen. Beltz, Weinheim 1999, ISBN 978-3-407-80862-2. Gerald Sommerer: Aber dies ist nichts für Deutschland, das weiß und fühle ich. Nelly Sachs – Untersuchungen zu ihrem szenischen Werk. Königshausen & Neumann, Würzburg 2008, ISBN 978-3-8260-3860-0.",
+  "hiddenWords": [
+    {
+      "word": "deutsch",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Language of the provided text.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Native language of many authors mentioned.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Language of Germany.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "biographie",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "monographie"
+      ],
+      "clues": [
+        {
+          "clue": "What you'd expect from a life story, but with more pages.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Detailed account of someone's life.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Biography in German.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "monographie",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "biographie"
+      ],
+      "clues": [
+        {
+          "clue": "Sometimes longer than a biography, but just as informative.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Detailed study of a single subject.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A long, detailed book about one thing.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "frauen",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Women, in German.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "The female gender.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Women.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "nobelpreis",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Awarded to the best, but not always the brightest.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Prestigious award for outstanding achievements.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A famous prize.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "isbn",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The secret code to find any book.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Used to identify books.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "International Standard Book Number.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "untersuchungen",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "What you do when you're trying to figure out a puzzle.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Systematic studies or examinations.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Investigations or research.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "weinheim",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A city where wine flows like rivers, or so it seems.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "City in Germany.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Location in Germany.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "würzburg",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A place with a long name and an even longer history.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "City in Bavaria, Germany.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "City in Germany.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "darmstadt",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A city with a name that sounds like a mix of German and English.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "City in the state of Hesse, Germany.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "City in Germany.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-05-27"
+}

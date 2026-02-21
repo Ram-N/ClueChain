@@ -546,8 +546,8 @@ Output Format:
     parser.add_argument(
         "--delay",
         type=float,
-        default=3.0,
-        help="Seconds between API calls (default: 3.0)"
+        default=30.0,
+        help="Seconds between API calls (default: 30.0)"
     )
     parser.add_argument(
         "--output",

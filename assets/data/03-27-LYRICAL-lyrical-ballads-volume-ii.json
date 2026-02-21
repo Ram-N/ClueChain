@@ -1,0 +1,232 @@
+{
+  "title": "Lyrical Ballads — Volume II",
+  "date": "03-27",
+  "text": "For the 1800 edition Wordsworth added the poems that make up Volume II. The poem The Convict (Wordsworth) was in the 1798 edition, but Wordsworth omitted it from the 1800 edition due to its politically controversial subject matter, which reflected his opposition to the death penalty and harsh prison conditions. Wordsworth replaced \"The Convict\" with Coleridge's \"Love\". Lewti or the Circassian Love-chaunt (Coleridge) exists in some 1798 editions in place of The Convict. In the 1798 edition the poems later printed as \"Lines Written When Sailing in a Boat at Evening\" and \"Lines Written Near Richmond, Upon the Thames\" form a single poem, \"Lines Written Near Richmond, Upon the Thames, at Evening\".",
+  "hiddenWords": [
+    {
+      "word": "poems",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Collection of verses, often expressing emotion",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Creative writings that have rhythm and rhyme",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Verse compositions",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "editions",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Different versions of a published work",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Printed versions of a book or magazine",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Versions of a publication",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "omitted",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Left out, like a forgotten ingredient in a recipe",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Intentionally left out or excluded",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Not included",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "controversial",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A topic that sparks heated debates, like a stormy weather forecast",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Debatable or disputed, often causing argument",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Causing disagreement or dispute",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "opposition",
+      "difficulty": "Hard",
+      "related_words": [
+        "penalty"
+      ],
+      "clues": [
+        {
+          "clue": "A challenge to authority, like a chess player's countermove",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A force or group against something",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Resistance or hostility",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "penalty",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "opposition"
+      ],
+      "clues": [
+        {
+          "clue": "A consequence of losing a game, or a price to pay",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A punishment or fine for breaking a rule",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A punishment or fine",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "conditions",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Circumstances that affect a situation, like the weather",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "The state or situation of something",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Situations or circumstances",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "reflected",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Like a mirror image, showing what's inside",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Showed or represented something, like a echo",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Thought about or considered",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "replaced",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "What you do when one player swaps in for another on the field",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Swapped out for something new",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Substituted or put in place of",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "chaunt",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A repetitive and rhythmic sound, like a bird's song",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A rhythmic or repetitive song or sound",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A repetitive or rhythmic song",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-03-27"
+}
