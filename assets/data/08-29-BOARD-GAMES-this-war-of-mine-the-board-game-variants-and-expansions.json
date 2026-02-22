@@ -1,0 +1,232 @@
+{
+  "title": "This War of Mine: The Board Game — Variants and expansions",
+  "date": "08-29",
+  "text": "The board has an \"Advanced\" side with a different configuration. The basic game ships with two scenario options that alter gameplay. Galakta Games released an expansion in 2018, Tales from the Ruined City, adding five new scenarios, a new character (Emira, a cat), and modules including sewers beneath the city. Some of these features were stretch goals of the Kickstarter campaign; Kickstarter backers had the option of buying the remaining features as an upgrade. Galakta released a second expansion, Days of the Siege, the following year. Its additions included a new campaign titled Forlorn Hope and an \"Orphans of War\" module.",
+  "hiddenWords": [
+    {
+      "word": "character",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A person in a story, or a symbol representing a being",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Someone or something with personality",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A person or being in a game or story",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "modules",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "campaign"
+      ],
+      "clues": [
+        {
+          "clue": "Parts that can be connected or combined",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Separate sections that work together",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Self-contained units of a system",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "campaign",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "modules"
+      ],
+      "clues": [
+        {
+          "clue": "A series of connected events or activities",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "An organized set of actions to achieve a goal",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A series of connected events or actions",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "features",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A distinctive part or quality",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A notable or characteristic aspect",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A part or quality of something",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "expansion",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The act of becoming larger or more extensive",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "An addition to something, making it larger",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A new part added to something",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "scenario",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A hypothetical situation, used for planning or discussion",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A possible or imagined situation",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A sequence of events or situation",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "configuration",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The way something is arranged or set up",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "A specific arrangement of parts or elements",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "The way something is arranged",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "backers",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "People who support or fund a project",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Those who give financial or moral support",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "People who support a project financially",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "upgrade",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "To improve or make something better",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "To replace something with a better version",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "To make something better or more advanced",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "sewers",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Underground tunnels for carrying away waste",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Tunnels for waste and water",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Underground passages for waste",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-08-29"
+}
