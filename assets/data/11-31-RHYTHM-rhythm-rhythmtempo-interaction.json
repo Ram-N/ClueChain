@@ -1,0 +1,232 @@
+{
+  "title": "Rhythm — Rhythm–tempo interaction",
+  "date": "11-31",
+  "text": "Title: Rhythm — Rhythm–tempo interaction\n\nBy taking into account melodic context, homogeneity of accompaniment, harmonic pulsation, and other cues, the range of admissible tempo deviations can be extended further, yet still not preventing musically normal perception. For example, Skrjabin's own performance of his Poem op. 32 no. 1 transcribed from a piano-roll recording contains tempo deviations within . = 19/119, a span of 5.5 times. Such tempo deviations are strictly prohibited, for example, in Bulgarian or Turkish music based on so-called additive rhythms with complex duration ratios, which can also be explained by the principle of correlativity of perception. If a rhythm is not structurally redundant, then even minor tempo deviations are not perceived as accelerando or ritardando but rather given an impression of a change in rhythm, which implies an inadequate perception of musical meaning.",
+  "hiddenWords": [
+    {
+      "word": "melodic",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A type of singing voice",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "Relating to a pleasant musical quality",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Like a gentle brook, it flows with harmony",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "word": "harmonic",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "melodic"
+      ],
+      "clues": [
+        {
+          "clue": "A type of musical vibration",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "It's about the combination of multiple pitches",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Imagine multiple strings resonating together",
+          "type": "Indirect",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "word": "homogeneity",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Uniformity in composition or structure",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "A state of being the same throughout",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Like a single-colored painting, it lacks diversity",
+          "type": "Indirect",
+          "points": 7
+        }
+      ]
+    },
+    {
+      "word": "pulsation",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "harmonic"
+      ],
+      "clues": [
+        {
+          "clue": "A rhythmic throbbing or vibration",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "It's like the beating of the heart",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Imagine a wave that expands and contracts",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "word": "perception",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The process of becoming aware of something",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "How we interpret sensory information",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "It's like trying to see through a foggy window",
+          "type": "Indirect",
+          "points": 7
+        }
+      ]
+    },
+    {
+      "word": "correlativity",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A mutual relationship between two things",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "It's about how things are connected",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Imagine two dancers moving in perfect sync",
+          "type": "Indirect",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "word": "additive",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Relating to the process of adding something",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "It's a type of mathematical operation",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Like building blocks, it's about combining parts",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "word": "accelerando",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A musical term for increasing speed",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "It's like a car gaining momentum",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Imagine a rollercoaster going downhill",
+          "type": "Indirect",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "word": "ritardando",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A musical term for decreasing speed",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "It's like a car slowing down",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Imagine a wave losing its energy",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "word": "redundant",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Not necessary or excessive",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "It's like having too many unnecessary parts",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Like a puzzle with too many identical pieces",
+          "type": "Indirect",
+          "points": 7
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-11-31"
+}

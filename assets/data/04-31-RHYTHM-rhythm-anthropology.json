@@ -1,0 +1,234 @@
+{
+  "title": "Rhythm — Anthropology",
+  "date": "04-31",
+  "text": "The establishment of a basic beat requires the perception of a regular sequence of distinct short-duration pulses and, as a subjective perception of loudness is relative to background noise levels, a pulse must decay to silence before the next occurs if it is to be really distinct. For this reason, the fast-transient sounds of percussion instruments lend themselves to the definition of rhythm. Musical cultures that rely upon such instruments may develop multi-layered polyrhythm and simultaneous rhythms in more than one time signature, called polymeter. Such are the cross-rhythms of Sub-Saharan Africa and the interlocking kotekan rhythms of the gamelan. For information on rhythm in Indian music see Tala (music). For other Asian approaches to rhythm see Rhythm in Persian music, Rhythm in Arabic music and Usul—Rhythm in Turkish music and Dumbek rhythms.",
+  "hiddenWords": [
+    {
+      "word": "pulse",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A heartbeat is a type of this",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "It's a sudden change in voltage",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A sudden increase in intensity",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "polyrhythm",
+      "difficulty": "Hard",
+      "related_words": [
+        "polymeter"
+      ],
+      "clues": [
+        {
+          "clue": "A complex fabric of interconnected beats",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Multiple rhythms played together",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "The simultaneous playing of two or more rhythms",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "polymeter",
+      "difficulty": "Hard",
+      "related_words": [
+        "polyrhythm"
+      ],
+      "clues": [
+        {
+          "clue": "A city with multiple Mayors",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Multiple time signatures used together",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The use of multiple meters at once",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "percussion",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A strike on the skin can produce this",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A type of musical instrument",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Instruments that are played by striking",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "transient",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A momentary visitor to a place",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Lasting for a short time",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Temporary or fleeting",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "loudness",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The opposite of quiet",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A measure of sound intensity",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The strength of a sound",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "sequence",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A series of events in a story",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A particular order of things",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A series of things in a particular order",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "silence",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The opposite of noise",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "The state of being quiet",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A lack of sound",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "background",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A painter's canvas is often this color",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "The setting or environment of something",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "The surroundings or context",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "signature",
+      "difficulty": "Hard",
+      "related_words": [
+        "polymeter"
+      ],
+      "clues": [
+        {
+          "clue": "A unique identifier at the end of a letter",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "A sign of authenticity or ownership",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A musical pattern of strong and weak beats",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-04-31"
+}
