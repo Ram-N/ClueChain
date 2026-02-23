@@ -1,0 +1,237 @@
+{
+  "title": "Geographic information system — Terrain depiction",
+  "date": "04-02",
+  "text": "Traditional maps are abstractions of the real world, a sampling of important elements portrayed on a sheet of paper with symbols to represent physical objects. People who use maps must interpret these symbols. Topographic maps show the shape of land surface with contour lines or with shaded relief. Today, graphic display techniques such as shading based on altitude in a GIS can make relationships among map elements visible, heightening one's ability to extract and analyze information. For example, two types of data were combined in a GIS to produce a perspective view of a portion of San Mateo County, California",
+  "hiddenWords": [
+    {
+      "word": "abstractions",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Things that are not entirely realistic",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Representations that simplify complex concepts",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Simplifications of complex ideas",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "sampling",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A method to get a taste of something",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "The act of selecting a subset of data",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A small selection of items",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "portrayed",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Shown in a certain way, like an actor on stage",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Described or depicted in a particular manner",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Depicted or represented",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "symbols",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Secret codes used by a mysterious group",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Objects or colors used to represent ideas",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Signs or marks that represent something",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "interpret",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "To understand the hidden meaning behind a work of art",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "To explain or understand the meaning of something",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "To translate or explain",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "contour",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "relief",
+        "altitude"
+      ],
+      "clues": [
+        {
+          "clue": "A line that connects points of equal value",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A line on a map that shows the shape of the land",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The outline or shape of something",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "relief",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "contour",
+        "altitude"
+      ],
+      "clues": [
+        {
+          "clue": "A feeling of comfort after a difficult time",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "The difference in height between two points on a map",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A raised or lowered area of land",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "altitude",
+      "difficulty": "Hard",
+      "related_words": [
+        "contour",
+        "relief"
+      ],
+      "clues": [
+        {
+          "clue": "A measure of how high up you are, but not how high you feel",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "The height of an object or point above sea level",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "The height of something above a reference point",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "analyze",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "To break down into smaller parts, like a puzzle",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "To examine and understand the parts of something",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "To study or examine in detail",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "perspective",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A particular way of looking at something, like through a lens",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A point of view or way of thinking about something",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A view or opinion about something",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-04-02"
+}

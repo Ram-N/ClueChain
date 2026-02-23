@@ -1,0 +1,237 @@
+{
+  "title": "Information technology — Storage",
+  "date": "01-02",
+  "text": "Title: Information technology — Storage\n\nIBM introduced the first hard disk drive in 1956, as a component of their 305 RAMAC computer system. Most digital data today is still stored magnetically on hard disks, or optically on media such as CD-ROMs. Until 2002, most information was stored on analog devices, but that year digital storage capacity exceeded analog for the first time. As of 2007, almost 94% of the data stored worldwide was held digitally: 52% on hard disks, 28% on optical devices, and 11% on digital magnetic tape. It has been estimated that the worldwide capacity to store information on electronic devices grew from less than 3 exabytes in 1986 to 295 exabytes in 2007, doubling roughly every 3 years.",
+  "hiddenWords": [
+    {
+      "word": "disks",
+      "difficulty": "Easy",
+      "related_words": [
+        "devices",
+        "tape"
+      ],
+      "clues": [
+        {
+          "clue": "Where data goes round and round",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A common medium for storing digital information",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Flat, circular storage medium",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "devices",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "disks",
+        "tape"
+      ],
+      "clues": [
+        {
+          "clue": "Things that help you store and use data",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Objects that can hold or process information",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Electronic tools for various tasks",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "tape",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "disks",
+        "devices"
+      ],
+      "clues": [
+        {
+          "clue": "Not just for wrapping gifts",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A long, narrow piece of material for recording data",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A medium for storing data in a linear fashion",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "media",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The plural of a medium, which can be many things",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Means of storing or transmitting information",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Channels or platforms for communication",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "digital",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Not analog, but rather made of bits",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Relating to information in the form of bits",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Pertaining to data in a binary format",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "estimated",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A calculation based on incomplete data",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "An approximate value or quantity",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A valuation or judgment based on incomplete information",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "exabytes",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A unit of information that's quite large",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "A measure of digital data, extremely big",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A large unit of digital information, 1 billion gigabytes",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "magnetically",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Using forces that attract or repel",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "By means of magnetic fields or properties",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "In a manner related to magnetism",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "optically",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Using light, rather than other means",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "By means of light or vision",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "In a manner related to light or optics",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "capacity",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The ability to hold or contain something",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "The amount of something that can be held or stored",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "The maximum amount that can be contained",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-01-02"
+}
