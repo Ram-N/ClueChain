@@ -478,7 +478,7 @@ def main():
     elif args.append:
         out_path.parent.mkdir(parents=True, exist_ok=True)
         with out_path.open("a", encoding="utf-8") as f:
-            f.write(content)
+            f.write("\n" + content)
         print(f"Appended {len(selected)} paragraph(s) to {out_path}")
     else:
         out_path.parent.mkdir(parents=True, exist_ok=True)
