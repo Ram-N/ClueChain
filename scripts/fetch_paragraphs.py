@@ -393,6 +393,7 @@ def parse_args():
     p.add_argument("--max-words", type=int, default=150, dest="max_words", help="Max paragraph length in words (default: 150)")
     p.add_argument("--min-score", type=float, default=40.0, dest="min_score", help="Discard paragraphs below this score (default: 40)")
     p.add_argument("--dry-run", action="store_true", dest="dry_run", help="Print output to stdout, do not write file")
+    p.add_argument("--append", action="store_true", help="Append new paragraphs to existing file instead of overwriting")
     return p.parse_args()
 
 
@@ -415,13 +416,29 @@ def main():
     print(f"Char range: {args.min_chars}–{args.max_chars}")
     print(f"Max words : {args.max_words}")
     print(f"Min score : {args.min_score}")
+    if args.append:
+        print(f"Mode      : append")
     if not args.dry_run:
         print(f"Output    : {out_path}")
     print()
 
-    # Fetch
+    # Load existing paragraphs for deduplication (append mode)
+    existing_prefixes: set = set()
+    existing_count = 0
+    if args.append and out_path.exists():
+        existing_text = out_path.read_text(encoding="utf-8")
+        # Each paragraph block starts after a blank line following the Title: line
+        for block in existing_text.split('\n\n'):
+            block = block.strip()
+            if block and not block.startswith(('Title:', '\n')) and not re.match(r'^\d+\.$', block):
+                existing_prefixes.add(block[:80])
+                existing_count += 1
+        print(f"Existing file has ~{existing_count} paragraphs — will deduplicate against them.")
+
+    # Fetch (fetch extra to account for dedup losses in append mode)
+    fetch_count = count * 4 if args.append else count * 3
     print("Fetching paragraphs from Wikipedia...")
-    raw = _fetch_candidates(topic, count, args.min_chars, args.max_chars, args.max_words, mods)
+    raw = _fetch_candidates(topic, fetch_count, args.min_chars, args.max_chars, args.max_words, mods)
     print(f"  Found {len(raw)} raw candidates")
 
     if not raw:
@@ -432,6 +449,11 @@ def main():
     print("Scoring candidates...")
     scored = score_candidates(raw, topic, args.min_score, mods)
     print(f"  {len(scored)} candidates passed min-score filter")
+
+    # In append mode, remove any candidate already in the existing file
+    if args.append and existing_prefixes:
+        scored = [c for c in scored if c.text[:80] not in existing_prefixes]
+        print(f"  {len(scored)} candidates after deduplication against existing file")
 
     if len(scored) < count:
         print(f"WARNING: Only {len(scored)} paragraphs available (requested {count}).")
@@ -453,6 +475,11 @@ def main():
     if args.dry_run:
         print("─" * 80)
         print(content)
+    elif args.append:
+        out_path.parent.mkdir(parents=True, exist_ok=True)
+        with out_path.open("a", encoding="utf-8") as f:
+            f.write(content)
+        print(f"Appended {len(selected)} paragraph(s) to {out_path}")
     else:
         out_path.parent.mkdir(parents=True, exist_ok=True)
         out_path.write_text(content, encoding="utf-8")
