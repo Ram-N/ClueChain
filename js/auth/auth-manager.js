@@ -22,37 +22,21 @@ class AuthManager {
 
     try {
       this.supabase = window.SupabaseClient.get();
-      
-      // Check if we're returning from OAuth
-      console.log('🔄 Current URL:', window.location.href);
-      console.log('🔄 URL hash:', window.location.hash);
-      console.log('🔄 URL search:', window.location.search);
-      
+
       // Set up auth state listener
       this.supabase.auth.onAuthStateChange((event, session) => {
         this.handleAuthStateChange(event, session);
       });
 
       // Get initial session
-      console.log('🔄 Getting initial session...');
       const { data: { session }, error } = await this.supabase.auth.getSession();
-      console.log('🔄 Initial session result:', { session, error });
-      
+
       if (session) {
-        console.log('✅ Found existing session:', session.user.email);
         this.currentUser = session.user;
         this.notifyAuthListeners('INITIAL_SESSION', session);
-      } else {
-        console.log('❌ No existing session found');
       }
 
-      // Check database schema
-      console.log('🔍 Checking database schema...');
-      await window.SupabaseClient.checkDatabaseSchema();
-      await window.SupabaseClient.testUserCreation();
-
       this.initialized = true;
-      console.log('✅ AuthManager initialized successfully');
     } catch (error) {
       console.error('❌ Failed to initialize AuthManager:', error);
       throw error;
@@ -66,7 +50,6 @@ class AuthManager {
    * @private
    */
   handleAuthStateChange(event, session) {
-    console.log('🔄 Auth state changed:', event, session?.user?.email);
     
     switch (event) {
       case 'SIGNED_IN':
@@ -94,27 +77,17 @@ class AuthManager {
    * @returns {Promise<Object>} Auth result
    */
   async signInWithGoogle(options = {}) {
-    console.log('🔄 signInWithGoogle called with options:', options);
-    console.log('🔄 Current window location:', window.location.origin);
-    
     try {
-      console.log('🔄 About to call supabase.auth.signInWithOAuth...');
-      
       const { data, error } = await this.supabase.auth.signInWithOAuth({
         provider: 'google',
-        options: {
-          ...options
-        }
+        options: { ...options }
       });
-
-      console.log('🔄 signInWithOAuth returned:', { data, error });
 
       if (error) {
         console.error('❌ OAuth error:', error);
         throw error;
       }
 
-      console.log('✅ OAuth success:', data);
       return { success: true, data };
     } catch (error) {
       console.error('❌ Google sign in failed:', error);

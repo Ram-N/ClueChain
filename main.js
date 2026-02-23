@@ -1,5 +1,5 @@
 // Main entry point for ParaSight
-import { initializeGame } from "./js/game-controller.js?v=1.1";
+import { initializeGame, getAvailableDates } from "./js/game-controller.js?v=1.1";
 import { setupHelpButton } from "./assets/js/help-modal.js";
 
 // Initialize the game when the window loads
@@ -80,70 +80,73 @@ window.onload = async () => {
   
   // Days with content - we'll fetch this from our data later
   const daysWithContent = [];
-  
-  // Fetch the paragraphs to find dates with content
-  async function fetchContentDates() {
-    try {
-      // First try to fetch the index file
-      const indexResponse = await fetch("./assets/data/index.json");
-      
-      if (!indexResponse.ok) {
-        console.error("Failed to load index.json");
-        return;
-      }
-      
-      const indexData = await indexResponse.json();
-      const dataFiles = indexData.files || [];
-      
-      // Fetch all data files in parallel
-      const paragraphsData = await Promise.all(
-        dataFiles.map(file => 
-          fetch(file)
-            .then(response => response.json())
-            .catch(error => {
-              console.error(`Error loading ${file}:`, error);
-              return null;
-            })
-        )
-      );
-      
-      // Extract dates from all paragraphs
-      // For MM-DD format, store just the MM-DD part for year-agnostic matching
-      paragraphsData.forEach(paragraph => {
-        if (paragraph && paragraph.date) {
-          try {
-            // Handle MM-DD format (year-agnostic)
-            if (paragraph.date.match(/^\d{2}-\d{2}$/)) {
-              // MM-DD format - store just the MM-DD for year-agnostic matching
-              daysWithContent.push(paragraph.date);
-              console.log(`Added content date: ${paragraph.date} (year-agnostic), Title: ${paragraph.title?.substring(0, 30) || 'Unknown'}...`);
-            } else {
-              // Legacy YYYY-MM-DD format - store as-is
-              daysWithContent.push(paragraph.date);
-              console.log(`Added content date: ${paragraph.date}, Title: ${paragraph.title?.substring(0, 30) || 'Unknown'}...`);
-            }
-          } catch (error) {
-            console.error(`Error parsing date from paragraph: ${paragraph.date}`, error);
-          }
-        }
-      });
-      
-      // Update calendar to show days with content
-      if (customCalendar.classList.contains("show")) {
-        renderCalendarDays();
-      }
-    } catch (error) {
-      console.error("Error fetching content dates:", error);
+
+  // Play history: "YYYY-MM-DD" → score (populated when calendar opens)
+  let playedDates = {};
+
+  async function loadPlayHistory() {
+    if (!window.authManager || !window.authManager.isAuthenticated()) return;
+    const result = await window.streakTracker.getActivityHistory({ limit: 365 });
+    if (!result.success) {
+      console.error('❌ Failed to load play history:', result.error);
+      return;
     }
+    playedDates = {};
+    result.activities.forEach(a => {
+      const pct = a.max_possible_score > 0
+        ? Math.round((a.score / a.max_possible_score) * 100)
+        : a.score;
+      playedDates[a.activity_date] = pct;
+    });
+  }
+
+  function getScoreDotClass(score) {
+    if (score >= 80) return "played-green";
+    if (score >= 50) return "played-yellow";
+    return "played-red";
+  }
+  
+  // Build content dates from the already-loaded index (no network requests needed)
+  function buildContentDates() {
+    const files = getAvailableDates();
+    files.forEach(file => {
+      const m = file.match(/\/(\d{2}-\d{2})-/);
+      if (m) daysWithContent.push(m[1]);
+    });
+  }
+
+  // Load a specific date's puzzle file and reinitialize the game
+  async function loadParagraphForDate(mmDD) {
+    const files = getAvailableDates();
+    const targetFile = files.find(file => file.includes(`/assets/data/${mmDD}-`));
+    if (!targetFile) {
+      console.log(`No puzzle file found for ${mmDD}`);
+      initializeGame();
+      return;
+    }
+    // The game-controller reads the date display element to pick the file;
+    // updateDateDisplay already set it before this call, so just reinitialize.
+    initializeGame();
   }
   
   // Function to generate and render calendar days
   function renderCalendarDays() {
     calendarDaysContainer.innerHTML = "";
-    
+
     // Update month and year display
     monthYearDisplay.textContent = new Date(calendarCurrentYear, calendarCurrentMonth, 1)
       .toLocaleDateString("en-US", { month: "long", year: "numeric" });
+
+    // Enforce 60-day history window
+    const minDate = new Date();
+    minDate.setDate(minDate.getDate() - 60);
+    const minDateStr = `${minDate.getFullYear()}-${String(minDate.getMonth() + 1).padStart(2, '0')}-${String(minDate.getDate()).padStart(2, '0')}`;
+    const minYear = minDate.getFullYear();
+    const minMonth = minDate.getMonth();
+    if (prevMonthBtn) {
+      prevMonthBtn.disabled = (calendarCurrentYear < minYear) ||
+        (calendarCurrentYear === minYear && calendarCurrentMonth <= minMonth);
+    }
     
     // Get the first day of the month
     const firstDay = new Date(calendarCurrentYear, calendarCurrentMonth, 1);
@@ -171,8 +174,9 @@ window.onload = async () => {
       dayElement.textContent = day;
       
       // Format this calendar day as YYYY-MM-DD for comparison
+      // Use local date parts directly to avoid UTC timezone shift
       const thisDate = new Date(calendarCurrentYear, calendarCurrentMonth, day);
-      const thisDateStr = thisDate.toISOString().split('T')[0];
+      const thisDateStr = `${calendarCurrentYear}-${String(calendarCurrentMonth + 1).padStart(2, '0')}-${String(day).padStart(2, '0')}`;
       
       // Add special classes
       if (thisDateStr === selectedDateStr) {
@@ -183,8 +187,9 @@ window.onload = async () => {
         dayElement.classList.add("today");
       }
       
-      // Check if this date is in the future
+      // Check if this date is in the future or too old (outside 60-day window)
       const isFutureDate = thisDateStr > todayDateStr;
+      const isTooOld = thisDateStr < minDateStr;
 
       // Extract MM-DD from this date for year-agnostic matching
       const mmDD = thisDateStr.substring(5); // Get MM-DD from YYYY-MM-DD
@@ -193,53 +198,41 @@ window.onload = async () => {
       // Check both full date (YYYY-MM-DD) and year-agnostic (MM-DD)
       if (daysWithContent.includes(thisDateStr) || daysWithContent.includes(mmDD)) {
         dayElement.classList.add("has-content");
-        
+
         // If it's a future date, disable it
         if (isFutureDate) {
           dayElement.classList.add("future-date");
           dayElement.title = "Cannot access future dates";
+        } else if (isTooOld) {
+          dayElement.classList.add("too-old");
+          dayElement.title = "Only the last 60 days are available";
         } else {
           // Add click handler to select date (only for dates with content and not in future)
           dayElement.addEventListener("click", () => {
           // More comprehensive check if game is in progress
-          const isGameInProgress = document.querySelectorAll('#clues-list li.found').length > 0 || 
+          const isGameInProgress = document.querySelectorAll('#clues-list li.found').length > 0 ||
                                    document.querySelectorAll('.letter-tile.purchased').length > 0 ||
                                    document.querySelectorAll('.letter-tile.selected').length > 0;
-          
+
+          const clickedMmDD = `${String(calendarCurrentMonth + 1).padStart(2, '0')}-${String(day).padStart(2, '0')}`;
+
           if (isGameInProgress) {
             // Ask for confirmation before changing date and resetting game
             if (confirm("Changing the date will reset your current game progress. Continue?")) {
-              // Update current date and display
               currentDate = new Date(calendarCurrentYear, calendarCurrentMonth, day);
               updateDateDisplay(currentDate);
-              
-              // Log the selected date for debugging
               console.log(`Selected date: ${currentDate.toISOString().split('T')[0]}`);
-              
-              // Hide calendar
               customCalendar.classList.remove("show");
-              
-              // Reinitialize game with new date
-              initializeGame();
-              
-              // Update arrow states after date change
+              loadParagraphForDate(clickedMmDD);
               updateArrowStates();
             }
           } else {
             // No game in progress, proceed without confirmation
             currentDate = new Date(calendarCurrentYear, calendarCurrentMonth, day);
             updateDateDisplay(currentDate);
-            
-            // Log the selected date for debugging
             console.log(`Selected date: ${currentDate.toISOString().split('T')[0]}`);
-            
-            // Hide calendar
             customCalendar.classList.remove("show");
-            
-            // Reinitialize game with new date
-            initializeGame();
-            
-            // Update arrow states after date change
+            loadParagraphForDate(clickedMmDD);
             updateArrowStates();
           }
         });
@@ -249,10 +242,19 @@ window.onload = async () => {
         dayElement.classList.add("no-content");
       }
       
+      // Inject score dot for played days (authenticated users only)
+      if (playedDates.hasOwnProperty(thisDateStr)) {
+        const score = playedDates[thisDateStr];
+        const dot = document.createElement("span");
+        dot.className = "score-dot " + getScoreDotClass(score);
+        dayElement.appendChild(dot);
+        dayElement.title = `Score: ${score}/100`;
+      }
+
       calendarDaysContainer.appendChild(dayElement);
     }
   }
-  
+
   // Function to show/hide calendar
   function toggleCalendar() {
     const isVisible = customCalendar.classList.toggle("show");
@@ -262,10 +264,12 @@ window.onload = async () => {
       calendarCurrentMonth = currentDate.getMonth();
       calendarCurrentYear = currentDate.getFullYear();
       renderCalendarDays();
+      loadPlayHistory().then(() => renderCalendarDays());
       
-      // Fetch content dates if we haven't already
+      // Build content dates from already-loaded index (no network requests)
       if (daysWithContent.length === 0) {
-        fetchContentDates();
+        buildContentDates();
+        renderCalendarDays();
       }
       
       // Add click outside to close
@@ -318,8 +322,6 @@ window.onload = async () => {
       });
     }
     
-    // Initialize content dates
-    fetchContentDates();
   }
 
   // Helper function to check if a date is today or in the future

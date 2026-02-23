@@ -133,6 +133,7 @@ export const gameState = {
     parameters: null, // Game rules like penalties
     paragraphs: null, // All available game content
     suffixes: null, // Suffix configuration for progressive reveal
+    availableDates: [], // File path array from index.json (for calendar use)
   },
 };
 
@@ -358,6 +359,22 @@ export function setAllParagraphs(paragraphs) {
  */
 export function setSuffixConfig(suffixConfig) {
   gameState.config.suffixes = suffixConfig;
+}
+
+/**
+ * Gets the list of available puzzle file paths (from index.json)
+ * @returns {string[]} Array of file paths
+ */
+export function getAvailableDates() {
+  return gameState.config.availableDates;
+}
+
+/**
+ * Sets the list of available puzzle file paths (from index.json)
+ * @param {string[]} files - Array of file paths
+ */
+export function setAvailableDates(files) {
+  gameState.config.availableDates = files;
 }
 
 /**

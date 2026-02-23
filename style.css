@@ -1397,6 +1397,13 @@ button:hover {
   background-color: rgba(74, 144, 226, 0.1);
 }
 
+.month-nav:disabled {
+  color: #ccc;
+  cursor: default;
+  opacity: 0.3;
+  pointer-events: none;
+}
+
 .weekdays {
   display: grid;
   grid-template-columns: repeat(7, 1fr);
@@ -1437,6 +1444,20 @@ button:hover {
   box-sizing: border-box;
   border-radius: 50%;
 }
+
+.score-dot {
+  display: block;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 3px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.score-dot.played-green  { background: #4caf50; }
+.score-dot.played-yellow { background: #ffc107; }
+.score-dot.played-red    { background: #f44336; }
 
 .calendar-day:hover:not(.empty):not(.selected) {
   background-color: rgba(74, 144, 226, 0.1);
@@ -1521,6 +1542,21 @@ button:hover {
 }
 
 .calendar-day.no-content:hover {
+  background-color: transparent;
+}
+
+/* Style for dates outside the 60-day window */
+.calendar-day.too-old {
+  color: #ccc;
+  cursor: default;
+  pointer-events: none;
+}
+
+.calendar-day.too-old::before {
+  display: none;
+}
+
+.calendar-day.too-old:hover {
   background-color: transparent;
 }
 

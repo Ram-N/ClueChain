@@ -71,7 +71,6 @@ class AuthUI {
    * @private
    */
   handleAuthStateChange(event, data) {
-    console.log('🔄 AuthUI received auth state change:', event, data?.user?.email);
     
     switch (event) {
       case 'SIGNED_IN':
@@ -105,23 +104,14 @@ class AuthUI {
       return;
     }
 
-    // Double-check auth state from auth manager
     const authManagerUser = window.authManager.getCurrentUser();
     const isAuthenticated = window.authManager.isAuthenticated();
 
-    console.log('🔄 Updating auth UI. Current user:', this.currentUser);
-    console.log('🔄 Auth manager user:', authManagerUser);
-    console.log('🔄 Is authenticated:', isAuthenticated);
-
-    // GUEST MODE: Always show game content, show different UI based on auth state
-    // This allows users to play without signing in
     if (isAuthenticated && authManagerUser) {
       this.currentUser = authManagerUser;
-      console.log('✅ User is authenticated, rendering authenticated UI');
       this.renderAuthenticatedUI();
     } else {
       this.currentUser = null;
-      console.log('👤 User is guest, rendering guest UI');
       this.renderGuestUI();
     }
 
@@ -216,7 +206,7 @@ class AuthUI {
           <button class="menu-dots" id="user-menu-btn">⋯</button>
           <div class="menu-dropdown" id="user-menu-dropdown">
             <button class="menu-item" id="sign-out-btn">Sign Out</button>
-            <button class="menu-item" id="stats-btn">Stats</button>
+            <button class="menu-item" id="stats-btn">History</button>
           </div>
         </div>
       </div>
@@ -265,7 +255,6 @@ class AuthUI {
    * @private
    */
   renderUnauthenticatedUI() {
-    console.log('🔄 Rendering unauthenticated UI');
     
     // Create button element programmatically
     const button = document.createElement('button');
@@ -283,21 +272,10 @@ class AuthUI {
       Sign in with Google
     `;
     
-    // Add event listener directly to the button
     button.addEventListener('click', (e) => {
-      console.log('🔄 Direct button click handler triggered!', e);
-      console.log('🔄 Event target:', e.target);
-      console.log('🔄 Event currentTarget:', e.currentTarget);
-      console.log('🔄 Event type:', e.type);
-      
       e.preventDefault();
       e.stopPropagation();
       e.stopImmediatePropagation();
-      
-      // Log to console instead of alert
-      console.log('🔄 Button clicked! Starting auth flow...');
-      
-      // Call handleSignIn but catch any errors
       try {
         this.handleSignIn();
       } catch (error) {
@@ -305,12 +283,9 @@ class AuthUI {
       }
       return false;
     });
-    
-    // Clear container and add button
+
     this.authContainer.innerHTML = '';
     this.authContainer.appendChild(button);
-    
-    console.log('🔄 Button created and added to container');
   }
 
   /**
@@ -343,10 +318,11 @@ class AuthUI {
       });
     }
 
-    // Stats (placeholder)
+    // History — opens the calendar
     if (statsBtn) {
       statsBtn.addEventListener('click', () => {
-        alert('Stats feature coming soon!');
+        const calendarBtn = document.getElementById('calendar-button');
+        if (calendarBtn) calendarBtn.click();
       });
     }
   }
@@ -356,49 +332,17 @@ class AuthUI {
    * @private
    */
   setupUnauthenticatedEventListeners() {
-    console.log('🔄 Setting up unauthenticated event listeners');
-    
-    // Use setTimeout to ensure DOM is ready
     setTimeout(() => {
       const signInBtn = document.getElementById('sign-in-btn');
-      console.log('🔄 Sign in button found:', signInBtn);
-      
       if (signInBtn) {
-        // Remove any existing event listeners
         signInBtn.onclick = null;
-        
-        // Add click event listener with capture phase
         signInBtn.addEventListener('click', (e) => {
-          console.log('🔄 Sign in button clicked!', e);
           e.preventDefault();
           e.stopPropagation();
           e.stopImmediatePropagation();
           this.handleSignIn();
           return false;
         }, true);
-        
-        // Also add as onclick handler as backup
-        signInBtn.onclick = (e) => {
-          console.log('🔄 Sign in button onclick!', e);
-          e.preventDefault();
-          e.stopPropagation();
-          this.handleSignIn();
-          return false;
-        };
-        
-        signInBtn.addEventListener('mousedown', () => {
-          console.log('🔄 Sign in button mousedown!');
-        });
-        
-        // Test if button is actually clickable
-        setTimeout(() => {
-          console.log('🔄 Testing button clickability...');
-          const buttonRect = signInBtn.getBoundingClientRect();
-          console.log('🔄 Button position:', buttonRect);
-          console.log('🔄 Button style:', window.getComputedStyle(signInBtn));
-        }, 1000);
-      } else {
-        console.error('❌ Sign in button not found!');
       }
     }, 100);
   }
@@ -408,13 +352,9 @@ class AuthUI {
    * @returns {Object} Current auth status
    */
   async checkAuthStatus() {
-    console.log('🔄 Checking authentication status...');
     const session = await window.authManager.getCurrentSession();
-    console.log('🔄 Current session:', session);
     const user = window.authManager.getCurrentUser();
-    console.log('🔄 Current user:', user);
     const isAuthenticated = window.authManager.isAuthenticated();
-    console.log('🔄 Is authenticated:', isAuthenticated);
     return { session, user, isAuthenticated };
   }
 
@@ -423,30 +363,19 @@ class AuthUI {
    * @private
    */
   async handleSignIn() {
-    console.log('🔄 handleSignIn called');
-    
     try {
-      // First check if we're already authenticated
-      console.log('🔄 Checking auth status...');
-      await this.checkAuthStatus();
-      
       const signInBtn = document.getElementById('sign-in-btn');
       if (signInBtn) {
         signInBtn.disabled = true;
         signInBtn.innerHTML = '<span>Signing in...</span>';
       }
 
-      console.log('🔄 About to call signInWithGoogle...');
-      console.log('🔄 Auth manager available:', !!window.authManager);
-      
       if (!window.authManager) {
         throw new Error('Auth manager not available');
       }
-      
-      console.log('🔄 Calling signInWithGoogle...');
+
       const result = await window.authManager.signInWithGoogle();
-      console.log('🔄 SignInWithGoogle result:', result);
-      
+
       if (!result.success) {
         console.error('❌ Sign in failed:', result.error);
         this.showAuthError('Sign in failed. Please try again.');

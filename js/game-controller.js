@@ -16,6 +16,8 @@ import {
   setGameParameters,
   setAllParagraphs,
   setSuffixConfig,
+  getAvailableDates,
+  setAvailableDates,
   isInitPhase,
   isSelectionComplete,
   revealSelectedLetters,
@@ -359,100 +361,73 @@ export async function initializeGame() {
     
     console.log("Loaded suffix configuration:", suffixConfig);
 
-    // Load all JSON files from assets/data directory
+    // Load index.json to get the file list (needed for calendar availability)
     const dataFiles = await fetch("./assets/data/index.json")
       .then(response => {
         if (response.ok) {
-          // If index.json exists, use it to get the list of files
           return response.json();
         } else {
-          // Otherwise, we'll rely on our glob detection at build time
           console.error("Error: index.json not found in assets/data directory");
-          // Return an empty array, as the data structure has changed
           return { files: [] };
         }
       })
       .then(data => data.files || []);
 
-    // Fetch all data files in parallel
-    const paragraphsData = await Promise.all(
-      dataFiles.map(file => 
-        fetch(file)
-          .then(response => {
-            if (!response.ok) {
-              throw new Error(`HTTP error ${response.status} while loading ${file}`);
-            }
-            return response.json();
-          })
-          .catch(error => {
-            console.error(`Error loading ${file}:`, error);
-            // Log more details about the file to help with debugging
-            console.warn(`Failed to load data file: ${file}. Please check that the file exists and is valid JSON.`);
-            return null;
-          })
-      )
-    );
+    // Store file list for calendar use (no extra fetches needed)
+    setAvailableDates(dataFiles);
 
-    // Filter out any failed loads and combine all paragraphs
-    const allParagraphs = paragraphsData
-      .filter(data => data !== null)
-      .map(data => ({
-        id: data.id,
-        date: data.date,
-        title: data.title,
-        text: data.text,
-        hiddenWords: data.hiddenWords
-      }));
-
-    // Check if we have valid game data
-    if (!allParagraphs || !Array.isArray(allParagraphs) || allParagraphs.length === 0) {
-      throw new Error("No valid paragraph data found in data files");
+    // Determine today's MM-DD to find the matching file
+    const dateElement = document.getElementById("current-date");
+    const currentDateStr = dateElement ? dateElement.textContent : null;
+    let targetMmDD = null;
+    if (currentDateStr) {
+      try {
+        const d = new Date(currentDateStr);
+        targetMmDD = `${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+      } catch (e) {
+        console.error("Error parsing date for file lookup:", e);
+      }
     }
 
-    console.log(`Loaded ${allParagraphs.length} paragraphs from data files`);
-    
-    // Log loaded paragraphs for debugging
-    allParagraphs.forEach(paragraph => {
-      console.log(`Loaded paragraph: ID=${paragraph.id}, Date=${paragraph.date}, Title=${paragraph.title?.substring(0, 30)}...`);
-    });
+    // Find the matching file in the index by MM-DD prefix
+    const targetFile = targetMmDD
+      ? dataFiles.find(file => file.includes(`/assets/data/${targetMmDD}-`))
+      : null;
+
+    let allParagraphs = [];
+    if (targetFile) {
+      // Fetch only today's puzzle file
+      const data = await fetch(targetFile)
+        .then(response => {
+          if (!response.ok) throw new Error(`HTTP error ${response.status} while loading ${targetFile}`);
+          return response.json();
+        })
+        .catch(error => {
+          console.error(`Error loading ${targetFile}:`, error);
+          return null;
+        });
+
+      if (data) {
+        allParagraphs = [{
+          id: data.id,
+          date: data.date,
+          title: data.title,
+          text: data.text,
+          hiddenWords: data.hiddenWords
+        }];
+        console.log(`Loaded puzzle for ${targetMmDD}: ${data.title?.substring(0, 40)}`);
+      }
+    } else {
+      console.log(`No puzzle file found for date: ${targetMmDD}`);
+    }
 
     // Initialize game state
     setGameParameters(params);
     setAllParagraphs(allParagraphs);
     setSuffixConfig(suffixConfig);
 
-    // Get the current date from the date element
-    const dateElement = document.getElementById("current-date");
-    const currentDateStr = dateElement ? dateElement.textContent : null;
-    let selectedParagraph = null;
-
-    if (currentDateStr) {
-      try {
-        // Parse the displayed date string to a Date object
-        const currentDate = new Date(currentDateStr);
-
-        // Format date as MM-DD (year-agnostic)
-        const month = String(currentDate.getMonth() + 1).padStart(2, '0');
-        const day = String(currentDate.getDate()).padStart(2, '0');
-        const formattedDate = `${month}-${day}`;
-
-        console.log(`Looking for paragraph with date: ${formattedDate}`);
-
-        // Find paragraph matching MM-DD format
-        selectedParagraph = allParagraphs.find(paragraph => {
-          if (!paragraph || !paragraph.date) return false;
-          return paragraph.date === formattedDate;
-        });
-
-        if (selectedParagraph) {
-          console.log(`Found matching paragraph for date: ${formattedDate}`);
-        } else {
-          console.log(`No paragraph found for date: ${formattedDate}`);
-        }
-      } catch (error) {
-        console.error("Error parsing date:", error);
-      }
-    }
+    // The targeted fetch above already narrowed allParagraphs to the one matching date
+    const selectedParagraph = allParagraphs.length > 0 ? allParagraphs[0] : null;
     
     // If no paragraph found for the current date, handle appropriately
     if (!selectedParagraph) {
@@ -574,3 +549,6 @@ export async function initializeGame() {
     }
   }
 }
+
+// Re-export for use in main.js
+export { getAvailableDates } from "./game-state.js?v=1.1";
