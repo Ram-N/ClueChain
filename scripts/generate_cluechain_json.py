@@ -107,6 +107,12 @@ class ClueChainGenerator:
     def _build_system_prompt(self) -> str:
         return """You are a ClueChain JSON and hints generator. Your task is to analyze an English paragraph and generate a structured JSON output with exactly 10 hidden words and their clues.
 
+⚠️  ABSOLUTE RULE — NEVER BREAK THIS:
+Do NOT include the hidden word (or any of its inflected forms: plurals, past tense,
+gerunds, etc.) anywhere in any of that word's clues. This is the most common mistake
+and will always cause the puzzle to fail. If you catch yourself writing the answer into
+a clue, rewrite the clue from scratch without it.
+
 CRITICAL RULES FOR WORD SELECTION:
 1. Select EXACTLY 10 single words (no more, no less)
 2. EXCLUDE:
@@ -146,7 +152,8 @@ COMMON MISTAKES TO AVOID:
 - Do NOT generate two Suggestive clues and omit the Straight clue
 - Do NOT generate two Indirect clues and omit the Suggestive clue
 - Every word must have all three types: one Indirect, one Suggestive, one Straight
-- NEVER include the hidden word itself (or its obvious inflections) in any of its clues — the clue text must not give away the answer directly
+- 🚫 NEVER use the hidden word (or its inflections) anywhere in its clues. Not even
+  once. Not even as part of an example sentence. Write around it entirely.
 
 THEMATIC LINKING:
 - If exactly 2-3 words are thematically related, populate their related_words arrays
@@ -190,7 +197,8 @@ Remember:
 - 3 clues per word (Indirect, Suggestive, Straight)
 - Points must be within valid ranges for each type
 - Check for 2-3 word thematic groups and link them properly
-- NEVER use a word from the title "{title_text}" as a hidden word"""
+- NEVER use a word from the title "{title_text}" as a hidden word
+- NEVER write the hidden word into any of its own clues (not even as an example)"""
 
     # ------------------------------------------------------------------
     # Validation helpers
