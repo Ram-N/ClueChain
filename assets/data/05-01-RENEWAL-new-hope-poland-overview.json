@@ -1,0 +1,237 @@
+{
+  "title": "New Hope (Poland) — Overview",
+  "date": "05-01",
+  "text": "The New Hope (Polish: Nowa Nadzieja [ˈnova naˈd͡ʑɛ.ja], NN) is a far-right political party in Poland and member of Confederation. As of 2024, it is led by Sławomir Mentzen. Founded in 2015 by Janusz Korwin-Mikke as a result of his removal from the Congress of the New Right, his former party, it was initially called Coalition for the Renewal of the Republic of Liberty and Hope (Koalicja Odnowy Rzeczypospolitej Wolność i Nadzieja) and then subsequently Confederation for the Renewal of the Republic of Liberty and Hope (Konfederacja Odnowy Rzeczypospolitej Wolność i Nadzieja), both backronym to KORWiN or sometimes shortened to Liberty (Wolność). Among the party's other members are Przemysław Wipler, who held a seat in the Polish Sejm, and Robert Iwaszkiewicz, Member of the European Parliament. The party's Polish name was originally a backronym of the founder's name Korwin-Mikke, who took part in the 2015 presidential election.",
+  "hiddenWords": [
+    {
+      "word": "party",
+      "difficulty": "Easy",
+      "related_words": [
+        "member",
+        "election"
+      ],
+      "clues": [
+        {
+          "clue": "A group of people with a common goal, often in politics",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "It can be far-right or far-left, influencing the nation's decisions",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Imagine a gathering of like-minded individuals, what do you call it?",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "word": "member",
+      "difficulty": "Easy",
+      "related_words": [
+        "party",
+        "election"
+      ],
+      "clues": [
+        {
+          "clue": "Someone who belongs to a group or organization",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "A person who participates in a particular activity or has a certain role",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Think of a person who has a specific role within a larger whole",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "word": "election",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "party",
+        "member"
+      ],
+      "clues": [
+        {
+          "clue": "A process of choosing a leader or representative",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "It's a time when citizens exercise their right to vote",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Consider a situation where people choose their next leader, what's it called?",
+          "type": "Indirect",
+          "points": 7
+        }
+      ]
+    },
+    {
+      "word": "republic",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A system of government where power is held by the people",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "It's a form of government where citizens have the right to participate",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Imagine a nation where the people have a say in how they're governed",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "word": "liberty",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The state of being free from oppression or constraint",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "It's a fundamental human right, essential for a healthy society",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Think of a concept that's closely tied to freedom and autonomy",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "word": "coalition",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A group of people or organizations working together",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "It's a temporary alliance formed to achieve a common goal",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Consider a situation where different groups unite for a shared purpose",
+          "type": "Indirect",
+          "points": 7
+        }
+      ]
+    },
+    {
+      "word": "confederation",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A loose association of groups or states",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "It's a union of organizations or nations with a common interest",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Imagine a loose alliance of groups working together for a common cause",
+          "type": "Indirect",
+          "points": 7
+        }
+      ]
+    },
+    {
+      "word": "parliament",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A legislative body of a country or state",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "It's a gathering of representatives who make laws for a nation",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Think of a group of elected officials who create and pass laws",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "word": "presidential",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Relating to a president or the office of president",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "It's a term used to describe the leader of a country or organization",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Consider a title given to the head of state in some countries",
+          "type": "Indirect",
+          "points": 7
+        }
+      ]
+    },
+    {
+      "word": "renewal",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The act of making something new or restoring it",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "It's a process of revitalizing or rejuvenating something",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Imagine a transformation that brings new life to something",
+          "type": "Indirect",
+          "points": 7
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-05-01"
+}

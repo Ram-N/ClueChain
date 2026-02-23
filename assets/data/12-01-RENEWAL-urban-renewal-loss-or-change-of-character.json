@@ -1,0 +1,246 @@
+{
+  "title": "Urban renewal — Loss or change of character",
+  "date": "12-01",
+  "text": "Title: Urban renewal — Loss or change of character\n\nIn the politics of urban renewal, the state ultimately decides what is important to a city based on its own narrative and existing market conditions, and introduces elements which reflect these values, replacing the infrastructure and character of older city cores. This can have knock-on effects on society and culture more broadly. Professor Kenneth Paul Tan writes that Singapore's self-image of having succeeded against all odds has led to strong pressure to pursue progress and development regardless of the destructive cost, postulating that Singapore's \"culture of comfort and affluence\" has developed in order to cope with people's repeated loss of their sense of place, redirecting their desires from \"community\" towards \"economic progress, upward mobility, affluent and convenient lifestyles and a ‘world-class’ city.\"",
+  "hiddenWords": [
+    {
+      "word": "narrative",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "It's the story that's told, but not always the truth.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A sequence of events that are connected and make sense.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A story or account of events.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "infrastructure",
+      "difficulty": "Hard",
+      "related_words": [
+        "development",
+        "progress"
+      ],
+      "clues": [
+        {
+          "clue": "The backbone of a city, without which it would collapse.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "The basic systems and structures needed for a country or organization to function.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "The underlying foundation of a system or organization.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "culture",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "community",
+        "affluence"
+      ],
+      "clues": [
+        {
+          "clue": "A delicate balance of customs and traditions.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "The social behavior, norms, and values of a particular group.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The customs and beliefs of a society.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "community",
+      "difficulty": "Easy",
+      "related_words": [
+        "culture",
+        "affluence"
+      ],
+      "clues": [
+        {
+          "clue": "A group of people with a shared interest or goal.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A social unit with commonalities and shared values.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A group of people living in the same area.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "development",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "infrastructure",
+        "progress"
+      ],
+      "clues": [
+        {
+          "clue": "The process of becoming more advanced or sophisticated.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "The act of creating or improving something.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The process of growing or becoming more advanced.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "progress",
+      "difficulty": "Hard",
+      "related_words": [
+        "infrastructure",
+        "development"
+      ],
+      "clues": [
+        {
+          "clue": "The journey forward, with each step leading to a new destination.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "The act of moving forward or advancing.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "The process of becoming more advanced or improved.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "affluence",
+      "difficulty": "Hard",
+      "related_words": [
+        "culture",
+        "community"
+      ],
+      "clues": [
+        {
+          "clue": "A state of being wealthy or having a lot of money.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A condition of having a lot of money or material possessions.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Wealth or a wealthy state.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "lifestyles",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The way people live, including their habits and customs.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A person's way of living, including their habits and preferences.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A person's style of living.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "postulating",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "To assume or suggest something as a basis for reasoning or argument.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "To propose or suggest an idea or theory.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "To assume or propose something as true.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "mobility",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The ability to move or be moved freely.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "The state of being able to move or change position easily.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The ability to move or change position.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-12-01"
+}

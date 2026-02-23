@@ -1,0 +1,237 @@
+{
+  "title": "JD Vance \u2014 Zelenskyy White House visit",
+  "date": "04-01",
+  "text": "On February 28, 2025, Vance and Trump met Ukrainian President Volodymyr Zelenskyy in the White House's Oval Office in front of journalists in an internationally broadcast event. Vance was mostly quiet for the meeting's first 40 minutes, but then interjected to answer a question about Trump's relationship with Russian President Vladimir Putin. Vance told Zelenskyy: \"The path to peace and the path to prosperity is maybe engaging in diplomacy ... What makes America a good country is America engaging in diplomacy. That's what President Trump is doing.\" Zelenskyy responded that Putin had not abided by a ceasefire and prisoner exchange agreement with Ukraine, and asked Vance, \"What kind of diplomacy, JD, you are speaking about?\"",
+  "hiddenWords": [
+    {
+      "word": "broadcast",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A message sent to many people at the same time",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "It's how news travels far and wide, a modern town crier",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "This term is often associated with television or radio",
+          "type": "Suggestive",
+          "points": 3
+        }
+      ]
+    },
+    {
+      "word": "diplomacy",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "agreement",
+        "ceasefire"
+      ],
+      "clues": [
+        {
+          "clue": "The art of dealing with people in a sensitive and tactful way",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "The art of managing international relations through negotiation and tact.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "This term is often used in the context of international relations",
+          "type": "Suggestive",
+          "points": 4
+        }
+      ]
+    },
+    {
+      "word": "agreement",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "diplomacy",
+        "ceasefire"
+      ],
+      "clues": [
+        {
+          "clue": "A mutual understanding between parties",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "Shaking hands can seal this, but breaking it can lead to strife",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "This term is often used in business and politics",
+          "type": "Suggestive",
+          "points": 3
+        }
+      ]
+    },
+    {
+      "word": "ceasefire",
+      "difficulty": "Hard",
+      "related_words": [
+        "diplomacy",
+        "agreement"
+      ],
+      "clues": [
+        {
+          "clue": "A temporary stop to fighting",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "In the silence of this, hope for peace can be heard",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "This term is often used in the context of war and conflict",
+          "type": "Suggestive",
+          "points": 4
+        }
+      ]
+    },
+    {
+      "word": "prosperity",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The state of being successful and wealthy",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "A rising tide lifts all boats, leading to this",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "This term is often associated with economic growth",
+          "type": "Suggestive",
+          "points": 3
+        }
+      ]
+    },
+    {
+      "word": "internationally",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Across national borders",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "The world is a stage, and this is how it's played",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "This term is often used to describe global events or issues",
+          "type": "Suggestive",
+          "points": 4
+        }
+      ]
+    },
+    {
+      "word": "journalists",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "People who write or broadcast news",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "They seek the truth, but sometimes find controversy",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "This term is often associated with news and media",
+          "type": "Suggestive",
+          "points": 3
+        }
+      ]
+    },
+    {
+      "word": "president",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The head of a country or organization",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "A figure of power, but also of great responsibility",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "This term is often used in politics and government",
+          "type": "Suggestive",
+          "points": 3
+        }
+      ]
+    },
+    {
+      "word": "relationship",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A connection between people or things",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "A delicate dance of give and take, with steps that can be misread",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "This term is often used to describe personal or professional connections",
+          "type": "Suggestive",
+          "points": 4
+        }
+      ]
+    },
+    {
+      "word": "quiet",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Making little or no noise",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "In the stillness, one can hear their own thoughts",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "This term is often used to describe a peaceful or calm environment",
+          "type": "Suggestive",
+          "points": 3
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-04-01"
+}

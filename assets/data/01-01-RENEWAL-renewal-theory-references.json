@@ -1,0 +1,232 @@
+{
+  "title": "Renewal theory \u2014 References",
+  "date": "01-01",
+  "text": "Title: Renewal theory \u2014 References\n\nCox, David (1970). Renewal Theory. London: Methuen & Co. p. 142. ISBN 0-412-20570-X. Doob, J. L. (1948). \"Renewal Theory From the Point of View of the Theory of Probability\" (PDF). Transactions of the American Mathematical Society. 63 (3): 422\u2013438. doi:10.2307/1990567. JSTOR 1990567. Feller, William (1971). An introduction to probability theory and its applications. Vol. 2 (second ed.). Wiley. Grimmett, G. R.; Stirzaker, D. R. (1992). Probability and Random Processes (second ed.). Oxford University Press. ISBN 0-19-857222-0. Smith, Walter L. (1958). \"Renewal Theory and Its Ramifications\". Journal of the Royal Statistical Society, Series B. 20 (2): 243\u2013302. doi:10.1111/j.2517-6161.1958.tb00294.x. JSTOR 2983891. Wanli Wang, Johannes H. P. Schulz, Weihua Deng, and Eli Barkai (2018). \"Renewal theory with fat-tailed distributed sojourn times: Typical versus rare\". Phys. Rev. E. 98 (4) 042139. arXiv:1809.05856. Bibcode:2018PhRvE..98d2139W. doi:10.1103/PhysRevE.98.042139. S2CID 54727926.{{cite journal}}: CS1 maint: multiple names: authors list (link)",
+  "hiddenWords": [
+    {
+      "word": "probability",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A measure of how likely something is to happen, often used in games of chance.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "The number that describes the chance of an event, like flipping a coin.",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "Imagine a jar with different colored marbles, what's the chance of picking a red one?",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "word": "applications",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Practical uses of something, like a tool or a technique.",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "When a theory is used to solve real-world problems, that's an application.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Think of a hammer, it has many uses, but what's the word for all those uses?",
+          "type": "Indirect",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "word": "transactions",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Deals or exchanges, like buying or selling something.",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "When you buy something online, that's a type of transaction.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Imagine a store, what happens when you give money and get something in return?",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "word": "introduction",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A beginning or a start, like the first part of a book.",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "When you meet someone new, you introduce yourself, it's a way to start a relationship.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Think of a door, what do you call the part that welcomes you inside?",
+          "type": "Indirect",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "word": "processes",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "probability"
+      ],
+      "clues": [
+        {
+          "clue": "Series of actions or steps, like a recipe or a factory production line.",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "In science, a process can be a series of chemical reactions or a method of data analysis.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Imagine a factory, what's the word for all the steps it takes to make a product?",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "word": "society",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A group of people with similar interests or goals, like a club or an organization.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A group of people living together under shared norms, laws, and culture.",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "Imagine a big network of people, what's the word for that network?",
+          "type": "Indirect",
+          "points": 7
+        }
+      ]
+    },
+    {
+      "word": "ramifications",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Consequences or effects of something, like the results of a decision.",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "The wider consequences or effects that stem from a decision or event.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Think of a stone thrown into a lake, what happens to the water?",
+          "type": "Indirect",
+          "points": 7
+        }
+      ]
+    },
+    {
+      "word": "typical",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Normal or usual, like something you see every day.",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "Representing the usual or standard case; not exceptional or rare.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Imagine a day, what's the word for something that usually happens on that day?",
+          "type": "Indirect",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "word": "distributions",
+      "difficulty": "Hard",
+      "related_words": [
+        "probability"
+      ],
+      "clues": [
+        {
+          "clue": "Ways of spreading or allocating something, like a curve on a graph.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "In statistics, a distribution can describe how data is spread out.",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "Think of a map, what's the word for the way things are scattered across it?",
+          "type": "Indirect",
+          "points": 7
+        }
+      ]
+    },
+    {
+      "word": "editions",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Versions of a book or a publication, like a first edition or a second edition.",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "When a book is updated or revised, a new edition is released.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Imagine a bookshelf, what's the word for the different versions of a book on that shelf?",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-01-01"
+}
