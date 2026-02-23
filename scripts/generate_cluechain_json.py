@@ -271,7 +271,7 @@ Remember:
 
         for attempt in range(1, max_retries + 1):
             if attempt > 1:
-                print(f"   ↻ [{backend}] Retry {attempt}/{max_retries}...")
+                print(f"       ↻ Retry {attempt}/{max_retries}...")
 
             content = _call_llm(client, model, system_prompt, user_prompt)
             result  = json.loads(content)
@@ -283,7 +283,7 @@ Remember:
 
             violations = self._title_word_violations(result, title_text)
             if violations:
-                print(f"   ⚠️  Title-word violation: {violations} — retrying...")
+                print(f"       ⚠️  Title-word violation: {violations} — retrying...")
                 last_error = f"Hidden words contain title words: {violations}"
                 continue
 
@@ -309,7 +309,7 @@ Remember:
         title_text = title or "ClueChain Challenge"
         print(f"🚀 Generating ClueChain JSON...")
         print(f"   Title: {title_text}  |  Date: {date}  |  Backend: {self.backend}")
-        print(f"   Paragraph length: {len(paragraph)} characters\n")
+        print(f"   Paragraph length: {len(paragraph)} characters")
 
         try:
             return self._generate_with_backend(paragraph, title, date,
@@ -327,7 +327,7 @@ Remember:
                 )
 
             print(f"\n   ⚠️  Primary backend ({self.backend}) failed: {primary_err}")
-            print(f"   🔄 Falling back to {fallback} ({OPENROUTER_MODEL if fallback == 'openrouter' else GROQ_MODEL})...\n")
+            print(f"   🔄 Falling back to {fallback} ({OPENROUTER_MODEL if fallback == 'openrouter' else GROQ_MODEL})...")
 
             return self._generate_with_backend(paragraph, title, date,
                                                fallback, max_retries)
@@ -383,7 +383,7 @@ Remember:
                 print(f"  - {', '.join(group)}")
         else:
             print(f"\n🔗 Thematically Related Word Groups: None")
-        print("="*60 + "\n")
+        print("="*60)
 
 
 # ---------------------------------------------------------------------------
@@ -444,6 +444,9 @@ Examples:
         sys.exit(1)
 
     try:
+        import time
+        start_time = time.time()
+
         generator = ClueChainGenerator(
             groq_key=groq_key,
             openrouter_key=openrouter_key,
@@ -453,9 +456,13 @@ Examples:
 
         date        = args.date or datetime.now().strftime("%m-%d")
         output_file = generator.save_json(result, args.output, date, args.title)
+
+        duration = time.time() - start_time
+        print(f"✅     Generated: {output_file.name} ({duration:.1f}s)\n")
+
         generator.print_summary(result)
 
-        print(f"✅ JSON file saved to: {output_file}")
+        print(f"\n✅ JSON file saved to: {output_file}")
         print(f"\n💡 Tip: Validate with:")
         print(f"   python assets/data/json_validator.py {output_file}")
 

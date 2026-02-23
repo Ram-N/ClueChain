@@ -1,0 +1,232 @@
+{
+  "title": "Terminal (film) — Development",
+  "date": "05-03",
+  "text": "On 12 February 2016, it was announced that Margot Robbie would headline and produce a \"noir thriller\" written and directed by Vaughn Stein, through her production company LuckyChap Entertainment. Highland Film Group would be handling finance and introducing the project to international buyers in Berlin. Creative Artists Agency would handle domestic distribution sales in the United States. David Barron of Beagle Pug Films was also attached to the project as a producer. On 24 May 2016, Simon Pegg, Mike Myers, Max Irons and Dexter Fletcher joined the cast alongside Robbie. This film marks Mike Myers's first non-documentary film since 2012.",
+  "hiddenWords": [
+    {
+      "word": "thriller",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A genre of film that keeps you on the edge of your seat",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A type of movie that is exciting and suspenseful",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A film genre characterized by excitement and suspense",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "producer",
+      "difficulty": "Easy",
+      "related_words": [
+        "company"
+      ],
+      "clues": [
+        {
+          "clue": "The person behind the scenes making it all happen",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Someone responsible for overseeing a project",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A person who creates or manufactures something",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "company",
+      "difficulty": "Easy",
+      "related_words": [
+        "producer"
+      ],
+      "clues": [
+        {
+          "clue": "A group of people working together towards a common goal",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "An organization that produces goods or services",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A business or firm",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "finance",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The management of money and investments",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "The provision of funds for a project or business",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The handling of money matters",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "international",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Beyond the borders of one's own country",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Involving or affecting two or more nations",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Global or worldwide in scope",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "attached",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Connected or joined to something",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Assigned or allocated to a particular task or project",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Fastened or secured to something",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "documentary",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A film that shows real people and events",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "A movie that aims to inform or educate the audience",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A non-fiction film",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "announced",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Made known or declared publicly",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Declared or stated officially",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Made a public statement",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "entertainment",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Something that amuses or delights",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "An activity or performance that is enjoyable",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The act of entertaining or being entertained",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "agency",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A person or organization that acts on behalf of another",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "A business that provides a particular service",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "An organization that represents or acts for others",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-05-03"
+}

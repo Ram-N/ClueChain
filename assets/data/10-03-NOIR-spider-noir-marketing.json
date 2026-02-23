@@ -1,0 +1,228 @@
+{
+  "title": "Spider-Noir — Marketing",
+  "date": "10-03",
+  "text": "Title: Spider-Noir — Marketing\n\nDuring Amazon's upfronts presentation in May 2025, a promotional first-look picture of Cage in costume as Spider-Man Noir was unveiled. \nJordan Moreau of Variety described the costume as \"iconic\" and stylistically similar to the version worn by the character in the \nanimated Spider-Verse films. Rosy Cordero at Deadline Hollywood described the teaser as \"moody\". The first trailer was released \non February 12, 2026, in both black-and-white and color. It featured the tagline \"With no power, comes no responsibility\", a \"cheeky riff\" on the phrase \"With great power comes great responsibility\" associated with Spider-Man.",
+  "hiddenWords": [
+    {
+      "word": "during",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "It can be a synonym for 'through' or 'throughout'.",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "It often marks a period of time, like a movie's runtime.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "What happens when you are in the middle of something?",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "word": "picture",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A visual representation.",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "Often taken to commemorate an event.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "If a thousand are worth a thousand words, what is a single one worth?",
+          "type": "Indirect",
+          "points": 7
+        }
+      ]
+    },
+    {
+      "word": "costume",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Clothing worn to portray a character.",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "What an actor wears to become someone else.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A disguise that can be donned for a role.",
+          "type": "Indirect",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "word": "described",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Past tense of a word meaning to give an account in words.",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "Used to tell someone about something.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "It's what you do when you want to paint a word-portrait.",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "word": "similar",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Having likeness to something else.",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "Sharing characteristics with something.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A twin is one of these to the other.",
+          "type": "Indirect",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "word": "version",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A particular form of something.",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "A rendition or adaptation.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "What you might find on a movie's Blu-ray.",
+          "type": "Indirect",
+          "points": 7
+        }
+      ]
+    },
+    {
+      "word": "teaser",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A short preview of something.",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "Something that builds anticipation.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "What a movie studio puts out to get you excited about its upcoming film.",
+          "type": "Indirect",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "word": "released",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Made available to the public.",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "When a film goes to theaters.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The opposite of detained or withheld.",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "word": "tagline",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A catchphrase.",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "A short, memorable phrase used in advertising.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "The sentence that sticks with you after seeing a movie.",
+          "type": "Indirect",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "word": "phrase",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A group of words.",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "A common expression.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A short string of words; it's what you say.",
+          "type": "Indirect",
+          "points": 7
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-10-03"
+}

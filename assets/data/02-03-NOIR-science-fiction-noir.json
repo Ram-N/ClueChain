@@ -1,0 +1,228 @@
+{
+  "title": "Science fiction noir",
+  "date": "02-03",
+  "text": "Title: Science fiction noir\n\nBeginning in the 1960s, the most significant trend in film noir crossovers or hybrids has involved science fiction. In Jean-Luc Godard's\n Alphaville (1965), Lemmy Caution is the name of the old-school private eye in the city of tomorrow. The Groundstar Conspiracy (1972) centers\non another implacable investigator and an amnesiac named Welles. Soylent Green (1973), the first major American example, portrays a dystopian, \nnear-future world via a self-evidently noir detection plot; starring Charlton Heston (the lead in Touch of Evil), it also features classic noir \nstandbys Joseph Cotten, Edward G. Robinson, and Whit Bissell.",
+  "hiddenWords": [
+    {
+      "word": "significant",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "This adjective describes something of great consequence or import.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "What's the meaning when something truly matters?",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Important; noteworthy.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "trend",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "It's what the cool kids are doing.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A general direction in which something is developing or changing.",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "The current popular style or direction.",
+          "type": "Indirect",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "word": "hybrids",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Often seen in botany, but also applicable to cinema.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A cross between two different things, often used in biology.",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "What do you call a lion and a tiger's offspring?",
+          "type": "Indirect",
+          "points": 7
+        }
+      ]
+    },
+    {
+      "word": "involved",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "When you're 'in' something, you're this.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Included or connected.",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "It can mean 'to take part in' or 'to affect'.",
+          "type": "Indirect",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "word": "tomorrow",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The day after today.",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "What one hopes for with a new day.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "If today is Tuesday, that would be Wednesday.",
+          "type": "Indirect",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "word": "centers",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "It is the main focus of a story.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Focuses on; is based on.",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "Where the action is, the heart of the matter.",
+          "type": "Indirect",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "word": "implacable",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "This describes a character who will not be swayed.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Unappeasable; relentless.",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "The opposite of forgiving; a hard heart.",
+          "type": "Indirect",
+          "points": 7
+        }
+      ]
+    },
+    {
+      "word": "amnesiac",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Suffering from memory loss.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A person affected by amnesia.",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "They can't recall yesterday, or perhaps even this morning.",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "word": "dystopian",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A society characterized by human misery, as squalor, oppression, disease, and overcrowding.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Relating to or denoting an imagined place or state in which everything is unpleasant or bad, typically a totalitarian or environmentally degraded one.",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "The opposite of utopia.",
+          "type": "Indirect",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "word": "detection",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "What a detective does.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The act of discovering something not easily noticed.",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "The process of identifying or discovering something.",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-02-03"
+}
