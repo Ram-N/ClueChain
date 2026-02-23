@@ -86,7 +86,9 @@ window.onload = async () => {
 
   async function loadPlayHistory() {
     if (!window.authManager || !window.authManager.isAuthenticated()) return;
+    console.log('📅 loadPlayHistory: fetching activity history...');
     const result = await window.streakTracker.getActivityHistory({ limit: 365 });
+    console.log('📅 loadPlayHistory result:', result);
     if (!result.success) {
       console.error('❌ Failed to load play history:', result.error);
       return;
@@ -96,9 +98,19 @@ window.onload = async () => {
       const pct = a.max_possible_score > 0
         ? Math.round((a.score / a.max_possible_score) * 100)
         : a.score;
+      console.log(`📅  ${a.activity_date}: raw=${a.score}, max=${a.max_possible_score}, pct=${pct}`);
       playedDates[a.activity_date] = pct;
     });
+    console.log('📅 playedDates after load:', playedDates);
+
+    // Re-render the calendar if it's currently visible
+    if (customCalendar.classList.contains('show')) {
+      renderCalendarDays();
+    }
   }
+
+  // Expose loadPlayHistory globally so it can be called after game completion
+  window.loadPlayHistory = loadPlayHistory;
 
   function getScoreDotClass(score) {
     if (score >= 80) return "played-green";
@@ -242,13 +254,11 @@ window.onload = async () => {
         dayElement.classList.add("no-content");
       }
       
-      // Inject score dot for played days (authenticated users only)
+      // Apply score color to the entire date circle for played days (authenticated users only)
       if (playedDates.hasOwnProperty(thisDateStr)) {
         const score = playedDates[thisDateStr];
-        const dot = document.createElement("span");
-        dot.className = "score-dot " + getScoreDotClass(score);
-        dayElement.appendChild(dot);
-        dayElement.title = `Score: ${score}/100`;
+        dayElement.classList.add(getScoreDotClass(score));
+        dayElement.title = `Score: ${score}%`;
       }
 
       calendarDaysContainer.appendChild(dayElement);

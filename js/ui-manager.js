@@ -305,7 +305,7 @@ export function animateClueForWord(word) {
   }
 
   if (!targetClue) {
-    console.log(`Could not find clue element for word: ${word}`);
+    console.log(`ℹ️ Clue for "${word}" wasn't visible yet, skipping animation. It will appear in the solved section.`);
     // Even without animation, make sure clues are re-rendered to show in solved section
     setTimeout(() => renderClues(), 100);
 
@@ -1034,7 +1034,7 @@ export async function showGameOver(lastWordRevealed = false) {
         maxPossibleScore: maxScore,
         wordsFound: currentWords.filter(w => w.found).length,
         totalWords: currentWords.length,
-        gameDate: currentParagraph ? currentParagraph.date : new Date().toISOString().split('T')[0],
+        gameDate: currentParagraph ? `${new Date().getFullYear()}-${currentParagraph.date}` : new Date().toISOString().split('T')[0],
         completionTime: null, // Could be tracked if needed
         metadata: {
           percentage: scorePercentage,
@@ -1044,14 +1044,20 @@ export async function showGameOver(lastWordRevealed = false) {
       };
 
       const result = await window.streakTracker.recordGameCompletion(gameData);
-      
+
       if (result.success) {
         console.log('✅ Game completion recorded successfully');
-        
+
         // Update streak display in UI
         const streakResult = await window.streakTracker.getCurrentStreak();
         if (streakResult.success && window.authUI) {
           window.authUI.updateStreakDisplay(streakResult.streak.current_streak || 0);
+        }
+
+        // Refresh the calendar play history to show the updated dot
+        if (window.loadPlayHistory) {
+          await window.loadPlayHistory();
+          console.log('✅ Calendar play history refreshed');
         }
       } else {
         console.warn('⚠️ Failed to record game completion:', result.error);

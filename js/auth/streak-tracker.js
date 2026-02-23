@@ -50,12 +50,13 @@ class StreakTracker {
     try {
       const user = window.authManager.getCurrentUser();
       const today = new Date().toISOString().split('T')[0]; // YYYY-MM-DD format
-      
+      const gameDateToUse = gameData.gameDate || today; // Use the puzzle date as the activity date
+
       const activityData = {
         user_id: user.id,
         activity_type: activityType,
-        activity_date: today,
-        game_date: gameData.gameDate || today,
+        activity_date: gameDateToUse, // Use game date so playing old puzzles shows on the correct date
+        game_date: gameDateToUse,
         score: gameData.score || 0,
         max_possible_score: gameData.maxPossibleScore || 0,
         words_found: gameData.wordsFound || 0,

@@ -1445,27 +1445,48 @@ button:hover {
   border-radius: 50%;
 }
 
-.score-dot {
-  display: block;
-  width: 6px;
-  height: 6px;
-  border-radius: 50%;
-  position: absolute;
-  bottom: 3px;
-  left: 50%;
-  transform: translateX(-50%);
+/* Score color fills for played dates */
+.calendar-day.played-green {
+  background-color: #4caf50 !important;
+  color: white;
+  font-weight: bold;
 }
-.score-dot.played-green  { background: #4caf50; }
-.score-dot.played-yellow { background: #ffc107; }
-.score-dot.played-red    { background: #f44336; }
 
-.calendar-day:hover:not(.empty):not(.selected) {
+.calendar-day.played-yellow {
+  background-color: #ffc107 !important;
+  color: #333 !important; /* Dark text for yellow background */
+  font-weight: bold;
+}
+
+.calendar-day.played-red {
+  background-color: #f44336 !important;
+  color: white;
+  font-weight: bold;
+}
+
+.calendar-day:hover:not(.empty):not(.selected):not(.played-green):not(.played-yellow):not(.played-red) {
   background-color: rgba(74, 144, 226, 0.1);
 }
 
+/* Subtle hover effect for played dates */
+.calendar-day.played-green:hover:not(.selected),
+.calendar-day.played-yellow:hover:not(.selected),
+.calendar-day.played-red:hover:not(.selected) {
+  opacity: 0.9;
+  cursor: pointer;
+}
+
 .calendar-day.today {
-  border: 1px solid #4a90e2;
+  border: 2px solid #4a90e2;
   font-weight: bold;
+  box-sizing: border-box;
+}
+
+/* Today indicator works nicely with played colors */
+.calendar-day.today.played-green,
+.calendar-day.today.played-yellow,
+.calendar-day.today.played-red {
+  border: 2px solid #333;
 }
 
 .calendar-day.selected {
@@ -1473,6 +1494,14 @@ button:hover {
   color: white;
   font-weight: bold;
   border-radius: 50%;
+}
+
+/* When a played date is selected, show a thick border instead of changing background */
+.calendar-day.selected.played-green,
+.calendar-day.selected.played-yellow,
+.calendar-day.selected.played-red {
+  border: 3px solid #4a90e2;
+  box-sizing: border-box;
 }
 
 .calendar-day.empty {
