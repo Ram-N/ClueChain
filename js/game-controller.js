@@ -156,6 +156,22 @@ function handleGuess(e) {
 
     if (result.gameComplete) {
       console.log("Game complete detected! Triggering end game.");
+
+      // Record game completion for streak tracking (only for authenticated users)
+      if (window.streakTracker && window.authManager && window.authManager.isAuthenticated()) {
+        const words = getCurrentWords();
+        const paragraph = getCurrentParagraph();
+        const mmdd = paragraph ? paragraph.date : null;
+        const fullDate = mmdd ? `${new Date().getFullYear()}-${mmdd}` : null;
+        window.streakTracker.recordGameCompletion({
+          gameDate: fullDate,
+          score: getCurrentScore(),
+          maxPossibleScore: getMaxScore(),
+          wordsFound: words.filter(w => w.found || w.revealed).length,
+          totalWords: words.length,
+        }).catch(err => console.warn("Failed to record game completion:", err));
+      }
+
       showGameOver();
     }
   } else {
@@ -261,6 +277,21 @@ function setupGuessInput() {
       }
 
       if (result.gameComplete) {
+        // Record game completion for streak tracking (only for authenticated users)
+        if (window.streakTracker && window.authManager && window.authManager.isAuthenticated()) {
+          const words = getCurrentWords();
+          const paragraph = getCurrentParagraph();
+          const mmdd = paragraph ? paragraph.date : null;
+          const fullDate = mmdd ? `${new Date().getFullYear()}-${mmdd}` : null;
+          window.streakTracker.recordGameCompletion({
+            gameDate: fullDate,
+            score: getCurrentScore(),
+            maxPossibleScore: getMaxScore(),
+            wordsFound: words.filter(w => w.found || w.revealed).length,
+            totalWords: words.length,
+          }).catch(err => console.warn("Failed to record game completion:", err));
+        }
+
         showGameOver();
       }
     } else {
@@ -527,16 +558,12 @@ export async function initializeGame() {
         updateInputState();
       }
 
-      // Show one-time banner about auth coming soon (only for guest users)
-      if (!window.authManager.isAuthenticated() && !localStorage.getItem('auth-banner-dismissed')) {
+      // Show one-time banner prompting sign-in for streak tracking (only for guest users)
+      if (window.authManager && !window.authManager.isAuthenticated() && !localStorage.getItem('auth-banner-dismissed')) {
         setTimeout(() => {
-          if (window.showToast) {
-            showToast('🔥 Sign in coming soon to track your streak!', 'info');
-          } else {
-            addNotification('🔥 Sign in coming soon to track your streak!', 'info');
-          }
+          showToast('🔥 Sign in to track your streak!', 'info');
           localStorage.setItem('auth-banner-dismissed', 'true');
-        }, 2000); // Show after 2 seconds to let game load first
+        }, 2000);
       }
     }, 0);
   } catch (error) {

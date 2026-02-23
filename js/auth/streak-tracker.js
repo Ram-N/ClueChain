@@ -96,7 +96,12 @@ class StreakTracker {
    * @returns {Promise<Object>} Recording result
    */
   async recordGameCompletion(gameData) {
-    return this.recordActivity(this.activityTypes.GAME_COMPLETED, gameData);
+    const result = await this.recordActivity(this.activityTypes.GAME_COMPLETED, gameData);
+    // Refresh streak display in UI after recording
+    if (window.authUI) {
+      window.authUI.loadUserStreak();
+    }
+    return result;
   }
 
   /**
@@ -123,31 +128,12 @@ class StreakTracker {
     }
 
     try {
-      const user = window.authManager.getCurrentUser();
-      
-      const { data, error } = await this.supabase
-        .from('user_streaks')
-        .select('*')
-        .eq('user_id', user.id)
-        .eq('activity_type', activityType)
-        .single();
+      // Calculate streak directly from activity history
+      const result = await this.getActivityHistory({ activityType, limit: 365 });
+      if (!result.success) throw result.error;
 
-      if (error) {
-        // If no streak record exists, return empty streak
-        if (error.code === 'PGRST116') {
-          return {
-            success: true,
-            streak: {
-              current_streak: 0,
-              longest_streak: 0,
-              last_activity_date: null
-            }
-          };
-        }
-        throw error;
-      }
-
-      return { success: true, streak: data };
+      const streak = this.calculateStreakFromActivities(result.activities);
+      return { success: true, streak };
     } catch (error) {
       console.error('❌ Failed to get current streak:', error);
       return { success: false, error };
@@ -336,10 +322,11 @@ class StreakTracker {
       }
     }
 
-    // Check if current streak is still active
+    // Check if current streak is still active (use most recent activity, not loop's lastDate)
     const today = new Date();
-    const daysSinceLastActivity = Math.floor((today - lastDate) / (1000 * 60 * 60 * 24));
-    
+    const mostRecentDate = new Date(sortedActivities[0].activity_date);
+    const daysSinceLastActivity = Math.floor((today - mostRecentDate) / (1000 * 60 * 60 * 24));
+
     if (daysSinceLastActivity <= 1) {
       currentStreak = tempStreak;
     } else {
