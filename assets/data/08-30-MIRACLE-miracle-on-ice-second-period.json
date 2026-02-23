@@ -1,0 +1,237 @@
+{
+  "title": "Miracle on Ice — Second period",
+  "date": "08-30",
+  "text": "Tikhonov replaced Tretiak with backup goaltender Vladimir Myshkin immediately after Johnson's goal, a move that shocked players on both teams. Tikhonov later identified this as the \"turning point of the game\" and called it \"the biggest mistake of my career\". Years later, when Johnson asked Viacheslav Fetisov, now an NHL teammate, about the move, Fetisov responded with \"Coach crazy.\" Myshkin allowed no goals in the second period. The Soviets dominated play in the second period, outshooting the Americans 12–2, but scored only once, on a power play goal by Aleksandr Maltsev 2:18 into play. After two periods the Soviet Union led, 3–2.",
+  "hiddenWords": [
+    {
+      "word": "career",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A lifelong journey of work and accomplishments.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "The progression of a person's working life.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A profession or occupation.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "teammate",
+      "difficulty": "Easy",
+      "related_words": [
+        "player",
+        "opponent"
+      ],
+      "clues": [
+        {
+          "clue": "A friend on the field, but not in the boardroom.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A fellow player on the same team.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A person on the same team as another.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "player",
+      "difficulty": "Easy",
+      "related_words": [
+        "teammate",
+        "opponent"
+      ],
+      "clues": [
+        {
+          "clue": "A participant in a game, but not always a winner.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "An athlete who participates in a sport.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A person taking part in a game or sport.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "opponent",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "teammate",
+        "player"
+      ],
+      "clues": [
+        {
+          "clue": "A rival, but not always an enemy.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A person or team competing against another.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A person who competes against another.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "dominated",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Like a lion on the savannah, ruling over its kingdom.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "To have control or influence over something or someone.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "To be the most powerful or influential.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "immediately",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Like a lightning bolt, striking without warning.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Without delay or hesitation.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "At once, without delay.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "backup",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A safety net, but not always a trampoline.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A person or system that provides support or replacement.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A person or thing that supports or replaces another.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "identified",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Like a fingerprint, unique and revealing.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "To recognize or acknowledge something or someone.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "To recognize or establish the identity of something or someone.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "allowed",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A permission slip, but not always a free pass.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "To give permission or consent for something to happen.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "To permit or enable something to happen.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "progression",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Like a river flowing, ever-changing and moving forward.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "The process of developing or moving forward.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A series of events or stages that develop or occur in a particular order.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-08-30"
+}

@@ -1,0 +1,237 @@
+{
+  "title": "Miracle on Ice — Third period",
+  "date": "03-30",
+  "text": "11 seconds, you've got 10 seconds, the countdown going on right now! Morrow, up to Silk! Five seconds left in the game! (Dryden: It's over!) Do you believe in miracles? YES! As his team ran all over the ice in celebration, Herb Brooks sprinted back to the locker room and cried. In the locker room afterwards, players spontaneously broke into a chorus of \"God Bless America\". During the broadcast wrap-up after the game, ABC Olympic sports anchor Jim McKay compared the American victory over the Soviet professionals to a group of Canadian college football players defeating the Pittsburgh Steelers (the recent Super Bowl champions and at the height of their dynasty).",
+  "hiddenWords": [
+    {
+      "word": "victory",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "champions",
+        "professionals"
+      ],
+      "clues": [
+        {
+          "clue": "A triumph that's often sweet",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "The outcome of a winning team",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A win or a conquest",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "champions",
+      "difficulty": "Easy",
+      "related_words": [
+        "victory",
+        "professionals"
+      ],
+      "clues": [
+        {
+          "clue": "Title holders in a sport",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Those who have won a competition",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Winners of a championship",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "professionals",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "victory",
+        "champions"
+      ],
+      "clues": [
+        {
+          "clue": "Experts who get paid for their work",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Those who do a job for money",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "People who are skilled in a field",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "celebration",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A party with joyful noise",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "An event to honor something",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A special joyful occasion",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "broadcast",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A message sent out to many",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A program sent out on TV or radio",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "To send out a program or message",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "anchor",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A person who holds things steady",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "A device that holds a ship in place",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A person who presents a TV program",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "spontaneously",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Without a plan, it just happens",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Done without prior thought",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Happening or done naturally",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "dynasty",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A powerful family's long reign",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "A series of rulers from one family",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A long period of time when one family rules",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "college",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A place for higher learning",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "An institution for advanced education",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A school after high school",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "football",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A sport with an oval ball",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A game with a ball and goals",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A popular sport played with a ball",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-03-30"
+}
