@@ -78,9 +78,10 @@ class AuthManager {
    */
   async signInWithGoogle(options = {}) {
     try {
+      const redirectTo = window.location.origin + window.location.pathname;
       const { data, error } = await this.supabase.auth.signInWithOAuth({
         provider: 'google',
-        options: { ...options }
+        options: { redirectTo, ...options }
       });
 
       if (error) {

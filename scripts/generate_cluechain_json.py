@@ -35,8 +35,14 @@ except ImportError as e:
 # ---------------------------------------------------------------------------
 
 GROQ_MODEL       = "llama-3.3-70b-versatile"
-OPENROUTER_MODEL = "google/gemini-2.0-flash-lite-001"
 OPENROUTER_BASE  = "https://openrouter.ai/api/v1"
+
+_model_config_path = Path(__file__).parent / "model-config.json"
+if _model_config_path.exists():
+    with open(_model_config_path) as _f:
+        OPENROUTER_MODEL = json.load(_f).get("openrouter_model", "google/gemini-2.0-flash-lite-001")
+else:
+    OPENROUTER_MODEL = "google/gemini-2.0-flash-lite-001"
 
 
 def _make_groq_client(api_key: str):

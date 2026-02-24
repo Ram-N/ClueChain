@@ -1,0 +1,228 @@
+{
+  "title": "List of conspiracy theories — John F. Kennedy assassination",
+  "date": "12-04",
+  "text": "Title: List of conspiracy theories — John F. Kennedy assassination\n\nMultiple conspiracy theories concerning the assassination of John F. Kennedy in 1963 have emerged. Vincent Bugliosi estimated that more than 1,000 books had been written about the Kennedy assassination, at least ninety percent of which are works supporting the view that there was a conspiracy. As a result of this, the Kennedy assassination has been described as \"the mother of all conspiracies\". The countless individuals and organizations that have been accused of involvement in the Kennedy assassination include the CIA, the Mafia, sitting Vice President Lyndon B. Johnson, Cuban Prime Minister Fidel Castro, the KGB, or even some combination thereof. It is also frequently asserted that the United States federal government intentionally covered up crucial information in the aftermath of the assassination to prevent the conspiracy from being discovered.",
+  "hiddenWords": [
+    {
+      "word": "Multiple",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "It's the opposite of a single thing, often used to describe a quantity.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Characterized by many parts or elements.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Numerous or manifold.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "concerning",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "When you're worried about something, this word might be used to describe it.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Relating to or regarding something.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Regarding or about.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "estimated",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "It's like making an educated guess, but with numbers.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Calculated or approximated.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Calculated approximately.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "Bugliosi",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A name you might associate with legal investigations, and the works he penned.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "The surname of an author who wrote extensively about legal cases.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "The last name of a well-known author.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "ninety",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "It's a high number, often paired with the word 'percent'.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "The number that follows eighty-nine.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The cardinal number equal to 9 x 10.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "percent",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "It's a fraction of a hundred, often used when talking about portions.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A rate or proportion in each hundred.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A part of a whole, expressed as a fraction of 100.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "supporting",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "If you're backing a claim, you're doing this.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Providing evidence or assistance.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Giving assistance to.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "result",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "It's what happens after an action or event, the consequence.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A consequence or outcome.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A consequence or outcome.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "include",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "It's what you do when you add something to a list or group.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "To contain as a part of a whole.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "To contain or comprise as a part of a whole.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "federal",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "It's like the national level of government, not a state or local one.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Relating to a central government.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Relating to a central government rather than the government of a smaller unit.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-12-04"
+}

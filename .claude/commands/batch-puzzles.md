@@ -1,3 +1,7 @@
+---
+allowed-tools: Bash(uv run python scripts/batch_generate_cluechain_json.py*), Bash(bash scripts/validate_batch.sh*), Bash(./scripts/validate_batch.sh*), Bash(bash /home/ram/projects/ClueChain/scripts/validate_batch.sh*), Bash(ls assets/data/*), Bash(ls assets/data/library/*), Read(assets/data/index.json), Write(assets/data/index.json)
+---
+
 # batch-puzzles
 
 Generate a batch of 12 ClueChain puzzle JSON files from a multi-paragraph text file, validate them, and add them to the game index.
@@ -50,7 +54,7 @@ If files exist:
 Execute the batch generator script:
 
 ```bash
-python scripts/batch_generate_cluechain_json.py \
+uv run python scripts/batch_generate_cluechain_json.py \
   --file assets/data/library/{file} \
   --category {CATEGORY} \
   --day {day} \

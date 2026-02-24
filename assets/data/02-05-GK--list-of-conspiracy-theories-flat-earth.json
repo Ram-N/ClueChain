@@ -1,0 +1,237 @@
+{
+  "title": "List of conspiracy theories — Flat Earth",
+  "date": "02-05",
+  "text": "Title: List of conspiracy theories — Flat Earth\n\nFlat Earth theory first emerged in 19th-century England, despite the Earth's spherical nature having \nbeen known since at least the time of Pythagoras. It has in recent years been promoted by American software consultant \nMark Sargent through the use of YouTube videos. Flat-earther conspiracy theorists hold that planet Earth is not a sphere, \nand that evidence has been faked or suppressed to hide the fact that it is instead a disc, or a single infinite plane. \nThe conspiracy often implicates NASA. Other claims include that GPS devices are rigged to make aircraft pilots wrongly \nbelieve they are flying around a globe.",
+  "hiddenWords": [
+    {
+      "word": "theory",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A belief that is not fully proven but is assumed for the sake of argument.",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "Often discussed in academic circles, this concept attempts to explain something.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Like a hunch, but with a lot more research; it's a guess that tries to make sense of the world.",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "word": "emerged",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "To come into view or existence.",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "Describes something that came out or became known.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Like a butterfly from a cocoon, it describes something that appeared.",
+          "type": "Indirect",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "word": "spherical",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "plane",
+        "disc"
+      ],
+      "clues": [
+        {
+          "clue": "Having the form of a ball.",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "This shape is like a ball.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "It's what the Earth is, according to most people. It's the opposite of flat.",
+          "type": "Indirect",
+          "points": 7
+        }
+      ]
+    },
+    {
+      "word": "nature",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The inherent character or basic constitution of a person or thing.",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "It can be described as the essence of something.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "What makes a thing what it is; its core identity.",
+          "type": "Indirect",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "word": "promoted",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "To further the progress of; encourage or advance.",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "It is often used when something is advertised.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Like a salesperson, it means to help something become more popular.",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "word": "videos",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A recording of moving visual images.",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "Often viewed on YouTube.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "What you watch to be entertained or informed, but without leaving your seat.",
+          "type": "Indirect",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "word": "planet",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A celestial body moving in an orbit around a star.",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "The Earth is one of these.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "The place where we all live, but not the only one in the sky.",
+          "type": "Indirect",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "word": "plane",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "spherical",
+        "disc"
+      ],
+      "clues": [
+        {
+          "clue": "A flat surface on which a straight line joining any two points would wholly lie.",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "A surface without curvature.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "If the Earth isn't round, it might be this.",
+          "type": "Indirect",
+          "points": 7
+        }
+      ]
+    },
+    {
+      "word": "claims",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "An assertion of something as a fact.",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "Often made in a courtroom.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Statements offered as truth, sometimes with little evidence.",
+          "type": "Indirect",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "word": "disc",
+      "difficulty": "Hard",
+      "related_words": [
+        "spherical",
+        "plane"
+      ],
+      "clues": [
+        {
+          "clue": "A flat, circular plate.",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "It's what a Flat Earther believes Earth to be.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Picture a record, but not for music; it's a shape.",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-02-05"
+}
