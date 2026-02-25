@@ -88,11 +88,14 @@ class ClueChainGenerator:
     """
 
     def __init__(self, groq_key: Optional[str] = None,
+                 groq_key2: Optional[str] = None,
                  openrouter_key: Optional[str] = None,
                  backend: str = "groq"):
         self.groq_key         = groq_key
+        self.groq_key2        = groq_key2
         self.openrouter_key   = openrouter_key
         self.backend          = backend  # 'groq' | 'openrouter'
+        self._active_groq_key = groq_key  # tracks which key is currently in use
 
         # Eagerly validate requested backend
         if backend == "groq" and not groq_key:
@@ -102,7 +105,7 @@ class ClueChainGenerator:
 
     def _client_and_model(self, backend: str):
         if backend == "groq":
-            return _make_groq_client(self.groq_key), GROQ_MODEL
+            return _make_groq_client(self._active_groq_key), GROQ_MODEL
         else:
             return _make_openrouter_client(self.openrouter_key), OPENROUTER_MODEL
 
@@ -279,7 +282,21 @@ Remember:
             if attempt > 1:
                 print(f"       ↻ Retry {attempt}/{max_retries}...")
 
-            content = _call_llm(client, model, system_prompt, user_prompt)
+            try:
+                content = _call_llm(client, model, system_prompt, user_prompt)
+            except Exception as api_err:
+                err_str = str(api_err).lower()
+                # 429 / rate-limit: try rotating to GROQ_API_KEY2 before giving up
+                if backend == "groq" and ("429" in err_str or "rate_limit" in err_str or "rate limit" in err_str):
+                    if self.groq_key2 and self._active_groq_key != self.groq_key2:
+                        print(f"       ⚠️  GROQ_API_KEY rate-limited — switching to GROQ_API_KEY2...")
+                        self._active_groq_key = self.groq_key2
+                        client, model = self._client_and_model(backend)
+                        content = _call_llm(client, model, system_prompt, user_prompt)
+                    else:
+                        raise
+                else:
+                    raise
             result  = json.loads(content)
 
             if "text" not in result:
@@ -423,6 +440,7 @@ Examples:
 
     load_dotenv()
     groq_key       = os.getenv("GROQ_API_KEY")
+    groq_key2      = os.getenv("GROQ_API_KEY2")
     openrouter_key = os.getenv("OPENROUTER_API_KEY")
 
     # Validate that the requested primary backend has a key
@@ -434,6 +452,8 @@ Examples:
         sys.exit(1)
 
     # Warn if fallback key is missing (non-fatal)
+    if args.model == "groq" and groq_key2:
+        print("ℹ️  GROQ_API_KEY2 found — will auto-rotate if primary key is rate-limited.")
     if args.model == "groq" and not openrouter_key:
         print("⚠️  OPENROUTER_API_KEY not set — no fallback available if Groq fails.")
     if args.model == "openrouter" and not groq_key:
@@ -455,6 +475,7 @@ Examples:
 
         generator = ClueChainGenerator(
             groq_key=groq_key,
+            groq_key2=groq_key2,
             openrouter_key=openrouter_key,
             backend=args.model,
         )

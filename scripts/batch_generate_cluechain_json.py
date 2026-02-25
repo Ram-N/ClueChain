@@ -367,20 +367,18 @@ def generate_single_paragraph(paragraph: ParagraphData, day: int,
                 "--output", output_dir
             ]
 
-            # Execute subprocess
-            result = subprocess.run(
+            # Execute subprocess — stream stdout live, capture stderr for errors
+            proc = subprocess.Popen(
                 cmd,
-                capture_output=True,
+                stdout=None,   # inherit — prints directly to terminal
+                stderr=subprocess.PIPE,
                 text=True,
-                timeout=300  # 5 minute timeout
             )
+            _, stderr_output = proc.communicate(timeout=300)
 
-            if result.returncode != 0:
-                # Try to extract meaningful error from stderr
-                if result.stderr:
-                    last_error = result.stderr.strip()
-                elif result.stdout:
-                    last_error = result.stdout.strip()
+            if proc.returncode != 0:
+                last_error = (stderr_output.strip() if stderr_output
+                              else f"exit code {proc.returncode}")
                 continue  # Retry
 
             # Rename the generated file
