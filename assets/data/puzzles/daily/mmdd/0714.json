@@ -1,0 +1,228 @@
+{
+  "id": "ClueChain-2025-07-14",
+  "date": "07-14",
+  "title": "Slaughterhouse Five (Kurt Vonnegut) 1969",
+  "text": "“All this happened, more or less.”\nMost authors are coy when introducing an unreliable narrator. Not Vonnegut—he informs the reader right off the bat that some of what is told may be misleading or even untrue. Narrator Billy Pilgrim, a soldier, struggles after witnessing horrors during the war that threaten his relationship to time.",
+  "hiddenWords": [
+    {
+      "word": "happened",
+      "difficulty": "Easy",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "It came to pass, an event that occurred, making its mark, fully incurred.",
+          "points": 4
+        },
+        {
+          "type": "Suggestive",
+          "clue": "When something took place, an event occurred.",
+          "points": 2
+        },
+        {
+          "type": "Straight",
+          "clue": "Took place; occurred.",
+          "points": 1
+        }
+      ],
+      "related_words": []
+    },
+    {
+      "word": "authors",
+      "difficulty": "Intermediate",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "They pen the tales, both grand and small, crafting worlds that enthrall us all.",
+          "points": 5
+        },
+        {
+          "type": "Suggestive",
+          "clue": "People who write books, articles, or plays.",
+          "points": 3
+        },
+        {
+          "type": "Straight",
+          "clue": "Writers of books, articles, or documents.",
+          "points": 1
+        }
+      ],
+      "related_words": ["reader"]
+    },
+    {
+      "word": "coy",
+      "difficulty": "Hard",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "Artfully reserved, a playful pretense, feigning shyness, without offense.",
+          "points": 7
+        },
+        {
+          "type": "Suggestive",
+          "clue": "Reluctant to give details, especially about something sensitive; shy or modest.",
+          "points": 4
+        },
+        {
+          "type": "Straight",
+          "clue": "Making a pretense of shyness or modesty which is intended to be alluring.",
+          "points": 2
+        }
+      ],
+      "related_words": []
+    },
+    {
+      "word": "introducing",
+      "difficulty": "Intermediate",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "To bring forth for the first time, unveiling a new face, a fresh paradigm.",
+          "points": 5
+        },
+        {
+          "type": "Suggestive",
+          "clue": "The act of presenting something new, or making someone known.",
+          "points": 3
+        },
+        {
+          "type": "Straight",
+          "clue": "Presenting (someone or something) to another for the first time.",
+          "points": 1
+        }
+      ],
+      "related_words": ["narrator"]
+    },
+    {
+      "word": "unreliable",
+      "difficulty": "Hard",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "Not to be trusted, a broken promise, a shaky ground, a twisted premise.",
+          "points": 7
+        },
+        {
+          "type": "Suggestive",
+          "clue": "Not able to be relied upon, like a car that frequently breaks down.",
+          "points": 4
+        },
+        {
+          "type": "Straight",
+          "clue": "Not able to be relied upon.",
+          "points": 2
+        }
+      ],
+      "related_words": ["narrator"]
+    },
+    {
+      "word": "narrator",
+      "difficulty": "Intermediate",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "The voice of the story, shaping what we hear, a perspective offered, drawing us near.",
+          "points": 5
+        },
+        {
+          "type": "Suggestive",
+          "clue": "A person who tells a story, especially in a literary work.",
+          "points": 3
+        },
+        {
+          "type": "Straight",
+          "clue": "A person who narrates something, especially a character who recounts the events of a novel or narrative poem.",
+          "points": 1
+        }
+      ],
+      "related_words": ["introducing", "unreliable"]
+    },
+    {
+      "word": "reader",
+      "difficulty": "Easy",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "One who deciphers words, and journeys through pages, across various ages.",
+          "points": 4
+        },
+        {
+          "type": "Suggestive",
+          "clue": "A person who reads, especially for pleasure.",
+          "points": 2
+        },
+        {
+          "type": "Straight",
+          "clue": "A person who reads.",
+          "points": 1
+        }
+      ],
+      "related_words": ["authors"]
+    },
+    {
+      "word": "misleading",
+      "difficulty": "Hard",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "Leading astray, a deceptive guise, hiding the truth behind its disguise.",
+          "points": 7
+        },
+        {
+          "type": "Suggestive",
+          "clue": "Giving a wrong idea or impression, like false advertising.",
+          "points": 4
+        },
+        {
+          "type": "Straight",
+          "clue": "Giving the wrong idea or impression.",
+          "points": 2
+        }
+      ],
+      "related_words": ["untrue"]
+    },
+    {
+      "word": "untrue",
+      "difficulty": "Intermediate",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "Not factual, a false display, leading beliefs astray.",
+          "points": 5
+        },
+        {
+          "type": "Suggestive",
+          "clue": "Not in accordance with fact or reality; false or incorrect.",
+          "points": 3
+        },
+        {
+          "type": "Straight",
+          "clue": "Not true or false.",
+          "points": 1
+        }
+      ],
+      "related_words": ["misleading"]
+    },
+    {
+      "word": "struggles",
+      "difficulty": "Intermediate",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "Faces difficulty, a wrestling match, striving hard, a victory to catch.",
+          "points": 5
+        },
+        {
+          "type": "Suggestive",
+          "clue": "To make forceful or violent efforts to get free of restraint or confinement.",
+          "points": 3
+        },
+        {
+          "type": "Straight",
+          "clue": "Makes forceful or violent efforts to get free of restraint or confinement.",
+          "points": 1
+        }
+      ],
+      "related_words": []
+    }
+  ]
+}

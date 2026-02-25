@@ -415,7 +415,7 @@ Examples:
     parser.add_argument("--file",   required=True,        help="Path to paragraph text file")
     parser.add_argument("--title",                        help="Title (defaults to 'ClueChain Challenge')")
     parser.add_argument("--date",                         help="Date in MM-DD format (defaults to today)")
-    parser.add_argument("--output", default="./assets/data", help="Output directory")
+    parser.add_argument("--output", default="./assets/data/puzzles/daily/mmdd", help="Output directory")
     parser.add_argument("--model",  default="groq",
                         choices=["groq", "openrouter"],
                         help="Primary backend: groq (default) or openrouter")

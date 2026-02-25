@@ -1,0 +1,237 @@
+{
+  "title": "Naïve witchcraft beliefs in Acadian",
+  "date": "08-23",
+  "text": "Title:  Naïve witchcraft beliefs in Acadian\n\nThe term ‘witch’ was used to refer to both males and females. However, the various narratives about witches \nshow that the females were more numerous than the males. In Newfoundland, which was predominantly Protestants, \nthe biblical reference to witches was used to denote the witch as an evil woman. Among the Acadians who are traditional \nCatholics, suspicion of witchcraft did not necessarily point to a woman.\n\nAcadian legends that refer to people possessed evil powers; the persons sought help from the local priest. However, \nin the case of native witchcraft, they rarely consulted the priest.",
+  "hiddenWords": [
+    {
+      "word": "witch",
+      "difficulty": "Easy",
+      "related_words": [
+        "witchcraft",
+        "witches"
+      ],
+      "clues": [
+        {
+          "clue": "A person with magical powers, often feared or revered",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A practitioner of magic or sorcery",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A person who practices witchcraft",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "witchcraft",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "witch",
+        "witches"
+      ],
+      "clues": [
+        {
+          "clue": "The art of casting spells, a mysterious and often feared practice",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "The practice of magic, especially for evil purposes",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The use of magic or sorcery",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "witches",
+      "difficulty": "Easy",
+      "related_words": [
+        "witch",
+        "witchcraft"
+      ],
+      "clues": [
+        {
+          "clue": "People who practice magic, often in a group or coven",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Practitioners of witchcraft, often stereotyped as evil",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "People who practice witchcraft",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "females",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The fairer sex, often associated with nurturing and care",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Women or girls, making up half of the human population",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Adult human females",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "narratives",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Stories that shape our understanding of the world, often with a moral or lesson",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Accounts or stories that convey information or experiences",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Stories or accounts of events",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "biblical",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Relating to the sacred book of Christianity, a source of moral guidance",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Pertaining to the Bible, a collection of sacred writings",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Relating to the Bible",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "legend",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A story that has been passed down, often with a historical or mythical basis",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "A story that is passed down, often with a famous or heroic figure",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A famous or important story that is passed down",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "priest",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A spiritual leader, often serving as a mediator between God and humanity",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A person who is trained to perform religious rites and ceremonies",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A person who is ordained to serve in a religious capacity",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "powers",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The ability to do something, often requiring great strength or skill",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "The capacity or ability to do something, often with a sense of authority",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "The ability to do something",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "evil",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The opposite of good, often associated with harm or malevolence",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Something that is morally bad or wrong, often causing harm or suffering",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Morally bad or wrong",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-08-23"
+}

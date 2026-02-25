@@ -1,0 +1,237 @@
+{
+  "title": "Urban renewal — Hong Kong",
+  "date": "03-01",
+  "text": "The Urban Renewal Authority is the statutory body responsible for urban renewal in Hong Kong. The Operation Building Bright scheme was launched in 2009 and is subsidised by the government. People remain living inside the buildings during the renovation period, which usually lasts for over a year, leading to concerns about exposure to construction dust and the possible presence of asbestos. Such rehabilitation works are common in districts with older buildings, like Kowloon City, Mong Kok, Sham Shui Po, Yao Ma Tei and Tai Po. The government of Hong Kong has always been concerned with land shortage and has introduced various policies to increase land supply. One of the current initiatives, noted in the Chief Executive's 2022 Policy Address, is to consolidate property interests and expedite urban renewal.",
+  "hiddenWords": [
+    {
+      "word": "asbestos",
+      "difficulty": "Hard",
+      "related_words": [
+        "dust",
+        "rehabilitation"
+      ],
+      "clues": [
+        {
+          "clue": "A silent killer in old walls",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A hazardous material found in old buildings",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A toxic substance",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "dust",
+      "difficulty": "Easy",
+      "related_words": [
+        "asbestos",
+        "rehabilitation"
+      ],
+      "clues": [
+        {
+          "clue": "What you might find on your furniture after a long time",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A common air pollutant",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Tiny particles in the air",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "rehabilitation",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "asbestos",
+        "dust"
+      ],
+      "clues": [
+        {
+          "clue": "Giving new life to something old",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "The process of restoring something to its original state",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Restoring health or function",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "initiatives",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "New projects to improve something",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Actions taken to achieve a goal",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Plans or programs",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "subsidised",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Given financial support by the government",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Receiving financial assistance",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Supported financially",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "statutory",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Required by law",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Relating to laws or regulations",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Officially authorized",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "consolidate",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "To bring together and unite",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "To combine and strengthen",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "To merge or combine",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "expedite",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "To speed up or hasten",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "To accelerate a process",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "To hurry or speed up",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "shortage",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "When there is not enough of something",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A lack or scarcity of something",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Not having enough",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "renovation",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Giving new life to an old building",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "The process of repairing or restoring a building",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "The act of renewing or restoring",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-03-01"
+}

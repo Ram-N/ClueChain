@@ -252,14 +252,14 @@ def parse_paragraphs(file_path: str, delimiter: str = "===") -> List[ParagraphDa
 def rename_output_file(output_dir: str, month: int, day: int,
                       title: str, category: str) -> Path:
     """
-    Rename generated JSON file to new naming convention.
+    Rename generated JSON file to MMDD.json in the new directory structure.
 
     Args:
         output_dir: Directory containing the generated file
         month: Month number (1-12)
         day: Day number (1-31)
-        title: Original paragraph title
-        category: Category name (e.g., "FOOD")
+        title: Original paragraph title (unused, kept for API compatibility)
+        category: Category name (unused, kept for API compatibility)
 
     Returns:
         Path to renamed file
@@ -267,8 +267,8 @@ def rename_output_file(output_dir: str, month: int, day: int,
     Raises:
         FileNotFoundError: If generated file not found
     """
-    # Find file matching pattern (old format: MM-DD_Title.json)
-    pattern = f"{month:02d}-{day:02d}_*.json"
+    # Find file matching pattern (generator writes MM-DD_Title.json or MM-DD.json)
+    pattern = f"{month:02d}-{day:02d}*.json"
     old_files = list(Path(output_dir).glob(pattern))
 
     if len(old_files) == 0:
@@ -276,15 +276,49 @@ def rename_output_file(output_dir: str, month: int, day: int,
 
     old_file = old_files[0]  # Should only be one
 
-    # Build new filename
-    slug = slugify_title(title)
-    new_filename = f"{month:02d}-{day:02d}-{category}-{slug}.json"
+    # New filename: MMDD.json (e.g. "0113.json")
+    new_filename = f"{month:02d}{day:02d}.json"
     new_path = Path(output_dir) / new_filename
 
-    # Rename
+    # Rename (overwrite if exists)
     old_file.rename(new_path)
 
     return new_path
+
+
+def regenerate_daily_index(output_dir: str) -> None:
+    """
+    Regenerate assets/data/indexes/daily.json from the files present in output_dir.
+
+    Args:
+        output_dir: Path to assets/data/puzzles/daily/mmdd/
+    """
+    import json as _json
+    mmdd_dir = Path(output_dir)
+    indexes_dir = mmdd_dir.parent.parent.parent / "indexes"
+    indexes_dir.mkdir(parents=True, exist_ok=True)
+    index_path = indexes_dir / "daily.json"
+
+    generic_days = sorted(f.stem for f in mmdd_dir.glob("*.json"))
+
+    # Preserve existing overrides if the file already exists
+    existing_overrides = {}
+    if index_path.exists():
+        try:
+            existing = _json.loads(index_path.read_text(encoding="utf-8"))
+            existing_overrides = existing.get("overrides", {})
+        except Exception:
+            pass
+
+    data = {
+        "collection": "daily",
+        "description": "One puzzle per calendar day.",
+        "fallback": "mmdd",
+        "generic_days": generic_days,
+        "overrides": existing_overrides,
+    }
+    index_path.write_text(_json.dumps(data, indent=2), encoding="utf-8")
+    print(f"   ↻ Regenerated indexes/daily.json ({len(generic_days)} days)")
 
 
 def generate_single_paragraph(paragraph: ParagraphData, day: int,
@@ -354,6 +388,7 @@ def generate_single_paragraph(paragraph: ParagraphData, day: int,
                 new_path = rename_output_file(
                     output_dir, paragraph.month, day, paragraph.title, category
                 )
+                regenerate_daily_index(output_dir)
                 duration = time.time() - start_time
                 return True, new_path.name, duration
             except FileNotFoundError as e:
@@ -442,8 +477,7 @@ def dry_run(paragraphs: List[ParagraphData], day: int, category: str):
     print(f"Parsed {len(paragraphs)} paragraphs:\n")
 
     for para in paragraphs:
-        slug = slugify_title(para.title)
-        filename = f"{para.month:02d}-{day:02d}-{category}-{slug}.json"
+        filename = f"{para.month:02d}{day:02d}.json"
 
         print(f"[{para.month}] Month: {para.month:02d}, Day: {day:02d}")
         print(f"    Title: {para.title}")
@@ -517,8 +551,8 @@ Input File Format:
     Remaining: Paragraph text
 
 Output Format:
-  12 JSON files named: MM-DD-CATEGORY-title-slug.json
-  Example: 01-13-FOOD-fancy-a-kulfi-from-granita-to-queso-helado.json
+  12 JSON files named: MMDD.json
+  Example: 0113.json  (saved to assets/data/puzzles/daily/mmdd/)
         """
     )
 
@@ -551,8 +585,8 @@ Output Format:
     )
     parser.add_argument(
         "--output",
-        default="./assets/data",
-        help="Output directory (default: ./assets/data)"
+        default="./assets/data/puzzles/daily/mmdd",
+        help="Output directory (default: ./assets/data/puzzles/daily/mmdd)"
     )
     parser.add_argument(
         "--continue-on-error",

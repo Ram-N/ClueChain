@@ -1,0 +1,246 @@
+{
+  "title": "Daryl Hannah — Overview",
+  "date": "10-29",
+  "text": "Daryl Hannah (born December 3, 1960) is an American actress, director, and environmental activist. She has acted in comedic and dramatic roles in more than a hundred film and television productions since the 1970s. Hannah has appeared in films such as the supernatural horror The Fury (1978), the science fiction thriller Blade Runner, the romantic comedy Summer Lovers (both 1982), the fantasy comedy Splash (1984), the romantic comedy Roxanne, the drama Wall Street (both 1987), the comedy drama Steel Magnolias (1989), and the martial arts features Kill Bill: Volume 1 (2003) and Volume 2 (2004). In television, she starred in the Netflix series Sense8 (2015). Outside of acting, Hannah has directed and was nominated for the Grammy Award for Best Music Film. She is also noted for her environmental and social activism.",
+  "hiddenWords": [
+    {
+      "word": "supernatural",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "horror",
+        "fantasy"
+      ],
+      "clues": [
+        {
+          "clue": "Beyond the laws of nature, this term might evoke a sense of eeriness.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "This word is often associated with paranormal events or activities.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Not based on scientific facts, but rather on spiritual or mystical concepts.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "environmental",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "social",
+        "activism"
+      ],
+      "clues": [
+        {
+          "clue": "A cause close to the heart of many, tied to the well-being of our planet.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "This term refers to the natural world and the impact of human activity on it.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Relating to the natural environment and its conservation.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "social",
+      "difficulty": "Easy",
+      "related_words": [
+        "environmental",
+        "activism"
+      ],
+      "clues": [
+        {
+          "clue": "Involving the interaction of people, a key aspect of community.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "This term is associated with the organization and relations of human society.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Pertaining to society or its organization.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "activism",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "environmental",
+        "social"
+      ],
+      "clues": [
+        {
+          "clue": "A path chosen by those who wish to see change, often through direct action.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "This term refers to the use of direct action to bring about change in society.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The practice of using action to achieve social or political change.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "fantasy",
+      "difficulty": "Easy",
+      "related_words": [
+        "supernatural",
+        "horror"
+      ],
+      "clues": [
+        {
+          "clue": "A realm where imagination knows no bounds, often in fiction or daydreams.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "This genre is characterized by imaginative and improbable events.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "The faculty or activity of imagining things, especially things that are impossible or improbable.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "horror",
+      "difficulty": "Hard",
+      "related_words": [
+        "supernatural",
+        "fantasy"
+      ],
+      "clues": [
+        {
+          "clue": "A feeling that freezes the blood, often evoked by the darker side of human nature or the unknown.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "This term is associated with a genre of fiction intended to evoke fear or disgust.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "An intense feeling of fear, shock, or disgust.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "romantic",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Often associated with love, this term can evoke a sense of warmth and intimacy.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "This term refers to a feeling or attitude of love, often idealized or exaggerated.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Relating to love or romance, especially in a sentimental or idealized way.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "martial",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A term that brings to mind discipline and combat, often associated with ancient arts.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "This term refers to the arts of war or combat, especially those requiring skill and strategy.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Relating to war, soldiers, or the military.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "drama",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A form of storytelling that can evoke strong emotions, often performed on stage or screen.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "This term refers to a performance or composition that tells a story, often with a serious tone.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A play or film that tells a story, often with a serious or emotional tone.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "directed",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "To guide or supervise the performance of something, often requiring great skill and vision.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "This term refers to the act of guiding or controlling the actions of others, especially in a creative or professional context.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "To control or supervise the actions of others, especially in a creative or professional context.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-10-29"
+}

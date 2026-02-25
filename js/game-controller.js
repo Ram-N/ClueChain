@@ -361,38 +361,47 @@ export async function initializeGame() {
     
     console.log("Loaded suffix configuration:", suffixConfig);
 
-    // Load index.json to get the file list (needed for calendar availability)
-    const dataFiles = await fetch("./assets/data/index.json")
+    // Load indexes/daily.json to get the list of available puzzle days
+    const dailyIndex = await fetch("./assets/data/indexes/daily.json")
       .then(response => {
         if (response.ok) {
           return response.json();
         } else {
-          console.error("Error: index.json not found in assets/data directory");
-          return { files: [] };
+          console.error("Error: indexes/daily.json not found");
+          return { generic_days: [], overrides: {} };
         }
-      })
-      .then(data => data.files || []);
+      });
 
-    // Store file list for calendar use (no extra fetches needed)
-    setAvailableDates(dataFiles);
+    const genericDays = dailyIndex.generic_days || [];
+    const overrides = dailyIndex.overrides || {};
 
-    // Determine today's MM-DD to find the matching file
+    // Store MMDD key list for calendar use
+    setAvailableDates(genericDays);
+
+    // Determine today's MMDD (e.g. "0225") to find the matching file
     const dateElement = document.getElementById("current-date");
     const currentDateStr = dateElement ? dateElement.textContent : null;
-    let targetMmDD = null;
+    let targetMmdd = null;   // 4-char key, e.g. "0225"
+    let targetYear = null;   // full year, e.g. "2026"
     if (currentDateStr) {
       try {
         const d = new Date(currentDateStr);
-        targetMmDD = `${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+        targetMmdd = `${String(d.getMonth() + 1).padStart(2, '0')}${String(d.getDate()).padStart(2, '0')}`;
+        targetYear = String(d.getFullYear());
       } catch (e) {
         console.error("Error parsing date for file lookup:", e);
       }
     }
 
-    // Find the matching file in the index by MM-DD prefix
-    const targetFile = targetMmDD
-      ? dataFiles.find(file => file.includes(`/assets/data/${targetMmDD}-`))
-      : null;
+    // Resolve the puzzle file path: check year-specific override first, then mmdd fallback
+    let targetFile = null;
+    if (targetMmdd) {
+      if (overrides[targetYear] && overrides[targetYear].includes(targetMmdd)) {
+        targetFile = `./assets/data/puzzles/daily/yyyy/${targetYear}/${targetMmdd}.json`;
+      } else if (genericDays.includes(targetMmdd)) {
+        targetFile = `./assets/data/puzzles/daily/mmdd/${targetMmdd}.json`;
+      }
+    }
 
     let allParagraphs = [];
     if (targetFile) {
@@ -415,10 +424,10 @@ export async function initializeGame() {
           text: data.text,
           hiddenWords: data.hiddenWords
         }];
-        console.log(`Loaded puzzle for ${targetMmDD}: ${data.title?.substring(0, 40)}`);
+        console.log(`Loaded puzzle for ${targetMmdd}: ${data.title?.substring(0, 40)}`);
       }
     } else {
-      console.log(`No puzzle file found for date: ${targetMmDD}`);
+      console.log(`No puzzle file found for date: ${targetMmdd}`);
     }
 
     // Initialize game state

@@ -1,0 +1,237 @@
+{
+  "title": "Why negotiating gives you anxiety",
+  "date": "01-19",
+  "text": "Why negotiating gives you anxiety\n\nSalon.com -- Does the word “influence” make you clench a little? Does the concept of “negotiation” give you anxiety? It shouldn’t. As author and assistant professor at Yale Zoe Chance explains it, we’ve been influencing and negotiating all our lives. Negotiation in everyday life isn’t like a tense Hollywood drama, with clocks running down and people pounding their fists on desks. It’s just… communication. And better communication makes life better for everybody, whether we’re trying to change the world or just change our jobs.\n\nIn “Influence Is Your Superpower: The Science of Winning Hearts, Sparking Change, and Making Good Things Happen,” Chance explores her research on persuasion, showing why our “gator brain” is a powerful decision maker, what saying no can teach us about getting to yes, and how charisma can — and should — be learned. Salon talked to Chance recently about the superpower of influence, and why it “isn’t just for do-gooders.”",
+  "hiddenWords": [
+    {
+      "word": "anxiety",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A feeling that makes you clench, it's a common reaction to negotiation.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A state of distress that people often experience during negotiations.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A feeling of worry or nervousness.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "influence",
+      "difficulty": "Easy",
+      "related_words": [
+        "persuasion",
+        "charisma"
+      ],
+      "clues": [
+        {
+          "clue": "The power to make a difference, a superpower in everyday life.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "The ability to have an impact on someone or something.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The capacity to sway or affect someone's thoughts or actions.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "persuasion",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "influence",
+        "charisma"
+      ],
+      "clues": [
+        {
+          "clue": "A gentle art that can change hearts and minds.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "The process of convincing someone to adopt a particular point of view.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The act of persuading someone to do or believe something.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "charisma",
+      "difficulty": "Hard",
+      "related_words": [
+        "influence",
+        "persuasion"
+      ],
+      "clues": [
+        {
+          "clue": "A magnetic quality that can be learned and developed.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "A personal charm or appeal that can inspire devotion in others.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A special quality that makes someone attractive and influential.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "negotiation",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A conversation with a purpose, not a confrontation.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "The process of discussing and reaching an agreement.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A discussion between two or more parties to reach a mutually acceptable agreement.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "communication",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The key to unlocking better relationships and outcomes.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "The exchange of information, ideas, or messages between individuals or groups.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The act of conveying or sharing information.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "brain",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The control center of our thoughts, emotions, and actions, also known as the 'gator brain'.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "The organ responsible for processing information and controlling bodily functions.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "The central organ of the nervous system.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "decision",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A choice that can change the course of our lives, often made by our 'gator brain'.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "The act of making a choice or judgment.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A conclusion or resolution reached after consideration.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "research",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A systematic investigation into the unknown, often revealing surprising insights.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "A careful study or investigation into a subject or topic.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "The act of searching for knowledge or information.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "superpower",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "An extraordinary ability that can be developed and used for good.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "An exceptional talent or skill that sets someone apart.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "An ability or power that is beyond the normal human range.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-01-19"
+}

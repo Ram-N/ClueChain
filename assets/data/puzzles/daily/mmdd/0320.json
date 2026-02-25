@@ -1,0 +1,237 @@
+{
+  "title": "The Future of Wearables",
+  "date": "03-20",
+  "text": "The Future of Wearables\n\nOn an average day in 1998, statistician David Fairley was walking up a busy San Francisco street to pick up his son from preschool. Traffic was heavy, and halfway to the school, he started to feel weak and dazed.\n\n\"Actually, a homeless guy saw me and helped me to the school,\" Fairley said. \"[People at the school] had me lie down for a bit.\"\n\nFairley felt better after a rest, but the school administrators insisted he go to the hospital. On the way there, he had a heart attack.\n\nIt's not necessarily enough to have all the information... we need to have the right information in the precise moment in which we are making a decision.",
+  "hiddenWords": [
+    {
+      "word": "heavy",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Opposite of light, can weigh you down",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Having a great weight or density",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Weighty or dense",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "moment",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "information",
+        "decision"
+      ],
+      "clues": [
+        {
+          "clue": "A brief period of time, yet oh so crucial",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A specific point in time",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A short period of time",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "information",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "moment",
+        "decision"
+      ],
+      "clues": [
+        {
+          "clue": "The answer to a question you didn't know you had",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Knowledge or facts",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Facts or knowledge",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "decision",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "moment",
+        "information"
+      ],
+      "clues": [
+        {
+          "clue": "The choice that changes everything",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A conclusion or judgment",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A choice or judgment",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "rest",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "What you need after a long day",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A period of sleep or relaxation",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "To stop activity and relax",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "hospital",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Where you go when you're feeling under the weather",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A place for medical care",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A place for medical treatment",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "attack",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A sudden and intense onset, like a storm",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "A sudden and violent onset of a disease",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A sudden onset of a disease or condition",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "school",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Where you go to learn and grow",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A place for education",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "An institution for education",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "son",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A male child, a bundle of joy",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A male child or offspring",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A male child",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "street",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A path that's walked by many, but owned by none",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A public way for vehicles and pedestrians",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A public road or way",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-03-20"
+}

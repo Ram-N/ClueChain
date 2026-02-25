@@ -1,0 +1,234 @@
+{
+  "title": "Writing and the Creative Life",
+  "date": "12-22",
+  "text": "Most writers spend countless hours brainstorming characters and plot, and they even write page after page that they know they’ll never include in the book. They do this because they know that ideas need time to develop. We tend to freeze up when it’s time to get started because we know that our ideas aren’t perfect and what we produce might not be any good. But how can you ever produce something great if you don’t get started and give your ideas time to evolve? Author Jodi Picoult summarized the importance of avoiding perfectionism perfectly: “You can edit a bad page, but you can’t edit a blank page.”",
+  "hiddenWords": [
+    {
+      "word": "write",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "To create written content, an action authors take daily",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "The act of marking or inscribing words or symbols on a surface",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "To produce written words or symbols",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "page",
+      "difficulty": "Easy",
+      "related_words": [
+        "book",
+        "write"
+      ],
+      "clues": [
+        {
+          "clue": "A unit of measurement in books, often turned with care",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A sheet of paper in a book or a section of a website",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A single side of a leaf in a book",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "book",
+      "difficulty": "Easy",
+      "related_words": [
+        "page",
+        "write"
+      ],
+      "clues": [
+        {
+          "clue": "A collection of pages glued together, a treasure to behold",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A written or printed work consisting of pages glued or sewn together",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A bound collection of printed or written pages",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "plot",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The sequence of events in a narrative, a path that twists and turns",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "The plan or main story in a novel, play, or movie",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The storyline or plan of a literary work",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "ideas",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Mental images or concepts, the sparks that ignite creativity",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Thoughts or notions, the foundation of any creative endeavor",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Mental conceptions or notions",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "edit",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "To refine or perfect, a crucial step in the writing process",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "To revise or correct written material",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "To prepare for publication by correcting and revising",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "develop",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "To grow or become more advanced, like a story unfolding",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "To cause to grow or become more mature",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "To make or become more advanced or mature",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "perfectionism",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A trait that can stifle creativity, a pursuit of the unattainable",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "A tendency to strive for flawlessness, often hindering progress",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A personality trait characterized by a need for flawlessness",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "brainstorming",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A creative storm that brews innovative ideas, a mental downpour",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "A group activity to generate a wide range of ideas",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "The act of generating a lot of ideas quickly",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "characters",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The people or beings that inhabit a story, each with their own tale",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "The people or animals in a story, play, or novel",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The persons or animals in a novel, play, or movie",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-12-22"
+}

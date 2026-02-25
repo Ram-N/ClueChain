@@ -1,0 +1,232 @@
+{
+  "title": "Robot — Indian automata",
+  "date": "09-26",
+  "text": "Title: Robot — Indian automata\n\n11th century texts of Buddhist mythology also describe automata. Examples include the Samarangana Sutradhara, a treatise by Bhoja (king of Malwa) which includes a chapter about the construction of mechanical automata, including mechanical bees and birds, fountains shaped like humans and animals, and male and female dolls that refilled oil lamps, danced, played instruments, and re-enacted scenes from Hindu mythology. The Lokapannatti is an 11th-12th century Buddhist cosmological text that tells of how the Buddha's relics were protected by mechanical robots (bhuta vahana yanta or \"spirit movement machines\") until they were disarmed by King Ashoka.",
+  "hiddenWords": [
+    {
+      "word": "mythology",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A collection of myths, especially one belonging to a particular religious or cultural tradition.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "The study of myths can provide insight into a culture's values and beliefs.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "The term refers to a body of stories about gods and heroes.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "treatise",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A written work that is both comprehensive and authoritative, much like a master key that unlocks understanding.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "It's a formal, systematic written discourse on a subject, often intended to instruct or persuade.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The term is synonymous with a formal, written exposition of a subject.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "construction",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "mechanical"
+      ],
+      "clues": [
+        {
+          "clue": "Building something often requires a blueprint, but what if the blueprint was a mind?",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "The process of building or making something, especially a large structure.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "It refers to the act of constructing something.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "mechanical",
+      "difficulty": "Easy",
+      "related_words": [
+        "construction"
+      ],
+      "clues": [
+        {
+          "clue": "Think of gears and cogs working together in harmony.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Relating to machines or machinery.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The term refers to something that is operated by a machine or machinery.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "century",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A period of 100 years, a milestone in the passage of time.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A unit of time equal to 100 years.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The term refers to a period of 100 years.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "cosmological",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The dance of the cosmos, a grand ballet of stars and planets.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Relating to the study of the origin and structure of the universe.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "The term refers to the study of the origin, evolution, and fate of the universe.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "protected",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A shield of safety, a barrier against harm.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Kept safe from harm or danger.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The term means to keep someone or something safe.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "relics",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Remnants of a bygone era, fragments of a forgotten past.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Objects of historical or cultural significance that have been preserved.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "The term refers to the remains or fragments of something, especially a person or thing of historical interest.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "instruments",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Tools of creation, used to craft beautiful music.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Devices used to produce music or to measure something.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The term refers to a tool or device used for a particular purpose.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "disarmed",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The removal of arms, a gesture of peace in a world of conflict.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Made someone or something less threatening or dangerous.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "The term means to deprive someone or something of their weapons or defenses.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-09-26"
+}

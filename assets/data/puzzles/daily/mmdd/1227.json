@@ -1,0 +1,237 @@
+{
+  "title": "Petrarch — Works",
+  "date": "12-27",
+  "text": "12. Title: Petrarch — Works Petrarch also published many volumes of his letters, including a few written to long-dead figures from history such as Cicero and Virgil. Cicero, Virgil, and Seneca were his literary models. Most of his Latin writings are difficult to find today, but several of his works are available in English translations. Several of his Latin works are scheduled to appear in the Harvard University Press series I Tatti. It is difficult to assign any precise dates to his writings because he tended to revise them throughout his life. Petrarch collected his letters into four major sets of books called",
+  "hiddenWords": [
+    {
+      "word": "letters",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Written communications",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Correspondence sent through postal services",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Epistles",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "history",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "figures",
+        "models"
+      ],
+      "clues": [
+        {
+          "clue": "What we learn from the past",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Study of past events and cultures",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Chronicle",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "figures",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "history",
+        "models"
+      ],
+      "clues": [
+        {
+          "clue": "People of importance in a particular field",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Notable persons from the past",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Personalities",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "models",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "history",
+        "figures"
+      ],
+      "clues": [
+        {
+          "clue": "Examples to be followed",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "People or things that are admired and imitated",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Exemplars",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "writings",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Creative works",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Things that have been written down",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Compositions",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "translations",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Changing words from one language to another",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Renderings of texts into different languages",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Interpretations",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "university",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Institution of higher learning",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Place where advanced education is given",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Academy",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "press",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Machine for printing",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Publisher of books and newspapers",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Printer",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "series",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Group of related things",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Sequence of related events or publications",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Sequence",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "revision",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Process of making changes to something",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Act of editing or amending a text",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Edit",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-12-27"
+}

@@ -1,0 +1,237 @@
+{
+  "title": "Learn how to become a better writer",
+  "date": "04-22",
+  "text": "Title:  Learn how to become a better writer\n\nThis bundle includes nine comprehensive courses that show you how to be a more clear and effective writer — and organize your thoughts so that you can write faster than ever. From fiction to nonfiction, business writing to freelance, you’ll learn how to set good habits, be productive and produce high-quality writing that immediately hooks your audience.\n\nImprove your paragraph writing by following step-by-step guidance, leverage pre-writing skills such as brainstorming and research, and learn to apply the important principles of coherence and proofreading into your work. By the end of the bundle, you’ll have mastered a wide range of important techniques and styles — and gain a better understanding of traditional and digital publishing.",
+  "hiddenWords": [
+    {
+      "word": "write",
+      "difficulty": "Easy",
+      "related_words": [
+        "writer",
+        "writing"
+      ],
+      "clues": [
+        {
+          "clue": "What authors do with their pens?",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "To create written content",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "To mark or inscribe words, symbols, etc.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "writer",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "write",
+        "writing"
+      ],
+      "clues": [
+        {
+          "clue": "A person with a way with words",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Someone who creates written content",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "One who writes",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "writing",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "write",
+        "writer"
+      ],
+      "clues": [
+        {
+          "clue": "The result of using a pen",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "The act of creating written content",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The activity of marking or inscribing words",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "clear",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Like a cloudless sky",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Easy to understand",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Transparent or translucent",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "business",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A commercial endeavor",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Relating to commerce or trade",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A company or organization",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "research",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A systematic investigation",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "The act of gathering information",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "To search for knowledge",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "proofreading",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A careful review to detect errors",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "The act of checking for mistakes",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "To read and correct written material",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "brainstorming",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A group discussion to generate ideas",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "The act of thinking creatively",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "To produce a lot of ideas",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "fiction",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Not based on fact",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A product of imagination",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A type of literature",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "audience",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A group of people listening or watching",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "The people who receive a message",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The people who watch or listen to a performance",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-04-22"
+}

@@ -119,23 +119,19 @@ window.onload = async () => {
   }
   
   // Build content dates from the already-loaded index (no network requests needed)
+  // getAvailableDates() now returns MMDD strings like "0225"
   function buildContentDates() {
-    const files = getAvailableDates();
-    files.forEach(file => {
-      const m = file.match(/\/(\d{2}-\d{2})-/);
-      if (m) daysWithContent.push(m[1]);
+    const mmddKeys = getAvailableDates();
+    mmddKeys.forEach(key => {
+      // Convert MMDD "0225" → MM-DD "02-25" for calendar matching
+      if (/^\d{4}$/.test(key)) {
+        daysWithContent.push(`${key.slice(0, 2)}-${key.slice(2)}`);
+      }
     });
   }
 
   // Load a specific date's puzzle file and reinitialize the game
   async function loadParagraphForDate(mmDD) {
-    const files = getAvailableDates();
-    const targetFile = files.find(file => file.includes(`/assets/data/${mmDD}-`));
-    if (!targetFile) {
-      console.log(`No puzzle file found for ${mmDD}`);
-      initializeGame();
-      return;
-    }
     // The game-controller reads the date display element to pick the file;
     // updateDateDisplay already set it before this call, so just reinitialize.
     initializeGame();

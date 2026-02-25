@@ -1,0 +1,237 @@
+{
+  "title": "The Character Remains",
+  "date": "10-23",
+  "text": "Title: The Character Remains\n\nAt fifty feet or so below the peak, in the midst of a rain of stones and scoriae, a large crater was vomiting forth \ntorrents of lava. This fell back in a cascade of fire into the heart of the liquid mass. Situated as it was, this\n volcano lit the lower plain of the ocean like an immense torch, even to the uttermost limits of the horizon. I said that the \n submarine crater threw forth lava but no flames—for the latter require the oxygen of the air to feed upon, and cannot be developed underwater. \n But streams of lava, having within themselves the principle of their own incandescence, can attain a white heat, fight \n vigorously against the liquid element, and by contact turn it into vapor.",
+  "hiddenWords": [
+    {
+      "word": "lava",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "volcano",
+        "crater"
+      ],
+      "clues": [
+        {
+          "clue": "A fiery flow that can light up the darkest depths.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Molten rock that flows from a volcano.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Hot, molten rock.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "volcano",
+      "difficulty": "Easy",
+      "related_words": [
+        "lava",
+        "crater"
+      ],
+      "clues": [
+        {
+          "clue": "A mountain that's erupting with excitement.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A landform that erupts with molten rock.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A mountain that erupts with lava.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "crater",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "lava",
+        "volcano"
+      ],
+      "clues": [
+        {
+          "clue": "A hole that's filled with hot stuff.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A depression in the ground formed by volcanic activity.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A bowl-shaped depression in a volcano.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "ocean",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Where the submarine crater is located.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A large body of saltwater.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A vast body of water.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "horizon",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The line where the earth meets the sky, and the volcano's light meets its limit.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "The apparent line where the earth meets the sky.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The line where the earth and sky appear to meet.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "submarine",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Underwater, where the crater resides.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Relating to or used in underwater operations.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Operating or located under the sea.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "incandescence",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A state of being so hot it glows, but not quite on fire.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "The emission of light by an object that is heated until it glows.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "The state of being glowing with heat.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "vapor",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "What's left when the liquid element meets the lava's heat.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A gas-like state of a substance.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A gas.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "torch",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "What the volcano resembles in the darkness of the ocean.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A stick or device with a flame used for lighting.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A stick with a flame on the end.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "scoriae",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The volcanic ejecta that's falling like rain.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Small, rough fragments of lava.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Small, rough pieces of rock.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-10-23"
+}

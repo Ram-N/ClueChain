@@ -1,0 +1,237 @@
+{
+  "title": "Miracle — External links",
+  "date": "11-30",
+  "text": "Title: Miracle — External links\n\nMiracles article in the Internet Encyclopedia of Philosophy Skepdic.com, Skeptic's Dictionary on miracles Herbermann, Charles, ed. (1913). \"Miracle\" . Catholic Encyclopedia. New York: Robert Appleton Company. Chisholm, Hugh, ed. (1911). \"Miracle\" . Encyclopædia Britannica (11th ed.). Cambridge University Press. \"Miracle\" in the Interdisciplinary Encyclopedia of Religion and Science. The history of thinking about miracles in the West Mukto-mona.com, an Indian Skeptic's explanation of miracles: By Yuktibaadi, compiled by Basava Premanand Andrew Lang, Psychanalyse-paris.com, \"Science and 'Miracles'\", The Making of Religion Chapter II, Longmans, Green, and Co., London, New York and Bombay, 1900, pp. 14–38. Almut Hoefert (ed.): Miracles, Marvels and Monsters in the Middle Ages. (Living History Books, published in 2016 by the professional portal of the historical sciences in Switzerland, info-clio.ch) Hume on Miracles",
+  "hiddenWords": [
+    {
+      "word": "history",
+      "difficulty": "Easy",
+      "related_words": [
+        "science",
+        "philosophy"
+      ],
+      "clues": [
+        {
+          "clue": "The past considered as a whole.",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "It helps us understand how things have developed over time.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "It's what we learn from the stories of our ancestors.",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "word": "science",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "history",
+        "philosophy"
+      ],
+      "clues": [
+        {
+          "clue": "Systematic knowledge of the physical world.",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "It's used to explain natural phenomena.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A way to understand the universe, like a big puzzle.",
+          "type": "Indirect",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "word": "philosophy",
+      "difficulty": "Hard",
+      "related_words": [
+        "history",
+        "science"
+      ],
+      "clues": [
+        {
+          "clue": "The study of fundamental nature of knowledge.",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "It's a way to question everything and seek answers.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A never-ending journey to find the meaning of life.",
+          "type": "Indirect",
+          "points": 7
+        }
+      ]
+    },
+    {
+      "word": "encyclopedia",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A comprehensive reference work.",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "It contains a wide range of knowledge on various subjects.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A treasure trove of information, all in one place.",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "word": "skeptic",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A person who questions the validity of something.",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "Someone who doubts the truth of a particular claim.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A doubting Thomas, always looking for proof.",
+          "type": "Indirect",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "word": "dictionary",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A book that lists the meanings of words.",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "A helpful tool for learning new vocabulary.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A book that's like a map, guiding you through the world of words.",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "word": "marvels",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Things that cause great wonder or admiration.",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "They can be extraordinary events or remarkable objects.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Like magic, they can leave us speechless and amazed.",
+          "type": "Indirect",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "word": "monsters",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Mythical creatures that are often frightening.",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "They can be found in legends, folklore, and fairy tales.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "The stuff of nightmares, or so it would seem.",
+          "type": "Indirect",
+          "points": 7
+        }
+      ]
+    },
+    {
+      "word": "publisher",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A person or company that produces books or other materials.",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "They help authors share their work with the world.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The bridge between writers and readers.",
+          "type": "Indirect",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "word": "portal",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A website or platform that provides access to information.",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "It's like a doorway to a new world of knowledge.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A gateway to endless possibilities.",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-11-30"
+}

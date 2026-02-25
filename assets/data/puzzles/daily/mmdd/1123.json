@@ -1,0 +1,234 @@
+{
+  "title": "The Second Coming",
+  "date": "11-23",
+  "text": "Title: The Second Coming\nSo begins the intimate epic of Jolie and Ethan: child and adult, apart and together, different yet the same.\nTheir journey toward each other will face opposition from grandparents and siblings and friends. It will strain\nconnections with roommates and benefactors and a probation officer desperate to help. It will push Jolie out past her depth with a mysterious admirer, and Ethan in over his head with his first love, Jolie’s mom. But as father and daughter struggle to find their footing, new vistas beckon: from a surf break in mid-’90s Delaware to group therapy during the Great Recession, from an encampment\nat Occupy Wall Street to a HoJo on Maryland’s Eastern Shore, from the heights of the Brooklyn Bridge to horizons seldom seen in fiction.",
+  "hiddenWords": [
+    {
+      "word": "journey",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Life is a path, and this word is the trip.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A trip or excursion, often with a purpose.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A travel or a voyage.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "struggle",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "When life gives you lemons, you must struggle to make lemonade.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "To strive or endeavor, often with difficulty.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "To fight or contend with something.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "vistas",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A scenic view can be a vista, but what about the view of the mind?",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "A broad or distant view, often of a landscape.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A distant view or prospect.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "depth",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "How deep is the ocean, and how deep are your feelings?",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "The measure of how deep something is, from top to bottom.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The distance from the top to the bottom of something.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "epic",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A long and heroic story, or a really long poem.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "A long narrative poem or a heroic story.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A long and heroic story or poem.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "intimate",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A close and private relationship, like a secret.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Very close or private, often in a personal relationship.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Closely personal or private.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "probation",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A test of behavior, like a trial by fire.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "A period of testing or supervision, often after a crime.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "The state of being on probation.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "benefactors",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "People who give, but also people who take.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "People who give money or help to others, often a charity.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "People who give money or help to others.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "encampment",
+      "difficulty": "Hard",
+      "related_words": [
+        "vistas",
+        "journey"
+      ],
+      "clues": [
+        {
+          "clue": "A temporary home, like a camp, but what about the view?",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "A temporary place where people, especially soldiers, stay.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A place where people camp, often temporarily.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "horizons",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "vistas",
+        "encampment"
+      ],
+      "clues": [
+        {
+          "clue": "The line where the earth meets the sky, or the limit of what you can see.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "The apparent line where the earth or sea meets the sky.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The line where the earth or sea meets the sky.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-11-23"
+}

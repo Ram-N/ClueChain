@@ -1,0 +1,237 @@
+{
+  "title": "Anomia (game) — Design",
+  "date": "12-29",
+  "text": "Title: Anomia (game) — Design\n\nAnomia was designed by Andrew Innes, who based the gameplay on the card game Store, wherein players take on the identities of different types of stores and draw from a deck of playing cards; if two players draw a card of the same suit, then they quickly attempt to name something that can be purchased in their opponent's store. Innes found that having only one category was limiting and thought that the game could be expanded to accommodate a wider variety of topics. In 2005, Innes made a prototype of a card game with an expanded set of categories, which he play-tested with more than 200 people over the course of four years. Innes first picked the name \"Common Knowledge,\" but it was already trademarked as a game. He eventually chose the name \"Anomia\" a word meaning \"without a name\" or \"the inability to recall a word\".",
+  "hiddenWords": [
+    {
+      "word": "categories",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "topics",
+        "prototype"
+      ],
+      "clues": [
+        {
+          "clue": "A grouping based on shared characteristics, much like a family tree for concepts.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "These are the classes or divisions that things are put into based on what they have in common.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A classification or a group of things that share common features.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "topics",
+      "difficulty": "Easy",
+      "related_words": [
+        "categories",
+        "prototype"
+      ],
+      "clues": [
+        {
+          "clue": "Subjects for discussion that can range from science to history, and are often the focus of a speech or lecture.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Matters or issues that are dealt with in a conversation, writing, or meeting.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A subject or theme for discussion or treatment.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "prototype",
+      "difficulty": "Hard",
+      "related_words": [
+        "categories",
+        "topics"
+      ],
+      "clues": [
+        {
+          "clue": "An early version of something that is used to test its design and functionality, often leading to a more refined final product.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "A preliminary model of something, from which other forms are developed or copied.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "An original or first version of something, used as a basis for later versions.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "players",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Those who engage in a game, sport, or other activity for enjoyment, often competing against others.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Individuals who participate in a game or sport.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A person who takes part in a game or sport.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "identities",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The state of being the same as something or someone else, or a person's sense of self.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "The characteristics that define a person or thing and distinguish it from others.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The state of being oneself, or a person's individuality.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "limiting",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Restricting or constraining in some way, often preventing something from reaching its full potential.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Something that restricts or confines, setting a boundary beyond which something cannot go.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Restricting the size, extent, or degree of something.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "deck",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A collection of cards, often used for playing games, but can also refer to a structure that extends from a building.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A set of cards used for playing games, or a structure like a floor or platform, often outdoors.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A pack of cards or a flat structure, like a floor or roof.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "suit",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A set of clothes, especially a man's jacket and trousers, or one of the sets of cards in a deck, each with its own symbol.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "A set of clothes or a set of cards, but can also refer to something being fitting or appropriate.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "One of the sets of cards in a deck, or a set of clothes.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "trademarked",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Having a name, symbol, or design that is officially registered and protected by law as belonging to a particular company or product.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A name, symbol, or design that is officially registered and protected by law as belonging to a particular company or product.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Officially registered as a trademark, giving the owner exclusive rights to use it.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "inability",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The state of being unable to do something, often due to a lack of skill, knowledge, or resources.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Lack of ability or capacity to do something, often resulting in failure or ineffectiveness.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The state of being unable to do something.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-12-29"
+}

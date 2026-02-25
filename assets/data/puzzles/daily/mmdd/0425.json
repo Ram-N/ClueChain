@@ -1,0 +1,237 @@
+{
+  "title": "Jazz — Jazz and race",
+  "date": "04-25",
+  "text": "Title: Jazz — Jazz and race\nFor some African Americans, jazz has drawn attention to African-American contributions to culture and history. For others, jazz is a reminder of \"an oppressive and racist society and restrictions on their artistic visions\". Amiri Baraka argues that there is a \"white jazz\" genre that expresses whiteness. White jazz musicians appeared in the Midwest and in other areas throughout the U.S. Papa Jack Laine, who ran the Reliance band in New Orleans in the 1910s, was called \"the father of white jazz\". The Original Dixieland Jazz Band, whose members were white, were the first jazz group to record, and Bix Beiderbecke was one of the most prominent jazz soloists of the 1920s. The Chicago Style was developed by white musicians such as Eddie Condon, Bud Freeman, Jimmy McPartland, and Dave Tough. Others from Chicago such as Benny Goodman and Gene Krupa became leading members of swing during the 1930s. Many bands included both Black and white musicians. These musicians helped change attitudes toward race in the U.S.",
+  "hiddenWords": [
+    {
+      "word": "jazz",
+      "difficulty": "Easy",
+      "related_words": [
+        "music",
+        "style"
+      ],
+      "clues": [
+        {
+          "clue": "A genre that's all about improvisation and syncopated rhythms",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A style of music that originated in the southern United States",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A type of music characterized by its blue notes and swing rhythm",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "music",
+      "difficulty": "Easy",
+      "related_words": [
+        "jazz",
+        "style"
+      ],
+      "clues": [
+        {
+          "clue": "The universal language that can evoke emotions and bring people together",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "An art form whose medium is sound and silence",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A series of sounds with rhythm and melody",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "style",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "jazz",
+        "music"
+      ],
+      "clues": [
+        {
+          "clue": "A way of doing something that reflects one's personality or attitude",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A manner of expressing oneself through art or fashion",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A particular way of doing or presenting something",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "racist",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A word that describes a belief system that's rooted in hatred and intolerance",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "A term used to describe someone who discriminates against others based on their race",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Prejudiced against someone because of their race",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "restrictions",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Limitations that can stifle creativity and freedom",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Rules or laws that limit what someone can do",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Something that limits or controls someone's actions",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "vision",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A mental image of what the future could hold",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "The ability to think about and plan for the future",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A clear idea of what you want to achieve",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "expresses",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "To convey a thought or feeling through art or words",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "To show or communicate something through a particular medium",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "To say or show something clearly",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "genre",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A category of art or music that's defined by its style or form",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A type of music or art that's characterized by its unique sound or style",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A category of music or art",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "attitudes",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The way people think or feel about something",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A person's feelings or opinions about something",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A person's way of thinking or behaving",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "contributions",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The things that people do to help or support something",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "The actions or achievements of someone that help to make something successful",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Something that someone gives or does to help a cause or project",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-04-25"
+}

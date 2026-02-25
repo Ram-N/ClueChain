@@ -1,0 +1,237 @@
+{
+  "title": "Temples Where Gods Come to Life",
+  "date": "03-15",
+  "text": "Temples Where Gods Come to Life\nEdward Wong, NYT\n\nMale pilgrims draped in orange robes shuffled past us to stand in front of the lingam. Many were Shaivites, easily recognized by three white lines drawn on their foreheads. I saw them everywhere in Tamil Nadu, including at the Meenakshi-Sundareshwarar temple in Madurai, my final stop.\n\nI stood by the bathing tank in the courtyard outside the Meenakshi shrine, watching as pilgrims dunked their heads or entire bodies into the water, a scene repeated at rivers, lakes and pools all across India. A massive, brightly painted gopura rose above each of the four entrances to the temple, the 12 towers visible for miles around. The tallest, above the south entrance, was more than 150 feet tall.\n\nMadurai is one of the most ancient cities in India, so it is only fitting that at the center of its teeming bazaars stands what some call the most magnificent temple complex on the subcontinent. It is actually two temples joined, one dedicated to Meenakshi and the other to her husband, Sundareshwarar. Unlike many temples in India, the female god is the dominant one here.",
+  "hiddenWords": [
+    {
+      "word": "lingam",
+      "difficulty": "Hard",
+      "related_words": [
+        "pilgrims",
+        "temple"
+      ],
+      "clues": [
+        {
+          "clue": "Symbol of divine power, often found in Hindu temples",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A representation of Lord Shiva, often worshiped by Shaivites",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A phallic symbol in Hinduism",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "pilgrims",
+      "difficulty": "Easy",
+      "related_words": [
+        "lingam",
+        "temple"
+      ],
+      "clues": [
+        {
+          "clue": "Travelers with a spiritual purpose, often dressed in distinctive attire",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "People who journey to sacred sites for worship or enlightenment",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Devout travelers",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "temple",
+      "difficulty": "Easy",
+      "related_words": [
+        "lingam",
+        "pilgrims"
+      ],
+      "clues": [
+        {
+          "clue": "A place of worship, often featuring intricate architecture and art",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A sacred building for spiritual practices and rituals",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A place for prayer or worship",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "towers",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Structures that rise high into the air, often used for observation or defense",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Elevated constructions, sometimes used in architecture for aesthetic or functional purposes",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Tall, narrow structures",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "bazaars",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Vibrant marketplaces, often filled with exotic goods and lively atmosphere",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Places where people gather to buy and sell goods, frequently found in ancient cities",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Marketplaces",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "cities",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Large human settlements, often featuring complex infrastructure and diverse populations",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Urban areas with dense populations and various amenities",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Metropolitan areas",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "rivers",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Natural flowing bodies of water, often supporting diverse ecosystems",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Waterways that flow into oceans, lakes, or other rivers",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Flowing bodies of water",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "lakes",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Bodies of fresh or saltwater, often surrounded by land",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Still or slow-moving bodies of water, sometimes used for recreation or fishing",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Bodies of water",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "pools",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Small, contained bodies of water, often used for swimming or reflection",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Artificial or natural bodies of water, sometimes found in temples or public areas",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Small bodies of water",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "gopura",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A monumental entrance tower, often found in Hindu temples",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "A large, ornate structure serving as an entrance to a temple complex",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A type of entrance tower in Hindu architecture",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-03-15"
+}

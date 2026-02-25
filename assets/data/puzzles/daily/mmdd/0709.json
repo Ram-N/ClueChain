@@ -1,0 +1,228 @@
+{
+  "id": "emerson-compensation-2025-07-09",
+  "date": "07-09",
+  "title": "The Law of Compensation by Ralph Waldo Emerson",
+  "text": "And yet the compensations of calamity are made apparent to the understanding also, after long intervals of time. A fever, a mutilation, a cruel disappointment, a loss of wealth, a loss of friends, seems at the moment unpaid loss, and unpayable. But the sure years reveal the deep remedial force that underlies all facts. The death of a dear friend, wife, brother, lover, which seemed nothing but privation, somewhat later assumes the aspect of a guide or genius; for it commonly operates revolutions in our way of life, terminates an epoch of infancy or of youth which was waiting to be closed, breaks up a wonted occupation, or a household, or style of living, and allows the formation of new ones more friendly to the growth of character. It permits or constrains the formation of new acquaintances, and the reception of new influences that prove of the first importance to the next years",
+  "hiddenWords": [
+    {
+      "word": "calamity",
+      "difficulty": "Hard",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "A great disaster, causing ruin and lament, often heralded by a mighty plea.",
+          "points": 7
+        },
+        {
+          "type": "Suggestive",
+          "clue": "Think of a catastrophic event, like a natural disaster or a severe misfortune.",
+          "points": 4
+        },
+        {
+          "type": "Straight",
+          "clue": "An event causing great and often sudden damage or distress; a disaster.",
+          "points": 2
+        }
+      ],
+      "related_words": []
+    },
+    {
+      "word": "understanding",
+      "difficulty": "Intermediate",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "To stand beneath the truth, grasping the essence of a complex idea.",
+          "points": 5
+        },
+        {
+          "type": "Suggestive",
+          "clue": "The ability to comprehend or grasp the meaning of something.",
+          "points": 3
+        },
+        {
+          "type": "Straight",
+          "clue": "The ability to understand something; comprehension.",
+          "points": 1
+        }
+      ],
+      "related_words": []
+    },
+    {
+      "word": "intervals",
+      "difficulty": "Medium",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "Spaces between, where music finds its pause, and time marks its divide.",
+          "points": 6
+        },
+        {
+          "type": "Suggestive",
+          "clue": "Periods of time between events, or spaces between objects.",
+          "points": 3
+        },
+        {
+          "type": "Straight",
+          "clue": "Periods of time between two events.",
+          "points": 2
+        }
+      ],
+      "related_words": []
+    },
+    {
+      "word": "remedial",
+      "difficulty": "Hard",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "A cure for woes, a medicine for ills, it aims to mend what's broken still.",
+          "points": 7
+        },
+        {
+          "type": "Suggestive",
+          "clue": "Something intended to correct or improve a deficiency, especially in education or health.",
+          "points": 4
+        },
+        {
+          "type": "Straight",
+          "clue": "Providing a remedy; tending to improve or cure.",
+          "points": 2
+        }
+      ],
+      "related_words": []
+    },
+    {
+      "word": "underlies",
+      "difficulty": "Intermediate",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "It rests beneath, a hidden base, supporting all that stands in place.",
+          "points": 5
+        },
+        {
+          "type": "Suggestive",
+          "clue": "To be the cause or basis of something.",
+          "points": 3
+        },
+        {
+          "type": "Straight",
+          "clue": "To lie or be located under.",
+          "points": 1
+        }
+      ],
+      "related_words": []
+    },
+    {
+      "word": "assumes",
+      "difficulty": "Medium",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "To take it on, without a doubt, a role, a guise, inside, without.",
+          "points": 6
+        },
+        {
+          "type": "Suggestive",
+          "clue": "To take for granted or to adopt a particular appearance or quality.",
+          "points": 3
+        },
+        {
+          "type": "Straight",
+          "clue": "To take or begin to have (power, responsibility, etc.).",
+          "points": 2
+        }
+      ],
+      "related_words": []
+    },
+    {
+      "word": "operates",
+      "difficulty": "Easy",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "It works and runs, a busy hum, making the system overcome.",
+          "points": 5
+        },
+        {
+          "type": "Suggestive",
+          "clue": "What a machine does when it's functioning, or what a surgeon performs.",
+          "points": 3
+        },
+        {
+          "type": "Straight",
+          "clue": "To control the functioning of a machine, process, or system.",
+          "points": 1
+        }
+      ],
+      "related_words": []
+    },
+    {
+      "word": "epoch",
+      "difficulty": "Hard",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "A long stretch of time, a defining phase, marking history's grand display.",
+          "points": 7
+        },
+        {
+          "type": "Suggestive",
+          "clue": "A significant period in history or in a person's life.",
+          "points": 4
+        },
+        {
+          "type": "Straight",
+          "clue": "A period in history or a person's life, typically one marked by notable events or particular characteristics.",
+          "points": 2
+        }
+      ],
+      "related_words": ["infancy", "youth"]
+    },
+    {
+      "word": "infancy",
+      "difficulty": "Medium",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "The early cries, the fragile start, a nascent stage, a tender heart.",
+          "points": 6
+        },
+        {
+          "type": "Suggestive",
+          "clue": "The period of being a baby or very young child.",
+          "points": 3
+        },
+        {
+          "type": "Straight",
+          "clue": "The period of a child's life before walking or talking.",
+          "points": 2
+        }
+      ],
+      "related_words": ["epoch", "youth"]
+    },
+    {
+      "word": "youth",
+      "difficulty": "Easy",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "A time of vigor, dreams untold, before the stories grow old.",
+          "points": 5
+        },
+        {
+          "type": "Suggestive",
+          "clue": "The period of life between childhood and adult age.",
+          "points": 3
+        },
+        {
+          "type": "Straight",
+          "clue": "The period of being young.",
+          "points": 1
+        }
+      ],
+      "related_words": ["epoch", "infancy"]
+    }
+  ]
+}

@@ -1,19 +1,27 @@
 #!/bin/bash
 # Validate all batch-generated JSON files
 # Usage: ./scripts/validate_batch.sh [pattern]
-# Example: ./scripts/validate_batch.sh "*-13-FOOD-*.json"
+# Example: ./scripts/validate_batch.sh "13*.json"   (new MMDD format)
+#          ./scripts/validate_batch.sh "*-13-FOOD-*.json"  (old format, still in assets/data/)
 
-PATTERN="${1:-*-13-*.json}"
+PATTERN="${1:-13*.json}"
 VALIDATOR="assets/data/json_validator.py"
 
-echo "🔍 Validating files matching: $PATTERN"
+# Support new directory structure: check puzzles/daily/mmdd/ first, then assets/data/ fallback
+if ls assets/data/puzzles/daily/mmdd/$PATTERN 1>/dev/null 2>&1; then
+    SEARCH_DIR="assets/data/puzzles/daily/mmdd"
+else
+    SEARCH_DIR="assets/data"
+fi
+
+echo "🔍 Validating files matching: $PATTERN  (in $SEARCH_DIR)"
 echo "═══════════════════════════════════════════"
 
 count=0
 passed=0
 failed=0
 
-for file in assets/data/$PATTERN; do
+for file in $SEARCH_DIR/$PATTERN; do
     if [ -f "$file" ]; then
         count=$((count + 1))
         filename=$(basename "$file")

@@ -1,0 +1,228 @@
+{
+  "title": "Pizzagate conspiracy theory — Turkish press reports",
+  "date": "10-04",
+  "text": "Title: Pizzagate conspiracy theory — Turkish press reports\n\nIn Turkey, the allegations were reported by pro-government newspapers (i.e., those supportive of President Recep Tayyip Erdoğan), such as Sabah, A Haber, Yeni Şafak, Akşam and Star. The story appeared on Turkey's Ekşi Sözlük website and on the viral news network HaberSelf, where anyone can post content. These forums reposted images and allegations directly from the since-deleted subreddit, which were reprinted in full in the state-controlled press. Efe Sozeri, a columnist for The Daily Dot, suggested Turkish government sources were pushing this story to distract attention from a child abuse scandal there in March 2016.",
+  "hiddenWords": [
+    {
+      "word": "allegations",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "They are often made without proof, like whispers in the wind, but can cause a whirlwind of trouble.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Statements presented as fact, often unverified.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Accusations or claims.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "reported",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Like a tale carried on the breeze, this action shares information.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Describing the act of making something known to others.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Announced or communicated.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "supportive",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Like a helping hand, it lifts others up, fostering a sense of camaraderie.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Offering encouragement or assistance.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Providing aid or backing.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "President",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "This individual often holds the highest office in a nation, leading with authority and sometimes, a little bit of flair.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "The head of state or government in various countries.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A chief executive or head of state.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "story",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "It can be a tall tale, a bedtime read, or a historical account, all woven with words.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A narrative, either true or fictional.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "An account of events.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "appeared",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Like the sun rising, it makes itself known to the world.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Came into view or became visible.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Became visible or evident.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "website",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "It's a digital home, a place of clicks and scrolls, where information resides.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A collection of related web pages, typically including a homepage, offered by an organization or individual.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A site on the internet.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "forums",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "These digital spaces buzz with conversations, a hub for sharing thoughts and ideas, much like a town square.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Online discussion areas where people can post messages.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Online discussion boards.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "attention",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Like a spotlight, it focuses on a subject, making it clear and present.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "The act of giving consideration to something.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Notice taken of someone or something.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "government",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "It's the engine of a nation, the core of its operations, where laws are made and enforced.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "The ruling authority for a community or country.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "The system by which a state or community is governed.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-10-04"
+}

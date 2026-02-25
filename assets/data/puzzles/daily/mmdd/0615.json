@@ -1,0 +1,237 @@
+{
+  "title": "36 Hours in Bangalore, India",
+  "date": "06-15",
+  "text": "36 Hours in Bangalore, India\nBy Erica Westly, The New York Times\n\nIt would be easy to spend an entire afternoon exploring the shops and temples of Malleswaram, but at some point, time must be set aside for dosas, savory crepes that south Indians enjoy at breakfast and as an afternoon snack. Sampige (pronounced som-pi-gay) Road, one of the neighborhood’s main streets, is near several great dosa options. The 63-year-old New Sri Sagar, commonly known as Central Tiffin Room is one of the most famous dosa places in Bangalore. The restaurant offers table service but no menus, so it’s best to stick with the classic order: a benne masala dosa — a potato-stuffed crepe coated in ghee — and a cup of frothy south Indian coffee (about 40 rupees).",
+  "hiddenWords": [
+    {
+      "word": "time",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "What we all wish we had more of, yet it slips away",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A measure used to schedule events",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A unit of measurement",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "temples",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "shops",
+        "road"
+      ],
+      "clues": [
+        {
+          "clue": "Places of spiritual refuge, often found near marketplaces",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Buildings for public worship",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Sacred structures",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "shops",
+      "difficulty": "Easy",
+      "related_words": [
+        "temples",
+        "road"
+      ],
+      "clues": [
+        {
+          "clue": "Destinations for retail therapy",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Places where goods are sold",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Stores",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "road",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "temples",
+        "shops"
+      ],
+      "clues": [
+        {
+          "clue": "A path that connects two points, often lined with market stalls",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A way or route for travel",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A highway or street",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "dosa",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A culinary delight that's both crispy and delicate, from the south",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "A type of Indian flatbread",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A fermented crepe",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "ghee",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A golden elixir that's both healthy and delicious, in moderation",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "A type of clarified butter",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Clarified butter",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "coffee",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A morning pick-me-up for many",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A popular hot beverage",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A drink made from roasted beans",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "neighborhood",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A community of people living in a specific area",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A residential area",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A local area with its own character",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "restaurant",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A place where meals are served to customers",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "An establishment that serves prepared food",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A place to eat out",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "order",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A request for something to be done or provided",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A command or instruction",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A directive",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-06-15"
+}

@@ -1,0 +1,237 @@
+{
+  "title": "I rescued a panini press",
+  "date": "10-20",
+  "text": "I rescued a panini press\n\nWe moved into our apartment midway through the pandemic, lured via Zoom walkthrough by six west-facing windows that flooded the kitchen with an alleyway's worth of golden light. The view itself was nothing to speak of — dumpsters, power lines, the occasional good dog sighting — but the light was generous, forgiving, the kind that makes even a chipped coffee mug glow like stained glass. By then, the building had already established what I've come to think of, with reverence, as The Free Table.",
+  "hiddenWords": [
+    {
+      "word": "light",
+      "difficulty": "Easy",
+      "related_words": [
+        "glass",
+        "windows"
+      ],
+      "clues": [
+        {
+          "clue": "It's what makes things visible, but also what makes a room feel cozy.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Something that illuminates a space.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The opposite of darkness.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "glass",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "light",
+        "windows"
+      ],
+      "clues": [
+        {
+          "clue": "A delicate material that shatters easily, yet can be beautiful when crafted.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A type of material often used in windows and decorative objects.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A transparent or translucent material.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "windows",
+      "difficulty": "Easy",
+      "related_words": [
+        "light",
+        "glass"
+      ],
+      "clues": [
+        {
+          "clue": "They let in the view, and the view lets in them.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Openings in a building that allow natural light and air to enter.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Parts of a building for letting in light and air.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "pandemic",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A global event that changed the way people interact, like a puzzle that needs solving.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A widespread disease outbreak that affects a large number of people.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A global health crisis.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "kitchen",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The heart of the home, where meals are prepared and memories are made.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A room in a house where food is prepared.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The room with the stove and sink.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "apartment",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A place to call home, but not always a house.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A self-contained housing unit that occupies only part of a building.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A room or set of rooms fitted especially with sleeping and living quarters.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "dog",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Man's best friend, often found in alleys or backyards.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A common household pet.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A domesticated carnivorous mammal.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "alleyway",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A narrow passage between buildings, often overlooked but full of character.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A narrow passageway between or behind buildings.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A narrow street or passageway, especially one between buildings.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "reverence",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A feeling that's hard to put into words, but is often shown through actions.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A feeling of deep respect or awe.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A state of being honored or respected.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "mug",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A vessel for hot beverages, often with a story to tell.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A cup, typically with a handle, used for hot drinks.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A container used for drinking liquids.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-10-20"
+}

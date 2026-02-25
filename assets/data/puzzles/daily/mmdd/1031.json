@@ -1,0 +1,237 @@
+{
+  "title": "Rhythm — Tempo and duration",
+  "date": "10-31",
+  "text": "Title: Rhythm — Tempo and duration\n\nThe tempo of the piece is the speed or frequency of the tactus, a measure of how quickly the beat flows. This is often measured in 'beats per minute' (bpm): 60 bpm means a speed of one beat per second, a frequency of 1 Hz. A rhythmic unit is a durational pattern that has a period equivalent to a pulse or several pulses. The duration of any such unit is inversely related to its tempo. Musical sound may be analyzed on five different time scales, which Moravscik has arranged in order of increasing duration.",
+  "hiddenWords": [
+    {
+      "word": "piece",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "It's a work, often performed, but not always a masterpiece.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A composition or creation.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A musical composition.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "speed",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "It's the pace at which things move, a measure of how quickly they go.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "The rate of motion.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Velocity.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "flows",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Like a river, but can be a feeling or an idea.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Moves continuously.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Proceeds or progresses smoothly.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "often",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A frequent visitor, but not always welcome.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Frequently or many times.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Frequently or habitually.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "means",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "It's the heart of a message, the core of what's said.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Signifies or indicates.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Denotes or signifies.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "second",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A blink of an eye in time's grand scheme.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A unit of time equal to 1/60th of a minute.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A unit of time, equal to sixty minutes.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "pulse",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "unit",
+        "pattern"
+      ],
+      "clues": [
+        {
+          "clue": "The rhythm of life, a steady beat within.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A rhythmic beat or throb.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A single beat of the heart.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "unit",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "pulse",
+        "pattern"
+      ],
+      "clues": [
+        {
+          "clue": "A building block, a piece of the whole.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A distinct part of something.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A single thing or person.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "pattern",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "pulse",
+        "unit"
+      ],
+      "clues": [
+        {
+          "clue": "Like a dance step, repeated to create form.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "A repeated design or form.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A design or model.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "analyzed",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Like a detective examining clues, it involves breaking down something to understand it.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Examined in detail to determine the elements or structure.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Subjected to analysis.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-10-31"
+}

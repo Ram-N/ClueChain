@@ -1,0 +1,237 @@
+{
+  "title": "Urban renewal \u2014 South Africa",
+  "date": "07-01",
+  "text": "Title: Urban renewal \u2014 South Africa\n\nFrom 1938 to 1942, the Central Housing Board and Cape Town City Council constructed 13,000 flats as part of slum clearance projects. In the mid-1950s, some residential areas of Johannesburg were to be involuntarily removed by city planners. Black townships were targeted, motivated by residents' participation in civil unrest against the Apartheid government authorities in 1949 and 1950. In post-apartheid South Africa major grassroots social movements such as the Western Cape Anti-Eviction Campaign and Abahlali baseMjondolo emerged to contest 'urban renewal' programs that forcibly relocated the poor out of the cities.",
+  "hiddenWords": [
+    {
+      "word": "residential",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A place where people live, often in a house or apartment",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "Areas with homes and families, not commercial or industrial",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Imagine a quiet street with trees and kids playing, what kind of area is it?",
+          "type": "Indirect",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "word": "participation",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "movements",
+        "campaign"
+      ],
+      "clues": [
+        {
+          "clue": "Taking part in something, like a sport or a project",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "When people get involved and contribute to a cause or activity",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Without it, a team is just a group of individuals, what brings them together?",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "word": "movements",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "participation",
+        "campaign"
+      ],
+      "clues": [
+        {
+          "clue": "A group of people working together for a common goal",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "Organized efforts by groups of people seeking social or political change.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Like a river flowing, they can be powerful and unstoppable",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "word": "campaign",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "participation",
+        "movements"
+      ],
+      "clues": [
+        {
+          "clue": "A series of activities designed to achieve a particular goal",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "Often used in politics or marketing to persuade people",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A long and difficult journey, but with a clear destination in mind",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "word": "authorities",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The power to enforce laws and rules",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "People or groups in charge, making decisions for others",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Imagine a referee in a game, what is their role?",
+          "type": "Indirect",
+          "points": 7
+        }
+      ]
+    },
+    {
+      "word": "involuntarily",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Not by choice, but by force or circumstance",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "Against one's will, often due to external factors",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Like a leaf blown by the wind, without control over its path",
+          "type": "Indirect",
+          "points": 7
+        }
+      ]
+    },
+    {
+      "word": "forcibly",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Using force or power to make something happen",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "Against someone's will, often with violence or coercion",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Like a stormy sea, it can be overwhelming and uncontrollable",
+          "type": "Indirect",
+          "points": 7
+        }
+      ]
+    },
+    {
+      "word": "grassroots",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Originating from the common people, not from leaders",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "A movement or organization that starts at the local level",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Like a small seed that grows into a strong tree, it starts from the ground up",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "word": "emerged",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Came into existence or became visible",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "Like a butterfly from a cocoon, it comes out into the open",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Imagine a surprise party, where something unexpected appears",
+          "type": "Indirect",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "word": "relocated",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Moved to a new place or location",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "Like a bird migrating to a new home, it changes its location",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Imagine a puzzle piece that is moved to a new position, fitting into a new picture",
+          "type": "Indirect",
+          "points": 5
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-07-01"
+}

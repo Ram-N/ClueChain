@@ -1,0 +1,237 @@
+{
+  "title": "Miracle (disambiguation) — Albums",
+  "date": "12-30",
+  "text": "Title: Miracle (disambiguation) — Albums\n\nMiracle (BoA album), 2002 Miracle (Celine Dion album), and the title song, 2004 Miracle, by Kane Gang, 1987 Miracle (Nonpoint album), 2010 Miracle (Puff Johnson album), 1996 Miracle, by Robbie Seay Band, 2010 Miracle (S.O.A.P. album), 2000 Miracle, an EP by The Original Wailers, 2012 Miracle (Third Day album), 2012 Miracle (Willy DeVille album), 1987 Miracle: Happy Summer from William Hung, by William Hung, 2005 Miracles (Change album), 1981 Miracles, a 2005 album by George Huff Miracles, a 1971 album by Yma Sumac Miracles (Two Steps from Hell album), 2014 Miracles: The Holiday Album, by Kenny G, 1994 The Miracle (album), by Queen, 1989, and the title song The Miracles (album), by The Miracles, 1978",
+  "hiddenWords": [
+    {
+      "word": "album",
+      "difficulty": "Easy",
+      "related_words": [
+        "song",
+        "ep"
+      ],
+      "clues": [
+        {
+          "clue": "A collection of music",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "Often contains multiple tracks",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "What you might find in a record store, or a digital library, but not on a single",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "word": "song",
+      "difficulty": "Easy",
+      "related_words": [
+        "album",
+        "ep"
+      ],
+      "clues": [
+        {
+          "clue": "A short musical composition",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "Often has lyrics and a melody",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The soundtrack to your favorite memories, or a way to express emotions",
+          "type": "Indirect",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "word": "ep",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "album",
+        "song"
+      ],
+      "clues": [
+        {
+          "clue": "Short for extended play",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "A musical release that's shorter than an album",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A taste of what's to come, or a preview of an artist's work",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "word": "kane",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A name that's also a biblical figure",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "A surname of a British post-punk band",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A male given name",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "queen",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A royal title",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "A British rock band known for Bohemian Rhapsody",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A playing card, or a chess piece",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "word": "hell",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A place of suffering, or a state of mind",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Part of a band's name, known for epic music",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A word that's often used to express strong emotions",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "original",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The first of its kind",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "Unchanged or unmodified",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A word that's often used to describe something unique, or authentic",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "word": "wailers",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A band known for reggae music",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A word that's often associated with mourning, or lamenting",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "A group of people who make a loud, mournful sound",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "george",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A male given name",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "A surname of a famous musician",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A name that's associated with a saint, or a president",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "word": "kenny",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A male given name",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "A surname of a famous musician, known for smooth jazz",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A name that's associated with a holiday album, or a smooth sound",
+          "type": "Indirect",
+          "points": 7
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-12-30"
+}

@@ -1,0 +1,237 @@
+{
+  "title": "On Sardinia, the Magic of Heading Inland",
+  "date": "07-23",
+  "text": "Title: On Sardinia, the Magic of Heading Inland\n\nAfter a few days on Sardinia’s Cala Liberotto bay, which I spent stretched out on a lounge chair, dozing off to the sounds of the \nlapping waters of the Mediterranean, I was jolted out of my sun-induced stupor by a sudden urge: I wanted to go somewhere, see things.\n\nThe impulse took me by surprise; a few days prior on the jittery flight from New York to Milan—my first big \ninternational flight post-COVID—I justified the trip by telling myself it’d be a low-key, socially-distant beach vacation. \nMy boyfriend and I had rented a one-bedroom Airbnb on a relatively isolated part of the island, far removed from the \nhyped-up scene of Costa Smeralda. We’d rent a car, \nbuy groceries, fall asleep before midnight. Sure, I’d never been one for a true beach vacation, \nbut maybe the pandemic had changed that?",
+  "hiddenWords": [
+    {
+      "word": "island",
+      "difficulty": "Easy",
+      "related_words": [
+        "beach",
+        "vacation"
+      ],
+      "clues": [
+        {
+          "clue": "A place where you can find seashells and sandy toes.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A piece of land surrounded by water, often a popular tourist destination.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A landmass surrounded by water.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "beach",
+      "difficulty": "Easy",
+      "related_words": [
+        "island",
+        "vacation"
+      ],
+      "clues": [
+        {
+          "clue": "Where you might find a treasure chest, but probably just a lot of sand.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A shore with sand, pebbles, or rocks, often used for recreation.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A landform along a body of water.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "vacation",
+      "difficulty": "Easy",
+      "related_words": [
+        "island",
+        "beach"
+      ],
+      "clues": [
+        {
+          "clue": "A time to relax and unwind, maybe with a fruity drink in hand.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A period of time spent away from work or school, often for relaxation or recreation.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A break from work or school.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "pandemic",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A global health crisis that changed the way we live and interact.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A widespread outbreak of a disease that affects a large number of people.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A global epidemic.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "jittery",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Like a coffee drinker who's had one too many cups.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Feeling nervous or anxious, often causing shaky movements.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Nervously restless.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "impulse",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A sudden urge to buy something you don't need, like a shiny new gadget.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A sudden feeling or idea that prompts you to act.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A sudden strong desire or inclination.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "Mediterranean",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A sea that's home to sun-kissed islands and delicious cuisine.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "A sea connected to the Atlantic Ocean, surrounding Europe, Africa, and Asia.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A semi-enclosed sea.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "socially",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "In a way that's friendly and outgoing, like a party animal.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Relating to society or the interaction of people.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Pertaining to social interactions.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "international",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Involving multiple countries, like a global sports tournament.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Relating to or involving two or more countries.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Involving multiple nations.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "relatively",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Like a comparison between two things, where one is more or less than the other.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "In a way that's comparative or dependent on something else.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Comparatively.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-07-23"
+}

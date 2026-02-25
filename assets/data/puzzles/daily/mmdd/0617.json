@@ -1,0 +1,237 @@
+{
+  "title": "Notes on Location and Place",
+  "date": "06-17",
+  "text": "Notes on Location and Place\nNPS.gov\nAt first glance, location and place are not evocative terms. \nLocation, from the Latin locus meaning \"place,\" becomes either absolute or relative in geographical usage. \nPlace – variously derived from the middle English/old French \"open space,\" Latin \"broad street,\" Greek \"broad\" or \n\"flat,\" and the Spanish \"plaza\" – becomes invested with all manner of characteristics. Yet \"place\" is a useful term in \ngeography, and much more evocative than the general public’s picture of the essence of geography – place name location.",
+  "hiddenWords": [
+    {
+      "word": "location",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "place",
+        "geography"
+      ],
+      "clues": [
+        {
+          "clue": "A point in space where something is found, often relative to other points.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A term used in geography to describe a specific point or area.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A place or position.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "place",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "location",
+        "geography"
+      ],
+      "clues": [
+        {
+          "clue": "A word that can mean a physical space or a position in a sequence.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "An area with its own character or features.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A particular position or point.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "geography",
+      "difficulty": "Hard",
+      "related_words": [
+        "location",
+        "place"
+      ],
+      "clues": [
+        {
+          "clue": "The study of the relationship between people and their environment.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A field of study that examines the Earth's physical features and human populations.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The study of the Earth's physical features and human populations.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "general",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Not specific or detailed, but overall or universal.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Applying to all cases or situations.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Not specific or detailed.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "public",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Open to all people, not private or restricted.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Relating to the people as a whole, not just a specific group.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Open to all people.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "essence",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The fundamental nature or quality of something.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "The most important or characteristic part of something.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The fundamental nature of something.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "picture",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A mental image or idea of something.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A representation of something, either visual or mental.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A visual representation of something.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "broad",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Wide in extent or range, not narrow or limited.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Having a wide range or extent.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Wide or extensive.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "relative",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Connected or related to something else.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Dependent on or compared to something else.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Connected or related to something else.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "glance",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A quick or brief look at something.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A brief or casual look.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A quick look.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-06-17"
+}

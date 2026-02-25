@@ -1,0 +1,237 @@
+{
+  "title": "Coordinate Systems",
+  "date": "05-17",
+  "text": "Relative Locations\nNational Geographic\n\nLocation can sometimes be expressed in relative terms. Relative location is a description of how a place is related to other places. For example, the Empire State Building is 365 kilometers (227 miles) north of America's White House in Washington, D.C. It is also about 15 blocks from New York's Central Park. These are just two of the building's relative locations.\n\nRelative location can help analyze how two places are connected, whether by distance, culture, or even technology. The city of Kiev, Ukraine, for example, is about 2,298 kilometers (1,428 miles) east of London, England. The U.S. cities of Key West, Florida, and Anchorage, Alaska, are even further apart—6,436 kilometers (3,999 miles).",
+  "hiddenWords": [
+    {
+      "word": "location",
+      "difficulty": "Easy",
+      "related_words": [
+        "place",
+        "distance"
+      ],
+      "clues": [
+        {
+          "clue": "A spot where something is situated.",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "It can be relative or absolute.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Imagine a dot on a map, what is it?",
+          "type": "Indirect",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "word": "place",
+      "difficulty": "Easy",
+      "related_words": [
+        "location",
+        "distance"
+      ],
+      "clues": [
+        {
+          "clue": "A particular position or point.",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "It can be a city, town, or village.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Where do you live?",
+          "type": "Indirect",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "word": "distance",
+      "difficulty": "Easy",
+      "related_words": [
+        "location",
+        "place"
+      ],
+      "clues": [
+        {
+          "clue": "The amount of space between two points.",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "It can be measured in kilometers or miles.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "How far is it from your home to school?",
+          "type": "Indirect",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "word": "relative",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A type of location that depends on other places.",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "It is often compared to something else.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Think of family relationships, what comes to mind?",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "word": "culture",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The way of life of a particular group.",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "It includes customs, traditions, and values.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "What do you learn from your family and community?",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "word": "technology",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The application of scientific knowledge for practical purposes.",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "It includes computers, smartphones, and the internet.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "How do you stay connected with friends and family?",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "word": "blocks",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A unit of measurement for distance in urban areas.",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "It is often used to describe short distances.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Imagine a city grid, what are the small parts called?",
+          "type": "Indirect",
+          "points": 7
+        }
+      ]
+    },
+    {
+      "word": "kilometers",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A unit of measurement for distance in the metric system.",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "It is often used to measure long distances.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "What unit is used to measure the distance between cities in Europe?",
+          "type": "Indirect",
+          "points": 7
+        }
+      ]
+    },
+    {
+      "word": "miles",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A unit of measurement for distance in the imperial system.",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "It is often used to measure long distances in the United States.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "What unit is used to measure the distance between cities in the United States?",
+          "type": "Indirect",
+          "points": 7
+        }
+      ]
+    },
+    {
+      "word": "connected",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Linked or joined together.",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "It can refer to people, places, or things.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "What happens when you have a strong internet signal?",
+          "type": "Indirect",
+          "points": 7
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-05-17"
+}

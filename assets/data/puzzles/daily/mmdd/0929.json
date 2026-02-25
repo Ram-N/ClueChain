@@ -1,0 +1,232 @@
+{
+  "title": "Wingspan (board game) — Overview",
+  "date": "09-29",
+  "text": "Title: Wingspan (board game) — Overview\n\nWingspan is a board game designed by Elizabeth Hargrave and published by Stonemaier Games in 2019. It is a card-driven, engine-building board game in which players compete to attract birds to their wildlife reserves. During the game's development process, Hargrave constructed personal charts of birds observed in Maryland, with statistics sourced from various biological databases; the special powers of birds were also selected to resemble real-life characteristics. Upon its release, Wingspan received critical and commercial acclaim for its gameplay, accurate thematic elements, and artwork. The game also won numerous awards, including the prestigious 2019 Kennerspiel des Jahres. Several expansions and a digital edition have been subsequently published. As of March 2025, the game has sold over 2.4 million copies worldwide and has been translated into 27 languages.",
+  "hiddenWords": [
+    {
+      "word": "engine",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A device that converts energy into motion, often used in machines.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A system or mechanism that drives or powers something.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A machine that produces power or motion.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "wildlife",
+      "difficulty": "Easy",
+      "related_words": [
+        "birds"
+      ],
+      "clues": [
+        {
+          "clue": "In the forest, you might find creatures that are not typically found in cities.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Animals that live in their natural habitats, not in captivity.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Plants and animals that live in a natural environment.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "birds",
+      "difficulty": "Easy",
+      "related_words": [
+        "wildlife"
+      ],
+      "clues": [
+        {
+          "clue": "Feathered friends that can be found in the sky or in trees.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Animals known for their ability to fly and sing sweet melodies.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A type of animal that has feathers and can fly.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "statistics",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A collection of numbers that can help us understand a particular trend or pattern.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "The study of data and its properties, often used to make informed decisions.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The science of collecting and analyzing data.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "characteristics",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Unique features that distinguish one thing from another, like a fingerprint or a voice.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "The distinct qualities or traits of something, which define its nature or identity.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "The features or qualities that describe or define something.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "acclaim",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "When everyone praises something, it's like a big round of applause.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Widespread recognition or approval, often expressed through awards or positive reviews.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Praise or approval, often given to someone or something that deserves it.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "expansions",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "When something grows or increases in size, it's like a balloon filling up with air.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Additions or supplements to something, often to enhance its functionality or scope.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Something that is added to increase the size or scope of something else.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "digital",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A way of representing information using only two numbers: 0 and 1.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Relating to computers or electronic devices, often used to describe a type of technology.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Using or relating to computer technology, especially for storing or transmitting information.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "editions",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A version of something, like a book or a game, that has been updated or revised.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A particular version of a publication, often with changes or additions from previous versions.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A version of a published work, such as a book or magazine.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "translations",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "When you change the language of something, it's like solving a puzzle to unlock its meaning.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "The process of converting text or speech from one language to another, often to facilitate communication.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "The act of changing words or text from one language to another.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-09-29"
+}

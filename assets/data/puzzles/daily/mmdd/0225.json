@@ -1,0 +1,237 @@
+{
+  "title": "Jazz — Punk jazz and jazzcore",
+  "date": "02-25",
+  "text": "The relaxation of orthodoxy which was concurrent with post-punk in London and New York City led to a new appreciation of jazz. In London, the Pop Group began to mix free jazz and dub reggae into their brand of punk rock. In New York, No Wave took direct inspiration from both free jazz and punk. Examples of this style include Lydia Lunch's Queen of Siam, Gray, the work of James Chance and the Contortions (who mixed Soul with free jazz and punk) and the Lounge Lizards (the first group to call themselves \"punk jazz\"). John Zorn took note of the emphasis on speed and dissonance that was becoming prevalent in punk rock, and incorporated this into free jazz with the release of the Spy vs. Spy album in 1986, a collection of Ornette Coleman tunes done in the contemporary thrashcore style. In the same year, Sonny Sharrock, Peter Brötzmann, Bill Laswell, and Ronald Shannon Jackson recorded the first album under the name Last Exit, a similarly aggressive blend of thrash and free jazz. These developments are the origins of jazzcore, the fusion of free jazz with hardcore punk.",
+  "hiddenWords": [
+    {
+      "word": "relaxation",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "When you finally get to unwind after a long day, you're in a state of...",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "This word describes a state of reduced tension or stress",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A state of being free from anxiety or tension",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "orthodoxy",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A concept that might be questioned by those who 'think outside the box'",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "This term refers to a set of traditional or established beliefs",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Conformity to traditional or established beliefs",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "appreciation",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The act of valuing something, like a fine wine or a work of art",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A feeling of gratitude or recognition for something",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The act of recognizing the quality or value of something",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "inspiration",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A spark that sets off a creative explosion",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A person, thing, or event that motivates or influences someone",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "The process of being stimulated to create or do something",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "dissonance",
+      "difficulty": "Hard",
+      "related_words": [
+        "jazz",
+        "punk"
+      ],
+      "clues": [
+        {
+          "clue": "A clash of sounds that can be jarring to the ear",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A term used in music to describe a mixture of unpleasant or unstable sounds",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A harsh or unpleasant combination of sounds",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "jazz",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "dissonance",
+        "punk"
+      ],
+      "clues": [
+        {
+          "clue": "A genre of music that's all about improvisation and experimentation",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A style of music that originated in the southern United States",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A type of music characterized by its use of improvisation and syncopated rhythms",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "punk",
+      "difficulty": "Easy",
+      "related_words": [
+        "dissonance",
+        "jazz"
+      ],
+      "clues": [
+        {
+          "clue": "A subculture known for its anti-establishment views and distinctive fashion",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A genre of music characterized by its fast tempo and rebellious attitude",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A type of rock music that is fast-paced and energetic",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "thrashcore",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A genre of music that's known for its aggressive and fast-paced sound",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "A subgenre of hardcore punk that is characterized by its extreme speed and aggression",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A style of music that combines elements of thrash metal and hardcore punk",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "aggressive",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A behavior that's like a forceful storm, taking no prisoners",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A term used to describe a person or behavior that is forceful or hostile",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Having or showing a strong and forceful personality or behavior",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "fusion",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The act of combining different things to create something new and exciting",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "The process of combining different things, like music styles or foods, to create something new",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "The act of joining or merging different things to form a single entity",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-02-25"
+}

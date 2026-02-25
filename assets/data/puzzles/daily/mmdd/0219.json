@@ -1,0 +1,237 @@
+{
+  "title": "The cheapest concession you can make",
+  "date": "02-19",
+  "text": "The cheapest concession you can make\n\nSalon -- \"Conflict has become a growth industry,” says author and educator William Ury. “The real question now is, how do we deal with it?” It’s a question Ury has been searching for answers to for over 40 years now, beginning with 1981’s groundbreaking “Getting to Yes” (coauthored with Roger Fisher), the perennial bestseller that set the template for modern negotiation technique.\n\nNow, several decades, books and successful corporate and political negotiations later, Ury is back with a fresh perspective on how to manage the conflicts in lives, from thorny work situations to day-to-day disputes with our family members. Describing himself as a “possibilist,” Ury explains in his new book “Possible: How We Survive (and Thrive) In an Age of Conflict” why we should lean in to conflict rather than avoid it, and how to achieve more by sometimes saying less.\n\nIt’s a refreshingly humane, common sense approach that takes the pressure of \"win-lose\" out of our most potentially fraught interactions",
+  "hiddenWords": [
+    {
+      "word": "conflict",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "negotiation",
+        "possibilist"
+      ],
+      "clues": [
+        {
+          "clue": "A clash of interests, where harmony is disrupted, and resolution is key.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A state of opposition or disagreement, often requiring resolution.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A serious disagreement or argument.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "negotiation",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "conflict",
+        "possibilist"
+      ],
+      "clues": [
+        {
+          "clue": "A delicate dance of give-and-take, where both sides aim to find a mutually beneficial balance.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A discussion aimed at reaching an agreement or resolving a dispute.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The process of discussing and agreeing on the terms of a deal.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "possibilist",
+      "difficulty": "Hard",
+      "related_words": [
+        "conflict",
+        "negotiation"
+      ],
+      "clues": [
+        {
+          "clue": "One who sees the potential in every obstacle and seeks to turn it into an opportunity.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "A person who focuses on finding solutions and possibilities in challenging situations.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "An individual with a optimistic outlook who seeks to find potential in difficult circumstances.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "sense",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A feeling that something is right or makes sense, often guided by intuition.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A practical awareness or understanding of something.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A feeling or perception, especially a natural one.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "approach",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A path or method that leads to a specific goal or outcome, often requiring careful consideration.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A way of dealing with a situation or problem.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A method or way of doing something.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "pressure",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The weight of expectation, where the burden of responsibility can be overwhelming.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A force or influence that can cause stress or tension.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A strong feeling of urgency or importance.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "question",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A query that sparks curiosity and encourages exploration.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A sentence or phrase used to ask for information or clarification.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A sentence that asks for information or clarification.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "perspective",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A unique lens through which one views the world, shaping their understanding and perception.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "A particular way of thinking about or understanding something.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A point of view or attitude.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "industry",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A sector that drives innovation and progress, often fueled by human ingenuity.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A group of companies or organizations that produce goods or services.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A particular branch of economic or commercial activity.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "answers",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The solutions to life's puzzles, often hidden in plain sight.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "The responses or solutions to questions or problems.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The solutions to problems or questions.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-02-19"
+}

@@ -1,0 +1,237 @@
+{
+  "title": "The Noma Way",
+  "date": "10-16",
+  "text": "The Noma Way\nBy Tienlon Ho\n\nOn the first day of 2016, chef René Redzepi walked into his new kitchen in a construction zone at the end of Sydney’s Barangaroo pier. He arrived at 1 p.m., later than planned, because his wife and two of their three daughters had fevers, and then he had no idea how to catch a water taxi across the harbor from his temporary home in Birchgrove. He was scruffy, wearing a T-shirt, dark jeans, and battered flip-flops, and tan from three weeks in Mexico, where he hadn’t touched a stove. (“The ‘mamás’ cook for us there — best cooks in the world,” said one of the best cooks in the world.) He had recharged on their slow-simmered mole and roadside tacos, and now he was bristling with energy.",
+  "hiddenWords": [
+    {
+      "word": "stove",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Where meals are often cooked at home",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Kitchen appliance for cooking",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A device for cooking food",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "mole",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "tacos",
+        "Mexico"
+      ],
+      "clues": [
+        {
+          "clue": "A dish from Mexico that's often rich and complex",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A type of Mexican sauce",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A traditional Mexican dish",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "tacos",
+      "difficulty": "Easy",
+      "related_words": [
+        "mole",
+        "Mexico"
+      ],
+      "clues": [
+        {
+          "clue": "A popular Mexican street food",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A type of Mexican food often served in a shell",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A traditional Mexican dish",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "Mexico",
+      "difficulty": "Easy",
+      "related_words": [
+        "mole",
+        "tacos"
+      ],
+      "clues": [
+        {
+          "clue": "A country known for its rich culinary heritage",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A country where you can find mole and tacos",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A country in North America",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "energy",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "What you might feel after a good meal",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A feeling of being lively and active",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The ability to do work",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "wife",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The partner you marry",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A woman in a marriage",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A married woman",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "daughters",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The female children of a parent",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Girls born to a parent",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Female offspring",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "fevers",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "What you might get if you're sick",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A high body temperature",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "An elevated body temperature",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "kitchen",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Where meals are often prepared",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A room for cooking",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A room with a stove and sink",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "pier",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A structure that extends into the water",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "A place where boats can dock",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A structure built over water",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-10-16"
+}

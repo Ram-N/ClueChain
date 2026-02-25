@@ -1,0 +1,237 @@
+{
+  "title": "My Wine Accumulation",
+  "date": "06-16",
+  "text": "The Burning Desire for Hot Chicken\nDanny Chau | The Ringer\n\n“There are photos on Yelp of people passed out on Prince’s tables trying to finish their food. Purcell once took a coworker to the restaurant for lunch. The woman behind the window shook her head. His coworker was visibly pregnant. ‘She can’t have hot chicken,’ the employee said. ‘She’ll have to come back after the baby is born.’ Of course, there are also tales of pregnant women who have asked their partners to fetch Prince’s hot chicken for takeout in hopes of expediting the delivering process. Pain is pain, I suppose.”",
+  "hiddenWords": [
+    {
+      "word": "pain",
+      "difficulty": "Easy",
+      "related_words": [
+        "baby",
+        "pregnant"
+      ],
+      "clues": [
+        {
+          "clue": "A feeling you get when you eat too much hot chicken",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A sensation that is often associated with injury or discomfort",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Discomfort or suffering",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "baby",
+      "difficulty": "Easy",
+      "related_words": [
+        "pain",
+        "pregnant"
+      ],
+      "clues": [
+        {
+          "clue": "A new addition to the family that might make you crave hot chicken",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A newborn child",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "An infant",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "pregnant",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "pain",
+        "baby"
+      ],
+      "clues": [
+        {
+          "clue": "A condition that might make you want to send someone to fetch food for you",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "The state of having a child developing in the womb",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Expecting a child",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "window",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A transparent barrier that allows you to see what's inside, but not always what's coming",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "An opening in a building for letting in light and air",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A pane of glass in a wall",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "lunch",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A meal that you might eat at a restaurant, like Prince's",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "The middle meal of the day",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A mid-day meal",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "tables",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Furniture where people sit to eat, and sometimes pass out",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Pieces of furniture for holding objects",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Furniture for dining",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "photos",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Images that capture memories, like the ones on Yelp",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Pictures taken with a camera",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Images",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "yelp",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A platform where people can share their experiences, good or bad",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "A website for reviewing businesses",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A review website",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "partner",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Someone you might ask to fetch food for you when you're in a certain condition",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A person who is associated with another in a common activity",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A spouse or companion",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "chicken",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A popular food item that can be hot or not",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A type of poultry",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A domesticated bird",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-06-16"
+}

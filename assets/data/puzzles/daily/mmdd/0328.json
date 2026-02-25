@@ -1,0 +1,237 @@
+{
+  "title": "Destiny (streamer) — Political violence",
+  "date": "03-28",
+  "text": "The rioting needs to fucking stop, and if that means like white redneck fucking militia dudes out there mowing down dipshit protesters that think that they can torch buildings at ten p.m., then at this point they have my fucking blessing, because holy shit, this fucking shit needs to stop, it needed to stop a long time ago.\" After the first 2024 assassination attempt of Donald Trump, which killed one Trump rally attendee and injured two others, Bonnell stated that Trump and his supporters \"reap what they sow, and I'm here to watch the harvest\". The Economist cited Bonnell as an example of an \"angry progressive\" who \"lamented\" that the attempt had failed.",
+  "hiddenWords": [
+    {
+      "word": "militia",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "protesters",
+        "assassination"
+      ],
+      "clues": [
+        {
+          "clue": "A group of civilians who take up arms",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A paramilitary force",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A military force that is not part of a regular army",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "protesters",
+      "difficulty": "Easy",
+      "related_words": [
+        "militia",
+        "assassination"
+      ],
+      "clues": [
+        {
+          "clue": "People who express dissent through public demonstrations",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Individuals who participate in a public display of discontent",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "People who protest",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "assassination",
+      "difficulty": "Hard",
+      "related_words": [
+        "militia",
+        "protesters"
+      ],
+      "clues": [
+        {
+          "clue": "A violent act that changes the course of history",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "The act of killing a prominent person",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Murder of a public figure",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "blessing",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A feeling of relief that something bad has stopped",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A positive sentiment or approval",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A gift or benefit",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "attendee",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A person who is present at an event",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Someone who participates in a gathering",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A person attending an event",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "example",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A person or thing that illustrates a point",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Something that serves as a model or illustration",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A person or thing that represents a category",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "progressive",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A person who advocates for social reform",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Someone who favors liberal or radical ideas",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Someone on the left of the political spectrum",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "lamented",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Expressed sorrow or regret for something that did not happen",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Felt sad or disappointed about an event",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Expressed sadness or sorrow",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "harvest",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A time of reaping what has been sown",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "The act of gathering crops",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "The season of gathering crops",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "economist",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A person who studies the production and distribution of goods",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Someone who analyzes economic data and trends",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A specialist in economics",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-03-28"
+}

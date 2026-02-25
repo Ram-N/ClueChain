@@ -1,0 +1,236 @@
+{
+  "title": "Natural Justice",
+  "date": "12-18",
+  "text": "Natural Justice\n\nHarper's Magazine\n\nIn September 2023, in the middle of the night, England’s most beloved tree was mysteriously felled in a bizarre act of vandalism. The public outcry was swift and furious—this was, after all, by some reports, the most photographed tree in the country, the so-called Sycamore Gap Tree. “The senseless destruction of what is undoubtedly a world-renowned landmark—and a local treasure,” was how one law enforcement official described it in the pages of the New York Times, before the culprits had even been apprehended.",
+  "hiddenWords": [
+    {
+      "word": "tree",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A symbol of strength and longevity, often found in folklore.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A large plant with a single stem, often providing shade.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A perennial plant with a single stem, called a trunk.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "night",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The time when stars shine brightest, and the world is hushed.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "The time of day between sunset and sunrise.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The period of darkness between sunset and sunrise.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "vandalism",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "destruction"
+      ],
+      "clues": [
+        {
+          "clue": "A form of self-expression that often involves spray paint.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "The act of intentionally damaging or destroying property.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Deliberate destruction of public or private property.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "destruction",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "vandalism"
+      ],
+      "clues": [
+        {
+          "clue": "A path of chaos left behind by a powerful force.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "The act of causing something to be completely ruined or broken.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The state of being completely ruined or broken.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "landmark",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "treasure"
+      ],
+      "clues": [
+        {
+          "clue": "A place that's familiar to many, yet unique to each.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A notable or prominent feature of a landscape or area.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A prominent or conspicuous object or feature.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "treasure",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "landmark"
+      ],
+      "clues": [
+        {
+          "clue": "Something that's cherished and protected, often hidden from view.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A valuable or precious thing, often highly prized.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A valuable or precious possession.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "senseless",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A lack of purpose or meaning, like a puzzle with missing pieces.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Without reason or justification, often causing confusion.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Lacking sense or meaning, unreasonable or unjustified.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "furious",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A stormy sea of emotions, with waves crashing against the shore.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Intensely angry or upset, often to the point of violence.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Extremely angry or enraged, often in a violent manner.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "renowned",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A whispered rumor that spreads like wildfire, until everyone knows.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Widely known and respected, often for something impressive.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Widely known and respected, often for something notable.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "beloved",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A warm and fuzzy feeling that's hard to put into words.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Deeply loved or cherished, often by many people.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Loved or cherished, often by many people.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-12-18"
+}

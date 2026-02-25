@@ -1,0 +1,228 @@
+{
+  "title": "On the ‘cut-and-paste’ Mentality by Susan Greenfield ClueChain",
+  "id": "greenfield-mentality-cluechain-2025-07-05",
+  "date": "07-07",
+  "text": "I normally meet someone of roughly my generation and culture, I will assume they know where Barcelona is and I will assume they know who Napoleon was or who Henry VIII was, I’ll assume they’ll know where New York is. So you can have a conversation\u200a—\u200aand we all know the delight of having conversations with people where you share a lot of background knowledge that can develop ideas\u200a—\u200abut imagine having a conversation with someone who knew nothing, who didn’t know who Hitler was, who hadn’t heard of fascism, who had to look it up each time? This would mean that you couldn’t really have a very fluid or interactive conversation, and I know that sounds extreme, but\u00a0if we are always having recourse to an external source of memory than I think it’s going to have a severe impact on how we interact, how fast we have ideas, and what we do with them",
+  "hiddenWords": [
+    {
+      "word": "culture",
+      "difficulty": "Intermediate",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "The shared tapestry of a people, woven with traditions and beliefs.",
+          "points": 5
+        },
+        {
+          "type": "Suggestive",
+          "clue": "It defines a society's way of life, its art, and its customs.",
+          "points": 3
+        },
+        {
+          "type": "Straight",
+          "clue": "The customs, arts, social institutions, and achievements of a particular nation, people, or group.",
+          "points": 1
+        }
+      ],
+      "related_words": []
+    },
+    {
+      "word": "assume",
+      "difficulty": "Easy",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "To take for granted, often without proof, like a quiet role you might undertake.",
+          "points": 4
+        },
+        {
+          "type": "Suggestive",
+          "clue": "To suppose something to be true without checking.",
+          "points": 2
+        },
+        {
+          "type": "Straight",
+          "clue": "To take for granted or to suppose something to be true.",
+          "points": 1
+        }
+      ],
+      "related_words": []
+    },
+    {
+      "word": "delight",
+      "difficulty": "Intermediate",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "A radiant glow of happiness, often found in a sweet, illuminating treat.",
+          "points": 5
+        },
+        {
+          "type": "Suggestive",
+          "clue": "A feeling of great pleasure or joy.",
+          "points": 3
+        },
+        {
+          "type": "Straight",
+          "clue": "Great pleasure.",
+          "points": 1
+        }
+      ],
+      "related_words": []
+    },
+    {
+      "word": "knowledge",
+      "difficulty": "Intermediate",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "The inner light of understanding, gleaned from learning and experience, held firm like a secured knot.",
+          "points": 5
+        },
+        {
+          "type": "Suggestive",
+          "clue": "Information, facts, and skills acquired through experience or education.",
+          "points": 3
+        },
+        {
+          "type": "Straight",
+          "clue": "Facts, information, and skills acquired by a person through experience or education.",
+          "points": 1
+        }
+      ],
+      "related_words": ["ideas"]
+    },
+    {
+      "word": "develop",
+      "difficulty": "Easy",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "To expand and improve, to unfold like a story, revealing its full potential.",
+          "points": 4
+        },
+        {
+          "type": "Suggestive",
+          "clue": "To grow or cause to grow and become more mature, advanced, or elaborate.",
+          "points": 2
+        },
+        {
+          "type": "Straight",
+          "clue": "To grow or cause to grow and become more advanced.",
+          "points": 1
+        }
+      ],
+      "related_words": []
+    },
+    {
+      "word": "ideas",
+      "difficulty": "Intermediate",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "The seeds of thought, often sparked by inspiration, leading to new creations.",
+          "points": 5
+        },
+        {
+          "type": "Suggestive",
+          "clue": "Concepts or thoughts that arise in the mind.",
+          "points": 3
+        },
+        {
+          "type": "Straight",
+          "clue": "A thought or suggestion as to a possible course of action.",
+          "points": 1
+        }
+      ],
+      "related_words": ["knowledge"]
+    },
+    {
+      "word": "fluid",
+      "difficulty": "Intermediate",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "Flowing with ease, not rigid or stuck, like water in its natural state.",
+          "points": 5
+        },
+        {
+          "type": "Suggestive",
+          "clue": "Smooth and graceful in motion; easily flowing.",
+          "points": 3
+        },
+        {
+          "type": "Straight",
+          "clue": "A substance that has no fixed shape and yields easily to external pressure; a gas or (especially) a liquid.",
+          "points": 1
+        }
+      ],
+      "related_words": []
+    },
+    {
+      "word": "interact",
+      "difficulty": "Intermediate",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "To act upon each other, like two gears turning, creating a shared motion.",
+          "points": 5
+        },
+        {
+          "type": "Suggestive",
+          "clue": "To communicate or be involved in communication with someone.",
+          "points": 3
+        },
+        {
+          "type": "Straight",
+          "clue": "To act in such a way as to have an effect on another.",
+          "points": 1
+        }
+      ],
+      "related_words": []
+    },
+    {
+      "word": "external",
+      "difficulty": "Hard",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "Beyond the wall, it resides, a world outside where secrets hide.",
+          "points": 7
+        },
+        {
+          "type": "Suggestive",
+          "clue": "Relating to the outside or outer part.",
+          "points": 4
+        },
+        {
+          "type": "Straight",
+          "clue": "Belonging to or forming the outer surface or structure of something.",
+          "points": 2
+        }
+      ],
+      "related_words": ["source"]
+    },
+    {
+      "word": "source",
+      "difficulty": "Easy",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "Where a river begins its journey, or where information first appears.",
+          "points": 4
+        },
+        {
+          "type": "Suggestive",
+          "clue": "The place from which something originates or is obtained.",
+          "points": 2
+        },
+        {
+          "type": "Straight",
+          "clue": "A place, person, or thing from which something originates or can be obtained.",
+          "points": 1
+        }
+      ],
+      "related_words": ["external"]
+    }
+  ]
+}

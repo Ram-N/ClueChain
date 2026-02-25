@@ -1,0 +1,232 @@
+{
+  "title": "Robotic surgery — Ophthalmology",
+  "date": "03-26",
+  "text": "Title: Robotic surgery — Ophthalmology\n\nPRECEYES Surgical System is being used for vitreoretinal surgeries. This is a single-arm robot that is telemanipulated by a surgeon. This system attaches to the head of the operating room table and provides surgeons with increased precision with the assistance of the intuitive motion controller. Preceyes is the only robotic instrument to be CE certified. Some other companies like Forsight Robotics, Acusurgical that raised 5.75 M€ (France), and Horizon (US) are working in this field. The da Vinci Surgical System, though not specifically designed for ophthalmic procedures, uses telemanipulation to perform pterygium repairs and ex vivo corneal surgeries.",
+  "hiddenWords": [
+    {
+      "word": "vitreoretinal",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A delicate area that requires precision to navigate",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Relating to the retina and vitreous humor in the eye",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Pertaining to the vitreous and retina",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "telemanipulated",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Controlled from a distance, like a puppet on strings",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Operated by remote control, often used in robotics",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Manipulated from afar, often using robotic systems",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "precision",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The art of being precise, like a Swiss watchmaker",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "The quality of being exact and accurate",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The state of being precise and exact",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "intuitive",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A feeling that guides you, like a sixth sense",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Easy to understand or use, without needing explanation",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Having the ability to acquire knowledge without reasoning",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "certified",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A stamp of approval, like a badge of honor",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Officially recognized as meeting certain standards",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Having a formal confirmation of status",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "companies",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A group of people working together, like a team",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Business organizations that provide goods or services",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Businesses that operate for profit",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "pterygium",
+      "difficulty": "Hard",
+      "related_words": [
+        "corneal"
+      ],
+      "clues": [
+        {
+          "clue": "A growth that can obstruct vision, like a veil",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "A type of non-cancerous growth on the eye",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A fibrovascular tissue growth on the conjunctiva",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "corneal",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "pterygium"
+      ],
+      "clues": [
+        {
+          "clue": "Clear as glass, but not made of it",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Relating to the transparent outer layer of the eye",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Pertaining to the cornea, the clear layer on the eye",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "surgeries",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A delicate dance of scalpels and stitches",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Medical procedures that involve manual or instrumental treatment",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Operations performed by a surgeon",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "ex vivo",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Outside the living body, but still very much alive",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Performed outside the living organism, often in a lab",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Refers to experiments or procedures done outside a living organism",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-03-26"
+}

@@ -1,0 +1,228 @@
+{
+  "title": "The Videos That Rocked America. The Song That Knows Our Rage. ClueChain",
+  "id": "Morris-ClueChain-2025-07-08",
+  "date": "07-08",
+  "text": "I was doubled over because Patti LaBelle had wrecked me…This is not a protest anthem. It’s a lovers-at-a-crossroads jam. But LaBelle is working this crowd. She’s preaching about something that, at my sink, at a crossroads, along with millions of other black people, sounded like a much bigger love. Her exasperation felt transcendently real and timelessly final. Enough. I heard a woman declaring her value. George Floyd was suspected of having used a counterfeit bill at a corner store, which means his life was worth less than money. I heard her thinking through an ultimatum now being laid down in the streets of this country. You still think we’re monkeys, monsters, beasts, thugs, the living dead, minorities?",
+  "hiddenWords": [
+    {
+      "word": "protest",
+      "difficulty": "Intermediate",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "A public display of disagreement, often against a ruling power.",
+          "points": 5
+        },
+        {
+          "type": "Suggestive",
+          "clue": "What people do when they march in the streets to show their disapproval.",
+          "points": 3
+        },
+        {
+          "type": "Straight",
+          "clue": "A statement or action expressing disapproval of or objection to something.",
+          "points": 1
+        }
+      ],
+      "related_words": []
+    },
+    {
+      "word": "anthem",
+      "difficulty": "Intermediate",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "A song that can stir a nation or a cause, often sung with deep conviction.",
+          "points": 5
+        },
+        {
+          "type": "Suggestive",
+          "clue": "A song or hymn of praise or loyalty.",
+          "points": 3
+        },
+        {
+          "type": "Straight",
+          "clue": "A song or hymn of praise or loyalty.",
+          "points": 1
+        }
+      ],
+      "related_words": []
+    },
+    {
+      "word": "crossroads",
+      "difficulty": "Hard",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "Where paths converge and decisions loom, a turning point in fate's grand room.",
+          "points": 6
+        },
+        {
+          "type": "Suggestive",
+          "clue": "A point at which a crucial decision must be made.",
+          "points": 4
+        },
+        {
+          "type": "Straight",
+          "clue": "An intersection of two or more roads.",
+          "points": 2
+        }
+      ],
+      "related_words": []
+    },
+    {
+      "word": "crowd",
+      "difficulty": "Easy",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "A gathering of many, often in a bustling space.",
+          "points": 4
+        },
+        {
+          "type": "Suggestive",
+          "clue": "A large number of people gathered together.",
+          "points": 2
+        },
+        {
+          "type": "Straight",
+          "clue": "A large number of people gathered together.",
+          "points": 1
+        }
+      ],
+      "related_words": []
+    },
+    {
+      "word": "preaching",
+      "difficulty": "Intermediate",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "Delivering a sermon or a strong message, often with moral fervor.",
+          "points": 5
+        },
+        {
+          "type": "Suggestive",
+          "clue": "What a minister does from a pulpit, or someone trying to persuade others.",
+          "points": 3
+        },
+        {
+          "type": "Straight",
+          "clue": "Deliver a sermon or religious address to an assembled group of people.",
+          "points": 1
+        }
+      ],
+      "related_words": []
+    },
+    {
+      "word": "millions",
+      "difficulty": "Easy",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "A vast multitude, numerically grand, often indicating a popular demand.",
+          "points": 4
+        },
+        {
+          "type": "Suggestive",
+          "clue": "A very large number, equivalent to a thousand thousands.",
+          "points": 2
+        },
+        {
+          "type": "Straight",
+          "clue": "The number equivalent to the product of a thousand and a thousand; 1,000,000.",
+          "points": 1
+        }
+      ],
+      "related_words": []
+    },
+    {
+      "word": "value",
+      "difficulty": "Intermediate",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "More than mere cost, it's the worth we hold dear, a principle or ideal, crystal clear.",
+          "points": 5
+        },
+        {
+          "type": "Suggestive",
+          "clue": "The importance, worth, or usefulness of something.",
+          "points": 3
+        },
+        {
+          "type": "Straight",
+          "clue": "The regard that something is held to deserve; the importance, worth, or usefulness of something.",
+          "points": 1
+        }
+      ],
+      "related_words": []
+    },
+    {
+      "word": "counterfeit",
+      "difficulty": "Hard",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "A fake, a forgery, deceiving the eye, often passed as real, a clever lie.",
+          "points": 6
+        },
+        {
+          "type": "Suggestive",
+          "clue": "Something made in exact imitation of something else, especially currency, with the intention to defraud.",
+          "points": 4
+        },
+        {
+          "type": "Straight",
+          "clue": "Made in exact imitation of something valuable or important with the intention to deceive or defraud.",
+          "points": 2
+        }
+      ],
+      "related_words": ["money", "bill"]
+    },
+    {
+      "word": "bill",
+      "difficulty": "Intermediate",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "More than just currency, it's a statement, a proposal, or a bird's distinct feature.",
+          "points": 5
+        },
+        {
+          "type": "Suggestive",
+          "clue": "A piece of paper money, or a request for payment.",
+          "points": 3
+        },
+        {
+          "type": "Straight",
+          "clue": "A piece of paper money.",
+          "points": 1
+        }
+      ],
+      "related_words": ["counterfeit", "money"]
+    },
+    {
+      "word": "money",
+      "difficulty": "Easy",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "The root of all transactions, a medium of exchange, and often, contention.",
+          "points": 4
+        },
+        {
+          "type": "Suggestive",
+          "clue": "What you use to buy things.",
+          "points": 2
+        },
+        {
+          "type": "Straight",
+          "clue": "A current medium of exchange in the form of coins and banknotes.",
+          "points": 1
+        }
+      ],
+      "related_words": ["counterfeit", "bill"]
+    }
+  ]
+}

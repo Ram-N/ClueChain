@@ -1,0 +1,234 @@
+{
+  "title": "Exploring Kashmir",
+  "date": "09-15",
+  "text": "Exploring Kashmir, India's Most Misunderstood Region Hanya Yanagihara I remember the exact moment in Kashmir I knew I was in danger. I was at a pashmina shop called Beigh in the capital city of Srinagar, in the back room of one of the region’s most renowned embroidery workshops. I was sitting on a leather sofa so deep and enveloping that it was like being nestled in the lap of a giant cat. Across from me, at a long, slablike table, sat two other shoppers: a fat woman in a shimmering kingfisher-blue sari, her plump wrists manacled with gold bangles, and her equally fat husband, who wore a black felt cowboy hat. The room was dim and windowless and warm. Not uncomfortably so, but in a slightly soporific, cosseting way, one that seemed calculated to remove the final, half-wrought defenses from someone—me, for whom being surrounded by embroidered fine-woven wool is a fight I usually don’t even try to win, as I know I won’t.",
+  "hiddenWords": [
+    {
+      "word": "giant",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Something enormous, like a mythical creature from childhood tales",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A very large person or thing",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Enormous in size",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "room",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A place where you might find a table or a sofa",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "An enclosed or partly enclosed space",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A space in a building",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "shop",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A place to browse for treasures",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A building or part of a building where goods are sold",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A store",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "sari",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Traditional garment of India",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A long piece of fabric draped around the body",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A traditional Indian garment for women",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "leather",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Like the tough skin of an animal",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A strong and flexible material made from animal hides",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A type of material",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "warm",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Like a cozy hug on a chilly day",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Having a moderate or comfortable temperature",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Not cold",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "cosseting",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Like being wrapped in a soothing blanket",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Giving someone a lot of care and attention",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Pampering or indulging someone",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "defenses",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Like the walls of a fortress, protecting what's inside",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Things that protect someone or something from harm",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Means of protection",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "pashmina",
+      "difficulty": "Hard",
+      "related_words": [
+        "sari",
+        "leather"
+      ],
+      "clues": [
+        {
+          "clue": "A luxurious fabric, soft as a cloud",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A type of fine wool",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A type of wool from the Himalayas",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "embroidery",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "sari",
+        "pashmina"
+      ],
+      "clues": [
+        {
+          "clue": "An art form that weaves stories with threads",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Decorative needlework",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The art of decorating fabric with needle and thread",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-09-15"
+}

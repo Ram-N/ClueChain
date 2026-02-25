@@ -1,0 +1,237 @@
+{
+  "title": "Common knowledge",
+  "date": "05-02",
+  "text": "Title: Common knowledge\n\nDefining something as common knowledge can differ based on circumstances because there are variations in what is considered common knowledge amongst \ndifferent groups. The variation can come from the time period, culture, population, class, age, demographic, and other circumstances. \nFor example, the Fifth Amendment to the United States Constitution might be considered common knowledge among people residing in the \nUnited States of a certain age, but cannot be considered common knowledge when considering the general population of other countries.",
+  "hiddenWords": [
+    {
+      "word": "circumstances",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A situation that makes something happen or exist",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Factors that influence an event or decision",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Conditions or facts that affect a situation",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "culture",
+      "difficulty": "Easy",
+      "related_words": [
+        "demographic",
+        "population"
+      ],
+      "clues": [
+        {
+          "clue": "A shared set of customs and traditions",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "The social and artistic aspects of a society",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The beliefs and practices of a group",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "population",
+      "difficulty": "Easy",
+      "related_words": [
+        "culture",
+        "demographic"
+      ],
+      "clues": [
+        {
+          "clue": "The number of people living in a particular area",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "The total number of individuals in a given region",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The people living in a particular place",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "demographic",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "culture",
+        "population"
+      ],
+      "clues": [
+        {
+          "clue": "A group of people with similar characteristics",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "The study of the characteristics of a population",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A statistical category of people",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "variation",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A change or difference in something",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "A difference in form or character",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A difference or change in something",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "amendment",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A change or addition to a document",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "A modification to a law or agreement",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A change or addition to a document",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "constitution",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A set of fundamental principles or rules",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A document that outlines the laws and principles of a country",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A country's fundamental laws",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "example",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A person or thing that illustrates a principle",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A case that illustrates a point",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A person or thing that shows what something is like",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "period",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A length of time",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A time during which something happens or exists",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A specific length of time",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "residing",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Living in a particular place",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Staying in a place for a period of time",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Living in a place",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-05-02"
+}

@@ -1,0 +1,237 @@
+{
+  "title": "Is Apple maps getting ready to tackle public transport?",
+  "date": "12-17",
+  "text": "Is Apple maps getting ready to tackle public transport? Salon.com Some recent job postings over at Apple hint the company has big plans to finally, just maybe, bring public transit information to the infamous Apple Maps. The lack of mass–transit directions has been one of the more vocalized complains about Apple’s native Maps app, but in the job descriptions for a “Maps Public Transit Engineering Manager” and a “Maps C++ Software Engineer – Public Transit,” spotted by Ars Technica, Apple teases: “You will work on one of the most anticipated features of Apple Maps.” Apple has acquired a number of smaller, public–transit appmakers like HopStop and Embark––perhaps they’re all about to come together. Let’s just hope these directions don’t lead us to another airport runway.",
+  "hiddenWords": [
+    {
+      "word": "maps",
+      "difficulty": "Easy",
+      "related_words": [
+        "transit",
+        "directions"
+      ],
+      "clues": [
+        {
+          "clue": "often used for navigation",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "a visual representation of an area",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "a diagrammatic representation of an area",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "transit",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "maps",
+        "directions"
+      ],
+      "clues": [
+        {
+          "clue": "the act of passing something from one person to another",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "the movement of people or goods from one place to another",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "the act of traveling from one place to another",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "directions",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "maps",
+        "transit"
+      ],
+      "clues": [
+        {
+          "clue": "instructions on how to get somewhere",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "a set of instructions for navigating a route",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "a set of instructions for getting from one place to another",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "job",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "a task that needs to be done",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "a regular activity performed in exchange for payment",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "a paid position of regular employment",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "engineer",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "a person who designs and builds complex systems",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "a person who applies scientific knowledge to design and build structures",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "a person who designs and develops solutions to technical problems",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "company",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "a group of people working together",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "a business organization",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "a commercial business",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "features",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "a distinctive part or characteristic of something",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "a notable or distinctive aspect of something",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "a characteristic or quality of something",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "acquired",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "gained possession of something through purchase or discovery",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "obtained or gained something, especially through purchase",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "gained possession of something",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "runway",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "a long, narrow strip of land or pavement for aircraft to take off and land",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "a strip of ground used for aircraft to take off and land",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "a long, narrow strip of ground for aircraft to take off and land",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "hope",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "a feeling of expectation and desire for a particular thing to happen",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "a feeling of desire or expectation for something to happen",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "a feeling of desire or expectation",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-12-17"
+}

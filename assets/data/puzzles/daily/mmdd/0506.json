@@ -1,0 +1,237 @@
+{
+  "title": "Brain has five ‘eras’, scientists say – with adult mode not starting until early 30s — The Guardian",
+  "date": "05-06",
+  "text": "Title: Brain has five ‘eras’, scientists say – with adult mode not starting until early 30s — The Guardian\n\nScientists have identified five major “epochs” of human brain development in one of the most comprehensive studies to date of how neural wiring changes from infancy to old age. The study, based on the brain scans of nearly 4,000 people aged under one to 90, mapped neural connections and how they evolve during our lives. This revealed five broad phases, split up by four pivotal “turning points” in which brain organisation moves on to a different trajectory, at around the ages of nine, 32, 66 and 83 years. “Looking back, many of us feel our lives have been characterised by different phases.",
+  "hiddenWords": [
+    {
+      "word": "epochs",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A series of periods marked by notable events or stages",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Periods of time marked by significant events",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A division of time",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "comprehensive",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "It covers all aspects, nothing is left out",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Including everything, complete",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Complete and thorough",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "infancy",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The time when one is completely dependent",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "The earliest stage of human life",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The period of being a baby",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "neural",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "organisation",
+        "connections"
+      ],
+      "clues": [
+        {
+          "clue": "Related to the nerve system",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Concerning the nerves",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Relating to nerves",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "organisation",
+      "difficulty": "Hard",
+      "related_words": [
+        "neural",
+        "connections"
+      ],
+      "clues": [
+        {
+          "clue": "The way things are structured",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "A system of arranging things",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "The act of organizing",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "connections",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "neural",
+        "organisation"
+      ],
+      "clues": [
+        {
+          "clue": "The state of being linked",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A relationship between things",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A link between two things",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "pivotal",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A point that changes the direction of things",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Critical or decisive",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Very important",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "trajectory",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The path something follows",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "The course of movement",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "The path that something moves along",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "characterised",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Marked by certain features",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Having distinct qualities",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Having a particular character",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "phases",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Stages of development",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Distinct periods of time",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A stage of development",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-05-06"
+}

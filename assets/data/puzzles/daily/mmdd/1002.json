@@ -1,0 +1,237 @@
+{
+  "title": "Common knowledge — Examples",
+  "date": "10-02",
+  "text": "Title: Common knowledge — Examples\n\n\"Paris is the capital of France.\" Many capital cities of developed countries \nare considered common knowledge by most people, but one cannot claim this as \ncommon knowledge for global populations without further research. \"It is dangerous to mix ammonia and bleach.\" \nThough both common household chemicals, accidents involving the mixing of ammonia and bleach are rare,\nbecause the potentially lethal danger in their chemical reaction is a widely circulated cautionary tale amongst some\n  American families and so could possibly be considered common knowledge in those populations, but may not extend to wider populations.",
+  "hiddenWords": [
+    {
+      "word": "ammonia",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "bleach",
+        "chemicals"
+      ],
+      "clues": [
+        {
+          "clue": "A pungent gas that can make you cry",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A substance used for cleaning",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A strong-smelling chemical compound",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "bleach",
+      "difficulty": "Easy",
+      "related_words": [
+        "ammonia",
+        "chemicals"
+      ],
+      "clues": [
+        {
+          "clue": "What you might use to remove tough stains",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A product often used for laundry",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A chemical used for whitening",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "chemicals",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "ammonia",
+        "bleach"
+      ],
+      "clues": [
+        {
+          "clue": "Substances that can react with each other",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Compounds used in various industries",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Substances with distinct properties",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "capital",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The city where a country's government is based",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A city of great importance to a nation",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The primary city of a country",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "danger",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A situation that can cause harm",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A risk that can be avoided",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A threat to someone's safety",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "families",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Groups of people related by blood or marriage",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Units of people living together",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Close relatives",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "lethal",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A consequence that can be fatal",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "A result that can cause death",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Causing death",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "mixing",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Combining two or more substances",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Blending things together",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The act of combining",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "populations",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Groups of people living in a particular area",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Large groups of individuals",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "The people living in a region",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "research",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A thorough investigation into a subject",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "The process of gathering information",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A systematic study",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-10-02"
+}

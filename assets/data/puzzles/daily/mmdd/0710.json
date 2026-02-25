@@ -1,0 +1,228 @@
+{
+  "id": "ClueChain-2025-07-10",
+  "date": "07-10",
+  "title": "I Capture the Castle by Dodie Smith (1948)",
+  "text": "“I write this sitting in the kitchen sink.” Cassandra Mortmain introduces herself to readers with an unexpected confession that establishes three things—she is small enough to still fit in a sink, she is unconventional and she is fearless. This coming-of-age tale about a teenage wannabe writer navigating an increasingly tumultuous home life maintains its fresh, unique point of view throughout.",
+  "hiddenWords": [
+    {
+      "word": "sitting",
+      "difficulty": "Easy",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "Resting upon a surface, not standing, often in a quiet place.",
+          "points": 4
+        },
+        {
+          "type": "Suggestive",
+          "clue": "What you do on a chair, or what a bird does on a branch.",
+          "points": 2
+        },
+        {
+          "type": "Straight",
+          "clue": "The action of resting with the body supported by the buttocks rather than the feet.",
+          "points": 1
+        }
+      ],
+      "related_words": []
+    },
+    {
+      "word": "kitchen",
+      "difficulty": "Easy",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "Where culinary magic happens, and often the heart of the home.",
+          "points": 4
+        },
+        {
+          "type": "Suggestive",
+          "clue": "The room where food is prepared.",
+          "points": 2
+        },
+        {
+          "type": "Straight",
+          "clue": "A room or area where food is prepared and cooked.",
+          "points": 1
+        }
+      ],
+      "related_words": ["sink"]
+    },
+    {
+      "word": "sink",
+      "difficulty": "Easy",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "It can hold water or make a ship go down.",
+          "points": 4
+        },
+        {
+          "type": "Suggestive",
+          "clue": "A basin with a drain, commonly found in a kitchen or bathroom.",
+          "points": 2
+        },
+        {
+          "type": "Straight",
+          "clue": "A fixed basin with a water supply and a drain, typically in a kitchen or bathroom.",
+          "points": 1
+        }
+      ],
+      "related_words": ["kitchen"]
+    },
+    {
+      "word": "introduces",
+      "difficulty": "Intermediate",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "When a person's first meeting is performed, often with a pleasant facade.",
+          "points": 5
+        },
+        {
+          "type": "Suggestive",
+          "clue": "What a host does when new guests arrive, or what a book does with its characters.",
+          "points": 3
+        },
+        {
+          "type": "Straight",
+          "clue": "To present (someone or something) to another for the first time.",
+          "points": 1
+        }
+      ],
+      "related_words": []
+    },
+    {
+      "word": "readers",
+      "difficulty": "Easy",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "They turn pages and absorb tales, through silent eyes they sail.",
+          "points": 4
+        },
+        {
+          "type": "Suggestive",
+          "clue": "People who engage with written text, like a book club.",
+          "points": 2
+        },
+        {
+          "type": "Straight",
+          "clue": "People who read.",
+          "points": 1
+        }
+      ],
+      "related_words": ["writer"]
+    },
+    {
+      "word": "unexpected",
+      "difficulty": "Intermediate",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "A surprise twist, not foreseen, a curveball thrown, a sudden scene.",
+          "points": 5
+        },
+        {
+          "type": "Suggestive",
+          "clue": "When something happens that you didn't anticipate, like a sudden rain shower.",
+          "points": 3
+        },
+        {
+          "type": "Straight",
+          "clue": "Not anticipated or predicted.",
+          "points": 1
+        }
+      ],
+      "related_words": []
+    },
+    {
+      "word": "establishes",
+      "difficulty": "Hard",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "Sets the stage, firms the ground, makes a point, profoundly found.",
+          "points": 7
+        },
+        {
+          "type": "Suggestive",
+          "clue": "To set up something on a firm or permanent basis, like a business or a rule.",
+          "points": 4
+        },
+        {
+          "type": "Straight",
+          "clue": "To set up (an organization, system, or set of rules) on a firm or permanent basis.",
+          "points": 2
+        }
+      ],
+      "related_words": []
+    },
+    {
+      "word": "fearless",
+      "difficulty": "Intermediate",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "Without dread, brave and bold, a story of courage to unfold.",
+          "points": 5
+        },
+        {
+          "type": "Suggestive",
+          "clue": "Describes someone who shows no fear, even in dangerous situations.",
+          "points": 3
+        },
+        {
+          "type": "Straight",
+          "clue": "Lacking fear.",
+          "points": 1
+        }
+      ],
+      "related_words": []
+    },
+    {
+      "word": "writer",
+      "difficulty": "Easy",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "Weaves words upon a page, creating worlds, setting a stage.",
+          "points": 4
+        },
+        {
+          "type": "Suggestive",
+          "clue": "A person whose profession is writing books, articles, or stories.",
+          "points": 2
+        },
+        {
+          "type": "Straight",
+          "clue": "A person who has written a book, article, or document.",
+          "points": 1
+        }
+      ],
+      "related_words": ["readers"]
+    },
+    {
+      "word": "throughout",
+      "difficulty": "Intermediate",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "From start to finish, every part, a journey taken, from the heart.",
+          "points": 5
+        },
+        {
+          "type": "Suggestive",
+          "clue": "Meaning in every part, or during the whole period of time.",
+          "points": 3
+        },
+        {
+          "type": "Straight",
+          "clue": "In every part of (a place or object) or during the whole period of (time).",
+          "points": 1
+        }
+      ],
+      "related_words": []
+    }
+  ]
+}

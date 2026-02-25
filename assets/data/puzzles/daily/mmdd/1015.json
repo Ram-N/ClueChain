@@ -1,0 +1,239 @@
+{
+  "title": "An Indian City Bursting With Action",
+  "date": "10-15",
+  "text": "An Indian City Bursting With Action\nLucas Peterson\nThere’s a lot to be excited about in Chennai, capital of the state of Tamil Nadu in South India (and still sometimes referred to by its former name, Madras). While certainly crazy for movies, the city has an electricity and exuberance that extends beyond the cinematic. Call it youthful energy — the history of what we know as present-day Chennai extends back merely to the 1600s, compared to ancient cities like Delhi, which have existed for thousands of years. During a four-day trip in September, I found jaw-droppingly good food, beautiful houses of worship and a fantastic day trip. And, as always, I set out with the goal to get the best value for my money.",
+  "hiddenWords": [
+    {
+      "word": "energy",
+      "difficulty": "Easy",
+      "related_words": [
+        "exuberance",
+        "youthful"
+      ],
+      "clues": [
+        {
+          "clue": "It's what makes you want to move",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A feeling of being full of life",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The ability to do work",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "exuberance",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "energy",
+        "youthful"
+      ],
+      "clues": [
+        {
+          "clue": "A quality often seen in children",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A feeling of great enthusiasm",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The state of being full of energy",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "youthful",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "energy",
+        "exuberance"
+      ],
+      "clues": [
+        {
+          "clue": "Like a spring morning",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Having a quality of being young",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Characterized by vigor",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "cinematic",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A world of fantasy and dreams",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Relating to movies",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Pertaining to the cinema",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "history",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A story of the past",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "The study of past events",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The record of past events",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "trip",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A journey to a place",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "An excursion",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A journey or excursion",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "value",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A measure of importance",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "The worth of something",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The quality of being useful",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "money",
+      "difficulty": "Easy",
+      "related_words": [
+        "value"
+      ],
+      "clues": [
+        {
+          "clue": "What makes the world go round",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A medium of exchange",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The standard unit of exchange",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "food",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "What we need to survive",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Something we eat to live",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "What we eat to sustain life",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "worship",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A way to show reverence",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "The act of honoring a deity",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The act of showing respect to a higher power",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-10-15"
+}

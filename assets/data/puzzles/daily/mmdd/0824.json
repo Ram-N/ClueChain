@@ -1,0 +1,237 @@
+{
+  "title": "History of India — Mahajanapadas",
+  "date": "08-24",
+  "text": "Title: History of India — Mahajanapadas\n\nThe period from c. 600 BCE to c. 300 BCE featured the rise of the Mahajanapadas, sixteen powerful kingdoms and oligarchic republics in a belt stretching from Gandhara in the north-west to Bengal in the eastern part of the Indian subcontinent—including parts of the trans-Vindhyan region. Ancient Buddhist texts, like the Aṅguttara Nikāya, make frequent reference to these sixteen great kingdoms and republics—Anga, Assaka, Avanti, Chedi, Gandhara, Kashi, Kamboja, Kosala, Kuru, Magadha, Malla, Matsya (or Machcha), Panchala, Surasena, Vṛji, and Vatsa. This period saw the second major rise of urbanism in India after the Indus Valley Civilisation.",
+  "hiddenWords": [
+    {
+      "word": "urbanism",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "kingdoms",
+        "republics"
+      ],
+      "clues": [
+        {
+          "clue": "A new way of city living arose, as people moved from rural areas to towns.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "The state of having cities, especially with a high proportion of the population living in them.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "The social, cultural, and economic characteristics of city life.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "kingdoms",
+      "difficulty": "Easy",
+      "related_words": [
+        "urbanism",
+        "republics"
+      ],
+      "clues": [
+        {
+          "clue": "Areas ruled by monarchs, with subjects and castles.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Monarchical states with a king or queen as head.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A state or territory ruled by a king or queen.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "republics",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "urbanism",
+        "kingdoms"
+      ],
+      "clues": [
+        {
+          "clue": "Systems where power is held by the people, not a monarch.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "States in which the power is held by the people or their elected representatives.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A state with no monarch, where leaders are elected.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "period",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A time of change, with a clear start and end.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "An interval of time, with a specific duration.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A length of time.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "region",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "An area of land, with its own unique features.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A part of a country or the world, with its own characteristics.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A geographical area.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "oligarchic",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Power is held by a small group, with the rest under control.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "A system of government where power is held by a few people.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Relating to a system of government where power is held by a small group of people.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "ancient",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "From a long, long time ago, with mysteries and secrets.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Very old, from a past time, with historical significance.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "From a long time ago, often used to describe historical things.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "frequent",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Happening or done many times, with a regular pattern.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Done or happening often, with a high rate of occurrence.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Happening or done many times.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "valley",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A low area of land, surrounded by hills or mountains.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A low area of land between hills or mountains, often with a river.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A low area of land between hills or mountains.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "civilisation",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A complex society, with its own culture and achievements.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "A human society with its own culture, social structure, and achievements.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A complex human society, with its own culture and achievements.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-08-24"
+}

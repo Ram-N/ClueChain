@@ -1,0 +1,237 @@
+{
+  "title": "Trump officials halt offshore wind-farm projects over ‘national security risks’ — The Guardian",
+  "date": "11-06",
+  "text": "However, in halting the under-construction wind farms, Trump has escalated his battle against a beleaguered wind industry that he has long reviled since he objected to the sight of wind turbines from his Scottish golf course more than a decade ago. “Wind is the worst,” the president said at a Pennsylvania rally on 9 December. “That’s a scam. They ruin your valleys. They ruin your peaks. And [it’s] the most expensive energy.” In fact, wind is among the cheapest energy sources, with costs falling sharply in recent years.",
+  "hiddenWords": [
+    {
+      "word": "valleys",
+      "difficulty": "Easy",
+      "related_words": [
+        "peaks",
+        "industry"
+      ],
+      "clues": [
+        {
+          "clue": "Low areas between hills",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "Often found near mountains",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Where rivers usually flow",
+          "type": "Indirect",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "word": "peaks",
+      "difficulty": "Easy",
+      "related_words": [
+        "valleys",
+        "industry"
+      ],
+      "clues": [
+        {
+          "clue": "The highest points",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "Usually snow-capped",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Challenging to climb",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "word": "industry",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "valleys",
+        "peaks"
+      ],
+      "clues": [
+        {
+          "clue": "A group of companies",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "Sector of the economy",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Can be affected by government policies",
+          "type": "Indirect",
+          "points": 7
+        }
+      ]
+    },
+    {
+      "word": "rally",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A gathering of people",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "Often for a cause or event",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Can be used to raise spirits",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "word": "decade",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A period of ten years",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "Used to measure time",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A long time ago",
+          "type": "Indirect",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "word": "president",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The head of a country",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "Elected by the people",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Has a lot of power and responsibility",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "word": "sources",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Where something comes from",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "Can be renewable or non-renewable",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Important for energy production",
+          "type": "Indirect",
+          "points": 7
+        }
+      ]
+    },
+    {
+      "word": "expensive",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Costs a lot of money",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "Not affordable for everyone",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Can be a financial burden",
+          "type": "Indirect",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "word": "falling",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Moving downwards",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "Can be a trend or pattern",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Can be a result of a change",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "word": "recent",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Happened not long ago",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "Can be used to describe news",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A short time ago",
+          "type": "Indirect",
+          "points": 5
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-11-06"
+}

@@ -1,0 +1,237 @@
+{
+  "title": "Robotics — Further reading",
+  "date": "06-26",
+  "text": "Title: Robotics — Further reading\n\nR. Andrew Russell (1990). Robot Tactile Sensing. New York: Prentice Hall. ISBN 978-0-13-781592-0. McGaughey, Ewan (16 October 2019). \"Will robots automate your job away? Full employment, basic income, and economic democracy\". LawArXiv Papers. doi:10.31228/osf.io/udbj8. S2CID 243172487. SSRN 3044448. Autor, David H. (1 August 2015). \"Why Are There Still So Many Jobs? The History and Future of Workplace Automation\". Journal of Economic Perspectives. 29 (3): 3–30. doi:10.1257/jep.29.3.3. hdl:1721.1/109476. Tooze, Adam (6 June 2019). \"Democracy and Its Discontents\". The New York Review of Books. Vol. 66, no. 10.",
+  "hiddenWords": [
+    {
+      "word": "sensing",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "It's how we perceive the world around us, a way of feeling and knowing.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "This word is related to the way robots interact with their environment.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The act of perceiving or feeling something.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "automation",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "jobs",
+        "employment"
+      ],
+      "clues": [
+        {
+          "clue": "A process that's changing the face of work, making some tasks obsolete.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "This concept is closely tied to the idea of machines performing tasks on their own.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "The use of machines or computers to control and operate something.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "jobs",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "automation",
+        "employment"
+      ],
+      "clues": [
+        {
+          "clue": "The things we do to earn a living, but will they still exist in the future?",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "These are the positions or roles that people occupy in the workforce.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A regular activity performed in exchange for payment.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "employment",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "jobs",
+        "automation"
+      ],
+      "clues": [
+        {
+          "clue": "The state of having a job or being paid to work, but what happens when machines take over?",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "This term refers to the act of giving someone a job or position.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "The act of having a paid job or position.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "income",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The money that comes in, but will it be enough in a world of automation?",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "This is the amount of money received, especially on a regular basis.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Money earned or received, especially on a regular basis.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "perspectives",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Different ways of looking at things, like angles on a puzzle.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "These are the points of view or opinions on a particular subject.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A particular attitude or point of view.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "democracy",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A system where power is held by the people, but can it survive in a world of automation?",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "This is a system of government where power is held by the people.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A system of government in which power is vested in the people.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "review",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A look back at something, like a book or a movie.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "This is an evaluation or assessment of something, like a book or a performance.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "An evaluation or assessment of something.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "economic",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The study of money and trade, but also a way of life.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "This term refers to the production, distribution, and consumption of goods and services.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Relating to the economy or the study of economics.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "future",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The time that is yet to come, full of possibilities and uncertainties.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "This is the period of time that has not yet happened.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The time that is to come.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-06-26"
+}

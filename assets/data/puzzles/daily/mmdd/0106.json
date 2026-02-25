@@ -1,0 +1,235 @@
+{
+  "title": "Does ‘laziness’ start in the brain? — The Guardian",
+  "date": "01-06",
+  "text": "Even for the most apathetic among us, this holds out the hope of turning a kneejerk “no” into an ability to consider saying “yes”. • Masud Husain is a professor of neurology and cognitive neuroscience at the University of Oxford and author of Our Brains, Our Selves (Canongate). Further reading Neuroscience of You: How Every Brain is Different and How to Understand Yours by Chantel Prat (Dutton, £26.99) Behave: The Biology of Humans at Our Best and Worst by Robert Sapolsky (Vintage, £12.99) The Dopamine Brain: Break Free from Bad Habits and Learn to Balance Pleasure With Purpose by Anastasia Hronis (Vermilion, £16.99)",
+  "hiddenWords": [
+    {
+      "word": "apathetic",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A state of mind where emotions are numb",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Lacking interest or concern",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Unresponsive to stimuli",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "neurology",
+      "difficulty": "Hard",
+      "related_words": [
+        "neuroscience"
+      ],
+      "clues": [
+        {
+          "clue": "Study of the intricate network that controls our thoughts",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Field of medicine dealing with disorders of the nervous system",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Branch of medicine concerned with the nervous system",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "neuroscience",
+      "difficulty": "Hard",
+      "related_words": [
+        "neurology"
+      ],
+      "clues": [
+        {
+          "clue": "Unlocking the secrets of the most complex organ",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Study of the structure and function of the nervous system",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Interdisciplinary field studying the nervous system",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "kneejerk",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Reacting without thinking, like a sudden muscle contraction",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Automatic and unthinking reaction",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Reflexive response",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "cognitive",
+      "difficulty": "Hard",
+      "related_words": [
+        "neuroscience",
+        "neurology"
+      ],
+      "clues": [
+        {
+          "clue": "The process of knowing and understanding",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Dealing with mental processes such as perception and memory",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Relating to the mental processes",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "author",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The creator of a written work, like a book or article",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Person who writes a book or article",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Writer of a book",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "balance",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A state of equilibrium, like a seesaw",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "State of being in harmony or stability",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Act of weighing the pros and cons",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "habits",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Regular practices that are hard to give up",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Automatic behaviors that are repeated regularly",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Usual practices or routines",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "pleasure",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A feeling that comes from enjoying something",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "State of being delighted or satisfied",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Feeling of enjoyment or satisfaction",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "dopamine",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Chemical messenger in the brain associated with reward",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Neurotransmitter that plays a key role in motivation",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Type of neurotransmitter",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-01-06"
+}

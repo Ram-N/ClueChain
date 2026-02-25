@@ -1,0 +1,237 @@
+{
+  "title": "A Grim Fairy Tale",
+  "date": "05-23",
+  "text": "Title: A Grim Fairy Tale\n\nSo, it happened. Mythmaking beat math. Drama put data in its place. A candidate who styled himself a renegade outsider has become the forty-fifth president. It’s almost as though a humble serving girl were changed by the wave of a wand into a princess, or a stranger in bright rags put a pipe to his lips and played so wonderfully that all the children of the village . . . If a hallmark of enduring fairy tales and folktales is an outsized, vivid character who overcomes impossible odds, this is one that should endure.",
+  "hiddenWords": [
+    {
+      "word": "math",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Numbers and calculations are its game",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Subject in school that deals with numbers",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Science of numbers",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "drama",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "outsider",
+        "character"
+      ],
+      "clues": [
+        {
+          "clue": "Life is like a stage, full of drama and plot",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Form of storytelling that involves acting",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Theatrical performance",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "outsider",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "drama",
+        "character"
+      ],
+      "clues": [
+        {
+          "clue": "Someone who doesn't fit in, a misfit",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Person who is not part of a group",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Non-member",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "character",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "drama",
+        "outsider"
+      ],
+      "clues": [
+        {
+          "clue": "A person in a story, or a person's nature",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Person in a novel, play, or movie",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Personality trait",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "village",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Small group of houses and associated buildings",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Rural settlement smaller than a town",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Small town",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "wave",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Movement of the sea, or a gesture of the hand",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Ripple in water, or a signal",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Movement of water",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "humble",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A modest and lowly quality, like a servant's heart",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Having a modest or lowly opinion of oneself",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Modest",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "princess",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A royal title, fit for a fairy tale",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Daughter of a king",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Female member of a royal family",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "renegade",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A person who has rebelled against authority",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Someone who has deserted a group or cause",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Deserter",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "hallmark",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A characteristic or feature that is typical of something",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "A mark or sign of quality or excellence",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Distinctive feature",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-05-23"
+}

@@ -1,0 +1,237 @@
+{
+  "title": "The (cheap) tools that will transform your cooking",
+  "date": "02-20",
+  "text": "The (cheap) tools that will transform your cooking\n\nYou don't need a fancy equipment to be a good cook. The good news is that there is no five hundred dollar blender, no state of the art oven, that is standing between you and making a decent meal today. If you love your sous vide or your Instant Pot, great — I feel pretty evangelical about my KitchenAid Mini stand mixer. But I also feel that way about my wooden spoons. The items that give us confidence in the kitchen, that make the act of preparing food a pleasure instead of a chore, are often the smallest, simplest things.\n\nThe holidays, like wedding season, seem to make our minds collectively turn longingly to extravagant, big ticket appliances. Yet the rest of the time, too many of us appear to try to bravely get by on our one spatula with a slightly melted handle. Maybe it's a false sense of toughness, or a fear of looking like some loser whose life is cluttered with useless unitaskers. But if among your New Year's resolutions is to step up your culinary game in 2022, can I suggest — why not do it by embracing some legitimately useful, joy-sparking tools, none of which cost more than a few dollars?",
+  "hiddenWords": [
+    {
+      "word": "spoons",
+      "difficulty": "Easy",
+      "related_words": [
+        "spatula",
+        "tools"
+      ],
+      "clues": [
+        {
+          "clue": "Utensils that are often used to mix or serve food",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Kitchen items used for eating or serving",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Tableware used for eating",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "spatula",
+      "difficulty": "Easy",
+      "related_words": [
+        "spoons",
+        "tools"
+      ],
+      "clues": [
+        {
+          "clue": "A flat tool used to flip or scrape food",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A kitchen item used for flipping or scraping",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Flat kitchen tool",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "tools",
+      "difficulty": "Easy",
+      "related_words": [
+        "spoons",
+        "spatula"
+      ],
+      "clues": [
+        {
+          "clue": "Equipment or devices used for a particular task",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Items used to help with cooking or other tasks",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Devices used for a specific purpose",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "kitchen",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A room where meals are prepared, often with a sense of warmth and comfort",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "The room in a house where food is prepared",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Room for food preparation",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "confidence",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A feeling of self-assurance, often gained through experience or practice",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A feeling of faith in one's abilities",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Faith in one's abilities",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "pleasure",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A feeling of enjoyment or satisfaction, often derived from a particular activity",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A feeling of enjoyment or delight",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A feeling of enjoyment",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "extravagant",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A description of something that is excessively elaborate or expensive, often in a way that is considered wasteful or unnecessary",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Something that is luxurious or overly elaborate",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Excessively elaborate or expensive",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "appliances",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Machines or devices that are designed to perform a specific function, often in a domestic setting",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Machines that perform a specific function in the home",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Machines for domestic use",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "unitaskers",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Items that have only one specific use, often considered to be less versatile or less valuable than items with multiple uses",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Items with only one specific use",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Items with a single function",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "resolutions",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Promises or decisions made to change or improve something, often at the start of a new year",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Decisions to change or improve something",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Decisions to change",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-02-20"
+}

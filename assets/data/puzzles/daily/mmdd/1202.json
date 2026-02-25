@@ -1,0 +1,228 @@
+{
+  "title": "Knowledge base",
+  "date": "12-02",
+  "text": "Title: Knowledge base\n\nIn computer science, a knowledge base (KB) is a set of sentences, each sentence given in a knowledge representation language, with interfaces \nto tell new sentences and to ask questions about what is known, where either of these interfaces might use inference. It is a technology used to store \ncomplex structured data used by a computer system. The initial use of the term was in connection with expert systems, which were the first knowledge-based systems.",
+  "hiddenWords": [
+    {
+      "word": "computer",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "It's the brain of the digital world, but it can't think for itself. It needs programs to function.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "An electronic device for storing and processing data.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A programmable machine that performs calculations.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "science",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Often pursued in labs and universities, it seeks to understand the world through observation and experimentation.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A systematic enterprise that builds and organizes knowledge in the form of testable explanations and predictions about the universe.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "The systematic study of the structure and behavior of the physical and natural world through observation and experiment.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "sentences",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "They can be short or long, simple or complex, and they all contribute to the art of communication.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A set of words that is complete in itself, typically containing a subject and predicate, conveying a statement, question, exclamation, or command.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A grammatical unit that expresses a complete thought.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "language",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "It's the code of communication, the key to unlocking understanding, and the bridge between minds.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "A system of communication used by a particular country or community.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A system of communication consisting of the use of words in a structured and conventional way.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "interfaces",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "They are the gateways, the points of contact, the bridges that allow systems to interact.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A point where two systems, subjects, organizations, etc., meet and interact.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A device or program enabling a user to interact with a computer.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "questions",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "They are the beginning of knowledge, the spark of curiosity, and the fuel for discovery.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A sentence worded or expressed so as to elicit information.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "An inquiry for information.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "technology",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Modern marvels abound due to the evolution of this, from the printing press to the internet.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "The application of scientific knowledge for practical purposes.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "The application of scientific knowledge for practical purposes, especially in industry.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "store",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Where memories are kept, both real and virtual, for a later time.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "To keep or accumulate something for future use.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "To keep or accumulate (something) for future use.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "system",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "It's a structured approach, a planned method, a way of organizing things to achieve a goal.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A set of things working together as parts of a mechanism or an interconnecting network.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A set of connected things or parts forming a complex whole, in particular.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "expert",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "They possess specialized knowledge, a deep understanding, and a mastery of their field.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "A person with extensive knowledge or skill in a particular area.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A person who has a comprehensive and authoritative knowledge of or skill in a particular area.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-12-02"
+}

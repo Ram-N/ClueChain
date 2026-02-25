@@ -1,0 +1,246 @@
+{
+  "title": "Rhythm — Linguistics",
+  "date": "12-31",
+  "text": "Title: Rhythm — Linguistics\n\nIn linguistics, rhythm or isochrony is one of the three aspects of prosody, along with stress and intonation. Languages can be categorized according to whether they are syllable-timed, mora-timed, or stress-timed. Speakers of syllable-timed languages such as Spanish and Cantonese put roughly equal time on each syllable; in contrast, speakers of stressed-timed languages such as English and Mandarin Chinese put roughly equal time lags between stressed syllables, with the timing of the unstressed syllables in between them being adjusted to accommodate the stress timing. Narmour describes three categories of prosodic rules that create rhythmic successions that are additive (same duration repeated), cumulative (short-long), or countercumulative (long-short). Cumulation is associated with closure or relaxation, countercumulation with openness or tension, while additive rhythms are open-ended and repetitive. Richard Middleton points out this method cannot account for syncopation and suggests the concept of transformation.",
+  "hiddenWords": [
+    {
+      "word": "prosody",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "intonation",
+        "stress"
+      ],
+      "clues": [
+        {
+          "clue": "Study of how sound and silence interact in speech.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "It's a key aspect of linguistics that deals with the sound and rhythm of language.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "The study of the sound properties of speech.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "intonation",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "prosody",
+        "stress"
+      ],
+      "clues": [
+        {
+          "clue": "It's the music of speech, where pitch and tone convey meaning.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Change in pitch when speaking, often indicating a question or statement.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The rise and fall of pitch when speaking.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "stress",
+      "difficulty": "Easy",
+      "related_words": [
+        "prosody",
+        "intonation"
+      ],
+      "clues": [
+        {
+          "clue": "Emphasis on a particular part of a word or sentence.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A way to show importance in speech by using louder or longer sounds.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Emphasis or prominence given to a syllable or word.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "syllable",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A unit of sound in a word that contains a vowel sound.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A part of a word that has one vowel sound.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A unit of pronunciation having one vowel sound.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "cumulative",
+      "difficulty": "Hard",
+      "related_words": [
+        "countercumulative",
+        "additive"
+      ],
+      "clues": [
+        {
+          "clue": "Think of a snowball effect, where things add up over time.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "It's a process where something increases in amount or degree.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Tending to accumulate or increase.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "countercumulative",
+      "difficulty": "Hard",
+      "related_words": [
+        "cumulative",
+        "additive"
+      ],
+      "clues": [
+        {
+          "clue": "Imagine a seesaw, where one side goes down as the other goes up.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "It's a process that works against the accumulation of something.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Opposing the accumulation of something.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "additive",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "cumulative",
+        "countercumulative"
+      ],
+      "clues": [
+        {
+          "clue": "Think of building blocks, where each piece adds to the whole.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "It's a process where things are combined to create something new.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Characterized by or relating to addition.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "closure",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The feeling you get when a story finally comes to an end.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "It's the act of bringing something to a close or completion.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The act of closing something.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "relaxation",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A state of mind where you feel calm and at peace.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "The act of calming down or reducing tension.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A state of being free from tension or anxiety.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "transformation",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Think of a caterpillar turning into a beautiful butterfly.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "It's a complete change in form or nature.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "The act of changing something completely.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-12-31"
+}

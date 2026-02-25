@@ -1,0 +1,237 @@
+{
+  "title": "The Bizarre Relationship",
+  "date": "04-21",
+  "text": "It started out as a fairly typical office friendship: You ate lunch together and joked around during breaks. Maybe you bonded over a shared affinity for escape rooms (or board games or birding or some other slightly weird hobby). Over time, you became fluent in the nuances of each other’s workplace beefs. By now, you vent to each other so regularly that the routine frustrations of professional life have spawned a carousel of inside jokes that leavens the day-to-day. You chat about your lives outside work too. But a lot of times, you don’t have to talk at all; if you need to be rescued from a conversation with an overbearing co-worker, a pointed glance will do. You aren’t Jim and Pam, because there isn’t anything romantic between you, but you can kind of see why people might suspect there is.",
+  "hiddenWords": [
+    {
+      "word": "lunch",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "It's often eaten with colleagues.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A meal typically eaten in the middle of the day.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A mid-day meal.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "beefs",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "workplace",
+        "frustrations"
+      ],
+      "clues": [
+        {
+          "clue": "Complaints that can be meaty issues.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Workplace complaints or disagreements.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Complaints or grudges.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "workplace",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "beefs",
+        "frustrations"
+      ],
+      "clues": [
+        {
+          "clue": "Where you might find a water cooler.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "The place where you go to work and earn a living.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "An office or area where work is done.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "frustrations",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "beefs",
+        "workplace"
+      ],
+      "clues": [
+        {
+          "clue": "Feeling annoyed, like when your computer freezes.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Feelings of annoyance or irritation.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Annoyances or irritations.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "glance",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A quick look, like a peek at your watch.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A brief or fleeting look at something.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A quick look.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "jokes",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Humorous remarks that bring laughter.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Amusing or funny comments.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Something said or done to be funny.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "hobby",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A leisure activity, like collecting stamps.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "An activity or interest pursued for pleasure.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A favorite pastime or activity.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "routine",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A regular or usual procedure.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A regular or usual practice or procedure.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A regular procedure.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "leavens",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Like yeast, it makes things rise, but in a figurative sense.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "To make something more enjoyable or palatable.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "To lighten or make less serious.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "breaks",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Time to grab a snack or stretch.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Periods of time when work or activity is stopped.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A pause or interruption in work or activity.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-04-21"
+}

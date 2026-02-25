@@ -1,0 +1,237 @@
+{
+  "title": "Information — As of 2007",
+  "date": "02-02",
+  "text": "It is estimated that the world's technological capacity to store information grew from 2.6 (optimally compressed) exabytes in 1986 – which is the informational equivalent to less than one 730-MB CD-ROM per person (539 MB per person) – to 295 (optimally compressed) exabytes in 2007. This is the informational equivalent of almost 61 CD-ROM per person in 2007. The world's combined technological capacity to receive information through one-way broadcast networks was the informational equivalent of 174 newspapers per person per day in 2007. The world's combined effective capacity to exchange information through two-way telecommunication networks was the informational equivalent of 6 newspapers per person per day in 2007. As of 2007, an estimated 90% of all new information is digital, mostly stored on hard drives.",
+  "hiddenWords": [
+    {
+      "word": "capacity",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A measure of how much something can hold or produce.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Think of a bucket that's full to the brim, but not overflowing.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "The ability to contain or produce something.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "estimated",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A rough calculation, not an exact figure.",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "Using numbers to make a guess about something.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Imagine taking a stab in the dark, but with math.",
+          "type": "Indirect",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "word": "technological",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "networks",
+        "telecommunication"
+      ],
+      "clues": [
+        {
+          "clue": "Involving the use of machines and computers.",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "A field that's always changing and improving.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Think of a world where humans and machines work together.",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "word": "networks",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "technological",
+        "telecommunication"
+      ],
+      "clues": [
+        {
+          "clue": "A group of interconnected things.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Imagine a web of strings that connect different points.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A system of connected devices or people.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "telecommunication",
+      "difficulty": "Hard",
+      "related_words": [
+        "technological",
+        "networks"
+      ],
+      "clues": [
+        {
+          "clue": "A way of sending information over long distances.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Think of a message in a bottle, but instead of water, it's sent through the air.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "The process of exchanging information between devices.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "compressed",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Made smaller, but still keeping its original meaning.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Imagine a spring that's been squeezed tight, but still has the same force.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Reduced in size, but not in importance.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "exabytes",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A huge amount of digital information.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Think of a library that's so big, it has more books than you can count.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "A unit of measurement for digital data.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "newspapers",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Publications that bring you the latest news.",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "A way to stay informed about what's happening in the world.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Imagine a daily delivery of stories and events.",
+          "type": "Indirect",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "word": "digital",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Relating to computers and electronic devices.",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "A type of information that can be stored on devices.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Think of a world where everything is made up of 1s and 0s.",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "word": "drives",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Devices that store digital information.",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "A way to keep your files and data safe.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Imagine a container that holds all your important documents.",
+          "type": "Indirect",
+          "points": 5
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-02-02"
+}

@@ -1,0 +1,237 @@
+{
+  "title": "What's the Best Way to Get a Raise?",
+  "date": "05-19",
+  "text": "What's the Best Way to Get a Raise? The Atlantic -- The question that most people ask themselves as they walk into their boss's office to negotiate their salaries is likely some variant of \"What am I going to say?\" But according to hostage negotiator Chris Voss, that might be the least important thing to keep in mind when negotiating. Voss, now an adjunct professor at Georgetown University's McDonough School of Business, spent 24 years at the FBI. It was as an FBI agent that he started to get interested in hostage negotiations. At the time, a supervisor told him to start by volunteering at a suicide hotline to gain the set of listening abilities that a hostage negotiator needs. By 1992, he was training at the FBI's school for negotiators, and from 2004 to 2007, he was the FBI's lead international hostage negotiator. After retirement, Voss founded The Black Swan Group to bring negotiation know-how to the business world.",
+  "hiddenWords": [
+    {
+      "word": "raise",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "It's what you might ask for when you think you're underpaid",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "An increase in salary or wages",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A higher amount of money",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "boss",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The person you might ask for a raise",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A person in charge of a workplace or organization",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A supervisor or manager",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "school",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "business",
+        "university"
+      ],
+      "clues": [
+        {
+          "clue": "A place where you might learn about negotiation",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "An institution for education or training",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A place where students learn",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "business",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "school",
+        "university"
+      ],
+      "clues": [
+        {
+          "clue": "The field where negotiation skills are often applied",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "The activity of making, buying, or selling goods or services",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A commercial or industrial enterprise",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "university",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "school",
+        "business"
+      ],
+      "clues": [
+        {
+          "clue": "A place where Chris Voss is an adjunct professor",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "An institution of higher education",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A place where students earn degrees",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "negotiate",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "To engage in a conversation to reach an agreement",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "To discuss or bargain to reach a mutually acceptable agreement",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "To talk with someone to reach a deal",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "hostage",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A person held captive by another person or group",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Someone being held against their will",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A person being detained by force",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "listen",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "An important skill for a hostage negotiator",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "To pay attention to what someone is saying",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "To hear and understand",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "suicide",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A desperate act that a hotline might try to prevent",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "The act of intentionally taking one's own life",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "To kill oneself",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "found",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "What Chris Voss did with The Black Swan Group",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "To establish or create something",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "To start or begin something",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-05-19"
+}

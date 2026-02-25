@@ -1,0 +1,237 @@
+{
+  "title": "Across and down with a word wrangler",
+  "date": "11-21",
+  "text": "Title: Across and down with a word wrangler\n\nFor some, a crossword is just a black-and-white squared grid; for others, it is a gymnasium, a treasure hunt, a refuge. Travelling across country lines, I called Paolo Pasco to discuss winning a recent puzzle tournament to get down to the nitty-gritty and examine the crossword lifestyle.  \n\nA cruciverbalist ‘grand-master’, Pasco took the American Crossword Puzzle Tournament (ACPT) crown in April this year, after years of near-misses and “heart-breakingly close calls”. Describing the tournament as “punishing”, he warns, “you go insane, completing six crosswords on Saturday, needing to be both fast and perfect for each one”. Regardless, he loves the sport and the community behind it, which “brings him back each year”.\n\nFreshly teenaged Pasco completed his first crossword on a sleepy road trip, and was quickly hooked on the game. He grew up on a strict puzzle diet, solving sudokus in crayon at knee height, but steered clear of the crossword as a child.",
+  "hiddenWords": [
+    {
+      "word": "grid",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A pattern of lines that intersect",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A network of squares",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A mesh of lines",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "puzzle",
+      "difficulty": "Easy",
+      "related_words": [
+        "crossword",
+        "sudokus"
+      ],
+      "clues": [
+        {
+          "clue": "A problem to be solved",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A game that requires thought",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A brain teaser",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "crossword",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "puzzle",
+        "sudokus"
+      ],
+      "clues": [
+        {
+          "clue": "A word game with clues",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A type of puzzle with words",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A word-based game",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "sudokus",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "puzzle",
+        "crossword"
+      ],
+      "clues": [
+        {
+          "clue": "A number-based puzzle game",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A type of puzzle with numbers",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A numerical puzzle",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "refuge",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A place to escape from the world",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A safe haven",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A shelter",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "tournament",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A competition with many players",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A series of games or matches",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A contest",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "lifestyle",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A way of living that reflects one's values",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "A person's daily habits and activities",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A person's way of life",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "community",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A group of people with shared interests",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A social group",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A group of people",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "gymnasium",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A place for physical exercise and sports",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "A large room for exercise",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A sports hall",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "treasure",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A valuable or precious thing",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A prized possession",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A valuable item",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-11-21"
+}
