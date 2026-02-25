@@ -1,0 +1,237 @@
+{
+  "title": "Cancer Detectives: Finding the Cures review – this vaccine documentary is so inspirational it'll make you weep",
+  "date": "11-07",
+  "text": "You can almost see the sense of triumph – so quiet, but so there – beginning to build in her. It's amazing. Prof Blagden's ultimate goal is to develop a single immunotherapy that will prevent multiple types of cancer. That is what will help patients like Ella, who has Li-Fraumeni syndrome (LFS), which causes a mutation on a tumour-suppressing gene and means carriers have a highly increased risk of developing cancer, especially as children and young adults. Ella had a tennis ball-sized tumour removed from her adrenal gland when she was nine months old and had breast cancer resulting in a double mastectomy three years ago. She is still in her 20s.",
+  "hiddenWords": [
+    {
+      "word": "triumph",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A feeling that comes after a long and difficult struggle",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Emotion experienced when achieving a goal",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Synonym for victory",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "immunotherapy",
+      "difficulty": "Hard",
+      "related_words": [
+        "tumour",
+        "mutation"
+      ],
+      "clues": [
+        {
+          "clue": "A medical approach that uses the body's defense system",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Treatment that helps the body fight disease",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A type of cancer treatment",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "mutation",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "immunotherapy",
+        "tumour"
+      ],
+      "clues": [
+        {
+          "clue": "A change in the genetic code",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "An alteration in DNA",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A genetic variation",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "tumour",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "immunotherapy",
+        "mutation"
+      ],
+      "clues": [
+        {
+          "clue": "An abnormal growth of cells",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A lump or mass of tissue",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A type of cancerous growth",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "adrenal",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Relating to a gland that produces hormones",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Connected to a gland near the kidney",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Pertaining to the adrenal gland",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "mastectomy",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A surgical procedure to remove a part of the body",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "A medical operation to remove breast tissue",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Surgical removal of the breast",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "syndrome",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A set of symptoms that occur together",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A medical condition with multiple symptoms",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A group of symptoms that characterize a disease",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "carriers",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "People who have a specific trait or condition",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Individuals who have a certain gene or disease",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "People who have something within them",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "developing",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Becoming more advanced or mature",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Growing or becoming more complex",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Forming or creating something new",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "breast",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The front of the body where the heart is",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "The part of the body that produces milk",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The chest area",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-11-07"
+}

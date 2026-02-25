@@ -1,0 +1,228 @@
+{
+  "title": "Finding humor in photography",
+  "date": "01-07",
+  "text": "Title: Finding humor in photography\n\nIn the faded golden tones of the Porsche and the lo-fi aesthetic of these 70s pieces, \nthey have a glorious throwback feel to them, bringing to mind a kind of lazy afternoon Americana \nredolent of Slip ’N Slides. “They’re a simple and concise action that shows how photography can record \nthese moments of magic,” Mickevicius said. “It’s just a pretty, joyous piece.” As if this isn’t enough range yet, \nfor something complete different multimedia artist Steffi Faircloth’s \nBordertown ASMR series, in which she offers short videos depicting her lived experience of the US border with Mexico.",
+  "hiddenWords": [
+    {
+      "word": "golden",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A treasured and valuable color often associated with sunsets",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A color often linked with wealth and luxury",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A bright yellow color",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "aesthetic",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A quality that is pleasing to the eye, but hard to put into words",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "The way something looks, which can evoke certain feelings",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A set of principles for the arts",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "afternoon",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The time of day when the sun is no longer high in the sky",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A time often associated with relaxation",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The part of the day between noon and evening",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "Americana",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A cultural phenomenon that is quintessentially from a certain country",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "A style that reflects the history and values of the United States",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A genre of music and art that is distinctly American",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "concise",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Using few words to convey a lot of meaning",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Getting straight to the point without unnecessary details",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Brief and to the point",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "magic",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Something that is enchanting and delightful",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A quality that makes something seem special and captivating",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The art of illusion",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "multimedia",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Using many forms of media to convey a message",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A combination of different art forms, like video and sound",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Using multiple types of media to communicate",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "border",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The edge of a country, where it meets another country",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A line that separates two areas",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The boundary of a country",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "experience",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Something that happens to you, and can shape who you are",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A person's knowledge or skill in a particular area",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Something that someone has lived through",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "Porsche",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A luxury car brand known for its high-performance vehicles",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "A type of car that is often associated with wealth and status",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A German sports car manufacturer",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-01-07"
+}

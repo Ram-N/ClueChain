@@ -1,0 +1,241 @@
+{
+  "title": "What happens to the human body in 49C heat? Australians are finding out",
+  "date": "12-07",
+  "text": "I think the answer is: it's not safe to be outside at 49C for any protracted period of time. Extreme heat in parts of India and Pakistan, where temperatures have exceeded 50C, has led to hundreds of deaths. \"Even short periods of time in that 50C-plus environment can lead to dehydration; the heart's working hard,\" Hunter says. \"This sort of heat stress can provoke a heart attack, it can provoke an arrhythmia – rhythm abnormalities, it can provoke circulatory collapse.\" In Victoria, the 2009 Black Saturday bushfires killed 173 people. \"That was catastrophically bad,\" Hunter says.",
+  "hiddenWords": [
+    {
+      "word": "period",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A duration with a specific start and end",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A time frame that can be measured",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A length of time",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "deaths",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "heart",
+        "collapse"
+      ],
+      "clues": [
+        {
+          "clue": "The opposite of births, often a result of extreme conditions",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A consequence of severe heat stress",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "The end of life",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "heart",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "deaths",
+        "collapse"
+      ],
+      "clues": [
+        {
+          "clue": "A vital organ that pumps blood, affected by extreme temperatures",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A symbol of love, also a crucial part of the circulatory system",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A muscular organ that pumps blood",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "environment",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The sum of all external factors that affect an organism",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "The surrounding conditions that influence the behavior of living things",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "The external surroundings in which an organism lives",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "rhythm",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "arrhythmia"
+      ],
+      "clues": [
+        {
+          "clue": "A pattern of sounds or movements, also related to the heartbeat",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A regular pattern of events",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A pattern of beats",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "arrhythmia",
+      "difficulty": "Hard",
+      "related_words": [
+        "rhythm"
+      ],
+      "clues": [
+        {
+          "clue": "An irregularity in the normal pattern of something",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "A condition affecting the regularity of the heartbeat",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "An irregular heartbeat",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "collapse",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "deaths",
+        "heart"
+      ],
+      "clues": [
+        {
+          "clue": "A sudden failure of strength or structure",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A condition where the body's systems fail to function",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "To fall or come down suddenly",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "catastrophically",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "In a manner that is extremely bad or unfortunate",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "To a degree that is extremely harmful",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "In a disastrous way",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "provoke",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "To cause a reaction, often strong or violent",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "To stimulate or incite a response",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "To cause something to happen",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "circulatory",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Relating to the system that moves fluid through the body",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Pertaining to the movement of blood through the body",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Relating to the circulation of blood",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-12-07"
+}

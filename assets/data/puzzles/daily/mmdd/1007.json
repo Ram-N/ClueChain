@@ -1,0 +1,232 @@
+{
+  "title": "Environmental groups sue Trump's EPA over repeal of landmark climate finding",
+  "date": "10-07",
+  "text": "The endangerment findings [are] based on decades of scientific consensus that climate change is real. Early on Thursday, 18 young people, aged 1 to 22, from across the US filed a separate petition challenging the rescission of the endangerment finding. They were represented by non-profit legal organizations Our Children's Trust – which scored a historic win in a constitutional climate lawsuit in Montana in 2023 – and Public Justice. \"The EPA's reversal of the endangerment finding violates my first amendment right to practice my faith and my fifth amendment rights to life and liberty,\" said Elena Venner, the lead petitioner.",
+  "hiddenWords": [
+    {
+      "word": "consensus",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A collective opinion that's hard to reach without a meeting of minds",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "An agreement among experts or peers",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A shared view or judgment",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "reversal",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "rescission"
+      ],
+      "clues": [
+        {
+          "clue": "Like a car going into reverse gear, but not for driving",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A change of direction or policy",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "The act of turning something around",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "rescission",
+      "difficulty": "Hard",
+      "related_words": [
+        "reversal"
+      ],
+      "clues": [
+        {
+          "clue": "What happens when a promise is broken, but not the law",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "The act of canceling or revoking something",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "To officially end or cancel a contract",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "petition",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A formal request, often with many signatures",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A written request to a authority",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A request to do something, usually in writing",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "historic",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Something that will be remembered for ages to come",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Famous or important because of something that happened",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Having great and lasting importance",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "non-profit",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "An organization that doesn't aim to make money",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A type of organization that uses funds for public benefit",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Not intended to make a profit",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "constitutional",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Related to the fundamental principles of a country",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Pertaining to the basic laws or principles of a nation",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Relating to a country's constitution",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "amendment",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A change made to a document or law",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A modification or addition to a constitution",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A change or addition to a law or document",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "liberty",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The freedom to do as one chooses",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "The state of being free from oppression",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Freedom from control or restriction",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "faith",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A feeling of trust or confidence in something",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A system of religious belief",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Complete trust or confidence in someone or something",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-10-07"
+}

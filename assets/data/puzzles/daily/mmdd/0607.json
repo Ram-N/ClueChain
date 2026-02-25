@@ -1,0 +1,228 @@
+{
+  "title": "UK considers new Russia sanctions after Navalny frog toxin finding",
+  "date": "06-07",
+  "text": "When asked why the US had not joined the five countries in making a statement on their findings, Rubio said this was an endeavour by them. “Those countries came to that conclusion. They coordinated that. [It] doesn’t mean we disagree with the outcome. We just, it wasn’t our endeavour. Sometimes countries go out and do their thing based on the intelligence they’ve gathered.” He added: “We’re not disputing or getting into a fight with these countries over it. But it was their report, and they put that out there.” The UK’s shadow foreign secretary, Priti Patel, warned of an “axis of authoritarianism” comprising Russia, China, North Korea and Iran faced by the UK and other western nations.",
+  "hiddenWords": [
+    {
+      "word": "endeavour",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A challenging task requires careful planning and execution",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "It is often a collective effort",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A serious attempt or effort",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "intelligence",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Gathering information secretly can be crucial in international relations",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "It helps countries make informed decisions",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "The ability to learn or understand",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "conclusion",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The final part of a story often ties up loose ends",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "It is the outcome of a process",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A decision or judgment",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "fight",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Two people arguing can lead to a physical confrontation",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "It often involves conflict or opposition",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A physical conflict",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "report",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Journalists often submit a detailed account of an event",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "It provides information or news",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A formal document or statement",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "axis",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "In geometry, it is a reference line",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "It can refer to a alliance or partnership",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A line around which something rotates",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "authoritarianism",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A system of government that values control over individual freedom",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "It is often associated with strict rules and regulations",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A political system with a strong central government",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "coordinated",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A well-planned event requires organization and timing",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "It involves working together in a harmonious way",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Planned and carried out in a systematic way",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "disputing",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A debate can be a constructive way to resolve disagreements",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "It involves questioning or challenging something",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "To argue or disagree about something",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "secretary",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A person who assists a high-ranking official",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "They often handle administrative tasks",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A person responsible for correspondence and administrative tasks",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-06-07"
+}
