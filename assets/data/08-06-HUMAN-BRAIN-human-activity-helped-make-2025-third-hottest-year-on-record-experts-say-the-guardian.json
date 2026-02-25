@@ -1,0 +1,240 @@
+{
+  "title": "Human activity helped make 2025 third-hottest year on record, experts say — The Guardian",
+  "date": "08-06",
+  "text": "The unnatural heat is largely the result of a blanket of carbon pollution smothering the Earth, worsening most weather extremes and jeopardising the stable conditions in which humanity has thrived. Copernicus found temperatures over the tropical Atlantic and Indian Ocean were less extreme in 2025 than in 2024, but these were offset partly by higher temperatures at the poles. Antarctica recorded its hottest year, and the Arctic its second-hottest. Polar sea ice cover fell to its lowest level since satellite observations began in the 1970s in February. Over the year as a whole, half of the planet’s land experienced more days than average with at least “strong” heat stress, when temperatures feel above 32C.",
+  "hiddenWords": [
+    {
+      "word": "carbon",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A key component in all life forms, often released through human actions",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Commonly found in fossil fuels",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A chemical element with the symbol C",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "extremes",
+      "difficulty": "Hard",
+      "related_words": [
+        "weather"
+      ],
+      "clues": [
+        {
+          "clue": "Events that occur at the outer limits of a spectrum",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Unusual weather patterns",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "The most unusual or extreme parts of something",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "weather",
+      "difficulty": "Easy",
+      "related_words": [
+        "extremes"
+      ],
+      "clues": [
+        {
+          "clue": "The state of the atmosphere at a particular place and time",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Conditions in the air, like rain or sunshine",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The atmospheric conditions in a particular place",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "tropical",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "Atlantic"
+      ],
+      "clues": [
+        {
+          "clue": "A region near the equator, known for its warm climate",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Characterized by high temperatures and high humidity",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Relating to the tropics",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "Atlantic",
+      "difficulty": "Easy",
+      "related_words": [
+        "tropical"
+      ],
+      "clues": [
+        {
+          "clue": "One of the world's major oceans, located between the Americas and Europe",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A large body of saltwater",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The second-largest of the world's five oceans",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "pollution",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The introduction of harmful substances into the environment",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Contamination of the air, water, or soil",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "The act of making something dirty or impure",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "satellite",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "An object that orbits a celestial body, often used for communication or observation",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A device that transmits data from space",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "An artificial object that orbits the Earth",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "temperatures",
+      "difficulty": "Easy",
+      "related_words": [
+        "heat"
+      ],
+      "clues": [
+        {
+          "clue": "Measurements of how hot or cold something is",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A measure of the warmth or coolness of the air",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A measure of heat or cold",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "heat",
+      "difficulty": "Hard",
+      "related_words": [
+        "temperatures"
+      ],
+      "clues": [
+        {
+          "clue": "A form of energy that can cause things to become warm or hot",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "A measure of warmth or high temperature",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Warmth or high temperature",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "land",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The solid part of the Earth's surface, not covered by water",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "The ground or soil",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The part of the Earth's surface that is not covered by water",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-08-06"
+}

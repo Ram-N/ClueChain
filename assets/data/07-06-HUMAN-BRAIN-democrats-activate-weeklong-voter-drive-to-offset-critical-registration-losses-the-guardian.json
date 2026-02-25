@@ -1,0 +1,237 @@
+{
+  "title": "Democrats activate weeklong voter drive to offset critical registration losses — The Guardian",
+  "date": "07-06",
+  "text": "While the party has in past years left voter-registration efforts in the hands of outside groups, the Democratic National Committee (DNC) chair, Ken Martin, said now is the time to get directly involved again with a drive he dubbed the National Voter Registration Week of Action. “Across 27 states and territories, Democrats will be hosting a combined 50 events to register voters and hold Republicans accountable for selling us out to their billionaire backers. We’re building the infrastructure necessary to win everywhere. The work continues now,” Martin said. The DNC plans to hold the events to which Martin referred at venues such as stadiums and farmers’ markets, in coordination with state parties and college Democrats.",
+  "hiddenWords": [
+    {
+      "word": "infrastructure",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "events",
+        "venues"
+      ],
+      "clues": [
+        {
+          "clue": "A complex system of roads, bridges, and highways is an example of this.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "This is necessary for the proper functioning of a society or organization.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The underlying structure of a system or organization.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "events",
+      "difficulty": "Easy",
+      "related_words": [
+        "infrastructure",
+        "venues"
+      ],
+      "clues": [
+        {
+          "clue": "A series of connected happenings can be considered this.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "These are planned occurrences, often with a specific purpose or theme.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A planned public or social occasion.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "venues",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "infrastructure",
+        "events"
+      ],
+      "clues": [
+        {
+          "clue": "A place where people gather for a specific purpose can be considered this.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "These are locations where events or activities take place.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A location for a particular activity or event.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "billionaire",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Someone with immense wealth, often influencing societal decisions.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "A person of great wealth, often with significant economic and social influence.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "An extremely wealthy person.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "accountable",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Being responsible for one's actions, and willing to explain them.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "This describes someone who can be held responsible for their actions.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Liable to be called to account.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "register",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "To sign up or enlist for something, often by providing personal details.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "This is the process of recording or enlisting someone or something in an official list.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "To enter or record something in an official list or directory.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "coordination",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The act of organizing different people or things to work together effectively.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "This is the process of planning and managing multiple tasks or activities.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "The act of organizing or managing the activities of different people or groups.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "stadiums",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Large structures built for sports and entertainment events.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "These are large venues for sports and other public events.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A large, usually outdoor, structure for sports or other events.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "territories",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Areas of land under the control of a particular government or organization.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "These are areas of land that are under the jurisdiction of a particular country or authority.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "An area of land under the jurisdiction of a particular country or authority.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "backers",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "People who provide financial or other support to a person, organization, or project.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "These are individuals or groups that provide financial or other support to a cause or project.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A person who supports or finances a person, organization, or project.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-07-06"
+}

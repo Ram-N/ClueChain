@@ -1,0 +1,237 @@
+{
+  "title": "‘Zombie’ electricity projects in Britain face axe to ease quicker grid connections — The Guardian",
+  "date": "10-06",
+  "text": "Title: ‘Zombie’ electricity projects in Britain face axe to ease quicker grid connections — The Guardian\n\nSeparately, Monday marks 25 years of offshore wind power generation in the UK since the first turbines were erected at Blyth off the coast of Northumberland. Britain’s 47 operational offshore windfarms now supply nearly a fifth (17%) of its electricity generation – making it the second-biggest power source after gas – with the sector employing about 40,000 people, according to an analysis released on Monday by green group Ember. • This article was amended on 8 December 2025. An earlier version said it was 25 years since the UK’s first wind turbines were erected; in fact, it is 25 years since the UK’s first offshore windfarm was installed.",
+  "hiddenWords": [
+    {
+      "word": "generation",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "sector",
+        "power"
+      ],
+      "clues": [
+        {
+          "clue": "Something that is created or produced in a large quantity.",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "It's what happens when something is made or comes into existence.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A group of people born at about the same time, or a stage in the development of something.",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "word": "sector",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "generation",
+        "power"
+      ],
+      "clues": [
+        {
+          "clue": "A part of the economy or an area of activity.",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "It's often used to describe a part of the economy or a particular industry.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Imagine a pie cut into pieces, each piece representing a different part of the whole.",
+          "type": "Indirect",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "word": "power",
+      "difficulty": "Easy",
+      "related_words": [
+        "generation",
+        "sector"
+      ],
+      "clues": [
+        {
+          "clue": "The ability to do something or to make things happen.",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "It's what is needed to make things work or to get things done.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Think of a superhero, what do they have that makes them special?",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "word": "operational",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Working or functioning as intended.",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "It's what happens when something is fully functional and ready to use.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Think of a machine that is ready to be used, what word describes its state?",
+          "type": "Indirect",
+          "points": 7
+        }
+      ]
+    },
+    {
+      "word": "turbines",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Machines that use energy from the wind or water to generate power.",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "They are often used to create electricity from renewable sources.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Imagine a big fan that uses wind energy to make electricity, what is it called?",
+          "type": "Indirect",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "word": "employed",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Having a job or being paid to work.",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "It's what happens when someone is hired to do a particular task or job.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Think of someone who has a regular income from a job, what word describes their situation?",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "word": "analysis",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A detailed examination of something.",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "It's what is done to understand or interpret data or information.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Imagine a detective trying to solve a mystery, what process do they use to figure it out?",
+          "type": "Indirect",
+          "points": 7
+        }
+      ]
+    },
+    {
+      "word": "amended",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Changed or updated, often to make something more accurate or correct.",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "It's what happens when something is modified or altered in some way.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Think of a document that has been revised, what word describes the change?",
+          "type": "Indirect",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "word": "version",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A particular form or edition of something.",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "It's what is used to describe a specific iteration or release of something.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Imagine a book that has been updated, what word describes the new edition?",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "word": "offshore",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Located in the sea, away from the land.",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "It's what is used to describe something that is situated in the ocean or at sea.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Think of a place where the sea meets the sky, what word describes its location?",
+          "type": "Indirect",
+          "points": 5
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-10-06"
+}

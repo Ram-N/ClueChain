@@ -1,0 +1,237 @@
+{
+  "title": "Trump administration freezes $2.1bn in funds for Chicago transit projects — The Guardian",
+  "date": "12-06",
+  "text": "In New York, the $17.2bn Hudson River tunnel project, which received more than $11bn in federal grants, involves repairs to an existing tunnel, and the building of a new one for passenger railway operator Amtrak and commuter lines between New Jersey and Manhattan. Any failure of the current Hudson tunnel, which was heavily damaged by 2012’s Hurricane Sandy, would hobble commuting in the metropolitan area that produces 10% of US economic output. In a separate move on Friday, the Trump administration reversed its plan to cut $187m in security funds for New York, said Kathy Hochul, the state’s Democratic governor.",
+  "hiddenWords": [
+    {
+      "word": "tunnel",
+      "difficulty": "Easy",
+      "related_words": [
+        "railway",
+        "commuter"
+      ],
+      "clues": [
+        {
+          "clue": "A passageway through a mountain",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A structure for transportation",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A passage through or under something",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "railway",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "tunnel",
+        "commuter"
+      ],
+      "clues": [
+        {
+          "clue": "Where you might find a locomotive",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A system of tracks for trains",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A way of transporting people or goods by train",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "commuter",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "tunnel",
+        "railway"
+      ],
+      "clues": [
+        {
+          "clue": "Someone who travels to work daily",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A person who uses public transportation regularly",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "An individual who travels back and forth to work",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "hurricane",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A storm that can bring catastrophic winds and rain",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "A type of severe weather phenomenon",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A powerful tropical cyclone",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "metropolitan",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Relating to a large city or urban area",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Pertaining to a major urban center",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Characteristic of a big city",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "economic",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Concerned with the production and consumption of goods",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Relating to the economy or financial matters",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Pertaining to the science of wealth",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "security",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Measures to protect people or property",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "The state of being safe or protected",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Freedom from danger or risk",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "governor",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The head of a state or province",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A high-ranking official in a government",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "The chief executive of a state",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "passenger",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A person who travels in a vehicle",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Someone who uses public transportation",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A person who rides in a vehicle",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "operator",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A person who uses equipment or machinery",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Someone who manages or controls a system",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A person who runs or manages a device",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-12-06"
+}

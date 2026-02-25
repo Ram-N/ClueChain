@@ -1,0 +1,236 @@
+{
+  "title": "‘We’re no longer attracting top talent’: the brain drain killing American science  — The Guardian",
+  "date": "03-06",
+  "text": "A 2018 study of the 210 new drugs approved by the Food and Drug Administration (FDA) in the six years to 2016 found that all of them had been developed out of early basic research funded by NIH. “We are leaving discoveries on the table,” warned Donna Ginther, an economics professor at the University of Kansas who is an authority on the science labor market. “Those discoveries are the ones that in 10, 20 years will contribute to economic growth, improved health, human longevity. That’s what we are choking off.”",
+  "hiddenWords": [
+    {
+      "word": "study",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "An examination of data to learn something new",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A detailed analysis of a subject",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "An investigation or research",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "drugs",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "health"
+      ],
+      "clues": [
+        {
+          "clue": "Medicines are often prescribed to treat them",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Substances used to cure diseases",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Medicinal substances",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "authority",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A person with great knowledge can be considered one",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "An expert in a particular field",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A person with power or control",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "discovery",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "research"
+      ],
+      "clues": [
+        {
+          "clue": "Finding something new can be a thrilling experience",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "The act of finding something for the first time",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A new finding",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "research",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "discovery"
+      ],
+      "clues": [
+        {
+          "clue": "Scientists conduct it to learn more about the world",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A systematic investigation into a subject",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "The act of searching for knowledge",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "health",
+      "difficulty": "Easy",
+      "related_words": [
+        "drugs"
+      ],
+      "clues": [
+        {
+          "clue": "Regular exercise can improve it",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A state of physical and mental well-being",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The state of being free from illness",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "economics",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The study of how societies use resources",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "The social science that analyzes production and distribution",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "The study of the economy",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "longevity",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A long and healthy life is often the goal",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "The quality of living a long life",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A long lifespan",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "professor",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A teacher at a university is often called one",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A person who teaches at a high level",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A university teacher",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "labor",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Work can be physically demanding",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "The work force or workers",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Physical or mental work",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-03-06"
+}
