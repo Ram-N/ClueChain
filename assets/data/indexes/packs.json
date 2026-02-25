@@ -1,1 +1,70 @@
-{ "packs": [] }
+{
+  "version": 1,
+  "updated_at": "2026-02-25",
+  "topics": [
+    { "key": "news", "label": "News" },
+    { "key": "ai", "label": "AI" },
+    { "key": "geography", "label": "Geography" },
+    { "key": "history", "label": "History" },
+    { "key": "literature", "label": "Literature" },
+    { "key": "poetry", "label": "Poetry" },
+    { "key": "math", "label": "Math" }
+  ],
+  "levels": [
+    { "key": "kids", "label": "Kids" },
+    { "key": "middle", "label": "Middle" },
+    { "key": "high", "label": "High" },
+    { "key": "adult", "label": "Adult" }
+  ],
+  "packs": [
+    {
+      "slug": "news-7-bullets",
+      "title": "News in 7 Bullets",
+      "description": "Daily news bullets with masked vocabulary.",
+      "topic": "news",
+      "level": "adult",
+      "style": "bullets",
+      "minutes": 5,
+      "puzzle_count": 30,
+      "featured": true,
+      "updated_at": "2026-02-25",
+      "manifest_path": "assets/data/indexes/packs/news-7-bullets.json"
+    },
+    {
+      "slug": "ai-basics",
+      "title": "AI Foundations",
+      "description": "Core AI and ML vocabulary through short paragraphs.",
+      "topic": "ai",
+      "level": "adult",
+      "style": "paragraph",
+      "minutes": 10,
+      "puzzle_count": 20,
+      "featured": true,
+      "updated_at": "2026-02-20",
+      "manifest_path": "assets/data/indexes/packs/ai-basics.json"
+    },
+    {
+      "slug": "geography-neighbors",
+      "title": "World Neighbors",
+      "description": "Country and map vocabulary through border-based prompts.",
+      "topic": "geography",
+      "level": "high",
+      "style": "paragraph",
+      "minutes": 10,
+      "puzzle_count": 25,
+      "featured": true,
+      "updated_at": "2026-02-18",
+      "manifest_path": "assets/data/indexes/packs/geography-neighbors.json"
+    }
+  ],
+  "rows": [
+    { "key": "featured", "label": "Featured", "type": "featured" },
+    { "key": "news", "label": "News", "type": "topic", "topic": "news" },
+    { "key": "ai", "label": "AI", "type": "topic", "topic": "ai" },
+    { "key": "geography", "label": "Geography", "type": "topic", "topic": "geography" },
+    { "key": "history", "label": "History", "type": "topic", "topic": "history" },
+    { "key": "literature", "label": "Literature & Stories", "type": "topic", "topic": "literature" },
+    { "key": "poetry", "label": "Poetry", "type": "topic", "topic": "poetry" },
+    { "key": "math", "label": "Math", "type": "topic", "topic": "math" }
+  ]
+}

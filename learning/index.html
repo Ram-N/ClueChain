@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ClueChain | Learning Packs</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="../assets/css/learningpacks.css" />
+</head>
+
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="../">ClueChain</a>
+      <nav class="topnav">
+        <a href="../">Daily</a>
+        <a class="active" href="../learning/">Learning Packs</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page">
+    <section class="hero">
+      <div class="hero-copy">
+        <h1>Learning Packs</h1>
+        <p>Practice vocabulary through real paragraphs, news, poems, and mini-lessons.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#browse">Browse all packs</a>
+        </div>
+      </div>
+
+      <div class="quickstart">
+        <h2>Quick start</h2>
+        <div class="quickstart-grid" id="quickstart-grid">
+          <!-- Populated by learningpacks.js -->
+        </div>
+      </div>
+    </section>
+
+    <section class="filters" id="browse">
+      <div class="filters-inner">
+        <input
+          class="search"
+          id="search-input"
+          type="search"
+          placeholder="Search packs..."
+          autocomplete="off"
+        />
+        <div class="pillbar" id="pillbar" aria-label="Filter by topic">
+          <!-- Populated by learningpacks.js -->
+        </div>
+        <div class="sort">
+          <label for="sort-select">Sort</label>
+          <select id="sort-select">
+            <option>Popular</option>
+            <option>New</option>
+            <option>Shortest</option>
+            <option>Easiest</option>
+          </select>
+        </div>
+      </div>
+    </section>
+
+    <!-- Rows injected here by learningpacks.js -->
+    <div id="rows-container"></div>
+
+    <footer class="footer">
+      <a href="../">Back to Daily</a>
+      <span class="dot">•</span>
+      <a href="https://github.com/rams16592/ClueChain/issues">Suggest a pack</a>
+    </footer>
+  </main>
+
+  <script src="../assets/js/learningpacks.js"></script>
+</body>
+</html>
