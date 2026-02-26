@@ -1,0 +1,234 @@
+{
+  "title": "Documentary film — Hybrid documentary",
+  "date": "06-09",
+  "text": "The release of The Thin Blue Line (1988) directed by Errol Morris introduced possibilities for emerging forms of the hybrid documentary. Indeed, it was disqualified for an Academy Award because of the stylized recreations. Traditional documentary filmmaking typically removes signs of fictionalization to distinguish itself from fictional film genres. Audiences have recently become more distrustful of the media's traditional fact production, making them more receptive to experimental ways of telling facts. The hybrid documentary implements truth games to challenge traditional fact production. Although it is fact-based, the hybrid documentary is not explicit about what should be understood, creating an open dialogue between subject and audience. Clio Barnard's The Arbor (2010), Joshua Oppenheimer's The Act of Killing (2012), Mads Brügger's The Ambassador, and Alma Har'el's Bombay Beach (2011) are a few notable examples.",
+  "hiddenWords": [
+    {
+      "word": "stylized",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A manner that's deliberately artistic",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Having a distinctive or fashionable style",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Made to look more attractive or impressive",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "recreations",
+      "difficulty": "Hard",
+      "related_words": [
+        "fictionalization"
+      ],
+      "clues": [
+        {
+          "clue": "Something done to remind us of the past",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "A repeated or renewed performance",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "The act of doing something again",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "fictionalization",
+      "difficulty": "Hard",
+      "related_words": [
+        "recreations"
+      ],
+      "clues": [
+        {
+          "clue": "When reality is twisted for artistic effect",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "The process of making something seem like fiction",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Presenting something as if it were imaginary",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "distrustful",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Having a lack of faith in something",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Having doubts about someone's honesty",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Not trusting someone or something",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "experimental",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Trying new things to see what works",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Involving the testing of new ideas",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Trying something new or untested",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "fact",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Something known to be true",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A piece of information that is known to be true",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A true statement",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "truth",
+      "difficulty": "Hard",
+      "related_words": [
+        "fact"
+      ],
+      "clues": [
+        {
+          "clue": "The state of being true",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "The quality of being honest",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Conformity to fact or reality",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "dialogue",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A conversation between two or more people",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "An exchange of ideas or opinions",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A conversation between characters",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "notable",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Worthy of notice or attention",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Deserving to be noticed or remembered",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Famous or well-known",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "emerging",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Starting to exist or become known",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Becoming visible or apparent",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Coming into existence or prominence",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-06-09"
+}

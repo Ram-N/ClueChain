@@ -1,0 +1,232 @@
+{
+  "title": "Television documentary — 1950–1970",
+  "date": "08-09",
+  "text": "Title: Television documentary — 1950–1970\n\nThe origin of television documentary within the United States dates to 1949, depicting a series of wartime memoirs. During the 1950s, prominent commercial broadcasting networks, such as NBC, ABC and CBS, centred their televised documentaries around historical, military, wartime and event-related genres. The 1960s are frequently celebrated as the \"Golden Age\" of television documentary within the United States. At this time, television documentaries began to hold increasing importance within both journalistic and political realms. Notably, the Kennedy administration believed that televised documentaries could contribute towards the American efforts to constrain the growth of communism. Television documentary continued to grow in popularity globally throughout the forthcoming decades. James Chapman notes Royal Family (1969) as \"the best indication of the cultural acceptance\" of television documentary. Following its screening, Royal Family amassed viewership figures of 40 million people globally.",
+  "hiddenWords": [
+    {
+      "word": "memoirs",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A nostalgic look back at past experiences",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Personal accounts of significant life events",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Written records of a person's life",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "networks",
+      "difficulty": "Easy",
+      "related_words": [
+        "broadcasting"
+      ],
+      "clues": [
+        {
+          "clue": "Interconnected systems for sharing information",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Groups of people or organizations working together",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Systems of connected computers or devices",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "broadcasting",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "networks"
+      ],
+      "clues": [
+        {
+          "clue": "The act of sending out messages to a wide audience",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A method of sharing information with the public",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "The act of transmitting programs or messages",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "genres",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Categories that help us understand and organize things",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Types or styles of creative works",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Categories of artistic or literary works",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "journalistic",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Relating to the work of gathering and reporting news",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Pertaining to the profession of news reporting",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Of or relating to journalism",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "realms",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Areas of influence or control",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Domains or fields of activity",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Spheres of influence or authority",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "communism",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A system where everything is shared equally",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "A political ideology that emphasizes collective ownership",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A system of government where resources are shared",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "popularity",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The state of being liked or admired by many people",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "The quality of being well-liked or in demand",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The state of being widely accepted or liked",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "viewership",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The number of people watching a particular program",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "The size of an audience for a television show",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "The number of people watching a TV program",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "acceptance",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The act of receiving something willingly",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "The state of being approved or recognized",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The act of accepting or approving something",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-08-09"
+}

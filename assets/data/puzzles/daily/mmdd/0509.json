@@ -1,0 +1,237 @@
+{
+  "title": "Todd Sampson — Early life and education",
+  "date": "05-09",
+  "text": "Title: Todd Sampson — Early life and education\n\nSampson was born in Sydney, Nova Scotia, Canada. He left Cape Breton Island at age 16, completing his schooling at the Pearson United World College of the Pacific, to which he won a CA$30,000 scholarship. He then studied economics and biology at Queen's University in Ontario, working as a college counsellor to supplement his income. He applied for another international scholarship and went on to complete an M.B.A. at the University of Cape Town. He credits a guest lecturer–a creative director from advertising agency Ogilvie & Mather–during his MBA for inspiring him to pursue a career in advertising.",
+  "hiddenWords": [
+    {
+      "word": "economics",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "biology",
+        "scholarship"
+      ],
+      "clues": [
+        {
+          "clue": "A social science that analyzes production, distribution, and consumption of goods and services",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Field of study that deals with the way societies use resources to produce valuable commodities",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "The study of how people choose to use resources",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "biology",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "economics",
+        "scholarship"
+      ],
+      "clues": [
+        {
+          "clue": "The science of life and living organisms, from the simplest bacteria to complex ecosystems",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Field of study that focuses on the structure, behavior, and evolution of living things",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The scientific study of living organisms",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "scholarship",
+      "difficulty": "Easy",
+      "related_words": [
+        "economics",
+        "biology"
+      ],
+      "clues": [
+        {
+          "clue": "A grant or funding for a student to pursue their education, often based on academic merit",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Financial aid for students to help them pay for their education",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Money given to a student to help them pay for their education",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "college",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "An institution of higher learning, often providing undergraduate and sometimes graduate education",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A place where people go to learn and study after high school",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A school for higher education",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "counsellor",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A person who gives guidance and advice to others, often in a professional setting",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Someone who helps people with their problems or difficulties",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A person who gives advice and support to others",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "international",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Involving or affecting two or more countries, often in a global context",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Something that is global in scope or reach, often transcending national borders",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Involving or affecting many countries",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "lecturer",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A person who teaches or gives lectures at a college or university",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Someone who gives talks or lessons to students",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A teacher at a college or university",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "agency",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A business or organization that provides a particular service, often on behalf of others",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "An organization that acts on behalf of others, often in a professional capacity",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A company that does business for another company",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "career",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A person's progress or advancement in their chosen profession or occupation",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "The sequence of jobs or positions that a person holds during their working life",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A person's job or profession",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "inspiring",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Having a strong and positive influence on someone, often motivating them to take action",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Something that motivates or stimulates creativity, enthusiasm, or action",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Causing someone to feel excited or motivated",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-05-09"
+}

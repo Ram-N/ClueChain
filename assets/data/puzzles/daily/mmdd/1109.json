@@ -1,0 +1,236 @@
+{
+  "title": "Documentary editing — Print volumes",
+  "date": "11-09",
+  "text": "Documentary editors historically published printed volumes. Printed volumes may contain transcribed documents, necessitating \"a fair amount of hack work\" to copy the text. The texts of documents may be published in full, or be summarized to retain all important content, but to exclude more trivial and incidental matter. An abstracted text of this type is known in British English as a \"calendar\", although in American English that term is more typically applied to a more basic inventory of documents. An alternative form of publication is photographic facsimiles. Facsimile editions are traditionally more costly, but allow a closer fidelity to the original documents. Printed books, although less convenient than electronic editions, may help increase an editing project's accessibility and alleviate concerns about digital obsolescence.",
+  "hiddenWords": [
+    {
+      "word": "historically",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Looking back at the past, a method to understand what happened before now",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Describes events that occurred in the past",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "In the past, something that happened before now",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "necessitating",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A situation requiring something to be done, a must",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Requiring something to be done because it is necessary",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "To need something to happen or be done",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "transcribed",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Changing the form of something into written text",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Written down from another source",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "To write down something that was spoken or recorded",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "published",
+      "difficulty": "Easy",
+      "related_words": [
+        "printed"
+      ],
+      "clues": [
+        {
+          "clue": "Making something available for the public to see or buy",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "To make something available to the public",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "To make something available for everyone to see or buy",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "printed",
+      "difficulty": "Easy",
+      "related_words": [
+        "published"
+      ],
+      "clues": [
+        {
+          "clue": "Produced on paper or another material, often using ink",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Created using a machine that puts ink on paper",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Produced on paper using a printer",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "retain",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "To keep something, rather than letting it go",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "To hold or keep something",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "To keep something and not let it go",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "abstracted",
+      "difficulty": "Hard",
+      "related_words": [
+        "calendar"
+      ],
+      "clues": [
+        {
+          "clue": "A summary of the most important information",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "To take the main points from something and leave out the rest",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A shortened version of something, focusing on the main points",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "calendar",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "abstracted"
+      ],
+      "clues": [
+        {
+          "clue": "A system to organize days and events",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A list of events or a system to organize time",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A table or device showing the days of the week and month",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "facsimiles",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Exact copies, often made to preserve the original",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Copies that are very similar to the original",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "An exact copy of something, often made to preserve the original",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "obsolescence",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The state of being outdated or no longer needed",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "When something is no longer useful or needed because it is old",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "The state of being no longer needed or useful because something better has been made",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-11-09"
+}

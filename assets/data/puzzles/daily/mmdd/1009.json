@@ -1,0 +1,237 @@
+{
+  "title": "Television documentary — Pre-1900",
+  "date": "10-09",
+  "text": "Title: Television documentary — Pre-1900\n\nTelevised documentary finds its roots in the media communication modes of film, photojournalism and radio. Specifically, televised documentary can be traced to the origins of cinematic documentary film. Documentary film emerged in prominence within non-fiction filmmaking as an account of historical and contemporary events. In 1898, Bolesław Matuszewski, a Polish cinematographer suggested documentary film to be a \"new source of history\". The widespread evolution of documentary filmmaking led James Chapman to consider its origins as a largely \"international process\" involving nations such as the United States of America, France, Germany, the Soviet Union and Great Britain.",
+  "hiddenWords": [
+    {
+      "word": "roots",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Found at the base of a tree",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "The starting point of something",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The origin or source",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "film",
+      "difficulty": "Easy",
+      "related_words": [
+        "radio",
+        "photojournalism"
+      ],
+      "clues": [
+        {
+          "clue": "A type of artistic expression",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A medium for storytelling",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A series of moving images",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "radio",
+      "difficulty": "Easy",
+      "related_words": [
+        "film",
+        "photojournalism"
+      ],
+      "clues": [
+        {
+          "clue": "A way to send sound through the air",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A device for listening to music or news",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A means of wireless communication",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "photojournalism",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "film",
+        "radio"
+      ],
+      "clues": [
+        {
+          "clue": "Telling stories with pictures",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A type of journalism that uses images",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "The practice of using photographs to tell news stories",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "historical",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Relating to the past",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Concerned with the study of past events",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Of or related to history",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "events",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Things that happen",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Occurrences or happenings",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Incidents or occurrences",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "international",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Involving many countries",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Relating to or involving multiple nations",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Global or worldwide in scope",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "process",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A series of actions or steps",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A method or procedure for doing something",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A series of actions or operations",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "nations",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Large groups of people with a common culture",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Countries or states with their own governments",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Sovereign states or countries recognized internationally.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "evolution",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A gradual change or development",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "The process of changing or developing over time",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "The act or process of changing or developing",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-10-09"
+}
