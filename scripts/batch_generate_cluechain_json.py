@@ -22,6 +22,8 @@ Requirements:
 """
 
 import argparse
+import csv
+import datetime
 import re
 import subprocess
 import sys
@@ -85,7 +87,7 @@ class ProgressReporter:
 
     def print_error(self, month: int, title: str, error: str):
         """Print error message."""
-        print(f"❌ [{month}/12] FAILED (all retries exhausted): {title}")
+        print(f"❌ [month {month:02d}] FAILED (all retries exhausted): {title}")
         print(f"   Error: {error}")
         print(f"   Completed: {len(self.successful)}/{self.total}")
         print(f"   Failed: {len(self.failed) + 1}/{self.total}\n")
@@ -152,16 +154,19 @@ def slugify_title(title: str) -> str:
     return slug
 
 
-def parse_paragraphs(file_path: str, delimiter: str = "===") -> List[ParagraphData]:
+def parse_paragraphs(file_path: str, delimiter: str = "===",
+                     start_month: int = 1, end_month: int = 12) -> List[ParagraphData]:
     """
     Parse multi-paragraph file into individual ParagraphData objects.
 
     Args:
         file_path: Path to the text file
         delimiter: Paragraph separator pattern (default: "===")
+        start_month: First month number to assign (default: 1)
+        end_month: Last month number to assign (default: 12)
 
     Returns:
-        List of ParagraphData objects (up to 12)
+        List of ParagraphData objects (up to end_month - start_month + 1)
 
     Raises:
         ValueError: If file is empty or has invalid format
@@ -206,8 +211,9 @@ def parse_paragraphs(file_path: str, delimiter: str = "===") -> List[ParagraphDa
         raise ValueError("No paragraphs found in file")
 
     # Parse each paragraph
+    count = end_month - start_month + 1
     parsed = []
-    for idx, para_text in enumerate(paragraphs[:12], 1):  # Only first 12
+    for idx, para_text in enumerate(paragraphs[:count], 0):  # Slice to requested range
         lines = para_text.strip().split('\n')
 
         # Find first non-empty line (title)
@@ -216,7 +222,7 @@ def parse_paragraphs(file_path: str, delimiter: str = "===") -> List[ParagraphDa
             title_idx += 1
 
         if title_idx >= len(lines):
-            print(f"⚠️  Warning: Skipping paragraph {idx} - no title found")
+            print(f"⚠️  Warning: Skipping paragraph {idx + 1} - no title found")
             continue
 
         title = re.sub(r'^[Tt]itle:\s*', '', lines[title_idx].strip())
@@ -237,14 +243,14 @@ def parse_paragraphs(file_path: str, delimiter: str = "===") -> List[ParagraphDa
             title=title,
             attribution=attribution,
             text=full_text,
-            month=idx
+            month=start_month + idx
         ))
 
     # Warnings
-    if len(paragraphs) < 12:
-        print(f"⚠️  Warning: Found only {len(paragraphs)} paragraphs (expected 12)")
-    elif len(paragraphs) > 12:
-        print(f"⚠️  Warning: Found {len(paragraphs)} paragraphs, processing first 12 only")
+    if len(paragraphs) < count:
+        print(f"⚠️  Warning: Found only {len(paragraphs)} paragraphs (expected {count} for months {start_month:02d}-{end_month:02d})")
+    elif len(paragraphs) > count:
+        print(f"⚠️  Warning: Found {len(paragraphs)} paragraphs, processing first {count} only (months {start_month:02d}-{end_month:02d})")
 
     return parsed
 
@@ -321,6 +327,53 @@ def regenerate_daily_index(output_dir: str) -> None:
     print(f"   ↻ Regenerated indexes/daily.json ({len(generic_days)} days)")
 
 
+LOG_FILE = Path(__file__).parent.parent / "logs" / "batch_failures.csv"
+LOG_COLUMNS = ["timestamp", "mmdd", "title", "category", "reason_code", "attempts", "duration_s", "error_detail"]
+
+# Ordered patterns: first match wins. Checked against the final error string (lowercased).
+_REASON_PATTERNS = [
+    ("TITLE_WORD_VIOLATION",  r"title word|contain title word|hidden words contain title"),
+    ("CLUE_CONTAINS_WORD",    r"clue text contains the hidden word"),
+    ("CLUE_TYPE_MISMATCH",    r"missing required clue types|clue types"),
+    ("CLUE_POINTS_INVALID",   r"points, got|must have \d"),
+    ("WRONG_CLUE_COUNT",      r"must have exactly 3 clues"),
+    ("RATE_LIMIT",            r"429|rate.?limit"),
+    ("JSON_PARSE_ERROR",      r"json|parse|decode"),
+    ("TIMEOUT",               r"timeout"),
+    ("FILE_NOT_FOUND",        r"no generated file found|filenotfound"),
+]
+
+
+def _classify_error(error: str) -> str:
+    """Map a raw error string to a short reason code."""
+    low = error.lower()
+    for code, pattern in _REASON_PATTERNS:
+        if re.search(pattern, low):
+            return code
+    return "SUBPROCESS_ERROR"
+
+
+def log_failure(mmdd: str, title: str, category: str, reason_code: str,
+                attempts: int, duration: float, error_detail: str) -> None:
+    """Append one failure row to the persistent batch failures log."""
+    LOG_FILE.parent.mkdir(parents=True, exist_ok=True)
+    write_header = not LOG_FILE.exists()
+    with LOG_FILE.open("a", newline="", encoding="utf-8") as f:
+        writer = csv.DictWriter(f, fieldnames=LOG_COLUMNS)
+        if write_header:
+            writer.writeheader()
+        writer.writerow({
+            "timestamp": datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+            "mmdd": mmdd,
+            "title": title,
+            "category": category,
+            "reason_code": reason_code,
+            "attempts": attempts,
+            "duration_s": f"{duration:.1f}",
+            "error_detail": error_detail[:300].replace("\n", " "),  # cap length, flatten newlines
+        })
+
+
 def generate_single_paragraph(paragraph: ParagraphData, day: int,
                               category: str, output_dir: str,
                               script_path: str,
@@ -338,12 +391,14 @@ def generate_single_paragraph(paragraph: ParagraphData, day: int,
         max_retries: Maximum number of attempts (default: 3)
 
     Returns:
-        Tuple of (success, filename_or_error, duration)
+        Tuple of (success, filename_or_error, duration, reason_code, attempts_made)
     """
     start_time = time.time()
     last_error = "Unknown error"
+    attempts_made = 0
 
     for attempt in range(1, max_retries + 1):
+        attempts_made = attempt
         if attempt > 1:
             print(f"       ↻ Retry {attempt}/{max_retries}...")
 
@@ -388,7 +443,7 @@ def generate_single_paragraph(paragraph: ParagraphData, day: int,
                 )
                 regenerate_daily_index(output_dir)
                 duration = time.time() - start_time
-                return True, new_path.name, duration
+                return True, new_path.name, duration, "", attempts_made
             except FileNotFoundError as e:
                 last_error = str(e)
                 continue  # Retry
@@ -404,7 +459,8 @@ def generate_single_paragraph(paragraph: ParagraphData, day: int,
             if temp_file and Path(temp_file).exists():
                 Path(temp_file).unlink()
 
-    return False, last_error, time.time() - start_time
+    reason_code = _classify_error(last_error)
+    return False, last_error, time.time() - start_time, reason_code, attempts_made
 
 
 def process_batch(paragraphs: List[ParagraphData], day: int, category: str,
@@ -432,7 +488,7 @@ def process_batch(paragraphs: List[ParagraphData], day: int, category: str,
         reporter.print_progress(idx, para.title, para.month)
 
         # Generate JSON
-        success, result, duration = generate_single_paragraph(
+        success, result, duration, reason_code, attempts_made = generate_single_paragraph(
             para, day, category, output_dir, script_path
         )
 
@@ -444,6 +500,10 @@ def process_batch(paragraphs: List[ParagraphData], day: int, category: str,
                 time.sleep(delay)
         else:
             reporter.print_error(para.month, para.title, result)
+            mmdd = f"{para.month:02d}{day:02d}"
+            log_failure(mmdd, para.title, category, reason_code,
+                        attempts_made, duration, result)
+            print(f"   📝 Logged to {LOG_FILE}")
 
             if not continue_on_error:
                 print("\n❌ Stopping due to error (use --continue-on-error to continue)\n")
@@ -508,6 +568,14 @@ def validate_arguments(args):
     # Validate category (basic check)
     if not args.category.replace('_', '').replace('-', '').isalnum():
         raise ValueError(f"Invalid category name: {args.category}")
+
+    # Validate month range
+    if not 1 <= args.start_month <= 12:
+        raise ValueError(f"Invalid start-month: {args.start_month} (must be 1-12)")
+    if not 1 <= args.end_month <= 12:
+        raise ValueError(f"Invalid end-month: {args.end_month} (must be 1-12)")
+    if args.start_month > args.end_month:
+        raise ValueError(f"start-month ({args.start_month}) must be <= end-month ({args.end_month})")
 
     # Validate delay
     if args.delay < 0:
@@ -596,6 +664,18 @@ Output Format:
         action="store_true",
         help="Preview parsing without making API calls"
     )
+    parser.add_argument(
+        "--start-month",
+        type=int,
+        default=1,
+        help="First month to generate (1-12, default: 1)"
+    )
+    parser.add_argument(
+        "--end-month",
+        type=int,
+        default=12,
+        help="Last month to generate (1-12, default: 12)"
+    )
 
     args = parser.parse_args()
 
@@ -608,7 +688,8 @@ Output Format:
 
     # Parse input file
     try:
-        paragraphs = parse_paragraphs(args.file, args.delimiter)
+        paragraphs = parse_paragraphs(args.file, args.delimiter,
+                                      args.start_month, args.end_month)
 
         if not paragraphs:
             print("❌ Error: No valid paragraphs found in file")

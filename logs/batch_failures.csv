@@ -1,0 +1,2 @@
+timestamp,mmdd,title,category,reason_code,attempts,duration_s,error_detail
+2026-02-26T20:20:24Z,0210,Darkly comic tale of envy and revenge in the Insta age,REVIEWS,SUBPROCESS_ERROR,3,45.0,exit code 1

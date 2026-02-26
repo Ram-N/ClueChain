@@ -1,0 +1,232 @@
+{
+  "title": "Sketch review – googly-eyed fuzzballs come to glitter-burping life in fun kids fantasy yarn — The Guardian",
+  "date": "08-10",
+  "text": "The Goonies meets Godzilla in this brilliantly fun, imaginative and emotionally smart adventure for older kids. It’s about a 10-year-old girl named Amber (Bianca Belle) whose drawings of monsters magically come to life and wreak all kinds of havoc. Since they are the product of a 10-year-old brain, and drawn with felt-tip pens, the monsters are mostly a cute bunch of fuzzballs with googly eyes, burping up glitter. Though be warned, one or two near the end could spook even adult audiences.",
+  "hiddenWords": [
+    {
+      "word": "adventure",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "An exciting experience that's full of action and excitement.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A journey or activity that's thrilling and enjoyable.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A fun and exciting undertaking.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "emotionally",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "It's how we feel, rather than think, that drives this aspect.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "This aspect is related to feelings and personal connections.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Relating to emotions and emotional responses.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "magically",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Like a fairy tale, but without the wand.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "In a way that seems mysterious and enchanting.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "In a way that's like magic.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "drawings",
+      "difficulty": "Easy",
+      "related_words": [
+        "monsters"
+      ],
+      "clues": [
+        {
+          "clue": "The result of a creative activity with pencils and paper.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "These are the products of artistic expression.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Pictures or images created by hand.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "monsters",
+      "difficulty": "Easy",
+      "related_words": [
+        "drawings"
+      ],
+      "clues": [
+        {
+          "clue": "The creatures from your worst nightmares.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "These are often the villains in stories and legends.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Frightening or imaginary creatures.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "older",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Not young anymore, but still full of energy.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "More mature, with some life experience.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Not young.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "product",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The result of a process or activity, like a work of art.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Something made or created, often with a specific purpose.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A thing or substance that is made or created.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "brain",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The control center of the body, where thoughts are born.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "The organ that enables us to think and learn.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "The organ of thought and intelligence.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "felt-tip",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A writing instrument that's often used for art projects.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "A type of pen that's commonly used for coloring and drawing.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A type of pen with a porous tip.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "audiences",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The people who watch or listen to a performance.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A group of people who are watching or listening to something.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "The people who watch or attend a show or performance.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-08-10"
+}

@@ -1,0 +1,232 @@
+{
+  "title": "The Firework-Maker’s Daughter",
+  "date": "05-10",
+  "text": "The finale’s firework competition is more extravagantly breathtaking in ways I won’t spoil. There’s excellent puppetry from hulking Hamlet – controlled by two cast members within – to intricate shadow puppets parading across a lampshade. When red lights, smoke, crackling sound effects and a rumbling voiceover conjure the fire fiend, a spooked Artie suggests raising the minimum age guidance to nine.",
+  "hiddenWords": [
+    {
+      "word": "extravagantly",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A description that goes beyond the ordinary",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Characterized by a lack of restraint in spending or behavior",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "In a very elaborate or luxurious way",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "puppetry",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "puppets"
+      ],
+      "clues": [
+        {
+          "clue": "A performance where strings are pulled from behind the scenes",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A form of entertainment that involves manipulating objects",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The art of performing with puppets",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "puppets",
+      "difficulty": "Easy",
+      "related_words": [
+        "puppetry"
+      ],
+      "clues": [
+        {
+          "clue": "Small figures that come to life in skilled hands",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Objects that are manipulated to entertain",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Small models of people or animals",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "smoke",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "What rises when something is burning",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A cloud of particles in the air",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A visible suspension of particles in the air",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "crackling",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A sound that is associated with the warmth of a fire",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A sharp, sudden noise",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Making a sharp, sudden noise",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "rumbling",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A low, continuous sound that shakes the ground",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "A sound that is associated with thunder or an earthquake",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Making a low, continuous sound",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "voiceover",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A technique used in film and theater to add an off-screen narrative",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A voice that is heard but not seen",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A voice that is used to narrate or provide information",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "conjure",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "To summon something into existence",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "To bring something to mind or create an illusion",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "To summon or produce something",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "spooked",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Frightened or startled",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Feeling scared or intimidated",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Feeling or showing fear",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "guidance",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Advice or direction given to someone",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A recommendation or instruction",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "The act of guiding or directing someone",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-05-10"
+}

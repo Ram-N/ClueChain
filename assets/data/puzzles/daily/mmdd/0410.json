@@ -1,0 +1,239 @@
+{
+  "title": "Wild Cherry",
+  "date": "04-10",
+  "text": "But trash with pretensions is as fun a way to spend the long winter evenings as any, so why not set your brain aside and enjoy it? We begin with the obligatory the-future-as-prelude scene, which here involves four women – two older, two younger – standing in a well-appointed bathroom in their underwear scrubbing blood off their hands. We then flashback to begin the six-part journey to finding out what the jolly heck is going on. The four women are a brace of mothers and their daughters.",
+  "hiddenWords": [
+    {
+      "word": "brain",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The control center of the body",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "Something you might set aside to relax",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A puzzle to unravel, or so it seems",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "word": "journey",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "winter",
+        "flashback"
+      ],
+      "clues": [
+        {
+          "clue": "A path that's long and winding",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A trip or excursion, often with a purpose",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "Something that can be physical or emotional",
+          "type": "Suggestive",
+          "points": 4
+        }
+      ]
+    },
+    {
+      "word": "winter",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "journey",
+        "evenings"
+      ],
+      "clues": [
+        {
+          "clue": "Season of coziness and warmth",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A time for hot chocolate and stories",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "The coldest of the four seasons",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "evenings",
+      "difficulty": "Easy",
+      "related_words": [
+        "winter",
+        "journey"
+      ],
+      "clues": [
+        {
+          "clue": "The time of day when the sun sets",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "A period often spent relaxing or socializing",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "When the stars come out to play",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "word": "flashback",
+      "difficulty": "Hard",
+      "related_words": [
+        "journey"
+      ],
+      "clues": [
+        {
+          "clue": "A look back at what's been, in film or memory",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A narrative device used to reveal the past",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "Like a mirror reflecting what's behind",
+          "type": "Indirect",
+          "points": 7
+        }
+      ]
+    },
+    {
+      "word": "brace",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "To prepare oneself for impact",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A pair or a support, in various contexts",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "Like a duo, side by side, they stand",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "word": "underwear",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Garments worn closest to the skin",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "Often hidden from view, for modesty's sake",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The unseen layers, a secret kept",
+          "type": "Indirect",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "word": "obligatory",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Something that must be done, out of duty or requirement",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "A necessary part of a process or ritual",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Like a contract, binding and unbroken",
+          "type": "Indirect",
+          "points": 7
+        }
+      ]
+    },
+    {
+      "word": "prelude",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "An introduction to what's to come",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A musical term for an introductory piece",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "The overture, setting the stage",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "word": "mothers",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Female parents, guides, and caregivers",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "Those who nurture and protect",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The ones who shape the future, one child at a time",
+          "type": "Indirect",
+          "points": 5
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-04-10"
+}

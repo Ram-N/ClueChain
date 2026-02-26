@@ -1,0 +1,232 @@
+{
+  "title": "Cold Storage review – mutant-mildew plague horror comedy stuffs fun into the fungi — The Guardian",
+  "date": "01-10",
+  "text": "As much as the deadly fungus it foists on Earth, an outbreak of sardonic attitude runs rampant here. It falls to two bantering storage facility workers to contain a potential apocalypse event – with intermittent high-grade thespian help. Things kick off as the Skylab space station falls out of orbit in 1979 – one of its research containers winds up in the Australian outback.",
+  "hiddenWords": [
+    {
+      "word": "sardonic",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A tone that's a mix of humor and disdain, often used to criticize",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "This attitude is often characterized by mocking or ironic comments",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A type of humor that's biting and sarcastic",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "outback",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A place where kangaroos and emus roam free, far from city lights",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A remote area with limited access to amenities",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "The rural area of Australia",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "apocalypse",
+      "difficulty": "Hard",
+      "related_words": [
+        "event"
+      ],
+      "clues": [
+        {
+          "clue": "A catastrophic event that marks the end of the world as we know it",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "A disaster of epic proportions, often depicted in fiction",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A complete destruction or collapse of a system",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "event",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "apocalypse"
+      ],
+      "clues": [
+        {
+          "clue": "Something that occurs at a specific point in time, often with significant consequences",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A happening or occurrence that can be planned or unplanned",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "An occurrence or incident",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "thepian",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A person who performs on a stage, often reciting lines from a script",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "An actor or actress who plays a role in a play or film",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A theatrical performer",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "contain",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "To hold or keep something within a specific boundary or limit",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "To restrain or control something, often to prevent it from spreading",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "To hold or keep something within a certain area",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "intermittent",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Stopping and starting at irregular intervals, like a flickering light",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Occurring or done at irregular intervals, rather than continuously",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Not continuous or steady",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "facilities",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Buildings or equipment provided for a particular purpose",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Places or equipment that provide a particular service or function",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A place or equipment for a specific use",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "bantering",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Engaging in lighthearted and playful conversation, often with witty remarks",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Exchanging jokes or teasing comments in a friendly manner",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Talking or conversing in a playful way",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "rampant",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Spreading or occurring widely, often in an uncontrolled manner",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Unrestrained or unchecked, often used to describe a strong emotion or behavior",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Widespread or uncontrolled",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-01-10"
+}

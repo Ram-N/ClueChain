@@ -10,12 +10,14 @@ Generate a batch of 12 ClueChain puzzle JSON files from a multi-paragraph text f
 
 ```
 /batch-puzzles --file paragraphs_food.txt --category FOOD --day 13
+/batch-puzzles --file paragraphs_food.txt --category FOOD --day 13 --start-month 9 --end-month 12
 ```
 
 Or naturally:
 ```
 batch generator paragraphs_food.txt FOOD 13
 generate batch puzzles from paragraphs_food.txt, category COLORS, day 18
+batch puzzles paragraphs_food.txt FOOD day 13 months 9 to 12
 ```
 
 ## Parameters
@@ -23,11 +25,16 @@ generate batch puzzles from paragraphs_food.txt, category COLORS, day 18
 - `file` (required): Filename in `assets/data/library/` (e.g., `paragraphs_food.txt`)
 - `category` (required): Category name in UPPERCASE (e.g., FOOD, COLORS, GEOGRAPHY)
 - `day` (required): Day of month (1-31)
+- `start-month` (optional): First month to generate (1-12, default: 1)
+- `end-month` (optional): Last month to generate (1-12, default: 12)
+
+When `--start-month` and `--end-month` are provided, only that slice of months is generated. For example, `--start-month 9 --end-month 12` generates 4 files (`0913.json`–`1213.json`) from the first 4 paragraphs in the file.
 
 ## What This Skill Does
 
-1. **Parse & Generate** - Processes the multi-paragraph file and generates 12 JSON files (one per month)
-   - Output files named `MMDD.json` (e.g. `0113.json`) saved to `assets/data/puzzles/daily/mmdd/`
+1. **Parse & Generate** - Processes the multi-paragraph file and generates JSON files (one per month in range)
+   - Default: 12 files (months 01–12); with `--start-month`/`--end-month`: only the specified slice
+   - Output files named `MMDD.json` (e.g. `0913.json`) saved to `assets/data/puzzles/daily/mmdd/`
    - Shows hidden words (Easy/Intermediate/Hard) for each paragraph as it's generated
    - Applies rate limiting (6s delay between API calls)
 
@@ -42,11 +49,13 @@ generate batch puzzles from paragraphs_food.txt, category COLORS, day 18
 
 ### Step 1: Check for existing files (Resume Detection)
 
-Check if any files matching `{MM}{day:02d}.json` for months 01–12 already exist in `assets/data/puzzles/daily/mmdd/`.
+Determine the month range: use `--start-month` and `--end-month` if provided, otherwise default to 1–12.
+
+Check if any files matching `{MM}{day:02d}.json` for months in the range already exist in `assets/data/puzzles/daily/mmdd/`.
 
 If files exist:
-- Count how many are already present
-- Ask the user: "Found {count} existing files for day {day}. Resume from paragraph {count+1}? (yes/no/start over)"
+- Count how many are already present within the range
+- Ask the user: "Found {count} existing files for day {day} (months {start_month:02d}–{end_month:02d}). Resume from paragraph {count+1}? (yes/no/start over)"
 - If "yes": Start from paragraph {count+1} (note: batch script always starts at month 1 — if resuming, ask user to run manually or delete existing files first)
 - If "no" or "start over": Delete the conflicting files and start from paragraph 1
 
@@ -60,8 +69,12 @@ uv run python scripts/batch_generate_cluechain_json.py \
   --category {CATEGORY} \
   --day {day} \
   --delay 6 \
-  --continue-on-error
+  --continue-on-error \
+  [--start-month {start_month}] \
+  [--end-month {end_month}]
 ```
+
+Include `--start-month` and `--end-month` only if the user specified them. Omit both to use the defaults (1–12).
 
 Note: `--output` is omitted — the script defaults to `./assets/data/puzzles/daily/mmdd`.
 
@@ -102,17 +115,17 @@ Display a completion summary:
 ════════════════════════════════════════════════════════════
 Category: {CATEGORY}
 Day: {day}
+Months: {start_month:02d}–{end_month:02d} ({count} files)
 
 📊 Results:
-   Generated: 12/12 files
+   Generated: {count}/{count} files
    Validated: X passed, Y failed
    Index: Auto-updated (assets/data/indexes/daily.json)
 
 📁 Files created (assets/data/puzzles/daily/mmdd/):
-   {01}{day:02d}.json
-   {02}{day:02d}.json
+   {start_month:02d}{day:02d}.json
    ...
-   {12}{day:02d}.json
+   {end_month:02d}{day:02d}.json
 
 ✅ All puzzles are now available in the game!
 
@@ -138,6 +151,9 @@ If `assets/data/library/{file}` doesn't exist:
 ### API Failures
 - The batch generator has `--continue-on-error` flag, so it will skip failed paragraphs
 - Report which paragraphs failed in the final summary
+- Every failure is **appended to `logs/batch_failures.csv`** (persistent across runs) with columns:
+  `timestamp`, `mmdd`, `title`, `category`, `reason_code`, `attempts`, `duration_s`, `error_detail`
+- Reason codes: `TITLE_WORD_VIOLATION`, `CLUE_CONTAINS_WORD`, `CLUE_TYPE_MISMATCH`, `CLUE_POINTS_INVALID`, `WRONG_CLUE_COUNT`, `RATE_LIMIT`, `JSON_PARSE_ERROR`, `TIMEOUT`, `FILE_NOT_FOUND`, `SUBPROCESS_ERROR`
 - Index is still regenerated from whatever files were successfully created
 
 ### Validation Failures

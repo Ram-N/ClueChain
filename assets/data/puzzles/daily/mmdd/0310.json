@@ -1,0 +1,237 @@
+{
+  "title": "Clive Myrie’s African Adventure",
+  "date": "03-10",
+  "text": "Myrie was, he says, inspired to get into journalism in the first place by the stories he saw on the news back home in Bolton about apartheid. Now, all these decades later, he finds himself having lunch with Nkosi and Ndileka Mandela, Nelson’s eldest granddaughter. They reflect on Mandela Sr’s humanity, and Myrie seems genuinely touched to find out that – by chance – they’re even eating the great man’s favourite food (braised oxtail, if you were wondering).",
+  "hiddenWords": [
+    {
+      "word": "journalism",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A career path that involves investigating and reporting events",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "Involves a lot of research and fact-checking to get to the bottom of things",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A profession that can be a real 'paper' trail",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "word": "stories",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Tales of adventure or fantasy",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "Can be used to entertain, educate, or persuade",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "What you might find in a book, but also in the news",
+          "type": "Indirect",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "word": "decades",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A period of ten years",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "A unit of time used to measure long-term changes or trends",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "What you might find in a time capsule, representing a bygone era",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "word": "lunch",
+      "difficulty": "Easy",
+      "related_words": [
+        "food",
+        "eating"
+      ],
+      "clues": [
+        {
+          "clue": "The middle meal of the day",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "A time to socialize and refuel",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "What you might 'break' in a meeting, or a time to take a 'break'",
+          "type": "Indirect",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "word": "humanity",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The quality of being kind and compassionate",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "A characteristic that sets us apart from other living beings",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "What we might lose in a 'heart' of darkness, but find in a 'soul' mate",
+          "type": "Indirect",
+          "points": 7
+        }
+      ]
+    },
+    {
+      "word": "eating",
+      "difficulty": "Easy",
+      "related_words": [
+        "lunch",
+        "food"
+      ],
+      "clues": [
+        {
+          "clue": "The act of consuming food",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "A necessary part of survival, but also a source of pleasure",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "What you might do with your 'hands', or with your 'eyes' first",
+          "type": "Indirect",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "word": "food",
+      "difficulty": "Easy",
+      "related_words": [
+        "lunch",
+        "eating"
+      ],
+      "clues": [
+        {
+          "clue": "What we eat to sustain ourselves",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "Can be a source of comfort, or a cause of discomfort",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "What you might 'bring' to the table, or 'take' away",
+          "type": "Indirect",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "word": "chance",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "An opportunity that comes without warning",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "Can be a result of luck, or a result of planning",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "What you might 'take', or what might 'happen' upon",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "word": "granddaughter",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The daughter of one's child",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "A family relationship that spans multiple generations",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "What you might 'leave' behind, in terms of legacy or heir",
+          "type": "Indirect",
+          "points": 7
+        }
+      ]
+    },
+    {
+      "word": "oxtail",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A type of meat cut, often slow-cooked",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "A dish that's often served in a rich, flavorful sauce",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "What you might 'follow' in a recipe, to get to the 'tail' end",
+          "type": "Indirect",
+          "points": 7
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-03-10"
+}

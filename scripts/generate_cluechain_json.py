@@ -222,9 +222,9 @@ class ClueChainGenerator:
 
             violations = self._title_word_violations(result, title_text)
             if violations:
-                print(f"       ⚠️  Title-word violation: {violations} — retrying...")
+                print(f"       ⚠️  Title-word violation: {violations} — skipping (no retry)")
                 last_error = f"Hidden words contain title words: {violations}"
-                continue
+                break
 
             self._validate_json(result)
             return result

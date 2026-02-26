@@ -1,0 +1,232 @@
+{
+  "title": "The Running Man",
+  "date": "07-10",
+  "text": "Title: The Running Man \n\nKillian is using AI for phoney videos showing Ben declaiming ugly contempt for the public: a level of digital fabrication that Stephen King never envisioned when he wrote it. And, if they can fake all that so easily, what is the point of getting anyone to go through all that real-life running at all? It’s an uncomfortable issue that the movie doesn’t entirely solve. Wright has hit a  confident stride.",
+  "hiddenWords": [
+    {
+      "word": "fabrication",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A creative process that might not be entirely truthful",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Something made or constructed, often with a specific purpose",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "The act of making something up",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "confident",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A feeling that comes with knowing you're well-prepared",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Having faith in one's abilities or actions",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Feeling self-assured",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "digital",
+      "difficulty": "Easy",
+      "related_words": [
+        "fabrication"
+      ],
+      "clues": [
+        {
+          "clue": "Relating to numbers, especially in the context of technology",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Involving electronic signals or information",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Pertaining to computers or electronic devices",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "phoney",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "fabrication"
+      ],
+      "clues": [
+        {
+          "clue": "Not genuine, but rather an imitation",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Something that is fake or deceptive",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Not authentic",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "stride",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A long step, often taken with confidence",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "The act of walking with a purposeful gait",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A long step or pace",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "uncomfortable",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Causing a feeling of unease or discomfort",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Not providing a sense of relaxation or tranquility",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Causing a feeling of awkwardness",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "envisioned",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "To imagine or picture something in one's mind",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "To have a mental image of something",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "To have imagined or predicted something",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "declaiming",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Speaking in a loud, dramatic voice",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Expressing one's opinions or feelings in a forceful manner",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "To speak or recite something in a loud, expressive way",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "contempt",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A strong feeling of dislike or disrespect",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "A sense of scorn or disdain for something",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A feeling of disrespect or scorn",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "public",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Relating to the people in general",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Something that is open to all people",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The general population",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-07-10"
+}

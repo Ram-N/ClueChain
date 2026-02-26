@@ -1,0 +1,237 @@
+{
+  "title": "Sunny Nights",
+  "date": "06-10",
+  "text": "Title: Sunny Nights \n\nRealising that Sunny Nights is a crime narrative first and foremost helped me make sense of what initially seemed like an \nodd structure; the show unfolds in hour-long episodes rather than the snappier 20 to 30 minutes typical of comedies. The\nlight, humorous elements give the series leeway when it dabbles with incredulous moments or lifts well-worn tropes from \nthe playbook. The characters are always fun to spend time with.",
+  "hiddenWords": [
+    {
+      "word": "crime",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "narrative",
+        "tropes"
+      ],
+      "clues": [
+        {
+          "clue": "A puzzle to unravel, with clues to follow",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Something that breaks the law",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A type of offense",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "narrative",
+      "difficulty": "Hard",
+      "related_words": [
+        "crime",
+        "tropes"
+      ],
+      "clues": [
+        {
+          "clue": "A sequence of events, woven like a tapestry",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "The way a story is told",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A story or account of events",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "tropes",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "crime",
+        "narrative"
+      ],
+      "clues": [
+        {
+          "clue": "Familiar patterns that recur in stories",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Common themes or conventions",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Overused ideas or devices",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "moments",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Brief periods of time",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Short intervals or instances",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Points in time",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "leeway",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Room for maneuver or flexibility",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Freedom to act or make decisions",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Scope for discretion",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "playbook",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A book of standard procedures or strategies",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A guide or manual for a particular activity",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A book of plans or tactics",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "characters",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The people in a story",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "The individuals that make up a cast",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "The personalities in a narrative",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "incredulous",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Unable to believe something",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Skeptical or disbelieving",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Unwilling to accept something as true",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "humorous",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Causing amusement or laughter",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Having a comedic or lighthearted quality",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Funny or amusing",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "episodes",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Installments of a story or show",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Individual parts of a series",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Segments of a television program",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-06-10"
+}
