@@ -35,6 +35,7 @@ except ImportError as e:
 # ---------------------------------------------------------------------------
 
 GROQ_MODEL       = "llama-3.3-70b-versatile"
+_PROMPTS_DIR     = Path(__file__).parent / "prompts"
 OPENROUTER_BASE  = "https://openrouter.ai/api/v1"
 
 _model_config_path = Path(__file__).parent / "model-config.json"
@@ -114,100 +115,15 @@ class ClueChainGenerator:
     # ------------------------------------------------------------------
 
     def _build_system_prompt(self) -> str:
-        return """You are a ClueChain JSON and hints generator. Your task is to analyze an English paragraph and generate a structured JSON output with exactly 10 hidden words and their clues.
-
-⚠️  ABSOLUTE RULE — NEVER BREAK THIS:
-Do NOT include the hidden word (or any of its inflected forms: plurals, past tense,
-gerunds, etc.) anywhere in any of that word's clues. This is the most common mistake
-and will always cause the puzzle to fail. If you catch yourself writing the answer into
-a clue, rewrite the clue from scratch without it.
-
-CRITICAL RULES FOR WORD SELECTION:
-1. Select EXACTLY 10 single words (no more, no less)
-2. EXCLUDE:
-   - Short words: any word with 3 or fewer letters (e.g., 'the', 'run', 'big') — minimum 4 letters
-   - Proper nouns, names, places, brands: even if lowercase in the text (e.g., 'google', 'london')
-   - Made-up or invented words that don't appear in a standard English dictionary
-   - Compound words (e.g., 'spaceship')
-   - Words with spaces, hyphens, apostrophes, or punctuation
-   - Any word that appears in the TITLE (case-insensitive) — title words are already visible to the player and must never be hidden
-3. Difficulty Balance: Mix of Easy (3-4), Intermediate (3-4), and Hard (2-3) words
-4. All words MUST exist in the provided paragraph text
-
-CLUE GENERATION RULES (3 clues per word):
-Each word MUST have exactly one clue of each type: Indirect, Suggestive, Straight. Never repeat a type.
-
-1. INDIRECT (Hard, 5-7 points):
-   - Lateral thinking, wordplay, riddles, puns
-   - Poetic, humorous, or multi-layered
-   - Max 2 sentences
-   - Valid points: 5, 6, or 7 ONLY
-
-2. SUGGESTIVE (Intermediate, 3-4 points):
-   - Describes characteristic, association, or function
-   - Requires simple deduction
-   - Max 2 sentences
-   - Valid points: 3 or 4 ONLY — never 2, never 5
-
-3. STRAIGHT (Easy, 1-2 points):
-   - Direct definition or synonym
-   - Dictionary-style, unambiguous
-   - Max 1 sentence
-   - Valid points: 1 or 2 ONLY — never 3
-
-COMMON MISTAKES TO AVOID:
-- Do NOT assign points: 2 to a Suggestive clue (valid: 3 or 4)
-- Do NOT assign points: 5 to a Straight clue (valid: 1 or 2)
-- Do NOT generate two Suggestive clues and omit the Straight clue
-- Do NOT generate two Indirect clues and omit the Suggestive clue
-- Every word must have all three types: one Indirect, one Suggestive, one Straight
-- 🚫 NEVER use the hidden word (or its inflections) anywhere in its clues. Not even
-  once. Not even as part of an example sentence. Write around it entirely.
-
-THEMATIC LINKING:
-- If exactly 2-3 words are thematically related, populate their related_words arrays
-- Each word in the group must list the OTHER words in the group
-- If no group of 2-3 exists, all related_words arrays must be empty []
-
-OUTPUT FORMAT:
-Respond with ONLY valid JSON matching this exact structure. Do not include any additional text, explanations, or markdown formatting."""
+        return (_PROMPTS_DIR / "system_prompt.txt").read_text(encoding="utf-8")
 
     def _build_user_prompt(self, paragraph: str, title: Optional[str], date: str) -> str:
         title_text = title if title else "ClueChain Challenge"
-        return f"""Generate a ClueChain JSON file for the following paragraph.
-
-PARAGRAPH_TEXT:
-{paragraph}
-
-TITLE: {title_text}
-DATE: {date}
-
-Return ONLY the JSON object with this structure:
-{{
-  "title": "{title_text}",
-  "date": "{date}",
-  "text": "{paragraph}",
-  "hiddenWords": [
-    {{
-      "word": "word_text",
-      "difficulty": "Easy | Intermediate | Hard",
-      "related_words": [],
-      "clues": [
-        {{"clue": "indirect clue", "type": "Indirect", "points": 5}},
-        {{"clue": "suggestive clue", "type": "Suggestive", "points": 3}},
-        {{"clue": "straight clue", "type": "Straight", "points": 1}}
-      ]
-    }}
-  ]
-}}
-
-Remember:
-- Exactly 10 hidden words
-- 3 clues per word (Indirect, Suggestive, Straight)
-- Points must be within valid ranges for each type
-- Check for 2-3 word thematic groups and link them properly
-- NEVER use a word from the title "{title_text}" as a hidden word
-- NEVER write the hidden word into any of its own clues (not even as an example)"""
+        template = (_PROMPTS_DIR / "user_prompt_template.txt").read_text(encoding="utf-8")
+        return (template
+            .replace("{paragraph}", paragraph)
+            .replace("{title}", title_text)
+            .replace("{date}", date))
 
     # ------------------------------------------------------------------
     # Validation helpers

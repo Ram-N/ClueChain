@@ -1,0 +1,34 @@
+Generate a ClueChain JSON file for the following paragraph.
+
+PARAGRAPH_TEXT:
+{paragraph}
+
+TITLE: {title}
+DATE: {date}
+
+Return ONLY the JSON object with this structure:
+{
+  "title": "{title}",
+  "date": "{date}",
+  "text": "{paragraph}",
+  "hiddenWords": [
+    {
+      "word": "word_text",
+      "difficulty": "Easy | Intermediate | Hard",
+      "related_words": [],
+      "clues": [
+        {"clue": "indirect clue", "type": "Indirect", "points": 5},
+        {"clue": "suggestive clue", "type": "Suggestive", "points": 3},
+        {"clue": "straight clue", "type": "Straight", "points": 1}
+      ]
+    }
+  ]
+}
+
+Remember:
+- Exactly 10 hidden words
+- 3 clues per word (Indirect, Suggestive, Straight)
+- Points must be within valid ranges for each type
+- Check for 2-3 word thematic groups and link them properly
+- NEVER use a word from the title "{title}" as a hidden word
+- NEVER write the hidden word into any of its own clues (not even as an example)
