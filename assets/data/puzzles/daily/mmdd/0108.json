@@ -1,0 +1,245 @@
+{
+  "title": "It is not a star",
+  "date": "01-08",
+  "text": "About two degrees south of the star Mu Hydra is another planetary nebula, which Smyth describes as resembling the planet Jupiter in “size, equable light and colour.” Webb saw it of “a steady, pale blue light,” and Sir John Herschel, at the Cape of Good Hope, speaks of its colour as “a decided blue—at all events, a good sky-blue,” a colour which seems characteristic of these curious objects. Although Sir William Herschel, with his large telescopes, failed to resolve it into stars, Secchi thought he saw it breaking up into stars with a “sparkling ring.” Dr. Huggins, however, finds the spectrum to be gaseous, so that the luminous points seen by Secchi could not have been stellar.",
+  "hiddenWords": [
+    {
+      "word": "nebula",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "spectrum",
+        "telescopes"
+      ],
+      "clues": [
+        {
+          "clue": "A vast, interstellar cloud of gas and dust.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Often studied in astronomy for its unique properties.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A cloud of gas and dust in space.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "spectrum",
+      "difficulty": "Hard",
+      "related_words": [
+        "nebula",
+        "telescopes"
+      ],
+      "clues": [
+        {
+          "clue": "A range of colours, like a rainbow, that can reveal secrets of the universe.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Used to analyze the composition of celestial objects.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A range of colours or wavelengths.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "telescopes",
+      "difficulty": "Easy",
+      "related_words": [
+        "nebula",
+        "spectrum"
+      ],
+      "clues": [
+        {
+          "clue": "Tools that help us see far into the distance, beyond our planet.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Devices used to observe distant objects in the sky.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Instruments for viewing distant objects.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "colour",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A property of light that can be perceived by the human eye.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A characteristic that can describe the appearance of an object.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A hue or shade.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "curious",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Having a desire to learn or explore, often in a playful way.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Describing something that sparks interest or intrigue.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Inquisitive or interesting.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "gaseous",
+      "difficulty": "Hard",
+      "related_words": [
+        "spectrum"
+      ],
+      "clues": [
+        {
+          "clue": "Like the state of matter that fills balloons and makes them float.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Describing a state of matter that has no fixed shape.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Consisting of gas.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "planet",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A large body that orbits around a star, possibly home to life.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A celestial body that is much larger than a moon.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A large celestial body orbiting a star.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "Jupiter",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Named after the Roman king of the gods, this is the largest of its kind in our solar system.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "The largest planet in our solar system, known for its massive size.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "The largest planet in the solar system.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "stellar",
+      "difficulty": "Hard",
+      "related_words": [
+        "spectrum",
+        "gaseous"
+      ],
+      "clues": [
+        {
+          "clue": "Relating to the twinkling lights in the night sky, a dream of many.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Describing something related to stars, such as their light or composition.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Relating to stars.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "luminous",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "stellar",
+        "spectrum"
+      ],
+      "clues": [
+        {
+          "clue": "Giving off light, like a beacon in the darkness.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Describing something that emits or reflects light.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Giving off light.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-01-08"
+}

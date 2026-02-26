@@ -1,0 +1,237 @@
+{
+  "title": "Canals",
+  "date": "06-08",
+  "text": "The canals invariably connect two bodies of water; hence they need no locks or hydraulic machinery; their course is on a dead level. The broadest of them are comparable with the Adriatic; those at the limit of visibility, stretching like the finest spider-threads across the disc, have a width of eighteen miles. “The canals,” Schiaparelli says, “may intersect among themselves at all possible angles, but by preference they converge towards the small spots to which we have given the name of lakes.”",
+  "hiddenWords": [
+    {
+      "word": "bodies",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Parts that make up a whole",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Physical forms",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Objects or entities",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "machinery",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Devices that aid in construction",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Equipment used for work",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Mechanical devices",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "adriatic",
+      "difficulty": "Hard",
+      "related_words": [
+        "lakes",
+        "disc"
+      ],
+      "clues": [
+        {
+          "clue": "A sea in southern Europe",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "A body of water",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Part of the Mediterranean",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "lakes",
+      "difficulty": "Easy",
+      "related_words": [
+        "adriatic",
+        "disc"
+      ],
+      "clues": [
+        {
+          "clue": "Small bodies of water",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Natural water reservoirs",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Still water bodies",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "disc",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "adriatic",
+        "lakes"
+      ],
+      "clues": [
+        {
+          "clue": "A flat, round object",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A circular shape",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A flat, circular surface",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "intersect",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "To cross or meet at a point",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "To share a common point",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "To cross each other",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "angles",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Measure of rotation",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Corner or bend",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Shape formed by two lines",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "visibility",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The state of being able to see",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "The ability to perceive with the eyes",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The degree to which something can be seen",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "converge",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "To come together at a point",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "To move towards a common point",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "To meet or come together",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "preference",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A liking for one thing over another",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A choice or inclination",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A favorable option",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-06-08"
+}

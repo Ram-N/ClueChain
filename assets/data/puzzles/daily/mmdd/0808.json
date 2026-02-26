@@ -1,0 +1,232 @@
+{
+  "title": "WORLD’S GREAT TELESCOPES",
+  "date": "08-08",
+  "text": "Thanks to the wide public interest taken in astronomical matters, a large number of powerful telescopes has been set up in various parts of the world. To the British Islands belongs the honour of possessing the largest telescope in the world. This is the giant reflector erected by Lord Rosse, in 1842, at Parsonstown, the mirror being 6 feet in diameter, and the focal length 60 feet. Many very valuable observations were made with this instrument in its early days, but of late years it seems to have fallen into disuse. One reason may be that the mounting is not of the most convenient form, and makes the telescope unsuitable for photographic work.",
+  "hiddenWords": [
+    {
+      "word": "public",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Something for everyone, not exclusive",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "General population",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Open to all people",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "number",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Quantity that can be counted",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Amount or quantity",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Mathematical value",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "instrument",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "mirror"
+      ],
+      "clues": [
+        {
+          "clue": "Device used to achieve a particular end",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Tool used for scientific measurements",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Device for observing or measuring",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "mirror",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "instrument"
+      ],
+      "clues": [
+        {
+          "clue": "Reflective surface, like still water",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Object that reflects light",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Glass surface for reflection",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "diameter",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Measurement across a circle, passing through its center",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Distance across a circular shape",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Length of a line passing through the center of a circle",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "length",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Distance from one end to the other",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Measurement of how long something is",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Extent or measurement from end to end",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "valuable",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Worth a great deal, not just in money",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Having great worth or importance",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Precious or of great worth",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "observations",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Noticing and recording something, often in a scientific way",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Act of observing or paying attention",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Scientific recordings or notes",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "mounting",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Act of placing or fixing something",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Support or fixture for holding something",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Device for holding an object in place",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "photographic",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Relating to the art of capturing images with light",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Pertaining to the process of taking pictures",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Related to photography",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-08-08"
+}

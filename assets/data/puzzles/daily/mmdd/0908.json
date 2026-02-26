@@ -1,0 +1,229 @@
+{
+  "text": "It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair.",
+  "title": "A Tale of Two Cities by Charles Dickens",
+  "id": "a-tale-of-two-cities",
+  "author": "Charles Dickens",
+  "date": "07-04",
+  "hiddenWords": [
+    {
+      "word": "best",
+      "difficulty": "Easy",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "When you're at the top, you might just be this.",
+          "points": 5
+        },
+        {
+          "type": "Suggestive",
+          "clue": "Opposite of worst, often signifying superiority.",
+          "points": 3
+        },
+        {
+          "type": "Straight",
+          "clue": "Of the most excellent or desirable type or quality.",
+          "points": 1
+        }
+      ],
+      "related_words": ["worst"]
+    },
+    {
+      "word": "worst",
+      "difficulty": "Easy",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "When things couldn't get any lower, you've hit this point.",
+          "points": 5
+        },
+        {
+          "type": "Suggestive",
+          "clue": "Opposite of best, indicating inferiority or misfortune.",
+          "points": 3
+        },
+        {
+          "type": "Straight",
+          "clue": "Of the poorest quality or the most unfavorable kind.",
+          "points": 1
+        }
+      ],
+      "related_words": ["best"]
+    },
+    {
+      "word": "wisdom",
+      "difficulty": "Intermediate",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "A sage often possesses this, guiding their choices and understanding.",
+          "points": 6
+        },
+        {
+          "type": "Suggestive",
+          "clue": "The quality of having experience, knowledge, and good judgment.",
+          "points": 4
+        },
+        {
+          "type": "Straight",
+          "clue": "The quality of being wise.",
+          "points": 2
+        }
+      ],
+      "related_words": ["foolishness"]
+    },
+    {
+      "word": "foolishness",
+      "difficulty": "Intermediate",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "One might trip over their own decisions when embracing this state.",
+          "points": 6
+        },
+        {
+          "type": "Suggestive",
+          "clue": "Lack of good sense or judgment; folly.",
+          "points": 4
+        },
+        {
+          "type": "Straight",
+          "clue": "The quality of being foolish.",
+          "points": 2
+        }
+      ],
+      "related_words": ["wisdom"]
+    },
+    {
+      "word": "epoch",
+      "difficulty": "Hard",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "A marker in history, often signaling the dawn of something significant.",
+          "points": 7
+        },
+        {
+          "type": "Suggestive",
+          "clue": "A long and distinct period of history or life, marked by notable events.",
+          "points": 5
+        },
+        {
+          "type": "Straight",
+          "clue": "A period of time in history or a person's life, typically one marked by notable events or particular characteristics.",
+          "points": 3
+        }
+      ],
+      "related_words": []
+    },
+    {
+      "word": "belief",
+      "difficulty": "Intermediate",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "It can move mountains, or at least your conviction in them.",
+          "points": 6
+        },
+        {
+          "type": "Suggestive",
+          "clue": "Acceptance that a statement is true or that something exists.",
+          "points": 4
+        },
+        {
+          "type": "Straight",
+          "clue": "An acceptance that something is true or exists.",
+          "points": 2
+        }
+      ],
+      "related_words": ["incredulity"]
+    },
+    {
+      "word": "incredulity",
+      "difficulty": "Hard",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "When the unbelievable unfolds, this state of mind often follows.",
+          "points": 7
+        },
+        {
+          "type": "Suggestive",
+          "clue": "The state of being unwilling or unable to believe something.",
+          "points": 5
+        },
+        {
+          "type": "Straight",
+          "clue": "The state of being unwilling or unable to believe something.",
+          "points": 3
+        }
+      ],
+      "related_words": ["belief"]
+    },
+    {
+      "word": "Light",
+      "difficulty": "Easy",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "It banishes shadows and reveals the truth.",
+          "points": 5
+        },
+        {
+          "type": "Suggestive",
+          "clue": "The natural agent that stimulates sight and makes things visible.",
+          "points": 3
+        },
+        {
+          "type": "Straight",
+          "clue": "The natural agent that makes things visible.",
+          "points": 1
+        }
+      ],
+      "related_words": ["Darkness"]
+    },
+    {
+      "word": "Darkness",
+      "difficulty": "Easy",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "Where shadows reside and vision fades.",
+          "points": 5
+        },
+        {
+          "type": "Suggestive",
+          "clue": "The absence of light.",
+          "points": 3
+        },
+        {
+          "type": "Straight",
+          "clue": "The absence of light.",
+          "points": 1
+        }
+      ],
+      "related_words": ["Light"]
+    },
+    {
+      "word": "hope",
+      "difficulty": "Intermediate",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "A tiny spark that keeps possibilities alive, even in the bleakest moments.",
+          "points": 6
+        },
+        {
+          "type": "Suggestive",
+          "clue": "A feeling of expectation and desire for a certain thing to happen.",
+          "points": 4
+        },
+        {
+          "type": "Straight",
+          "clue": "A feeling of expectation and desire.",
+          "points": 2
+        }
+      ],
+      "related_words": []
+    }
+  ]
+}

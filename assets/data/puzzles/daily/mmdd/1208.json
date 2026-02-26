@@ -1,0 +1,228 @@
+{
+  "id": "9482",
+  "date": "07-03",
+  "title": "Young Creators Are Burning Out and Breaking Down (by Taylor Lorenz, The New York Times)",
+  "text": "Thanks to the app’s algorithmically generated “For You” page, TikTok delivers fame faster than any other platform; it’s possible to amass millions of followers within a matter of weeks. But as quickly as creators rise, they can fall. “It almost feels like I’m getting a taste of celebrity, but it’s never consistent and as soon as you get it, it’s gone and you’re constantly trying to get it back,” said Lauren Stasyna, 22, a TikTok creator in Toronto. “It feels like I’m trying to capture this prize, but I don’t know what the prize even is.”",
+  "hiddenWords": [
+    {
+      "word": "algorithmically",
+      "difficulty": "Hard",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "Musical logic guides the flow, a rhythmic rule you ought to know!",
+          "points": 10
+        },
+        {
+          "type": "Suggestive",
+          "clue": "Think of the secret sauce behind your social media feed’s suggestions.",
+          "points": 7
+        },
+        {
+          "type": "Straight",
+          "clue": "Relating to a set of rules or calculations used in problem-solving or computation.",
+          "points": 3
+        }
+      ],
+      "related_words": ["generated"]
+    },
+    {
+      "word": "generated",
+      "difficulty": "Medium",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "A grand tea produces it, initially.",
+          "points": 8
+        },
+        {
+          "type": "Suggestive",
+          "clue": "What a power plant does, or what a computer program creates.",
+          "points": 5
+        },
+        {
+          "type": "Straight",
+          "clue": "To produce or create something.",
+          "points": 2
+        }
+      ],
+      "related_words": ["algorithmically"]
+    },
+    {
+      "word": "delivers",
+      "difficulty": "Easy",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "The postman often renders, giving forth with care.",
+          "points": 6
+        },
+        {
+          "type": "Suggestive",
+          "clue": "What a pizza place does, or what a speaker might do with a speech.",
+          "points": 4
+        },
+        {
+          "type": "Straight",
+          "clue": "To bring and hand over something to the proper recipient.",
+          "points": 1
+        }
+      ],
+      "related_words": []
+    },
+    {
+      "word": "amass",
+      "difficulty": "Medium",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "A huge group, a mess, perhaps, but gathering it does.",
+          "points": 9
+        },
+        {
+          "type": "Suggestive",
+          "clue": "Think of collecting a large quantity of something, like wealth or followers.",
+          "points": 6
+        },
+        {
+          "type": "Straight",
+          "clue": "To gather together or accumulate a large amount of something.",
+          "points": 3
+        }
+      ],
+      "related_words": []
+    },
+    {
+      "word": "consistent",
+      "difficulty": "Medium",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "Always the same, never wavering, it’s in the plot, a steady tent.",
+          "points": 9
+        },
+        {
+          "type": "Suggestive",
+          "clue": "What you hope for in a good friend, or in a reliable car.",
+          "points": 6
+        },
+        {
+          "type": "Straight",
+          "clue": "Acting or done in the same way over time; unchanging in nature, standard, or effect.",
+          "points": 3
+        }
+      ],
+      "related_words": []
+    },
+    {
+      "word": "constantly",
+      "difficulty": "Easy",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "A steady flow, never pausing, always on and on, you see.",
+          "points": 7
+        },
+        {
+          "type": "Suggestive",
+          "clue": "What the waves do, or how a clock ticks.",
+          "points": 4
+        },
+        {
+          "type": "Straight",
+          "clue": "Continuously over a period of time; always.",
+          "points": 2
+        }
+      ],
+      "related_words": []
+    },
+    {
+      "word": "capture",
+      "difficulty": "Medium",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "Catch a prize, perhaps a pure act.",
+          "points": 8
+        },
+        {
+          "type": "Suggestive",
+          "clue": "What a photographer does, or what a detective tries to do with a suspect.",
+          "points": 5
+        },
+        {
+          "type": "Straight",
+          "clue": "To take into one's possession or control by force or skill.",
+          "points": 2
+        }
+      ],
+      "related_words": ["prize"]
+    },
+    {
+      "word": "prize",
+      "difficulty": "Easy",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "A valued reward, in a tricky maze.",
+          "points": 6
+        },
+        {
+          "type": "Suggestive",
+          "clue": "What you win in a competition, or something you highly value.",
+          "points": 3
+        },
+        {
+          "type": "Straight",
+          "clue": "A thing given as a reward to the winner of a competition or race or in recognition of outstanding achievement.",
+          "points": 1
+        }
+      ],
+      "related_words": ["capture"]
+    },
+    {
+      "word": "burning",
+      "difficulty": "Medium",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "A fiery urge, run big and bright.",
+          "points": 8
+        },
+        {
+          "type": "Suggestive",
+          "clue": "What a candle does, or how you might feel after a long day of intense work.",
+          "points": 5
+        },
+        {
+          "type": "Straight",
+          "clue": "On fire; producing heat or light by combustion.",
+          "points": 2
+        }
+      ],
+      "related_words": ["breaking"]
+    },
+    {
+      "word": "breaking",
+      "difficulty": "Medium",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "Splintering news, perhaps, at a point in time.",
+          "points": 8
+        },
+        {
+          "type": "Suggestive",
+          "clue": "What glass does when dropped, or what a story does when it's newsworthy.",
+          "points": 5
+        },
+        {
+          "type": "Straight",
+          "clue": "The action of fracturing or damaging something.",
+          "points": 2
+        }
+      ],
+      "related_words": ["burning"]
+    }
+  ]
+}

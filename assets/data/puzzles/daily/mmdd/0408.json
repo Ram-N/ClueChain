@@ -1,0 +1,237 @@
+{
+  "title": "slackening angular speed",
+  "date": "04-08",
+  "text": "Title: slackening angular speed\n\nIn 1887–9, M. Dunér, of Upsala, succeeded in extending these delicate measurements to within fifteen degrees \nof the sun’s poles, where the movement is so slow that it can only, by incredible refinements, be dealt with \nsuccessfully. The upshot was to emphasise the law of slackening angular speed detected by Carrington and \nconfirmed by Spoerer. From 25½ days at the Equator, the sun’s period of rotation was found to become protracted \nto 38½ days at the seventy-fifth parallel of latitude.",
+  "hiddenWords": [
+    {
+      "word": "sun",
+      "difficulty": "Easy",
+      "related_words": [
+        "equator",
+        "rotation"
+      ],
+      "clues": [
+        {
+          "clue": "A star at the center of our solar system",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "It rises in the east and sets in the west",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A fiery ball of hot, glowing gas, without which life would not thrive",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "word": "equator",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "sun",
+        "rotation"
+      ],
+      "clues": [
+        {
+          "clue": "An imaginary line that divides the earth into two hemispheres",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "It passes through countries near the middle of the earth",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A line that is equidistant from the poles, where the days are always roughly equal in length",
+          "type": "Indirect",
+          "points": 7
+        }
+      ]
+    },
+    {
+      "word": "rotation",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "sun",
+        "equator"
+      ],
+      "clues": [
+        {
+          "clue": "The act of turning around a central point",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "It is measured in periods, such as days or years",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A fundamental concept in physics, describing the motion of objects around a central axis",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "word": "delicate",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Requiring careful handling",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "Fragile, and easily broken or damaged",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Like a flower, needing gentle care to survive",
+          "type": "Indirect",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "word": "refinements",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Improvements or enhancements, making something more precise",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "The process of making something more subtle or nuanced",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A series of small, incremental changes, leading to a more sophisticated outcome",
+          "type": "Indirect",
+          "points": 7
+        }
+      ]
+    },
+    {
+      "word": "measurements",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The act of determining the size or amount of something",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "A process used in science to collect data",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A way to quantify the world, using numbers and units",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "word": "poles",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The extremities of a sphere, such as the earth",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "Regions of extreme cold, near the top and bottom of the planet",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Magnetic extremes, where the forces of nature are strongest",
+          "type": "Indirect",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "word": "latitude",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The distance north or south of the equator",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "A measure used in geography to locate points on the earth",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "An angular measurement, used to define positions on a sphere",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "word": "period",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A length of time, during which something happens or exists",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "A time of development or growth, in a cycle or series",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A span of time, marked by the completion of a cycle or the recurrence of an event",
+          "type": "Indirect",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "word": "protracted",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Extended or prolonged, often unexpectedly",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "A process that takes a long time, or is drawn out",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A situation that is prolonged, often due to unforeseen circumstances",
+          "type": "Indirect",
+          "points": 7
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-04-08"
+}

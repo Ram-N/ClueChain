@@ -1,0 +1,237 @@
+{
+  "title": "A Variable Star",
+  "date": "05-08",
+  "text": "The Chinese annals record that on Dec. 10, 173 A.D., a brilliant star appeared between Alpha and Beta Centauri in the Southern Hemisphere. It remained visible for eight months, and is described as resembling “a large bamboo mat!”—a curious description. There is at present close to the spot indicated, a known variable star—R Centauri—of which the period seems to be long and the variation of light irregular. Possibly an unusually bright maximum of this variable star formed the star of the Chinese annals, or perhaps the variable star is the remnant of the outburst which took place in the first century. The variable is a very reddish star, and at present varies from about the sixth to the tenth magnitude",
+  "hiddenWords": [
+    {
+      "word": "annals",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A place to store historical documents",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "Used for keeping track of important events over time",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Imagine a room filled with dusty old books, what might you find there?",
+          "type": "Indirect",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "word": "brilliant",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Full of light, shining very brightly",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "A quality often associated with stars in the night sky",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "What do you call a diamond that's exceptionally beautiful?",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "word": "century",
+      "difficulty": "Hard",
+      "related_words": [
+        "decade",
+        "millennium"
+      ],
+      "clues": [
+        {
+          "clue": "A period of 100 years",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "A time frame often used to measure historical events",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "If a decade is 10 years, and a millennium is 1000, what's in between?",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "word": "decade",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "century",
+        "millennium"
+      ],
+      "clues": [
+        {
+          "clue": "A span of 10 years",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "Often used to mark significant periods in a person's life",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "If you're in your 30s, you've completed how many of these?",
+          "type": "Indirect",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "word": "millennium",
+      "difficulty": "Hard",
+      "related_words": [
+        "century",
+        "decade"
+      ],
+      "clues": [
+        {
+          "clue": "A thousand years",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "A significant milestone in the calendar",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "What do you call a very long period of time that's also a round number?",
+          "type": "Indirect",
+          "points": 7
+        }
+      ]
+    },
+    {
+      "word": "irregular",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Not following a regular pattern",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "Something that doesn't conform to the norm",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Imagine a clock with hands that move randomly, what would you call its behavior?",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "word": "magnitude",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A measure of the size or extent of something",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "In astronomy, it refers to the brightness of a star",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "What do you call the scale used to measure the intensity of earthquakes or starlight?",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "word": "mat",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A flat, usually rectangular piece of material",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "Something you might sit or lie on",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Imagine a woven piece of fabric used for sitting, what is it?",
+          "type": "Indirect",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "word": "remnant",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A small part of something that remains",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "What's left after something has been destroyed or used up",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "If a big fire burned down a building, what might be left behind?",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "word": "reddish",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Having a color similar to red",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "A description often used for sunsets or autumn leaves",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Imagine a warm, fiery hue, what word comes to mind?",
+          "type": "Indirect",
+          "points": 5
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-05-08"
+}

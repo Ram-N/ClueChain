@@ -1,0 +1,232 @@
+{
+  "title": "relative distances of the planets",
+  "date": "03-08",
+  "text": "Professor Titius of Wittenberg pointed out in 1772 that the relative distances of the planets from the sun could be expressed by adding 4 to the series 0, 3, 6, 12, 24, 48, etc. Thus, if the distance of Mercury were called 4, those of Venus, the Earth, Mars, and so on, would severally be 7, 10, 16. The validity of this relation—known as “Bode’s Law”—was strengthened by the conformity to it of Uranus and Ceres, neither of which had been discovered when it was enunciated; Neptune, however, proved to be much nearer to the sun than it should have been, and the formula hence ranks as an empirical one, not grounded in the nature of things.",
+  "hiddenWords": [
+    {
+      "word": "Titius",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A person who observed a pattern in the heavens",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A surname associated with a German university town",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A professor's name",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "series",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A group of items that follow one after the other in a specific order, like a mathematical progression",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A sequence of numbers or events",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A set of things that follow one another",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "discovered",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "enunciated"
+      ],
+      "clues": [
+        {
+          "clue": "Found something that was previously unknown, like a hidden treasure",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Learned or found out about something for the first time",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Found or learned something new",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "enunciated",
+      "difficulty": "Hard",
+      "related_words": [
+        "discovered"
+      ],
+      "clues": [
+        {
+          "clue": "Clearly and loudly spoken, so that all can hear and understand",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Expressed or stated something in a clear and distinct manner",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Spoken or pronounced clearly",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "conformity",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Acting in accordance with a set of rules or standards, like a well-behaved child",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Correspondence or agreement with something, like a law or a principle",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "The state of being in harmony or agreement",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "empirical",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Based on observation, experience, or experiment, rather than theory or pure reasoning",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Relating to or based on experience or observation",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Derived from experience or observation",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "formula",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A secret code or recipe for achieving a specific result, like a magic spell",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A mathematical expression or equation, like a recipe for a chemical reaction",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A set of rules or principles, like a prescription for a medicine",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "grounded",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Having a foundation or basis in reality, like a tree with deep roots",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Based on or connected to the earth or reality",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Having a basis in fact or reality",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "nearer",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Closer or more adjacent, like a neighbor's house",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "At a shorter distance, like a stone's throw away",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Closer in distance or proximity.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "ranked",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Assigned a position or status, like a soldier's stripe",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Given a particular position or status, like a hierarchy or a ladder",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Assigned a position or status",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-03-08"
+}
