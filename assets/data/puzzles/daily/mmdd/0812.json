@@ -1,0 +1,237 @@
+{
+  "title": "fMRI on infants",
+  "date": "08-12",
+  "text": "Title: fMRI on infants\n\nWhen fMRI machines came online in the 1990s, researchers did use them to look at infant brains, but these scans were typically conducted when babies were sleeping, Yates said. This means they couldn’t study how aspects of the waking brain like cognition were impacted by various stimuli.\n\"We’re excited that we’re going to be able to start to disentangle what is going on here.\"",
+  "hiddenWords": [
+    {
+      "word": "researchers",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "People in lab coats trying to figure out how things work",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Scientists conducting studies to gather data",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Experts in a field of study",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "machines",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Devices that make our lives easier, but can be noisy",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Equipment used to perform tasks efficiently",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Devices with moving parts",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "cognition",
+      "difficulty": "Hard",
+      "related_words": [
+        "brain",
+        "stimuli"
+      ],
+      "clues": [
+        {
+          "clue": "The process of knowing and understanding",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Mental processes that help us learn and remember",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "The act of thinking and problem-solving",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "brain",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "cognition",
+        "stimuli"
+      ],
+      "clues": [
+        {
+          "clue": "The control center of our body, where thoughts are born",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "The organ responsible for controlling our movements and thoughts",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The center of the nervous system",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "stimuli",
+      "difficulty": "Hard",
+      "related_words": [
+        "cognition",
+        "brain"
+      ],
+      "clues": [
+        {
+          "clue": "Things that provoke a reaction, like a poke or a whisper",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "External factors that affect our behavior and thoughts",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Things that cause a response",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "babies",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Tiny humans who cry and coo",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Newly born humans",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Infants in their first year",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "sleeping",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The state of being unconscious, yet still dreaming",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A natural part of our daily cycle, essential for rest",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "The state of being asleep",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "excited",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Feeling happy and eager, like a kid on Christmas morning",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Having a strong feeling of enthusiasm",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Feeling thrilled or delighted",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "disentangle",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "To untangle a messy knot, or understand a complex idea",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "To separate and clarify complex things",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "To unravel or clarify something",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "aspects",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Different parts or features of something, like facets of a gem",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Parts or features of a thing, person, or situation",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Distinct parts or features",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-08-12"
+}

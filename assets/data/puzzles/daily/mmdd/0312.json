@@ -1,0 +1,237 @@
+{
+  "title": "Scanning Brain Thoughts",
+  "date": "03-12",
+  "text": "The program analyzed fMRI scans of people listening to, or even just recalling, sentences from three shows: Modern Love, The Moth Radio Hour, and The Anthropocene Reviewed. Then, it used that brain-imaging data to reconstruct the content of those sentences. For example, when one subject heard “I don’t have my driver’s license yet,” the program deciphered the person’s brain scans and returned “She has not even started to learn to drive yet”—not a word-for-word re-creation, but a close approximation of the idea expressed in the original sentence. The program was also able to look at fMRI data of people watching short films and write approximate summaries of the clips, suggesting the AI was capturing not individual words from the brain scans, but underlying meanings.",
+  "hiddenWords": [
+    {
+      "word": "program",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A set of instructions for a computer",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "It can be used to analyze data and learn patterns",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Imagine a robot that can understand and respond to voices, what makes it work?",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "word": "sentences",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "shows",
+        "films"
+      ],
+      "clues": [
+        {
+          "clue": "A group of words that express a complete thought",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "They can be used to tell stories or convey information",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "What do you call a series of words that are strung together to make a point?",
+          "type": "Indirect",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "word": "shows",
+      "difficulty": "Easy",
+      "related_words": [
+        "sentences",
+        "films"
+      ],
+      "clues": [
+        {
+          "clue": "A television program",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "They can be used to entertain or educate",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "What do you call a performance that is broadcast on TV?",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "word": "films",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "sentences",
+        "shows"
+      ],
+      "clues": [
+        {
+          "clue": "A movie or video production",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "They can be used to tell stories or convey messages",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "What do you call a series of moving images that tell a story?",
+          "type": "Indirect",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "word": "license",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A document that allows you to do something",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "It's often required for driving a car",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "What do you need to get before you can drive a car, but not a bike?",
+          "type": "Indirect",
+          "points": 7
+        }
+      ]
+    },
+    {
+      "word": "drive",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "To operate a vehicle",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "It requires a license and practice",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "What do you do when you sit behind the wheel of a car?",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "word": "learn",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "To acquire knowledge or skill",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "It's a process that takes time and practice",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "What do you do when you want to get better at something?",
+          "type": "Indirect",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "word": "approximation",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A close estimate or representation",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "It's often used in science and math",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "What do you call a guess that is close to the real thing?",
+          "type": "Indirect",
+          "points": 7
+        }
+      ]
+    },
+    {
+      "word": "capturing",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "To take or record something",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "It's often used in photography or video",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "What do you do when you want to preserve a moment in time?",
+          "type": "Indirect",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "word": "underlying",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Located or existing below the surface",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "It's often used to describe hidden meanings or patterns",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "What do you call the hidden message or idea behind something?",
+          "type": "Indirect",
+          "points": 7
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-03-12"
+}

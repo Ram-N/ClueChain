@@ -1,0 +1,236 @@
+{
+  "title": "Harm from Pollution",
+  "date": "11-12",
+  "text": "The Environmental Protection Agency sets limits for fine particulate matter, ozone, carbon monoxide and other air pollutants. Millions of Americans live in areas that exceed those standards. But a growing chorus of scientists and advocates says that the standards aren’t strong enough. And some of the recent research suggests that levels currently considered “safe” by the EPA may still be harming our brains.",
+  "hiddenWords": [
+    {
+      "word": "ozone",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A type of layer in the atmosphere",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Gas that can be toxic to humans",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A colorless gas with a pungent smell",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "limits",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "standards"
+      ],
+      "clues": [
+        {
+          "clue": "Boundaries that should not be crossed",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Restrictions on the amount of something allowed",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "The maximum amount that is permitted",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "standards",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "limits"
+      ],
+      "clues": [
+        {
+          "clue": "Measures used to evaluate something",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Requirements that must be met",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Established levels of quality",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "agency",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "An organization that acts on behalf of others",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "A group that has the power to make decisions",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "An administrative unit of a government",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "scientists",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "advocates"
+      ],
+      "clues": [
+        {
+          "clue": "People who conduct research to learn more about the world",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Experts in a particular field of study",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Individuals who study and experiment to gain knowledge",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "advocates",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "scientists"
+      ],
+      "clues": [
+        {
+          "clue": "People who support a particular cause or idea",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Those who argue in favor of something",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Individuals who plead the case of another",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "research",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A search for knowledge or information",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Systematic investigation into a subject",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "The act of finding out something",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "Americans",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "People from a certain country in North America",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Citizens of the United States",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Individuals from America",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "monoxide",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A colorless and odorless gas",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A toxic gas that can be deadly in high concentrations",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A compound of carbon and oxygen",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "chorus",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A group of people singing together",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "A repeated phrase or idea",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A simultaneous utterance of a group",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-11-12"
+}

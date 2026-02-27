@@ -1,0 +1,236 @@
+{
+  "title": "AI Is Unlocking the Human Brain’s Secrets",
+  "date": "02-12",
+  "text": "If you are willing to lie very still in a giant metal tube for 16 hours and let magnets blast your brain as you listen, rapt, to hit podcasts, a computer just might be able to read your mind. Or at least its crude contours. Researchers from the University of Texas at Austin recently trained an AI model to decipher the gist of a limited range of sentences as individuals listened to them—gesturing toward a near future in which artificial intelligence might give us a deeper understanding of the human mind.",
+  "hiddenWords": [
+    {
+      "word": "giant",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Something enormous in size",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A thing of large dimensions",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Huge",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "magnets",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Objects that attract certain metals",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Used in various scientific experiments",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Attractive forces",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "rapt",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Completely absorbed, like a bird of prey",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Giving full attention",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Engrossed",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "podcasts",
+      "difficulty": "Easy",
+      "related_words": [
+        "listen"
+      ],
+      "clues": [
+        {
+          "clue": "Serialized shows on the internet",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Audio content for entertainment",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Digital radio shows",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "listen",
+      "difficulty": "Easy",
+      "related_words": [
+        "podcasts"
+      ],
+      "clues": [
+        {
+          "clue": "To hear with attention",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Paying attention to sound",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "To hear",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "researchers",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "People who conduct scientific investigations",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Those who search for knowledge",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Scientists",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "artificial",
+      "difficulty": "Hard",
+      "related_words": [
+        "intelligence"
+      ],
+      "clues": [
+        {
+          "clue": "Made by humans, not occurring naturally",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Man-made",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Synthetic",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "intelligence",
+      "difficulty": "Hard",
+      "related_words": [
+        "artificial"
+      ],
+      "clues": [
+        {
+          "clue": "The ability to learn or understand",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Mental capability",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Cognitive ability",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "limited",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Restricted in extent or scope",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Not unlimited",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Restricted",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "contours",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The shape or outline of something",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "The outer boundaries of an object",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Outline",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-02-12"
+}

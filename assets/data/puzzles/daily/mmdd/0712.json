@@ -1,0 +1,237 @@
+{
+  "title": "Neuroscience and baby brains",
+  "date": "07-12",
+  "text": "Title: Neuroscience and baby brains\n\nScientists are still discovering new parts of the brain, and what happens in the developing mind has historically been hard to pin down in neuroscience research. Most information we know about the infant brain has traditionally been based on behavioral measures of where babies look or what they reach for in experiments. Other data extrapolates from animal experiments or cases in which people have undergone brain damage to infer what is happening in functional brain regions.",
+  "hiddenWords": [
+    {
+      "word": "developing",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Growing and changing over time, like a city or a skill.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Characterized by progress or evolution.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Becoming more advanced or mature.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "experiments",
+      "difficulty": "Easy",
+      "related_words": [
+        "data",
+        "measures"
+      ],
+      "clues": [
+        {
+          "clue": "A way to test a hypothesis, often involving trial and error.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A procedure to gather information or test a theory.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A test or trial.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "data",
+      "difficulty": "Easy",
+      "related_words": [
+        "experiments",
+        "measures"
+      ],
+      "clues": [
+        {
+          "clue": "Information that's collected and analyzed, like numbers or facts.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Facts or figures used to support a conclusion.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Facts or statistics.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "measures",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "experiments",
+        "data"
+      ],
+      "clues": [
+        {
+          "clue": "Ways to quantify or assess something, like a ruler or a scale.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Methods to evaluate or compare things.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Standards or units used to assess something.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "infant",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A very young human, often dependent on others for care.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A child in the early stages of development.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A newborn or very young child.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "regions",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Areas or territories with distinct characteristics.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Parts of a system or structure with specific functions.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Areas or sections of something.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "damage",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Harm or injury that can have lasting effects, like a scar or a wound.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Injury or harm that can affect something's function or structure.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Harm or injury.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "discover",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "To find or learn something new, often by chance or exploration.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "To find or identify something for the first time.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "To find or learn something.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "animal",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A living creature, often studied or observed in its natural habitat.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A living organism that is not human.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A living creature, not human.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "functional",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Working or operating as intended, like a machine or a system.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Related to the purpose or use of something.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Working or operating.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-07-12"
+}

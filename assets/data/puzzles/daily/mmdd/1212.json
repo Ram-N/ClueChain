@@ -1,0 +1,237 @@
+{
+  "title": "Hebbian Theory",
+  "date": "12-12",
+  "text": "Title: Hebbian Theory\n\nOne of the principle tenets of neuroscience is Hebbian theory, which can be summarized as \"Neurons that fire together, wire together.\" (Although not literally. The gaps between neurons — the synapses — are still critical.) Pathways in the brain that are used more frequently become stronger, like desire paths in the woods. The more a shortcut is taken, the sooner a weed-filled avenue becomes a path and then a road.",
+  "hiddenWords": [
+    {
+      "word": "neurons",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "pathways",
+        "synapses"
+      ],
+      "clues": [
+        {
+          "clue": "Tiny units that communicate through electrical signals.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Cells that process and transmit information in the brain.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Nerve cells.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "pathways",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "neurons",
+        "synapses"
+      ],
+      "clues": [
+        {
+          "clue": "Routes that are formed by frequent use, like trails in the forest.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Connections in the brain that facilitate communication between cells.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Routes or channels.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "synapses",
+      "difficulty": "Hard",
+      "related_words": [
+        "neurons",
+        "pathways"
+      ],
+      "clues": [
+        {
+          "clue": "The space between two connected things, where signals are exchanged.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Gaps or junctions that allow for the transmission of information between cells.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Small gaps between nerve cells.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "desire",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A feeling that drives someone to take a particular path or action.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A strong want or wish for something.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A longing.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "shortcut",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A quicker way to get from one place to another, often by avoiding obstacles.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A more direct route that saves time or effort.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A quicker route.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "avenue",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A broad, straight road, often lined with trees or buildings.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A wide street or road, often in a urban area.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A broad way or street.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "principle",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A fundamental truth or proposition that serves as the foundation for a system of belief or behavior.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "A guiding rule or standard that influences thought or action.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A fundamental rule or law.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "tenets",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Key principles or beliefs that are accepted as true or fundamental to a particular philosophy or system.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Fundamental principles or doctrines that are widely accepted.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Main principles or beliefs.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "frequently",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Happening or done many times, often in a regular or repeated manner.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "At regular or repeated intervals, often in a predictable pattern.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Many times or often.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "neuroscience",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The study of the structure and function of the nervous system, including the brain and spinal cord.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "A field of study that focuses on the workings of the brain and nervous system.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "The science of the nervous system.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-12-12"
+}

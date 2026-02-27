@@ -1,0 +1,232 @@
+{
+  "title": "Baby brains",
+  "date": "09-12",
+  "text": "Title: Baby brains\n\nAt birth, a baby’s brain is roughly one-third the size of an adult brain. It nearly doubles in size in the first year of life, making millions of neural connections each second in an endless process of learning. \n\nStill, an infant brain’s relatively small size doesn’t mean that it is necessarily underdeveloped: Surprisingly, fMRIs have shown that baby brains in many ways remarkably resemble adult brains, said Dr. Cameron Ellis, a psychology professor at Stanford University who researches what it’s like to be an infant.",
+  "hiddenWords": [
+    {
+      "word": "adult",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Grown up and mature",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A person who has reached majority",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Fully developed",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "size",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A dimension that can be measured",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Extent or magnitude of something",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Measure of how big something is",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "learning",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Process of acquiring new knowledge or skills",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Activity that helps you gain understanding",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Acquiring knowledge or skills",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "process",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Series of actions to achieve a goal",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Method or system of doing something",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Series of actions or operations",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "neural",
+      "difficulty": "Hard",
+      "related_words": [
+        "connections"
+      ],
+      "clues": [
+        {
+          "clue": "Relating to the nervous system",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Pertaining to nerves or the nervous system",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Related to the nervous system",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "connections",
+      "difficulty": "Hard",
+      "related_words": [
+        "neural"
+      ],
+      "clues": [
+        {
+          "clue": "Links or relationships between things",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Relationships or links between entities",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Links between things",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "professor",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Person who teaches at a university",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Academic teacher or instructor",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "University teacher",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "university",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Institution for higher education",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Place where people go to study",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "High-level educational institution",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "infant",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Very young human being",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Newly born or very young",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Newly born human",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "remarkably",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "What you say when something defies your expectations — a word that signals surprise dressed up as understatement",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "In a way that is worthy of attention or comment; unusually so",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "In a notable or extraordinary manner",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-09-12"
+}

@@ -1,0 +1,237 @@
+{
+  "title": "How to Treat Alzheimer's",
+  "date": "01-12",
+  "text": "Title: How to Treat Alzheimer's\n\nInstead of suggesting human brains are growing as we become smarter, the study's main contribution to the field of brain science is in offering hope that its findings could one day treat dementia. Indeed, this is the third 2024 study that has offered scientists new ways of understanding how to treat Alzheimer's.\n\nA pair of studies, both published in the journal Nature earlier this year, further illuminated the link between sleep quality and brain health.",
+  "hiddenWords": [
+    {
+      "word": "science",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A field of study that seeks to explain the world",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Systematic study of the structure and behavior of the physical world",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Knowledge about the world",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "smarter",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Having a high mental capacity for reasoning and learning",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Having a natural ability to learn and understand",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "More intelligent",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "hope",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A feeling of expectation for something to happen",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A positive feeling about the future",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A desire for something to happen",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "findings",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "study",
+        "scientists"
+      ],
+      "clues": [
+        {
+          "clue": "Results of a study or investigation",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Conclusions drawn from research",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Results of an investigation",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "study",
+      "difficulty": "Easy",
+      "related_words": [
+        "findings",
+        "scientists"
+      ],
+      "clues": [
+        {
+          "clue": "A detailed examination of a subject",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "An investigation or research project",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "To learn or examine something",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "scientists",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "findings",
+        "study"
+      ],
+      "clues": [
+        {
+          "clue": "People who study the natural world",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Experts in a particular field of research",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "People who do research",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "journal",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A publication that comes out regularly",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A magazine or newspaper that publishes articles",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A daily record of events",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "nature",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The natural world, as opposed to human creations",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "The environment or ecosystem",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "The outdoors",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "quality",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A high standard or level of something",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "A characteristic or attribute of something",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A measure of how good something is",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "health",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A state of physical or mental well-being",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "The state of being free from illness",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Wellness or fitness",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-01-12"
+}

@@ -1,0 +1,237 @@
+{
+  "title": "A New Genetic Clue to How Humans Got Such Big Brains",
+  "date": "04-12",
+  "text": "It started with some blobs of brain-like tissue, growing in a dish. Frank Jacobs, then at the University of California at Santa Cruz, had taken stem cells from humans and monkeys, and coaxed them into forming small balls of neurons. These \"organoids\" mirror the early stages of brain development. By studying them, Jacobs could look for genes that are switched on more strongly in the growing brains of humans than in those of monkeys. And when he presented his data to his colleagues at a lab meeting, one gene grabbed everyone’s attention.",
+  "hiddenWords": [
+    {
+      "word": "tissue",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A painter's canvas is made from this",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Material that living things are made of",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A group of cells",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "dish",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Where you might serve a meal",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A container for holding something",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A plate or bowl",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "stem",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "cells",
+        "neurons"
+      ],
+      "clues": [
+        {
+          "clue": "The base of a plant",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A type of cell that can develop into other cells",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "The main part of a plant",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "cells",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "stem",
+        "neurons"
+      ],
+      "clues": [
+        {
+          "clue": "The smallest units of life",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Basic building blocks of living things",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Tiny units of life",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "neurons",
+      "difficulty": "Hard",
+      "related_words": [
+        "stem",
+        "cells"
+      ],
+      "clues": [
+        {
+          "clue": "A brain's messengers",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Specialized cells that transmit information",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Nerve cells",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "university",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A place where knowledge is gained",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "An institution for higher learning",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A school for advanced studies",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "mirror",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A reflective surface",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "To reflect or imitate something",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A glass surface for reflection",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "colleagues",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "People you work with",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Fellow workers or associates",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Co-workers",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "meeting",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A gathering of people",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "An assembly of people for a purpose",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A conference or gathering",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "gene",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A segment of DNA",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "A unit of heredity",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A part of a DNA molecule",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-04-12"
+}

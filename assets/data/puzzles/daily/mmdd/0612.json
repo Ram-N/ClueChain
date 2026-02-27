@@ -1,0 +1,237 @@
+{
+  "title": "What’s it like to be a baby?",
+  "date": "06-12",
+  "text": "Title: What’s it like to be a baby?\n\nAnyone who has tried to entertain a baby knows sitting in stillness and silence is probably not the best way to keep them engaged, which presents a challenge for neuroscientists who want to study the developing brain.\n\nYet with the help of some TV, attentive parents and a lot of patience, researchers have designed protocols that help them keep babies awake and still in an fMRI machine.",
+  "hiddenWords": [
+    {
+      "word": "silence",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A quiet moment can be golden, but too much of it can be boring.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "This is often associated with a lack of noise or sound.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The state of being quiet.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "challenge",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "It's what you face when the going gets tough.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "A difficult task that requires great effort.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A test of one's abilities.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "brain",
+      "difficulty": "Easy",
+      "related_words": [
+        "neuroscientists",
+        "protocols"
+      ],
+      "clues": [
+        {
+          "clue": "The control center of the body, where thoughts and feelings are processed.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "This is what neuroscientists study to understand human behavior.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The organ responsible for thinking and movement.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "neuroscientists",
+      "difficulty": "Hard",
+      "related_words": [
+        "brain",
+        "protocols"
+      ],
+      "clues": [
+        {
+          "clue": "They are the experts who unravel the mysteries of the mind.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "These researchers focus on the study of the nervous system.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Scientists who study the brain and nervous system.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "protocols",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "brain",
+        "neuroscientists"
+      ],
+      "clues": [
+        {
+          "clue": "These are the rules that researchers follow to ensure accurate results.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A set of procedures that must be followed in a particular situation.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Standard procedures or rules.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "entertain",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "To keep someone's attention with an activity or performance.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "This is what you do to make someone have a good time.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "To amuse or distract someone.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "stillness",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A state of being quiet and unmoving, like a calm lake on a windless day.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "This is often associated with a lack of movement or activity.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The state of being stationary or unmoving.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "patience",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A virtue that helps you wait calmly for something you want.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "This quality is essential for achieving long-term goals.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The ability to wait or bear with composure.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "parents",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The people who bring you into the world and guide you through life.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "These are the people responsible for the care and upbringing of a child.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The mother and father of a child.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "machine",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A device that uses energy to perform a specific task, like a robot.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "This is a device that is used to perform a particular function.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A device with moving parts that performs a specific function.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-06-12"
+}

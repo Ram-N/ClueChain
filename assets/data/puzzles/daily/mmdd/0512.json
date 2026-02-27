@@ -1,0 +1,237 @@
+{
+  "title": "Human-only DNA",
+  "date": "05-12",
+  "text": "Title: Human-only DNA\n\nThese human-only genes are typically created when bits of DNA accidentally get duplicated. Duplication creates backup copies of existing genes, which are then free to mutate with impunity and take on new roles. In this way, duplication events provide fresh fuel for evolution.",
+  "hiddenWords": [
+    {
+      "word": "duplication",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "genes",
+        "evolution"
+      ],
+      "clues": [
+        {
+          "clue": "A process that leads to genetic innovation",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Creating extra copies of something",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The act of making something twice",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "genes",
+      "difficulty": "Easy",
+      "related_words": [
+        "duplication",
+        "evolution"
+      ],
+      "clues": [
+        {
+          "clue": "Tiny architects of life",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Basic units of heredity",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Segments of DNA that code for a trait",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "evolution",
+      "difficulty": "Hard",
+      "related_words": [
+        "duplication",
+        "genes"
+      ],
+      "clues": [
+        {
+          "clue": "Change over time, often driven by error and chance",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Process by which species adapt and diversify",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Gradual development of new species",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "fresh",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Like a spring morning, full of new beginnings",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Recently created or made",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Not stale or old",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "fuel",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "What powers the engine of life",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Something that provides energy or motivation",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Substance that burns to produce energy",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "roles",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Parts to play in the grand drama of life",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Functions or responsibilities",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Parts or characters in a play",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "events",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Occurrences that shape the course of history",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Happenings or occurrences",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Things that happen or occur",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "existing",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Already in being, prior to something new",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Currently in existence",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Presently alive or in operation",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "accidentally",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Without intention, like a lucky break",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Happening without being planned",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Done or happening by chance",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "impunity",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Freedom to act without consequences, a double-edged sword",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Exemption from punishment or penalty",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "State of being immune from punishment",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-05-12"
+}

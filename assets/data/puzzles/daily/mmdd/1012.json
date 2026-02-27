@@ -1,0 +1,237 @@
+{
+  "title": "Pollution and Mistakes",
+  "date": "10-12",
+  "text": "Title: Pollution and Mistakes\n\nStudies in Israel and in China have shown both short-term and long-term exposure to air pollution can lead to lower standardized test scores. And a paper published in September of this year found that chess players in Germany make more mistakes, as measured by a computer program’s suggested moves,  when there is more fine particulate matter in the air.",
+  "hiddenWords": [
+    {
+      "word": "Israel",
+      "difficulty": "Easy",
+      "related_words": [
+        "China",
+        "Germany"
+      ],
+      "clues": [
+        {
+          "clue": "A place where you might find the Dead Sea",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Country in the Middle East",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A nation in Western Asia",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "China",
+      "difficulty": "Easy",
+      "related_words": [
+        "Israel",
+        "Germany"
+      ],
+      "clues": [
+        {
+          "clue": "Where the Great Wall is located",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "The most populous country in the world",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A country in East Asia",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "Germany",
+      "difficulty": "Easy",
+      "related_words": [
+        "Israel",
+        "China"
+      ],
+      "clues": [
+        {
+          "clue": "Famous for its beer festivals",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A country in Central Europe",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The birthplace of Bach",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "standardized",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Like a ruler with marked measurements",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Meant to be consistent",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Following a standard",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "exposure",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Like being out in the open",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "The state of being open to something",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Coming into contact with something",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "particulate",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A tiny thing that makes up a larger whole",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "A component of air quality",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Made up of small particles",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "chess",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A game of strategy and skill",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A popular board game",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A game played with pieces",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "program",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A set of instructions for a computer",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A series of steps to achieve something",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A piece of software",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "suggested",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Recommended or advised",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Proposed as a possibility",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Put forward as an idea",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "September",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The month of the autumnal equinox",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "The ninth month of the year",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A month in the calendar",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-10-12"
+}
