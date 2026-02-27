@@ -49,14 +49,15 @@ class StreakTracker {
 
     try {
       const user = window.authManager.getCurrentUser();
-      const today = new Date().toISOString().split('T')[0]; // YYYY-MM-DD format
-      const gameDateToUse = gameData.gameDate || today; // Use the puzzle date as the activity date
+      const now = new Date();
+      const today = `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, '0')}-${String(now.getDate()).padStart(2, '0')}`;
+      const gameDateToUse = gameData.gameDate || today;
 
       const activityData = {
         user_id: user.id,
         activity_type: activityType,
-        activity_date: gameDateToUse, // Use game date so playing old puzzles shows on the correct date
-        game_date: gameDateToUse,
+        activity_date: today,     // Always today — streak = consecutive days you played
+        game_date: gameDateToUse, // The puzzle date (for calendar display)
         score: gameData.score || 0,
         max_possible_score: gameData.maxPossibleScore || 0,
         words_found: gameData.wordsFound || 0,
@@ -289,27 +290,35 @@ class StreakTracker {
       };
     }
 
+    // Parse YYYY-MM-DD as local date (avoids UTC midnight timezone shift)
+    const parseLocalDate = (dateStr) => {
+      const [y, m, d] = dateStr.split('-').map(Number);
+      return new Date(y, m - 1, d);
+    };
+
     // Sort activities by date (newest first)
-    const sortedActivities = activities.sort((a, b) => 
-      new Date(b.activity_date) - new Date(a.activity_date)
+    const sortedActivities = activities.sort((a, b) =>
+      parseLocalDate(b.activity_date) - parseLocalDate(a.activity_date)
     );
+
+    // Deduplicate by date string (multiple activities on same day count as one)
+    const uniqueDates = [...new Set(sortedActivities.map(a => a.activity_date))];
 
     let currentStreak = 0;
     let longestStreak = 0;
     let tempStreak = 0;
     let lastDate = null;
 
-    for (let i = 0; i < sortedActivities.length; i++) {
-      const activity = sortedActivities[i];
-      const activityDate = new Date(activity.activity_date);
-      
+    for (let i = 0; i < uniqueDates.length; i++) {
+      const activityDate = parseLocalDate(uniqueDates[i]);
+
       if (lastDate === null) {
         // First activity
         tempStreak = 1;
         lastDate = activityDate;
       } else {
-        const daysDiff = Math.floor((lastDate - activityDate) / (1000 * 60 * 60 * 24));
-        
+        const daysDiff = Math.round((lastDate - activityDate) / (1000 * 60 * 60 * 24));
+
         if (daysDiff === 1) {
           // Consecutive day
           tempStreak++;
@@ -318,15 +327,19 @@ class StreakTracker {
           longestStreak = Math.max(longestStreak, tempStreak);
           tempStreak = 1;
         }
-        
+
         lastDate = activityDate;
       }
     }
 
-    // Check if current streak is still active (use most recent activity, not loop's lastDate)
-    const today = new Date();
-    const mostRecentDate = new Date(sortedActivities[0].activity_date);
-    const daysSinceLastActivity = Math.floor((today - mostRecentDate) / (1000 * 60 * 60 * 24));
+    // Check if current streak is still active
+    // Compare today's local date against most recent activity date string
+    const now = new Date();
+    const todayStr = `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, '0')}-${String(now.getDate()).padStart(2, '0')}`;
+    const mostRecentStr = uniqueDates[0];
+    const mostRecentDate = parseLocalDate(mostRecentStr);
+    const todayDate = parseLocalDate(todayStr);
+    const daysSinceLastActivity = Math.round((todayDate - mostRecentDate) / (1000 * 60 * 60 * 24));
 
     if (daysSinceLastActivity <= 1) {
       currentStreak = tempStreak;
