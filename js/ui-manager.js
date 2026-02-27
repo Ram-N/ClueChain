@@ -1430,6 +1430,67 @@ function checkSelectionComplete() {
 }
 
 /**
+ * Shows a confirmation modal before a letter purchase.
+ * Calls onConfirm() if the player proceeds.
+ */
+function showPurchaseConfirmModal(letter, count, cost, onConfirm) {
+  let modal = document.getElementById("purchase-confirm-modal");
+  if (!modal) {
+    modal = document.createElement("div");
+    modal.id = "purchase-confirm-modal";
+    modal.className = "modal-container";
+    document.body.appendChild(modal);
+  }
+
+  modal.innerHTML = `
+    <div class="modal-content" style="max-width:340px;text-align:center;">
+      <div class="modal-header">
+        <h2>Reveal Letter?</h2>
+        <button class="close-button" id="purchase-modal-close">&times;</button>
+      </div>
+      <div class="modal-body">
+        <p style="font-size:2rem;font-weight:bold;margin:0.25rem 0;">
+          ${letter.toUpperCase()}
+        </p>
+        <p style="margin:0.5rem 0 1rem;">
+          Revealing <strong>${count}</strong> instance${count !== 1 ? "s" : ""}
+          will cost <strong>${cost} link${cost !== 1 ? "s" : ""}</strong>
+        </p>
+        <div style="display:flex;gap:0.75rem;justify-content:center;">
+          <button id="purchase-cancel-btn"
+            style="padding:0.5rem 1.25rem;border-radius:6px;border:2px solid #4a90e2;
+                   background:#fff;color:#4a90e2;cursor:pointer;font-size:0.95rem;font-weight:bold;">
+            Cancel
+          </button>
+          <button id="purchase-confirm-btn"
+            style="padding:0.5rem 1.25rem;border-radius:6px;border:none;
+                   background:#4a90e2;color:#fff;cursor:pointer;font-size:0.95rem;font-weight:bold;">
+            Buy
+          </button>
+        </div>
+      </div>
+    </div>
+  `;
+
+  modal.classList.add("show");
+
+  const close = () => {
+    modal.classList.remove("show");
+    document.removeEventListener("keydown", onKey);
+  };
+  const onKey = (e) => { if (e.key === "Escape") close(); };
+
+  modal.querySelector("#purchase-modal-close").addEventListener("click", close);
+  modal.querySelector("#purchase-cancel-btn").addEventListener("click", close);
+  modal.querySelector("#purchase-confirm-btn").addEventListener("click", () => {
+    close();
+    onConfirm();
+  });
+  modal.addEventListener("click", (e) => { if (e.target === modal) close(); });
+  document.addEventListener("keydown", onKey);
+}
+
+/**
  * Handles letter purchase during regular gameplay
  * @param {HTMLElement} tile - The letter tile element
  * @param {boolean} isVowel - Whether the letter is a vowel
@@ -1462,37 +1523,40 @@ function handleLetterPurchase(tile, isVowel) {
     return;
   }
 
-  // Try to purchase the letter
-  let result;
-  if (isVowel) {
-    result = purchaseVowel(letter);
-  } else {
-    result = purchaseConsonant(letter);
-  }
+  // Calculate cost to show in confirmation
+  const params = getGameParameters();
+  const ratePerInstance = isVowel
+    ? (params?.marketplace?.vowel?.costPerInstance ?? 2)
+    : (params?.marketplace?.consonant?.costPerInstance ?? 3);
+  const totalCost = count * ratePerInstance;
 
-  if (result.success) {
-    // Mark the tile as purchased
-    tile.classList.add("purchased");
+  // Show confirmation modal before committing the purchase
+  showPurchaseConfirmModal(letter, count, totalCost, () => {
+    let result;
+    if (isVowel) {
+      result = purchaseVowel(letter);
+    } else {
+      result = purchaseConsonant(letter);
+    }
 
-    // Update the UI to reflect the purchased letter
-    renderParagraph(getChosenVowel());
-    updateLetterCounts();
-    updateScore();
-
-    // Show toast notification
-    showToast(
-      `Revealed ${count} instance${
-        count !== 1 ? "s" : ""
-      } of "${letter.toUpperCase()}" for ${result.cost} links`,
-      "success"
-    );
-  } else {
-    // Purchase failed (probably not enough points)
-    showToast(
-      result.message || "Not enough links to purchase this letter",
-      "error"
-    );
-  }
+    if (result.success) {
+      tile.classList.add("purchased");
+      renderParagraph(getChosenVowel());
+      updateLetterCounts();
+      updateScore();
+      showToast(
+        `Revealed ${count} instance${
+          count !== 1 ? "s" : ""
+        } of "${letter.toUpperCase()}" for ${result.cost} links`,
+        "success"
+      );
+    } else {
+      showToast(
+        result.message || "Not enough links to purchase this letter",
+        "error"
+      );
+    }
+  });
 }
 
 /**

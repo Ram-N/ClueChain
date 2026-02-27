@@ -53,12 +53,12 @@ h1 {
   background-color: #ffd54f;
   border-color: #ffa000;
   box-shadow: 0 2px 6px rgba(255, 160, 0, 0.2);
-  transform: translateY(-1px);
+  transform: translateY(-1px) scale(1.05);
   color: #333333;
   z-index: 1;
   position: relative;
   font-weight: 600;
-  letter-spacing: 4px; /* Increase letter spacing when highlighted */
+  letter-spacing: 2px; /* Keep same as base to prevent reflow/pulsing */
 }
 
 #clues-container {
@@ -660,9 +660,9 @@ button:hover {
   border-color: #66bb6a;
   color: #1b5e20;
   box-shadow: 0 2px 6px rgba(46, 125, 50, 0.2);
-  transform: translateY(-1px);
+  transform: translateY(-1px) scale(1.05);
   font-weight: 600;
-  letter-spacing: 4px; /* Maintain letter spacing when highlighted */
+  letter-spacing: 2px; /* Keep same as base to prevent reflow/pulsing */
 }
 
 #paragraph-container span[data-masked="true"].revealed.highlight {
@@ -670,9 +670,9 @@ button:hover {
   border-color: #ff8a65;
   color: #bf360c;
   box-shadow: 0 2px 6px rgba(216, 67, 21, 0.25);
-  transform: translateY(-1px);
+  transform: translateY(-1px) scale(1.05);
   font-weight: 600;
-  letter-spacing: 4px; /* Maintain letter spacing when highlighted */
+  letter-spacing: 2px; /* Keep same as base to prevent reflow/pulsing */
 }
 
 .game-over-message {
