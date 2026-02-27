@@ -1,0 +1,237 @@
+{
+  "title": "Myth - The brain is region specific",
+  "date": "04-11",
+  "text": "Title: Myth - The brain is region specific\n\nSometimes people will break it down into distinct geographies to better explain how the brain works. For example, the cerebral cortex is an outer layer of the brain that is responsible for functions such as memory, attention, and perception itself. But the boundaries between different regions is more nebulous than it might appear.",
+  "hiddenWords": [
+    {
+      "word": "geographies",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A mapmaker's delight, used to divide the world",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Study of the Earth's physical features",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Areas of study or fields of expertise",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "cerebral",
+      "difficulty": "Hard",
+      "related_words": [
+        "cortex",
+        "perception"
+      ],
+      "clues": [
+        {
+          "clue": "Intellectual pursuits require this aspect of the mind",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Relating to the upper part of the brain",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Mental or intellectual",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "cortex",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "cerebral",
+        "perception"
+      ],
+      "clues": [
+        {
+          "clue": "Outer covering that protects a delicate inner structure",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "The outer layer of the brain",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "The outer layer of an organ",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "memory",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A treasured keepsake from the past",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "The ability to recall past events",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Recall of past events or experiences",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "perception",
+      "difficulty": "Hard",
+      "related_words": [
+        "cerebral",
+        "cortex"
+      ],
+      "clues": [
+        {
+          "clue": "A view or understanding of the world around us",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "The process of interpreting sensory information",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "The ability to notice and interpret sensory information",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "attention",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Focus on a particular task or activity",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "The ability to concentrate on something",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Notice or consider something",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "nebulous",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A cloud-like quality that lacks definition",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Unclear or vague in meaning or form",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Lacking clear definition or distinctness",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "distinct",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A separate entity, clearly recognizable",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Clearly different or separate",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Clearly noticeable or recognizable",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "example",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A model or illustration to demonstrate a concept",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Something that serves as a model or illustration",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A person or thing that illustrates or represents something",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "boundaries",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The limits or edges of something",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "The lines that mark the limits of an area",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "The limits or edges of something",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-04-11"
+}

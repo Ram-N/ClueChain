@@ -1,0 +1,229 @@
+{
+  "title": "Myth - Brain damage is always permanent",
+  "date": "07-11",
+  "topic": "Science",
+  "themes": ["Neuroscience", "Myths", "Brain Health"],
+  "text": "One of the most prevalent myths of neuroscience is that this damage is inevitably permanent and irreversible. It's sort of related to the myth that the brain stops developing once you reach a certain age. Neither is true.",
+  "hiddenWords": [
+    {
+      "word": "myths",
+      "difficulty": "Easy",
+      "related_words": ["myth"],
+      "clues": [
+        {
+          "clue": "Tales told around ancient fires — true to some, false to others.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Widely believed stories that turn out to be false.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Common misconceptions or false beliefs.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "stops",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "What a red light politely asks you to do.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Causes something to cease or come to an end.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Halts or brings to an end.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "age",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "What wine and cheese do well, but milk does not.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A particular period in a person's life or in history.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "How old someone or something is.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "prevalent",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "So common it's hard to walk a step without tripping over it.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Widely existing or occurring in a particular area or at a particular time.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Widespread; commonly occurring.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "related",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Siblings share this quality — they're more alike than strangers.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Connected or associated with something else.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Having a connection or link to something.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "developing",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "What a darkroom photograph does — gradually emerging into something new.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Growing or changing into a more advanced state.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Gradually growing or maturing over time.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "certain",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Death and taxes are said to share this quality.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Confident and without any doubt.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Sure or definite; known without doubt.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "neuroscience",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The discipline that maps the mind's hardware — where biology meets thought.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "The scientific study of the nervous system and how it processes information.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "The branch of science that studies the brain and nervous system.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "inevitably",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The sun rising each morning — you simply cannot stop what is bound to happen.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "In a way that is certain to happen and cannot be avoided.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Unavoidably; as a certain outcome.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "irreversible",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Like scrambled eggs — once done, you cannot go back to the shell.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Impossible to undo or change back to a previous state.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Not able to be reversed or undone.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    }
+  ]
+}

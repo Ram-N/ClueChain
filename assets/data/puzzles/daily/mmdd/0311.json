@@ -1,0 +1,237 @@
+{
+  "title": "Three major things most people get wrong about the brain",
+  "date": "03-11",
+  "text": "Squished between your ears, soaked in blood and swaddled in bone is your brain, a metabolic engine construed from roughly three pounds of fat and wired with electricity that, among other things, allows you to read and understand this sentence. Yet humans still have many fundamental questions about how this machine works, how it stirs consciousness into being and how to repair it when it breaks down.",
+  "hiddenWords": [
+    {
+      "word": "machine",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "engine",
+        "electricity"
+      ],
+      "clues": [
+        {
+          "clue": "A device with moving parts, or a system with a specific function",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Something that operates with a specific purpose",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A device or system that performs a specific task",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "engine",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "machine",
+        "electricity"
+      ],
+      "clues": [
+        {
+          "clue": "The heart of a complex system, providing power and motion",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A component that generates power or motion",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A device that converts energy into motion",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "electricity",
+      "difficulty": "Easy",
+      "related_words": [
+        "machine",
+        "engine"
+      ],
+      "clues": [
+        {
+          "clue": "A form of energy that powers devices and systems",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A force that powers many modern conveniences",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A form of energy that flows through wires",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "blood",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A vital fluid that flows through the body",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A liquid that carries oxygen and nutrients",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A fluid that circulates through the body",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "bone",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A hard, calcified tissue that provides structure",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A rigid material that makes up the skeleton",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A hard, calcified tissue",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "consciousness",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A state of awareness that is difficult to define",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "The state of being aware of one's surroundings",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "The state of being aware and responsive",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "fundamental",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Relating to the foundation or basis of something",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Basic or essential",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Relating to the most basic or essential aspects",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "metabolic",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Relating to the process of converting energy",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Relating to the chemical reactions that occur within an organism",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Relating to the process of energy conversion and utilization",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "pounds",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A unit of weight or mass",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A measure of heaviness",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A unit of weight equal to 16 ounces",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "repair",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "To fix or mend something that is broken",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "To restore something to a working condition",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "To fix or mend something",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-03-11"
+}

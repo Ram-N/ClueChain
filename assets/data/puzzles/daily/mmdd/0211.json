@@ -1,0 +1,237 @@
+{
+  "title": "What makes humans intelligent?",
+  "date": "02-11",
+  "text": "You probably have a general understanding of the human brain: a network of nerve cells connected by synapses. Complex or abstract ideas emerge as a result of the firing of many of these nerve cells, or neurons. This means that a concept or memory or idea is the result of a distributed pattern of neural activity. In contrast to computer memory, which always follows the same pattern of 1s and 0s, it's more like networks in our brain weave a new tapestry every time we think about something. This understanding is common to most of us lay people who know a little about neurology and the brain, or who are interested in AI and the attempts to replicate human intelligence.",
+  "hiddenWords": [
+    {
+      "word": "neurons",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "nerve",
+        "synapses"
+      ],
+      "clues": [
+        {
+          "clue": "Tiny units that work together to form a complex system",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Specialized cells that transmit information",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Cells that process and transmit information",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "nerve",
+      "difficulty": "Easy",
+      "related_words": [
+        "neurons",
+        "synapses"
+      ],
+      "clues": [
+        {
+          "clue": "A bundle of fibers that carry signals",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Part of the body that helps us react to stimuli",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A fiber that transmits signals",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "synapses",
+      "difficulty": "Hard",
+      "related_words": [
+        "neurons",
+        "nerve"
+      ],
+      "clues": [
+        {
+          "clue": "Gaps between two things that allow them to communicate",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Small spaces where chemical signals are exchanged",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Junctions between two cells",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "pattern",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A design or sequence that repeats",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A regular or repeated way of doing something",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A repeated or regular design",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "memory",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A mental record of past events or experiences",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "The ability to recall or recognize things",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The capacity to store and recall information",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "networks",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A group of interconnected things",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A system of connected parts that work together",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A collection of interconnected items",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "concept",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "An abstract idea or notion",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "A general idea or notion",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "An abstract idea",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "abstract",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Not based on concrete facts",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Not representing a physical object",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Not concrete or tangible",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "neurology",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The study of the structure and function of the nervous system",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A branch of medicine that deals with the nervous system",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The study of the nervous system",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "replicate",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "To make a copy of something",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "To repeat or reproduce something",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "To make an exact copy",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-02-11"
+}

@@ -1,0 +1,237 @@
+{
+  "title": "Humans think — AI, not so much",
+  "date": "09-11",
+  "text": "Title:Humans think — AI, not so much\n\nBut accumulating discoveries of different specialized brain cells pose a challenge to models of human or artificial intelligence in which thoughts and concepts arise purely from the distributed firing of many essentially-identical brain cells in a network. Perhaps it's time to consider that if we want to replicate human intelligence, we ought to take a closer look at some of the amazing adaptations that have evolved in mammalian neurons — and specifically, neurons in the human brain. Instead of the popularly understood idea of the brain as a neural network of undifferentiated brain cells, research has increasingly found that different neurons, even of the same basic type, have their own specific functions and abilities.",
+  "hiddenWords": [
+    {
+      "word": "brain",
+      "difficulty": "Easy",
+      "related_words": [
+        "neurons",
+        "network"
+      ],
+      "clues": [
+        {
+          "clue": "The control center of the body",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "Where thoughts and memories are processed",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A puzzle that's hard to wrap your head around",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "word": "neurons",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "brain",
+        "network"
+      ],
+      "clues": [
+        {
+          "clue": "Tiny messengers in the body",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "The building blocks of intelligence",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "A spark of electricity can ignite a thousand",
+          "type": "Indirect",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "word": "network",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "brain",
+        "neurons"
+      ],
+      "clues": [
+        {
+          "clue": "A web of connections",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "Where information flows and grows",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A hidden pattern waiting to be uncovered",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "word": "models",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Simplified representations of complex systems",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "Tools for understanding and predicting behavior",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A miniature version of reality, with all its flaws",
+          "type": "Indirect",
+          "points": 7
+        }
+      ]
+    },
+    {
+      "word": "concepts",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Abstract ideas or notions",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "The building blocks of thought and understanding",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A jigsaw puzzle with missing pieces",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "word": "discoveries",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "New findings or revelations",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "The outcome of exploration and investigation",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A hidden treasure waiting to be unearthed",
+          "type": "Indirect",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "word": "mammalian",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Relating to warm-blooded animals",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "A characteristic of humans and other warm-blooded creatures",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A trait that sets us apart from the rest",
+          "type": "Indirect",
+          "points": 7
+        }
+      ]
+    },
+    {
+      "word": "adaptations",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Changes that help an organism survive",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "Special features that enhance fitness and function",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A clever solution to a problem, crafted by nature",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "word": "functions",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The purpose or role of something",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "The way something works or operates",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A puzzle piece that fits perfectly into place",
+          "type": "Indirect",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "word": "abilities",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The power or capacity to do something",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "The skills or talents that make us unique",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A hidden talent waiting to be unleashed",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-09-11"
+}

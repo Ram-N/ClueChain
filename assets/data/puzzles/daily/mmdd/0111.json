@@ -1,0 +1,238 @@
+{
+  "title": "Does pollution poison the mind?",
+  "date": "01-11",
+  "text": "Title: Does pollution poison the mind? Air pollution is known to be a serious health risk  — a cause of asthma, heart disease, stroke, lung cancer and a factor, according to the World Health Organization, in an estimated seven million deaths worldwide every year. A growing body of research suggests air pollution may also be harming our brains. In recent years, new areas of study have opened up into how air pollution might affect our minds and the way we think and feel.",
+  "hiddenWords": [
+    {
+      "word": "asthma",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A condition that makes it hard to breathe",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "It's often triggered by allergens or pollution",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Imagine a tight squeeze in your chest, making every breath a challenge",
+          "type": "Indirect",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "word": "research",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "study",
+        "brains"
+      ],
+      "clues": [
+        {
+          "clue": "A systematic investigation into a subject",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "It helps us understand complex phenomena and find solutions",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Think of a detective searching for clues to unravel a mystery",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "word": "brains",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "research",
+        "minds"
+      ],
+      "clues": [
+        {
+          "clue": "The control center of the human body",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "They're responsible for processing information and controlling movements",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Imagine a complex network of roads, highways, and intersections",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "word": "minds",
+      "difficulty": "Easy",
+      "related_words": [
+        "brains"
+      ],
+      "clues": [
+        {
+          "clue": "The element of a person that enables them to be aware of their surroundings",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "It's where thoughts, emotions, and memories reside",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Picture a vast, uncharted territory waiting to be explored",
+          "type": "Indirect",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "word": "stroke",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A medical condition that occurs when the blood supply to the brain is interrupted",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "It can cause paralysis, speech problems, and even death",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Imagine a sudden, intense storm that ravages the landscape",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "word": "factor",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A circumstance or fact that influences a result",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "It's an element that contributes to a particular outcome",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Think of a hidden thread that weaves its way through a complex tapestry",
+          "type": "Indirect",
+          "points": 7
+        }
+      ]
+    },
+    {
+      "word": "study",
+      "difficulty": "Easy",
+      "related_words": [
+        "research"
+      ],
+      "clues": [
+        {
+          "clue": "A detailed examination and analysis of a subject",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "It helps us gain a deeper understanding of the world around us",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Imagine a journey through uncharted territory, guided by curiosity",
+          "type": "Indirect",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "word": "lung",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A vital organ responsible for exchanging oxygen and carbon dioxide",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "It's essential for maintaining proper respiratory function",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Picture a delicate, intricate network of air sacs and tubes",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "word": "cancer",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A disease characterized by the uncontrolled growth of abnormal cells",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "It can be caused by genetic mutations, environmental factors, or a combination of both",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Imagine a rogue cell that refuses to follow the rules, threatening the entire system",
+          "type": "Indirect",
+          "points": 7
+        }
+      ]
+    },
+    {
+      "word": "disease",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A disorder of a structure or function of the body",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "It can be caused by a variety of factors, including genetics, environment, and lifestyle",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Think of a puzzle with missing pieces, where the solution is not always clear",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-01-11"
+}

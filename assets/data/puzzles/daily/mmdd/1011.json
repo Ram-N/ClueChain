@@ -1,0 +1,237 @@
+{
+  "title": "Human intelligence vs AI",
+  "date": "10-11",
+  "text": "Instead, they reveal mammalian brains to be the product of millions of years of evolution and adaptation to environments. Over all those years, countless tiny changes have led animal brains to evolve a unique nervous system in which the key component, the neuron, is now able to represent our experiences and thoughts and surroundings in specific and wondrously clever ways not available to other animals who have not evolved our most recent adaptations. Our particular form of intelligence, it seems, depends on this minority of specialized neuron types.",
+  "hiddenWords": [
+    {
+      "word": "evolution",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A process that shapes life over time, like a river carving its path.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Change in species over generations due to environmental pressures.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The development of species over time.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "neuron",
+      "difficulty": "Hard",
+      "related_words": [
+        "nervous",
+        "adaptation"
+      ],
+      "clues": [
+        {
+          "clue": "It's the basic unit of a complex network, working together to create something greater than the sum of its parts.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "A cell that transmits information through electrical and chemical signals.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A nerve cell.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "nervous",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "neuron",
+        "adaptation"
+      ],
+      "clues": [
+        {
+          "clue": "Like a system that can get 'on edge' when faced with too much information.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Pertaining to a system that controls the body's responses to stimuli.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Relating to nerves.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "adaptation",
+      "difficulty": "Hard",
+      "related_words": [
+        "neuron",
+        "nervous"
+      ],
+      "clues": [
+        {
+          "clue": "A change that helps something fit better into its environment, like a key fitting into a lock.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "The process of adjusting to new or changing environments.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "The act of adapting.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "environments",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The spaces where life unfolds, full of challenges and opportunities.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "The natural surroundings in which an organism lives.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Surroundings.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "minority",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A smaller part of a whole, like a few threads in a rich tapestry.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "The smaller number in a comparison of two groups.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Less than half of the total.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "specialized",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Like a tool designed for a specific task, it's uniquely suited to its purpose.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Having a specific function or skill.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Expert or highly skilled in a particular area.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "mammalian",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Pertaining to a group of warm-blooded animals that have hair and produce milk for their young.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Characterizing a class of animals that give birth to live young and nurse them with milk.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Relating to mammals.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "countless",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Like the stars in the night sky, too many to number.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Too numerous to be counted.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Innumerable.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "surroundings",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The world around us, full of sights, sounds, and sensations.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "The environment or conditions in which something exists.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The things that are around something.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-10-11"
+}

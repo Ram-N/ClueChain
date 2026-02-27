@@ -1,0 +1,234 @@
+{
+  "title": "Human Brains and Evolution",
+  "date": "05-11",
+  "text": "Title: Human Brains and Evolution\n\nHuman brains are not the apex of evolution — our cognitive complexity simply helped us stay alive long enough to pass down our genes. And just because our brains look similar to our predecessors does not mean they function the same. In fact, every time a new brain evolves, it almost completely reorganizes. And again, the brain cannot easily be divided into distinct segments.",
+  "hiddenWords": [
+    {
+      "word": "cognitive",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A complex process that involves thinking and problem-solving skills",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Related to mental processes such as perception, attention, and memory",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Pertaining to the mind or its functions",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "predecessors",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Those who came before us, leaving behind a legacy of knowledge and experience",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Ancestors or earlier generations that have shaped our current understanding",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "People who held a position or office before the current holder",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "evolves",
+      "difficulty": "Easy",
+      "related_words": [
+        "cognitive",
+        "reorganizes"
+      ],
+      "clues": [
+        {
+          "clue": "Undergoes a transformation, like a butterfly emerging from a cocoon",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Develops or changes over time through a process of growth or adaptation",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Changes or develops into a more advanced or complex form",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "reorganizes",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "evolves",
+        "cognitive"
+      ],
+      "clues": [
+        {
+          "clue": "Rearranges the pieces of a puzzle to create a new picture",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Restructures or rearranges something to improve its function or efficiency",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Changes the arrangement or organization of something",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "segments",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Divided into parts, like a sliced orange",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Portions or sections of something, such as a market or a population",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A part or section of something, such as a line or a circle",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "complexity",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A puzzle with many interconnected pieces, requiring patience and skill to solve",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "The state of being complicated or difficult to understand",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "The quality of being intricate or composed of many parts",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "genes",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The building blocks of life, passed down from generation to generation",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Units of heredity that carry information from parents to offspring",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Basic units of genetic material",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "alive",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Full of energy and vitality, like a blooming flower",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Having the quality of life or vitality, such as a living being",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Not dead or inanimate",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "long",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A stretch of time or distance that seems to go on forever",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Describes a river that stretches many miles, or a speech that drags on.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Extending a great distance in space or time",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "enough",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A sufficient amount to satisfy a need or requirement, like a full tank of gas",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A quantity that is sufficient to meet a need or requirement",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "As much as needed or required",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-05-11"
+}

@@ -1,0 +1,232 @@
+{
+  "title": "Bigger and Healthier Brains",
+  "date": "12-11",
+  "text": "Title: Bigger and Healthier Brains\n\nWhile this data may make it seem like humans are simply getting smarter, the news here may actually be even more hopeful. Diseases like Alzheimer's, strokes and other cognitive impairments continue to bedevil doctors seeking a cure. Because research indicates that \"early life environmental influences are more likely contributors\" than genetics to intracranial volume and brain size, it seems reasonable to assume that improvements in quality of life during the mid-20th century caused the growth in human brains.",
+  "hiddenWords": [
+    {
+      "word": "research",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Delving into the unknown often requires this process.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A systematic investigation is typically conducted through this.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The act of searching for knowledge is its primary function.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "influences",
+      "difficulty": "Hard",
+      "related_words": [
+        "environmental"
+      ],
+      "clues": [
+        {
+          "clue": "These can be subtle, yet have a profound impact on development.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Factors that shape behavior or outcome are often referred to as this.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A force that affects something is an example of this.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "environmental",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "influences"
+      ],
+      "clues": [
+        {
+          "clue": "The surroundings in which something exists can be described by this term.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "This term refers to the external factors that affect an organism.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Pertaining to the natural world is its primary meaning.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "contributors",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Those who give or provide something, especially to a common fund or effort.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "These are individuals or factors that help bring about a result.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A person who gives or supplies something is an example of this.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "impairments",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Limitations that hinder normal function can be described by this term.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "A condition that damages or weakens something is an example of this.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "The state of being weakened or damaged is its primary meaning.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "doctors",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Healers of the body often work in hospitals or clinics.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Medical practitioners are trained to treat illnesses.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A person who practices medicine is an example of this.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "cognitive",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The process of knowing and thinking is related to this concept.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Mental processes such as perception and memory are examples of this.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Relating to the mind or mental processes is its primary meaning.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "strokes",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A medical condition that affects the brain can be caused by this.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A sudden rupture of blood vessels in the brain is an example of this.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A sudden attack of disease, especially one that affects the brain, is an example of this.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "genetics",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The study of heredity and variation is related to this field.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "The science of heredity, especially the study of genes and their variation, is an example of this.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "The study of heredity and the variation of organisms is its primary meaning.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "bedevil",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "To cause a lot of trouble or annoyance for someone is to do this.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "This term means to torment or harass someone.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "To annoy or trouble someone greatly is its primary meaning.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-12-11"
+}

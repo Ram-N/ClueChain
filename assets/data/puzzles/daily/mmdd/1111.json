@@ -1,0 +1,237 @@
+{
+  "title": "The average human brain size is growing",
+  "date": "11-11",
+  "text": "Title: The average human brain size is growing\nHumans owe our impressive intellect to our large brains, which are unusually sophisticated thanks to evolution. The first surge in our brain size occurred between 2 million and 800,000 years ago, when our species' increase in territory and physical size caused our brains to literally grow. As the climate changed between 800,000 and 200,000 years ago, human brains became even more complex so people could adapt to their new environments. The neocortex in particular expanded during this time, since this region of the brain controls higher-order brain functions including language, motor commands, sensory perception and spatial reasoning.",
+  "hiddenWords": [
+    {
+      "word": "intellect",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "evolution",
+        "sophisticated"
+      ],
+      "clues": [
+        {
+          "clue": "A valuable asset that helps humans thrive",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A quality that enables humans to solve complex problems",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Mental ability or talent",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "evolution",
+      "difficulty": "Hard",
+      "related_words": [
+        "intellect",
+        "sophisticated"
+      ],
+      "clues": [
+        {
+          "clue": "A process that shapes the destiny of living things",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "A series of changes that occur over time",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The development of species over millions of years",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "sophisticated",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "intellect",
+        "evolution"
+      ],
+      "clues": [
+        {
+          "clue": "Complex and nuanced, like a fine wine",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Having a high level of complexity or refinement",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Advanced or cultured",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "territory",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A domain that is defended by its inhabitants",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "An area of land that is occupied by a particular group",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A region or area of land",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "climate",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A factor that affects the growth of plants and animals",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "The weather conditions that prevail in a particular region",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "The average atmospheric condition in a particular location",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "neocortex",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A region that is responsible for higher-order thinking",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "The outer layer of the brain that controls sensory perception",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The part of the brain that handles complex cognitive functions",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "motor",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A device that converts energy into motion",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Relating to the movement of the body",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Of or relating to movement or motion",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "sensory",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Relating to the senses, such as sight or sound",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Pertaining to the perception of stimuli",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Of or relating to the senses",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "perception",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The process by which we interpret and understand the world",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "The ability to become aware of something through the senses",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The act of perceiving or becoming aware of something",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "reasoning",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A process that involves thinking and problem-solving",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "The ability to draw conclusions based on evidence",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "The act of thinking and drawing conclusions",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-11-11"
+}

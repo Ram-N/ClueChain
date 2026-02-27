@@ -1,0 +1,236 @@
+{
+  "title": "ClueChain Challenge",
+  "date": "06-11",
+  "text": "Title: Our brains may be special, but they are mostly soft, squishy bundles of fat, water and various proteins and carbohydrates. Obviously, we need a rock-hard skull to protect all this precious matter, but sometimes our brains still get damaged.",
+  "hiddenWords": [
+    {
+      "word": "special",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "One of a kind, in a way",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Having a unique quality",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Unique or exceptional",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "squishy",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "soft"
+      ],
+      "clues": [
+        {
+          "clue": "Like a certain type of toy",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Having a yielding nature",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Not firm or solid",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "soft",
+      "difficulty": "Easy",
+      "related_words": [
+        "squishy"
+      ],
+      "clues": [
+        {
+          "clue": "Gentle as a summer breeze",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Lacking in firmness",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Not hard or rigid",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "bundles",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Like a bunch of sticks tied together",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A collection of things tied or wrapped together",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A group of things gathered together",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "proteins",
+      "difficulty": "Hard",
+      "related_words": [
+        "carbohydrates"
+      ],
+      "clues": [
+        {
+          "clue": "Building blocks of life, in a way",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Complex molecules essential for life",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Large biological molecules",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "carbohydrates",
+      "difficulty": "Hard",
+      "related_words": [
+        "proteins"
+      ],
+      "clues": [
+        {
+          "clue": "Energy sources for the body",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Molecules composed of carbon, hydrogen, and oxygen",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A type of biomolecule",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "precious",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Like a treasure beyond measure",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Highly valued or cherished",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Of great worth or importance",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "skull",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The bony case of the head",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A protective casing for the brain",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The bony structure that encloses the brain",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "damaged",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Like a broken vase",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Having suffered harm or injury",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Hurt or injured in some way",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "obviously",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "As clear as a sunny day",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Evident or apparent to the senses",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Clearly evident or manifest",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-06-11"
+}
