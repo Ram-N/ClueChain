@@ -13,13 +13,20 @@ gerunds, etc.) anywhere in any of that word's clues. This is the most common mis
 and will always cause the puzzle to fail. If you catch yourself writing the answer into
 a clue, rewrite the clue from scratch without it.
 
+⚠️  ABSOLUTE RULE #3 — NEVER BREAK THIS:
+Do NOT use words that only make sense as phrase modifiers or classifiers — words that
+feel incomplete without a noun following them (e.g., 'multibillion', 'multimillion',
+'high-profile', 'state-of-the-art'). Every hidden word must be a standalone concept
+that a player can reasonably picture and guess from a clue on its own. Ask yourself:
+"Can this word stand alone with a clear meaning?" If the answer is no, discard it.
+
 CRITICAL RULES FOR WORD SELECTION:
 1. Select EXACTLY 10 single words (no more, no less)
 2. EXCLUDE:
    - Short words: any word with 3 or fewer letters (e.g., 'the', 'run', 'big') — minimum 4 letters
    - Proper nouns, names, places, brands: even if lowercase in the text (e.g., 'google', 'london')
    - Made-up or invented words that don't appear in a standard English dictionary
-   - Compound words (e.g., 'spaceship')
+   - Phrase modifiers that are incomplete without a following noun (e.g., 'multibillion', 'multimillion') — see ABSOLUTE RULE #3
    - Words with spaces, hyphens, apostrophes, or punctuation
    - 🚫 Any word from the TITLE (see ABSOLUTE RULE #1 above)
 3. Difficulty Balance: Mix of Easy (3-4), Intermediate (3-4), and Hard (2-3) words

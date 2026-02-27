@@ -10,6 +10,7 @@ DATE_REGEX = r'^\d{2}-\d{2}$'  # MM-DD format (year-agnostic)
 DIFFICULTY_LEVELS = ['Easy', 'Intermediate', 'Medium', 'Hard']
 CLUE_TYPES = ['Indirect', 'Suggestive', 'Straight']
 
+
 def validate_json(data):
     errors = []
 
