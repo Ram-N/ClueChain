@@ -6,3 +6,4 @@ wikipedia
 textstat
 spacy
 vaderSentiment
+requests

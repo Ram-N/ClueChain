@@ -422,18 +422,28 @@ def generate_single_paragraph(paragraph: ParagraphData, day: int,
                 "--output", output_dir
             ]
 
-            # Execute subprocess — stream stdout live, capture stderr for errors
+            # Execute subprocess — stream stdout live AND collect it for error extraction
             proc = subprocess.Popen(
                 cmd,
-                stdout=None,   # inherit — prints directly to terminal
-                stderr=subprocess.PIPE,
+                stdout=subprocess.PIPE,
+                stderr=subprocess.STDOUT,  # merge stderr into stdout
                 text=True,
             )
-            _, stderr_output = proc.communicate(timeout=300)
+            collected_lines = []
+            for line in proc.stdout:
+                print(line, end="", flush=True)   # live display
+                collected_lines.append(line)
+            proc.wait(timeout=300)
+            collected_output = "".join(collected_lines)
 
             if proc.returncode != 0:
-                last_error = (stderr_output.strip() if stderr_output
-                              else f"exit code {proc.returncode}")
+                # Extract the most informative error line from output
+                error_line = next(
+                    (l.strip() for l in reversed(collected_lines)
+                     if l.strip() and not l.startswith("   ↻")),
+                    f"exit code {proc.returncode}"
+                )
+                last_error = error_line
                 continue  # Retry
 
             # Rename the generated file
@@ -459,7 +469,9 @@ def generate_single_paragraph(paragraph: ParagraphData, day: int,
             if temp_file and Path(temp_file).exists():
                 Path(temp_file).unlink()
 
-    reason_code = _classify_error(last_error)
+    # Use "EXHAUSTED" to mark this as the batch-level summary row,
+    # distinct from the per-attempt rows written by generate_cluechain_json.py
+    reason_code = "EXHAUSTED:" + _classify_error(last_error)
     return False, last_error, time.time() - start_time, reason_code, attempts_made
 
 

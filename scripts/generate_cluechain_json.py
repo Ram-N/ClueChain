@@ -3,18 +3,18 @@
 ClueChain JSON and Hints Generator
 
 Generates ClueChain puzzle JSON from paragraph text.
-Primary backend: Groq (fast, free tier).
-Fallback backend: OpenRouter / Gemini Flash Lite (cheap, high quality).
+Backend: Groq (fast, free tier).
 
 Usage:
     python generate_cluechain_json.py --file paragraph.txt --title "Title" --date 07-15
-    python generate_cluechain_json.py --file paragraph.txt --model openrouter
 
 Requirements:
-    - GROQ_API_KEY and/or OPENROUTER_API_KEY in .env file
+    - GROQ_API_KEY in .env file
 """
 
 import argparse
+import csv
+import datetime as dt
 import json
 import os
 import re
@@ -34,16 +34,8 @@ except ImportError as e:
 # Backend helpers
 # ---------------------------------------------------------------------------
 
-GROQ_MODEL       = "llama-3.3-70b-versatile"
-_PROMPTS_DIR     = Path(__file__).parent / "prompts"
-OPENROUTER_BASE  = "https://openrouter.ai/api/v1"
-
-_model_config_path = Path(__file__).parent / "model-config.json"
-if _model_config_path.exists():
-    with open(_model_config_path) as _f:
-        OPENROUTER_MODEL = json.load(_f).get("openrouter_model", "google/gemini-2.0-flash-lite-001")
-else:
-    OPENROUTER_MODEL = "google/gemini-2.0-flash-lite-001"
+GROQ_MODEL   = "llama-3.3-70b-versatile"
+_PROMPTS_DIR = Path(__file__).parent / "prompts"
 
 
 def _make_groq_client(api_key: str):
@@ -54,16 +46,8 @@ def _make_groq_client(api_key: str):
         raise ImportError("groq package not installed. Run: uv pip install groq")
 
 
-def _make_openrouter_client(api_key: str):
-    try:
-        from openai import OpenAI
-        return OpenAI(api_key=api_key, base_url=OPENROUTER_BASE)
-    except ImportError:
-        raise ImportError("openai package not installed. Run: uv pip install openai")
-
-
 def _call_llm(client, model: str, system_prompt: str, user_prompt: str) -> str:
-    """Call either Groq or OpenRouter (both are OpenAI-compatible) and return raw content."""
+    """Call Groq and return raw content."""
     response = client.chat.completions.create(
         model=model,
         messages=[
@@ -78,40 +62,80 @@ def _call_llm(client, model: str, system_prompt: str, user_prompt: str) -> str:
 
 
 # ---------------------------------------------------------------------------
+# ---------------------------------------------------------------------------
+# Failure logging
+# ---------------------------------------------------------------------------
+
+_LOG_FILE = Path(__file__).parent.parent / "logs" / "batch_failures.csv"
+_LOG_COLUMNS = ["timestamp", "mmdd", "title", "category", "reason_code",
+                "attempts", "duration_s", "error_detail"]
+
+
+def _classify_gen_error(error: str) -> str:
+    patterns = [
+        ("TITLE_WORD_VIOLATION", r"title word|contain title word|hidden words contain title"),
+        ("CLUE_CONTAINS_WORD",   r"clue text contains the hidden word"),
+        ("CLUE_TYPE_MISMATCH",   r"missing required clue types|clue types"),
+        ("CLUE_POINTS_INVALID",  r"points, got|must have \d"),
+        ("WRONG_CLUE_COUNT",     r"must have exactly 3 clues"),
+        ("RATE_LIMIT",           r"429|rate.?limit"),
+        ("JSON_PARSE_ERROR",     r"json|parse|decode"),
+        ("TIMEOUT",              r"timeout"),
+    ]
+    low = error.lower()
+    for code, pat in patterns:
+        if re.search(pat, low):
+            return code
+    return "GENERATION_ERROR"
+
+
+def log_generation_failure(date: str, title: str, reason_code: str,
+                           attempt: int, duration: float, error_detail: str) -> None:
+    """Append one per-attempt failure row to the persistent log."""
+    _LOG_FILE.parent.mkdir(parents=True, exist_ok=True)
+    write_header = not _LOG_FILE.exists()
+    mmdd = date.replace("-", "")  # "02-10" → "0210"
+    with _LOG_FILE.open("a", newline="", encoding="utf-8") as f:
+        writer = csv.DictWriter(f, fieldnames=_LOG_COLUMNS)
+        if write_header:
+            writer.writeheader()
+        writer.writerow({
+            "timestamp":    dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+            "mmdd":         mmdd,
+            "title":        title,
+            "category":     "?",   # not known inside generator
+            "reason_code":  reason_code,
+            "attempts":     attempt,
+            "duration_s":   f"{duration:.1f}",
+            "error_detail": error_detail[:300].replace("\n", " "),
+        })
+
+
+# ---------------------------------------------------------------------------
 # Generator class
 # ---------------------------------------------------------------------------
 
 class ClueChainGenerator:
-    """Generates ClueChain JSON files.
-
-    backend: 'groq' (default) | 'openrouter'
-    Falls back to openrouter automatically when groq exhausts all retries.
-    """
+    """Generates ClueChain JSON files using Groq backend."""
 
     def __init__(self, groq_key: Optional[str] = None,
                  groq_key2: Optional[str] = None,
-                 openrouter_key: Optional[str] = None,
-                 backend: str = "groq"):
+                 groq_key3: Optional[str] = None):
         self.groq_key         = groq_key
         self.groq_key2        = groq_key2
-        self.openrouter_key   = openrouter_key
-        self.backend          = backend  # 'groq' | 'openrouter'
+        self.groq_key3        = groq_key3
+        # Ordered list of available keys for rotation
+        self._groq_keys       = [k for k in [groq_key, groq_key2, groq_key3] if k]
         self._active_groq_key = groq_key  # tracks which key is currently in use
 
-        # Eagerly validate requested backend
-        if backend == "groq" and not groq_key:
-            raise ValueError("GROQ_API_KEY required for groq backend")
-        if backend == "openrouter" and not openrouter_key:
-            raise ValueError("OPENROUTER_API_KEY required for openrouter backend")
+        if not groq_key:
+            raise ValueError("GROQ_API_KEY required")
 
-    def _client_and_model(self, backend: str):
-        if backend == "groq":
-            return _make_groq_client(self._active_groq_key), GROQ_MODEL
-        else:
-            return _make_openrouter_client(self.openrouter_key), OPENROUTER_MODEL
+    def _client_and_model(self):
+        return _make_groq_client(self._active_groq_key), GROQ_MODEL
 
     # ------------------------------------------------------------------
-    # Prompt builders (shared by both backends)
+    # Prompt builders
     # ------------------------------------------------------------------
 
     def _build_system_prompt(self) -> str:
@@ -119,11 +143,16 @@ class ClueChainGenerator:
 
     def _build_user_prompt(self, paragraph: str, title: Optional[str], date: str) -> str:
         title_text = title if title else "ClueChain Challenge"
+        # Build an explicit banned-word list from the title for the prompt
+        title_words = sorted({w for w in re.findall(r"[a-zA-Z]+", title_text) if len(w) > 3},
+                             key=str.lower)
+        title_words_list = ", ".join(title_words) if title_words else "(none)"
         template = (_PROMPTS_DIR / "user_prompt_template.txt").read_text(encoding="utf-8")
         return (template
             .replace("{paragraph}", paragraph)
             .replace("{title}", title_text)
-            .replace("{date}", date))
+            .replace("{date}", date)
+            .replace("{title_words_list}", title_words_list))
 
     # ------------------------------------------------------------------
     # Validation helpers
@@ -186,34 +215,63 @@ class ClueChainGenerator:
     # ------------------------------------------------------------------
 
     def _generate_with_backend(self, paragraph: str, title: Optional[str],
-                                date: str, backend: str, max_retries: int) -> Dict:
-        """Try to generate using a specific backend, with retries for title violations."""
-        client, model = self._client_and_model(backend)
+                                date: str, max_retries: int) -> Dict:
+        """Try to generate using Groq, with retries for validation failures."""
+        client, model = self._client_and_model()
         title_text    = title or "ClueChain Challenge"
         system_prompt = self._build_system_prompt()
         user_prompt   = self._build_user_prompt(paragraph, title, date)
         last_error    = "Unknown error"
+        import time as _time
 
         for attempt in range(1, max_retries + 1):
             if attempt > 1:
                 print(f"       ↻ Retry {attempt}/{max_retries}...")
 
+            attempt_start = _time.time()
+            attempt_error = None
+
             try:
                 content = _call_llm(client, model, system_prompt, user_prompt)
             except Exception as api_err:
                 err_str = str(api_err).lower()
-                # 429 / rate-limit: try rotating to GROQ_API_KEY2 before giving up
-                if backend == "groq" and ("429" in err_str or "rate_limit" in err_str or "rate limit" in err_str):
-                    if self.groq_key2 and self._active_groq_key != self.groq_key2:
-                        print(f"       ⚠️  GROQ_API_KEY rate-limited — switching to GROQ_API_KEY2...")
-                        self._active_groq_key = self.groq_key2
-                        client, model = self._client_and_model(backend)
+                # 429 / rate-limit: rotate to the next available key before giving up
+                if "429" in err_str or "rate_limit" in err_str or "rate limit" in err_str:
+                    current_idx = self._groq_keys.index(self._active_groq_key) if self._active_groq_key in self._groq_keys else -1
+                    next_idx = current_idx + 1
+                    if next_idx < len(self._groq_keys):
+                        next_key = self._groq_keys[next_idx]
+                        key_num = next_idx + 1
+                        print(f"       ⚠️  Groq key rate-limited — switching to GROQ_API_KEY{key_num}...")
+                        self._active_groq_key = next_key
+                        client, model = self._client_and_model()
                         content = _call_llm(client, model, system_prompt, user_prompt)
                     else:
+                        attempt_error = str(api_err)
+                        last_error = attempt_error
+                        log_generation_failure(date, title_text,
+                                               _classify_gen_error(attempt_error),
+                                               attempt, _time.time() - attempt_start,
+                                               attempt_error)
                         raise
                 else:
+                    attempt_error = str(api_err)
+                    last_error = attempt_error
+                    log_generation_failure(date, title_text,
+                                           _classify_gen_error(attempt_error),
+                                           attempt, _time.time() - attempt_start,
+                                           attempt_error)
                     raise
-            result  = json.loads(content)
+
+            try:
+                result = json.loads(content)
+            except Exception as parse_err:
+                attempt_error = f"JSON parse error: {parse_err}"
+                last_error = attempt_error
+                log_generation_failure(date, title_text, "JSON_PARSE_ERROR",
+                                       attempt, _time.time() - attempt_start,
+                                       attempt_error)
+                continue
 
             if "text" not in result:
                 result["text"] = paragraph
@@ -222,54 +280,45 @@ class ClueChainGenerator:
 
             violations = self._title_word_violations(result, title_text)
             if violations:
+                attempt_error = f"Hidden words contain title words: {violations}"
+                last_error = attempt_error
                 print(f"       ⚠️  Title-word violation: {violations} — skipping (no retry)")
-                last_error = f"Hidden words contain title words: {violations}"
+                log_generation_failure(date, title_text, "TITLE_WORD_VIOLATION",
+                                       attempt, _time.time() - attempt_start,
+                                       attempt_error)
                 break
 
-            self._validate_json(result)
+            try:
+                self._validate_json(result)
+            except ValueError as val_err:
+                attempt_error = str(val_err)
+                last_error = attempt_error
+                log_generation_failure(date, title_text,
+                                       _classify_gen_error(attempt_error),
+                                       attempt, _time.time() - attempt_start,
+                                       attempt_error)
+                continue
+
             return result
 
-        raise ValueError(f"[{backend}] Failed after {max_retries} attempts: {last_error}")
+        raise ValueError(f"[groq] Failed after {max_retries} attempts: {last_error}")
 
     # ------------------------------------------------------------------
-    # Public generate (with automatic fallback)
+    # Public generate
     # ------------------------------------------------------------------
 
     def generate_json(self, paragraph: str, title: Optional[str] = None,
                       date: Optional[str] = None, max_retries: int = 3) -> Dict:
-        """
-        Generate ClueChain JSON. Uses the configured primary backend.
-        If the primary fails all retries, automatically falls back to OpenRouter
-        (if the key is available), rather than raising immediately.
-        """
+        """Generate ClueChain JSON using Groq."""
         if not date:
             date = datetime.now().strftime("%m-%d")
 
         title_text = title or "ClueChain Challenge"
         print(f"🚀 Generating ClueChain JSON...")
-        print(f"   Title: {title_text}  |  Date: {date}  |  Backend: {self.backend}")
+        print(f"   Title: {title_text}  |  Date: {date}  |  Backend: groq")
         print(f"   Paragraph length: {len(paragraph)} characters")
 
-        try:
-            return self._generate_with_backend(paragraph, title, date,
-                                               self.backend, max_retries)
-        except (ValueError, Exception) as primary_err:
-            # Determine fallback backend
-            fallback = "openrouter" if self.backend == "groq" else "groq"
-            fallback_key = (self.openrouter_key if fallback == "openrouter"
-                            else self.groq_key)
-
-            if not fallback_key:
-                raise ValueError(
-                    f"Primary backend ({self.backend}) failed and no fallback key available.\n"
-                    f"Error: {primary_err}"
-                )
-
-            print(f"\n   ⚠️  Primary backend ({self.backend}) failed: {primary_err}")
-            print(f"   🔄 Falling back to {fallback} ({OPENROUTER_MODEL if fallback == 'openrouter' else GROQ_MODEL})...")
-
-            return self._generate_with_backend(paragraph, title, date,
-                                               fallback, max_retries)
+        return self._generate_with_backend(paragraph, title, date, max_retries)
 
     # ------------------------------------------------------------------
     # Save / summary
@@ -335,13 +384,7 @@ def main():
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Examples:
-  # Default: Groq primary, OpenRouter fallback
   python generate_cluechain_json.py --file paragraph.txt --title "Food Science"
-
-  # Force OpenRouter (Gemini Flash Lite)
-  python generate_cluechain_json.py --file paragraph.txt --model openrouter
-
-  # Specify date and output directory
   python generate_cluechain_json.py --file paragraph.txt --date 11-20 --output ./data
         """
     )
@@ -349,31 +392,21 @@ Examples:
     parser.add_argument("--title",                        help="Title (defaults to 'ClueChain Challenge')")
     parser.add_argument("--date",                         help="Date in MM-DD format (defaults to today)")
     parser.add_argument("--output", default="./assets/data/puzzles/daily/mmdd", help="Output directory")
-    parser.add_argument("--model",  default="groq",
-                        choices=["groq", "openrouter"],
-                        help="Primary backend: groq (default) or openrouter")
     args = parser.parse_args()
 
     load_dotenv()
-    groq_key       = os.getenv("GROQ_API_KEY")
-    groq_key2      = os.getenv("GROQ_API_KEY2")
-    openrouter_key = os.getenv("OPENROUTER_API_KEY")
+    groq_key  = os.getenv("GROQ_API_KEY")
+    groq_key2 = os.getenv("GROQ_API_KEY2")
+    groq_key3 = os.getenv("GROQ_API_KEY3")
 
-    # Validate that the requested primary backend has a key
-    if args.model == "groq" and not groq_key:
+    if not groq_key:
         print("❌ Error: GROQ_API_KEY not set. Add it to your .env file.")
         sys.exit(1)
-    if args.model == "openrouter" and not openrouter_key:
-        print("❌ Error: OPENROUTER_API_KEY not set. Add it to your .env file.")
-        sys.exit(1)
 
-    # Warn if fallback key is missing (non-fatal)
-    if args.model == "groq" and groq_key2:
+    if groq_key2:
         print("ℹ️  GROQ_API_KEY2 found — will auto-rotate if primary key is rate-limited.")
-    if args.model == "groq" and not openrouter_key:
-        print("⚠️  OPENROUTER_API_KEY not set — no fallback available if Groq fails.")
-    if args.model == "openrouter" and not groq_key:
-        print("⚠️  GROQ_API_KEY not set — no fallback available if OpenRouter fails.")
+    if groq_key3:
+        print("ℹ️  GROQ_API_KEY3 found — will auto-rotate if secondary key is rate-limited.")
 
     try:
         with open(args.file, 'r', encoding='utf-8') as f:
@@ -392,8 +425,7 @@ Examples:
         generator = ClueChainGenerator(
             groq_key=groq_key,
             groq_key2=groq_key2,
-            openrouter_key=openrouter_key,
-            backend=args.model,
+            groq_key3=groq_key3,
         )
         result = generator.generate_json(paragraph, args.title, args.date)
 

@@ -1,10 +1,11 @@
 #!/bin/bash
 # Validate all batch-generated JSON files
 # Usage: ./scripts/validate_batch.sh [pattern]
-# Example: ./scripts/validate_batch.sh "13*.json"   (new MMDD format)
-#          ./scripts/validate_batch.sh "*-13-FOOD-*.json"  (old format, still in assets/data/)
+# Example: ./scripts/validate_batch.sh "12*.json"   (all day-12 files)
+#          ./scripts/validate_batch.sh "0112.json"   (single file)
+# Default: validates all *.json files in puzzles/daily/mmdd/
 
-PATTERN="${1:-13*.json}"
+PATTERN="${1:-*.json}"
 VALIDATOR="assets/data/json_validator.py"
 
 # Support new directory structure: check puzzles/daily/mmdd/ first, then assets/data/ fallback

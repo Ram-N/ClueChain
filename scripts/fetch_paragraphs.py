@@ -1,27 +1,55 @@
 #!/usr/bin/env python3
 """
-fetch_paragraphs.py — Wikipedia-based paragraph fetcher for ClueChain
+fetch_paragraphs.py — Multi-source paragraph fetcher for ClueChain
 
 Fetches N copyright-free paragraphs on a given topic from Wikipedia,
-scores them for interestingness, and writes a numbered-delimiter library
-file ready for batch_generate_cluechain_json.py.
+Project Gutenberg, or The Guardian, scores them for interestingness,
+and writes a numbered-delimiter library file ready for
+batch_generate_cluechain_json.py.
 
 Usage:
+    # Wikipedia (default — unchanged behaviour)
     python scripts/fetch_paragraphs.py --topic "philosophy" --count 12
-    python scripts/fetch_paragraphs.py --topic "maps" --count 12 --output assets/data/library/maps.txt
+
+    # Project Gutenberg (no API key needed)
+    python scripts/fetch_paragraphs.py --topic "adventure" --source gutenberg --count 10
+
+    # The Guardian (free API key from open-platform.theguardian.com)
+    python scripts/fetch_paragraphs.py --topic "science" --source guardian --guardian-key YOUR_KEY --count 10
+
+    # Dry-run (print to stdout, no file written)
     python scripts/fetch_paragraphs.py --topic "civics" --count 6 --dry-run
 
 Dependencies (pip install):
-    wikipediaapi wikipedia textstat spacy vaderSentiment
+    wikipediaapi wikipedia textstat spacy vaderSentiment requests
     python -m spacy download en_core_web_sm
 """
 
 import argparse
+import os
 import re
 import sys
 from dataclasses import dataclass, field
 from pathlib import Path
 from typing import List, Optional, Tuple
+
+
+def _load_dotenv(env_path: Path = Path(".env")) -> None:
+    """Load KEY=VALUE pairs from a .env file into os.environ (if not already set)."""
+    if not env_path.exists():
+        return
+    with env_path.open() as f:
+        for line in f:
+            line = line.strip()
+            if not line or line.startswith("#") or "=" not in line:
+                continue
+            key, _, value = line.partition("=")
+            key = key.strip()
+            value = value.strip().strip('"').strip("'")
+            os.environ.setdefault(key, value)
+
+
+_load_dotenv()
 
 
 # ---------------------------------------------------------------------------
@@ -44,22 +72,12 @@ class Candidate:
 # Lazy imports (give helpful errors if deps missing)
 # ---------------------------------------------------------------------------
 
-def _import_deps():
+def _import_deps(source: str = "wikipedia"):
+    """Import dependencies appropriate for the chosen source."""
     missing = []
     mods = {}
 
-    try:
-        import wikipediaapi
-        mods["wikipediaapi"] = wikipediaapi
-    except ImportError:
-        missing.append("wikipediaapi")
-
-    try:
-        import wikipedia
-        mods["wikipedia"] = wikipedia
-    except ImportError:
-        missing.append("wikipedia")
-
+    # Always needed for scoring
     try:
         import textstat
         mods["textstat"] = textstat
@@ -78,6 +96,28 @@ def _import_deps():
     except ImportError:
         missing.append("vaderSentiment")
 
+    # Wikipedia-specific deps
+    if source == "wikipedia":
+        try:
+            import wikipediaapi
+            mods["wikipediaapi"] = wikipediaapi
+        except ImportError:
+            missing.append("wikipediaapi")
+
+        try:
+            import wikipedia
+            mods["wikipedia"] = wikipedia
+        except ImportError:
+            missing.append("wikipedia")
+
+    # Gutenberg and Guardian both just need requests
+    if source in ("gutenberg", "guardian"):
+        try:
+            import requests
+            mods["requests"] = requests
+        except ImportError:
+            missing.append("requests")
+
     if missing:
         print("Missing dependencies. Install with:")
         print(f"  pip install {' '.join(missing)}")
@@ -86,6 +126,44 @@ def _import_deps():
         sys.exit(1)
 
     return mods
+
+
+# ---------------------------------------------------------------------------
+# Shared paragraph utilities
+# ---------------------------------------------------------------------------
+
+_CITATION_RE = re.compile(r'\[\d+\]')
+_CITATION_PATTERNS = re.compile(
+    r'ISBN\s[\d\-X]+|doi:\S+|S2CID\s\d+|\(\d{4}\)\.'
+)
+
+
+def _clean_text(text: str) -> str:
+    text = _CITATION_RE.sub('', text)
+    text = re.sub(r'\s+', ' ', text).strip()
+    return text
+
+
+def _passes_para_filters(para: str, min_chars: int, max_chars: int, max_words: Optional[int]) -> bool:
+    """Return True if paragraph passes length and quality filters."""
+    if len(para) < 80:
+        return False
+    if not any(c in para for c in '.!?'):
+        return False
+    if bool(_CITATION_PATTERNS.search(para)):
+        return False
+    if not (min_chars <= len(para) <= max_chars):
+        return False
+    if max_words is not None and len(para.split()) > max_words:
+        return False
+    return True
+
+
+def _split_into_paras(text: str) -> List[str]:
+    """Split a block of text into paragraph candidates."""
+    # Normalize Windows line endings before splitting
+    text = text.replace('\r\n', '\n')
+    return [_clean_text(p) for p in text.split('\n\n') if p.strip()]
 
 
 # ---------------------------------------------------------------------------
@@ -104,70 +182,31 @@ def _make_wiki(mods):
 def _extract_paragraphs_from_sections(page, min_chars: int, max_chars: int, max_words: Optional[int]) -> List[Tuple[str, str, str]]:
     """
     Recursively walk page sections and extract (article_title, section_title, text) tuples.
-    Filters by char length, optional word count, and skips section-header-like lines.
     """
     results = []
-    citation_re = re.compile(r'\[\d+\]')
 
-    # Section titles that are purely navigational / reference noise
     _SKIP_SECTIONS = {
         "references", "external links", "bibliography", "further reading",
         "see also", "notes", "citations", "sources", "footnotes",
     }
 
-    # Patterns that indicate citation/reference dumps
-    _CITATION_PATTERNS = re.compile(
-        r'ISBN\s[\d\-X]+|doi:\S+|S2CID\s\d+|\(\d{4}\)\.'
-    )
-
-    def _clean(text: str) -> str:
-        text = citation_re.sub('', text)
-        text = re.sub(r'\s+', ' ', text).strip()
-        return text
-
-    def _looks_like_header(para: str) -> bool:
-        """Skip short lines without sentence-ending punctuation."""
-        if len(para) < 80:
-            return True
-        if not any(c in para for c in '.!?'):
-            return True
-        return False
-
-    def _looks_like_citation_dump(para: str) -> bool:
-        """Reject paragraphs that are reference lists or citation noise."""
-        return bool(_CITATION_PATTERNS.search(para))
-
-    def _passes_filters(para: str) -> bool:
-        if _looks_like_header(para):
-            return False
-        if _looks_like_citation_dump(para):
-            return False
-        if not (min_chars <= len(para) <= max_chars):
-            return False
-        if max_words is not None and len(para.split()) > max_words:
-            return False
-        return True
-
     def _walk(section, depth=0):
         raw = section.text.strip() if depth > 0 else ""
         title_part = section.title if depth > 0 else page.title
 
-        # Skip navigational / reference sections by title
         if depth > 0 and title_part.strip().lower() in _SKIP_SECTIONS:
             return
 
         if raw:
-            for para in raw.split('\n\n'):
-                para = _clean(para)
-                if _passes_filters(para):
+            for para in _split_into_paras(raw):
+                if _passes_para_filters(para, min_chars, max_chars, max_words):
                     results.append((page.title, title_part, para))
 
         for subsection in section.sections:
             _walk(subsection, depth + 1)
 
-    # Walk top-level text (summary)
-    summary = _clean(page.summary)
-    if _passes_filters(summary):
+    summary = _clean_text(page.summary)
+    if _passes_para_filters(summary, min_chars, max_chars, max_words):
         results.append((page.title, "Overview", summary))
 
     for section in page.sections:
@@ -176,7 +215,7 @@ def _extract_paragraphs_from_sections(page, min_chars: int, max_chars: int, max_
     return results
 
 
-def _fetch_candidates(topic: str, count: int, min_chars: int, max_chars: int, max_words: Optional[int], mods) -> List[Tuple[str, str, str]]:
+def fetch_from_wikipedia(topic: str, count: int, min_chars: int, max_chars: int, max_words: Optional[int], mods) -> List[Tuple[str, str, str]]:
     """
     Fetch (article_title, section, paragraph_text) tuples from Wikipedia.
     Pulls from primary article first; searches related articles if needed.
@@ -194,16 +233,13 @@ def _fetch_candidates(topic: str, count: int, min_chars: int, max_chars: int, ma
         page = wiki.page(title)
         if not page.exists():
             return
-        # Skip disambiguation pages (they have very short text)
         if len(page.summary) < 200:
             return
         extracted = _extract_paragraphs_from_sections(page, min_chars, max_chars, max_words)
         candidates.extend(extracted)
 
-    # 1) Try exact match
     _add_from_page(topic)
 
-    # 2) If still short, search for related articles
     if len(candidates) < target:
         try:
             search_results = mods["wikipedia"].search(topic, results=10)
@@ -212,9 +248,300 @@ def _fetch_candidates(topic: str, count: int, min_chars: int, max_chars: int, ma
                     break
                 _add_from_page(title)
         except Exception:
-            pass  # network hiccup — use what we have
+            pass
 
     return candidates
+
+
+# ---------------------------------------------------------------------------
+# Gutenberg fetching
+# ---------------------------------------------------------------------------
+
+def _gutendex_search(topic: str, requests) -> list:
+    """
+    Search Gutendex with progressively looser queries until we find results.
+
+    Strategy:
+    1. Try the full topic string as-is.
+    2. Try each individual word in the topic (picking the most specific).
+    3. Try the first word alone.
+
+    Returns the raw results list (may be empty).
+    """
+    queries_to_try = _build_search_variants(topic)
+
+    for query in queries_to_try:
+        print(f"  Searching Gutendex for '{query}'...")
+        try:
+            resp = requests.get(
+                "https://gutendex.com/books",
+                params={"search": query, "languages": "en"},
+                timeout=15,
+            )
+            resp.raise_for_status()
+            results = resp.json().get("results", [])
+        except Exception as e:
+            print(f"  Gutendex search failed: {e}")
+            return []
+
+        if results:
+            print(f"  Found {len(results)} book(s) with query '{query}'")
+            return results
+
+    return []
+
+
+def _build_search_variants(topic: str) -> List[str]:
+    """
+    Return a list of search strings to try, from most specific to broadest.
+
+    Examples:
+      "astronomy finding"  → ["astronomy finding", "astronomy", "finding"]
+      "dickens"            → ["dickens"]
+      "french revolution"  → ["french revolution", "french", "revolution"]
+    """
+    topic = topic.strip()
+    words = topic.split()
+    variants = [topic]  # always try the full string first
+
+    if len(words) > 1:
+        # Try each word, longest first (more specific words tend to be longer)
+        for word in sorted(set(words), key=len, reverse=True):
+            candidate = word.strip()
+            if candidate and candidate not in variants:
+                variants.append(candidate)
+
+    return variants
+
+
+def fetch_from_gutenberg(topic: str, count: int, min_chars: int, max_chars: int, max_words: Optional[int], mods) -> List[Tuple[str, str, str]]:
+    """
+    Fetch paragraph candidates from Project Gutenberg via the Gutendex API.
+
+    1. Searches Gutendex for books matching the topic (with fallback queries).
+    2. Picks the top books by download count.
+    3. Downloads the plain-text file for each book.
+    4. Splits into paragraphs, applies standard filters, and caps per-book
+       output so results come from diverse sources.
+
+    Returns list of (book_title, author, paragraph_text) tuples.
+    """
+    requests = mods["requests"]
+    target = count * 4
+    candidates = []
+
+    results = _gutendex_search(topic, requests)
+
+    if not results:
+        print(f"  No Gutenberg books found for topic '{topic}'.")
+        return []
+
+    # Sort by download count descending, take top 8
+    results.sort(key=lambda b: b.get("download_count", 0), reverse=True)
+    books_to_try = results[:8]
+
+    # Cap how many paragraphs we take from any single book so we get variety.
+    # Aim for at least 2–3 paragraphs per book across ~8 books.
+    per_book_cap = max(3, (target // max(1, len(books_to_try))) + 2)
+
+    for book in books_to_try:
+        if len(candidates) >= target:
+            break
+
+        book_title = book.get("title", "Unknown Title")
+        authors = book.get("authors", [])
+        author_name = authors[0].get("name", "Unknown Author") if authors else "Unknown Author"
+        formats = book.get("formats", {})
+
+        # Find a plain-text URL — prefer UTF-8
+        txt_url = (
+            formats.get("text/plain; charset=utf-8")
+            or formats.get("text/plain; charset=us-ascii")
+            or formats.get("text/plain")
+        )
+
+        if not txt_url:
+            continue
+
+        print(f"  Fetching: {book_title} ({author_name}) ...")
+        try:
+            txt_resp = requests.get(txt_url, timeout=30)
+            txt_resp.raise_for_status()
+            raw_text = txt_resp.text
+        except Exception as e:
+            print(f"    Failed to fetch text: {e}")
+            continue
+
+        # Strip Project Gutenberg header/footer boilerplate
+        raw_text = _strip_gutenberg_boilerplate(raw_text)
+
+        # Split into paragraphs, filter, and cap per book for diversity
+        book_paras = []
+        for para in _split_into_paras(raw_text):
+            if _passes_para_filters(para, min_chars, max_chars, max_words):
+                book_paras.append((book_title, author_name, para))
+                if len(book_paras) >= per_book_cap:
+                    break
+
+        candidates.extend(book_paras)
+        print(f"    Got {len(book_paras)} paragraphs from this book ({len(candidates)} total)")
+
+    return candidates
+
+
+def _strip_gutenberg_boilerplate(text: str) -> str:
+    """
+    Remove the standard Project Gutenberg header and footer from plain-text files.
+    The content between these markers is the actual book text.
+    """
+    # Header ends at first occurrence of "*** START OF"
+    start_marker = re.search(r'\*{3}\s*START OF [^\n]+\n', text, re.IGNORECASE)
+    if start_marker:
+        text = text[start_marker.end():]
+
+    # Footer starts at "*** END OF"
+    end_marker = re.search(r'\*{3}\s*END OF [^\n]+', text, re.IGNORECASE)
+    if end_marker:
+        text = text[:end_marker.start()]
+
+    return text
+
+
+# ---------------------------------------------------------------------------
+# Guardian fetching
+# ---------------------------------------------------------------------------
+
+def _guardian_body_to_paras(body: str, min_chars: int, max_chars: int) -> List[str]:
+    """
+    Guardian's bodyText arrives as one flat string with no newlines.
+    Split it into sentence-window chunks that fit within [min_chars, max_chars].
+
+    Strategy: tokenise into sentences, then greedily accumulate sentences
+    into a chunk until adding the next sentence would exceed max_chars.
+    """
+    # Sentence splitter — handles Mr./Mrs./Dr. abbreviations crudely but well enough
+    sentence_re = re.compile(r'(?<=[.!?])\s+(?=[A-Z"\'(])')
+    sentences = [s.strip() for s in sentence_re.split(body) if s.strip()]
+
+    chunks = []
+    current: List[str] = []
+    current_len = 0
+
+    for sent in sentences:
+        added_len = len(sent) + (1 if current else 0)  # +1 for the joining space
+        if current and current_len + added_len > max_chars:
+            chunk = ' '.join(current)
+            if len(chunk) >= min_chars:
+                chunks.append(chunk)
+            current = [sent]
+            current_len = len(sent)
+        else:
+            current.append(sent)
+            current_len += added_len
+
+    if current:
+        chunk = ' '.join(current)
+        if len(chunk) >= min_chars:
+            chunks.append(chunk)
+
+    return chunks
+
+
+def fetch_from_guardian(topic: str, api_key: str, count: int, min_chars: int, max_chars: int, max_words: Optional[int], mods) -> List[Tuple[str, str, str]]:
+    """
+    Fetch paragraph candidates from The Guardian API.
+
+    1. Searches for articles matching the topic.
+    2. Extracts bodyText from each article (arrives as one flat string).
+    3. Splits into sentence-window chunks and applies standard filters.
+
+    Returns list of (headline, "The Guardian", paragraph_text) tuples.
+    Requires a free API key from open-platform.theguardian.com.
+    """
+    requests = mods["requests"]
+    target = count * 4
+    candidates = []
+
+    print(f"  Searching The Guardian for '{topic}'...")
+    page_num = 1
+
+    while len(candidates) < target:
+        try:
+            resp = requests.get(
+                "https://content.guardianapis.com/search",
+                params={
+                    "q": topic,
+                    "show-fields": "bodyText,headline",
+                    "page-size": 10,
+                    "page": page_num,
+                    "lang": "en",
+                    "api-key": api_key,
+                },
+                timeout=15,
+            )
+            resp.raise_for_status()
+            data = resp.json()
+        except Exception as e:
+            print(f"  Guardian API request failed: {e}")
+            break
+
+        results = data.get("response", {}).get("results", [])
+        if not results:
+            break
+
+        for article in results:
+            fields = article.get("fields", {})
+            headline = fields.get("headline") or article.get("webTitle", "The Guardian")
+            body = fields.get("bodyText", "")
+
+            if not body:
+                continue
+
+            # Guardian bodyText is a flat string — split into sentence windows
+            for para in _guardian_body_to_paras(body, min_chars, max_chars):
+                if _passes_para_filters(para, min_chars, max_chars, max_words):
+                    candidates.append((headline, "The Guardian", para))
+
+        total_pages = data.get("response", {}).get("pages", 1)
+        if page_num >= total_pages or page_num >= 5:
+            break
+        page_num += 1
+
+    print(f"  Collected {len(candidates)} Guardian candidates")
+    return candidates
+
+
+# ---------------------------------------------------------------------------
+# Source dispatcher
+# ---------------------------------------------------------------------------
+
+def fetch_candidates(
+    source: str,
+    topic: str,
+    count: int,
+    min_chars: int,
+    max_chars: int,
+    max_words: Optional[int],
+    mods,
+    guardian_key: Optional[str] = None,
+) -> List[Tuple[str, str, str]]:
+    """Dispatch to the appropriate source fetcher."""
+    if source == "wikipedia":
+        fetch_count = count * 3
+        return fetch_from_wikipedia(topic, fetch_count, min_chars, max_chars, max_words, mods)
+    elif source == "gutenberg":
+        return fetch_from_gutenberg(topic, count, min_chars, max_chars, max_words, mods)
+    elif source == "guardian":
+        key = guardian_key or os.environ.get("GUARDIAN_API_KEY")
+        if not key:
+            print("ERROR: Guardian API key not found.")
+            print("  Set GUARDIAN_API_KEY in .env, or pass --guardian-key YOUR_KEY")
+            print("  Get a free key at: https://open-platform.theguardian.com/access/")
+            sys.exit(1)
+        return fetch_from_guardian(topic, key, count, min_chars, max_chars, max_words, mods)
+    else:
+        print(f"ERROR: Unknown source '{source}'. Choose from: wikipedia, gutenberg, guardian")
+        sys.exit(1)
 
 
 # ---------------------------------------------------------------------------
@@ -244,7 +571,6 @@ def _score_candidate(text: str, topic_words: List[str], nlp, vader, mods) -> Tup
 
     # --- Flesch reading ease (target 50-70) ---
     fk_ease = mods["textstat"].flesch_reading_ease(text)
-    # Normalise: 50-70 → 1.0, drops off outside that band
     if 50 <= fk_ease <= 70:
         fk_norm = 1.0
     elif fk_ease < 50:
@@ -253,15 +579,13 @@ def _score_candidate(text: str, topic_words: List[str], nlp, vader, mods) -> Tup
         fk_norm = max(0.0, (100 - fk_ease) / 30.0)
 
     # --- Named entity density ---
-    doc = nlp(text[:1000])  # limit for speed
+    doc = nlp(text[:1000])
     ne_density = len(doc.ents) / max(1, word_count)
-    # Target density 0.04-0.12; normalise to 0-1
     ne_norm = min(1.0, ne_density / 0.10)
 
     # --- Lexical diversity ---
     lower_words = [w.lower() for w in words]
     lex_diversity = len(set(lower_words)) / max(1, len(lower_words))
-    # Higher is better; normalise (floor at 0.5, ceiling at 0.9)
     lex_norm = min(1.0, max(0.0, (lex_diversity - 0.4) / 0.4))
 
     # --- Sentence variety (std dev of sentence lengths) ---
@@ -273,7 +597,6 @@ def _score_candidate(text: str, topic_words: List[str], nlp, vader, mods) -> Tup
         std_dev = variance ** 0.5
     else:
         std_dev = 0.0
-    # Target std_dev ≥ 5; cap at 15
     sent_norm = min(1.0, std_dev / 15.0)
 
     # --- Topic relevance ---
@@ -286,7 +609,6 @@ def _score_candidate(text: str, topic_words: List[str], nlp, vader, mods) -> Tup
     vader_scores = vader.polarity_scores(text)
     sentiment_norm = abs(vader_scores["compound"])
 
-    # Weighted sum
     score = (
         0.20 * wc_score
         + 0.20 * fk_norm
@@ -339,6 +661,47 @@ def score_candidates(
     return deduped
 
 
+def diversify_candidates(candidates: List[Candidate], count: int) -> List[Candidate]:
+    """
+    Return up to `count` candidates chosen to maximise source diversity.
+
+    Works by round-robining through article titles in score order:
+    pick the best-scoring unused candidate from each title in turn until
+    we have enough. This prevents any one article/book from dominating.
+    """
+    if not candidates:
+        return []
+
+    # Group by article title (preserving score order within each group)
+    from collections import defaultdict
+    groups: dict = defaultdict(list)
+    for c in candidates:
+        groups[c.article_title].append(c)
+
+    # Order the groups by the best score in each group
+    ordered_titles = sorted(groups.keys(), key=lambda t: groups[t][0].score, reverse=True)
+    group_iters = {t: iter(groups[t]) for t in ordered_titles}
+
+    selected = []
+    while len(selected) < count:
+        made_progress = False
+        for title in ordered_titles:
+            if len(selected) >= count:
+                break
+            it = group_iters.get(title)
+            if it is None:
+                continue
+            try:
+                selected.append(next(it))
+                made_progress = True
+            except StopIteration:
+                group_iters[title] = None
+        if not made_progress:
+            break  # all groups exhausted
+
+    return selected
+
+
 # ---------------------------------------------------------------------------
 # Output formatting
 # ---------------------------------------------------------------------------
@@ -383,23 +746,33 @@ def print_preview_table(candidates: List[Candidate]):
 
 def parse_args():
     p = argparse.ArgumentParser(
-        description="Fetch Wikipedia paragraphs for a ClueChain library file."
+        description="Fetch paragraphs for a ClueChain library file (Wikipedia, Gutenberg, or Guardian)."
     )
     p.add_argument("--topic", required=True, help='Search topic, e.g. "philosophy"')
     p.add_argument("--count", type=int, default=12, help="Number of paragraphs to fetch (default: 12)")
+    p.add_argument("--source", default="wikipedia", choices=["wikipedia", "gutenberg", "guardian"],
+                   help="Paragraph source (default: wikipedia)")
+    p.add_argument("--guardian-key", dest="guardian_key", default=None,
+                   help="The Guardian API key (falls back to GUARDIAN_API_KEY env var / .env)")
     p.add_argument("--output", help="Output file path (default: assets/data/library/{slug}.txt)")
-    p.add_argument("--min-chars", type=int, default=450, dest="min_chars", help="Min paragraph length in characters (default: 450)")
-    p.add_argument("--max-chars", type=int, default=900, dest="max_chars", help="Max paragraph length in characters (default: 900)")
-    p.add_argument("--max-words", type=int, default=120, dest="max_words", help="Max paragraph length in words (default: 120)")
-    p.add_argument("--min-score", type=float, default=40.0, dest="min_score", help="Discard paragraphs below this score (default: 40)")
-    p.add_argument("--dry-run", action="store_true", dest="dry_run", help="Print output to stdout, do not write file")
-    p.add_argument("--append", action="store_true", help="Append new paragraphs to existing file instead of overwriting")
+    p.add_argument("--min-chars", type=int, default=450, dest="min_chars",
+                   help="Min paragraph length in characters (default: 450)")
+    p.add_argument("--max-chars", type=int, default=900, dest="max_chars",
+                   help="Max paragraph length in characters (default: 900)")
+    p.add_argument("--max-words", type=int, default=120, dest="max_words",
+                   help="Max paragraph length in words (default: 120)")
+    p.add_argument("--min-score", type=float, default=40.0, dest="min_score",
+                   help="Discard paragraphs below this score (default: 40)")
+    p.add_argument("--dry-run", action="store_true", dest="dry_run",
+                   help="Print output to stdout, do not write file")
+    p.add_argument("--append", action="store_true",
+                   help="Append new paragraphs to existing file instead of overwriting")
     return p.parse_args()
 
 
 def main():
     args = parse_args()
-    mods = _import_deps()
+    mods = _import_deps(args.source)
 
     topic = args.topic
     count = args.count
@@ -412,6 +785,7 @@ def main():
         out_path = Path("assets/data/library") / f"{slug}.txt"
 
     print(f"Topic     : {topic}")
+    print(f"Source    : {args.source}")
     print(f"Count     : {count}")
     print(f"Char range: {args.min_chars}–{args.max_chars}")
     print(f"Max words : {args.max_words}")
@@ -427,7 +801,6 @@ def main():
     existing_count = 0
     if args.append and out_path.exists():
         existing_text = out_path.read_text(encoding="utf-8")
-        # Each paragraph block starts after a blank line following the Title: line
         for block in existing_text.split('\n\n'):
             block = block.strip()
             if block and not block.startswith(('Title:', '\n')) and not re.match(r'^\d+\.$', block):
@@ -435,10 +808,24 @@ def main():
                 existing_count += 1
         print(f"Existing file has ~{existing_count} paragraphs — will deduplicate against them.")
 
-    # Fetch (fetch extra to account for dedup losses in append mode)
-    fetch_count = count * 4 if args.append else count * 3
-    print("Fetching paragraphs from Wikipedia...")
-    raw = _fetch_candidates(topic, fetch_count, args.min_chars, args.max_chars, args.max_words, mods)
+    # Fetch
+    source_label = {
+        "wikipedia": "Wikipedia",
+        "gutenberg": "Project Gutenberg",
+        "guardian": "The Guardian",
+    }[args.source]
+    print(f"Fetching paragraphs from {source_label}...")
+
+    raw = fetch_candidates(
+        source=args.source,
+        topic=topic,
+        count=count * 4 if args.append else count,
+        min_chars=args.min_chars,
+        max_chars=args.max_chars,
+        max_words=args.max_words,
+        mods=mods,
+        guardian_key=args.guardian_key,
+    )
     print(f"  Found {len(raw)} raw candidates")
 
     if not raw:
@@ -459,8 +846,8 @@ def main():
         print(f"WARNING: Only {len(scored)} paragraphs available (requested {count}).")
         print("  Try lowering --min-score or broadening char range.")
 
-    selected = scored[:count]
-    print(f"  Selected top {len(selected)}")
+    selected = diversify_candidates(scored, count)
+    print(f"  Selected {len(selected)} (diversity-balanced across sources)")
 
     # Preview
     print_preview_table(selected)

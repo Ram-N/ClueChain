@@ -1,10 +1,14 @@
 Generate a ClueChain JSON file for the following paragraph.
 
-PARAGRAPH_TEXT:
-{paragraph}
-
 TITLE: {title}
 DATE: {date}
+
+🚫 TITLE-WORD BAN — These words (and their inflections) are FORBIDDEN as hidden words:
+{title_words_list}
+Do NOT choose any of these as a hidden word, no matter how relevant they seem.
+
+PARAGRAPH_TEXT:
+{paragraph}
 
 Return ONLY the JSON object with this structure:
 {
@@ -30,5 +34,5 @@ Remember:
 - 3 clues per word (Indirect, Suggestive, Straight)
 - Points must be within valid ranges for each type
 - Check for 2-3 word thematic groups and link them properly
-- NEVER use a word from the title "{title}" as a hidden word
+- 🚫 FORBIDDEN hidden words: {title_words_list} — these came from the title
 - NEVER write the hidden word into any of its own clues (not even as an example)
