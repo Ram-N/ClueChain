@@ -1,0 +1,242 @@
+{
+  "id": "ClueChain-10-14",
+  "date": "10-14",
+  "title": "Anna Karenina by Leo Tolstoy (1878)",
+  "text": "“Happy families are all alike; every unhappy family is unhappy in its own way.”\nTalk about a universal truth. No matter what the reader’s native tongue, they can understand the Russian author’s point. Tolstoy weaves a narrative about an affair that could have been pure soap opera but instead explores the social mores of the 19th century while also examining the push and pull of societal norms and desires.\nThis book is best for anyone who wants a heavy read with historical heft.",
+  "hiddenWords": [
+    {
+      "word": "Happy",
+      "difficulty": "Easy",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "A feeling of joy, a state of bliss, a smile on the face, a gentle kiss.",
+          "points": 4
+        },
+        {
+          "type": "Suggestive",
+          "clue": "How you feel when good things happen, or when you are content.",
+          "points": 2
+        },
+        {
+          "type": "Straight",
+          "clue": "Feeling or showing pleasure or contentment.",
+          "points": 1
+        }
+      ],
+      "related_words": [
+        "unhappy"
+      ]
+    },
+    {
+      "word": "families",
+      "difficulty": "Intermediate",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "A group of kin, related by blood or by heart, playing their roles, each a vital part.",
+          "points": 5
+        },
+        {
+          "type": "Suggestive",
+          "clue": "Groups of people related by birth, marriage, or adoption, living together.",
+          "points": 3
+        },
+        {
+          "type": "Straight",
+          "clue": "A group consisting of parents and children living together in a household.",
+          "points": 1
+        }
+      ],
+      "related_words": []
+    },
+    {
+      "word": "alike",
+      "difficulty": "Intermediate",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "When two things are similar, twin-like in their demeanor.",
+          "points": 5
+        },
+        {
+          "type": "Suggestive",
+          "clue": "Meaning similar to each other, or in the same way.",
+          "points": 3
+        },
+        {
+          "type": "Straight",
+          "clue": "Similar to each other.",
+          "points": 1
+        }
+      ],
+      "related_words": []
+    },
+    {
+      "word": "unhappy",
+      "difficulty": "Easy",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "A feeling of sadness, a state of gloom, overshadowed by a cloud of impending doom.",
+          "points": 4
+        },
+        {
+          "type": "Suggestive",
+          "clue": "The opposite of happy, feeling or showing sorrow.",
+          "points": 2
+        },
+        {
+          "type": "Straight",
+          "clue": "Not happy; sad or miserable.",
+          "points": 1
+        }
+      ],
+      "related_words": [
+        "Happy"
+      ]
+    },
+    {
+      "word": "universal",
+      "difficulty": "Hard",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "Spanning all, embracing the whole, a truth that echoes from soul to soul.",
+          "points": 7
+        },
+        {
+          "type": "Suggestive",
+          "clue": "Applicable to all cases; true for everyone or everything.",
+          "points": 4
+        },
+        {
+          "type": "Straight",
+          "clue": "Relating to or affecting all people or things in the world or in a particular group.",
+          "points": 2
+        }
+      ],
+      "related_words": [
+        "truth"
+      ]
+    },
+    {
+      "word": "truth",
+      "difficulty": "Intermediate",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "It can be stranger than fiction, a reality unveiled without contradiction.",
+          "points": 5
+        },
+        {
+          "type": "Suggestive",
+          "clue": "That which is in accordance with fact or reality.",
+          "points": 3
+        },
+        {
+          "type": "Straight",
+          "clue": "The quality or state of being true.",
+          "points": 1
+        }
+      ],
+      "related_words": [
+        "universal"
+      ]
+    },
+    {
+      "word": "native",
+      "difficulty": "Intermediate",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "Born here, belonging here, growing from the ground, ever so dear.",
+          "points": 5
+        },
+        {
+          "type": "Suggestive",
+          "clue": "Relating to the place or environment in which a person was born or a thing originated.",
+          "points": 3
+        },
+        {
+          "type": "Straight",
+          "clue": "Associated with the place of one's birth.",
+          "points": 1
+        }
+      ],
+      "related_words": [
+        "tongue"
+      ]
+    },
+    {
+      "word": "tongue",
+      "difficulty": "Easy",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "It can taste, or speak, or even be a language unique.",
+          "points": 4
+        },
+        {
+          "type": "Suggestive",
+          "clue": "The fleshy muscular organ in the mouth, used for tasting, licking, and speaking.",
+          "points": 2
+        },
+        {
+          "type": "Straight",
+          "clue": "The flexible muscular organ in the mouth that is used for tasting, eating, and speaking.",
+          "points": 1
+        }
+      ],
+      "related_words": [
+        "native"
+      ]
+    },
+    {
+      "word": "explores",
+      "difficulty": "Intermediate",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "Ventures into the unknown, a journey of discovery, widely sown.",
+          "points": 5
+        },
+        {
+          "type": "Suggestive",
+          "clue": "To travel through (an unfamiliar area) in order to learn about it.",
+          "points": 3
+        },
+        {
+          "type": "Straight",
+          "clue": "To travel in or through (an unfamiliar country or area) in order to learn about or familiarize oneself with it.",
+          "points": 1
+        }
+      ],
+      "related_words": []
+    },
+    {
+      "word": "desires",
+      "difficulty": "Hard",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "Inner longings, a burning flame, a yearning heart, whispering a name.",
+          "points": 7
+        },
+        {
+          "type": "Suggestive",
+          "clue": "Strong feelings of wanting something or wishing for something to happen.",
+          "points": 4
+        },
+        {
+          "type": "Straight",
+          "clue": "A strong feeling of wanting to have something or wishing for something to happen.",
+          "points": 2
+        }
+      ],
+      "related_words": [
+        "norms"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,245 @@
+{
+  "id": "ClueChain-01-14",
+  "date": "01-14",
+  "title": "The Glass Jar by Sylvia Plath (1963)",
+  "text": "“It was a queer, sultry summer, the summer they electrocuted the Rosenbergs, and I didn't know what I was doing in New York.”\nSo much of successful storytelling is about establishing time and place, and Plath does this beautifully with her opening line that delivers, if not an actual date and address, about as close as you can come. Her novel explores this clearly unsure narrator’s descent into depression, partly due to societal expectations.",
+  "hiddenWords": [
+    {
+      "word": "sultry",
+      "difficulty": "Intermediate",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "Hot and humid, a stifling embrace, or alluringly passionate, with a certain grace.",
+          "points": 5
+        },
+        {
+          "type": "Suggestive",
+          "clue": "Describes weather that is hot and humid, or a person who is attractive in a passionate way.",
+          "points": 3
+        },
+        {
+          "type": "Straight",
+          "clue": "(Of the air or weather) hot and humid.",
+          "points": 1
+        }
+      ],
+      "related_words": [
+        "summer"
+      ]
+    },
+    {
+      "word": "summer",
+      "difficulty": "Easy",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "The season of sun, of long days and bright, where warmth embraces, dispelling the night.",
+          "points": 4
+        },
+        {
+          "type": "Suggestive",
+          "clue": "The warmest season of the year, between spring and autumn.",
+          "points": 2
+        },
+        {
+          "type": "Straight",
+          "clue": "The warmest season of the year, in the northern hemisphere from June to August and in the southern hemisphere from December to February.",
+          "points": 1
+        }
+      ],
+      "related_words": [
+        "sultry"
+      ]
+    },
+    {
+      "word": "electrocuted",
+      "difficulty": "Hard",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "Given a shocking end, by currents strong, life's final spark, where nothing can go wrong, but wrong it went.",
+          "points": 7
+        },
+        {
+          "type": "Suggestive",
+          "clue": "Killed by electric shock.",
+          "points": 4
+        },
+        {
+          "type": "Straight",
+          "clue": "Killed (someone) by electric shock.",
+          "points": 2
+        }
+      ],
+      "related_words": []
+    },
+    {
+      "word": "knew",
+      "difficulty": "Easy",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "Past tense of understanding, a fact once grasped, knowledge acquired, firmly clasped.",
+          "points": 4
+        },
+        {
+          "type": "Suggestive",
+          "clue": "Had information or understanding about something.",
+          "points": 2
+        },
+        {
+          "type": "Straight",
+          "clue": "Past tense of know; had information or understanding.",
+          "points": 1
+        }
+      ],
+      "related_words": []
+    },
+    {
+      "word": "storytelling",
+      "difficulty": "Intermediate",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "The ancient art, weaving tales from afar, engaging listeners, like a guiding star.",
+          "points": 5
+        },
+        {
+          "type": "Suggestive",
+          "clue": "The activity of telling or writing stories.",
+          "points": 3
+        },
+        {
+          "type": "Straight",
+          "clue": "The activity or occupation of composing text for books, articles, etc.",
+          "points": 1
+        }
+      ],
+      "related_words": []
+    },
+    {
+      "word": "establishing",
+      "difficulty": "Hard",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "Laying foundations, setting things firm, creating a basis, weathering life's storm.",
+          "points": 7
+        },
+        {
+          "type": "Suggestive",
+          "clue": "To set up (an organization, system, or set of rules) on a firm or permanent basis.",
+          "points": 4
+        },
+        {
+          "type": "Straight",
+          "clue": "Setting up (an organization, system, or set of rules) on a firm or permanent basis.",
+          "points": 2
+        }
+      ],
+      "related_words": [
+        "time",
+        "place"
+      ]
+    },
+    {
+      "word": "time",
+      "difficulty": "Easy",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "A flowing river, forever unbound, measuring moments, without a sound.",
+          "points": 4
+        },
+        {
+          "type": "Suggestive",
+          "clue": "The indefinite continued progress of existence and events in the past, present, and future regarded as a whole.",
+          "points": 2
+        },
+        {
+          "type": "Straight",
+          "clue": "The indefinite continued progress of existence and events.",
+          "points": 1
+        }
+      ],
+      "related_words": [
+        "establishing",
+        "place"
+      ]
+    },
+    {
+      "word": "place",
+      "difficulty": "Easy",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "A specific location, a spatial design, where events unfold, in every line.",
+          "points": 4
+        },
+        {
+          "type": "Suggestive",
+          "clue": "A particular position, point, or area in space; a location.",
+          "points": 2
+        },
+        {
+          "type": "Straight",
+          "clue": "A particular position, point, or area in space; a location.",
+          "points": 1
+        }
+      ],
+      "related_words": [
+        "establishing",
+        "time"
+      ]
+    },
+    {
+      "word": "explores",
+      "difficulty": "Intermediate",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "Ventures into the depths, a journey of thought, uncovering insights, carefully sought.",
+          "points": 5
+        },
+        {
+          "type": "Suggestive",
+          "clue": "To travel in or through (an unfamiliar country or area) in order to learn about or familiarize oneself with it.",
+          "points": 3
+        },
+        {
+          "type": "Straight",
+          "clue": "Travels in or through (an unfamiliar country or area) in order to learn about or familiarize oneself with it.",
+          "points": 1
+        }
+      ],
+      "related_words": [
+        "descent"
+      ]
+    },
+    {
+      "word": "descent",
+      "difficulty": "Hard",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "A downward path, a lowering of state, a genetic lineage, sealed by fate.",
+          "points": 7
+        },
+        {
+          "type": "Suggestive",
+          "clue": "An act of moving downwards, or a decline to a lower state.",
+          "points": 4
+        },
+        {
+          "type": "Straight",
+          "clue": "An act of moving downwards, dropping, or falling.",
+          "points": 2
+        }
+      ],
+      "related_words": [
+        "explores"
+      ]
+    }
+  ]
+}

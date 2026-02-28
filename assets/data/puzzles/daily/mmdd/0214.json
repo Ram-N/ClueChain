@@ -1,0 +1,250 @@
+{
+  "id": "ClueChain-02-14",
+  "date": "02-14",
+  "title": "A Wrinkle in Time by Madeleine L'Engle (1962)",
+  "text": "“It was a dark and stormy night.”\nThis line has become cliché for a reason—it perfectly sets tone, mood and expectations for this novel about a young girl’s quest to find her lost father. The guileless tone and straightforward description (nothing flowery) create expectations that L’Engle fulfills for a thrilling yet winnable adventure.",
+  "hiddenWords": [
+    {
+      "word": "dark",
+      "difficulty": "Easy",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "Lacking illumination, or a sinister quality, a shadow cast, for all eternity.",
+          "points": 4
+        },
+        {
+          "type": "Suggestive",
+          "clue": "The absence of light, or a somber mood.",
+          "points": 2
+        },
+        {
+          "type": "Straight",
+          "clue": "With little or no light.",
+          "points": 1
+        }
+      ],
+      "related_words": [
+        "stormy",
+        "night"
+      ]
+    },
+    {
+      "word": "stormy",
+      "difficulty": "Intermediate",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "Weather's fury, a tempest's might, or an emotional turmoil, filled with plight.",
+          "points": 5
+        },
+        {
+          "type": "Suggestive",
+          "clue": "Characterized by strong winds and heavy rain, or a turbulent situation.",
+          "points": 3
+        },
+        {
+          "type": "Straight",
+          "clue": "Relating to or affected by a storm.",
+          "points": 1
+        }
+      ],
+      "related_words": [
+        "dark",
+        "night"
+      ]
+    },
+    {
+      "word": "night",
+      "difficulty": "Easy",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "When stars appear, and shadows grow long, a time for dreams, a silent song.",
+          "points": 4
+        },
+        {
+          "type": "Suggestive",
+          "clue": "The period of darkness in each twenty-four hours.",
+          "points": 2
+        },
+        {
+          "type": "Straight",
+          "clue": "The period from sunset to sunrise in each twenty-four hours.",
+          "points": 1
+        }
+      ],
+      "related_words": [
+        "dark",
+        "stormy"
+      ]
+    },
+    {
+      "word": "cliché",
+      "difficulty": "Hard",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "An overused phrase, a worn-out thought, losing its luster, no longer sought.",
+          "points": 7
+        },
+        {
+          "type": "Suggestive",
+          "clue": "A phrase or opinion that is overused and betrays a lack of original thought.",
+          "points": 4
+        },
+        {
+          "type": "Straight",
+          "clue": "A phrase or opinion that is overused and betrays a lack of original thought.",
+          "points": 2
+        }
+      ],
+      "related_words": []
+    },
+    {
+      "word": "sets",
+      "difficulty": "Easy",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "To place or put, or an array of things, establishing standards, and what the future brings.",
+          "points": 4
+        },
+        {
+          "type": "Suggestive",
+          "clue": "To put, lay, or stand (something) in a specified place or position.",
+          "points": 2
+        },
+        {
+          "type": "Straight",
+          "clue": "Puts, lays, or stands (something) in a specified place or position.",
+          "points": 1
+        }
+      ],
+      "related_words": [
+        "tone",
+        "mood"
+      ]
+    },
+    {
+      "word": "tone",
+      "difficulty": "Intermediate",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "A vocal quality, a musical sound, or an attitude revealed, without a spoken word.",
+          "points": 5
+        },
+        {
+          "type": "Suggestive",
+          "clue": "The general character or attitude of a place, piece of writing, situation, etc.",
+          "points": 3
+        },
+        {
+          "type": "Straight",
+          "clue": "A musical or vocal sound with reference to its pitch, quality, and strength.",
+          "points": 1
+        }
+      ],
+      "related_words": [
+        "sets",
+        "mood"
+      ]
+    },
+    {
+      "word": "mood",
+      "difficulty": "Intermediate",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "A state of feeling, a passing emotion, coloring perception, without commotion.",
+          "points": 5
+        },
+        {
+          "type": "Suggestive",
+          "clue": "A temporary state of mind or feeling, or the atmosphere of a place.",
+          "points": 3
+        },
+        {
+          "type": "Straight",
+          "clue": "A temporary state of mind or feeling.",
+          "points": 1
+        }
+      ],
+      "related_words": [
+        "sets",
+        "tone"
+      ]
+    },
+    {
+      "word": "expectations",
+      "difficulty": "Hard",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "Future hopes, or what's presumed to be true, often leading to joy, or a feeling of rue.",
+          "points": 7
+        },
+        {
+          "type": "Suggestive",
+          "clue": "Beliefs about how things should be, or what someone will do.",
+          "points": 4
+        },
+        {
+          "type": "Straight",
+          "clue": "A strong belief that something will happen or be the case.",
+          "points": 2
+        }
+      ],
+      "related_words": []
+    },
+    {
+      "word": "quest",
+      "difficulty": "Intermediate",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "A hero's journey, a noble pursuit, seeking a treasure, bearing fruit.",
+          "points": 5
+        },
+        {
+          "type": "Suggestive",
+          "clue": "A long or arduous search for something.",
+          "points": 3
+        },
+        {
+          "type": "Straight",
+          "clue": "A long or arduous search for something.",
+          "points": 1
+        }
+      ],
+      "related_words": [
+        "adventure"
+      ]
+    },
+    {
+      "word": "adventure",
+      "difficulty": "Intermediate",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "An exciting venture, thrilling and bold, a daring experience, stories untold.",
+          "points": 5
+        },
+        {
+          "type": "Suggestive",
+          "clue": "An unusual and exciting or daring experience.",
+          "points": 3
+        },
+        {
+          "type": "Straight",
+          "clue": "An unusual and exciting, typically hazardous, experience or activity.",
+          "points": 1
+        }
+      ],
+      "related_words": [
+        "quest"
+      ]
+    }
+  ]
+}

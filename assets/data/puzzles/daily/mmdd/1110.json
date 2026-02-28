@@ -1,0 +1,245 @@
+{
+  "id": "ClueChain-11-10",
+  "date": "11-10",
+  "title": "Paradise by Toni Morrison (1997)",
+  "text": "“They shoot the white girl first.” Paradise is particularly intriguing. Referring to “the” white girl makes it clear everyone else is a different race—so why was she there and who else gets shot? The story of a small Black town facing white invaders answers those questions and more.\nThis book is best for those looking for nuanced books about race.",
+  "hiddenWords": [
+    {
+      "word": "shoot",
+      "difficulty": "Intermediate",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "It can be a rapid growth, a quick capture, or a forceful projection.",
+          "points": 5
+        },
+        {
+          "type": "Suggestive",
+          "clue": "What a camera does, or what a gun does with a projectile.",
+          "points": 3
+        },
+        {
+          "type": "Straight",
+          "clue": "To fire a gun or other weapon.",
+          "points": 1
+        }
+      ],
+      "related_words": [
+        "girl"
+      ]
+    },
+    {
+      "word": "white",
+      "difficulty": "Easy",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "The color of snow, or a blank page waiting for a story to unfold.",
+          "points": 4
+        },
+        {
+          "type": "Suggestive",
+          "clue": "The color of milk or fresh paper.",
+          "points": 2
+        },
+        {
+          "type": "Straight",
+          "clue": "Of the color of milk or fresh snow, due to the reflection of all visible rays of light.",
+          "points": 1
+        }
+      ],
+      "related_words": [
+        "girl",
+        "Black"
+      ]
+    },
+    {
+      "word": "girl",
+      "difficulty": "Easy",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "A young female, full of youthful wonder, ready to explore the world.",
+          "points": 4
+        },
+        {
+          "type": "Suggestive",
+          "clue": "A female child or young woman.",
+          "points": 2
+        },
+        {
+          "type": "Straight",
+          "clue": "A female child or adolescent.",
+          "points": 1
+        }
+      ],
+      "related_words": [
+        "shoot",
+        "white"
+      ]
+    },
+    {
+      "word": "intriguing",
+      "difficulty": "Hard",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "It captures the mind, a puzzle to unwind, prompting questions of a curious kind.",
+          "points": 7
+        },
+        {
+          "type": "Suggestive",
+          "clue": "Something that arouses curiosity or interest, like a mystery novel.",
+          "points": 4
+        },
+        {
+          "type": "Straight",
+          "clue": "Arousing curiosity or interest; fascinating.",
+          "points": 2
+        }
+      ],
+      "related_words": []
+    },
+    {
+      "word": "clear",
+      "difficulty": "Easy",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "Transparent, understandable, free from doubt, making every detail stand out.",
+          "points": 4
+        },
+        {
+          "type": "Suggestive",
+          "clue": "When something is easy to understand, or not cloudy.",
+          "points": 2
+        },
+        {
+          "type": "Straight",
+          "clue": "Easy to perceive, understand, or interpret.",
+          "points": 1
+        }
+      ],
+      "related_words": []
+    },
+    {
+      "word": "different",
+      "difficulty": "Intermediate",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "Not the same, unique in its frame, setting it apart, without a common name.",
+          "points": 5
+        },
+        {
+          "type": "Suggestive",
+          "clue": "Not alike in character or quality; distinct.",
+          "points": 3
+        },
+        {
+          "type": "Straight",
+          "clue": "Not the same as another or each other; unlike in nature, form, or quality.",
+          "points": 1
+        }
+      ],
+      "related_words": []
+    },
+    {
+      "word": "Black",
+      "difficulty": "Easy",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "The absence of light, or a bold and deep night.",
+          "points": 4
+        },
+        {
+          "type": "Suggestive",
+          "clue": "The darkest color, the opposite of white.",
+          "points": 2
+        },
+        {
+          "type": "Straight",
+          "clue": "Of the very darkest color owing to the absence of or complete absorption of light.",
+          "points": 1
+        }
+      ],
+      "related_words": [
+        "white",
+        "town"
+      ]
+    },
+    {
+      "word": "town",
+      "difficulty": "Easy",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "Larger than a village, smaller than a city, a place of community, both quaint and pretty.",
+          "points": 4
+        },
+        {
+          "type": "Suggestive",
+          "clue": "A populated area, usually smaller than a city but larger than a village.",
+          "points": 2
+        },
+        {
+          "type": "Straight",
+          "clue": "A densely populated area, usually smaller than a city and larger than a village.",
+          "points": 1
+        }
+      ],
+      "related_words": [
+        "Black"
+      ]
+    },
+    {
+      "word": "facing",
+      "difficulty": "Intermediate",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "To turn towards, or to meet head-on, a challenge embraced, a battle won.",
+          "points": 5
+        },
+        {
+          "type": "Suggestive",
+          "clue": "To be opposite to, or to confront a situation.",
+          "points": 3
+        },
+        {
+          "type": "Straight",
+          "clue": "Having its front toward; looking toward.",
+          "points": 1
+        }
+      ],
+      "related_words": [
+        "invaders"
+      ]
+    },
+    {
+      "word": "invaders",
+      "difficulty": "Hard",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "They breach the walls, without a call, seeking to conquer, standing tall.",
+          "points": 7
+        },
+        {
+          "type": "Suggestive",
+          "clue": "People who enter a place or country by force, especially to conquer.",
+          "points": 4
+        },
+        {
+          "type": "Straight",
+          "clue": "People or a group that enters a country or region to appropriate or conquer it.",
+          "points": 2
+        }
+      ],
+      "related_words": [
+        "facing"
+      ]
+    }
+  ]
+}

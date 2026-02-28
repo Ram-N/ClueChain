@@ -1,0 +1,237 @@
+{
+  "title": "The Myth of the Lone Inventor",
+  "date": "12-14",
+  "text": "Title: The Myth of the Lone Inventor\n\nWe also cling to the idea of the lone inventor because it feeds into the idea that any of us can do the same. We like to imagine that an inventor exists outside of the cultural and institutional forces that facilitate innovation. If people would simply try harder—pull themselves up by their own bootstraps and get better ideas—they could change the world.\n\nBut this is a poor understanding of history that does the future no favors. To allow people to truly understand how messy the history of innovation and invention really are we need to kill the myth of the lone inventor and celebrate the rich diversity of people who bring an invention into being.",
+  "hiddenWords": [
+    {
+      "word": "history",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "innovation",
+        "invention"
+      ],
+      "clues": [
+        {
+          "clue": "A subject often distorted by those in power.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "The study of past events, especially human affairs.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The past considered as a whole.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "innovation",
+      "difficulty": "Hard",
+      "related_words": [
+        "history",
+        "invention"
+      ],
+      "clues": [
+        {
+          "clue": "The introduction of new things or methods.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "The process of making changes to improve something.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "The act of introducing new or improved ideas.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "invention",
+      "difficulty": "Hard",
+      "related_words": [
+        "history",
+        "innovation"
+      ],
+      "clues": [
+        {
+          "clue": "A creation of the human mind.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "The process of creating something new.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A device or process created to solve a problem.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "idea",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A thought or concept that may be useful.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A mental image or concept.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A thought or suggestion.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "people",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Humans, considered as individuals or groups.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Men, women, and children.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Human beings.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "diversity",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A variety of different things.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "The state of being diverse.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A range of different things.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "forces",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Influences that can cause change.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Energy or strength that can cause movement.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A push or pull that can cause motion.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "cultural",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Relating to the arts and social institutions.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Concerned with the customs and achievements of a society.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Relating to culture.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "institutional",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Relating to an organization or establishment.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Concerned with the structure and functions of organizations.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Relating to institutions.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "celebrate",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "To mark a special occasion with festivities.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "To honor or commemorate something.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "To mark a special occasion with joy.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-12-14"
+}
