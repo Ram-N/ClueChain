@@ -24,6 +24,7 @@ Requirements:
 import argparse
 import csv
 import datetime
+import os
 import re
 import subprocess
 import sys
@@ -377,6 +378,8 @@ def log_failure(mmdd: str, title: str, category: str, reason_code: str,
 def generate_single_paragraph(paragraph: ParagraphData, day: int,
                               category: str, output_dir: str,
                               script_path: str,
+                              groq_keys: List[str],
+                              key_index: int = 0,
                               max_retries: int = 3) -> Tuple[bool, str, float]:
     """
     Generate JSON for a single paragraph using the existing script.
@@ -388,6 +391,8 @@ def generate_single_paragraph(paragraph: ParagraphData, day: int,
         category: Category name
         output_dir: Output directory
         script_path: Path to generate_cluechain_json.py
+        groq_keys: List of available GROQ API keys (1–3)
+        key_index: Which key to use (0-based, wraps around)
         max_retries: Maximum number of attempts (default: 3)
 
     Returns:
@@ -396,6 +401,15 @@ def generate_single_paragraph(paragraph: ParagraphData, day: int,
     start_time = time.time()
     last_error = "Unknown error"
     attempts_made = 0
+
+    # Pick the key for this paragraph (round-robin)
+    active_key = groq_keys[key_index % len(groq_keys)] if groq_keys else ""
+    key_num = key_index % len(groq_keys) + 1 if groq_keys else 1
+    print(f"       🔑 Using GROQ_API_KEY{key_num}")
+
+    # Build subprocess environment: inherit current env, override GROQ_API_KEY
+    sub_env = os.environ.copy()
+    sub_env["GROQ_API_KEY"] = active_key
 
     for attempt in range(1, max_retries + 1):
         attempts_made = attempt
@@ -428,6 +442,7 @@ def generate_single_paragraph(paragraph: ParagraphData, day: int,
                 stdout=subprocess.PIPE,
                 stderr=subprocess.STDOUT,  # merge stderr into stdout
                 text=True,
+                env=sub_env,
             )
             collected_lines = []
             for line in proc.stdout:
@@ -444,7 +459,16 @@ def generate_single_paragraph(paragraph: ParagraphData, day: int,
                     f"exit code {proc.returncode}"
                 )
                 last_error = error_line
-                continue  # Retry
+
+                # Non-retryable errors: the inner script already gave up — don't waste API calls
+                non_retryable = [
+                    "title word", "contain title word", "hidden words contain title",
+                    "clue text contains the hidden word",
+                ]
+                if any(phrase in last_error.lower() for phrase in non_retryable):
+                    break  # Inner script already flagged this as unretryable
+
+                continue  # Retry for transient failures (JSON parse, validation, etc.)
 
             # Rename the generated file
             try:
@@ -493,15 +517,27 @@ def process_batch(paragraphs: List[ParagraphData], day: int, category: str,
     Returns:
         BatchResults with success/failure tracking
     """
+    # Collect available Groq keys from environment (loaded by caller via dotenv)
+    groq_keys = [k for k in [
+        os.environ.get("GROQ_API_KEY"),
+        os.environ.get("GROQ_API_KEY2"),
+        os.environ.get("GROQ_API_KEY3"),
+    ] if k]
+    if len(groq_keys) > 1:
+        print(f"ℹ️  Key rotation enabled: {len(groq_keys)} GROQ keys found (rotating per paragraph)")
+    else:
+        print(f"ℹ️  Single GROQ key in use (add GROQ_API_KEY2/3 to .env for rotation)")
+
     reporter = ProgressReporter(len(paragraphs), category, day, delay)
     reporter.print_header()
 
     for idx, para in enumerate(paragraphs, 1):
         reporter.print_progress(idx, para.title, para.month)
 
-        # Generate JSON
+        # Generate JSON — rotate key by paragraph index (0-based)
         success, result, duration, reason_code, attempts_made = generate_single_paragraph(
-            para, day, category, output_dir, script_path
+            para, day, category, output_dir, script_path,
+            groq_keys=groq_keys, key_index=idx - 1,
         )
 
         if success:
@@ -690,6 +726,13 @@ Output Format:
     )
 
     args = parser.parse_args()
+
+    # Load .env so GROQ_API_KEY* are available in os.environ
+    try:
+        from dotenv import load_dotenv
+        load_dotenv()
+    except ImportError:
+        pass  # dotenv not installed; rely on environment variables being set directly
 
     # Validate arguments
     try:
