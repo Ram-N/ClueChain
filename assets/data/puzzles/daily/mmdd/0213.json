@@ -1,0 +1,232 @@
+{
+  "title": "Lincoln unclogs traffic jam",
+  "date": "02-13",
+  "text": "Although Lincoln rarely shared this anecdote with people he met later in his life, it obviously stuck with him at the time it happened. In the mid-19th century Mississippi River Valley, rivers were the equivalent of roads and highways today; people needed them to easily transport themselves. Having your flatboat regularly get stuck would be the equivalent today of facing massive traffic jams or having your car constantly stall out. In other words, it was a big problem — and Lincoln clearly thought he could solve it.",
+  "hiddenWords": [
+    {
+      "word": "anecdote",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A story passed down through the years, often humorous or entertaining.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A short account of a particular incident or event.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A brief narrative or story.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "rivers",
+      "difficulty": "Easy",
+      "related_words": [
+        "valley"
+      ],
+      "clues": [
+        {
+          "clue": "Natural paths for fish to travel.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Sources of fresh water and transportation routes.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Large natural streams of water.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "valley",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "rivers"
+      ],
+      "clues": [
+        {
+          "clue": "A low area of land between hills or mountains, often with a river flowing through it.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A geographical feature that can be home to a variety of flora and fauna.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A low area of land surrounded by higher land.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "highways",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Routes for quick travel over long distances.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Main roads designed for high-speed travel.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Major roads for fast transportation.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "stuck",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Unable to move or be moved.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Fastened or fixed in place, unable to be freed.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Unable to move or progress.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "equivalent",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Having the same value or effect.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Similar in value, amount, or effect.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Having the same or similar characteristics.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "century",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A period of 100 years, often used to divide history into manageable chunks.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A unit of time used to measure historical periods.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A 100-year period.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "transport",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "To move something from one place to another.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "The act of carrying or conveying people or goods.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "To move people or things from one place to another.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "problem",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A puzzle or enigma that needs to be solved.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A situation or matter that needs to be dealt with or resolved.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A difficulty or challenge.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "solution",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The answer to a puzzle or a way to resolve a difficulty.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "A method or plan for solving a problem.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "The act of solving a problem or difficulty.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-02-13"
+}

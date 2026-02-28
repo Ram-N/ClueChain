@@ -1,0 +1,237 @@
+{
+  "title": "The Otis Difference",
+  "date": "06-13",
+  "text": "Title: The Otis Difference\n\nThe decisive difference, the detail that transformed scattered instances of the use of hoisting devices primarily for freight into the passenger elevator—an all but obligatory installation in every multistory building—consisted solely of Otis’s invention of the automatic safety catch. As one historian of the elevator put it, “Although people had been building hoists for at least two thousand years before that, their hoists had the serious fault of falling to the bottom should the lifting cable break. But Mr. Otis invented something that no one had ever seen before. He built a hoist equipped with an automatic safety device to prevent the car from falling.”",
+  "hiddenWords": [
+    {
+      "word": "hoist",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "elevator",
+        "cable"
+      ],
+      "clues": [
+        {
+          "clue": "A device used for lifting heavy loads, often found in construction sites.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Equipment used to move objects up and down, typically in a building.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A machine for lifting heavy weights.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "elevator",
+      "difficulty": "Easy",
+      "related_words": [
+        "hoist",
+        "cable"
+      ],
+      "clues": [
+        {
+          "clue": "You might find this in a skyscraper, helping people move between floors.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A common installation in multistory buildings for transporting people.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A lift or a device used to raise or lower people or goods.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "cable",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "hoist",
+        "elevator"
+      ],
+      "clues": [
+        {
+          "clue": "A strong, thick rope or wire used for support or lifting, but not for sending messages.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A thick, strong cord used for lifting heavy objects or supporting structures.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A thick, strong wire or rope.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "invention",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A creation that brings novelty and usefulness, often protected by law.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "The act of creating a new device or process.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "The creation of a new device or process.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "historian",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Someone who studies and writes about past events, often specializing in a particular area.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A person who researches and interprets historical events.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A scholar of history.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "passenger",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Someone who travels in a vehicle, but is not driving it.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A person who is traveling in a vehicle, not operating it.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A person who travels in a vehicle.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "building",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A structure with a roof and walls, designed for some particular purpose.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A structure with walls and a roof, used for various purposes.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A structure with a roof and walls.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "device",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "An instrument or machine designed to perform a specific function.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A piece of equipment or a gadget made for a particular purpose.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A machine or instrument used for a particular purpose.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "safety",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The state of being safe from harm or danger.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A condition of being protected from harm or danger.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The state of being safe.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "automatic",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Working or done without being controlled by someone, using machines or computers.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Operating or done by machines or computers without human control.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Working by itself without human control.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-06-13"
+}

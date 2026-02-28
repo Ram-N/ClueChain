@@ -1,0 +1,235 @@
+{
+  "title": "Who invented the Internet?",
+  "date": "11-13",
+  "text": "Title: Who invented the Internet?\n\nPeople have been fighting for decades over who invented the net. Some will tell you that Vint Cerf’s work on its underlying protocols—TCP/IP—was its true beginning. Others will go back further in history and tell you that Leonard Kleinrock’s work on queuing theory was the real birth. Some may scoff at the idea of conflating the web and the Internet by suggesting Tim Berners-Lee, but in multiple-choice tests of the future the “right” answer will be determined by the next hundred years of how historians choose to tell that story.",
+  "hiddenWords": [
+    {
+      "word": "decades",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A period of time that's often used to measure a person's life",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A unit of time equal to 10 years",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A span of 10 years",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "protocols",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "theory"
+      ],
+      "clues": [
+        {
+          "clue": "Rules that govern how data is transmitted",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Set of rules for communication between devices",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Standard procedures for data exchange",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "theory",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "protocols"
+      ],
+      "clues": [
+        {
+          "clue": "An idea that's been thought about but not proven",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A set of ideas used to explain something",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A supposition or conjecture",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "queuing",
+      "difficulty": "Hard",
+      "related_words": [
+        "theory",
+        "protocols"
+      ],
+      "clues": [
+        {
+          "clue": "A way of managing a line of people or tasks",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "A method for handling a sequence of items",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A process of arranging items in a line",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "scoff",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "To express contempt or disdain",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "To laugh or mock at something",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "To scorn or ridicule",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "conflating",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "To combine two things into one",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "To merge or blend two ideas",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "To bring together as one",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "historians",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "People who study and write about the past",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Scholars who research and analyze historical events",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Those who record and interpret history",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "multiple",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "More than one",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Many or various",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "More than two",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "choice",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The act of selecting one option over another",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "An option or alternative",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A decision or selection",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "future",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A time that has not yet come",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A period of time that is yet to come",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A time that is to come",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-11-13"
+}

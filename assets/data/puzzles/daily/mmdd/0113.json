@@ -1,0 +1,237 @@
+{
+  "title": "Abraham Lincoln, master inventor",
+  "date": "01-13",
+  "text": "Title: Abraham Lincoln, master inventor\n\nWhen you think of Abraham Lincoln, your mind probably conjures up an image of a tall, lanky man with a chinstrap beard and a stovepipe hat. Perhaps you also think of the 16th president's most famous accomplishments — winning the Civil War and freeing the slaves — or of his early life, much of which was spent reading and writing even when his family wanted him engaged in physical labor. Like many daydreaming youths throughout history, Lincoln yearned to do great things with his mind, even though his peers insisted that he pursue work through his hands.",
+  "hiddenWords": [
+    {
+      "word": "image",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A mental picture formed by the mind.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A representation of something.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A picture in your mind.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "youths",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "history",
+        "mind"
+      ],
+      "clues": [
+        {
+          "clue": "A stage of life often associated with energy and curiosity.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "People in the early stages of life.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Young people.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "history",
+      "difficulty": "Hard",
+      "related_words": [
+        "youths",
+        "mind"
+      ],
+      "clues": [
+        {
+          "clue": "The study of past events can shape our understanding of the present.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "A record of past events.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The past considered as a whole.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "mind",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "youths",
+        "history"
+      ],
+      "clues": [
+        {
+          "clue": "The aspect of a person that enables them to think and feel.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "The element of a person that makes it possible to think and reason.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "The brain or intellect.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "labor",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Hard work, especially physical work.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Effort expended on a particular task.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Work, especially hard physical work.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "president",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A high-ranking government official.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "The head of state of a country.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "The head of a country's government.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "beard",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A growth of hair on the chin or jaw.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Hair on a man's chin or jaw.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Facial hair.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "war",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A state of armed conflict between different nations or states.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "A conflict between nations or states.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Armed conflict.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "slaves",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "People who are owned by others and are forced to work against their will.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "People who are treated as property and are forced to work.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "People who are owned by others.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "accomplishments",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Things that have been achieved, especially through effort or skill.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Things that have been done or achieved.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Achievements.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-01-13"
+}

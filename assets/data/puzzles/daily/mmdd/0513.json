@@ -1,0 +1,237 @@
+{
+  "title": "The history of the elevator",
+  "date": "05-13",
+  "text": "From the 1830s on, there was a multiplicity of well-documented elevator installations, both planned and completed, in Europe and the United States. By about 1830, freight elevators had been installed in numerous British textile factories, as one can read in the seventh edition of the Encyclopedia Britannica. In European mines, moreover, the transition from hemp ropes and chains to the much greater load-bearing capacity of the iron-wire cable, invented in 1834, led to the rise of so-called rack-transport, a conveyance we can think of as the underground equivalent of a freight elevator.",
+  "hiddenWords": [
+    {
+      "word": "multiplicity",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A quality of being many, a diverse range of things.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Describes the state of having many parts or aspects.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A large, indefinite number of items.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "textile",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "british",
+        "factories"
+      ],
+      "clues": [
+        {
+          "clue": "Think of a fabric, and then consider where it's made.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Relating to the production of cloth or fabrics.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Pertaining to woven or knitted materials.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "british",
+      "difficulty": "Easy",
+      "related_words": [
+        "textile",
+        "factories"
+      ],
+      "clues": [
+        {
+          "clue": "A certain monarch's subjects, perhaps.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Relating to the United Kingdom.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Of or pertaining to the UK.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "factories",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "textile",
+        "british"
+      ],
+      "clues": [
+        {
+          "clue": "Where goods are manufactured, often with machinery.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Buildings where goods are produced on a large scale.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Places where things are made.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "encyclopedia",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A comprehensive reference work, often in multiple volumes.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "A book or set of books containing information on many subjects.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A collection of knowledge on various topics.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "transition",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The process of changing from one state to another.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A change from one phase or situation to another.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The act of passing from one stage to another.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "hemp",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A plant used for making rope, among other things.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A type of fiber used in rope and fabric production.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A plant with strong, fibrous stalks.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "iron",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A metal often used in construction and tools.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A common, strong metal used in many applications.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A hard, silver-white metal.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "cable",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A thick, heavy rope or wire used for lifting or pulling.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A thick, strong wire or rope used for supporting or suspending things.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A strong, thick rope or wire.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "conveyance",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The act of transporting something, or a device used for transportation.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "A means of transporting people or goods from one place to another.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A vehicle or device used to carry or transport things.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-05-13"
+}

@@ -1,0 +1,241 @@
+{
+  "title": "Thanks, Nikola",
+  "date": "09-13",
+  "text": "Title: Thanks, Nikola\nBut a couple of sentences into the comic, the myth begins: “In a time when the majority of the world was still lit by candle power, an electrical system known as alternating current was invented and to this day is what powers every home on the planet. Who do we have to thank for this invention that ushered humanity into a second industrial revolution? Nikola Tesla.”",
+  "hiddenWords": [
+    {
+      "word": "majority",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Most people would agree on this",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Largest group or amount",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The greatest number",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "candle",
+      "difficulty": "Easy",
+      "related_words": [
+        "power"
+      ],
+      "clues": [
+        {
+          "clue": "Flickering light source",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Common item on a dinner table",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Wax stick with a wick",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "system",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "current",
+        "revolution"
+      ],
+      "clues": [
+        {
+          "clue": "Complex network of parts",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Organized method or procedure",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Set of connected things",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "current",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "system",
+        "revolution"
+      ],
+      "clues": [
+        {
+          "clue": "Flow of fluid or energy",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Type of electricity",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Flow of water or air",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "revolution",
+      "difficulty": "Hard",
+      "related_words": [
+        "system",
+        "current"
+      ],
+      "clues": [
+        {
+          "clue": "Major change or upheaval",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Significant turning point in history",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Overthrow of a government",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "power",
+      "difficulty": "Easy",
+      "related_words": [
+        "candle"
+      ],
+      "clues": [
+        {
+          "clue": "Ability to do something",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Energy or strength",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Capacity to act or produce an effect",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "planet",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Celestial body that orbits a star",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "World or globe",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Earth or other similar body",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "home",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Place where one lives",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Building or dwelling",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Residence or abode",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "invention",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "New device or method",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Creation or discovery",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Something newly created",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "humanity",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "All people or mankind",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Human nature or character",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "The human race",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-09-13"
+}

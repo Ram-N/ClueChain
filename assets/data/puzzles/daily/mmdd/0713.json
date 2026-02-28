@@ -1,0 +1,232 @@
+{
+  "title": "The electric Horse",
+  "date": "07-13",
+  "text": "Title: The electric Horse\nWhile Kellogg found horse riding good for the constitution, he worried that physical ailments or geography could conspire to keep people away from their equine friends. For just such people, Kellogg designed the electric horse, a barrel-shaped stationary device equipped with a saddle. Plug it in and you would be off to the races. Kellogg’s invention even wound up in the White House, where Calvin Coolidge took to it three times a day to keep in shape. (If someone preferred a side-to-side motion, Kellogg also had a mechanical camel.)",
+  "hiddenWords": [
+    {
+      "word": "constitution",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A set of rules that governs a country",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A person's overall health and physical condition",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A system of fundamental principles",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "geography",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The study of the Earth's physical features can be a mountain to climb",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "The layout of a place can greatly impact the people living there",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The science of the Earth's physical structure",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "invention",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "device"
+      ],
+      "clues": [
+        {
+          "clue": "A creation that brings a bright idea to life",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Something that makes life easier and more convenient",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A new device or process",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "device",
+      "difficulty": "Easy",
+      "related_words": [
+        "invention"
+      ],
+      "clues": [
+        {
+          "clue": "A gadget that helps with daily tasks",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "An object that performs a specific function",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A machine or apparatus",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "saddle",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A seat for a rider, often decorated with intricate designs",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A piece of equipment used for horseback riding",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A seat for a horse rider",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "races",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Competitions where speed is key",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Events where people or animals compete against each other",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A series of competitions",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "camel",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A ship of the desert with a hump on its back",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "An animal known for its distinctive appearance",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A large, even-toed ungulate",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "mechanical",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Relating to machines or mechanics",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Involving the use of machines or engines",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Pertaining to the physical properties of an object",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "physical",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Concerned with the body or material world",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Relating to the body or health",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Of or relating to the body",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "ailments",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Problems that can make life a real pain",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Health issues that can affect a person's well-being",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Diseases or disorders",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-07-13"
+}

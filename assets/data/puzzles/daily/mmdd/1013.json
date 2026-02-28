@@ -1,0 +1,232 @@
+{
+  "title": "Nikola Tesla Goes Viral",
+  "date": "10-13",
+  "text": "Title: Nikola Tesla Goes Viral\n\nTake a web comic called “Why Nikola Tesla Was The Greatest Geek Who Ever Lived,” published last year by a website called The Oatmeal and instantly shared by thousands across the web. The strip, created by Matthew Inman, is an entertaining look at Tesla’s life and shows many of the ways in which he was perhaps smarter, more altruistic and generally a better human being than his contemporaries.",
+  "hiddenWords": [
+    {
+      "word": "web",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A place where spiders reside, but also a network of interconnected computers.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A system of interconnected computers and servers.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Short for 'world wide web'.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "geek",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "human"
+      ],
+      "clues": [
+        {
+          "clue": "Someone who is enthusiastic about technology, but might not be the most athletic.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A person with a strong interest in a particular field or activity.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A slang term for a technically skilled person.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "human",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "geek"
+      ],
+      "clues": [
+        {
+          "clue": "The only species that can create and use complex tools like computers.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A member of the species Homo sapiens.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A person or individual.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "year",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A period of 365 days, except in leap years.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A unit of time equal to 12 months.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A period of 365 or 366 days.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "thousands",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A large number, but not as big as a million.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A multitude of people or things.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "The number 1000.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "strip",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A long, narrow piece of land or a sequence of drawings.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "A sequence of drawings that tell a story.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A comic strip.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "altruistic",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Having a selfless concern for the well-being of others.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Showing a willingness to help others.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Unselfishly concerned for the welfare of others.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "entertaining",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Providing enjoyment or amusement.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Capable of holding one's attention.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Fun to watch or participate in.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "life",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The condition that distinguishes animals and plants from inorganic matter.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "The period between birth and death.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The state of being alive.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "contemporaries",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "People who lived at the same time as someone else.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Modern or up-to-date people.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "People living at the same time as another person.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-10-13"
+}

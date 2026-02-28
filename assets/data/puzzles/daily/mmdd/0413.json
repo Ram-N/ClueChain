@@ -1,0 +1,238 @@
+{
+  "title": "Otis' invention",
+  "date": "04-13",
+  "text": "Title: Otis' invention\n\nThe history of the elevator begins with a piece of theater.\n\nFrom May to October 1854, the mechanic Elisha Graves Otis gave repeated performances at the Exhibition of the Industry of All Nations in New York City, designed to demonstrate the effectiveness of a safety device he had invented. On September 20 of the previous year, Otis founded the E. G. Otis Elevator Company in Yonkers, New York. But having received only one order in his first seven months of business, he was happy to accept an invitation to introduce his apparatus to the public.",
+  "hiddenWords": [
+    {
+      "word": "theater",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A place where dramas unfold",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A venue for performances",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A building for shows",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "mechanic",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "industry"
+      ],
+      "clues": [
+        {
+          "clue": "One who fixes things with skill and precision",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A person skilled in machinery",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A skilled worker",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "industry",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "mechanic"
+      ],
+      "clues": [
+        {
+          "clue": "The backbone of a nation's economy",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A sector of the economy",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A group of companies",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "exhibition",
+      "difficulty": "Hard",
+      "related_words": [
+        "industry"
+      ],
+      "clues": [
+        {
+          "clue": "A showcase for the world to see",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "A public display of goods or achievements",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A show or display",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "device",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A thing made for a particular purpose",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "An object that performs a function",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A tool or gadget",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "company",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A group of people working together",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A business organization",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A firm or corporation",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "invitation",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A request to attend or participate",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A formal request to join",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A request to come",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "apparatus",
+      "difficulty": "Hard",
+      "related_words": [
+        "device"
+      ],
+      "clues": [
+        {
+          "clue": "A complex system or machine",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "A set of equipment for a particular purpose",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A device or machine",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "public",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The general population",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "People in general",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The community",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "performances",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "theater"
+      ],
+      "clues": [
+        {
+          "clue": "Acts or shows presented to an audience",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Events or shows",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Acts or presentations",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-04-13"
+}

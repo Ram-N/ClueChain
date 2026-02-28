@@ -1,0 +1,234 @@
+{
+  "title": "Development of accept",
+  "date": "08-13",
+  "text": "Title: Development of accept\nTesla fanatics may interpret my argument as saying that he does not deserve recognition for his vital work—and nothing could be further from the truth. Tesla made countless important contributions to the world, but he was not the sole “inventor” of these technologies. Many people did work in these areas before Tesla, just as many people contributed to them long after he died.",
+  "hiddenWords": [
+    {
+      "word": "vital",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Essential for life, like water or air",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Having a strong impact on overall health",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Crucial or necessary",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "truth",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "What a lie is not",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Something that is genuine and real",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Factual information",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "inventor",
+      "difficulty": "Hard",
+      "related_words": [
+        "technologies"
+      ],
+      "clues": [
+        {
+          "clue": "Someone who creates new things, often with a lightbulb moment",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "A person who designs and builds innovative devices",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A creator of new machines or processes",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "technologies",
+      "difficulty": "Hard",
+      "related_words": [
+        "inventor"
+      ],
+      "clues": [
+        {
+          "clue": "Advancements that change the way we live and work",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Methods and tools used to achieve a particular goal",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Scientific knowledge used for practical purposes",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "argument",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A reason given to support a claim",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A statement or fact used to persuade someone",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A discussion or debate",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "recognition",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "When someone notices your achievement",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "The act of acknowledging someone's effort",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Acknowledgement or appreciation",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "countless",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "More than you can count",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "An extremely large number",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Innumerable or numerous",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "contributions",
+      "difficulty": "Hard",
+      "related_words": [
+        "inventor"
+      ],
+      "clues": [
+        {
+          "clue": "When many people help to make something happen",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "The act of giving or providing something",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Something given or done to help a cause",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "important",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Having a significant impact or influence",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Crucial or vital to a particular situation",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Matters or has significance",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "nothing",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The absence of something",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "No thing or zero amount",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Not a single thing",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-08-13"
+}

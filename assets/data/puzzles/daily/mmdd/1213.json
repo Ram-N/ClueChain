@@ -1,0 +1,235 @@
+{
+  "title": "A Passive Exerciser",
+  "date": "12-13",
+  "text": "Title: A Passive Exerciser\n\nKellogg was an advocate of using electric currents as a therapy to resolve everything from contagious illness to lead poisoning. He developed a passive exercise machine utilizing currents that he believed could contract muscles in patients too weak to exercise on their own; 20 minutes was thought to be the equivalent of a four-mile walk. While no substitute for exercise, today’s electronic muscle stimulators are typically used (and some are even FDA-approved) for physical therapy.",
+  "hiddenWords": [
+    {
+      "word": "electric",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Powerful force that can light up a room",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Form of energy used in many devices",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Relating to electricity",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "contagious",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A condition that can spread quickly through a group",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Describes a disease that can be easily transmitted",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Capable of being transmitted from person to person",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "patients",
+      "difficulty": "Easy",
+      "related_words": [
+        "therapy"
+      ],
+      "clues": [
+        {
+          "clue": "Individuals under the care of a medical professional",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "People who receive medical treatment",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Individuals who are sick or injured",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "muscles",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "therapy"
+      ],
+      "clues": [
+        {
+          "clue": "Tissues in the body that allow for movement",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Body parts that can become weak or strong",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Tissues that contract and relax to produce movement",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "therapy",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "patients",
+        "muscles"
+      ],
+      "clues": [
+        {
+          "clue": "Treatment intended to cure or alleviate a condition",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A form of treatment that can help individuals recover",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Treatment of a physical or mental disorder",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "minutes",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A unit of time equal to sixty seconds",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A short period of time",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A unit of time",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "walk",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A common form of exercise or transportation",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "An activity that can be done for pleasure or fitness",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "To move at a moderate pace on foot",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "illness",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A condition that can affect the body or mind",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A state of being unwell or diseased",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A disease or sickness",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "poisoning",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A condition that can occur when toxins are ingested",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "The act of being harmed by a toxic substance",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "The state of being harmed by a poison",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "stimulators",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Devices that can provide a specific type of stimulation",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Tools used to encourage a particular response",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Devices that can stimulate a muscle or nerve",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-12-13"
+}

@@ -1,0 +1,237 @@
+{
+  "title": "Lincoln's Idea",
+  "date": "03-13",
+  "text": "Title: Lincoln's Idea\nHence his invention. Lincoln's idea was to place \"adjustable buoyant air chambers\" on the sides of any boat that would be traversing a river. Obviously inspired by the financial loss he had suffered by dumping part of his cargo on the last occasion when he had been stranded, Lincoln's patent specifically mentioned that it would enable vessels to reduce their water intake and pass over bars or shallow water \"without discharging their cargoes.\" That is because the invention, once lowered into the water, could in theory be inflated to simply lift a boat over the various obstructions.",
+  "hiddenWords": [
+    {
+      "word": "invention",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A creation that solves a problem",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Something that is the result of a creative process",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A device or method created to perform a specific task",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "financial",
+      "difficulty": "Hard",
+      "related_words": [
+        "cargo",
+        "loss"
+      ],
+      "clues": [
+        {
+          "clue": "Concerning the management of money",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Relating to the economy or wealth",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Pertaining to money or funds",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "cargo",
+      "difficulty": "Easy",
+      "related_words": [
+        "financial",
+        "loss"
+      ],
+      "clues": [
+        {
+          "clue": "Goods carried on a ship or plane",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "The freight or goods transported",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The load or burden carried by a vehicle",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "loss",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "financial",
+        "cargo"
+      ],
+      "clues": [
+        {
+          "clue": "The state of no longer having something",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "The act of losing or being deprived of something",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "The state of being deprived of something",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "vessels",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Hollow containers for holding liquids",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Ships or boats that sail on the sea",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A craft designed for navigation",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "obstructions",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Things that block or hinder progress",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Barriers or impediments to movement",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Something that blocks or hinders",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "chambers",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A room or enclosed space",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A compartment or cavity",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A hollow or enclosed area",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "buoyant",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Able to float or rise in a fluid",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Having a tendency to float or rise",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Having the ability to stay afloat",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "stranded",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Left alone or isolated",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Left in a difficult or helpless position",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Left without a means of escape",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "patent",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A unique right granted to an inventor",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "An official document granting exclusive rights",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A government grant of exclusive rights",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-03-13"
+}
