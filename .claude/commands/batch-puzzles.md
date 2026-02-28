@@ -87,14 +87,16 @@ Monitor the output for:
 
 ### Step 3: Validate Generated Files
 
-After all files are generated, run validation:
+After all files are generated, run validation — passing a pattern so only the newly created files are checked:
 
 ```bash
-bash scripts/validate_batch.sh
+bash scripts/validate_batch.sh "*{day:02d}.json"
 ```
 
+For example, for day 13: `bash scripts/validate_batch.sh "*13.json"`
+
 This will:
-- Show ✅/❌ for each file
+- Show ✅/❌ for each newly generated file only
 - Report total passed/failed count
 
 If any files fail validation:
@@ -155,6 +157,27 @@ If `assets/data/library/{file}` doesn't exist:
   `timestamp`, `mmdd`, `title`, `category`, `reason_code`, `attempts`, `duration_s`, `error_detail`
 - Reason codes: `TITLE_WORD_VIOLATION`, `CLUE_CONTAINS_WORD`, `CLUE_TYPE_MISMATCH`, `CLUE_POINTS_INVALID`, `WRONG_CLUE_COUNT`, `RATE_LIMIT`, `JSON_PARSE_ERROR`, `TIMEOUT`, `FILE_NOT_FOUND`, `SUBPROCESS_ERROR`
 - Index is still regenerated from whatever files were successfully created
+
+### Retrying a Single Failed Paragraph (token-efficient)
+
+**IMPORTANT: Never rerun a wider month range just to reach a specific paragraph — this wastes API tokens on already-successful paragraphs.**
+
+When a single paragraph fails (e.g. month 10 from a 6-paragraph file starting at month 7):
+1. Extract just that paragraph from the source file into a temp file
+2. Run the batch script with `--start-month {failed_month} --end-month {failed_month}` using the temp file
+3. This costs exactly 1 API call
+
+Example — paragraph 4 failed (month 10, start-month was 7):
+```bash
+# Extract paragraph N from the source file (paragraph 4 = lines between 3rd and 4th delimiter)
+# Write it to /tmp/single_para.txt, then:
+uv run python scripts/batch_generate_cluechain_json.py \
+  --file /tmp/single_para.txt \
+  --category INVENTIONS \
+  --day 13 \
+  --start-month 10 \
+  --end-month 10
+```
 
 ### Validation Failures
 - Continue — files are already indexed automatically
