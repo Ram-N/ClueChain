@@ -18,6 +18,7 @@ Requirements:
 """
 
 import argparse
+import csv
 import datetime
 import json
 import os
@@ -258,6 +259,42 @@ def write_unit_json(unit: Dict, output_root: str, date_str: str) -> Path:
 
 
 # ---------------------------------------------------------------------------
+# Log
+# ---------------------------------------------------------------------------
+
+_LOG_FILE = Path(__file__).parent.parent / "logs" / "news_words.csv"
+_LOG_COLUMNS = ["generated_at", "date", "unit_id", "item_id", "item_title",
+                "word", "direct", "intermediate", "indirect"]
+
+
+def append_to_log(unit: Dict) -> None:
+    """Append one row per blank to logs/news_words.csv."""
+    _LOG_FILE.parent.mkdir(parents=True, exist_ok=True)
+    write_header = not _LOG_FILE.exists()
+    now = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+
+    with _LOG_FILE.open("a", newline="", encoding="utf-8") as f:
+        writer = csv.DictWriter(f, fieldnames=_LOG_COLUMNS)
+        if write_header:
+            writer.writeheader()
+        for item in unit["items"]:
+            blanks = item.get("authored_variants", [{}])[0].get("blanks", [])
+            for blank in blanks:
+                hints = blank.get("hints", {})
+                writer.writerow({
+                    "generated_at":  now,
+                    "date":          unit["date"],
+                    "unit_id":       unit["unit_id"],
+                    "item_id":       item["item_id"],
+                    "item_title":    item["title"],
+                    "word":          blank["word"],
+                    "direct":        hints.get("direct", ""),
+                    "intermediate":  hints.get("intermediate", ""),
+                    "indirect":      hints.get("indirect", ""),
+                })
+
+
+# ---------------------------------------------------------------------------
 # CLI
 # ---------------------------------------------------------------------------
 
@@ -330,14 +367,16 @@ Examples:
         print("\n✅ Dry run complete — no API calls made.")
         return
 
-    # ---- Load env + Groq client ----
+    # ---- Load env + Groq clients (round-robin across available keys) ----
     load_dotenv()
     api_key = os.getenv("GROQ_API_KEY")
     if not api_key:
         print("❌ GROQ_API_KEY not set. Add it to your .env file.")
         sys.exit(1)
 
-    client = _make_groq_client(api_key)
+    keys = [k for k in [api_key, os.getenv("GROQ_API_KEY2"), os.getenv("GROQ_API_KEY3")] if k]
+    clients = [_make_groq_client(k) for k in keys]
+    print(f"   Keys available: {len(clients)} (rotating per article)")
 
     # ---- Load prompts ----
     system_prompt        = (_PROMPTS_DIR / "news_system_prompt.txt").read_text(encoding="utf-8")
@@ -349,7 +388,9 @@ Examples:
     failed_indices: List[int] = []
 
     for i, article in enumerate(articles, 1):
-        print(f"🔄 Article {i}/{len(articles)}…")
+        client = clients[(i - 1) % len(clients)]
+        key_num = (i - 1) % len(clients) + 1
+        print(f"🔄 Article {i}/{len(articles)}  [key {key_num}]…")
         try:
             result = process_article(client, article, system_prompt, user_prompt_template)
             items_data.append(result)
@@ -375,6 +416,7 @@ Examples:
     # ---- Assemble + write ----
     unit = build_unit_json(list(good_data), list(good_texts), args.title, date_str)
     out_path = write_unit_json(unit, args.output, date_str)
+    append_to_log(unit)
 
     # ---- Summary ----
     print()
@@ -388,6 +430,7 @@ Examples:
     total_blanks = sum(len(it["authored_variants"][0]["blanks"]) for it in unit["items"])
     print(f"   Blanks:   {total_blanks} total")
     print(f"   Output:   {out_path}")
+    print(f"   Log:      {_LOG_FILE}")
     print("=" * 60)
 
     date_obj2 = datetime.date.fromisoformat(date_str)
