@@ -3,6 +3,27 @@
  * Handles recording game activities and managing user streaks
  */
 
+// ---------------------------------------------------------------------------
+// Private helpers (mirrors streak.js — kept here because streak-tracker.js
+// is a plain <script>, not an ES module, and cannot import streak.js)
+// ---------------------------------------------------------------------------
+
+function _localDateKey(date) {
+  const y = date.getFullYear()
+  const m = String(date.getMonth() + 1).padStart(2, '0')
+  const d = String(date.getDate()).padStart(2, '0')
+  return `${y}-${m}-${d}`
+}
+
+function _yesterdayKey(todayKey) {
+  const [y, m, d] = todayKey.split('-').map(Number)
+  const noon = new Date(y, m - 1, d, 12, 0, 0)
+  noon.setDate(noon.getDate() - 1)
+  return _localDateKey(noon)
+}
+
+// ---------------------------------------------------------------------------
+
 class StreakTracker {
   constructor() {
     this.supabase = null;
@@ -49,8 +70,7 @@ class StreakTracker {
 
     try {
       const user = window.authManager.getCurrentUser();
-      const now = new Date();
-      const today = `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, '0')}-${String(now.getDate()).padStart(2, '0')}`;
+      const today = _localDateKey(new Date());
       const gameDateToUse = gameData.gameDate || today;
 
       const activityData = {
@@ -104,15 +124,6 @@ class StreakTracker {
       window.authUI.loadUserStreak();
     }
     return result;
-  }
-
-  /**
-   * Record game start
-   * @param {Object} gameData - Game start data
-   * @returns {Promise<Object>} Recording result
-   */
-  async recordGameStart(gameData) {
-    return this.recordActivity(this.activityTypes.GAME_STARTED, gameData);
   }
 
   /**
@@ -211,7 +222,7 @@ class StreakTracker {
 
     try {
       const user = window.authManager.getCurrentUser();
-      const today = new Date().toISOString().split('T')[0];
+      const today = _localDateKey(new Date()); // local date, not UTC
 
       const { data, error } = await this.supabase
         .from('user_activities')
@@ -237,47 +248,7 @@ class StreakTracker {
   }
 
   /**
-   * Get streak statistics
-   * @returns {Promise<Object>} Streak statistics
-   */
-  async getStreakStatistics() {
-    if (!this.initialized) {
-      await this.initialize();
-    }
-
-    if (!window.authManager.isAuthenticated()) {
-      return { success: false, error: new Error('User not authenticated') };
-    }
-
-    try {
-      const user = window.authManager.getCurrentUser();
-      
-      const { data, error } = await this.supabase
-        .from('user_streaks')
-        .select('*')
-        .eq('user_id', user.id);
-
-      if (error) {
-        throw error;
-      }
-
-      // Calculate additional statistics
-      const stats = {
-        totalActivities: data.length,
-        streaks: data,
-        gameCompletion: data.find(s => s.activity_type === this.activityTypes.GAME_COMPLETED),
-        gameStart: data.find(s => s.activity_type === this.activityTypes.GAME_STARTED)
-      };
-
-      return { success: true, statistics: stats };
-    } catch (error) {
-      console.error('❌ Failed to get streak statistics:', error);
-      return { success: false, error };
-    }
-  }
-
-  /**
-   * Calculate streak from raw activity data (useful for validation)
+   * Calculate streak from raw activity data
    * @param {Array} activities - Array of activity records
    * @returns {Object} Calculated streak information
    */
@@ -290,15 +261,9 @@ class StreakTracker {
       };
     }
 
-    // Parse YYYY-MM-DD as local date (avoids UTC midnight timezone shift)
-    const parseLocalDate = (dateStr) => {
-      const [y, m, d] = dateStr.split('-').map(Number);
-      return new Date(y, m - 1, d);
-    };
-
-    // Sort activities by date (newest first)
+    // Sort activities by date string (newest first) — lexicographic order is correct for YYYY-MM-DD
     const sortedActivities = activities.sort((a, b) =>
-      parseLocalDate(b.activity_date) - parseLocalDate(a.activity_date)
+      b.activity_date.localeCompare(a.activity_date)
     );
 
     // Deduplicate by date string (multiple activities on same day count as one)
@@ -307,41 +272,33 @@ class StreakTracker {
     let currentStreak = 0;
     let longestStreak = 0;
     let tempStreak = 0;
-    let lastDate = null;
+    let lastDateStr = null;
 
     for (let i = 0; i < uniqueDates.length; i++) {
-      const activityDate = parseLocalDate(uniqueDates[i]);
-
-      if (lastDate === null) {
-        // First activity
+      if (lastDateStr === null) {
         tempStreak = 1;
-        lastDate = activityDate;
+        lastDateStr = uniqueDates[i];
       } else {
-        const daysDiff = Math.round((lastDate - activityDate) / (1000 * 60 * 60 * 24));
+        // Calendar-safe consecutive check: is uniqueDates[i] the day before lastDateStr?
+        const isConsecutive = uniqueDates[i] === _yesterdayKey(lastDateStr);
 
-        if (daysDiff === 1) {
-          // Consecutive day
+        if (isConsecutive) {
           tempStreak++;
         } else {
-          // Streak broken
           longestStreak = Math.max(longestStreak, tempStreak);
           tempStreak = 1;
         }
 
-        lastDate = activityDate;
+        lastDateStr = uniqueDates[i];
       }
     }
 
-    // Check if current streak is still active
-    // Compare today's local date against most recent activity date string
-    const now = new Date();
-    const todayStr = `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, '0')}-${String(now.getDate()).padStart(2, '0')}`;
+    // Check if current streak is still active (most recent activity is today or yesterday)
+    const todayStr = _localDateKey(new Date());
     const mostRecentStr = uniqueDates[0];
-    const mostRecentDate = parseLocalDate(mostRecentStr);
-    const todayDate = parseLocalDate(todayStr);
-    const daysSinceLastActivity = Math.round((todayDate - mostRecentDate) / (1000 * 60 * 60 * 24));
+    const stillActive = mostRecentStr === todayStr || mostRecentStr === _yesterdayKey(todayStr);
 
-    if (daysSinceLastActivity <= 1) {
+    if (stillActive) {
       currentStreak = tempStreak;
     } else {
       currentStreak = 0;
