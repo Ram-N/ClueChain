@@ -1,0 +1,7 @@
+Article text:
+"""
+{article_text}
+"""
+
+Generate a title and 4–7 fill-in-the-blank words with three-tier hints for this article.
+Remember: every word must appear verbatim in the article text above.

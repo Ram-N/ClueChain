@@ -1,0 +1,517 @@
+{
+  "schema_version": 1,
+  "unit_id": "news-2026-02-01",
+  "unit_type": "news",
+  "title": "February 2026 News",
+  "date": "2026-02-01",
+  "topic": "current-events",
+  "source": {
+    "name": "Editorial",
+    "license": "editorial"
+  },
+  "navigation": {
+    "collection": "news"
+  },
+  "tags": [
+    "vocabulary",
+    "current-events"
+  ],
+  "reading_level": "adult",
+  "estimated_minutes": 12,
+  "items": [
+    {
+      "item_id": "news-2026-02-01-01",
+      "title": "President Reshapes Federal Power",
+      "text": "President Trump is moving aggressively to reshape how federal power interacts with elections, testing the limits of executive authority while courts and Congress weigh possible checks and long‑term consequences.",
+      "practice": {
+        "enabled": true,
+        "blanking": {
+          "mode": "auto",
+          "targets": {
+            "easy": {
+              "min_blanks": 3,
+              "max_blanks": 5
+            },
+            "standard": {
+              "min_blanks": 5,
+              "max_blanks": 7
+            },
+            "advanced": {
+              "min_blanks": 7,
+              "max_blanks": 10
+            }
+          },
+          "avoid": {
+            "stopwords": true,
+            "numbers": true,
+            "very_short_words_max_len": 3
+          }
+        },
+        "scoring": {
+          "max_points": 100,
+          "per_blank": "proportional",
+          "penalties": {
+            "wrong_guess": 1,
+            "reveal_word": 10
+          }
+        }
+      },
+      "authored_variants": [
+        {
+          "variant_id": "llm-v1",
+          "blanks": [
+            {
+              "word": "aggressively",
+              "hints": {
+                "direct": "In a forceful and determined manner",
+                "intermediate": "This is how someone might drive a car if they are in a hurry, or how a company might expand its business",
+                "indirect": "Like a stormy sea, it crashes forward without hesitation"
+              }
+            },
+            {
+              "word": "executive",
+              "hints": {
+                "direct": "Relating to the person or group in charge of an organization",
+                "intermediate": "This term is often used to describe high-level officials or the top managers of a company",
+                "indirect": "The person who holds the keys to the castle, making important decisions"
+              }
+            },
+            {
+              "word": "authority",
+              "hints": {
+                "direct": "The power or right to control or command",
+                "intermediate": "This is what a police officer has when directing traffic, or what a teacher has in the classroom",
+                "indirect": "A gentle but firm hand that guides and directs"
+              }
+            },
+            {
+              "word": "consequences",
+              "hints": {
+                "direct": "The results or effects of a particular action",
+                "intermediate": "These are the things that happen as a result of making a choice, like getting a reward or a punishment",
+                "indirect": "The ripples that spread out when a stone is thrown into a quiet lake"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_id": "news-2026-02-01-02",
+      "title": "Lawmakers Focus on Clinton's Testimony",
+      "text": "Lawmakers also focused on Hillary Clinton’s testimony about Jeffrey Epstein, probing what she knew and when, and using the hearing to score political points that could reverberate back on Trump.",
+      "practice": {
+        "enabled": true,
+        "blanking": {
+          "mode": "auto",
+          "targets": {
+            "easy": {
+              "min_blanks": 3,
+              "max_blanks": 5
+            },
+            "standard": {
+              "min_blanks": 5,
+              "max_blanks": 7
+            },
+            "advanced": {
+              "min_blanks": 7,
+              "max_blanks": 10
+            }
+          },
+          "avoid": {
+            "stopwords": true,
+            "numbers": true,
+            "very_short_words_max_len": 3
+          }
+        },
+        "scoring": {
+          "max_points": 100,
+          "per_blank": "proportional",
+          "penalties": {
+            "wrong_guess": 1,
+            "reveal_word": 10
+          }
+        }
+      },
+      "authored_variants": [
+        {
+          "variant_id": "llm-v1",
+          "blanks": [
+            {
+              "word": "testimony",
+              "hints": {
+                "direct": "A formal statement, especially one given in a court of law.",
+                "intermediate": "It's often given by a witness or an expert, and is used to provide information about a specific event or situation.",
+                "indirect": "A story told under oath, with the weight of truthfulness behind it."
+              }
+            },
+            {
+              "word": "focused",
+              "hints": {
+                "direct": "Concentrated attention or effort on something.",
+                "intermediate": "It involves directing one's mind or attention towards a particular task or activity, often to achieve a specific goal.",
+                "indirect": "Like a lens that brings a clear picture into view, by gathering all the scattered rays of thought."
+              }
+            },
+            {
+              "word": "probing",
+              "hints": {
+                "direct": "Asking questions to get information, often in a careful or thorough way.",
+                "intermediate": "It's a way of investigating or examining something, often to understand it better or to find out the truth.",
+                "indirect": "A gentle but firm touch, like a physician examining a patient, to uncover what lies beneath the surface."
+              }
+            },
+            {
+              "word": "reverberate",
+              "hints": {
+                "direct": "To have a lasting or continuing effect, often in a widespread or indirect way.",
+                "intermediate": "It's like the sound of an echo that continues to be heard long after the original sound has stopped, but in this case, it's about the impact of an event or action.",
+                "indirect": "Like ripples on a pond, where a single stone can create waves that spread far and wide, changing the calm surface."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_id": "news-2026-02-01-03",
+      "title": "Episode Draws Connections Between Hearings",
+      "text": "The episode drew connections between these hearings and broader questions about accountability, arguing that investigations can damage both the target and those leading them.",
+      "practice": {
+        "enabled": true,
+        "blanking": {
+          "mode": "auto",
+          "targets": {
+            "easy": {
+              "min_blanks": 3,
+              "max_blanks": 5
+            },
+            "standard": {
+              "min_blanks": 5,
+              "max_blanks": 7
+            },
+            "advanced": {
+              "min_blanks": 7,
+              "max_blanks": 10
+            }
+          },
+          "avoid": {
+            "stopwords": true,
+            "numbers": true,
+            "very_short_words_max_len": 3
+          }
+        },
+        "scoring": {
+          "max_points": 100,
+          "per_blank": "proportional",
+          "penalties": {
+            "wrong_guess": 1,
+            "reveal_word": 10
+          }
+        }
+      },
+      "authored_variants": [
+        {
+          "variant_id": "llm-v1",
+          "blanks": [
+            {
+              "word": "accountability",
+              "hints": {
+                "direct": "The state of being responsible for one's actions",
+                "intermediate": "This concept is often discussed in the context of leadership and decision-making, particularly when evaluating the performance of individuals or organizations",
+                "indirect": "A thread that weaves through the fabric of trust, binding individuals to their choices"
+              }
+            },
+            {
+              "word": "investigations",
+              "hints": {
+                "direct": "Official inquiries into something, especially a crime or a problem",
+                "intermediate": "These processes often involve gathering evidence and interviewing witnesses to understand the details of a situation",
+                "indirect": "A search for truth, like following footprints in the snow to uncover what lies beneath"
+              }
+            },
+            {
+              "word": "damage",
+              "hints": {
+                "direct": "Harm or injury caused to something or someone",
+                "intermediate": "This can refer to physical harm, emotional distress, or financial loss, often resulting from an action or event",
+                "indirect": "A ripple in a pond, disturbing the calm and causing unrest"
+              }
+            },
+            {
+              "word": "target",
+              "hints": {
+                "direct": "A person or thing aimed at or against which something is directed",
+                "intermediate": "In various contexts, this can refer to an objective, a goal, or something that is the focus of attention or criticism",
+                "indirect": "The center of a bullseye, where all eyes and efforts converge"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_id": "news-2026-02-01-04",
+      "title": "Winter System Brings Heavy Snow",
+      "text": "Turning to the weather, The 7 highlighted a major winter system sweeping parts of the United States, with maps showing who would see the heaviest snow and travel disruptions.",
+      "practice": {
+        "enabled": true,
+        "blanking": {
+          "mode": "auto",
+          "targets": {
+            "easy": {
+              "min_blanks": 3,
+              "max_blanks": 5
+            },
+            "standard": {
+              "min_blanks": 5,
+              "max_blanks": 7
+            },
+            "advanced": {
+              "min_blanks": 7,
+              "max_blanks": 10
+            }
+          },
+          "avoid": {
+            "stopwords": true,
+            "numbers": true,
+            "very_short_words_max_len": 3
+          }
+        },
+        "scoring": {
+          "max_points": 100,
+          "per_blank": "proportional",
+          "penalties": {
+            "wrong_guess": 1,
+            "reveal_word": 10
+          }
+        }
+      },
+      "authored_variants": [
+        {
+          "variant_id": "llm-v1",
+          "blanks": [
+            {
+              "word": "weather",
+              "hints": {
+                "direct": "State of the atmosphere at a particular place and time",
+                "intermediate": "This term is often used in forecasts to describe temperature and precipitation",
+                "indirect": "A factor that can make or break outdoor plans"
+              }
+            },
+            {
+              "word": "sweeping",
+              "hints": {
+                "direct": "Moving rapidly and widely across something",
+                "intermediate": "This term can describe a wide range of actions, from physical movements to emotional effects",
+                "indirect": "Like a broom, but for large areas or concepts"
+              }
+            },
+            {
+              "word": "major",
+              "hints": {
+                "direct": "Of great importance or magnitude",
+                "intermediate": "This term is often used to describe significant events or issues",
+                "indirect": "A big deal, something that stands out from the rest"
+              }
+            },
+            {
+              "word": "system",
+              "hints": {
+                "direct": "A set of connected things or parts that work together",
+                "intermediate": "This term can refer to complex networks or organizations",
+                "indirect": "Like the human body, but for non-living things"
+              }
+            },
+            {
+              "word": "disruptions",
+              "hints": {
+                "direct": "Acts of interrupting or disturbing something",
+                "intermediate": "This term can describe events that cause problems or delays",
+                "indirect": "Like throwing a stone into a calm lake, causing ripples"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_id": "news-2026-02-01-05",
+      "title": "Listeners Receive Storm Updates",
+      "text": "Listeners heard practical advice on storm timing, regional impacts, and how infrastructure and schools were preparing for closures or delays.",
+      "practice": {
+        "enabled": true,
+        "blanking": {
+          "mode": "auto",
+          "targets": {
+            "easy": {
+              "min_blanks": 3,
+              "max_blanks": 5
+            },
+            "standard": {
+              "min_blanks": 5,
+              "max_blanks": 7
+            },
+            "advanced": {
+              "min_blanks": 7,
+              "max_blanks": 10
+            }
+          },
+          "avoid": {
+            "stopwords": true,
+            "numbers": true,
+            "very_short_words_max_len": 3
+          }
+        },
+        "scoring": {
+          "max_points": 100,
+          "per_blank": "proportional",
+          "penalties": {
+            "wrong_guess": 1,
+            "reveal_word": 10
+          }
+        }
+      },
+      "authored_variants": [
+        {
+          "variant_id": "llm-v1",
+          "blanks": [
+            {
+              "word": "Listeners",
+              "hints": {
+                "direct": "People who hear something",
+                "intermediate": "These individuals are often targeted by radio broadcasts or podcasts",
+                "indirect": "Ears that are tuned in"
+              }
+            },
+            {
+              "word": "practical",
+              "hints": {
+                "direct": "Useful for a specific purpose",
+                "intermediate": "This type of advice is often preferred in everyday situations",
+                "indirect": "Hands-on wisdom"
+              }
+            },
+            {
+              "word": "regional",
+              "hints": {
+                "direct": "Relating to a specific area",
+                "intermediate": "This term is often used in geography or government contexts",
+                "indirect": "A neighborhood of the world"
+              }
+            },
+            {
+              "word": "infrastructure",
+              "hints": {
+                "direct": "Basic systems and structures needed for a country or organization",
+                "intermediate": "This includes things like roads, bridges, and public services",
+                "indirect": "The backbone of a community"
+              }
+            },
+            {
+              "word": "closures",
+              "hints": {
+                "direct": "The act of closing something",
+                "intermediate": "This can happen to businesses, roads, or institutions due to various reasons",
+                "indirect": "A sealing of access"
+              }
+            },
+            {
+              "word": "delays",
+              "hints": {
+                "direct": "A period of time when something is late",
+                "intermediate": "These can occur in transportation, schedules, or projects",
+                "indirect": "Moments of waiting"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_id": "news-2026-02-01-06",
+      "title": "New Research Raises Questions About Neanderthals",
+      "text": "In science news, new research on Neanderthals suggested a possible sex skew in remains, raising questions about survival, social structures, and sampling bias.",
+      "practice": {
+        "enabled": true,
+        "blanking": {
+          "mode": "auto",
+          "targets": {
+            "easy": {
+              "min_blanks": 3,
+              "max_blanks": 5
+            },
+            "standard": {
+              "min_blanks": 5,
+              "max_blanks": 7
+            },
+            "advanced": {
+              "min_blanks": 7,
+              "max_blanks": 10
+            }
+          },
+          "avoid": {
+            "stopwords": true,
+            "numbers": true,
+            "very_short_words_max_len": 3
+          }
+        },
+        "scoring": {
+          "max_points": 100,
+          "per_blank": "proportional",
+          "penalties": {
+            "wrong_guess": 1,
+            "reveal_word": 10
+          }
+        }
+      },
+      "authored_variants": [
+        {
+          "variant_id": "llm-v1",
+          "blanks": [
+            {
+              "word": "research",
+              "hints": {
+                "direct": "A systematic investigation into something",
+                "intermediate": "It is often conducted in academic and scientific fields to gain a deeper understanding of a subject",
+                "indirect": "A careful search for answers, like being a detective for knowledge"
+              }
+            },
+            {
+              "word": "skew",
+              "hints": {
+                "direct": "A distorted or biased representation",
+                "intermediate": "It can refer to a statistical distribution that is not symmetrical",
+                "indirect": "Like a reflection in a funhouse mirror, where things appear uneven"
+              }
+            },
+            {
+              "word": "remains",
+              "hints": {
+                "direct": "The parts of something that are left after it has been destroyed or disappeared",
+                "intermediate": "In archaeology, it often refers to the leftovers from past human activity",
+                "indirect": "The silent witnesses of history, holding secrets of the past"
+              }
+            },
+            {
+              "word": "bias",
+              "hints": {
+                "direct": "A prejudice or partiality that influences judgment",
+                "intermediate": "In scientific studies, it can affect the accuracy of the results",
+                "indirect": "A leaning or inclination that can throw things off balance"
+              }
+            },
+            {
+              "word": "sampling",
+              "hints": {
+                "direct": "The process of selecting a subset of items from a larger group",
+                "intermediate": "It is used in statistics to make inferences about a population",
+                "indirect": "A taste or preview of the whole, like a small bite of a big meal"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

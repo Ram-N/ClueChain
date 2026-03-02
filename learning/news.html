@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang='en'>
+<head>
+  <meta charset='utf-8' />
+  <meta name='viewport' content='width=device-width, initial-scale=1' />
+  <title>ClueChain News</title>
+  <link rel='stylesheet' href='news.css' />
+</head>
+
+<body>
+  <header class='topbar'>
+    <div class='topbar-inner'>
+      <a class='brand' href='../index.html'>ClueChain</a>
+
+      <div class='toolbar'>
+        <div class='segmented' role='tablist' aria-label='Mode'>
+          <button id='modeRead' class='segbtn active' type='button'>Read</button>
+          <button id='modePractice' class='segbtn' type='button'>Practice</button>
+        </div>
+
+        <div class='difficulty'>
+          <label for='difficultySelect'>Difficulty</label>
+          <select id='difficultySelect'>
+            <option value='easy'>Easy</option>
+            <option value='standard' selected>Standard</option>
+            <option value='advanced'>Advanced</option>
+          </select>
+        </div>
+      </div>
+
+      <a class='daily-link' href='../index.html'>Daily Puzzle &rarr;</a>
+    </div>
+  </header>
+
+  <main class='page'>
+    <section class='hero'>
+      <h1 id='unitTitle'>Today&apos;s News</h1>
+      <div class='meta'>
+        <span id='unitDate'></span>
+        <span class='dot'>&bull;</span>
+        <span id='unitSubtitle'>Loading&hellip;</span>
+      </div>
+    </section>
+
+    <section id='items' class='items'></section>
+  </main>
+
+  <!-- Modal -->
+  <div id='modalRoot' class='modal-root' aria-hidden='true'>
+    <div class='modal-backdrop' data-action='close'></div>
+
+    <div class='modal' role='dialog' aria-modal='true' aria-label='Practice modal'>
+      <div class='modal-top'>
+        <button class='iconbtn' type='button' data-action='close'>&larr; Back</button>
+
+        <div class='modal-top-center'>
+          <div id='modalTitle' class='modal-title'>Practice</div>
+          <div id='modalSub' class='modal-sub'>Item 1 of 7</div>
+        </div>
+
+        <div id='modalScore' class='modal-score'>0 / 100</div>
+      </div>
+
+      <div class='modal-body'>
+        <div class='modal-text'>
+          <div id='maskedText' class='masked-text'></div>
+        </div>
+
+        <aside class='modal-panel'>
+          <div class='panel-row'>
+            <div class='panel-label'>Blank</div>
+            <div id='blankMeta' class='panel-meta'>Select a blank to begin</div>
+          </div>
+
+          <div class='panel-row'>
+            <input id='guessInput' class='guess' type='text' placeholder='Type your guess&hellip;' autocomplete='off' />
+            <button id='submitGuess' class='btn primary' type='button'>Submit</button>
+          </div>
+
+          <div class='panel-row hints'>
+            <button class='btn' type='button' data-hint='direct'>Hint 1</button>
+            <button class='btn' type='button' data-hint='intermediate'>Hint 2</button>
+            <button class='btn' type='button' data-hint='indirect'>Hint 3</button>
+          </div>
+
+          <div id='hintBox' class='hint-box' aria-live='polite'></div>
+
+          <div class='panel-row'>
+            <button id='revealWord' class='btn danger' type='button'>Reveal word</button>
+            <button id='revealAll' class='btn danger' type='button'>Reveal all</button>
+          </div>
+
+          <div class='panel-row nav'>
+            <button id='prevBlank' class='btn' type='button'>&larr; Prev</button>
+            <button id='nextBlank' class='btn' type='button'>Next &rarr;</button>
+          </div>
+        </aside>
+      </div>
+
+      <div id='summary' class='modal-summary hidden'>
+        <div class='summary-title'>Completed</div>
+        <div id='summaryDetail' class='summary-detail'></div>
+        <div class='summary-actions'>
+          <button id='summaryClose' class='btn primary' type='button'>Return to reading</button>
+          <button id='summaryNextItem' class='btn' type='button'>Practice next item</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src='news.js'></script>
+</body>
+</html>

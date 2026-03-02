@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "unit_id": "news-2026-02-25",
+  "unit_type": "news",
+  "title": "Today's News",
+  "date": "2026-02-25",
+  "topic": "current-events",
+  "source": {
+    "name": "Sample",
+    "license": "editorial"
+  },
+  "navigation": {
+    "collection": "news"
+  },
+  "tags": ["vocabulary", "current-events"],
+  "reading_level": "adult",
+  "estimated_minutes": 5,
+  "items": [
+    {
+      "item_id": "news-2026-02-25-01",
+      "title": "Federal Reserve Signals Rate Pause",
+      "text": "The Federal Reserve indicated it may pause interest rate hikes while watching inflation data and labor market signals. Officials cited ongoing uncertainty about whether price pressures have fully eased, suggesting a cautious approach before any further monetary tightening.",
+      "practice": {
+        "enabled": true,
+        "blanking": {
+          "mode": "auto",
+          "targets": {
+            "easy":     { "min_blanks": 3, "max_blanks": 5 },
+            "standard": { "min_blanks": 5, "max_blanks": 7 },
+            "advanced": { "min_blanks": 7, "max_blanks": 10 }
+          },
+          "avoid": { "stopwords": true, "numbers": true, "very_short_words_max_len": 3 }
+        },
+        "scoring": {
+          "max_points": 100,
+          "per_blank": "proportional",
+          "penalties": {
+            "wrong_guess": 1,
+            "reveal_word": 10
+          }
+        }
+      }
+    },
+    {
+      "item_id": "news-2026-02-25-02",
+      "title": "Major Earthquake in Chile",
+      "text": "A strong earthquake struck central Chile, prompting emergency assessments and early tsunami monitoring along the coast. Local authorities evacuated several coastal communities as a precaution while seismologists analyzed the magnitude and depth of the seismic event.",
+      "practice": {
+        "enabled": true,
+        "blanking": {
+          "mode": "auto",
+          "targets": {
+            "easy":     { "min_blanks": 3, "max_blanks": 5 },
+            "standard": { "min_blanks": 5, "max_blanks": 7 },
+            "advanced": { "min_blanks": 7, "max_blanks": 10 }
+          },
+          "avoid": { "stopwords": true, "numbers": true, "very_short_words_max_len": 3 }
+        }
+      }
+    },
+    {
+      "item_id": "news-2026-02-25-03",
+      "title": "AI Regulation Bill Advances in Senate",
+      "text": "A bipartisan Senate committee advanced a bill that would establish transparency requirements for large artificial intelligence systems deployed in public-facing applications. Supporters argue the legislation balances innovation with accountability, while critics warn it could burden smaller developers with compliance costs.",
+      "practice": {
+        "enabled": true,
+        "blanking": {
+          "mode": "auto",
+          "targets": {
+            "easy":     { "min_blanks": 3, "max_blanks": 5 },
+            "standard": { "min_blanks": 5, "max_blanks": 7 },
+            "advanced": { "min_blanks": 7, "max_blanks": 10 }
+          },
+          "avoid": { "stopwords": true, "numbers": true, "very_short_words_max_len": 3 }
+        }
+      }
+    },
+    {
+      "item_id": "news-2026-02-25-04",
+      "title": "Global Shipping Costs Rise Amid Port Disruptions",
+      "text": "Container shipping rates climbed sharply this week as labor disputes and weather delays disrupted operations at several major Pacific ports. Analysts warn that prolonged bottlenecks could reintroduce supply chain pressures and modestly raise consumer prices for imported goods in the coming months.",
+      "practice": {
+        "enabled": true,
+        "blanking": {
+          "mode": "auto",
+          "targets": {
+            "easy":     { "min_blanks": 3, "max_blanks": 5 },
+            "standard": { "min_blanks": 5, "max_blanks": 7 },
+            "advanced": { "min_blanks": 7, "max_blanks": 10 }
+          },
+          "avoid": { "stopwords": true, "numbers": true, "very_short_words_max_len": 3 }
+        }
+      }
+    },
+    {
+      "item_id": "news-2026-02-25-05",
+      "title": "Scientists Discover New Deep-Sea Species",
+      "text": "Marine biologists announced the discovery of three previously unknown species during an expedition to the Mariana Trench. The creatures, which include a translucent eel-like fish and two invertebrates, were found at depths exceeding eight kilometers where sunlight never penetrates.",
+      "practice": {
+        "enabled": true,
+        "blanking": {
+          "mode": "auto",
+          "targets": {
+            "easy":     { "min_blanks": 3, "max_blanks": 5 },
+            "standard": { "min_blanks": 5, "max_blanks": 7 },
+            "advanced": { "min_blanks": 7, "max_blanks": 10 }
+          },
+          "avoid": { "stopwords": true, "numbers": true, "very_short_words_max_len": 3 }
+        }
+      }
+    }
+  ]
+}
