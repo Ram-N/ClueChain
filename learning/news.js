@@ -317,7 +317,7 @@ function getHintText(modalState, layer) {
   if (b.solved || b.revealed) return `The word was: ${b.answer}`
 
   // Use authored hint if available, otherwise fall back to generic placeholder
-  if (b.hints && b.hints[layer]) return b.hints[layer]
+  if (b.hints && b.hints[layer]) return `${b.hints[layer]} (${b.answer.length})`
 
   switch (layer) {
     case 'direct':       return `Definition: look for a ${b.answer.length}-letter word that fits this context.`
