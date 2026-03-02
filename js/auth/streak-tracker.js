@@ -269,10 +269,16 @@ class StreakTracker {
     // Deduplicate by date string (multiple activities on same day count as one)
     const uniqueDates = [...new Set(sortedActivities.map(a => a.activity_date))];
 
+    // Check if the most recent activity is today or yesterday — if not, streak is already broken
+    const todayStr = _localDateKey(new Date());
+    const mostRecentStr = uniqueDates[0];
+    const stillActive = mostRecentStr === todayStr || mostRecentStr === _yesterdayKey(todayStr);
+
     let currentStreak = 0;
     let longestStreak = 0;
     let tempStreak = 0;
     let lastDateStr = null;
+    let currentStreakLocked = false; // true once we've hit the first gap
 
     for (let i = 0; i < uniqueDates.length; i++) {
       if (lastDateStr === null) {
@@ -285,6 +291,11 @@ class StreakTracker {
         if (isConsecutive) {
           tempStreak++;
         } else {
+          // First gap hit — lock in the current streak (the leading segment)
+          if (!currentStreakLocked) {
+            currentStreak = stillActive ? tempStreak : 0;
+            currentStreakLocked = true;
+          }
           longestStreak = Math.max(longestStreak, tempStreak);
           tempStreak = 1;
         }
@@ -293,15 +304,9 @@ class StreakTracker {
       }
     }
 
-    // Check if current streak is still active (most recent activity is today or yesterday)
-    const todayStr = _localDateKey(new Date());
-    const mostRecentStr = uniqueDates[0];
-    const stillActive = mostRecentStr === todayStr || mostRecentStr === _yesterdayKey(todayStr);
-
-    if (stillActive) {
-      currentStreak = tempStreak;
-    } else {
-      currentStreak = 0;
+    // Handle case where loop ended without a gap (all days consecutive)
+    if (!currentStreakLocked) {
+      currentStreak = stillActive ? tempStreak : 0;
     }
 
     longestStreak = Math.max(longestStreak, tempStreak);
