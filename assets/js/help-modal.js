@@ -10,32 +10,42 @@ const gameRules = {
     {
       number: 1,
       title: "Pick your starting letters",
-      description: "Choose 1 vowel and 2 consonants at the start. These will appear wherever they occur in the paragraph."
+      description: "Choose 1 vowel and 2 consonants at the start. These letters are revealed wherever they appear in the hidden words."
     },
     {
       number: 2,
       title: "Start guessing words",
-      description: "There are 10 hidden words. You can guess them in any order."
+      description: "There are 10 hidden words in the paragraph. You can guess them in any order."
     },
     {
       number: 3,
       title: "Clues unlock progressively",
-      description: "You'll start with 3 random clues and 3 word endings shown. After every guess (right or wrong), 1 more clue and 1 more ending get revealed."
+      description: "Each hidden word has multiple clue tiers — harder clues come first. After every guess (right or wrong), more clues and word endings are revealed."
     },
     {
       number: 4,
-      title: "Track remaining letters",
-      description: "The Letter Marketplace shows how many unrevealed instances of each letter remain across all hidden words."
+      title: "Scoring depends on clue tier",
+      description: "Solving a word with a harder clue earns more points (links). If you view easier clues before solving, your points for that word are reduced."
     },
     {
       number: 5,
-      title: "Scoring depends on clue level",
-      description: "Solving with harder clues gets you more points. Revealing a word costs points."
+      title: "Letter Marketplace",
+      description: "Spend links to reveal a letter across all hidden words. The marketplace shows how many unrevealed instances of each letter remain."
     },
     {
       number: 6,
+      title: "🗝️ Golden Key — one use per game",
+      description: "If any word clues are still hidden, the Golden Key reveals the next one for free. Once all clues are visible, it instead upgrades one word to a harder clue tier — with no score penalty."
+    },
+    {
+      number: 7,
+      title: "🪙 Golden Coin — one use per game",
+      description: "Reveals all instances of a rare letter (appearing 2 or fewer times) across all hidden words, for free."
+    },
+    {
+      number: 8,
       title: "Goal",
-      description: "Find all 10 words and maximize your total score (links earned)."
+      description: "Find all 10 words and maximize your total score. Games where you used a golden item are marked as assisted."
     }
   ]
 };

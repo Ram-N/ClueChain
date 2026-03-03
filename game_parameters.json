@@ -18,9 +18,9 @@
     },
     "golden": {
         "coin": {
-            "cost": 3,
+            "cost": 0,
             "maxFrequency": 2,
-            "description": "Reveal a rare letter (≤2 instances) for 3 links"
+            "description": "Reveal a rare letter (≤2 instances) for free"
         },
         "key": {
             "description": "Unlock next hidden clue, or upgrade a visible clue tier"

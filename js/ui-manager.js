@@ -1560,7 +1560,7 @@ function handleLetterPurchase(tile, isVowel) {
       showToast(
         `Revealed ${count} instance${
           count !== 1 ? "s" : ""
-        } of "${letter.toUpperCase()}" for ${result.cost} links`,
+        } of "${letter.toUpperCase()}"${result.cost > 0 ? ` for ${result.cost} links` : " (free)"}`,
         "success"
       );
     } else {
@@ -1837,7 +1837,7 @@ export function handleGoldenCoin() {
         <button class="close-button" id="golden-coin-modal-close">&times;</button>
       </div>
       <div class="modal-body">
-        <p style="margin:0 0 0.75rem;">Costs <strong>${cost} links</strong>. Choose a letter to reveal all its instances:</p>
+        <p style="margin:0 0 0.75rem;">${cost > 0 ? `Costs <strong>${cost} links</strong>.` : "<strong>Free!</strong>"} Choose a letter to reveal all its instances:</p>
         <div>${optionsHTML}</div>
       </div>
     </div>
@@ -1870,7 +1870,7 @@ export function handleGoldenCoin() {
           tile.classList.add("purchased", "purchased-golden");
         }
         addNotification(
-          `Golden Coin used: all instances of "${letter.toUpperCase()}" revealed (−${result.cost} links)`,
+          `Golden Coin used: all instances of "${letter.toUpperCase()}" revealed${result.cost > 0 ? ` (−${result.cost} links)` : " (free)"}`,
           "success"
         );
       }
