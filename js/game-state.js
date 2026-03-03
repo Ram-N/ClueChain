@@ -1187,7 +1187,8 @@ export function updateActiveClueIndex(wordIndex, clueIndex) {
   word.activeClueIndex = clueIndex;
   
   // Update the lowest clue index seen (higher index = easier clue)
-  if (clueIndex > word.lowestClueIndexSeen) {
+  // Skip penalty if this word was upgraded by the golden key
+  if (clueIndex > word.lowestClueIndexSeen && !word.goldenKeyProtected) {
     word.lowestClueIndexSeen = clueIndex;
     console.log(`Updated lowest clue index seen for word "${word.word}" to ${clueIndex}`);
   }
@@ -1490,6 +1491,7 @@ export function useGoldenKey(wordIndex) {
 
   // Upgrade the clue index WITHOUT touching lowestClueIndexSeen (no penalty)
   word.activeClueIndex = nextClueIndex;
+  word.goldenKeyProtected = true; // Prevent lowestClueIndexSeen from updating after GK upgrade
   gameState.current.goldenKeyUsed = true;
   gameState.current.assistedPlay = true;
   return { success: true, mode: "upgrade", wordIndex };

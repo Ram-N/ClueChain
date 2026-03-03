@@ -150,10 +150,10 @@ function handleGuess(e) {
       const lowestClueIndexSeen = word.lowestClueIndexSeen || 0;
       const originalPoints = word.clues && word.clues[0] ? word.clues[0].points : 0;
       
-      if (lowestClueIndexSeen > 0 && originalPoints > result.pointsEarned) {
+      if (lowestClueIndexSeen > 0 && originalPoints > result.pointsEarned && !word.goldenKeyProtected) {
         showToast(`Points reduced from ${originalPoints} because you viewed easier clues`, "info");
       }
-      
+
       // Animate the clue tumbling down
       animateClueForWord(word.word);
     }
@@ -271,10 +271,10 @@ function setupGuessInput() {
       const lowestClueIndexSeen = word ? word.lowestClueIndexSeen : 0;
       const originalPoints = word && word.clues && word.clues[0] ? word.clues[0].points : 0;
       
-      if (lowestClueIndexSeen > 0 && originalPoints > result.pointsEarned) {
+      if (lowestClueIndexSeen > 0 && originalPoints > result.pointsEarned && !word?.goldenKeyProtected) {
         showToast(`Points reduced from ${originalPoints} because you viewed easier clues`, "info");
       }
-      
+
       // Animate the clue tumbling down
       if (word) {
         animateClueForWord(word.word);
