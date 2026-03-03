@@ -1,0 +1,15 @@
+#!/bin/bash
+
+# ClueChain Quick Pickup Guide
+# This script displays the quickstart information for continuing work on ClueChain
+
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+QUICKSTART_FILE="$SCRIPT_DIR/docs/QUICKSTART.md"
+
+# Check if glow is available
+if command -v glow &> /dev/null; then
+    glow "$QUICKSTART_FILE"
+else
+    # Fallback to cat if glow is not installed
+    cat "$QUICKSTART_FILE"
+fi
