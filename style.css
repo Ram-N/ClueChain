@@ -425,6 +425,7 @@ button:hover {
 /* Chain Links Progress Styling */
 .chain-progress-container {
   display: flex;
+  align-items: center;
   justify-content: center;
   margin-top: 15px;
   margin-left: 20px;
@@ -433,7 +434,6 @@ button:hover {
   overflow-x: auto; /* Allow horizontal scrolling if needed */
   overflow-y: hidden;
   width: 100%;
-  max-width: 350px;
   padding: 5px 0;
   box-sizing: border-box;
   -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
@@ -1129,6 +1129,16 @@ button:hover {
   display: none;
 }
 
+.letter-tile.purchased.purchased-golden,
+.letter-tile.purchased-golden {
+  background: gold;
+  border-color: #b8860b;
+  color: #5a3e00;
+  cursor: not-allowed;
+  transform: none;
+  opacity: 1;
+}
+
 .letter-tile.empty {
   background: #e0e0e0;
   border-color: #bdbdbd;
@@ -1621,3 +1631,45 @@ button:hover {
   letter-spacing: 0.01em;
   word-break: break-word;
 }
+
+/* ─── Golden Key & Golden Coin ─────────────────────────────────────── */
+
+#golden-actions {
+  display: flex;
+  gap: 0.25rem;
+  flex-shrink: 0;
+}
+
+.golden-btn {
+  background: none;
+  border: none;
+  padding: 0;
+  font-size: 1.25rem;
+  cursor: pointer;
+  opacity: 0.85;
+  line-height: 1;
+  transition: opacity 0.2s, transform 0.1s;
+}
+
+.golden-btn:hover:not(:disabled) {
+  opacity: 1;
+  transform: scale(1.15);
+}
+
+.golden-btn.used,
+.golden-btn:disabled {
+  opacity: 0.25;
+  cursor: not-allowed;
+  filter: grayscale(1);
+}
+
+.assisted-badge {
+  display: inline-block;
+  font-size: 0.8rem;
+  color: #888;
+  margin-top: 0.3rem;
+  font-style: italic;
+}
+
+/* Golden modals reuse .modal-container from existing styles */
+

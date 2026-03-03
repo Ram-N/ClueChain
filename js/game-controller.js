@@ -42,7 +42,9 @@ import {
   clearNotifications,
   showInitialMessage,
   addCorrectGuessNotification,
-  addIncorrectGuessNotification
+  addIncorrectGuessNotification,
+  handleGoldenKey,
+  handleGoldenCoin,
 } from "./ui-manager.js?v=1.1";
 
 import {
@@ -513,6 +515,10 @@ export async function initializeGame() {
     
     // Setup marketplace (re-adding event listeners since we cloned tiles in resetUI)
     setupMarketplace();
+
+    // Wire up golden action buttons
+    document.getElementById("golden-key-btn")?.addEventListener("click", handleGoldenKey);
+    document.getElementById("golden-coin-btn")?.addEventListener("click", handleGoldenCoin);
 
     // Force a delay to ensure all setup is complete
     setTimeout(() => {

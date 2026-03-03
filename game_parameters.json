@@ -16,6 +16,16 @@
             "description": "Reveal a word (flat 8 links)"
         }
     },
+    "golden": {
+        "coin": {
+            "cost": 3,
+            "maxFrequency": 2,
+            "description": "Reveal a rare letter (≤2 instances) for 3 links"
+        },
+        "key": {
+            "description": "Unlock next hidden clue, or upgrade a visible clue tier"
+        }
+    },
     "styles": {
         "foundWord": {
             "color": "#4CAF50",

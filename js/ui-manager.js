@@ -42,6 +42,10 @@ import {
   gameState,
   revealSelectedLetters,
   showInitialCluesAfterSelection,
+  getGoldenKeyMode,
+  useGoldenKey,
+  useGoldenCoin,
+  getEligibleCoinLetters,
 } from "./game-state.js?v=1.1";
 
 import {
@@ -1007,6 +1011,8 @@ export function updateScore() {
 
   // Also update chain links whenever score is updated
   updateChainLinks();
+  // Keep golden buttons in sync with game state
+  renderGoldenActions();
 }
 
 /**
@@ -1067,17 +1073,24 @@ export async function showGameOver(lastWordRevealed = false) {
     }
   }
 
+  const assistedPlay = gameState.current.assistedPlay;
+  const assistedBadge = assistedPlay
+    ? `<div><span class="assisted-badge">&#x1F5DD;&#xFE0F; Assisted play</span></div>`
+    : "";
+
   const endGameMessage = document.createElement("div");
   endGameMessage.className = "game-over-message";
   endGameMessage.innerHTML = lastWordRevealed
     ? `
         <h2>Chain Complete 🔓</h2>
         <p>Final Score: <span class="final-score">${score}</span> <span class="max-score">(Max Possible: ${maxScore})</span> - ${scorePercentage}%</p>
+        ${assistedBadge}
     `
     : `
         <h2>Chain Complete! 🎉</h2>
         <p>You've linked every word in the paragraph!</p>
         <p>Final Score: <span class="final-score">${score}</span> <span class="max-score">(Max Possible: ${maxScore})</span> - ${scorePercentage}%</p>
+        ${assistedBadge}
     `;
 
   updateElement("paragraph-container", (el) =>
@@ -1645,4 +1658,222 @@ export function resetUI() {
   // Clear animation tracking maps
   animatingClues.clear();
   animatedChainLinks.clear();
+}
+
+// ─── Golden Key & Golden Coin UI ─────────────────────────────────────────────
+
+/**
+ * Updates the golden action buttons to reflect used/available state.
+ * Called automatically from updateScore().
+ */
+export function renderGoldenActions() {
+  const keyBtn = document.getElementById("golden-key-btn");
+  const coinBtn = document.getElementById("golden-coin-btn");
+  if (!keyBtn || !coinBtn) return;
+
+  const keyUsed = gameState.current.goldenKeyUsed;
+  const coinUsed = gameState.current.goldenCoinUsed;
+
+  if (keyUsed) {
+    keyBtn.disabled = true;
+    keyBtn.classList.add("used");
+  } else {
+    keyBtn.disabled = false;
+    keyBtn.classList.remove("used");
+  }
+
+  if (coinUsed) {
+    coinBtn.disabled = true;
+    coinBtn.classList.add("used");
+  } else {
+    coinBtn.disabled = false;
+    coinBtn.classList.remove("used");
+  }
+}
+
+/**
+ * Handles the Golden Key button click.
+ * If there are hidden clues, reveals the next one.
+ * If all clues are visible, shows a word picker to upgrade one clue tier.
+ */
+export function handleGoldenKey() {
+  if (gameState.current.goldenKeyUsed) return;
+
+  const mode = getGoldenKeyMode();
+
+  if (mode === "reveal") {
+    const result = useGoldenKey();
+    if (result.success) {
+      renderClues();
+      renderGoldenActions();
+      addNotification("Golden Key used: a new clue has been revealed!", "success");
+    }
+    return;
+  }
+
+  // Upgrade mode: show word picker
+  const words = gameState.current.words;
+  const eligibleWords = words
+    .map((w, i) => ({ w, i }))
+    .filter(({ w }) => {
+      if (w.found || w.revealed) return false;
+      if (!w.clues || !Array.isArray(w.clues)) return false;
+      return (w.activeClueIndex || 0) + 1 < w.clues.length;
+    });
+
+  if (eligibleWords.length === 0) {
+    addNotification("No clues can be upgraded further.", "info");
+    return;
+  }
+
+  showGoldenKeyPicker(eligibleWords);
+}
+
+/**
+ * Shows an inline picker to let the player choose which word's clue to upgrade.
+ * @param {Array<{w: Object, i: number}>} eligibleWords
+ */
+function showGoldenKeyPicker(eligibleWords) {
+  let modal = document.getElementById("golden-key-modal");
+  if (!modal) {
+    modal = document.createElement("div");
+    modal.id = "golden-key-modal";
+    modal.className = "modal-container";
+    document.body.appendChild(modal);
+  }
+
+  const tierNames = ["indirect", "suggestive", "straight"];
+
+  const optionsHTML = eligibleWords.map(({ w, i }) => {
+    const currentTier = w.activeClueIndex || 0;
+    const nextTier = currentTier + 1;
+    const fromLabel = tierNames[currentTier] || `tier ${currentTier}`;
+    const toLabel = tierNames[nextTier] || `tier ${nextTier}`;
+    const clueText = w.clues[currentTier]?.clue || "";
+    return `<button class="golden-key-option" data-word-index="${i}"
+      style="display:block;width:100%;margin:0.4rem 0;padding:0.5rem 0.75rem;
+             border-radius:6px;border:2px solid #b8860b;background:#fffbe6;
+             color:#333;cursor:pointer;font-size:0.95rem;text-align:left;">
+      "${clueText}"
+      <span style="font-size:0.8rem;color:#888;display:block;">${fromLabel} → ${toLabel}</span>
+    </button>`;
+  }).join("");
+
+  modal.innerHTML = `
+    <div class="modal-content" style="max-width:360px;">
+      <div class="modal-header">
+        <h2>&#x1F5DD;&#xFE0F; Upgrade a Clue</h2>
+        <button class="close-button" id="golden-key-modal-close">&times;</button>
+      </div>
+      <div class="modal-body">
+        <p style="margin:0 0 0.75rem;">Choose a word to upgrade its clue to the next tier (no score penalty):</p>
+        ${optionsHTML}
+      </div>
+    </div>
+  `;
+
+  modal.classList.add("show");
+
+  const close = () => {
+    modal.classList.remove("show");
+    document.removeEventListener("keydown", onKey);
+  };
+  const onKey = (e) => { if (e.key === "Escape") close(); };
+  modal.querySelector("#golden-key-modal-close").addEventListener("click", close);
+  modal.addEventListener("click", (e) => { if (e.target === modal) close(); });
+  document.addEventListener("keydown", onKey);
+
+  modal.querySelectorAll(".golden-key-option").forEach(btn => {
+    btn.addEventListener("click", () => {
+      const wordIndex = parseInt(btn.getAttribute("data-word-index"), 10);
+      close();
+      const result = useGoldenKey(wordIndex);
+      if (result.success) {
+        renderClues();
+        renderGoldenActions();
+        addNotification("Golden Key used: a clue has been upgraded!", "success");
+      }
+    });
+  });
+}
+
+/**
+ * Handles the Golden Coin button click.
+ * Shows eligible rare letters and lets the player pick one to reveal for 3 links.
+ */
+export function handleGoldenCoin() {
+  if (gameState.current.goldenCoinUsed) return;
+
+  const eligible = getEligibleCoinLetters();
+  if (eligible.length === 0) {
+    addNotification("No rare letters left to reveal.", "info");
+    return;
+  }
+
+  const params = gameState.current; // just for cost
+  const cost = (gameState.config?.parameters?.golden?.coin?.cost) ?? 3;
+
+  let modal = document.getElementById("golden-coin-modal");
+  if (!modal) {
+    modal = document.createElement("div");
+    modal.id = "golden-coin-modal";
+    modal.className = "modal-container";
+    document.body.appendChild(modal);
+  }
+
+  const optionsHTML = eligible.map(({ letter, count }) =>
+    `<button class="golden-coin-option" data-letter="${letter}"
+      style="display:inline-block;margin:0.3rem;padding:0.5rem 0.9rem;
+             border-radius:6px;border:2px solid #b8860b;background:#fffbe6;
+             color:#333;cursor:pointer;font-size:1.1rem;font-weight:bold;">
+      ${letter.toUpperCase()} <span style="font-size:0.75rem;font-weight:normal;color:#666;">(×${count})</span>
+    </button>`
+  ).join("");
+
+  modal.innerHTML = `
+    <div class="modal-content" style="max-width:360px;text-align:center;">
+      <div class="modal-header">
+        <h2>&#x1FA99; Reveal a Rare Letter</h2>
+        <button class="close-button" id="golden-coin-modal-close">&times;</button>
+      </div>
+      <div class="modal-body">
+        <p style="margin:0 0 0.75rem;">Costs <strong>${cost} links</strong>. Choose a letter to reveal all its instances:</p>
+        <div>${optionsHTML}</div>
+      </div>
+    </div>
+  `;
+
+  modal.classList.add("show");
+
+  const close = () => {
+    modal.classList.remove("show");
+    document.removeEventListener("keydown", onKey);
+  };
+  const onKey = (e) => { if (e.key === "Escape") close(); };
+  modal.querySelector("#golden-coin-modal-close").addEventListener("click", close);
+  modal.addEventListener("click", (e) => { if (e.target === modal) close(); });
+  document.addEventListener("keydown", onKey);
+
+  modal.querySelectorAll(".golden-coin-option").forEach(btn => {
+    btn.addEventListener("click", () => {
+      const letter = btn.getAttribute("data-letter");
+      close();
+      const result = useGoldenCoin(letter);
+      if (result.success) {
+        renderParagraph(getChosenVowel());
+        updateLetterCounts();
+        updateScore(); // also calls renderGoldenActions
+        // Gild the tile for the revealed letter
+        const tile = document.querySelector(`.letter-tile[data-letter="${result.letter}"]`);
+        if (tile) {
+          tile.classList.remove("empty");
+          tile.classList.add("purchased", "purchased-golden");
+        }
+        addNotification(
+          `Golden Coin used: all instances of "${letter.toUpperCase()}" revealed (−${result.cost} links)`,
+          "success"
+        );
+      }
+    });
+  });
 }

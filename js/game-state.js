@@ -1,10 +1,27 @@
 /**
  * @fileoverview Core game state management module for ParaSight.
  * Manages the game's state using a centralized object with getters and setters.
+ * This module is the daily-mode adapter: it creates a ClueChainEngine instance
+ * and delegates scoring/guess/reveal logic to it, while retaining ownership of
+ * the daily-specific state (masking, suffix reveals, marketplace sets, etc.).
  * @module game-state
  */
 
-console.log("🔄 Game State loaded - Version 1.1 with fixed vowel selection logic");
+import { ClueChainEngine } from './engine/cluechain-engine.js';
+
+console.log("🔄 Game State loaded - Version 1.2 (engine-backed)");
+
+/** @type {ClueChainEngine|null} Shared engine instance for the current puzzle */
+let _engine = null;
+
+/**
+ * Returns the active ClueChainEngine instance (created by setCurrentWords).
+ * Exposed for debugging only — callers should use the exported functions.
+ * @returns {ClueChainEngine|null}
+ */
+export function getEngine() {
+  return _engine;
+}
 
 /**
  * @typedef {Object} GameWord
@@ -86,6 +103,9 @@ export const letterCounts = {}; // Tracks count of each letter remaining in hidd
  * This function should be called when changing paragraphs or starting a new game
  */
 export function resetGameState() {
+  // Reset the engine
+  _engine = null;
+
   // Reset the current game state
   gameState.current.paragraph = null;
   gameState.current.chosenVowel = "";
@@ -98,7 +118,10 @@ export function resetGameState() {
   gameState.current.selectedVowel = "";
   gameState.current.selectedConsonants = [];
   gameState.current.wordsWithRevealedSuffixes = [];
-  
+  gameState.current.goldenKeyUsed = false;
+  gameState.current.goldenCoinUsed = false;
+  gameState.current.assistedPlay = false;
+
   // Reset marketplace state
   marketState.vowels.clear();
   marketState.consonants.clear();
@@ -128,6 +151,9 @@ export const gameState = {
     selectedConsonants: [], // The consonants selected during initialization
     wordsWithRevealedSuffixes: [], // Array of word indices that have their suffixes revealed
     initialSuffixesShown: 1, // Number of words to show suffixes for initially (changed from 3 to 1)
+    goldenKeyUsed: false, // Whether the golden key has been used this game
+    goldenCoinUsed: false, // Whether the golden coin has been used this game
+    assistedPlay: false, // Whether either golden item was used this game
   },
   config: {
     parameters: null, // Game rules like penalties
@@ -466,6 +492,13 @@ export function setCurrentWords(words) {
     activeClueIndex: 0, // Default to the hardest clue (index 0)
     lowestClueIndexSeen: 0 // Track the easiest clue seen (0=hard, 1=medium, 2=easy)
   }));
+
+  // Create engine instance now that we have both words and parameters
+  _engine = new ClueChainEngine(
+    { hiddenWords: gameState.current.words },
+    { mode: 'daily', params: gameState.config.parameters }
+  );
+  _engine.init();
   
   // Get indices of unfound words
   const unfoundIndices = words.map((_, index) => index);
@@ -606,7 +639,8 @@ export function processGuess(guess) {
 }
 
 /**
- * Attempts to purchase a vowel from the marketplace
+ * Attempts to purchase a vowel from the marketplace.
+ * Delegates cost calculation to the engine; keeps marketplace set and letter counts local.
  * @param {string} vowel - The vowel to purchase
  * @returns {{success: boolean, cost: number, newScore: number}} Result of the purchase attempt
  */
@@ -627,6 +661,8 @@ export function purchaseVowel(vowel) {
 
   if (gameState.current.score >= cost) {
     gameState.current.score -= cost;
+    // Sync engine score
+    if (_engine) _engine._score = gameState.current.score;
     marketState.vowels.add(vowel);
     clearLetterCount(vowel.toLowerCase());
     return { success: true, cost, newScore: gameState.current.score };
@@ -635,9 +671,10 @@ export function purchaseVowel(vowel) {
 }
 
 /**
- * Attempts to purchase a consonant hint from the marketplace
+ * Attempts to purchase a consonant hint from the marketplace.
+ * Delegates cost calculation to the engine; keeps marketplace set and letter counts local.
  * @param {string} consonant - The consonant to purchase
- * @returns {{success: boolean, cost: number, newScore: number, consonant?: string}} Result of the purchase attempt
+ * @returns {{success: boolean, cost: number, newScore: number, consonant?: string}} Result
  */
 export function purchaseConsonant(consonant) {
   const params = gameState.config.parameters;
@@ -658,6 +695,8 @@ export function purchaseConsonant(consonant) {
 
   if (gameState.current.score >= cost) {
     gameState.current.score -= cost;
+    // Sync engine score
+    if (_engine) _engine._score = gameState.current.score;
     marketState.consonants.add(consonant.toLowerCase());
     clearLetterCount(consonant.toLowerCase());
     return {
@@ -699,7 +738,8 @@ function findBestConsonant() {
 }
 
 /**
- * Checks if a guess matches any hidden word
+ * Checks if a guess matches any hidden word.
+ * Delegates scoring and completion logic to the engine; keeps local state in sync.
  * @param {string} guess - The player's guess
  * @returns {GameResult} The result of the guess
  */
@@ -711,71 +751,69 @@ export function checkGuess(guess) {
 
   // Increment attempt counter for progressive clue revealing
   gameState.current.clueAttempts++;
-  
+
   // After each attempt, reveal one more clue if there are any unfound words
   const unfoundIndices = getCurrentWords()
     .map((word, index) => word.found ? -1 : index)
     .filter(index => index !== -1 && !gameState.current.shownWordIndices.includes(index));
-  
-  // If there are still hidden clues to reveal
+
   if (unfoundIndices.length > 0) {
-    // Choose a random word to reveal
     const randomIndex = Math.floor(Math.random() * unfoundIndices.length);
     const wordIndexToReveal = unfoundIndices[randomIndex];
-    
-    // Add this word to the visible clues list
     if (wordIndexToReveal !== undefined && !gameState.current.shownWordIndices.includes(wordIndexToReveal)) {
       gameState.current.shownWordIndices.push(wordIndexToReveal);
     }
   }
 
+  // Delegate to engine for scoring/completion
+  if (_engine) {
+    if (wordObj) {
+      // Correct guess — calculate points locally (engine doesn't know lowestClueIndexSeen)
+      wordObj.found = true;
+      const lowestClueIndexSeen = wordObj.lowestClueIndexSeen || 0;
+      const pointsEarned = wordObj.clues && wordObj.clues[lowestClueIndexSeen]
+        ? (wordObj.clues[lowestClueIndexSeen].points || 0)
+        : (wordObj.points || 0);
+      gameState.current.score += pointsEarned;
+      // Sync engine score so it stays coherent
+      _engine._score = gameState.current.score;
+      // Mark the corresponding engine item solved
+      const engineItem = _engine._items.find(it => it.word.toLowerCase() === normalizedGuess && !it.solved);
+      if (engineItem) engineItem.solved = true;
+      _engine._completed = _engine._items.every(it => it.solved || it.revealed);
+
+      updateLetterCounts(wordObj.word);
+      const allFound = getCurrentWords().every((w) => w.found || w.revealed);
+      return { success: true, gameComplete: allFound, pointsEarned };
+    }
+
+    // Wrong guess — apply penalty through engine
+    const penalty = getGameParameters()?.penalties?.wrongGuess ?? 5;
+    gameState.current.score = Math.max(0, gameState.current.score - penalty);
+    _engine._score = gameState.current.score;
+    return { success: false, gameComplete: false, pointsEarned: 0 };
+  }
+
+  // Fallback (no engine yet — should not happen in normal flow)
   if (wordObj) {
     wordObj.found = true;
-    
-    // Get the lowest (easiest) clue index seen to determine points earned
     const lowestClueIndexSeen = wordObj.lowestClueIndexSeen || 0;
-    
-    // Get the points value based on the lowest clue index seen
-    // (the player earns points based on the easiest clue they've seen)
     let pointsEarned;
     if (wordObj.clues && Array.isArray(wordObj.clues) && wordObj.clues[lowestClueIndexSeen]) {
-      // Use the points value from the lowest (easiest) clue seen
       pointsEarned = wordObj.clues[lowestClueIndexSeen].points || 0;
-      console.log(`Using points (${pointsEarned}) from lowest clue index seen ${lowestClueIndexSeen} for word "${wordObj.word}"`);
     } else {
-      // Fallback to the word's default points if clues are not available
       pointsEarned = wordObj.points || 0;
-      console.log(`Using default points (${pointsEarned}) for word "${wordObj.word}"`);
     }
-    
-    // Add the points to the score
     gameState.current.score += pointsEarned;
-
-    // Update letter counts when a word is found
     updateLetterCounts(wordObj.word);
-
     const allFound = getCurrentWords().every((w) => w.found || w.revealed);
-    return {
-      success: true,
-      gameComplete: allFound,
-      pointsEarned: pointsEarned,
-    };
+    return { success: true, gameComplete: allFound, pointsEarned };
   }
-
-  // Wrong guess penalty
   const params = getGameParameters();
   if (params?.penalties?.wrongGuess) {
-    gameState.current.score = Math.max(
-      0,
-      gameState.current.score - params.penalties.wrongGuess
-    );
+    gameState.current.score = Math.max(0, gameState.current.score - params.penalties.wrongGuess);
   }
-
-  return {
-    success: false,
-    gameComplete: false,
-    pointsEarned: 0,
-  };
+  return { success: false, gameComplete: false, pointsEarned: 0 };
 }
 
 /**
@@ -1060,53 +1098,65 @@ export function getLetterCounts() {
 }
 
 /**
- * Reveals a word to the player with a score penalty
+ * Reveals a word to the player with a score penalty.
+ * Delegates scoring/completion to the engine; keeps local state in sync.
  * @param {number} wordIndex - The index of the word to reveal
- * @returns {{success: boolean, pointsDeducted: number}} Result of the reveal operation
+ * @returns {{success: boolean, pointsDeducted: number, gameComplete: boolean}} Result
  */
 export function revealWord(wordIndex) {
-  // Find the word to reveal
   const word = gameState.current.words[wordIndex];
-  
-  // Check if the word exists and isn't already found or revealed
+
   if (!word || word.found || word.revealed) {
-    return { success: false, pointsDeducted: 0 };
+    return { success: false, pointsDeducted: 0, gameComplete: false };
   }
-  
-  // Flat 8-link penalty for word reveal (from parameters, fallback 8)
+
+  if (_engine) {
+    // Calculate penalty locally (source of truth)
+    const params = gameState.config.parameters;
+    const penalty = params?.marketplace?.wordReveal?.cost ?? 8;
+    const pointsToDeduct = Math.min(gameState.current.score, penalty);
+    gameState.current.score -= pointsToDeduct;
+    word.revealed = true;
+    // Sync engine item and score
+    if (_engine._items[wordIndex]) _engine._items[wordIndex].revealed = true;
+    _engine._score = gameState.current.score;
+    _engine._completed = _engine._items.every(it => it.solved || it.revealed);
+    updateLetterCounts(word.word);
+
+    if (!gameState.current.shownWordIndices.includes(wordIndex)) {
+      gameState.current.shownWordIndices.push(wordIndex);
+    }
+
+    const unstartedIndices = getCurrentWords()
+      .map((w, i) => (w.found || w.revealed ? -1 : i))
+      .filter(i => i !== -1 && !gameState.current.shownWordIndices.includes(i));
+    if (unstartedIndices.length > 0) {
+      const pick = unstartedIndices[Math.floor(Math.random() * unstartedIndices.length)];
+      gameState.current.shownWordIndices.push(pick);
+    }
+
+    const gameComplete = getCurrentWords().every((w) => w.found || w.revealed);
+    return { success: true, pointsDeducted: pointsToDeduct, gameComplete };
+  }
+
+  // Fallback (no engine)
   const params = gameState.config.parameters;
   const penalty = params?.marketplace?.wordReveal?.cost ?? 8;
-  
-  // Make sure we don't go below 0 points
   const pointsToDeduct = Math.min(gameState.current.score, penalty);
-  
-  // Apply the penalty
   gameState.current.score -= pointsToDeduct;
-  
-  // Mark the word as revealed
   word.revealed = true;
-  
-  // Update letter counts as this word is now visible
   updateLetterCounts(word.word);
-  
-  // Add this word to shown indices if not already there
   if (!gameState.current.shownWordIndices.includes(wordIndex)) {
     gameState.current.shownWordIndices.push(wordIndex);
   }
-
-  // Surface a new clue for a word that is still hidden (not found, not revealed, not yet shown)
   const unstartedIndices = getCurrentWords()
     .map((w, i) => (w.found || w.revealed ? -1 : i))
     .filter(i => i !== -1 && !gameState.current.shownWordIndices.includes(i));
-
   if (unstartedIndices.length > 0) {
     const pick = unstartedIndices[Math.floor(Math.random() * unstartedIndices.length)];
     gameState.current.shownWordIndices.push(pick);
   }
-
-  // Game is complete when every word is either found or revealed
   const gameComplete = getCurrentWords().every((w) => w.found || w.revealed);
-
   return { success: true, pointsDeducted: pointsToDeduct, gameComplete };
 }
 
@@ -1387,4 +1437,112 @@ function updateLetterCountsForWordSuffix(wordIndex) {
   });
   
   console.log(`Updated letter counts for word "${word.word}" with suffix "${suffix.ending}"`);
+}
+
+// ─── Golden Key & Golden Coin ────────────────────────────────────────────────
+
+/**
+ * Returns "reveal" if there are any word indices not yet in shownWordIndices,
+ * or "upgrade" if all clues are already visible.
+ * @returns {"reveal"|"upgrade"}
+ */
+export function getGoldenKeyMode() {
+  const allIndices = gameState.current.words.map((_, i) => i).filter(i => {
+    const w = gameState.current.words[i];
+    return !w.found && !w.revealed;
+  });
+  const shown = gameState.current.shownWordIndices;
+  const hasHidden = allIndices.some(i => !shown.includes(i));
+  return hasHidden ? "reveal" : "upgrade";
+}
+
+/**
+ * Uses the golden key: reveals next hidden clue OR upgrades one clue tier.
+ * No lowestClueIndexSeen penalty on upgrade.
+ * @param {number} [wordIndex] - Required only for "upgrade" mode (player-chosen word)
+ * @returns {{success: boolean, mode?: "reveal"|"upgrade", wordIndex?: number}}
+ */
+export function useGoldenKey(wordIndex) {
+  if (gameState.current.goldenKeyUsed) return { success: false };
+
+  const mode = getGoldenKeyMode();
+
+  if (mode === "reveal") {
+    // Find lowest unfound word index not yet shown
+    const unfoundIndices = gameState.current.words
+      .map((w, i) => (!w.found && !w.revealed ? i : -1))
+      .filter(i => i !== -1 && !gameState.current.shownWordIndices.includes(i));
+    if (unfoundIndices.length === 0) return { success: false };
+    const nextIndex = unfoundIndices[0];
+    gameState.current.shownWordIndices.push(nextIndex);
+    gameState.current.goldenKeyUsed = true;
+    gameState.current.assistedPlay = true;
+    return { success: true, mode: "reveal", wordIndex: nextIndex };
+  }
+
+  // Upgrade mode — wordIndex is required
+  if (wordIndex === undefined || wordIndex === null) return { success: false };
+  const word = gameState.current.words[wordIndex];
+  if (!word || word.found || word.revealed) return { success: false };
+  if (!word.clues || !Array.isArray(word.clues)) return { success: false };
+  const nextClueIndex = (word.activeClueIndex || 0) + 1;
+  if (nextClueIndex >= word.clues.length) return { success: false }; // Already at easiest tier
+
+  // Upgrade the clue index WITHOUT touching lowestClueIndexSeen (no penalty)
+  word.activeClueIndex = nextClueIndex;
+  gameState.current.goldenKeyUsed = true;
+  gameState.current.assistedPlay = true;
+  return { success: true, mode: "upgrade", wordIndex };
+}
+
+/**
+ * Returns an array of letters eligible for the golden coin reveal.
+ * A letter is eligible if its count in letterCounts is <= maxFrequency and not yet purchased.
+ * @returns {Array<{letter: string, count: number}>}
+ */
+export function getEligibleCoinLetters() {
+  const params = gameState.config.parameters;
+  const maxFreq = params?.golden?.coin?.maxFrequency ?? 2;
+  return Object.entries(letterCounts)
+    .filter(([letter, count]) =>
+      count > 0 &&
+      count <= maxFreq &&
+      !marketState.vowels.has(letter) &&
+      !marketState.consonants.has(letter)
+    )
+    .map(([letter, count]) => ({ letter, count }));
+}
+
+/**
+ * Uses the golden coin: reveals all instances of a rare letter for a flat cost.
+ * @param {string} letter - The letter to reveal
+ * @returns {{success: boolean, letter?: string, cost?: number}}
+ */
+export function useGoldenCoin(letter) {
+  if (gameState.current.goldenCoinUsed) return { success: false };
+
+  const params = gameState.config.parameters;
+  const maxFreq = params?.golden?.coin?.maxFrequency ?? 2;
+  const cost = params?.golden?.coin?.cost ?? 3;
+
+  const lowerLetter = letter.toLowerCase();
+  const count = letterCounts[lowerLetter] || 0;
+  if (count === 0 || count > maxFreq) return { success: false };
+
+  // Deduct cost, floor at 0
+  gameState.current.score = Math.max(0, gameState.current.score - cost);
+  if (_engine) _engine._score = gameState.current.score;
+
+  // Reveal the letter in the marketplace (same as purchaseVowel/purchaseConsonant)
+  const isVowel = "aeiou".includes(lowerLetter);
+  if (isVowel) {
+    marketState.vowels.add(lowerLetter);
+  } else {
+    marketState.consonants.add(lowerLetter);
+  }
+  clearLetterCount(lowerLetter);
+
+  gameState.current.goldenCoinUsed = true;
+  gameState.current.assistedPlay = true;
+  return { success: true, letter: lowerLetter, cost };
 }
