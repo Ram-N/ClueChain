@@ -1,5 +1,7 @@
 'use strict'
 
+import { ClueChainEngine, nextUnsolvedBlank } from '../js/engine/cluechain-engine.js'
+
 // ---- Utilities ----
 
 function qs(sel, root) {
@@ -34,83 +36,7 @@ function escapeHTML(s) {
     .replaceAll("'", '&#39;')
 }
 
-// ---- Blanking engine ----
-
-const STOPWORDS = new Set([
-  'the','a','an','and','or','but','if','then','so','to','of','in','on','for','with','as','at','by','from',
-  'is','are','was','were','be','been','being','it','this','that','these','those','their','there','here',
-  'you','your','we','our','they','them','he','him','she','her','i','me','my','mine',
-  'not','no','yes','do','does','did','doing','done','can','could','will','would','should','may','might','must'
-])
-
-function tokenizeWithSpans(text) {
-  const re = /([A-Za-z']+)|(\s+)|([^A-Za-z'\s]+)/g
-  const out = []
-  let m
-  while ((m = re.exec(text)) !== null) {
-    if (m[1]) out.push({ t: m[1], isWord: true })
-    else if (m[2]) out.push({ t: m[2], isWord: false })
-    else out.push({ t: m[3], isWord: false })
-  }
-  return out
-}
-
-function chooseBlankTargets(text, difficulty, practiceCfg) {
-  const targets = practiceCfg?.blanking?.targets || {}
-  const t = targets[difficulty] || targets.standard || { min_blanks: 6, max_blanks: 8 }
-  const minB = t.min_blanks ?? 6
-  const maxB = t.max_blanks ?? 8
-  const want = clamp(Math.floor((minB + maxB) / 2), 1, 20)
-  const avoid = practiceCfg?.blanking?.avoid || {}
-
-  const tokens = tokenizeWithSpans(text)
-  const candidates = []
-
-  for (let i = 0; i < tokens.length; i++) {
-    if (!tokens[i].isWord) continue
-    const w = tokens[i].t
-    if (avoid.stopwords && STOPWORDS.has(w.toLowerCase())) continue
-    if (avoid.very_short_words_max_len && w.length <= avoid.very_short_words_max_len) continue
-    if (avoid.numbers && /\d/.test(w)) continue
-    candidates.push(i)
-  }
-
-  if (candidates.length === 0) return { tokens, blanks: [] }
-
-  // Sort by word length descending (prefer longer/rarer words)
-  candidates.sort((a, b) => tokens[b].t.length - tokens[a].t.length)
-
-  // Pick a spread across the candidates list
-  const chosen = []
-  const step = Math.max(1, Math.floor(candidates.length / want))
-  for (let i = 0; i < candidates.length && chosen.length < want; i += step) {
-    chosen.push(candidates[i])
-  }
-
-  // Fill up to `want` from remaining candidates if needed
-  if (chosen.length < want) {
-    const chosenSet = new Set(chosen)
-    const remaining = candidates.filter(i => !chosenSet.has(i))
-    while (chosen.length < want && remaining.length > 0) {
-      const j = Math.floor(Math.random() * remaining.length)
-      chosen.push(remaining.splice(j, 1)[0])
-    }
-  }
-
-  // Sort by position in text
-  chosen.sort((a, b) => a - b)
-
-  const blanks = chosen.map((tokIndex, k) => ({
-    blankIndex: k,
-    tokIndex,
-    answer: tokens[tokIndex].t,
-    solved: false,
-    revealed: false,
-    usedHints: { direct: false, intermediate: false, indirect: false }
-  }))
-
-  return { tokens, blanks }
-}
+// ---- Blanking engine (STOPWORDS, tokenizeWithSpans, chooseBlankTargets imported from engine) ----
 
 function renderMaskedHTML(tokens, blanks, activeBlankIndex) {
   const blankByTok = new Map()
@@ -201,7 +127,8 @@ function reducer(state, evt) {
         status: S.READY,
         tokens: evt.payload.tokens,
         blanks: evt.payload.blanks,
-        activeBlankIndex: evt.payload.blanks.length ? 0 : -1
+        activeBlankIndex: evt.payload.blanks.length ? 0 : -1,
+        _engine: evt.payload._engine || null
       }
 
     case 'SELECT_BLANK':
@@ -296,27 +223,21 @@ function reducer(state, evt) {
   }
 }
 
-function nextUnsolvedBlank(blanks, from) {
-  if (!blanks.length) return -1
-  // Search forward from after current position
-  for (let i = from + 1; i < blanks.length; i++) {
-    if (!blanks[i].solved && !blanks[i].revealed) return i
-  }
-  // Wrap around
-  for (let i = 0; i < blanks.length; i++) {
-    if (!blanks[i].solved && !blanks[i].revealed) return i
-  }
-  return clamp(from, 0, blanks.length - 1)
-}
+// nextUnsolvedBlank imported from engine
 
 // ---- Hint logic ----
 
 function getHintText(modalState, layer) {
+  // Delegate to engine when available
+  if (modalState._engine) {
+    modalState._engine.selectBlank(modalState.activeBlankIndex)
+    return modalState._engine.useHint(layer)
+  }
+
   const b = modalState.blanks[modalState.activeBlankIndex]
   if (!b) return 'Select a blank first'
   if (b.solved || b.revealed) return `The word was: ${b.answer}`
 
-  // Use authored hint if available, otherwise fall back to generic placeholder
   if (b.hints && b.hints[layer]) return `${b.hints[layer]} (${b.answer.length})`
 
   switch (layer) {
@@ -428,6 +349,18 @@ const App = (function () {
       }
       return
     }
+
+    // Keep engine in sync for reveal actions
+    if (evt.type === 'REVEAL_WORD' && next._engine) {
+      next._engine.selectBlank(prev.activeBlankIndex)
+      next._engine.revealWord(prev.activeBlankIndex)
+      return
+    }
+
+    if (evt.type === 'REVEAL_ALL' && next._engine) {
+      next._engine.revealAll()
+      return
+    }
   }
 
   // ---- Modal DOM open/close ----
@@ -536,56 +469,39 @@ const App = (function () {
     })
   }
 
-  // ---- Build practice model (blanks + tokens) ----
+  // ---- Build practice model via ClueChainEngine ----
 
   async function buildPracticeModel(modalState) {
     const it = modalState.unit.items[modalState.itemIndex]
     const practiceCfg = it.practice || modalState.unit.practice || {}
-    const text = it.text || ''
 
-    const authoredVariant = it.authored_variants?.[0]
-    if (authoredVariant?.blanks?.length) {
-      // Build a hint map keyed by lowercase word for fast lookup
-      const hintMap = new Map()
-      for (const entry of authoredVariant.blanks) {
-        hintMap.set(slugKey(entry.word), entry.hints || {})
-      }
+    const engine = new ClueChainEngine(it, {
+      mode: 'learning',
+      practiceCfg,
+      difficulty: modalState.difficulty
+    })
+    engine.init()
 
-      // Tokenize and find the first occurrence of each authored word
-      const tokens = tokenizeWithSpans(text)
-      const authoredWords = authoredVariant.blanks.map(e => slugKey(e.word))
-      const used = new Set()
-      const blanks = []
+    const engineState = engine.getState()
+    // Convert normalised engine items back to the blanks[] shape the reducer/renderer expects
+    const blanks = engineState.items.map((item, k) => ({
+      blankIndex: k,
+      tokIndex: item.tokIndex,
+      answer: item.word,
+      hints: {
+        direct:       item.clues.find(c => c.type === 'direct')?.text || '',
+        intermediate: item.clues.find(c => c.type === 'intermediate')?.text || '',
+        indirect:     item.clues.find(c => c.type === 'indirect')?.text || '',
+      },
+      solved: false,
+      revealed: false,
+      usedHints: { direct: false, intermediate: false, indirect: false }
+    }))
 
-      for (let i = 0; i < tokens.length; i++) {
-        if (!tokens[i].isWord) continue
-        const key = slugKey(tokens[i].t)
-        if (!authoredWords.includes(key) || used.has(key)) continue
-        used.add(key)
-        blanks.push({
-          blankIndex: blanks.length,
-          tokIndex: i,
-          answer: tokens[i].t,
-          hints: hintMap.get(key) || {},
-          solved: false,
-          revealed: false,
-          usedHints: { direct: false, intermediate: false, indirect: false }
-        })
-      }
-
-      // Sort by position in text (should already be, but be explicit)
-      blanks.sort((a, b) => a.tokIndex - b.tokIndex)
-      blanks.forEach((b, k) => { b.blankIndex = k })
-
-      if (blanks.length) return { tokens, blanks }
-      // Fall through to auto if no authored words matched
-    }
-
-    const { tokens, blanks } = chooseBlankTargets(text, modalState.difficulty, practiceCfg)
-    return { tokens, blanks }
+    return { tokens: engineState.tokens, blanks, _engine: engine }
   }
 
-  // ---- Guess checking ----
+  // ---- Guess checking (delegates to engine) ----
 
   function checkGuess(modalState) {
     const b = modalState.blanks[modalState.activeBlankIndex]
@@ -594,10 +510,26 @@ const App = (function () {
     const guess = String(modalState.guess || '').trim()
     if (!guess) return { newBlanks: modalState.blanks, deltaScore: 0, feedback: 'Type a guess', done: false }
 
+    // Delegate to engine if available
+    if (modalState._engine) {
+      const engine = modalState._engine
+      engine.selectBlank(modalState.activeBlankIndex)
+      const result = engine.submitGuess(guess)
+
+      const engineState = engine.getState()
+      const newBlanks = modalState.blanks.map((x, idx) => ({
+        ...x,
+        solved: engineState.items[idx]?.solved || x.solved,
+        revealed: engineState.items[idx]?.revealed || x.revealed,
+      }))
+
+      return { newBlanks, deltaScore: result.deltaScore, feedback: result.feedback, done: result.done }
+    }
+
+    // Fallback (no engine — should not happen in normal flow)
     const correct = slugKey(guess) === slugKey(b.answer)
     let deltaScore = 0
     let feedback = ''
-
     const newBlanks = modalState.blanks.map(x => {
       if (x.blankIndex !== b.blankIndex || x.solved || x.revealed) return x
       if (correct) {
@@ -611,7 +543,6 @@ const App = (function () {
         return x
       }
     })
-
     const done = newBlanks.every(x => x.solved || x.revealed)
     return { newBlanks, deltaScore, feedback, done }
   }
@@ -820,10 +751,17 @@ const App = (function () {
   return { init }
 })()
 
-window.addEventListener('DOMContentLoaded', () => {
+function startApp() {
   App.init().catch(err => {
     console.error('[ClueChain Learning]', err)
     const items = document.getElementById('items')
     if (items) items.innerHTML = `<p style='color:#f88;padding:16px'>Failed to load: ${err.message}</p>`
   })
-})
+}
+
+// ES modules are deferred; DOMContentLoaded may have already fired
+if (document.readyState === 'loading') {
+  window.addEventListener('DOMContentLoaded', startApp)
+} else {
+  startApp()
+}
