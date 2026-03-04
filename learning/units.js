@@ -489,7 +489,7 @@ const App = (function () {
     els.blankMeta        = qs('#blankMeta')
     els.guessInput       = qs('#guessInput')
     els.submitGuess      = qs('#submitGuess')
-    els.hintBox          = qs('#hintBox')
+    els.allCluesList     = qs('#allCluesList')
     els.feedbackPanel    = qs('#feedbackPanel')
     els.revealWord       = qs('#revealWord')
     els.revealAll        = qs('#revealAll')
@@ -497,6 +497,7 @@ const App = (function () {
     els.nextBlank        = qs('#nextBlank')
     els.summary          = qs('#summary')
     els.summaryDetail    = qs('#summaryDetail')
+    els.summaryText      = qs('#summaryText')
     els.summaryClose     = qs('#summaryClose')
     els.summaryNextItem  = qs('#summaryNextItem')
     els.letterBoard      = qs('#letterBoard')
@@ -552,15 +553,6 @@ const App = (function () {
 
     if (evt.type === 'LETTERS_DISMISSED') {
       closeModalDOM()
-      return
-    }
-
-    // Auto-show indirect clue whenever a blank becomes active
-    if (evt.type === 'OPENED_READY' || evt.type === 'LETTERS_CONFIRMED' || evt.type === 'SELECT_BLANK' || evt.type === 'FEEDBACK_DONE' || evt.type === 'NEXT_BLANK' || evt.type === 'PREV_BLANK') {
-      if (next.activeBlankIndex >= 0) {
-        const hintText = getHintText(next, 'indirect')
-        dispatch({ type: 'USE_HINT', payload: { hintText } })
-      }
       return
     }
 
@@ -840,6 +832,7 @@ const App = (function () {
 
   function clearFeedback() {
     if (els.feedbackPanel) els.feedbackPanel.innerHTML = ''
+    resetClueStates()
   }
 
   // ---- Letter board ----
@@ -872,6 +865,76 @@ const App = (function () {
     updateLetterBoard(state.modal.blanks, state.modal.activeBlankIndex)
   }
 
+  // ---- All-clues list rendering ----
+  // Per-blank state: each blank tracks which tier is currently shown.
+  // Default is 'indirect'. Escalating via hint buttons upgrades only the active blank.
+
+  const _clueState = {}  // blankIndex -> 'indirect' | 'intermediate' | 'direct'
+
+  function clueStateFor(blankIndex, blanks) {
+    // Reset tier to indirect for newly solved/revealed blanks
+    const b = blanks[blankIndex]
+    if (b && (b.solved || b.revealed)) return 'indirect'
+    return _clueState[blankIndex] || 'indirect'
+  }
+
+  function setActiveClueState(blankIndex, tier) {
+    _clueState[blankIndex] = tier
+  }
+
+  function resetClueStates() {
+    Object.keys(_clueState).forEach(k => delete _clueState[k])
+  }
+
+  function renderAllCluesList(modalState) {
+    if (!els.allCluesList) return
+    const { blanks, activeBlankIndex } = modalState
+    if (!blanks.length) {
+      els.allCluesList.innerHTML = '<div class="clue-row"><span class="clue-text" style="color:var(--muted)">Clues will appear here.</span></div>'
+      return
+    }
+
+    const rows = blanks.map(b => {
+      const isActive = b.blankIndex === activeBlankIndex
+      const isSolved = b.solved || b.revealed
+
+      const tier = clueStateFor(b.blankIndex, blanks)
+      let clueText
+      if (isSolved) {
+        clueText = `Answer: ${b.answer}`
+      } else {
+        clueText = b.hints?.[tier] || `(${tier} clue unavailable)`
+      }
+
+      const tierLabel = isSolved ? 'solved' : tier
+      const classes = ['clue-row', isActive ? 'active' : '', isSolved ? 'solved' : ''].filter(Boolean).join(' ')
+
+      return `<div class="${classes}" data-blank-index="${b.blankIndex}" role="button" tabindex="0">
+        <span class="clue-num">${b.blankIndex + 1}.</span>
+        <span class="clue-text">${escapeHTML(clueText)}</span>
+        <span class="clue-tier">${escapeHTML(tierLabel)}</span>
+      </div>`
+    })
+
+    els.allCluesList.innerHTML = rows.join('')
+
+    // Wire clue-row clicks to select that blank
+    els.allCluesList.querySelectorAll('.clue-row[data-blank-index]').forEach(row => {
+      row.addEventListener('click', e => {
+        e.stopPropagation()
+        const idx = Number(row.getAttribute('data-blank-index'))
+        const b = blanks[idx]
+        if (b && !b.solved && !b.revealed) {
+          dispatch({ type: 'SELECT_BLANK', payload: { blankIndex: idx } })
+        }
+      })
+    })
+
+    // Scroll active row into view within the list
+    const activeRow = els.allCluesList.querySelector('.clue-row.active')
+    if (activeRow) activeRow.scrollIntoView({ block: 'nearest' })
+  }
+
   // ---- Modal rendering ----
 
   function renderModal(prev, next) {
@@ -897,6 +960,10 @@ const App = (function () {
       els.summaryDetail.innerHTML =
         `Score: <strong>${next.score}</strong> / ${next.maxPoints}<br>` +
         `Solved: ${solved} &nbsp;|&nbsp; Revealed: ${revealed} &nbsp;|&nbsp; Total: ${next.blanks.length}`
+      if (els.summaryText) {
+        const unmaskedBlanks = next.blanks.map(b => ({ ...b, solved: true }))
+        els.summaryText.innerHTML = renderMaskedHTML(next.tokens, unmaskedBlanks, -1, next.seededLetters)
+      }
     }
 
     // Error display
@@ -917,8 +984,8 @@ const App = (function () {
       els.blankMeta.textContent = `Blank ${b.blankIndex + 1} of ${next.blanks.length}  •  ${status}  •  ${b.answer.length} letters`
     }
 
-    // Hint box (clue text only)
-    els.hintBox.textContent = next.hintText || ''
+    // All-clues list
+    renderAllCluesList(next)
 
     // Feedback notification log (correct / wrong)
     // Append a new card whenever feedback text changes; clear only on fresh modal open.
@@ -962,11 +1029,15 @@ const App = (function () {
       return
     }
 
-    // Hint buttons
+    // Hint buttons — escalate active blank's clue tier in-place
     const hintLayer = t?.getAttribute?.('data-hint')
     if (hintLayer) {
       e.stopPropagation()
-      dispatch({ type: 'USE_HINT', payload: { hintText: getHintText(state.modal, hintLayer) } })
+      const idx = state.modal.activeBlankIndex
+      if (idx >= 0) {
+        setActiveClueState(idx, hintLayer)
+        renderAllCluesList(state.modal)
+      }
       return
     }
 

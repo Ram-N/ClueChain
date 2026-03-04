@@ -495,17 +495,74 @@ a:hover { text-decoration: underline; }
   gap: 6px;
 }
 
-/* Hint display box */
-.hint-box {
-  min-height: 48px;
-  padding: 10px 12px;
-  border-radius: 12px;
-  border: 1px solid var(--stroke);
-  background: rgba(0,0,0,0.03);
-  color: rgba(26,27,31,0.85);
-  font-size: 13px;
-  line-height: 1.5;
+/* All-clues list (replaces single hint-box) */
+.all-clues-list {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
   margin-bottom: 10px;
+  overflow-y: auto;
+  max-height: 220px;
+}
+
+.clue-row {
+  display: flex;
+  gap: 8px;
+  align-items: flex-start;
+  padding: 7px 10px;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  font-size: 13px;
+  line-height: 1.45;
+  cursor: pointer;
+  transition: background 0.12s, border-color 0.12s;
+}
+
+.clue-row:hover {
+  background: rgba(0,0,0,0.04);
+}
+
+.clue-row.active {
+  background: rgba(58,111,232,0.10);
+  border-color: rgba(58,111,232,0.30);
+}
+
+.clue-row.solved {
+  opacity: 0.45;
+  cursor: default;
+}
+
+.clue-num {
+  flex-shrink: 0;
+  width: 18px;
+  font-weight: 700;
+  color: var(--muted);
+  font-size: 11px;
+  padding-top: 1px;
+}
+
+.clue-row.active .clue-num {
+  color: #3a6fe8;
+}
+
+.clue-text {
+  flex: 1;
+  color: rgba(26,27,31,0.85);
+}
+
+.clue-row.active .clue-text {
+  font-weight: 600;
+  color: var(--text);
+}
+
+.clue-tier {
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--muted);
+  padding-top: 2px;
+  flex-shrink: 0;
 }
 
 /* Reveal buttons row */
@@ -548,6 +605,17 @@ a:hover { text-decoration: underline; }
   font-size: 14px;
 }
 
+.summary-text {
+  margin-top: 12px;
+  padding: 14px;
+  border-radius: var(--radius);
+  border: 1px solid var(--stroke);
+  background: rgba(0,0,0,0.02);
+  overflow-y: auto;
+  flex: 1;
+  min-height: 60px;
+}
+
 .summary-actions {
   margin-top: 8px;
   display: flex;
@@ -581,6 +649,13 @@ a:hover { text-decoration: underline; }
   background: rgba(200,40,40,0.10);
   border-left-color: rgba(200,40,40,0.6);
   color: rgba(160,20,20,0.9);
+}
+
+/* Letter board inline (below masked text) */
+.lb-inline {
+  margin-top: 14px;
+  padding-top: 12px;
+  border-top: 1px solid var(--stroke);
 }
 
 /* ---- Letter board header + mode pill ---- */
@@ -687,11 +762,15 @@ a:hover { text-decoration: underline; }
 
   .modal-body {
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr auto;
+    grid-template-rows: auto 1fr;
   }
 
   .modal-text {
     min-height: 140px;
+  }
+
+  .all-clues-list {
+    max-height: 160px;
   }
 }
 

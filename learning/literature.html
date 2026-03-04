@@ -66,38 +66,8 @@
         <div class='modal-text'>
           <div id='maskedText' class='masked-text'></div>
           <div id='feedbackPanel' class='feedback-panel' aria-live='assertive'></div>
-        </div>
 
-        <aside class='modal-panel'>
-          <div class='panel-row'>
-            <div class='panel-label'>Blank</div>
-            <div id='blankMeta' class='panel-meta'>Select a blank to begin</div>
-          </div>
-
-          <div class='panel-row'>
-            <input id='guessInput' class='guess' type='text' placeholder='Type your guess&hellip;' autocomplete='off' />
-            <button id='submitGuess' class='btn primary' type='button'>Submit</button>
-          </div>
-
-          <div class='panel-row hints'>
-            <button class='btn' type='button' data-hint='indirect'>Indirect clue</button>
-            <button class='btn' type='button' data-hint='intermediate'>Intermediate</button>
-            <button class='btn' type='button' data-hint='direct'>Direct clue</button>
-          </div>
-
-          <div id='hintBox' class='hint-box' aria-live='polite'></div>
-
-          <div class='panel-row'>
-            <button id='revealWord' class='btn danger' type='button'>Reveal word</button>
-            <button id='revealAll' class='btn danger' type='button'>Reveal all</button>
-          </div>
-
-          <div class='panel-row nav'>
-            <button id='prevBlank' class='btn' type='button'>&larr; Prev</button>
-            <button id='nextBlank' class='btn' type='button'>Next &rarr;</button>
-          </div>
-
-          <div class='panel-row'>
+          <div class='lb-inline'>
             <div class='lb-header'>
               <div class='panel-label'>Letters remaining</div>
               <div class='lb-mode-pill' role='group'>
@@ -117,12 +87,43 @@
               </div>
             </div>
           </div>
+        </div>
+
+        <aside class='modal-panel'>
+          <div class='panel-row'>
+            <div class='panel-label'>Blank</div>
+            <div id='blankMeta' class='panel-meta'>Select a blank to begin</div>
+          </div>
+
+          <div class='panel-row'>
+            <input id='guessInput' class='guess' type='text' placeholder='Type your guess&hellip;' autocomplete='off' />
+            <button id='submitGuess' class='btn primary' type='button'>Submit</button>
+          </div>
+
+          <div class='panel-row hints'>
+            <button class='btn' type='button' data-hint='indirect'>Indirect</button>
+            <button class='btn' type='button' data-hint='intermediate'>Intermediate</button>
+            <button class='btn' type='button' data-hint='direct'>Direct</button>
+          </div>
+
+          <div id='allCluesList' class='all-clues-list' aria-live='polite'></div>
+
+          <div class='panel-row reveal-row'>
+            <button id='revealWord' class='btn danger' type='button'>Reveal word</button>
+            <button id='revealAll' class='btn danger' type='button'>Reveal all</button>
+          </div>
+
+          <div class='panel-row nav'>
+            <button id='prevBlank' class='btn' type='button'>&larr; Prev</button>
+            <button id='nextBlank' class='btn' type='button'>Next &rarr;</button>
+          </div>
         </aside>
       </div>
 
       <div id='summary' class='modal-summary hidden'>
         <div class='summary-title'>Completed</div>
         <div id='summaryDetail' class='summary-detail'></div>
+        <div id='summaryText' class='summary-text masked-text'></div>
         <div class='summary-actions'>
           <button id='summaryClose' class='btn primary' type='button'>Return to reading</button>
           <button id='summaryNextItem' class='btn' type='button'>Practice next item</button>
