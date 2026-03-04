@@ -259,14 +259,14 @@
   opacity: 0.75;
 }
 
-/* Available (but not chosen) consonants: ghost/pale so selected ones pop */
+/* Available consonants: clearly clickable once vowel is chosen */
 .ls-modal-grid .letter-tile.consonant-enabled {
-  background: #f1f8f1;
-  border-color: #c8e6c9;
-  color: #aaa;
-  font-weight: normal;
-  box-shadow: none;
-  opacity: 0.7;
+  background: #a5d6a7;
+  border-color: #2e7d32;
+  color: #1b5e20;
+  font-weight: bold;
+  box-shadow: 0 2px 4px rgba(46,125,50,0.25);
+  opacity: 1;
 }
 
 .ls-modal-grid .letter-tile.consonant-enabled:hover {

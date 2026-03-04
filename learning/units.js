@@ -121,6 +121,11 @@ const LetterPicker = {
       const letter = t.getAttribute('data-letter')
       const isVowel = VOWELS.includes(letter)
       t.classList.remove('vowel-enabled','consonant-enabled','phase-disabled')
+      t.style.background = ''
+      t.style.borderColor = ''
+      t.style.color = ''
+      t.style.opacity = ''
+      t.style.fontWeight = ''
       if (!vowelChosen) {
         t.classList.add(isVowel ? 'vowel-enabled' : 'phase-disabled')
       } else {
@@ -128,6 +133,12 @@ const LetterPicker = {
           t.classList.add('vowel-enabled')
         } else if (!t.classList.contains('ls-consonant-selected')) {
           t.classList.add('consonant-enabled')
+          // Force styles directly — overrides any cached/conflicting stylesheet
+          t.style.background = '#a5d6a7'
+          t.style.borderColor = '#2e7d32'
+          t.style.color = '#1b5e20'
+          t.style.opacity = '1'
+          t.style.fontWeight = 'bold'
         }
       }
     })
@@ -596,13 +607,42 @@ const App = (function () {
 
   // ---- Load unit from URL param ----
 
-  async function loadUnit() {
-    const unitPath = getParam('unit') || '../assets/data/units/news/2026/03/01.json'
+  async function loadUnit(unitPath) {
+    if (!unitPath) throw new Error('Set data-manifest-path on <body> or pass ?unit= in URL.')
     const res = await fetch(unitPath, { cache: 'no-store' })
     if (!res.ok) throw new Error(`Failed to load unit: ${unitPath} (HTTP ${res.status})`)
     state.unit = await res.json()
     renderUnitHeader()
     renderItems()
+  }
+
+  // ---- Load pack manifest and render listing ----
+
+  async function loadListing() {
+    const manifestPath = document.body.dataset.manifestPath
+    if (!manifestPath) throw new Error('Set data-manifest-path on <body>.')
+    const res = await fetch('../' + manifestPath, { cache: 'no-store' })
+    if (!res.ok) throw new Error(`Failed to load manifest: ${manifestPath}`)
+    const manifest = await res.json()
+    renderListing(manifest)
+  }
+
+  function renderListing(manifest) {
+    els.unitTitle.textContent = manifest.title || ''
+    els.unitSubtitle.textContent = `${manifest.units.length} unit${manifest.units.length === 1 ? '' : 's'}`
+    els.unitDate.textContent = ''
+    const html = manifest.units.map(u => `
+      <article class='item'>
+        <h2>${escapeHTML(u.title)}</h2>
+        <div class='item-footer'>
+          <div>${escapeHTML(u.date || '')} &bull; ${u.item_count || '?'} items</div>
+          <div class='item-actions'>
+            <a class='pill' href='?unit=../${escapeHTML(u.path)}'>Open &rarr;</a>
+          </div>
+        </div>
+      </article>
+    `).join('')
+    els.items.innerHTML = html
   }
 
   // ---- Page rendering ----
@@ -1056,8 +1096,13 @@ const App = (function () {
 
   async function init() {
     cacheEls()
-    wireUI()
-    await loadUnit()
+    const unitPath = getParam('unit') || document.body.dataset.defaultUnit || ''
+    if (unitPath) {
+      wireUI()
+      await loadUnit(unitPath)
+    } else {
+      await loadListing()
+    }
   }
 
   return { init }

@@ -803,12 +803,12 @@ a:hover { text-decoration: underline; }
 }
 
 .ls-modal-grid .letter-tile.consonant-enabled {
-  background: #f1f8f1;
-  border-color: #c8e6c9;
-  color: #aaa;
-  font-weight: normal;
+  background: #c8e6c9 !important;
+  border-color: #388e3c !important;
+  color: #1b5e20 !important;
+  font-weight: bold !important;
   box-shadow: none;
-  opacity: 0.7;
+  opacity: 1 !important;
 }
 
 .ls-modal-grid .letter-tile.consonant-enabled:hover {

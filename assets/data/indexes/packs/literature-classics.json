@@ -1,0 +1,12 @@
+{
+  "slug": "literature-classics",
+  "title": "Great Opening Lines",
+  "units": [
+    {
+      "title": "A Tale of Two Cities",
+      "date": "1859",
+      "path": "assets/data/units/literature/tale-of-two-cities.json",
+      "item_count": 1
+    }
+  ]
+}

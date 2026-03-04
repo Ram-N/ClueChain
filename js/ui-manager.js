@@ -1573,6 +1573,11 @@ function _applyModalPhaseStyles() {
     const letter = t.getAttribute("data-letter");
     const isVowel = VOWELS.includes(letter);
     t.classList.remove("vowel-enabled", "consonant-enabled", "phase-disabled");
+    t.style.background = "";
+    t.style.borderColor = "";
+    t.style.color = "";
+    t.style.opacity = "";
+    t.style.fontWeight = "";
 
     if (!vowelChosen) {
       // Step 1: highlight vowels, dim consonants
@@ -1583,6 +1588,12 @@ function _applyModalPhaseStyles() {
         t.classList.add("vowel-enabled"); // keep all vowels clickable
       } else if (!t.classList.contains("ls-consonant-selected")) {
         t.classList.add("consonant-enabled");
+        // Force styles directly — overrides any cached/conflicting stylesheet
+        t.style.background = "#a5d6a7";
+        t.style.borderColor = "#2e7d32";
+        t.style.color = "#1b5e20";
+        t.style.opacity = "1";
+        t.style.fontWeight = "bold";
       }
     }
   });
