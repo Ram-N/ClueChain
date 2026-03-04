@@ -1201,8 +1201,15 @@ function applySelectionPhaseStyles() {
     document.querySelectorAll(".letter-tile").forEach((t) => {
       t.classList.remove("vowel-enabled", "consonant-enabled", "phase-disabled");
     });
+    // Repurpose reset button as a "Change Letters" re-opener
     const resetBtn = document.getElementById("reset-selection");
-    if (resetBtn) resetBtn.style.display = "none";
+    if (resetBtn) {
+      resetBtn.textContent = "✏️ Change Letters";
+      resetBtn.style.display = "block";
+      const fresh = resetBtn.cloneNode(true);
+      resetBtn.parentNode.replaceChild(fresh, resetBtn);
+      fresh.addEventListener("click", () => showLetterSelectionModal());
+    }
     return;
   }
 
@@ -1442,6 +1449,216 @@ function checkSelectionComplete() {
   }
 }
 
+// ─── Letter Selection Modal ───────────────────────────────────────────────────
+
+/**
+ * Shows the letter-selection modal and wires up its tiles.
+ * Resets any prior selections so the player starts fresh.
+ */
+export function showLetterSelectionModal() {
+  const modal = document.getElementById("letter-selection-modal");
+  if (!modal) return;
+
+  // Reset modal tile visuals and game-state selections
+  _resetModalTiles();
+
+  // Wire up click handlers on modal tiles (clone to clear old listeners)
+  document.querySelectorAll("#ls-modal-letter-grid .letter-tile").forEach((tile) => {
+    const letter = tile.getAttribute("data-letter");
+    const isVowel = VOWELS.includes(letter);
+    const fresh = tile.cloneNode(true);
+    tile.parentNode.replaceChild(fresh, tile);
+    fresh.addEventListener("click", () => _handleModalTileClick(fresh, isVowel));
+  });
+
+  // Wire confirm button (clone to clear old listeners)
+  const confirmBtn = document.getElementById("ls-confirm-btn");
+  if (confirmBtn) {
+    const freshBtn = confirmBtn.cloneNode(true);
+    confirmBtn.parentNode.replaceChild(freshBtn, confirmBtn);
+    freshBtn.disabled = true;
+    freshBtn.addEventListener("click", _confirmModalSelection);
+  }
+
+  // Wire close button
+  const closeBtn = document.getElementById("ls-modal-close");
+  if (closeBtn) {
+    const freshClose = closeBtn.cloneNode(true);
+    closeBtn.parentNode.replaceChild(freshClose, closeBtn);
+    freshClose.addEventListener("click", _closeLetterSelectionModal);
+  }
+
+  // Apply initial phase styles (vowels highlighted, consonants dimmed)
+  _applyModalPhaseStyles();
+
+  modal.classList.remove("closing");
+  modal.classList.add("show");
+}
+
+function _closeLetterSelectionModal() {
+  const modal = document.getElementById("letter-selection-modal");
+  if (!modal) return;
+  modal.classList.remove("show", "closing");
+
+  // If player dismissed the modal without completing selection, show a
+  // "Pick Letters" button in the marketplace so they can reopen it.
+  if (isInitPhase() && !isSelectionComplete()) {
+    const resetBtn = document.getElementById("reset-selection");
+    if (resetBtn) {
+      resetBtn.textContent = "🔡 Pick Letters";
+      resetBtn.style.display = "block";
+      const fresh = resetBtn.cloneNode(true);
+      resetBtn.parentNode.replaceChild(fresh, resetBtn);
+      fresh.addEventListener("click", () => showLetterSelectionModal());
+    }
+  }
+}
+
+function _resetModalTiles() {
+  // Clear game state selections
+  const currentVowel = getSelectedVowel();
+  if (currentVowel) setSelectedVowel("");
+  clearSelectedConsonants();
+
+  // Reset all tile classes in modal
+  document.querySelectorAll("#ls-modal-letter-grid .letter-tile").forEach((t) => {
+    t.classList.remove(
+      "ls-vowel-selected", "ls-consonant-selected",
+      "vowel-enabled", "consonant-enabled", "phase-disabled"
+    );
+  });
+
+  // Reset slots
+  const slotV  = document.getElementById("ls-slot-vowel");
+  const slotC1 = document.getElementById("ls-slot-c1");
+  const slotC2 = document.getElementById("ls-slot-c2");
+  if (slotV)  { slotV.textContent  = "Vowel";         slotV.className  = "ls-slot ls-slot-vowel"; }
+  if (slotC1) { slotC1.innerHTML   = "Consonant<br>1"; slotC1.className = "ls-slot ls-slot-consonant"; }
+  if (slotC2) { slotC2.innerHTML   = "Consonant<br>2"; slotC2.className = "ls-slot ls-slot-consonant"; }
+}
+
+function _applyModalPhaseStyles() {
+  const vowelChosen = !!getSelectedVowel();
+  document.querySelectorAll("#ls-modal-letter-grid .letter-tile").forEach((t) => {
+    const letter = t.getAttribute("data-letter");
+    const isVowel = VOWELS.includes(letter);
+    t.classList.remove("vowel-enabled", "consonant-enabled", "phase-disabled");
+
+    if (!vowelChosen) {
+      // Step 1: highlight vowels, dim consonants
+      t.classList.add(isVowel ? "vowel-enabled" : "phase-disabled");
+    } else {
+      // Step 2: vowels stay enabled (player can change mind); consonants become active
+      if (isVowel) {
+        t.classList.add("vowel-enabled"); // keep all vowels clickable
+      } else if (!t.classList.contains("ls-consonant-selected")) {
+        t.classList.add("consonant-enabled");
+      }
+    }
+  });
+}
+
+function _handleModalTileClick(tile, isVowel) {
+  const letter = tile.getAttribute("data-letter");
+
+  if (isVowel) {
+    // Deselect previous vowel if any
+    const prevVowel = getSelectedVowel();
+    if (prevVowel) {
+      document.querySelector(`#ls-modal-letter-grid .letter-tile[data-letter="${prevVowel}"]`)
+        ?.classList.remove("ls-vowel-selected");
+    }
+    setSelectedVowel(letter);
+    tile.classList.add("ls-vowel-selected");
+  } else {
+    const consonants = getSelectedConsonants();
+    if (consonants.includes(letter)) {
+      // Deselect it
+      clearSelectedConsonants();
+      consonants.filter((c) => c !== letter).forEach((c) => addSelectedConsonant(c));
+      tile.classList.remove("ls-consonant-selected");
+      _updateModalSlots();
+      _applyModalPhaseStyles();
+      _syncModalConfirmBtn();
+      return;
+    }
+    if (consonants.length >= 2) {
+      showToast("Click a selected consonant to deselect it first", "info");
+      return;
+    }
+    addSelectedConsonant(letter);
+    tile.classList.add("ls-consonant-selected");
+  }
+
+  _updateModalSlots();
+  _applyModalPhaseStyles();
+  _syncModalConfirmBtn();
+}
+
+function _syncModalConfirmBtn() {
+  const confirmBtn = document.getElementById("ls-confirm-btn");
+  if (confirmBtn) {
+    const ready = !!getSelectedVowel() && getSelectedConsonants().length === 2;
+    confirmBtn.disabled = !ready;
+  }
+}
+
+function _updateModalSlots() {
+  const vowel = getSelectedVowel();
+  const consonants = getSelectedConsonants();
+
+  const slotV  = document.getElementById("ls-slot-vowel");
+  const slotC1 = document.getElementById("ls-slot-c1");
+  const slotC2 = document.getElementById("ls-slot-c2");
+
+  if (slotV) {
+    slotV.textContent = vowel ? vowel.toUpperCase() : "Vowel";
+    slotV.className = vowel ? "ls-slot ls-slot-vowel filled-vowel" : "ls-slot ls-slot-vowel";
+  }
+  if (slotC1) {
+    if (consonants[0]) { slotC1.textContent = consonants[0].toUpperCase(); slotC1.className = "ls-slot ls-slot-consonant filled-consonant"; }
+    else               { slotC1.innerHTML   = "Consonant<br>1";            slotC1.className = "ls-slot ls-slot-consonant"; }
+  }
+  if (slotC2) {
+    if (consonants[1]) { slotC2.textContent = consonants[1].toUpperCase(); slotC2.className = "ls-slot ls-slot-consonant filled-consonant"; }
+    else               { slotC2.innerHTML   = "Consonant<br>2";            slotC2.className = "ls-slot ls-slot-consonant"; }
+  }
+}
+
+function _confirmModalSelection() {
+  const vowel = getSelectedVowel();
+  const consonants = getSelectedConsonants();
+  if (!vowel || consonants.length !== 2) return;
+
+  // Fade out modal, then run existing completion logic
+  const modal = document.getElementById("letter-selection-modal");
+  modal.classList.add("closing");
+  setTimeout(() => {
+    modal.classList.remove("show", "closing");
+
+    completeLetterSelection();
+    applySelectionPhaseStyles();  // syncs marketplace board too
+
+    addNotification(
+      `Selection complete: ${vowel.toUpperCase()}, ${consonants[0].toUpperCase()}, ${consonants[1].toUpperCase()}`,
+      "success"
+    );
+
+    const cluesContainer = document.getElementById("clues-container");
+    if (cluesContainer) cluesContainer.classList.remove("disabled-clues");
+
+    revealSelectedLetters();
+    showInitialCluesAfterSelection();
+    renderParagraph(getChosenVowel());
+    renderClues();
+    updateLetterCounts(true);
+    updateScore();
+    updateInputState();
+  }, 350);
+}
+
+// ─── End Letter Selection Modal ───────────────────────────────────────────────
+
 /**
  * Shows a confirmation modal before a letter purchase.
  * Calls onConfirm() if the player proceeds.
@@ -1600,10 +1817,7 @@ export function resetUI() {
 
   // Reset notification panel
   clearNotifications();
-  
-  // Reset initial message flag and show initial message
   initialMessageShown = false;
-  showInitialMessage();
 
   // Reset selected letter displays (for backward compatibility)
   const vowelDisplay = document.getElementById("selected-vowel");

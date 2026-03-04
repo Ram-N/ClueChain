@@ -45,6 +45,7 @@ import {
   addIncorrectGuessNotification,
   handleGoldenKey,
   handleGoldenCoin,
+  showLetterSelectionModal,
 } from "./ui-manager.js?v=1.1";
 
 import {
@@ -522,20 +523,15 @@ export async function initializeGame() {
 
     // Force a delay to ensure all setup is complete
     setTimeout(() => {
-      // If we're in init phase, show different UI state
+      // If we're in init phase, show the letter selection modal
       if (isInitPhase() && !isSelectionComplete()) {
-        // Show initial clues first, then render
-        showInitialCluesAfterSelection();
-        // Only render the paragraph with masked words without revealing any letters
+        // Render masked paragraph behind the modal
         renderParagraph("");
         renderClues();
         updateScore();
-        // Show letter tiles without counts
         updateLetterCounts(false);
-        // Disable input and submit button during selection phase
         updateInputState();
-        // Show initial notification prompting letter selection
-        showInitialMessage();
+        showLetterSelectionModal();
       } else {
         // Normal game initialization (after selection or on reload)
         // Make sure we have initial clues if selection is already complete

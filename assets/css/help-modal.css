@@ -131,16 +131,162 @@
   .modal-content {
     width: 95%;
   }
-  
+
   .modal-header h2 {
     font-size: 1.2rem;
   }
-  
+
   .rule-text h3 {
     font-size: 1rem;
   }
-  
+
   .rule-text p {
     font-size: 0.9rem;
   }
+}
+
+/* ---- Letter Selection Modal ---- */
+#letter-selection-modal .ls-modal-content {
+  max-width: 520px;
+  text-align: center;
+}
+
+#letter-selection-modal .ls-modal-header {
+  background: #1565c0;
+  justify-content: space-between;
+}
+
+#letter-selection-modal .ls-modal-header h2 {
+  flex: 1;
+  text-align: center;
+}
+
+.ls-modal-instructions {
+  margin: 0 0 0.25rem;
+  font-size: 1rem;
+  color: #444;
+}
+
+.ls-modal-hint {
+  margin: 0 0 0.75rem;
+  font-size: 1rem;
+  color: #444;
+}
+
+/* Three slots showing chosen letters */
+.ls-selection-slots {
+  display: flex;
+  gap: 0.75rem;
+  justify-content: center;
+  margin-bottom: 1.25rem;
+}
+
+.ls-slot {
+  width: 80px;
+  height: 56px;
+  border-radius: 8px;
+  border: 2px dashed #bbb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.65rem;      /* small for placeholder text */
+  font-weight: 600;
+  color: #aaa;
+  transition: all 0.2s;
+  text-align: center;
+  line-height: 1.2;
+  padding: 2px;
+}
+
+.ls-slot.filled-vowel {
+  background: #ffd700;
+  border-color: #b8860b;
+  color: #5a3e00;
+  font-size: 1.6rem;       /* large for the single letter */
+}
+
+.ls-slot.filled-consonant {
+  background: #e8f5e9;
+  border-color: #388e3c;
+  color: #1b5e20;
+  font-size: 1.6rem;       /* large for the single letter */
+}
+
+/* Modal letter grid: centered rows */
+.ls-modal-grid {
+  display: flex;
+  justify-content: center;
+  background: transparent;
+  padding: 0;
+  margin-bottom: 1.25rem;
+}
+
+.ls-modal-grid .letter-grid {
+  align-items: center;
+}
+
+/* Larger tiles in modal */
+.ls-modal-grid .letter-tile {
+  width: 40px;
+  height: 40px;
+  font-size: 17px;
+}
+
+/* Selected vowel in modal: golden + lifted */
+.ls-modal-grid .letter-tile.ls-vowel-selected {
+  background: #ffd700;
+  border-color: #b8860b;
+  color: #5a3e00;
+  transform: translateY(-3px);
+  box-shadow: 0 3px 8px rgba(184,134,11,0.4);
+}
+
+/* Unselected vowels during consonant phase: soft gold outline, not filled */
+.ls-modal-grid .letter-tile.vowel-enabled:not(.ls-vowel-selected) {
+  background: #fffde7;
+  border-color: #f9a825;
+  color: #b8860b;
+  opacity: 0.75;
+}
+
+/* Selected consonant in modal */
+.ls-modal-grid .letter-tile.ls-consonant-selected {
+  background: #c8e6c9;
+  border-color: #388e3c;
+  color: #1b5e20;
+  transform: translateY(-3px);
+  box-shadow: 0 3px 8px rgba(56,142,60,0.35);
+}
+
+/* Confirm button */
+.ls-confirm-btn {
+  margin-top: 0.25rem;
+  padding: 0.65rem 2.5rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  background: #1565c0;
+  color: white;
+  cursor: pointer;
+  transition: background 0.2s, opacity 0.2s;
+}
+
+.ls-confirm-btn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.ls-confirm-btn:not(:disabled):hover {
+  background: #0d47a1;
+}
+
+/* Fade-out animation on close */
+#letter-selection-modal.closing {
+  animation: fadeOut 0.35s ease-out forwards;
+}
+
+@keyframes fadeOut {
+  from { opacity: 1; }
+  to   { opacity: 0; }
 }

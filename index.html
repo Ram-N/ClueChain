@@ -159,6 +159,62 @@
     
     <!-- Main Application -->
     <script type="module" src="main.js?v=1.1"></script>
+
+    <!-- Letter Selection Modal -->
+    <div id="letter-selection-modal" class="modal-container" role="dialog" aria-modal="true" aria-labelledby="ls-modal-title">
+      <div class="modal-content ls-modal-content">
+        <div class="modal-header ls-modal-header">
+          <h2 id="ls-modal-title">Pick Your Starting Letters</h2>
+          <button class="close-button" id="ls-modal-close" aria-label="Close">&times;</button>
+        </div>
+        <div class="modal-body ls-modal-body">
+          <p class="ls-modal-instructions">Choose <strong>1 vowel</strong> and <strong>2 consonants</strong> to reveal in the puzzle.<br>You can change your mind before confirming.</p>
+          <div class="ls-selection-slots">
+            <div class="ls-slot ls-slot-vowel" id="ls-slot-vowel">Vowel</div>
+            <div class="ls-slot ls-slot-consonant" id="ls-slot-c1">Consonant<br>1</div>
+            <div class="ls-slot ls-slot-consonant" id="ls-slot-c2">Consonant<br>2</div>
+          </div>
+          <div class="letter-grid-container ls-modal-grid">
+            <div class="letter-grid" id="ls-modal-letter-grid">
+              <div class="keyboard-row">
+                <button class="letter-tile" data-letter="q">Q</button>
+                <button class="letter-tile" data-letter="w">W</button>
+                <button class="letter-tile" data-letter="e">E</button>
+                <button class="letter-tile" data-letter="r">R</button>
+                <button class="letter-tile" data-letter="t">T</button>
+                <button class="letter-tile" data-letter="y">Y</button>
+                <button class="letter-tile" data-letter="u">U</button>
+                <button class="letter-tile" data-letter="i">I</button>
+                <button class="letter-tile" data-letter="o">O</button>
+                <button class="letter-tile" data-letter="p">P</button>
+              </div>
+              <div class="keyboard-row">
+                <button class="letter-tile" data-letter="a">A</button>
+                <button class="letter-tile" data-letter="s">S</button>
+                <button class="letter-tile" data-letter="d">D</button>
+                <button class="letter-tile" data-letter="f">F</button>
+                <button class="letter-tile" data-letter="g">G</button>
+                <button class="letter-tile" data-letter="h">H</button>
+                <button class="letter-tile" data-letter="j">J</button>
+                <button class="letter-tile" data-letter="k">K</button>
+                <button class="letter-tile" data-letter="l">L</button>
+              </div>
+              <div class="keyboard-row">
+                <button class="letter-tile" data-letter="z">Z</button>
+                <button class="letter-tile" data-letter="x">X</button>
+                <button class="letter-tile" data-letter="c">C</button>
+                <button class="letter-tile" data-letter="v">V</button>
+                <button class="letter-tile" data-letter="b">B</button>
+                <button class="letter-tile" data-letter="n">N</button>
+                <button class="letter-tile" data-letter="m">M</button>
+              </div>
+            </div>
+          </div>
+          <p class="ls-modal-hint">Tip: click a selected tile again to deselect it.</p>
+          <button id="ls-confirm-btn" class="ls-confirm-btn" disabled>Start Game →</button>
+        </div>
+      </div>
+    </div>
 </body>
 
 </html>
