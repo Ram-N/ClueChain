@@ -1447,6 +1447,41 @@ function checkSelectionComplete() {
 // ─── Letter Selection Modal ───────────────────────────────────────────────────
 
 /**
+ * Shows the auth gate modal if the user is not authenticated and hasn't chosen guest mode.
+ * If already authenticated or guest, calls onContinue() immediately.
+ * @param {Function} onContinue - Callback to invoke once the gate is passed
+ */
+export function showAuthGateIfNeeded(onContinue) {
+  const isAuthenticated = window.authManager && window.authManager.isAuthenticated();
+  const isGuest = localStorage.getItem('cluechain_guest_mode') === 'true';
+
+  if (isAuthenticated || isGuest) {
+    onContinue();
+    return;
+  }
+
+  const modal = document.getElementById('auth-gate-modal');
+  if (!modal) {
+    // Modal not in DOM yet — fall through to letter selection
+    onContinue();
+    return;
+  }
+
+  modal.classList.add('show');
+
+  document.getElementById('auth-gate-google-btn').onclick = async () => {
+    await window.authManager.signInWithGoogle();
+    // OAuth redirect will reload the page — nothing else needed here
+  };
+
+  document.getElementById('auth-gate-guest-btn').onclick = () => {
+    localStorage.setItem('cluechain_guest_mode', 'true');
+    modal.classList.remove('show');
+    onContinue();
+  };
+}
+
+/**
  * Shows the letter-selection modal and wires up its tiles.
  * Resets any prior selections so the player starts fresh.
  */

@@ -46,6 +46,7 @@ import {
   handleGoldenKey,
   handleGoldenCoin,
   showLetterSelectionModal,
+  showAuthGateIfNeeded,
 } from "./ui-manager.js?v=1.1";
 
 import {
@@ -531,7 +532,9 @@ export async function initializeGame() {
         updateScore();
         updateLetterCounts(false);
         updateInputState();
-        showLetterSelectionModal();
+        showAuthGateIfNeeded(() => {
+          showLetterSelectionModal();
+        });
       } else {
         // Normal game initialization (after selection or on reload)
         // Make sure we have initial clues if selection is already complete

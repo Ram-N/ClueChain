@@ -54,6 +54,7 @@ class AuthManager {
     switch (event) {
       case 'SIGNED_IN':
         this.currentUser = session.user;
+        localStorage.removeItem('cluechain_guest_mode');
         this.notifyAuthListeners('SIGNED_IN', session);
         break;
       case 'SIGNED_OUT':
