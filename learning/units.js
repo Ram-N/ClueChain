@@ -636,7 +636,7 @@ const App = (function () {
   async function loadListing() {
     const manifestPath = document.body.dataset.manifestPath
     if (!manifestPath) throw new Error('Set data-manifest-path on <body>.')
-    const res = await fetch('../' + manifestPath, { cache: 'no-store' })
+    const res = await fetch(manifestPath, { cache: 'no-store' })
     if (!res.ok) throw new Error(`Failed to load manifest: ${manifestPath}`)
     const manifest = await res.json()
     renderListing(manifest)
@@ -652,7 +652,7 @@ const App = (function () {
         <div class='item-footer'>
           <div>${escapeHTML(u.date || '')} &bull; ${u.item_count || '?'} items</div>
           <div class='item-actions'>
-            <a class='pill' href='?unit=../${escapeHTML(u.path)}'>Open &rarr;</a>
+            <a class='pill' href='?unit=/${escapeHTML(u.path)}'>Open &rarr;</a>
           </div>
         </div>
       </article>
@@ -761,9 +761,9 @@ const App = (function () {
       tokIndex: item.tokIndex,
       answer: item.word,
       hints: {
-        direct:       item.clues.find(c => c.type === 'direct')?.text || '',
-        intermediate: item.clues.find(c => c.type === 'intermediate')?.text || '',
-        indirect:     item.clues.find(c => c.type === 'indirect')?.text || '',
+        direct:       item.clues.find(c => c.type === 'direct'    || c.type === 'Straight')?.text || '',
+        intermediate: item.clues.find(c => c.type === 'intermediate' || c.type === 'Suggestive')?.text || '',
+        indirect:     item.clues.find(c => c.type === 'indirect'  || c.type === 'Indirect')?.text || '',
       },
       solved: false,
       revealed: false,

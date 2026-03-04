@@ -1,0 +1,12 @@
+{
+  "slug": "ai-basics",
+  "title": "AI Basics",
+  "units": [
+    {
+      "title": "AI Glossary: A–B",
+      "date": "2025",
+      "path": "assets/data/units/ai/ai-glossary-a-b.json",
+      "item_count": 10
+    }
+  ]
+}

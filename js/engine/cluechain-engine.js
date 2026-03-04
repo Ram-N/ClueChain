@@ -219,7 +219,22 @@ export class ClueChainEngine {
     if (authoredVariant?.blanks?.length) {
       const hintMap = new Map()
       for (const entry of authoredVariant.blanks) {
-        hintMap.set(_slugKey(entry.word), entry.hints || {})
+        // Support both legacy {hints:{indirect,intermediate,direct}} and
+        // new {clues:[{type,clue,points}]} formats.
+        let hints = entry.hints || {}
+        if (!entry.hints && Array.isArray(entry.clues)) {
+          hints = {}
+          for (const c of entry.clues) {
+            const t = (c.type || '').toLowerCase()
+            const text = c.clue || c.text || ''
+            if (t === 'indirect')     hints.indirect     = text
+            else if (t === 'suggestive') hints.intermediate = text
+            else if (t === 'straight')   hints.direct      = text
+            else if (t === 'intermediate') hints.intermediate = text
+            else if (t === 'direct')   hints.direct      = text
+          }
+        }
+        hintMap.set(_slugKey(entry.word), hints)
       }
 
       const tokens = tokenizeWithSpans(text)
