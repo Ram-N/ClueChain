@@ -164,16 +164,10 @@
     <div id="letter-selection-modal" class="modal-container" role="dialog" aria-modal="true" aria-labelledby="ls-modal-title">
       <div class="modal-content ls-modal-content">
         <div class="modal-header ls-modal-header">
-          <h2 id="ls-modal-title">Pick Your Starting Letters</h2>
+          <h2 id="ls-modal-title">Select 1 Vowel &amp; 2 Consonants</h2>
           <button class="close-button" id="ls-modal-close" aria-label="Close">&times;</button>
         </div>
         <div class="modal-body ls-modal-body">
-          <p class="ls-modal-instructions">Choose <strong>1 vowel</strong> and <strong>2 consonants</strong> to reveal in the puzzle.<br>You can change your mind before confirming.</p>
-          <div class="ls-selection-slots">
-            <div class="ls-slot ls-slot-vowel" id="ls-slot-vowel">Vowel</div>
-            <div class="ls-slot ls-slot-consonant" id="ls-slot-c1">Consonant<br>1</div>
-            <div class="ls-slot ls-slot-consonant" id="ls-slot-c2">Consonant<br>2</div>
-          </div>
           <div class="letter-grid-container ls-modal-grid">
             <div class="letter-grid" id="ls-modal-letter-grid">
               <div class="keyboard-row">
@@ -209,6 +203,11 @@
                 <button class="letter-tile" data-letter="m">M</button>
               </div>
             </div>
+          </div>
+          <div class="ls-selection-slots">
+            <div class="ls-slot ls-slot-vowel" id="ls-slot-vowel">Vowel</div>
+            <div class="ls-slot ls-slot-consonant" id="ls-slot-c1">Consonant<br>1</div>
+            <div class="ls-slot ls-slot-consonant" id="ls-slot-c2">Consonant<br>2</div>
           </div>
           <p class="ls-modal-hint">Tip: click a selected tile again to deselect it.</p>
           <button id="ls-confirm-btn" class="ls-confirm-btn" disabled>Start Game →</button>

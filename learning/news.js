@@ -2,6 +2,154 @@
 
 import { ClueChainEngine, nextUnsolvedBlank } from '../js/engine/cluechain-engine.js'
 
+// ---- Letter-selection modal (self-contained, mirrors ui-manager.js logic) ----
+
+const VOWELS = ['a','e','i','o','u']
+
+const LetterPicker = {
+  _vowel: '',
+  _consonants: [],
+  _onConfirm: null,
+  _onClose: null,
+
+  open(onConfirm, onClose) {
+    this._vowel = ''
+    this._consonants = []
+    this._onConfirm = onConfirm
+    this._onClose = onClose
+    this._resetTiles()
+    this._wireTiles()
+    this._wireButtons()
+    this._applyPhaseStyles()
+    const modal = document.getElementById('letter-selection-modal')
+    if (modal) { modal.classList.remove('closing'); modal.classList.add('show') }
+  },
+
+  close() {
+    const modal = document.getElementById('letter-selection-modal')
+    if (modal) modal.classList.remove('show', 'closing')
+  },
+
+  _resetTiles() {
+    document.querySelectorAll('#ls-modal-letter-grid .letter-tile').forEach(t => {
+      t.classList.remove('ls-vowel-selected','ls-consonant-selected',
+                         'vowel-enabled','consonant-enabled','phase-disabled')
+    })
+    this._setSlot('ls-slot-vowel', null, 'vowel')
+    this._setSlot('ls-slot-c1', null, 'consonant', 1)
+    this._setSlot('ls-slot-c2', null, 'consonant', 2)
+    const btn = document.getElementById('ls-confirm-btn')
+    if (btn) btn.disabled = true
+  },
+
+  _setSlot(id, letter, type, n) {
+    const el = document.getElementById(id)
+    if (!el) return
+    if (letter) {
+      el.textContent = letter.toUpperCase()
+      el.className = `ls-slot ls-slot-${type} filled-${type}`
+    } else {
+      el.innerHTML = type === 'vowel' ? 'Vowel' : `Consonant<br>${n}`
+      el.className = `ls-slot ls-slot-${type}`
+    }
+  },
+
+  _updateSlots() {
+    this._setSlot('ls-slot-vowel', this._vowel, 'vowel')
+    this._setSlot('ls-slot-c1', this._consonants[0] || null, 'consonant', 1)
+    this._setSlot('ls-slot-c2', this._consonants[1] || null, 'consonant', 2)
+  },
+
+  _wireTiles() {
+    document.querySelectorAll('#ls-modal-letter-grid .letter-tile').forEach(tile => {
+      const letter = tile.getAttribute('data-letter')
+      const isVowel = VOWELS.includes(letter)
+      const fresh = tile.cloneNode(true)
+      tile.parentNode.replaceChild(fresh, tile)
+      fresh.addEventListener('click', () => this._onTileClick(fresh, letter, isVowel))
+    })
+  },
+
+  _wireButtons() {
+    const confirmBtn = document.getElementById('ls-confirm-btn')
+    if (confirmBtn) {
+      const fresh = confirmBtn.cloneNode(true)
+      confirmBtn.parentNode.replaceChild(fresh, confirmBtn)
+      fresh.disabled = true
+      fresh.addEventListener('click', () => this._confirm())
+    }
+    const closeBtn = document.getElementById('ls-modal-close')
+    if (closeBtn) {
+      const fresh = closeBtn.cloneNode(true)
+      closeBtn.parentNode.replaceChild(fresh, closeBtn)
+      fresh.addEventListener('click', () => { this.close(); if (this._onClose) this._onClose() })
+    }
+  },
+
+  _onTileClick(tile, letter, isVowel) {
+    if (isVowel) {
+      if (this._vowel) {
+        document.querySelector(`#ls-modal-letter-grid .letter-tile[data-letter="${this._vowel}"]`)
+          ?.classList.remove('ls-vowel-selected')
+      }
+      this._vowel = letter
+      tile.classList.add('ls-vowel-selected')
+    } else {
+      if (this._consonants.includes(letter)) {
+        this._consonants = this._consonants.filter(c => c !== letter)
+        tile.classList.remove('ls-consonant-selected')
+      } else if (this._consonants.length >= 2) {
+        // Simple toast-style feedback inline
+        const btn = document.getElementById('ls-confirm-btn')
+        const orig = btn ? btn.textContent : ''
+        if (btn) { btn.textContent = 'Deselect one first'; setTimeout(() => { btn.textContent = orig }, 1500) }
+        return
+      } else {
+        this._consonants.push(letter)
+        tile.classList.add('ls-consonant-selected')
+      }
+    }
+    this._updateSlots()
+    this._applyPhaseStyles()
+    const btn = document.getElementById('ls-confirm-btn')
+    if (btn) btn.disabled = !(this._vowel && this._consonants.length === 2)
+  },
+
+  _applyPhaseStyles() {
+    const vowelChosen = !!this._vowel
+    document.querySelectorAll('#ls-modal-letter-grid .letter-tile').forEach(t => {
+      const letter = t.getAttribute('data-letter')
+      const isVowel = VOWELS.includes(letter)
+      t.classList.remove('vowel-enabled','consonant-enabled','phase-disabled')
+      if (!vowelChosen) {
+        t.classList.add(isVowel ? 'vowel-enabled' : 'phase-disabled')
+      } else {
+        if (isVowel) {
+          t.classList.add('vowel-enabled')
+        } else if (!t.classList.contains('ls-consonant-selected')) {
+          t.classList.add('consonant-enabled')
+        }
+      }
+    })
+  },
+
+  _confirm() {
+    if (!this._vowel || this._consonants.length !== 2) return
+    const vowel = this._vowel
+    const consonants = [...this._consonants]
+    const modal = document.getElementById('letter-selection-modal')
+    if (modal) {
+      modal.classList.add('closing')
+      setTimeout(() => {
+        modal.classList.remove('show','closing')
+        if (this._onConfirm) this._onConfirm(vowel, consonants)
+      }, 350)
+    } else {
+      if (this._onConfirm) this._onConfirm(vowel, consonants)
+    }
+  }
+}
+
 // ---- Utilities ----
 
 function qs(sel, root) {
@@ -38,7 +186,8 @@ function escapeHTML(s) {
 
 // ---- Blanking engine (STOPWORDS, tokenizeWithSpans, chooseBlankTargets imported from engine) ----
 
-function renderMaskedHTML(tokens, blanks, activeBlankIndex) {
+// seededLetters: Set of lowercase letters to reveal within dashes
+function renderMaskedHTML(tokens, blanks, activeBlankIndex, seededLetters) {
   const blankByTok = new Map()
   for (const b of blanks) blankByTok.set(b.tokIndex, b)
 
@@ -51,13 +200,24 @@ function renderMaskedHTML(tokens, blanks, activeBlankIndex) {
       continue
     }
 
-    const shown = (b.solved || b.revealed) ? escapeHTML(b.answer) : '_'.repeat(Math.max(3, b.answer.length))
     const isActive = b.blankIndex === activeBlankIndex
-
-    let cls = 'blank'
-    if (b.solved) cls += ' solved'
-    else if (b.revealed) cls += ' revealed'
-    else if (isActive) cls += ' active'
+    let shown, cls
+    if (b.solved || b.revealed) {
+      shown = escapeHTML(b.answer)
+      cls = b.solved ? 'blank solved' : 'blank revealed'
+    } else {
+      // Build dashes, revealing seeded letters in their correct positions
+      const chars = Array.from(b.answer.toLowerCase())
+      const dashParts = chars.map(ch => {
+        if (seededLetters && seededLetters.has(ch)) {
+          return `<span class='seeded-letter'>${escapeHTML(ch.toUpperCase())}</span>`
+        }
+        return '–'
+      })
+      shown = dashParts.join('<span class="dash-gap"></span>') +
+              `&thinsp;<span class='blank-count'>(${b.answer.length})</span>`
+      cls = isActive ? 'blank active' : 'blank'
+    }
 
     parts.push(
       `<span class='${cls}' data-blank-index='${b.blankIndex}' role='button' tabindex='0'>${shown}</span>`
@@ -96,7 +256,9 @@ function initialModalState() {
     lastFeedback: '',
     hintText: '',
     completed: false,
-    error: ''
+    error: '',
+    seededLetters: null,   // Set of letters revealed via picker
+    _pendingModel: null    // Built model waiting for letter selection
   }
 }
 
@@ -122,14 +284,30 @@ function reducer(state, evt) {
       }
 
     case 'OPENED_READY':
+      // Store the model and wait for letter selection before going to READY
+      return {
+        ...state,
+        status: S.OPENING,   // stay in OPENING until letters are picked
+        _pendingModel: evt.payload
+      }
+
+    case 'LETTERS_CONFIRMED': {
+      const model = state._pendingModel || {}
       return {
         ...state,
         status: S.READY,
-        tokens: evt.payload.tokens,
-        blanks: evt.payload.blanks,
-        activeBlankIndex: evt.payload.blanks.length ? 0 : -1,
-        _engine: evt.payload._engine || null
+        tokens: model.tokens || [],
+        blanks: model.blanks || [],
+        activeBlankIndex: (model.blanks || []).length ? 0 : -1,
+        _engine: model._engine || null,
+        seededLetters: evt.payload.seededLetters,
+        _pendingModel: null
       }
+    }
+
+    case 'LETTERS_DISMISSED':
+      // Player closed the picker without selecting — close the whole modal
+      return initialModalState()
 
     case 'SELECT_BLANK':
       if (state.status === S.SUMMARY || state.status === S.ERROR) return state
@@ -278,6 +456,7 @@ const App = (function () {
     unit: null,
     mode: 'read',
     difficulty: 'standard',
+    lbMode: 'all',   // 'all' or 'word'
     modal: initialModalState()
   }
 
@@ -300,6 +479,7 @@ const App = (function () {
     els.guessInput       = qs('#guessInput')
     els.submitGuess      = qs('#submitGuess')
     els.hintBox          = qs('#hintBox')
+    els.feedbackPanel    = qs('#feedbackPanel')
     els.revealWord       = qs('#revealWord')
     els.revealAll        = qs('#revealAll')
     els.prevBlank        = qs('#prevBlank')
@@ -308,6 +488,9 @@ const App = (function () {
     els.summaryDetail    = qs('#summaryDetail')
     els.summaryClose     = qs('#summaryClose')
     els.summaryNextItem  = qs('#summaryNextItem')
+    els.letterBoard      = qs('#letterBoard')
+    els.lbModeAll        = qs('#lbModeAll')
+    els.lbModeWord       = qs('#lbModeWord')
   }
 
   // ---- Mode & difficulty ----
@@ -341,9 +524,43 @@ const App = (function () {
       return
     }
 
+    if (evt.type === 'OPENED_READY') {
+      // Show letter picker; on confirm transition to READY, on close dismiss entirely
+      LetterPicker.open(
+        (vowel, consonants) => {
+          const seededLetters = new Set([vowel, ...consonants])
+          dispatch({ type: 'LETTERS_CONFIRMED', payload: { seededLetters } })
+        },
+        () => {
+          dispatch({ type: 'LETTERS_DISMISSED' })
+          closeModalDOM()
+        }
+      )
+      return
+    }
+
+    if (evt.type === 'LETTERS_DISMISSED') {
+      closeModalDOM()
+      return
+    }
+
+    // Auto-show indirect clue whenever a blank becomes active
+    if (evt.type === 'OPENED_READY' || evt.type === 'LETTERS_CONFIRMED' || evt.type === 'SELECT_BLANK' || evt.type === 'FEEDBACK_DONE' || evt.type === 'NEXT_BLANK' || evt.type === 'PREV_BLANK') {
+      if (next.activeBlankIndex >= 0) {
+        const hintText = getHintText(next, 'indirect')
+        dispatch({ type: 'USE_HINT', payload: { hintText } })
+      }
+      return
+    }
+
     if (evt.type === 'SUBMIT_GUESS') {
       const res = checkGuess(next)
       dispatch({ type: 'GUESS_RESULT', payload: res })
+      // If correct and "This word" mode is active, switch back to "All"
+      if (res.newBlanks && state.lbMode === 'word') {
+        const wasCorrect = /correct/i.test(res.feedback)
+        if (wasCorrect) setLbMode('all')
+      }
       if (!res.done) {
         window.setTimeout(() => dispatch({ type: 'FEEDBACK_DONE' }), 500)
       }
@@ -380,7 +597,7 @@ const App = (function () {
   // ---- Load unit from URL param ----
 
   async function loadUnit() {
-    const unitPath = getParam('unit') || '../assets/data/units/news/2026/02/25.json'
+    const unitPath = getParam('unit') || '../assets/data/units/news/2026/03/01.json'
     const res = await fetch(unitPath, { cache: 'no-store' })
     if (!res.ok) throw new Error(`Failed to load unit: ${unitPath} (HTTP ${res.status})`)
     state.unit = await res.json()
@@ -513,7 +730,18 @@ const App = (function () {
     // Delegate to engine if available
     if (modalState._engine) {
       const engine = modalState._engine
-      engine.selectBlank(modalState.activeBlankIndex)
+
+      // Feature 5: check all unsolved blanks, not just the active one
+      let matchedBlankIndex = -1
+      for (let i = 0; i < modalState.blanks.length; i++) {
+        const bx = modalState.blanks[i]
+        if (!bx.solved && !bx.revealed && slugKey(guess) === slugKey(bx.answer)) {
+          matchedBlankIndex = i
+          break
+        }
+      }
+
+      engine.selectBlank(matchedBlankIndex >= 0 ? matchedBlankIndex : modalState.activeBlankIndex)
       const result = engine.submitGuess(guess)
 
       const engineState = engine.getState()
@@ -523,28 +751,85 @@ const App = (function () {
         revealed: engineState.items[idx]?.revealed || x.revealed,
       }))
 
-      return { newBlanks, deltaScore: result.deltaScore, feedback: result.feedback, done: result.done }
+      // Prefix feedback with the guess text
+      const label = guess.toUpperCase()
+      const feedbackWithGuess = result.correct
+        ? `"${label}" — Correct!`
+        : `"${label}" — Not quite, try again`
+
+      return { newBlanks, deltaScore: result.deltaScore, feedback: feedbackWithGuess, done: result.done }
     }
 
     // Fallback (no engine — should not happen in normal flow)
     const correct = slugKey(guess) === slugKey(b.answer)
     let deltaScore = 0
     let feedback = ''
+    const label = guess.toUpperCase()
     const newBlanks = modalState.blanks.map(x => {
       if (x.blankIndex !== b.blankIndex || x.solved || x.revealed) return x
       if (correct) {
         const perBlank = Math.floor(modalState.maxPoints / Math.max(1, modalState.blanks.length))
         deltaScore = perBlank
-        feedback = 'Correct!'
+        feedback = `"${label}" — Correct!`
         return { ...x, solved: true }
       } else {
         deltaScore = -1
-        feedback = 'Not quite — try again'
+        feedback = `"${label}" — Not quite, try again`
         return x
       }
     })
     const done = newBlanks.every(x => x.solved || x.revealed)
     return { newBlanks, deltaScore, feedback, done }
+  }
+
+  // ---- Feedback notification log ----
+  // Appends cards persistently; only cleared when a new practice session opens.
+
+  function showFeedback(feedback) {
+    if (!els.feedbackPanel || !feedback) return
+    const isCorrect = /correct|well done|great/i.test(feedback)
+    const cls = isCorrect ? 'feedback-card correct' : 'feedback-card wrong'
+    const card = document.createElement('div')
+    card.className = cls
+    card.textContent = feedback
+    els.feedbackPanel.appendChild(card)
+    // Scroll the text panel so the new card is visible
+    const textPanel = els.feedbackPanel.closest('.modal-text')
+    if (textPanel) textPanel.scrollTop = textPanel.scrollHeight
+  }
+
+  function clearFeedback() {
+    if (els.feedbackPanel) els.feedbackPanel.innerHTML = ''
+  }
+
+  // ---- Letter board ----
+
+  function updateLetterBoard(blanks, activeBlankIndex) {
+    if (!els.letterBoard) return
+    const counts = {}
+    const sourceMode = state.lbMode
+    for (const b of blanks) {
+      if (b.solved || b.revealed) continue
+      if (sourceMode === 'word' && b.blankIndex !== activeBlankIndex) continue
+      for (const ch of b.answer.toLowerCase()) {
+        if (ch >= 'a' && ch <= 'z') counts[ch] = (counts[ch] || 0) + 1
+      }
+    }
+    for (const tile of els.letterBoard.querySelectorAll('.lt')) {
+      const letter = tile.getAttribute('data-letter')
+      const sup = tile.querySelector('.lc')
+      const n = counts[letter] || 0
+      sup.textContent = n > 0 ? n : ''
+      tile.classList.toggle('lb-active', n > 0)
+      tile.classList.toggle('lb-empty', n === 0)
+    }
+  }
+
+  function setLbMode(mode) {
+    state.lbMode = mode
+    els.lbModeAll.classList.toggle('active', mode === 'all')
+    els.lbModeWord.classList.toggle('active', mode === 'word')
+    updateLetterBoard(state.modal.blanks, state.modal.activeBlankIndex)
   }
 
   // ---- Modal rendering ----
@@ -581,7 +866,7 @@ const App = (function () {
     }
 
     // Masked text
-    els.maskedText.innerHTML = renderMaskedHTML(next.tokens, next.blanks, next.activeBlankIndex)
+    els.maskedText.innerHTML = renderMaskedHTML(next.tokens, next.blanks, next.activeBlankIndex, next.seededLetters)
 
     // Blank meta
     const b = next.blanks[next.activeBlankIndex]
@@ -592,8 +877,19 @@ const App = (function () {
       els.blankMeta.textContent = `Blank ${b.blankIndex + 1} of ${next.blanks.length}  •  ${status}  •  ${b.answer.length} letters`
     }
 
-    // Hint / feedback box
-    els.hintBox.textContent = next.hintText || next.lastFeedback || ''
+    // Hint box (clue text only)
+    els.hintBox.textContent = next.hintText || ''
+
+    // Feedback notification log (correct / wrong)
+    // Append a new card whenever feedback text changes; clear only on fresh modal open.
+    if (next.lastFeedback && next.lastFeedback !== prev.lastFeedback) {
+      showFeedback(next.lastFeedback)
+    } else if (next.status === S.OPENING) {
+      clearFeedback()
+    }
+
+    // Letter board
+    updateLetterBoard(next.blanks, next.activeBlankIndex)
 
     // Input state
     const disableInput = isSummary || next.status === S.ERROR
@@ -674,6 +970,18 @@ const App = (function () {
 
     if (e.key === 'Enter' && !els.guessInput.disabled) {
       dispatch({ type: 'SUBMIT_GUESS' })
+      return
+    }
+
+    // Route printable keys to the guess input when it's not already focused
+    if (
+      !els.guessInput.disabled &&
+      document.activeElement !== els.guessInput &&
+      e.key.length === 1 &&
+      !e.ctrlKey && !e.metaKey && !e.altKey
+    ) {
+      els.guessInput.focus()
+      // Don't preventDefault — let the character land in the input naturally
     }
   }
 
@@ -683,12 +991,16 @@ const App = (function () {
     els.modeRead.addEventListener('click', () => setMode('read'))
     els.modePractice.addEventListener('click', () => setMode('practice'))
     els.difficultySelect.addEventListener('change', () => setDifficulty(els.difficultySelect.value))
+    els.lbModeAll.addEventListener('click', () => setLbMode('all'))
+    els.lbModeWord.addEventListener('click', () => setLbMode('word'))
 
     // Page-level click (items list only; modal stops propagation for its own clicks)
     document.addEventListener('click', onPageClick)
 
     // Modal container click
     els.modalRoot.addEventListener('click', onModalClick)
+
+    // Hover removed — clicking a blank now sticks it as active (no hover auto-select)
 
     // Input
     els.guessInput.addEventListener('input', () => {

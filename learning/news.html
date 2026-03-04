@@ -5,6 +5,7 @@
   <meta name='viewport' content='width=device-width, initial-scale=1' />
   <title>ClueChain News</title>
   <link rel='stylesheet' href='news.css' />
+  <link rel='stylesheet' href='../assets/css/help-modal.css' />
 </head>
 
 <body>
@@ -64,6 +65,7 @@
       <div class='modal-body'>
         <div class='modal-text'>
           <div id='maskedText' class='masked-text'></div>
+          <div id='feedbackPanel' class='feedback-panel' aria-live='assertive'></div>
         </div>
 
         <aside class='modal-panel'>
@@ -94,6 +96,27 @@
             <button id='prevBlank' class='btn' type='button'>&larr; Prev</button>
             <button id='nextBlank' class='btn' type='button'>Next &rarr;</button>
           </div>
+
+          <div class='panel-row'>
+            <div class='lb-header'>
+              <div class='panel-label'>Letters remaining</div>
+              <div class='lb-mode-pill' role='group'>
+                <button id='lbModeAll' class='lb-mode-btn active' type='button'>All</button>
+                <button id='lbModeWord' class='lb-mode-btn' type='button'>This word</button>
+              </div>
+            </div>
+            <div id='letterBoard' class='letter-board'>
+              <div class='lb-row'>
+                <span class='lt' data-letter='q'>Q<sup class='lc'></sup></span><span class='lt' data-letter='w'>W<sup class='lc'></sup></span><span class='lt' data-letter='e'>E<sup class='lc'></sup></span><span class='lt' data-letter='r'>R<sup class='lc'></sup></span><span class='lt' data-letter='t'>T<sup class='lc'></sup></span><span class='lt' data-letter='y'>Y<sup class='lc'></sup></span><span class='lt' data-letter='u'>U<sup class='lc'></sup></span><span class='lt' data-letter='i'>I<sup class='lc'></sup></span><span class='lt' data-letter='o'>O<sup class='lc'></sup></span><span class='lt' data-letter='p'>P<sup class='lc'></sup></span>
+              </div>
+              <div class='lb-row'>
+                <span class='lt' data-letter='a'>A<sup class='lc'></sup></span><span class='lt' data-letter='s'>S<sup class='lc'></sup></span><span class='lt' data-letter='d'>D<sup class='lc'></sup></span><span class='lt' data-letter='f'>F<sup class='lc'></sup></span><span class='lt' data-letter='g'>G<sup class='lc'></sup></span><span class='lt' data-letter='h'>H<sup class='lc'></sup></span><span class='lt' data-letter='j'>J<sup class='lc'></sup></span><span class='lt' data-letter='k'>K<sup class='lc'></sup></span><span class='lt' data-letter='l'>L<sup class='lc'></sup></span>
+              </div>
+              <div class='lb-row'>
+                <span class='lt' data-letter='z'>Z<sup class='lc'></sup></span><span class='lt' data-letter='x'>X<sup class='lc'></sup></span><span class='lt' data-letter='c'>C<sup class='lc'></sup></span><span class='lt' data-letter='v'>V<sup class='lc'></sup></span><span class='lt' data-letter='b'>B<sup class='lc'></sup></span><span class='lt' data-letter='n'>N<sup class='lc'></sup></span><span class='lt' data-letter='m'>M<sup class='lc'></sup></span>
+              </div>
+            </div>
+          </div>
         </aside>
       </div>
 
@@ -104,6 +127,61 @@
           <button id='summaryClose' class='btn primary' type='button'>Return to reading</button>
           <button id='summaryNextItem' class='btn' type='button'>Practice next item</button>
         </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Letter Selection Modal (shared with daily puzzle) -->
+  <div id="letter-selection-modal" class="modal-container" role="dialog" aria-modal="true" aria-labelledby="ls-modal-title">
+    <div class="modal-content ls-modal-content">
+      <div class="modal-header ls-modal-header">
+        <h2 id="ls-modal-title">Select 1 Vowel &amp; 2 Consonants</h2>
+        <button class="close-button" id="ls-modal-close" aria-label="Close">&times;</button>
+      </div>
+      <div class="modal-body ls-modal-body">
+        <div class="letter-grid-container ls-modal-grid">
+          <div class="letter-grid" id="ls-modal-letter-grid">
+            <div class="keyboard-row">
+              <button class="letter-tile" data-letter="q">Q</button>
+              <button class="letter-tile" data-letter="w">W</button>
+              <button class="letter-tile" data-letter="e">E</button>
+              <button class="letter-tile" data-letter="r">R</button>
+              <button class="letter-tile" data-letter="t">T</button>
+              <button class="letter-tile" data-letter="y">Y</button>
+              <button class="letter-tile" data-letter="u">U</button>
+              <button class="letter-tile" data-letter="i">I</button>
+              <button class="letter-tile" data-letter="o">O</button>
+              <button class="letter-tile" data-letter="p">P</button>
+            </div>
+            <div class="keyboard-row">
+              <button class="letter-tile" data-letter="a">A</button>
+              <button class="letter-tile" data-letter="s">S</button>
+              <button class="letter-tile" data-letter="d">D</button>
+              <button class="letter-tile" data-letter="f">F</button>
+              <button class="letter-tile" data-letter="g">G</button>
+              <button class="letter-tile" data-letter="h">H</button>
+              <button class="letter-tile" data-letter="j">J</button>
+              <button class="letter-tile" data-letter="k">K</button>
+              <button class="letter-tile" data-letter="l">L</button>
+            </div>
+            <div class="keyboard-row">
+              <button class="letter-tile" data-letter="z">Z</button>
+              <button class="letter-tile" data-letter="x">X</button>
+              <button class="letter-tile" data-letter="c">C</button>
+              <button class="letter-tile" data-letter="v">V</button>
+              <button class="letter-tile" data-letter="b">B</button>
+              <button class="letter-tile" data-letter="n">N</button>
+              <button class="letter-tile" data-letter="m">M</button>
+            </div>
+          </div>
+        </div>
+        <div class="ls-selection-slots">
+          <div class="ls-slot ls-slot-vowel" id="ls-slot-vowel">Vowel</div>
+          <div class="ls-slot ls-slot-consonant" id="ls-slot-c1">Consonant<br>1</div>
+          <div class="ls-slot ls-slot-consonant" id="ls-slot-c2">Consonant<br>2</div>
+        </div>
+        <p class="ls-modal-hint">Tip: click a selected tile again to deselect it.</p>
+        <button id="ls-confirm-btn" class="ls-confirm-btn" disabled>Start Practice →</button>
       </div>
     </div>
   </div>
