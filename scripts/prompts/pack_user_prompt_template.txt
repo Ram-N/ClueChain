@@ -1,0 +1,7 @@
+Passage text:
+"""
+{paragraph_text}
+"""
+
+Generate a title and 4–10 fill-in-the-blank words with three-tier clues for this passage.
+Remember: every word must appear verbatim in the passage text above.

@@ -7,6 +7,12 @@
       "date": "1859",
       "path": "assets/data/units/literature/tale-of-two-cities.json",
       "item_count": 1
+    },
+    {
+      "title": "A Tale of Two Cities — Vol. II",
+      "date": "1859",
+      "path": "assets/data/units/literature/tale-of-two-cities-ii.json",
+      "item_count": 5
     }
   ]
 }

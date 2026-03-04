@@ -1,0 +1,766 @@
+{
+  "schema_version": 1,
+  "unit_id": "literature-tale-of-two-cities-ii",
+  "unit_type": "literature",
+  "title": "A Tale of Two Cities — Vol. II",
+  "source": {
+    "name": "Charles Dickens, A Tale of Two Cities (1859)",
+    "license": "public-domain"
+  },
+  "navigation": {
+    "collection": "literature"
+  },
+  "tags": [
+    "vocabulary",
+    "literature"
+  ],
+  "reading_level": "adult",
+  "estimated_minutes": 10,
+  "items": [
+    {
+      "item_id": "literature-tale-of-two-cities-ii-01",
+      "title": "French Revolution Era Execution Fears",
+      "text": "One year and three months. During all that time Lucie was never sure, from hour to hour, but that the Guillotine would strike off her husband’s head next day. Every day, through the stony streets, the tumbrils now jolted heavily, filled with Condemned. Lovely girls; bright women, brown-haired, black-haired, and grey; youths; stalwart men and old; gentle born and peasant born; all red wine for La Guillotine, all daily brought into light from the dark cellars of the loathsome prisons, and carried to her through the streets to slake her devouring thirst. Liberty, equality, fraternity, or death;--the last, much the easiest to bestow, O Guillotine!",
+      "practice": {
+        "enabled": true,
+        "blanking": {
+          "mode": "auto",
+          "targets": {
+            "easy": {
+              "min_blanks": 3,
+              "max_blanks": 5
+            },
+            "standard": {
+              "min_blanks": 5,
+              "max_blanks": 7
+            },
+            "advanced": {
+              "min_blanks": 7,
+              "max_blanks": 10
+            }
+          },
+          "avoid": {
+            "stopwords": true,
+            "numbers": true,
+            "very_short_words_max_len": 3
+          }
+        },
+        "scoring": {
+          "max_points": 100,
+          "per_blank": "proportional",
+          "penalties": {
+            "wrong_guess": 1,
+            "reveal_word": 10
+          }
+        }
+      },
+      "authored_variants": [
+        {
+          "variant_id": "llm-v1",
+          "blanks": [
+            {
+              "word": "tumbrils",
+              "clues": [
+                {
+                  "type": "Indirect",
+                  "clue": "A vehicle's ominous cargo is a daily spectacle",
+                  "points": 6
+                },
+                {
+                  "type": "Suggestive",
+                  "clue": "These were often filled with people destined for a gruesome end",
+                  "points": 4
+                },
+                {
+                  "type": "Straight",
+                  "clue": "A type of cart or wagon",
+                  "points": 2
+                }
+              ]
+            },
+            {
+              "word": "loathsome",
+              "clues": [
+                {
+                  "type": "Indirect",
+                  "clue": "A feeling that makes one's stomach turn, describing a place",
+                  "points": 6
+                },
+                {
+                  "type": "Suggestive",
+                  "clue": "Used to describe something that inspires intense dislike or disgust",
+                  "points": 4
+                },
+                {
+                  "type": "Straight",
+                  "clue": "Causing a strong feeling of dislike or disgust",
+                  "points": 1
+                }
+              ]
+            },
+            {
+              "word": "fraternity",
+              "clues": [
+                {
+                  "type": "Indirect",
+                  "clue": "Brotherly love, a bond between people, one of a triplet of ideals",
+                  "points": 7
+                },
+                {
+                  "type": "Suggestive",
+                  "clue": "A feeling or relationship between people, especially men, who share similar interests or activities",
+                  "points": 4
+                },
+                {
+                  "type": "Straight",
+                  "clue": "The state or feeling of friendship and mutual support",
+                  "points": 2
+                }
+              ]
+            },
+            {
+              "word": "stalwart",
+              "clues": [
+                {
+                  "type": "Indirect",
+                  "clue": "Unwavering, like a strong and loyal companion",
+                  "points": 6
+                },
+                {
+                  "type": "Suggestive",
+                  "clue": "Describes someone who is strong and steady, physically or in character",
+                  "points": 3
+                },
+                {
+                  "type": "Straight",
+                  "clue": "Strong and loyal, physically or in character",
+                  "points": 1
+                }
+              ]
+            },
+            {
+              "word": "devouring",
+              "clues": [
+                {
+                  "type": "Indirect",
+                  "clue": "Consuming everything in its path, like an insatiable beast",
+                  "points": 6
+                },
+                {
+                  "type": "Suggestive",
+                  "clue": "Describes an intense and uncontrolled hunger or desire",
+                  "points": 4
+                },
+                {
+                  "type": "Straight",
+                  "clue": "Eating or consuming something greedily or in large amounts",
+                  "points": 1
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_id": "literature-tale-of-two-cities-ii-02",
+      "title": "Mr. Lorry's Secret Precautions",
+      "text": "Two things at once impressed themselves on Mr. Lorry, as important above all others; the first, that this must be kept secret from Lucie; the second, that it must be kept secret from all who knew him. In conjunction with Miss Pross, he took immediate steps towards the latter precaution, by giving out that the Doctor was not well, and required a few days of complete rest. In aid of the kind deception to be practised on his daughter, Miss Pross was to write, describing his having been called away professionally, and referring to an imaginary letter of two or three hurried lines in his own hand, represented to have been addressed to her by the same post.",
+      "practice": {
+        "enabled": true,
+        "blanking": {
+          "mode": "auto",
+          "targets": {
+            "easy": {
+              "min_blanks": 3,
+              "max_blanks": 5
+            },
+            "standard": {
+              "min_blanks": 5,
+              "max_blanks": 7
+            },
+            "advanced": {
+              "min_blanks": 7,
+              "max_blanks": 10
+            }
+          },
+          "avoid": {
+            "stopwords": true,
+            "numbers": true,
+            "very_short_words_max_len": 3
+          }
+        },
+        "scoring": {
+          "max_points": 100,
+          "per_blank": "proportional",
+          "penalties": {
+            "wrong_guess": 1,
+            "reveal_word": 10
+          }
+        }
+      },
+      "authored_variants": [
+        {
+          "variant_id": "llm-v1",
+          "blanks": [
+            {
+              "word": "impressed",
+              "clues": [
+                {
+                  "type": "Indirect",
+                  "clue": "Like a stamp on soft wax, leaving a lasting mark.",
+                  "points": 6
+                },
+                {
+                  "type": "Suggestive",
+                  "clue": "Having a strong effect on someone's mind or feelings.",
+                  "points": 4
+                },
+                {
+                  "type": "Straight",
+                  "clue": "Made a strong impression or feeling.",
+                  "points": 2
+                }
+              ]
+            },
+            {
+              "word": "conjunction",
+              "clues": [
+                {
+                  "type": "Indirect",
+                  "clue": "A meeting of celestial bodies, or a union of earthly efforts.",
+                  "points": 6
+                },
+                {
+                  "type": "Suggestive",
+                  "clue": "A word describing a connection or combination of things.",
+                  "points": 4
+                },
+                {
+                  "type": "Straight",
+                  "clue": "A relationship between two or more things.",
+                  "points": 1
+                }
+              ]
+            },
+            {
+              "word": "precaution",
+              "clues": [
+                {
+                  "type": "Indirect",
+                  "clue": "A safety net for the unsuspecting, or a shield for the unwary.",
+                  "points": 6
+                },
+                {
+                  "type": "Suggestive",
+                  "clue": "A measure taken to prevent something unwanted from happening.",
+                  "points": 4
+                },
+                {
+                  "type": "Straight",
+                  "clue": "An action taken to prevent or avoid a problem.",
+                  "points": 2
+                }
+              ]
+            },
+            {
+              "word": "deception",
+              "clues": [
+                {
+                  "type": "Indirect",
+                  "clue": "A mask worn to conceal one's true face, or a veil to hide the truth.",
+                  "points": 6
+                },
+                {
+                  "type": "Suggestive",
+                  "clue": "The act of misleading someone into believing something false.",
+                  "points": 4
+                },
+                {
+                  "type": "Straight",
+                  "clue": "The act of deceiving someone or making them believe something untrue.",
+                  "points": 1
+                }
+              ]
+            },
+            {
+              "word": "imaginary",
+              "clues": [
+                {
+                  "type": "Indirect",
+                  "clue": "A world created by the mind, where fantasy knows no bounds.",
+                  "points": 6
+                },
+                {
+                  "type": "Suggestive",
+                  "clue": "Not real, but existing only in the mind or imagination.",
+                  "points": 4
+                },
+                {
+                  "type": "Straight",
+                  "clue": "Not based on fact, but on imagination or fantasy.",
+                  "points": 2
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_id": "literature-tale-of-two-cities-ii-03",
+      "title": "Sunday Afternoon with Mr. Lorry",
+      "text": "On this certain fine Sunday, Mr. Lorry walked towards Soho, early in the afternoon, for three reasons of habit. Firstly, because, on fine Sundays, he often walked out, before dinner, with the Doctor and Lucie; secondly, because, on unfavourable Sundays, he was accustomed to be with them as the family friend, talking, reading, looking out of window, and generally getting through the day; thirdly, because he happened to have his own little shrewd doubts to solve, and knew how the ways of the Doctor’s household pointed to that time as a likely time for solving them.",
+      "practice": {
+        "enabled": true,
+        "blanking": {
+          "mode": "auto",
+          "targets": {
+            "easy": {
+              "min_blanks": 3,
+              "max_blanks": 5
+            },
+            "standard": {
+              "min_blanks": 5,
+              "max_blanks": 7
+            },
+            "advanced": {
+              "min_blanks": 7,
+              "max_blanks": 10
+            }
+          },
+          "avoid": {
+            "stopwords": true,
+            "numbers": true,
+            "very_short_words_max_len": 3
+          }
+        },
+        "scoring": {
+          "max_points": 100,
+          "per_blank": "proportional",
+          "penalties": {
+            "wrong_guess": 1,
+            "reveal_word": 10
+          }
+        }
+      },
+      "authored_variants": [
+        {
+          "variant_id": "llm-v1",
+          "blanks": [
+            {
+              "word": "afternoon",
+              "clues": [
+                {
+                  "type": "Indirect",
+                  "clue": "Time of day when shadows are longest, yet the sun still shines bright",
+                  "points": 6
+                },
+                {
+                  "type": "Suggestive",
+                  "clue": "Part of the day often associated with leisure activities",
+                  "points": 4
+                },
+                {
+                  "type": "Straight",
+                  "clue": "The middle of the day, between morning and evening",
+                  "points": 2
+                }
+              ]
+            },
+            {
+              "word": "habit",
+              "clues": [
+                {
+                  "type": "Indirect",
+                  "clue": "A routine that's hard to shake, like a loyal companion",
+                  "points": 6
+                },
+                {
+                  "type": "Suggestive",
+                  "clue": "A behavior that is repeated regularly, often without much thought",
+                  "points": 4
+                },
+                {
+                  "type": "Straight",
+                  "clue": "A customary or usual practice",
+                  "points": 1
+                }
+              ]
+            },
+            {
+              "word": "doubts",
+              "clues": [
+                {
+                  "type": "Indirect",
+                  "clue": "The whispers that keep you up at night, questioning what's true",
+                  "points": 6
+                },
+                {
+                  "type": "Suggestive",
+                  "clue": "Uncertainties that can cloud one's judgment or confidence",
+                  "points": 4
+                },
+                {
+                  "type": "Straight",
+                  "clue": "Feelings of uncertainty or lack of confidence",
+                  "points": 2
+                }
+              ]
+            },
+            {
+              "word": "household",
+              "clues": [
+                {
+                  "type": "Indirect",
+                  "clue": "A unit bound together by love, laughter, and sometimes chaos",
+                  "points": 6
+                },
+                {
+                  "type": "Suggestive",
+                  "clue": "A group of people living together, often a family",
+                  "points": 4
+                },
+                {
+                  "type": "Straight",
+                  "clue": "A family or group of people living together in one home",
+                  "points": 1
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_id": "literature-tale-of-two-cities-ii-04",
+      "title": "French Revolution Era Chaos",
+      "text": "Seven prisoners released, seven gory heads on pikes, the keys of the accursed fortress of the eight strong towers, some discovered letters and other memorials of prisoners of old time, long dead of broken hearts,--such, and such--like, the loudly echoing footsteps of Saint Antoine escort through the Paris streets in mid-July, one thousand seven hundred and eighty-nine. Now, Heaven defeat the fancy of Lucie Darnay, and keep these feet far out of her life! For, they are headlong, mad, and dangerous; and in the years so long after the breaking of the cask at Defarge’s wine-shop door, they are not easily purified when once stained red.",
+      "practice": {
+        "enabled": true,
+        "blanking": {
+          "mode": "auto",
+          "targets": {
+            "easy": {
+              "min_blanks": 3,
+              "max_blanks": 5
+            },
+            "standard": {
+              "min_blanks": 5,
+              "max_blanks": 7
+            },
+            "advanced": {
+              "min_blanks": 7,
+              "max_blanks": 10
+            }
+          },
+          "avoid": {
+            "stopwords": true,
+            "numbers": true,
+            "very_short_words_max_len": 3
+          }
+        },
+        "scoring": {
+          "max_points": 100,
+          "per_blank": "proportional",
+          "penalties": {
+            "wrong_guess": 1,
+            "reveal_word": 10
+          }
+        }
+      },
+      "authored_variants": [
+        {
+          "variant_id": "llm-v1",
+          "blanks": [
+            {
+              "word": "prisoners",
+              "clues": [
+                {
+                  "type": "Indirect",
+                  "clue": "Those held against their will, often awaiting fate's dark decree.",
+                  "points": 6
+                },
+                {
+                  "type": "Suggestive",
+                  "clue": "People confined, often due to crimes or conflicts, in need of liberation.",
+                  "points": 4
+                },
+                {
+                  "type": "Straight",
+                  "clue": "People kept in jail or captivity.",
+                  "points": 2
+                }
+              ]
+            },
+            {
+              "word": "gory",
+              "clues": [
+                {
+                  "type": "Indirect",
+                  "clue": "Like the aftermath of a brutal battle, where life's beauty is lost.",
+                  "points": 6
+                },
+                {
+                  "type": "Suggestive",
+                  "clue": "Having a repellent or horrifying quality, often associated with violence.",
+                  "points": 4
+                },
+                {
+                  "type": "Straight",
+                  "clue": "Covered or filled with blood.",
+                  "points": 1
+                }
+              ]
+            },
+            {
+              "word": "fortress",
+              "clues": [
+                {
+                  "type": "Indirect",
+                  "clue": "A stronghold where dreams are crushed and hope falters.",
+                  "points": 7
+                },
+                {
+                  "type": "Suggestive",
+                  "clue": "A secure and fortified building or structure, often for defense or imprisonment.",
+                  "points": 4
+                },
+                {
+                  "type": "Straight",
+                  "clue": "A strong building or place for defense.",
+                  "points": 2
+                }
+              ]
+            },
+            {
+              "word": "memorials",
+              "clues": [
+                {
+                  "type": "Indirect",
+                  "clue": "Reminders of what's been, standing as testaments to memories past.",
+                  "points": 6
+                },
+                {
+                  "type": "Suggestive",
+                  "clue": "Objects or structures that honor or remind people of something or someone.",
+                  "points": 3
+                },
+                {
+                  "type": "Straight",
+                  "clue": "Things that help people remember a person or event.",
+                  "points": 1
+                }
+              ]
+            },
+            {
+              "word": "hearts",
+              "clues": [
+                {
+                  "type": "Indirect",
+                  "clue": "The seat of emotions, where love and sorrow deeply reside.",
+                  "points": 6
+                },
+                {
+                  "type": "Suggestive",
+                  "clue": "The central part of a person's being, associated with feelings and emotions.",
+                  "points": 4
+                },
+                {
+                  "type": "Straight",
+                  "clue": "The organ that pumps blood in the body.",
+                  "points": 1
+                }
+              ]
+            },
+            {
+              "word": "footsteps",
+              "clues": [
+                {
+                  "type": "Indirect",
+                  "clue": "The sound of approaching destiny, echoing through time.",
+                  "points": 7
+                },
+                {
+                  "type": "Suggestive",
+                  "clue": "The sounds made by walking, often indicating someone's presence or movement.",
+                  "points": 4
+                },
+                {
+                  "type": "Straight",
+                  "clue": "The marks or sounds of feet walking.",
+                  "points": 1
+                }
+              ]
+            },
+            {
+              "word": "fancy",
+              "clues": [
+                {
+                  "type": "Indirect",
+                  "clue": "A whimsical notion, born from the mind's creative and imaginative power.",
+                  "points": 6
+                },
+                {
+                  "type": "Suggestive",
+                  "clue": "A liking or desire for something, often based on its appeal or attractiveness.",
+                  "points": 4
+                },
+                {
+                  "type": "Straight",
+                  "clue": "A liking or whim.",
+                  "points": 1
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_id": "literature-tale-of-two-cities-ii-05",
+      "title": "Paris Under Stricter Control",
+      "text": "“Tut! Nonsense, sir!--And, my dear Charles,” said Mr. Lorry, glancing at the House again, “you are to remember, that getting things out of Paris at this present time, no matter what things, is next to an impossibility. Papers and precious matters were this very day brought to us here (I speak in strict confidence; it is not business-like to whisper it, even to you), by the strangest bearers you can imagine, every one of whom had his head hanging on by a single hair as he passed the Barriers. At another time, our parcels would come and go, as easily as in business-like Old England; but now, everything is stopped.”",
+      "practice": {
+        "enabled": true,
+        "blanking": {
+          "mode": "auto",
+          "targets": {
+            "easy": {
+              "min_blanks": 3,
+              "max_blanks": 5
+            },
+            "standard": {
+              "min_blanks": 5,
+              "max_blanks": 7
+            },
+            "advanced": {
+              "min_blanks": 7,
+              "max_blanks": 10
+            }
+          },
+          "avoid": {
+            "stopwords": true,
+            "numbers": true,
+            "very_short_words_max_len": 3
+          }
+        },
+        "scoring": {
+          "max_points": 100,
+          "per_blank": "proportional",
+          "penalties": {
+            "wrong_guess": 1,
+            "reveal_word": 10
+          }
+        }
+      },
+      "authored_variants": [
+        {
+          "variant_id": "llm-v1",
+          "blanks": [
+            {
+              "word": "nonsense",
+              "clues": [
+                {
+                  "type": "Indirect",
+                  "clue": "A phrase used to express strong disagreement, often with a tinge of annoyance.",
+                  "points": 6
+                },
+                {
+                  "type": "Suggestive",
+                  "clue": "Something that lacks sense or is utterly foolish.",
+                  "points": 4
+                },
+                {
+                  "type": "Straight",
+                  "clue": "Absurd or foolish talk or ideas.",
+                  "points": 2
+                }
+              ]
+            },
+            {
+              "word": "barriers",
+              "clues": [
+                {
+                  "type": "Indirect",
+                  "clue": "Obstacles that must be overcome or bypassed to reach a destination.",
+                  "points": 6
+                },
+                {
+                  "type": "Suggestive",
+                  "clue": "Physical or figurative blocks that restrict movement or access.",
+                  "points": 4
+                },
+                {
+                  "type": "Straight",
+                  "clue": "Structures or obstacles that prevent or block passage.",
+                  "points": 1
+                }
+              ]
+            },
+            {
+              "word": "impossibility",
+              "clues": [
+                {
+                  "type": "Indirect",
+                  "clue": "A state where something cannot be done, no matter the effort.",
+                  "points": 7
+                },
+                {
+                  "type": "Suggestive",
+                  "clue": "A situation that is not feasible or cannot be achieved.",
+                  "points": 4
+                },
+                {
+                  "type": "Straight",
+                  "clue": "The state of being impossible.",
+                  "points": 2
+                }
+              ]
+            },
+            {
+              "word": "confidence",
+              "clues": [
+                {
+                  "type": "Indirect",
+                  "clue": "Trust or faith in someone or something, often shared discreetly.",
+                  "points": 6
+                },
+                {
+                  "type": "Suggestive",
+                  "clue": "A feeling of reliance or assurance, especially when sharing secrets.",
+                  "points": 4
+                },
+                {
+                  "type": "Straight",
+                  "clue": "The state of feeling sure or certain about something.",
+                  "points": 1
+                }
+              ]
+            },
+            {
+              "word": "parcels",
+              "clues": [
+                {
+                  "type": "Indirect",
+                  "clue": "Packages or items wrapped up and sent to someone.",
+                  "points": 6
+                },
+                {
+                  "type": "Suggestive",
+                  "clue": "Items or goods that are wrapped and sent, often through a delivery service.",
+                  "points": 4
+                },
+                {
+                  "type": "Straight",
+                  "clue": "Packages or bundles of goods.",
+                  "points": 2
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

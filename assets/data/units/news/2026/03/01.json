@@ -62,35 +62,83 @@
           "blanks": [
             {
               "word": "aggressively",
-              "hints": {
-                "direct": "In a forceful and energetic manner",
-                "intermediate": "This is how someone might behave when they really want to achieve something, often taking bold actions",
-                "indirect": "Like a strong wind that cannot be ignored, this approach leaves a lasting impression"
-              }
+              "clues": [
+                {
+                  "type": "Straight",
+                  "clue": "In a forceful and energetic manner",
+                  "points": 2
+                },
+                {
+                  "type": "Suggestive",
+                  "clue": "This is how someone might behave when they really want to achieve something, often taking bold actions",
+                  "points": 4
+                },
+                {
+                  "type": "Indirect",
+                  "clue": "Like a strong wind that cannot be ignored, this approach leaves a lasting impression",
+                  "points": 6
+                }
+              ]
             },
             {
               "word": "executive",
-              "hints": {
-                "direct": "Relating to the person or group in charge",
-                "intermediate": "This term is often used to describe high-level decision makers or leaders in organizations",
-                "indirect": "The top seat at the table, where big decisions are made"
-              }
+              "clues": [
+                {
+                  "type": "Straight",
+                  "clue": "Relating to the person or group in charge",
+                  "points": 2
+                },
+                {
+                  "type": "Suggestive",
+                  "clue": "This term is often used to describe high-level decision makers or leaders in organizations",
+                  "points": 4
+                },
+                {
+                  "type": "Indirect",
+                  "clue": "The top seat at the table, where big decisions are made",
+                  "points": 6
+                }
+              ]
             },
             {
               "word": "authority",
-              "hints": {
-                "direct": "The power or right to control or command",
-                "intermediate": "This concept is important in organizations, as it determines who can make decisions and take actions",
-                "indirect": "A kind of invisible badge that gives someone the ability to make rules or enforce them"
-              }
+              "clues": [
+                {
+                  "type": "Straight",
+                  "clue": "The power or right to control or command",
+                  "points": 2
+                },
+                {
+                  "type": "Suggestive",
+                  "clue": "This concept is important in organizations, as it determines who can make decisions and take actions",
+                  "points": 4
+                },
+                {
+                  "type": "Indirect",
+                  "clue": "A kind of invisible badge that gives someone the ability to make rules or enforce them",
+                  "points": 6
+                }
+              ]
             },
             {
               "word": "consequences",
-              "hints": {
-                "direct": "Results or effects of a particular action",
-                "intermediate": "When making decisions, it's essential to consider what might happen as a result, both good and bad",
-                "indirect": "Like ripples on a pond, these can spread out and affect many things over time"
-              }
+              "clues": [
+                {
+                  "type": "Straight",
+                  "clue": "Results or effects of a particular action",
+                  "points": 2
+                },
+                {
+                  "type": "Suggestive",
+                  "clue": "When making decisions, it's essential to consider what might happen as a result, both good and bad",
+                  "points": 4
+                },
+                {
+                  "type": "Indirect",
+                  "clue": "Like ripples on a pond, these can spread out and affect many things over time",
+                  "points": 6
+                }
+              ]
             }
           ]
         }
@@ -139,35 +187,83 @@
           "blanks": [
             {
               "word": "testimony",
-              "hints": {
-                "direct": "A formal statement, especially one given in a court of law",
-                "intermediate": "It is often given by a witness or an expert in a trial or hearing, providing crucial information",
-                "indirect": "A voice from the past, echoing through the halls of justice, shaping the course of events"
-              }
+              "clues": [
+                {
+                  "type": "Straight",
+                  "clue": "A formal statement, especially one given in a court of law",
+                  "points": 2
+                },
+                {
+                  "type": "Suggestive",
+                  "clue": "It is often given by a witness or an expert in a trial or hearing, providing crucial information",
+                  "points": 4
+                },
+                {
+                  "type": "Indirect",
+                  "clue": "A voice from the past, echoing through the halls of justice, shaping the course of events",
+                  "points": 6
+                }
+              ]
             },
             {
               "word": "focused",
-              "hints": {
-                "direct": "Concentrating attention or effort on something",
-                "intermediate": "It involves directing one's mind or energies towards a particular task or activity",
-                "indirect": "Like a lens zooming in, clarifying the important details"
-              }
+              "clues": [
+                {
+                  "type": "Straight",
+                  "clue": "Concentrating attention or effort on something",
+                  "points": 2
+                },
+                {
+                  "type": "Suggestive",
+                  "clue": "It involves directing one's mind or energies towards a particular task or activity",
+                  "points": 4
+                },
+                {
+                  "type": "Indirect",
+                  "clue": "Like a lens zooming in, clarifying the important details",
+                  "points": 6
+                }
+              ]
             },
             {
               "word": "probing",
-              "hints": {
-                "direct": "Asking questions in order to get information",
-                "intermediate": "It is often used to investigate or examine something closely, like a journalist investigating a story",
-                "indirect": "A gentle yet firm touch, seeking to uncover what lies beneath the surface"
-              }
+              "clues": [
+                {
+                  "type": "Straight",
+                  "clue": "Asking questions in order to get information",
+                  "points": 2
+                },
+                {
+                  "type": "Suggestive",
+                  "clue": "It is often used to investigate or examine something closely, like a journalist investigating a story",
+                  "points": 4
+                },
+                {
+                  "type": "Indirect",
+                  "clue": "A gentle yet firm touch, seeking to uncover what lies beneath the surface",
+                  "points": 6
+                }
+              ]
             },
             {
               "word": "reverberate",
-              "hints": {
-                "direct": "To have a lasting impact or effect",
-                "intermediate": "It can be used to describe how an event or action continues to influence or affect something over time",
-                "indirect": "Ripples on a pond, spreading out and disturbing the calm waters"
-              }
+              "clues": [
+                {
+                  "type": "Straight",
+                  "clue": "To have a lasting impact or effect",
+                  "points": 2
+                },
+                {
+                  "type": "Suggestive",
+                  "clue": "It can be used to describe how an event or action continues to influence or affect something over time",
+                  "points": 4
+                },
+                {
+                  "type": "Indirect",
+                  "clue": "Ripples on a pond, spreading out and disturbing the calm waters",
+                  "points": 6
+                }
+              ]
             }
           ]
         }
@@ -216,51 +312,123 @@
           "blanks": [
             {
               "word": "episode",
-              "hints": {
-                "direct": "A part of a story or broadcast",
-                "intermediate": "It is often a segment of a larger series or show",
-                "indirect": "Think of a slice of a narrative, like a chapter in a book"
-              }
+              "clues": [
+                {
+                  "type": "Straight",
+                  "clue": "A part of a story or broadcast",
+                  "points": 2
+                },
+                {
+                  "type": "Suggestive",
+                  "clue": "It is often a segment of a larger series or show",
+                  "points": 4
+                },
+                {
+                  "type": "Indirect",
+                  "clue": "Think of a slice of a narrative, like a chapter in a book",
+                  "points": 6
+                }
+              ]
             },
             {
               "word": "connections",
-              "hints": {
-                "direct": "Relationships or links between things",
-                "intermediate": "These are often found between ideas, events, or concepts",
-                "indirect": "Imagine threads that weave separate items together"
-              }
+              "clues": [
+                {
+                  "type": "Straight",
+                  "clue": "Relationships or links between things",
+                  "points": 2
+                },
+                {
+                  "type": "Suggestive",
+                  "clue": "These are often found between ideas, events, or concepts",
+                  "points": 4
+                },
+                {
+                  "type": "Indirect",
+                  "clue": "Imagine threads that weave separate items together",
+                  "points": 6
+                }
+              ]
             },
             {
               "word": "hearings",
-              "hints": {
-                "direct": "Official meetings to gather information",
-                "intermediate": "They are typically formal and conducted by a panel or committee",
-                "indirect": "Picture a room where people come to share their voices and perspectives"
-              }
+              "clues": [
+                {
+                  "type": "Straight",
+                  "clue": "Official meetings to gather information",
+                  "points": 2
+                },
+                {
+                  "type": "Suggestive",
+                  "clue": "They are typically formal and conducted by a panel or committee",
+                  "points": 4
+                },
+                {
+                  "type": "Indirect",
+                  "clue": "Picture a room where people come to share their voices and perspectives",
+                  "points": 6
+                }
+              ]
             },
             {
               "word": "accountability",
-              "hints": {
-                "direct": "The state of being responsible for actions",
-                "intermediate": "This concept is crucial in maintaining trust and fairness",
-                "indirect": "Consider the idea of having to answer for one's deeds"
-              }
+              "clues": [
+                {
+                  "type": "Straight",
+                  "clue": "The state of being responsible for actions",
+                  "points": 2
+                },
+                {
+                  "type": "Suggestive",
+                  "clue": "This concept is crucial in maintaining trust and fairness",
+                  "points": 4
+                },
+                {
+                  "type": "Indirect",
+                  "clue": "Consider the idea of having to answer for one's deeds",
+                  "points": 6
+                }
+              ]
             },
             {
               "word": "investigations",
-              "hints": {
-                "direct": "Systematic examinations or research",
-                "intermediate": "These are conducted to uncover facts or understand a situation",
-                "indirect": "Think of a thorough search for truth, like following a trail of clues"
-              }
+              "clues": [
+                {
+                  "type": "Straight",
+                  "clue": "Systematic examinations or research",
+                  "points": 2
+                },
+                {
+                  "type": "Suggestive",
+                  "clue": "These are conducted to uncover facts or understand a situation",
+                  "points": 4
+                },
+                {
+                  "type": "Indirect",
+                  "clue": "Think of a thorough search for truth, like following a trail of clues",
+                  "points": 6
+                }
+              ]
             },
             {
               "word": "damage",
-              "hints": {
-                "direct": "Harm or injury caused to something",
-                "intermediate": "This can be physical, emotional, or financial",
-                "indirect": "Imagine a crack in a surface, or a wound that needs healing"
-              }
+              "clues": [
+                {
+                  "type": "Straight",
+                  "clue": "Harm or injury caused to something",
+                  "points": 2
+                },
+                {
+                  "type": "Suggestive",
+                  "clue": "This can be physical, emotional, or financial",
+                  "points": 4
+                },
+                {
+                  "type": "Indirect",
+                  "clue": "Imagine a crack in a surface, or a wound that needs healing",
+                  "points": 6
+                }
+              ]
             }
           ]
         }
@@ -309,43 +477,103 @@
           "blanks": [
             {
               "word": "weather",
-              "hints": {
-                "direct": "State of the atmosphere at a particular place and time",
-                "intermediate": "People often check this before going outside to plan their day",
-                "indirect": "It can be sunny, rainy, or anything in between, affecting our moods"
-              }
+              "clues": [
+                {
+                  "type": "Straight",
+                  "clue": "State of the atmosphere at a particular place and time",
+                  "points": 2
+                },
+                {
+                  "type": "Suggestive",
+                  "clue": "People often check this before going outside to plan their day",
+                  "points": 4
+                },
+                {
+                  "type": "Indirect",
+                  "clue": "It can be sunny, rainy, or anything in between, affecting our moods",
+                  "points": 6
+                }
+              ]
             },
             {
               "word": "major",
-              "hints": {
-                "direct": "Very important or of great significance",
-                "intermediate": "This term is often used to describe events or issues that have a big impact",
-                "indirect": "Imagine something that stands out from the rest, demanding attention and respect"
-              }
+              "clues": [
+                {
+                  "type": "Straight",
+                  "clue": "Very important or of great significance",
+                  "points": 2
+                },
+                {
+                  "type": "Suggestive",
+                  "clue": "This term is often used to describe events or issues that have a big impact",
+                  "points": 4
+                },
+                {
+                  "type": "Indirect",
+                  "clue": "Imagine something that stands out from the rest, demanding attention and respect",
+                  "points": 6
+                }
+              ]
             },
             {
               "word": "system",
-              "hints": {
-                "direct": "A set of connected things or parts working together",
-                "intermediate": "In science, this term refers to a group of elements that interact with each other",
-                "indirect": "Think of a network of paths that connect and function as a whole"
-              }
+              "clues": [
+                {
+                  "type": "Straight",
+                  "clue": "A set of connected things or parts working together",
+                  "points": 2
+                },
+                {
+                  "type": "Suggestive",
+                  "clue": "In science, this term refers to a group of elements that interact with each other",
+                  "points": 4
+                },
+                {
+                  "type": "Indirect",
+                  "clue": "Think of a network of paths that connect and function as a whole",
+                  "points": 6
+                }
+              ]
             },
             {
               "word": "sweeping",
-              "hints": {
-                "direct": "Moving with a wide, curved motion, often quickly and forcefully",
-                "intermediate": "This term can describe a gesture or a change that covers a large area",
-                "indirect": "Picture a broom moving across the floor, covering a lot of ground"
-              }
+              "clues": [
+                {
+                  "type": "Straight",
+                  "clue": "Moving with a wide, curved motion, often quickly and forcefully",
+                  "points": 2
+                },
+                {
+                  "type": "Suggestive",
+                  "clue": "This term can describe a gesture or a change that covers a large area",
+                  "points": 4
+                },
+                {
+                  "type": "Indirect",
+                  "clue": "Picture a broom moving across the floor, covering a lot of ground",
+                  "points": 6
+                }
+              ]
             },
             {
               "word": "disruptions",
-              "hints": {
-                "direct": "Acts or events that interrupt or disturb something",
-                "intermediate": "This term is often used to describe problems or issues that affect normal activities",
-                "indirect": "Imagine a smooth flow of events being suddenly broken or disturbed"
-              }
+              "clues": [
+                {
+                  "type": "Straight",
+                  "clue": "Acts or events that interrupt or disturb something",
+                  "points": 2
+                },
+                {
+                  "type": "Suggestive",
+                  "clue": "This term is often used to describe problems or issues that affect normal activities",
+                  "points": 4
+                },
+                {
+                  "type": "Indirect",
+                  "clue": "Imagine a smooth flow of events being suddenly broken or disturbed",
+                  "points": 6
+                }
+              ]
             }
           ]
         }
@@ -394,43 +622,103 @@
           "blanks": [
             {
               "word": "listeners",
-              "hints": {
-                "direct": "People who hear something",
-                "intermediate": "These individuals are typically paying attention to a broadcast or a speaker, and they are often a target audience",
-                "indirect": "The silent partners in a conversation, absorbing every sound and syllable"
-              }
+              "clues": [
+                {
+                  "type": "Straight",
+                  "clue": "People who hear something",
+                  "points": 2
+                },
+                {
+                  "type": "Suggestive",
+                  "clue": "These individuals are typically paying attention to a broadcast or a speaker, and they are often a target audience",
+                  "points": 4
+                },
+                {
+                  "type": "Indirect",
+                  "clue": "The silent partners in a conversation, absorbing every sound and syllable",
+                  "points": 6
+                }
+              ]
             },
             {
               "word": "practical",
-              "hints": {
-                "direct": "Useful for a specific purpose",
-                "intermediate": "This type of advice is often focused on solving real-world problems, rather than theoretical ones",
-                "indirect": "The kind of guidance that helps you get things done, rather than just thinking about them"
-              }
+              "clues": [
+                {
+                  "type": "Straight",
+                  "clue": "Useful for a specific purpose",
+                  "points": 2
+                },
+                {
+                  "type": "Suggestive",
+                  "clue": "This type of advice is often focused on solving real-world problems, rather than theoretical ones",
+                  "points": 4
+                },
+                {
+                  "type": "Indirect",
+                  "clue": "The kind of guidance that helps you get things done, rather than just thinking about them",
+                  "points": 6
+                }
+              ]
             },
             {
               "word": "infrastructure",
-              "hints": {
-                "direct": "Basic systems and structures needed for a country or organization to function",
-                "intermediate": "This includes things like roads, buildings, and utilities, which are essential for daily life and economic activity",
-                "indirect": "The hidden backbone of a community, supporting everything from transportation to communication"
-              }
+              "clues": [
+                {
+                  "type": "Straight",
+                  "clue": "Basic systems and structures needed for a country or organization to function",
+                  "points": 2
+                },
+                {
+                  "type": "Suggestive",
+                  "clue": "This includes things like roads, buildings, and utilities, which are essential for daily life and economic activity",
+                  "points": 4
+                },
+                {
+                  "type": "Indirect",
+                  "clue": "The hidden backbone of a community, supporting everything from transportation to communication",
+                  "points": 6
+                }
+              ]
             },
             {
               "word": "closures",
-              "hints": {
-                "direct": "The act of closing something, such as a business or a road",
-                "intermediate": "These are often announced in advance, to give people time to prepare and make alternative arrangements",
-                "indirect": "A sudden stop, like a door slamming shut, that can disrupt plans and routines"
-              }
+              "clues": [
+                {
+                  "type": "Straight",
+                  "clue": "The act of closing something, such as a business or a road",
+                  "points": 2
+                },
+                {
+                  "type": "Suggestive",
+                  "clue": "These are often announced in advance, to give people time to prepare and make alternative arrangements",
+                  "points": 4
+                },
+                {
+                  "type": "Indirect",
+                  "clue": "A sudden stop, like a door slamming shut, that can disrupt plans and routines",
+                  "points": 6
+                }
+              ]
             },
             {
               "word": "delays",
-              "hints": {
-                "direct": "A period of time when something is late or slowed down",
-                "intermediate": "These can be frustrating, especially when they happen to important events or schedules",
-                "indirect": "The pause between expectation and reality, when anticipation stretches out into uncertainty"
-              }
+              "clues": [
+                {
+                  "type": "Straight",
+                  "clue": "A period of time when something is late or slowed down",
+                  "points": 2
+                },
+                {
+                  "type": "Suggestive",
+                  "clue": "These can be frustrating, especially when they happen to important events or schedules",
+                  "points": 4
+                },
+                {
+                  "type": "Indirect",
+                  "clue": "The pause between expectation and reality, when anticipation stretches out into uncertainty",
+                  "points": 6
+                }
+              ]
             }
           ]
         }
@@ -479,51 +767,123 @@
           "blanks": [
             {
               "word": "research",
-              "hints": {
-                "direct": "Systematic investigation into something",
-                "intermediate": "This is often conducted in academic or scientific fields to gather new information",
-                "indirect": "A thorough search for answers, like being a detective"
-              }
+              "clues": [
+                {
+                  "type": "Straight",
+                  "clue": "Systematic investigation into something",
+                  "points": 2
+                },
+                {
+                  "type": "Suggestive",
+                  "clue": "This is often conducted in academic or scientific fields to gather new information",
+                  "points": 4
+                },
+                {
+                  "type": "Indirect",
+                  "clue": "A thorough search for answers, like being a detective",
+                  "points": 6
+                }
+              ]
             },
             {
               "word": "skew",
-              "hints": {
-                "direct": "A deviation from a normal or expected direction",
-                "intermediate": "In statistics, this refers to an asymmetrical distribution of data",
-                "indirect": "Like a picture hanging crookedly on the wall"
-              }
+              "clues": [
+                {
+                  "type": "Straight",
+                  "clue": "A deviation from a normal or expected direction",
+                  "points": 2
+                },
+                {
+                  "type": "Suggestive",
+                  "clue": "In statistics, this refers to an asymmetrical distribution of data",
+                  "points": 4
+                },
+                {
+                  "type": "Indirect",
+                  "clue": "Like a picture hanging crookedly on the wall",
+                  "points": 6
+                }
+              ]
             },
             {
               "word": "survival",
-              "hints": {
-                "direct": "The state of remaining alive",
-                "intermediate": "This is often a priority in emergency situations or harsh environments",
-                "indirect": "Staying alive against all odds, like a plant growing in the desert"
-              }
+              "clues": [
+                {
+                  "type": "Straight",
+                  "clue": "The state of remaining alive",
+                  "points": 2
+                },
+                {
+                  "type": "Suggestive",
+                  "clue": "This is often a priority in emergency situations or harsh environments",
+                  "points": 4
+                },
+                {
+                  "type": "Indirect",
+                  "clue": "Staying alive against all odds, like a plant growing in the desert",
+                  "points": 6
+                }
+              ]
             },
             {
               "word": "structures",
-              "hints": {
-                "direct": "Buildings or organizations with a specific pattern",
-                "intermediate": "These can be physical, like a house, or social, like a community",
-                "indirect": "Like the framework of a bridge, supporting and connecting different parts"
-              }
+              "clues": [
+                {
+                  "type": "Straight",
+                  "clue": "Buildings or organizations with a specific pattern",
+                  "points": 2
+                },
+                {
+                  "type": "Suggestive",
+                  "clue": "These can be physical, like a house, or social, like a community",
+                  "points": 4
+                },
+                {
+                  "type": "Indirect",
+                  "clue": "Like the framework of a bridge, supporting and connecting different parts",
+                  "points": 6
+                }
+              ]
             },
             {
               "word": "bias",
-              "hints": {
-                "direct": "A prejudice or unfair inclination",
-                "intermediate": "In science, this can affect the results of a study or experiment",
-                "indirect": "A leaning towards one side, like a seesaw that's not balanced"
-              }
+              "clues": [
+                {
+                  "type": "Straight",
+                  "clue": "A prejudice or unfair inclination",
+                  "points": 2
+                },
+                {
+                  "type": "Suggestive",
+                  "clue": "In science, this can affect the results of a study or experiment",
+                  "points": 4
+                },
+                {
+                  "type": "Indirect",
+                  "clue": "A leaning towards one side, like a seesaw that's not balanced",
+                  "points": 6
+                }
+              ]
             },
             {
               "word": "sampling",
-              "hints": {
-                "direct": "The process of selecting a subset of items",
-                "intermediate": "This is often used in research to make inferences about a larger group",
-                "indirect": "Like taking a small bite of food to taste the whole dish"
-              }
+              "clues": [
+                {
+                  "type": "Straight",
+                  "clue": "The process of selecting a subset of items",
+                  "points": 2
+                },
+                {
+                  "type": "Suggestive",
+                  "clue": "This is often used in research to make inferences about a larger group",
+                  "points": 4
+                },
+                {
+                  "type": "Indirect",
+                  "clue": "Like taking a small bite of food to taste the whole dish",
+                  "points": 6
+                }
+              ]
             }
           ]
         }

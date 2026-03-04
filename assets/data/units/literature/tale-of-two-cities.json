@@ -46,62 +46,62 @@
       },
       "authored_variants": [
         {
-          "difficulty": "standard",
+          "variant_id": "llm-v1",
           "blanks": [
             {
               "word": "wisdom",
               "clues": [
-                { "type": "indirect",     "text": "Owls are said to have it; it comes not from books alone but from years lived." },
-                { "type": "intermediate", "text": "The quality of having good judgement and experience." },
-                { "type": "direct",       "text": "Deep knowledge and good judgement." }
+                { "type": "Indirect",   "clue": "Owls are said to have it; it comes not from books alone but from years lived.", "points": 6 },
+                { "type": "Suggestive", "clue": "The quality of having good judgement and experience.", "points": 4 },
+                { "type": "Straight",   "clue": "Deep knowledge and good judgement.", "points": 2 }
               ]
             },
             {
               "word": "foolishness",
               "clues": [
-                { "type": "indirect",     "text": "The jester's domain — laughter hides it, but regret reveals it." },
-                { "type": "intermediate", "text": "Lack of good sense or judgement; silly behaviour." },
-                { "type": "direct",       "text": "Stupidity or lack of wisdom." }
+                { "type": "Indirect",   "clue": "The jester's domain — laughter hides it, but regret reveals it.", "points": 6 },
+                { "type": "Suggestive", "clue": "Lack of good sense or judgement; silly behaviour.", "points": 4 },
+                { "type": "Straight",   "clue": "Stupidity or lack of wisdom.", "points": 2 }
               ]
             },
             {
               "word": "epoch",
               "clues": [
-                { "type": "indirect",     "text": "Geologists use it for millions of years; historians use it for pivotal chapters." },
-                { "type": "intermediate", "text": "A distinct period of history marked by particular events or characteristics." },
-                { "type": "direct",       "text": "A long and distinct period of time." }
+                { "type": "Indirect",   "clue": "Geologists use it for millions of years; historians use it for pivotal chapters.", "points": 6 },
+                { "type": "Suggestive", "clue": "A distinct period of history marked by particular events or characteristics.", "points": 4 },
+                { "type": "Straight",   "clue": "A long and distinct period of time.", "points": 2 }
               ]
             },
             {
               "word": "belief",
               "clues": [
-                { "type": "indirect",     "text": "Faith's cousin — it needs no proof, only conviction." },
-                { "type": "intermediate", "text": "An acceptance that something is true or real, without absolute proof." },
-                { "type": "direct",       "text": "Trust or confidence that something is true." }
+                { "type": "Indirect",   "clue": "Faith's cousin — it needs no proof, only conviction.", "points": 6 },
+                { "type": "Suggestive", "clue": "An acceptance that something is true or real, without absolute proof.", "points": 4 },
+                { "type": "Straight",   "clue": "Trust or confidence that something is true.", "points": 2 }
               ]
             },
             {
               "word": "incredulity",
               "clues": [
-                { "type": "indirect",     "text": "The raised eyebrow made permanent — you've heard the claim but cannot bring yourself to accept it." },
-                { "type": "intermediate", "text": "The state of being unwilling or unable to believe something." },
-                { "type": "direct",       "text": "Disbelief; refusal to accept that something is true." }
+                { "type": "Indirect",   "clue": "The raised eyebrow made permanent — you've heard the claim but cannot bring yourself to accept it.", "points": 6 },
+                { "type": "Suggestive", "clue": "The state of being unwilling or unable to believe something.", "points": 4 },
+                { "type": "Straight",   "clue": "Disbelief; refusal to accept that something is true.", "points": 2 }
               ]
             },
             {
               "word": "despair",
               "clues": [
-                { "type": "indirect",     "text": "Hope's shadow — it arrives when the light goes out and the door will not open." },
-                { "type": "intermediate", "text": "The complete loss of hope; a feeling that nothing will improve." },
-                { "type": "direct",       "text": "Utter hopelessness." }
+                { "type": "Indirect",   "clue": "Hope's shadow — it arrives when the light goes out and the door will not open.", "points": 6 },
+                { "type": "Suggestive", "clue": "The complete loss of hope; a feeling that nothing will improve.", "points": 4 },
+                { "type": "Straight",   "clue": "Utter hopelessness.", "points": 2 }
               ]
             },
             {
               "word": "hope",
               "clues": [
-                { "type": "indirect",     "text": "Emily Dickinson said it's the thing with feathers — it perches in the soul and never stops singing." },
-                { "type": "intermediate", "text": "A feeling that something good will happen; optimism about the future." },
-                { "type": "direct",       "text": "Expectation and desire for something good." }
+                { "type": "Indirect",   "clue": "Emily Dickinson said it's the thing with feathers — it perches in the soul and never stops singing.", "points": 6 },
+                { "type": "Suggestive", "clue": "A feeling that something good will happen; optimism about the future.", "points": 4 },
+                { "type": "Straight",   "clue": "Expectation and desire for something good.", "points": 2 }
               ]
             }
           ]

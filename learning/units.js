@@ -605,7 +605,30 @@ const App = (function () {
     if (!res.ok) throw new Error(`Failed to load unit: ${unitPath} (HTTP ${res.status})`)
     state.unit = await res.json()
     renderUnitHeader()
+    injectPackBackLink()
     renderItems()
+  }
+
+  function injectPackBackLink() {
+    const packUrl = window.location.pathname + window.location.search
+      .replace(/[?&]unit=[^&]*/g, '')
+      .replace(/^&/, '?')
+    const existing = qs('.pack-back-link')
+    if (existing) return
+    const a = document.createElement('a')
+    a.className = 'back-link pack-back-link'
+    a.href = packUrl || window.location.pathname
+    const packTitle = qs('#unitTitle')?.textContent || 'Pack'
+    a.textContent = '\u2190 ' + packTitle
+    // Insert after any existing back-link (so pack link sits closer to brand)
+    const topbarInner = qs('.topbar-inner')
+    const existingBackLink = topbarInner?.querySelector('.back-link')
+    if (existingBackLink) {
+      topbarInner.insertBefore(a, existingBackLink.nextSibling)
+    } else {
+      const brand = qs('.topbar-inner .brand')
+      if (brand) brand.parentNode.insertBefore(a, brand.nextSibling)
+    }
   }
 
   // ---- Load pack manifest and render listing ----

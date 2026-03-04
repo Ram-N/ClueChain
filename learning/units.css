@@ -59,7 +59,8 @@ a:hover { text-decoration: underline; }
   flex: 1;
 }
 
-.daily-link {
+.daily-link,
+.back-link {
   white-space: nowrap;
   font-size: 13px;
   color: var(--muted);
@@ -67,7 +68,8 @@ a:hover { text-decoration: underline; }
   padding: 6px 10px;
   border-radius: 999px;
 }
-.daily-link:hover {
+.daily-link:hover,
+.back-link:hover {
   color: var(--text);
   text-decoration: none;
   background: var(--accent);
