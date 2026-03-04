@@ -1,0 +1,112 @@
+{
+  "schema_version": 1,
+  "unit_id": "literature-tale-of-two-cities",
+  "unit_type": "literature",
+  "title": "A Tale of Two Cities",
+  "date": "1859",
+  "topic": "literature",
+  "source": {
+    "name": "Charles Dickens, A Tale of Two Cities (1859)",
+    "license": "public-domain"
+  },
+  "navigation": {
+    "collection": "literature"
+  },
+  "tags": ["vocabulary", "literature", "dickens", "victorian", "french-revolution"],
+  "reading_level": "adult",
+  "estimated_minutes": 8,
+  "items": [
+    {
+      "item_id": "tale-of-two-cities-01",
+      "title": "The Best of Times, the Worst of Times",
+      "text": "It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair, we had everything before us, we had nothing before us, we were all going direct to Heaven, we were all going direct the other way.",
+      "practice": {
+        "enabled": true,
+        "blanking": {
+          "mode": "authored",
+          "targets": {
+            "easy":     { "min_blanks": 3, "max_blanks": 5 },
+            "standard": { "min_blanks": 5, "max_blanks": 8 },
+            "advanced": { "min_blanks": 8, "max_blanks": 10 }
+          },
+          "avoid": {
+            "stopwords": true,
+            "numbers": true,
+            "very_short_words_max_len": 3
+          }
+        },
+        "scoring": {
+          "max_points": 100,
+          "per_blank": "proportional",
+          "penalties": {
+            "wrong_guess": 1,
+            "reveal_word": 10
+          }
+        }
+      },
+      "authored_variants": [
+        {
+          "difficulty": "standard",
+          "blanks": [
+            {
+              "word": "wisdom",
+              "clues": [
+                { "type": "indirect",     "text": "Owls are said to have it; it comes not from books alone but from years lived." },
+                { "type": "intermediate", "text": "The quality of having good judgement and experience." },
+                { "type": "direct",       "text": "Deep knowledge and good judgement." }
+              ]
+            },
+            {
+              "word": "foolishness",
+              "clues": [
+                { "type": "indirect",     "text": "The jester's domain — laughter hides it, but regret reveals it." },
+                { "type": "intermediate", "text": "Lack of good sense or judgement; silly behaviour." },
+                { "type": "direct",       "text": "Stupidity or lack of wisdom." }
+              ]
+            },
+            {
+              "word": "epoch",
+              "clues": [
+                { "type": "indirect",     "text": "Geologists use it for millions of years; historians use it for pivotal chapters." },
+                { "type": "intermediate", "text": "A distinct period of history marked by particular events or characteristics." },
+                { "type": "direct",       "text": "A long and distinct period of time." }
+              ]
+            },
+            {
+              "word": "belief",
+              "clues": [
+                { "type": "indirect",     "text": "Faith's cousin — it needs no proof, only conviction." },
+                { "type": "intermediate", "text": "An acceptance that something is true or real, without absolute proof." },
+                { "type": "direct",       "text": "Trust or confidence that something is true." }
+              ]
+            },
+            {
+              "word": "incredulity",
+              "clues": [
+                { "type": "indirect",     "text": "The raised eyebrow made permanent — you've heard the claim but cannot bring yourself to accept it." },
+                { "type": "intermediate", "text": "The state of being unwilling or unable to believe something." },
+                { "type": "direct",       "text": "Disbelief; refusal to accept that something is true." }
+              ]
+            },
+            {
+              "word": "despair",
+              "clues": [
+                { "type": "indirect",     "text": "Hope's shadow — it arrives when the light goes out and the door will not open." },
+                { "type": "intermediate", "text": "The complete loss of hope; a feeling that nothing will improve." },
+                { "type": "direct",       "text": "Utter hopelessness." }
+              ]
+            },
+            {
+              "word": "hope",
+              "clues": [
+                { "type": "indirect",     "text": "Emily Dickinson said it's the thing with feathers — it perches in the soul and never stops singing." },
+                { "type": "intermediate", "text": "A feeling that something good will happen; optimism about the future." },
+                { "type": "direct",       "text": "Expectation and desire for something good." }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

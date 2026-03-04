@@ -56,6 +56,20 @@
       "featured": true,
       "updated_at": "2026-02-18",
       "manifest_path": "assets/data/indexes/packs/geography-neighbors.json"
+    },
+    {
+      "slug": "literature-classics",
+      "url": "literature.html",
+      "title": "Great Opening Lines",
+      "description": "Vocabulary from the most famous opening passages in literature.",
+      "topic": "literature",
+      "level": "adult",
+      "style": "paragraph",
+      "minutes": 8,
+      "puzzle_count": 1,
+      "featured": true,
+      "updated_at": "2026-03-03",
+      "manifest_path": "assets/data/indexes/packs/literature-classics.json"
     }
   ],
   "rows": [
