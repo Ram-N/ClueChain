@@ -1,49 +1,30 @@
 /* learningpacks.js — powers learning/index.html */
 
 (function () {
-  // Resolve the correct path to packs.json regardless of nesting depth.
-  // learning/index.html is one level deep from repo root, so ../assets/data/...
   const PACKS_URL = '../assets/data/indexes/packs.json';
 
-  let allPacks = [];
-  let activeTopics = new Set();
-  let searchQuery = '';
+  // Topic display names and icons
+  const TOPIC_ICONS = {
+    news: '📰',
+    ai: '🤖',
+    geography: '🌍',
+    history: '📜',
+    literature: '📚',
+    poetry: '✍️',
+    math: '🔢',
+  };
 
-  // ── Data loading ──────────────────────────────────────────────────────────
+  const TOPIC_LABELS = {
+    news: 'News',
+    ai: 'AI',
+    geography: 'Geography',
+    history: 'History',
+    literature: 'Literature',
+    poetry: 'Poetry',
+    math: 'Math',
+  };
 
-  async function loadPacks() {
-    const res = await fetch(PACKS_URL);
-    if (!res.ok) throw new Error('Failed to load packs.json: ' + res.status);
-    return res.json();
-  }
-
-  // ── Card factory ──────────────────────────────────────────────────────────
-
-  function makeCard(pack) {
-    const a = document.createElement('a');
-    a.className = 'card';
-    a.href = pack.url ? pack.url : `../${pack.slug}/`;
-    a.dataset.topic = pack.topic;
-    a.dataset.title = pack.title.toLowerCase();
-    a.dataset.desc = pack.description.toLowerCase();
-
-    const levelLabel = pack.level.charAt(0).toUpperCase() + pack.level.slice(1);
-    const styleLabel = pack.style.charAt(0).toUpperCase() + pack.style.slice(1);
-
-    a.innerHTML = `
-      <div class="card-top">
-        <div class="card-title">${escHtml(pack.title)}</div>
-        <div class="badges">
-          <span class="badge">${escHtml(levelLabel)}</span>
-          <span class="badge">${pack.minutes} min</span>
-          <span class="badge">${escHtml(styleLabel)}</span>
-        </div>
-      </div>
-      <div class="card-desc">${escHtml(pack.description)}</div>
-      <div class="card-cta">Start</div>
-    `;
-    return a;
-  }
+  // ── Helpers ───────────────────────────────────────────────────────────────
 
   function escHtml(str) {
     return String(str)
@@ -53,141 +34,65 @@
       .replace(/"/g, '&quot;');
   }
 
-  // ── Row builder ───────────────────────────────────────────────────────────
-
-  function buildRows(data) {
-    const rowsContainer = document.getElementById('rows-container');
-    if (!rowsContainer) return;
-
-    data.rows.forEach(rowDef => {
-      // "continue" row requires localStorage — skip for now
-      if (rowDef.type === 'continue') return;
-
-      let packs;
-      if (rowDef.type === 'featured') {
-        packs = data.packs.filter(p => p.featured);
-      } else if (rowDef.type === 'topic') {
-        packs = data.packs.filter(p => p.topic === rowDef.topic);
-      } else {
-        return;
-      }
-
-      if (packs.length === 0) return;
-
-      const section = document.createElement('section');
-      section.className = 'row';
-      section.dataset.rowType = rowDef.type;
-      section.dataset.rowTopic = rowDef.topic || '';
-
-      const headDiv = document.createElement('div');
-      headDiv.className = 'row-head';
-      headDiv.innerHTML = `<h2>${escHtml(rowDef.label)}</h2>`;
-      section.appendChild(headDiv);
-
-      const rail = document.createElement('div');
-      rail.className = 'rail';
-      packs.forEach(p => rail.appendChild(makeCard(p)));
-      section.appendChild(rail);
-
-      rowsContainer.appendChild(section);
-    });
-  }
-
-  // ── Quick-start tiles ─────────────────────────────────────────────────────
-
-  function buildQuickStart(packs) {
-    const grid = document.getElementById('quickstart-grid');
-    if (!grid) return;
-    grid.innerHTML = '';
-    const featured = packs.filter(p => p.featured).slice(0, 3);
-    featured.forEach(p => {
-      const a = document.createElement('a');
-      a.className = 'tile';
-      a.href = p.url ? p.url : `../${p.slug}/`;
-      a.innerHTML = `
-        <div class="tile-title">Start with ${escHtml(p.title)}</div>
-        <div class="tile-sub">About ${p.minutes} minutes</div>
-      `;
-      grid.appendChild(a);
-    });
-  }
-
-  // ── Topic pills ───────────────────────────────────────────────────────────
-
-  function buildPills(topics) {
-    const pillbar = document.getElementById('pillbar');
-    if (!pillbar) return;
-    pillbar.innerHTML = '';
-    topics.forEach(t => {
-      const btn = document.createElement('button');
-      btn.className = 'pill';
-      btn.type = 'button';
-      btn.textContent = t.label;
-      btn.dataset.topic = t.key;
-      btn.addEventListener('click', () => toggleTopic(t.key, btn));
-      pillbar.appendChild(btn);
-    });
-  }
-
-  // ── Filtering ─────────────────────────────────────────────────────────────
-
-  function toggleTopic(key, btn) {
-    if (activeTopics.has(key)) {
-      activeTopics.delete(key);
-      btn.classList.remove('active');
-    } else {
-      activeTopics.add(key);
-      btn.classList.add('active');
+  async function fetchUnitCount(pack) {
+    if (!pack.manifest_path) return null;
+    try {
+      const res = await fetch('../' + pack.manifest_path);
+      if (!res.ok) return null;
+      const data = await res.json();
+      if (Array.isArray(data.units)) return data.units.length;
+    } catch (_) {
+      // fall through
     }
-    applyFilters();
+    return null;
   }
 
-  function applyFilters() {
-    const q = searchQuery.trim().toLowerCase();
-    const rows = document.querySelectorAll('#rows-container .row');
+  // ── Card factory ──────────────────────────────────────────────────────────
 
-    rows.forEach(row => {
-      const cards = row.querySelectorAll('.card');
-      let visibleCount = 0;
+  function makeCard(pack, unitCount) {
+    const a = document.createElement('a');
+    a.className = 'pack-card';
+    a.href = pack.url ? pack.url : `../${pack.slug}/`;
 
-      cards.forEach(card => {
-        const matchesTopic = activeTopics.size === 0 || activeTopics.has(card.dataset.topic);
-        const matchesSearch = !q ||
-          card.dataset.title.includes(q) ||
-          card.dataset.desc.includes(q);
+    const icon = TOPIC_ICONS[pack.topic] || '📖';
+    const topicLabel = TOPIC_LABELS[pack.topic] || pack.topic;
 
-        const visible = matchesTopic && matchesSearch;
-        card.style.display = visible ? '' : 'none';
-        if (visible) visibleCount++;
-      });
+    const count = unitCount !== null ? unitCount : pack.puzzle_count;
+    const countLabel = unitCount !== null
+      ? `${count} unit${count !== 1 ? 's' : ''}`
+      : `${count} puzzle${count !== 1 ? 's' : ''}`;
 
-      // Hide entire row if nothing matches
-      row.style.display = visibleCount === 0 ? 'none' : '';
-    });
-  }
-
-  // ── Wire up search ────────────────────────────────────────────────────────
-
-  function wireSearch() {
-    const input = document.getElementById('search-input');
-    if (!input) return;
-    input.addEventListener('input', e => {
-      searchQuery = e.target.value;
-      applyFilters();
-    });
+    a.innerHTML = `
+      <div class="pack-icon">${icon}</div>
+      <div class="pack-title">${escHtml(pack.title)}</div>
+      <span class="pack-topic">${escHtml(topicLabel)}</span>
+      <div class="pack-desc">${escHtml(pack.description)}</div>
+      <div class="pack-footer">
+        <span class="pack-count">${countLabel}</span>
+        <span class="pack-cta">Start →</span>
+      </div>
+    `;
+    return a;
   }
 
   // ── Init ──────────────────────────────────────────────────────────────────
 
   document.addEventListener('DOMContentLoaded', async () => {
-    try {
-      const data = await loadPacks();
-      allPacks = data.packs;
+    const grid = document.getElementById('pack-grid');
+    if (!grid) return;
 
-      buildQuickStart(allPacks);
-      buildPills(data.topics);
-      buildRows(data);
-      wireSearch();
+    try {
+      const res = await fetch(PACKS_URL);
+      if (!res.ok) throw new Error('Failed to load packs.json: ' + res.status);
+      const data = await res.json();
+      const packs = data.packs || [];
+
+      // Fetch unit counts for all packs in parallel
+      const counts = await Promise.all(packs.map(fetchUnitCount));
+
+      packs.forEach((pack, i) => {
+        grid.appendChild(makeCard(pack, counts[i]));
+      });
     } catch (err) {
       console.error('ClueChain learning packs:', err);
     }
