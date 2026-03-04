@@ -19,6 +19,7 @@
   "packs": [
     {
       "slug": "news-7-bullets",
+      "url": "news.html",
       "title": "News in 7 Bullets",
       "description": "Daily news bullets with masked vocabulary.",
       "topic": "news",

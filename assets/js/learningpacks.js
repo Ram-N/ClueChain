@@ -22,7 +22,7 @@
   function makeCard(pack) {
     const a = document.createElement('a');
     a.className = 'card';
-    a.href = `../${pack.slug}/`;
+    a.href = pack.url ? pack.url : `../${pack.slug}/`;
     a.dataset.topic = pack.topic;
     a.dataset.title = pack.title.toLowerCase();
     a.dataset.desc = pack.description.toLowerCase();
@@ -103,7 +103,7 @@
     featured.forEach(p => {
       const a = document.createElement('a');
       a.className = 'tile';
-      a.href = `../${p.slug}/`;
+      a.href = p.url ? p.url : `../${p.slug}/`;
       a.innerHTML = `
         <div class="tile-title">Start with ${escHtml(p.title)}</div>
         <div class="tile-sub">About ${p.minutes} minutes</div>
