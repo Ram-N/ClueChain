@@ -1,0 +1,1271 @@
+{
+  "schema_version": 1,
+  "unit_id": "ai-ai-glossary-a-b",
+  "unit_type": "ai",
+  "title": "AI Glossary: A–B",
+  "source": {
+    "name": "ClueChain AI Glossary",
+    "license": "cc-by"
+  },
+  "navigation": {
+    "collection": "ai"
+  },
+  "tags": [
+    "vocabulary",
+    "ai"
+  ],
+  "reading_level": "adult",
+  "estimated_minutes": 20,
+  "items": [
+    {
+      "item_id": "ai-ai-glossary-a-b-01",
+      "title": "Advanced Artificial Intelligence Concept",
+      "text": "Artificial general intelligence, or AGI, is a concept that suggests a more advanced version of AI than we know today, one that can perform tasks much better than humans while also teaching and advancing its own capabilities.",
+      "practice": {
+        "enabled": true,
+        "blanking": {
+          "mode": "auto",
+          "targets": {
+            "easy": {
+              "min_blanks": 3,
+              "max_blanks": 5
+            },
+            "standard": {
+              "min_blanks": 5,
+              "max_blanks": 7
+            },
+            "advanced": {
+              "min_blanks": 7,
+              "max_blanks": 10
+            }
+          },
+          "avoid": {
+            "stopwords": true,
+            "numbers": true,
+            "very_short_words_max_len": 3
+          }
+        },
+        "scoring": {
+          "max_points": 100,
+          "per_blank": "proportional",
+          "penalties": {
+            "wrong_guess": 1,
+            "reveal_word": 10
+          }
+        }
+      },
+      "authored_variants": [
+        {
+          "variant_id": "llm-v1",
+          "blanks": [
+            {
+              "word": "concept",
+              "clues": [
+                {
+                  "type": "Indirect",
+                  "clue": "An abstract representation of an idea, like a mental picture frame.",
+                  "points": 6
+                },
+                {
+                  "type": "Suggestive",
+                  "clue": "It's often the result of brainstorming or a eureka moment.",
+                  "points": 4
+                },
+                {
+                  "type": "Straight",
+                  "clue": "A general notion or idea.",
+                  "points": 2
+                }
+              ]
+            },
+            {
+              "word": "advanced",
+              "clues": [
+                {
+                  "type": "Indirect",
+                  "clue": "Beyond the ordinary, like a premium product.",
+                  "points": 6
+                },
+                {
+                  "type": "Suggestive",
+                  "clue": "It implies a higher level of complexity or sophistication.",
+                  "points": 4
+                },
+                {
+                  "type": "Straight",
+                  "clue": "More complex or sophisticated.",
+                  "points": 1
+                }
+              ]
+            },
+            {
+              "word": "version",
+              "clues": [
+                {
+                  "type": "Indirect",
+                  "clue": "Think of software updates or editions of a book.",
+                  "points": 6
+                },
+                {
+                  "type": "Suggestive",
+                  "clue": "It's a specific form or variant of something.",
+                  "points": 4
+                },
+                {
+                  "type": "Straight",
+                  "clue": "A particular form or variation of something.",
+                  "points": 2
+                }
+              ]
+            },
+            {
+              "word": "capabilities",
+              "clues": [
+                {
+                  "type": "Indirect",
+                  "clue": "The range of things a person or machine can do, like skills on a resume.",
+                  "points": 6
+                },
+                {
+                  "type": "Suggestive",
+                  "clue": "These are the skills or abilities that something possesses.",
+                  "points": 4
+                },
+                {
+                  "type": "Straight",
+                  "clue": "The power or ability to do something.",
+                  "points": 1
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_id": "ai-ai-glossary-a-b-02",
+      "title": "Agentive Systems in AI Context",
+      "text": "Agentive systems or models exhibit agency with the ability to autonomously pursue actions to achieve a goal. In the context of AI, an agentive model can act without constant supervision, such as a high-level autonomous car. Unlike an \"agentic\" framework, which is in the background, agentive frameworks are out front, focusing on the user experience.",
+      "practice": {
+        "enabled": true,
+        "blanking": {
+          "mode": "auto",
+          "targets": {
+            "easy": {
+              "min_blanks": 3,
+              "max_blanks": 5
+            },
+            "standard": {
+              "min_blanks": 5,
+              "max_blanks": 7
+            },
+            "advanced": {
+              "min_blanks": 7,
+              "max_blanks": 10
+            }
+          },
+          "avoid": {
+            "stopwords": true,
+            "numbers": true,
+            "very_short_words_max_len": 3
+          }
+        },
+        "scoring": {
+          "max_points": 100,
+          "per_blank": "proportional",
+          "penalties": {
+            "wrong_guess": 1,
+            "reveal_word": 10
+          }
+        }
+      },
+      "authored_variants": [
+        {
+          "variant_id": "llm-v1",
+          "blanks": [
+            {
+              "word": "autonomously",
+              "clues": [
+                {
+                  "type": "Indirect",
+                  "clue": "Like a self-driving dream, it moves on its own.",
+                  "points": 6
+                },
+                {
+                  "type": "Suggestive",
+                  "clue": "Operating without external control, it makes its own decisions.",
+                  "points": 4
+                },
+                {
+                  "type": "Straight",
+                  "clue": "Independently, without outside influence.",
+                  "points": 2
+                }
+              ]
+            },
+            {
+              "word": "pursue",
+              "clues": [
+                {
+                  "type": "Indirect",
+                  "clue": "The action of a determined hunter, but without the hunt.",
+                  "points": 6
+                },
+                {
+                  "type": "Suggestive",
+                  "clue": "To follow or go after something with intent and purpose.",
+                  "points": 4
+                },
+                {
+                  "type": "Straight",
+                  "clue": "To follow or continue something.",
+                  "points": 1
+                }
+              ]
+            },
+            {
+              "word": "actions",
+              "clues": [
+                {
+                  "type": "Indirect",
+                  "clue": "The many steps of a choreographed dance, but not necessarily elegant.",
+                  "points": 7
+                },
+                {
+                  "type": "Suggestive",
+                  "clue": "Things done to achieve an objective or complete a task.",
+                  "points": 3
+                },
+                {
+                  "type": "Straight",
+                  "clue": "Deeds or activities.",
+                  "points": 1
+                }
+              ]
+            },
+            {
+              "word": "supervision",
+              "clues": [
+                {
+                  "type": "Indirect",
+                  "clue": "A watchful eye that guides, but not necessarily always present.",
+                  "points": 5
+                },
+                {
+                  "type": "Suggestive",
+                  "clue": "The act of overseeing or directing something or someone.",
+                  "points": 4
+                },
+                {
+                  "type": "Straight",
+                  "clue": "The act of watching over.",
+                  "points": 2
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_id": "ai-ai-glossary-a-b-03",
+      "title": "AI Ethics Principles",
+      "text": "AI ethics refers to principles aimed at preventing AI from harming humans, achieved through means like determining how AI systems should collect data or deal with bias.",
+      "practice": {
+        "enabled": true,
+        "blanking": {
+          "mode": "auto",
+          "targets": {
+            "easy": {
+              "min_blanks": 3,
+              "max_blanks": 5
+            },
+            "standard": {
+              "min_blanks": 5,
+              "max_blanks": 7
+            },
+            "advanced": {
+              "min_blanks": 7,
+              "max_blanks": 10
+            }
+          },
+          "avoid": {
+            "stopwords": true,
+            "numbers": true,
+            "very_short_words_max_len": 3
+          }
+        },
+        "scoring": {
+          "max_points": 100,
+          "per_blank": "proportional",
+          "penalties": {
+            "wrong_guess": 1,
+            "reveal_word": 10
+          }
+        }
+      },
+      "authored_variants": [
+        {
+          "variant_id": "llm-v1",
+          "blanks": [
+            {
+              "word": "ethics",
+              "clues": [
+                {
+                  "type": "Indirect",
+                  "clue": "Moral standards that guide behavior",
+                  "points": 6
+                },
+                {
+                  "type": "Suggestive",
+                  "clue": "Related to right and wrong",
+                  "points": 3
+                },
+                {
+                  "type": "Straight",
+                  "clue": "Moral principles",
+                  "points": 1
+                }
+              ]
+            },
+            {
+              "word": "principles",
+              "clues": [
+                {
+                  "type": "Indirect",
+                  "clue": "Guiding lights for actions",
+                  "points": 6
+                },
+                {
+                  "type": "Suggestive",
+                  "clue": "Foundational rules or beliefs",
+                  "points": 4
+                },
+                {
+                  "type": "Straight",
+                  "clue": "Basic truths or propositions",
+                  "points": 2
+                }
+              ]
+            },
+            {
+              "word": "preventing",
+              "clues": [
+                {
+                  "type": "Indirect",
+                  "clue": "Stopping something before it starts",
+                  "points": 5
+                },
+                {
+                  "type": "Suggestive",
+                  "clue": "Taking action to avoid a problem",
+                  "points": 3
+                },
+                {
+                  "type": "Straight",
+                  "clue": "Hindering or thwarting",
+                  "points": 1
+                }
+              ]
+            },
+            {
+              "word": "bias",
+              "clues": [
+                {
+                  "type": "Indirect",
+                  "clue": "A leaning that can lead to unfairness",
+                  "points": 7
+                },
+                {
+                  "type": "Suggestive",
+                  "clue": "A prejudice that influences judgment",
+                  "points": 4
+                },
+                {
+                  "type": "Straight",
+                  "clue": "An unfair preference",
+                  "points": 2
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_id": "ai-ai-glossary-a-b-04",
+      "title": "AI Safety and Intelligence",
+      "text": "AI safety is an interdisciplinary field that's concerned with the long-term impacts of AI and how it could progress suddenly to a super intelligence that could be hostile to humans.",
+      "practice": {
+        "enabled": true,
+        "blanking": {
+          "mode": "auto",
+          "targets": {
+            "easy": {
+              "min_blanks": 3,
+              "max_blanks": 5
+            },
+            "standard": {
+              "min_blanks": 5,
+              "max_blanks": 7
+            },
+            "advanced": {
+              "min_blanks": 7,
+              "max_blanks": 10
+            }
+          },
+          "avoid": {
+            "stopwords": true,
+            "numbers": true,
+            "very_short_words_max_len": 3
+          }
+        },
+        "scoring": {
+          "max_points": 100,
+          "per_blank": "proportional",
+          "penalties": {
+            "wrong_guess": 1,
+            "reveal_word": 10
+          }
+        }
+      },
+      "authored_variants": [
+        {
+          "variant_id": "llm-v1",
+          "blanks": [
+            {
+              "word": "interdisciplinary",
+              "clues": [
+                {
+                  "type": "Indirect",
+                  "clue": "Like a team of experts from different fields coming together to solve a puzzle",
+                  "points": 6
+                },
+                {
+                  "type": "Suggestive",
+                  "clue": "Describes a field of study that combines multiple branches of knowledge",
+                  "points": 4
+                },
+                {
+                  "type": "Straight",
+                  "clue": "Involving two or more academic disciplines",
+                  "points": 2
+                }
+              ]
+            },
+            {
+              "word": "long-term",
+              "clues": [
+                {
+                  "type": "Indirect",
+                  "clue": "A time frame that's longer than a blink of an eye, but shorter than forever",
+                  "points": 5
+                },
+                {
+                  "type": "Suggestive",
+                  "clue": "Describes a period of time that extends far into the future",
+                  "points": 3
+                },
+                {
+                  "type": "Straight",
+                  "clue": "Lasting or planned for a long period",
+                  "points": 1
+                }
+              ]
+            },
+            {
+              "word": "impacts",
+              "clues": [
+                {
+                  "type": "Indirect",
+                  "clue": "The ripples that spread out when a stone is thrown into a pond",
+                  "points": 6
+                },
+                {
+                  "type": "Suggestive",
+                  "clue": "The effects or consequences of a particular action or event",
+                  "points": 4
+                },
+                {
+                  "type": "Straight",
+                  "clue": "Influences or effects on something",
+                  "points": 1
+                }
+              ]
+            },
+            {
+              "word": "super",
+              "clues": [
+                {
+                  "type": "Indirect",
+                  "clue": "A prefix that means above or beyond the ordinary",
+                  "points": 7
+                },
+                {
+                  "type": "Suggestive",
+                  "clue": "Describes something that is extremely good or powerful",
+                  "points": 3
+                },
+                {
+                  "type": "Straight",
+                  "clue": "Exceptionally good or of high quality",
+                  "points": 2
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_id": "ai-ai-glossary-a-b-05",
+      "title": "Computer Program Instructions",
+      "text": "An algorithm is a series of instructions that allows a computer program to learn and analyze data in a particular way, such as recognizing patterns, to then learn from it and accomplish tasks on its own.",
+      "practice": {
+        "enabled": true,
+        "blanking": {
+          "mode": "auto",
+          "targets": {
+            "easy": {
+              "min_blanks": 3,
+              "max_blanks": 5
+            },
+            "standard": {
+              "min_blanks": 5,
+              "max_blanks": 7
+            },
+            "advanced": {
+              "min_blanks": 7,
+              "max_blanks": 10
+            }
+          },
+          "avoid": {
+            "stopwords": true,
+            "numbers": true,
+            "very_short_words_max_len": 3
+          }
+        },
+        "scoring": {
+          "max_points": 100,
+          "per_blank": "proportional",
+          "penalties": {
+            "wrong_guess": 1,
+            "reveal_word": 10
+          }
+        }
+      },
+      "authored_variants": [
+        {
+          "variant_id": "llm-v1",
+          "blanks": [
+            {
+              "word": "algorithm",
+              "clues": [
+                {
+                  "type": "Indirect",
+                  "clue": "A recipe for machines, if you will.",
+                  "points": 6
+                },
+                {
+                  "type": "Suggestive",
+                  "clue": "This is used in computer science to solve problems.",
+                  "points": 4
+                },
+                {
+                  "type": "Straight",
+                  "clue": "A set of rules to be followed in a procedure.",
+                  "points": 2
+                }
+              ]
+            },
+            {
+              "word": "series",
+              "clues": [
+                {
+                  "type": "Indirect",
+                  "clue": "Like a chain of events, one after another.",
+                  "points": 5
+                },
+                {
+                  "type": "Suggestive",
+                  "clue": "A number of things that follow each other in order.",
+                  "points": 3
+                },
+                {
+                  "type": "Straight",
+                  "clue": "A group of related things that happen or are done one after the other.",
+                  "points": 1
+                }
+              ]
+            },
+            {
+              "word": "instructions",
+              "clues": [
+                {
+                  "type": "Indirect",
+                  "clue": "Guidance for a traveler in code.",
+                  "points": 6
+                },
+                {
+                  "type": "Suggestive",
+                  "clue": "Directions for completing a task.",
+                  "points": 4
+                },
+                {
+                  "type": "Straight",
+                  "clue": "Directions or advice on how to do something.",
+                  "points": 1
+                }
+              ]
+            },
+            {
+              "word": "patterns",
+              "clues": [
+                {
+                  "type": "Indirect",
+                  "clue": "The shapes that emerge from chaos.",
+                  "points": 7
+                },
+                {
+                  "type": "Suggestive",
+                  "clue": "Repeated designs or sequences.",
+                  "points": 3
+                },
+                {
+                  "type": "Straight",
+                  "clue": "Repeated or regular forms or designs.",
+                  "points": 2
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_id": "ai-ai-glossary-a-b-06",
+      "title": "AI Alignment and Interaction",
+      "text": "Alignment means tweaking an AI to better produce the desired outcome. This can refer to anything from moderating content to maintaining positive interactions toward humans.",
+      "practice": {
+        "enabled": true,
+        "blanking": {
+          "mode": "auto",
+          "targets": {
+            "easy": {
+              "min_blanks": 3,
+              "max_blanks": 5
+            },
+            "standard": {
+              "min_blanks": 5,
+              "max_blanks": 7
+            },
+            "advanced": {
+              "min_blanks": 7,
+              "max_blanks": 10
+            }
+          },
+          "avoid": {
+            "stopwords": true,
+            "numbers": true,
+            "very_short_words_max_len": 3
+          }
+        },
+        "scoring": {
+          "max_points": 100,
+          "per_blank": "proportional",
+          "penalties": {
+            "wrong_guess": 1,
+            "reveal_word": 10
+          }
+        }
+      },
+      "authored_variants": [
+        {
+          "variant_id": "llm-v1",
+          "blanks": [
+            {
+              "word": "Alignment",
+              "clues": [
+                {
+                  "type": "Indirect",
+                  "clue": "A process to fine-tune a machine's purpose, like a precise adjustment.",
+                  "points": 6
+                },
+                {
+                  "type": "Suggestive",
+                  "clue": "This concept is crucial in robotics and machine learning to ensure desired results.",
+                  "points": 4
+                },
+                {
+                  "type": "Straight",
+                  "clue": "The act of adjusting or positioning something to match or fit something else.",
+                  "points": 2
+                }
+              ]
+            },
+            {
+              "word": "moderating",
+              "clues": [
+                {
+                  "type": "Indirect",
+                  "clue": "A delicate task of controlling the tone in a discussion or online forum.",
+                  "points": 6
+                },
+                {
+                  "type": "Suggestive",
+                  "clue": "This action helps maintain a neutral or respectful atmosphere in public discourse.",
+                  "points": 4
+                },
+                {
+                  "type": "Straight",
+                  "clue": "To make something less extreme or intense.",
+                  "points": 1
+                }
+              ]
+            },
+            {
+              "word": "content",
+              "clues": [
+                {
+                  "type": "Indirect",
+                  "clue": "The substance that fills a container, be it a website, book, or any medium.",
+                  "points": 5
+                },
+                {
+                  "type": "Suggestive",
+                  "clue": "Information or material that is presented to an audience through various media.",
+                  "points": 3
+                },
+                {
+                  "type": "Straight",
+                  "clue": "The substance or material that something is filled with or made of.",
+                  "points": 2
+                }
+              ]
+            },
+            {
+              "word": "interactions",
+              "clues": [
+                {
+                  "type": "Indirect",
+                  "clue": "Moments when two or more entities, human or not, influence each other.",
+                  "points": 7
+                },
+                {
+                  "type": "Suggestive",
+                  "clue": "These are crucial for building relationships, whether personal or professional.",
+                  "points": 4
+                },
+                {
+                  "type": "Straight",
+                  "clue": "Actions or events that occur when people or things communicate or react with each other.",
+                  "points": 1
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_id": "ai-ai-glossary-a-b-07",
+      "title": "Anthropomorphism in AI",
+      "text": "Anthropomorphism occurs when humans give nonhuman objects humanlike characteristics. In AI, this can include believing a chatbot is more humanlike and aware than it actually is, like believing it's happy, sad or even sentient altogether.",
+      "practice": {
+        "enabled": true,
+        "blanking": {
+          "mode": "auto",
+          "targets": {
+            "easy": {
+              "min_blanks": 3,
+              "max_blanks": 5
+            },
+            "standard": {
+              "min_blanks": 5,
+              "max_blanks": 7
+            },
+            "advanced": {
+              "min_blanks": 7,
+              "max_blanks": 10
+            }
+          },
+          "avoid": {
+            "stopwords": true,
+            "numbers": true,
+            "very_short_words_max_len": 3
+          }
+        },
+        "scoring": {
+          "max_points": 100,
+          "per_blank": "proportional",
+          "penalties": {
+            "wrong_guess": 1,
+            "reveal_word": 10
+          }
+        }
+      },
+      "authored_variants": [
+        {
+          "variant_id": "llm-v1",
+          "blanks": [
+            {
+              "word": "Anthropomorphism",
+              "clues": [
+                {
+                  "type": "Indirect",
+                  "clue": "Trait where trees might wear faces, or cars have feelings too, a curious mix of man and machine.",
+                  "points": 6
+                },
+                {
+                  "type": "Suggestive",
+                  "clue": "This concept is often seen in children's stories where objects come to life with human emotions.",
+                  "points": 4
+                },
+                {
+                  "type": "Straight",
+                  "clue": "The attribution of human characteristics to nonhuman entities.",
+                  "points": 2
+                }
+              ]
+            },
+            {
+              "word": "characteristics",
+              "clues": [
+                {
+                  "type": "Indirect",
+                  "clue": "Features that define and distinguish one being from another, like a thumbprint or a voice.",
+                  "points": 6
+                },
+                {
+                  "type": "Suggestive",
+                  "clue": "These are the qualities or traits that make something or someone unique.",
+                  "points": 3
+                },
+                {
+                  "type": "Straight",
+                  "clue": "Qualities or features that someone or something has.",
+                  "points": 1
+                }
+              ]
+            },
+            {
+              "word": "humanlike",
+              "clues": [
+                {
+                  "type": "Indirect",
+                  "clue": "A quality that makes you wonder if a portrait is a person or just a painting.",
+                  "points": 6
+                },
+                {
+                  "type": "Suggestive",
+                  "clue": "This term describes something that resembles or mimics human behavior or appearance.",
+                  "points": 4
+                },
+                {
+                  "type": "Straight",
+                  "clue": "Resembling a human in appearance or behavior.",
+                  "points": 2
+                }
+              ]
+            },
+            {
+              "word": "sentient",
+              "clues": [
+                {
+                  "type": "Indirect",
+                  "clue": "A state of being where one can feel the warmth of sunlight on their skin or the chill of winter's breeze.",
+                  "points": 7
+                },
+                {
+                  "type": "Suggestive",
+                  "clue": "This term refers to the capacity to have sensations or feelings.",
+                  "points": 4
+                },
+                {
+                  "type": "Straight",
+                  "clue": "Having the power of perception by the senses.",
+                  "points": 1
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_id": "ai-ai-glossary-a-b-08",
+      "title": "Artificial Intelligence Basics",
+      "text": "Artificial intelligence, or AI, is the use of technology to simulate human intelligence, either in computer programs or robotics. It is a field in computer science that aims to build systems that can perform human tasks.",
+      "practice": {
+        "enabled": true,
+        "blanking": {
+          "mode": "auto",
+          "targets": {
+            "easy": {
+              "min_blanks": 3,
+              "max_blanks": 5
+            },
+            "standard": {
+              "min_blanks": 5,
+              "max_blanks": 7
+            },
+            "advanced": {
+              "min_blanks": 7,
+              "max_blanks": 10
+            }
+          },
+          "avoid": {
+            "stopwords": true,
+            "numbers": true,
+            "very_short_words_max_len": 3
+          }
+        },
+        "scoring": {
+          "max_points": 100,
+          "per_blank": "proportional",
+          "penalties": {
+            "wrong_guess": 1,
+            "reveal_word": 10
+          }
+        }
+      },
+      "authored_variants": [
+        {
+          "variant_id": "llm-v1",
+          "blanks": [
+            {
+              "word": "intelligence",
+              "clues": [
+                {
+                  "type": "Indirect",
+                  "clue": "A quality that's hard to define, but easy to recognize in others.",
+                  "points": 6
+                },
+                {
+                  "type": "Suggestive",
+                  "clue": "This trait is often associated with problem-solving and adaptability.",
+                  "points": 4
+                },
+                {
+                  "type": "Straight",
+                  "clue": "The capacity for learning and reasoning.",
+                  "points": 2
+                }
+              ]
+            },
+            {
+              "word": "technology",
+              "clues": [
+                {
+                  "type": "Indirect",
+                  "clue": "A double-edged sword that can be both creative and destructive.",
+                  "points": 6
+                },
+                {
+                  "type": "Suggestive",
+                  "clue": "This is often used to develop innovative solutions and products.",
+                  "points": 4
+                },
+                {
+                  "type": "Straight",
+                  "clue": "The application of scientific knowledge for practical purposes.",
+                  "points": 1
+                }
+              ]
+            },
+            {
+              "word": "simulate",
+              "clues": [
+                {
+                  "type": "Indirect",
+                  "clue": "To mimic or pretend, often for the purpose of understanding or improvement.",
+                  "points": 6
+                },
+                {
+                  "type": "Suggestive",
+                  "clue": "This process involves creating a mock version of something to test its behavior.",
+                  "points": 4
+                },
+                {
+                  "type": "Straight",
+                  "clue": "To reproduce or mimic the characteristics of something.",
+                  "points": 2
+                }
+              ]
+            },
+            {
+              "word": "science",
+              "clues": [
+                {
+                  "type": "Indirect",
+                  "clue": "A never-ending pursuit of knowledge and discovery.",
+                  "points": 6
+                },
+                {
+                  "type": "Suggestive",
+                  "clue": "This field of study involves systematic observation and experimentation.",
+                  "points": 4
+                },
+                {
+                  "type": "Straight",
+                  "clue": "The systematic study of the structure and behavior of the physical world.",
+                  "points": 1
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_id": "ai-ai-glossary-a-b-09",
+      "title": "Autonomous Agents Capabilities",
+      "text": "Autonomous agents are AI models that have the capabilities, programming and other tools to accomplish a specific task. A self-driving car is an autonomous agent, for example, because it has sensory inputs, GPS and driving algorithms to navigate the road on its own. Stanford researchers have shown that autonomous agents can develop their own cultures, traditions and shared language.",
+      "practice": {
+        "enabled": true,
+        "blanking": {
+          "mode": "auto",
+          "targets": {
+            "easy": {
+              "min_blanks": 3,
+              "max_blanks": 5
+            },
+            "standard": {
+              "min_blanks": 5,
+              "max_blanks": 7
+            },
+            "advanced": {
+              "min_blanks": 7,
+              "max_blanks": 10
+            }
+          },
+          "avoid": {
+            "stopwords": true,
+            "numbers": true,
+            "very_short_words_max_len": 3
+          }
+        },
+        "scoring": {
+          "max_points": 100,
+          "per_blank": "proportional",
+          "penalties": {
+            "wrong_guess": 1,
+            "reveal_word": 10
+          }
+        }
+      },
+      "authored_variants": [
+        {
+          "variant_id": "llm-v1",
+          "blanks": [
+            {
+              "word": "autonomous",
+              "clues": [
+                {
+                  "type": "Indirect",
+                  "clue": "Operating without external control, like a solo performer on stage.",
+                  "points": 6
+                },
+                {
+                  "type": "Suggestive",
+                  "clue": "Describes systems that can function independently, making decisions based on their own inputs.",
+                  "points": 4
+                },
+                {
+                  "type": "Straight",
+                  "clue": "Having the freedom to act independently.",
+                  "points": 2
+                }
+              ]
+            },
+            {
+              "word": "capabilities",
+              "clues": [
+                {
+                  "type": "Indirect",
+                  "clue": "The range of skills that make a superhero effective.",
+                  "points": 5
+                },
+                {
+                  "type": "Suggestive",
+                  "clue": "Features or qualities that enable something to perform a task.",
+                  "points": 3
+                },
+                {
+                  "type": "Straight",
+                  "clue": "Abilities or talents that something possesses.",
+                  "points": 1
+                }
+              ]
+            },
+            {
+              "word": "programming",
+              "clues": [
+                {
+                  "type": "Indirect",
+                  "clue": "A set of instructions that can be likened to a recipe for a machine.",
+                  "points": 7
+                },
+                {
+                  "type": "Suggestive",
+                  "clue": "The process of designing and writing code for computers.",
+                  "points": 4
+                },
+                {
+                  "type": "Straight",
+                  "clue": "The act of writing software or code.",
+                  "points": 1
+                }
+              ]
+            },
+            {
+              "word": "sensory",
+              "clues": [
+                {
+                  "type": "Indirect",
+                  "clue": "Like the delicate fingers of a blind person, feeling the environment.",
+                  "points": 6
+                },
+                {
+                  "type": "Suggestive",
+                  "clue": "Related to the senses, such as sight or hearing.",
+                  "points": 3
+                },
+                {
+                  "type": "Straight",
+                  "clue": "Connected to the senses.",
+                  "points": 2
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_id": "ai-ai-glossary-a-b-10",
+      "title": "Language Model Training Errors",
+      "text": "Bias, in regards to large language models, refers to errors resulting from the training data. This can result in falsely attributing certain characteristics to certain races or groups based on stereotypes.",
+      "practice": {
+        "enabled": true,
+        "blanking": {
+          "mode": "auto",
+          "targets": {
+            "easy": {
+              "min_blanks": 3,
+              "max_blanks": 5
+            },
+            "standard": {
+              "min_blanks": 5,
+              "max_blanks": 7
+            },
+            "advanced": {
+              "min_blanks": 7,
+              "max_blanks": 10
+            }
+          },
+          "avoid": {
+            "stopwords": true,
+            "numbers": true,
+            "very_short_words_max_len": 3
+          }
+        },
+        "scoring": {
+          "max_points": 100,
+          "per_blank": "proportional",
+          "penalties": {
+            "wrong_guess": 1,
+            "reveal_word": 10
+          }
+        }
+      },
+      "authored_variants": [
+        {
+          "variant_id": "llm-v1",
+          "blanks": [
+            {
+              "word": "bias",
+              "clues": [
+                {
+                  "type": "Indirect",
+                  "clue": "A leaning that's not quite level",
+                  "points": 6
+                },
+                {
+                  "type": "Suggestive",
+                  "clue": "Something that can unfairly influence decisions",
+                  "points": 4
+                },
+                {
+                  "type": "Straight",
+                  "clue": "A prejudice in favor of or against something",
+                  "points": 2
+                }
+              ]
+            },
+            {
+              "word": "errors",
+              "clues": [
+                {
+                  "type": "Indirect",
+                  "clue": "Mistakes that can lead to a system crash",
+                  "points": 6
+                },
+                {
+                  "type": "Suggestive",
+                  "clue": "Inaccuracies that can be measured and corrected",
+                  "points": 4
+                },
+                {
+                  "type": "Straight",
+                  "clue": "Mistakes or inaccuracies",
+                  "points": 1
+                }
+              ]
+            },
+            {
+              "word": "result",
+              "clues": [
+                {
+                  "type": "Indirect",
+                  "clue": "The outcome of a complex process",
+                  "points": 6
+                },
+                {
+                  "type": "Suggestive",
+                  "clue": "Something that happens as a consequence of an action",
+                  "points": 4
+                },
+                {
+                  "type": "Straight",
+                  "clue": "A consequence or outcome",
+                  "points": 2
+                }
+              ]
+            },
+            {
+              "word": "stereotypes",
+              "clues": [
+                {
+                  "type": "Indirect",
+                  "clue": "Oversimplified ideas that can be hurtful",
+                  "points": 6
+                },
+                {
+                  "type": "Suggestive",
+                  "clue": "Fixed notions about a group of people",
+                  "points": 4
+                },
+                {
+                  "type": "Straight",
+                  "clue": "Overly simplistic and often inaccurate generalizations",
+                  "points": 2
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
