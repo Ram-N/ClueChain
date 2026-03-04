@@ -182,16 +182,16 @@ function handleGuess(e) {
   } else {
     input.classList.add("wrong");
     setTimeout(() => input.classList.remove("wrong"), 1000);
-    
+
     // Add notification for incorrect guess
-    addIncorrectGuessNotification(guess);
-    
+    addIncorrectGuessNotification(guess, result.penalty);
+
     // Reveal next suffix after wrong guess too
     const suffixRevealed = revealNextSuffix();
     if (suffixRevealed) {
       console.log("Revealed new suffix after wrong guess");
     }
-    
+
     renderParagraph(getChosenVowel()); // Also re-render paragraph to show newly revealed suffix
     renderClues();
     updateScore();
@@ -302,10 +302,10 @@ function setupGuessInput() {
     } else {
       input.classList.add("wrong");
       setTimeout(() => input.classList.remove("wrong"), 1000);
-      
+
       // Add notification for incorrect guess
-      addIncorrectGuessNotification(guess);
-      
+      addIncorrectGuessNotification(guess, result.penalty);
+
       // Reveal next suffix after wrong guess too
       const suffixRevealed = revealNextSuffix();
       if (suffixRevealed) {

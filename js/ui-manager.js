@@ -219,8 +219,9 @@ export function addCorrectGuessNotification(word, points) {
  * Adds a notification for an incorrect guess
  * @param {string} word - The incorrectly guessed word
  */
-export function addIncorrectGuessNotification(word) {
-  const message = `${word.toUpperCase()} - Wrong guess`;
+export function addIncorrectGuessNotification(word, penalty = 0) {
+  const penaltyText = penalty > 0 ? ` - You lost ${penalty} links!` : "";
+  const message = `${word.toUpperCase()} - Wrong guess${penaltyText}`;
   const notificationId = addNotification(message, "error", true);
   const notification = document.getElementById(notificationId);
   if (notification) {
@@ -1201,15 +1202,9 @@ function applySelectionPhaseStyles() {
     document.querySelectorAll(".letter-tile").forEach((t) => {
       t.classList.remove("vowel-enabled", "consonant-enabled", "phase-disabled");
     });
-    // Repurpose reset button as a "Change Letters" re-opener
+    // Hide the reset/pick-letters button — no changing after letters are revealed
     const resetBtn = document.getElementById("reset-selection");
-    if (resetBtn) {
-      resetBtn.textContent = "✏️ Change Letters";
-      resetBtn.style.display = "block";
-      const fresh = resetBtn.cloneNode(true);
-      resetBtn.parentNode.replaceChild(fresh, resetBtn);
-      fresh.addEventListener("click", () => showLetterSelectionModal());
-    }
+    if (resetBtn) resetBtn.style.display = "none";
     return;
   }
 
@@ -1637,7 +1632,18 @@ function _confirmModalSelection() {
     modal.classList.remove("show", "closing");
 
     completeLetterSelection();
-    applySelectionPhaseStyles();  // syncs marketplace board too
+    applySelectionPhaseStyles();  // removes phase highlight classes
+
+    // Mark the chosen tiles in the marketplace with the "selected" class
+    // so the existing blue highlight shows which letters were picked
+    const chosenLetters = [vowel, ...consonants];
+    chosenLetters.forEach((letter) => {
+      // Only target marketplace tiles (inside #marketplace-section), not modal tiles
+      const tile = document.querySelector(
+        `#marketplace-section .letter-tile[data-letter="${letter}"]`
+      );
+      if (tile) tile.classList.add("selected");
+    });
 
     addNotification(
       `Selection complete: ${vowel.toUpperCase()}, ${consonants[0].toUpperCase()}, ${consonants[1].toUpperCase()}`,

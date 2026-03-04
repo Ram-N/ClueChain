@@ -791,7 +791,7 @@ export function checkGuess(guess) {
     const penalty = getGameParameters()?.penalties?.wrongGuess ?? 5;
     gameState.current.score = Math.max(0, gameState.current.score - penalty);
     _engine._score = gameState.current.score;
-    return { success: false, gameComplete: false, pointsEarned: 0 };
+    return { success: false, gameComplete: false, pointsEarned: 0, penalty };
   }
 
   // Fallback (no engine yet — should not happen in normal flow)
