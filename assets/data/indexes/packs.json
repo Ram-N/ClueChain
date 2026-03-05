@@ -47,6 +47,7 @@
     },
     {
       "slug": "geography-neighbors",
+      "url": "geography-neighbors/",
       "title": "World Neighbors",
       "description": "Country and map vocabulary through border-based prompts.",
       "topic": "geography",

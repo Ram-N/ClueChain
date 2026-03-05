@@ -1,0 +1,12 @@
+{
+  "slug": "geography-neighbors",
+  "title": "World Neighbors",
+  "units": [
+    {
+      "title": "Islands",
+      "date": "2026",
+      "path": "assets/data/units/geography/islands.json",
+      "item_count": 4
+    }
+  ]
+}

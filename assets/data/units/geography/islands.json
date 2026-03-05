@@ -1,0 +1,395 @@
+{
+  "schema_version": 1,
+  "unit_id": "geography-islands",
+  "unit_type": "geography",
+  "title": "Islands",
+  "date": "2026-03-04",
+  "topic": "current-events",
+  "source": {
+    "name": "Editorial",
+    "license": "editorial"
+  },
+  "navigation": {
+    "collection": "news"
+  },
+  "tags": [
+    "vocabulary",
+    "current-events"
+  ],
+  "reading_level": "adult",
+  "estimated_minutes": 8,
+  "items": [
+    {
+      "item_id": "news-2026-03-04-01",
+      "title": "Learning About Islands",
+      "text": "Let’s talk about islands. What are the largest islands in the world? How are islands formed? Where are the different types of islands located? A geography lesson for kids on islands, with facts, maps, and lesson plans for different ages.",
+      "practice": {
+        "enabled": true,
+        "blanking": {
+          "mode": "auto",
+          "targets": {
+            "easy": {
+              "min_blanks": 3,
+              "max_blanks": 5
+            },
+            "standard": {
+              "min_blanks": 5,
+              "max_blanks": 7
+            },
+            "advanced": {
+              "min_blanks": 7,
+              "max_blanks": 10
+            }
+          },
+          "avoid": {
+            "stopwords": true,
+            "numbers": true,
+            "very_short_words_max_len": 3
+          }
+        },
+        "scoring": {
+          "max_points": 100,
+          "per_blank": "proportional",
+          "penalties": {
+            "wrong_guess": 1,
+            "reveal_word": 10
+          }
+        }
+      },
+      "authored_variants": [
+        {
+          "variant_id": "llm-v1",
+          "blanks": [
+            {
+              "word": "islands",
+              "hints": {
+                "direct": "Landmasses surrounded by water",
+                "intermediate": "These can be found in oceans and seas, and are often popular tourist destinations",
+                "indirect": "Imagine a place where the sound of waves is ever-present, and the horizon meets the sea"
+              }
+            },
+            {
+              "word": "world",
+              "hints": {
+                "direct": "The planet we live on",
+                "intermediate": "This is the context in which we compare the size of islands",
+                "indirect": "A big stage where many stories unfold, and geography plays a key role"
+              }
+            },
+            {
+              "word": "geography",
+              "hints": {
+                "direct": "The study of the Earth's physical features",
+                "intermediate": "This subject is taught in schools to help kids understand their surroundings",
+                "indirect": "Unraveling the secrets of the Earth, one map at a time"
+              }
+            },
+            {
+              "word": "lesson",
+              "hints": {
+                "direct": "A period of time spent learning something",
+                "intermediate": "In a classroom setting, this is a structured way of teaching new information",
+                "indirect": "A guided journey of discovery, where knowledge is the treasure"
+              }
+            },
+            {
+              "word": "maps",
+              "hints": {
+                "direct": "Visual representations of areas",
+                "intermediate": "These are often used in schools to help kids learn about different places",
+                "indirect": "Unfolding a piece of paper to reveal a new world of possibilities"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_id": "news-2026-03-04-02",
+      "title": "Islands Form in Oceans and Lakes",
+      "text": "Islands are a landform that can be found in oceans, lakes, and rivers. An island is an area of land not connected to a continent and completely surrounded by water.",
+      "practice": {
+        "enabled": true,
+        "blanking": {
+          "mode": "auto",
+          "targets": {
+            "easy": {
+              "min_blanks": 3,
+              "max_blanks": 5
+            },
+            "standard": {
+              "min_blanks": 5,
+              "max_blanks": 7
+            },
+            "advanced": {
+              "min_blanks": 7,
+              "max_blanks": 10
+            }
+          },
+          "avoid": {
+            "stopwords": true,
+            "numbers": true,
+            "very_short_words_max_len": 3
+          }
+        },
+        "scoring": {
+          "max_points": 100,
+          "per_blank": "proportional",
+          "penalties": {
+            "wrong_guess": 1,
+            "reveal_word": 10
+          }
+        }
+      },
+      "authored_variants": [
+        {
+          "variant_id": "llm-v1",
+          "blanks": [
+            {
+              "word": "landform",
+              "hints": {
+                "direct": "A natural geographical feature",
+                "intermediate": "It can be a mountain, hill, or valley, and is often studied in geography",
+                "indirect": "The shape of the earth's surface, carved by time and nature"
+              }
+            },
+            {
+              "word": "oceans",
+              "hints": {
+                "direct": "Very large bodies of saltwater",
+                "intermediate": "They cover most of the earth's surface and are home to a diverse range of marine life",
+                "indirect": "Endless blue expanses that evoke a sense of awe and mystery"
+              }
+            },
+            {
+              "word": "lakes",
+              "hints": {
+                "direct": "Bodies of freshwater surrounded by land",
+                "intermediate": "They can be small or large, and are often popular spots for recreation and relaxation",
+                "indirect": "Serene and peaceful bodies of water that reflect the beauty of their surroundings"
+              }
+            },
+            {
+              "word": "rivers",
+              "hints": {
+                "direct": "Natural flowing bodies of water",
+                "intermediate": "They often connect lakes and oceans, and play a crucial role in shaping the landscape",
+                "indirect": "Life-giving arteries that pulse through the heart of the earth"
+              }
+            },
+            {
+              "word": "continent",
+              "hints": {
+                "direct": "A large area of land",
+                "intermediate": "It is often separated from other landmasses by oceans, and has its own distinct geography and climate",
+                "indirect": "A vast and sprawling entity that gives identity to the people and places within it"
+              }
+            },
+            {
+              "word": "surrounded",
+              "hints": {
+                "direct": "Encircled or enclosed on all sides",
+                "intermediate": "It describes something that is completely encased or enveloped by something else",
+                "indirect": "A state of being enveloped, like being in the midst of a warm embrace"
+              }
+            },
+            {
+              "word": "area",
+              "hints": {
+                "direct": "A particular part of a surface or space",
+                "intermediate": "It can be measured and defined, and is often used to describe a specific region or location",
+                "indirect": "A defined portion of space that has its own unique character and boundaries"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_id": "news-2026-03-04-03",
+      "title": "Islands Form in Various Shapes",
+      "text": "Small islands are sometimes called cays, keys, or islets. A group or chain of islands is often called an archipelago. An atoll is a ring-shaped coral reef on top of an old volcano that has eroded.",
+      "practice": {
+        "enabled": true,
+        "blanking": {
+          "mode": "auto",
+          "targets": {
+            "easy": {
+              "min_blanks": 3,
+              "max_blanks": 5
+            },
+            "standard": {
+              "min_blanks": 5,
+              "max_blanks": 7
+            },
+            "advanced": {
+              "min_blanks": 7,
+              "max_blanks": 10
+            }
+          },
+          "avoid": {
+            "stopwords": true,
+            "numbers": true,
+            "very_short_words_max_len": 3
+          }
+        },
+        "scoring": {
+          "max_points": 100,
+          "per_blank": "proportional",
+          "penalties": {
+            "wrong_guess": 1,
+            "reveal_word": 10
+          }
+        }
+      },
+      "authored_variants": [
+        {
+          "variant_id": "llm-v1",
+          "blanks": [
+            {
+              "word": "islands",
+              "hints": {
+                "direct": "Landmasses surrounded by water",
+                "intermediate": "These can be found in groups or alone in the ocean, and are often given different names based on their size or shape",
+                "indirect": "Pieces of earth that sea surrounds, making them isolated worlds"
+              }
+            },
+            {
+              "word": "atoll",
+              "hints": {
+                "direct": "A ring-shaped coral reef structure",
+                "intermediate": "This type of formation is typically found on top of a volcano that has eroded over time",
+                "indirect": "A circular barrier that protects a secret sea within"
+              }
+            },
+            {
+              "word": "archipelago",
+              "hints": {
+                "direct": "A group of islands clustered together",
+                "intermediate": "This term is used to describe a collection of islands that are located near each other, often sharing similar geographical features",
+                "indirect": "A scattering of land jewels across the ocean's surface"
+              }
+            },
+            {
+              "word": "volcano",
+              "hints": {
+                "direct": "A landform that occurs when magma from the Earth's interior rises to the surface",
+                "intermediate": "Over time, the top of this geological formation can erode, leaving behind a unique shape",
+                "indirect": "A mountain that once spewed fire, now a quiet giant beneath the waves"
+              }
+            },
+            {
+              "word": "reef",
+              "hints": {
+                "direct": "A barrier of rocks or coral near the surface of the sea",
+                "intermediate": "This underwater structure can be home to a diverse array of marine life and is often found in tropical waters",
+                "indirect": "A hidden wall that shelters a vibrant city of sea creatures"
+              }
+            },
+            {
+              "word": "eroded",
+              "hints": {
+                "direct": "Worn away by natural forces such as wind or water",
+                "intermediate": "This process can change the shape of landforms over time, creating new geological features",
+                "indirect": "Transformed by the gentle yet persistent touch of the elements"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item_id": "news-2026-03-04-04",
+      "title": "Islands Formed in Different Ways",
+      "text": "There are two main types of islands: continental islands and oceanic islands. Continental islands are part of a continental shelf. For example, Great Britain and Sicily are islands that sit on the continental shelf of Europe. Oceanic islands are islands that don’t sit on a continental shelf. Oceanic islands are mainly formed by undersea volcanoes like Iceland in the Atlantic and Hawaii in the Pacific Ocean.",
+      "practice": {
+        "enabled": true,
+        "blanking": {
+          "mode": "auto",
+          "targets": {
+            "easy": {
+              "min_blanks": 3,
+              "max_blanks": 5
+            },
+            "standard": {
+              "min_blanks": 5,
+              "max_blanks": 7
+            },
+            "advanced": {
+              "min_blanks": 7,
+              "max_blanks": 10
+            }
+          },
+          "avoid": {
+            "stopwords": true,
+            "numbers": true,
+            "very_short_words_max_len": 3
+          }
+        },
+        "scoring": {
+          "max_points": 100,
+          "per_blank": "proportional",
+          "penalties": {
+            "wrong_guess": 1,
+            "reveal_word": 10
+          }
+        }
+      },
+      "authored_variants": [
+        {
+          "variant_id": "llm-v1",
+          "blanks": [
+            {
+              "word": "volcanoes",
+              "hints": {
+                "direct": "A mountain that opens downward to a pool of molten rock",
+                "intermediate": "These are often found under the sea and can create new land",
+                "indirect": "Fire-breathing giants that shape the earth's surface"
+              }
+            },
+            {
+              "word": "shelf",
+              "hints": {
+                "direct": "A long, narrow, flat piece of land under the sea",
+                "intermediate": "It's a part of the continent that's underwater",
+                "indirect": "The edge of a vast table that's hidden beneath the waves"
+              }
+            },
+            {
+              "word": "mainly",
+              "hints": {
+                "direct": "For the most part, or in large part",
+                "intermediate": "This word is used to describe the primary way something happens",
+                "indirect": "A majority, or the largest share of something"
+              }
+            },
+            {
+              "word": "example",
+              "hints": {
+                "direct": "Something that illustrates or explains an idea",
+                "intermediate": "It's used to help people understand a concept by showing a specific case",
+                "indirect": "A real-life illustration that makes an abstract idea more concrete"
+              }
+            },
+            {
+              "word": "Atlantic",
+              "hints": {
+                "direct": "One of the world's major oceans",
+                "intermediate": "This ocean is located between the Americas and Europe and Africa",
+                "indirect": "A vast body of water that separates the old world from the new"
+              }
+            },
+            {
+              "word": "oceanic",
+              "hints": {
+                "direct": "Relating to the ocean",
+                "intermediate": "This term describes islands that are not connected to a continent",
+                "indirect": "Of or pertaining to the vast, open sea"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

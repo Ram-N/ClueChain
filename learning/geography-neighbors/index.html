@@ -1,33 +1,193 @@
 <!doctype html>
-<html lang="en">
+<html lang='en'>
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset='utf-8' />
+  <meta name='viewport' content='width=device-width, initial-scale=1' />
   <title>ClueChain | World Neighbors</title>
-  <link rel="icon" href="data:,">
-  <link rel="stylesheet" href="../../assets/css/learningpacks.css" />
+  <link rel='stylesheet' href='../units.css' />
+  <link rel='stylesheet' href='../../assets/css/help-modal.css' />
 </head>
-<body>
-  <header class="topbar">
-    <div class="topbar-inner">
-      <a class="brand" href="../../">ClueChain</a>
-      <nav class="topnav">
-        <a href="../../">Daily</a>
-        <a class="active" href="../../learning/">Learning Packs</a>
-      </nav>
+
+<body data-manifest-path="/assets/data/indexes/packs/geography-neighbors.json">
+  <header class='topbar'>
+    <div class='topbar-inner'>
+      <a class='brand' href='../../index.html'>ClueChain</a>
+      <a class='back-link' href='../../learning/'>&larr; Learning Packs</a>
+
+      <div class='toolbar'>
+        <div class='segmented' role='tablist' aria-label='Mode'>
+          <button id='modeRead' class='segbtn active' type='button'>Read</button>
+          <button id='modePractice' class='segbtn' type='button'>Practice</button>
+        </div>
+
+        <div class='difficulty'>
+          <label for='difficultySelect'>Difficulty</label>
+          <select id='difficultySelect'>
+            <option value='easy'>Easy</option>
+            <option value='standard' selected>Standard</option>
+            <option value='advanced'>Advanced</option>
+          </select>
+        </div>
+      </div>
+
+      <a class='daily-link' href='../../index.html'>Daily Puzzle &rarr;</a>
     </div>
   </header>
 
-  <main class="page">
-    <div class="pack-detail">
-      <a class="back-link" href="../../learning/">← Back to Learning Packs</a>
-      <h1>World Neighbors</h1>
-      <p class="pack-meta">Geography · High · ~10 min · 25 puzzles</p>
-      <p>Country and map vocabulary through border-based prompts.</p>
-      <div class="pack-placeholder">
-        Puzzles loading — check back soon.
+  <main class='page'>
+    <section class='hero'>
+      <h1 id='unitTitle'>World Neighbors</h1>
+      <div class='meta'>
+        <span id='unitDate'></span>
+        <span class='dot'>&bull;</span>
+        <span id='unitSubtitle'>Loading&hellip;</span>
+      </div>
+    </section>
+
+    <section id='items' class='items'></section>
+  </main>
+
+  <!-- Modal -->
+  <div id='modalRoot' class='modal-root' aria-hidden='true'>
+    <div class='modal-backdrop' data-action='close'></div>
+
+    <div class='modal' role='dialog' aria-modal='true' aria-label='Practice modal'>
+      <div class='modal-top'>
+        <button class='iconbtn' type='button' data-action='close'>&larr; Back</button>
+
+        <div class='modal-top-center'>
+          <div id='modalTitle' class='modal-title'>Practice</div>
+          <div id='modalSub' class='modal-sub'>Item 1 of 1</div>
+        </div>
+
+        <div id='modalScore' class='modal-score'>0 / 100</div>
+      </div>
+
+      <div class='modal-body'>
+        <div class='modal-text'>
+          <div id='maskedText' class='masked-text'></div>
+          <div id='feedbackPanel' class='feedback-panel' aria-live='assertive'></div>
+
+          <div class='lb-inline'>
+            <div class='lb-header'>
+              <div class='panel-label'>Letters remaining</div>
+              <div class='lb-mode-pill' role='group'>
+                <button id='lbModeAll' class='lb-mode-btn active' type='button'>All</button>
+                <button id='lbModeWord' class='lb-mode-btn' type='button'>This word</button>
+              </div>
+            </div>
+            <div id='letterBoard' class='letter-board'>
+              <div class='lb-row'>
+                <span class='lt' data-letter='q'>Q<sup class='lc'></sup></span><span class='lt' data-letter='w'>W<sup class='lc'></sup></span><span class='lt' data-letter='e'>E<sup class='lc'></sup></span><span class='lt' data-letter='r'>R<sup class='lc'></sup></span><span class='lt' data-letter='t'>T<sup class='lc'></sup></span><span class='lt' data-letter='y'>Y<sup class='lc'></sup></span><span class='lt' data-letter='u'>U<sup class='lc'></sup></span><span class='lt' data-letter='i'>I<sup class='lc'></sup></span><span class='lt' data-letter='o'>O<sup class='lc'></sup></span><span class='lt' data-letter='p'>P<sup class='lc'></sup></span>
+              </div>
+              <div class='lb-row'>
+                <span class='lt' data-letter='a'>A<sup class='lc'></sup></span><span class='lt' data-letter='s'>S<sup class='lc'></sup></span><span class='lt' data-letter='d'>D<sup class='lc'></sup></span><span class='lt' data-letter='f'>F<sup class='lc'></sup></span><span class='lt' data-letter='g'>G<sup class='lc'></sup></span><span class='lt' data-letter='h'>H<sup class='lc'></sup></span><span class='lt' data-letter='j'>J<sup class='lc'></sup></span><span class='lt' data-letter='k'>K<sup class='lc'></sup></span><span class='lt' data-letter='l'>L<sup class='lc'></sup></span>
+              </div>
+              <div class='lb-row'>
+                <span class='lt' data-letter='z'>Z<sup class='lc'></sup></span><span class='lt' data-letter='x'>X<sup class='lc'></sup></span><span class='lt' data-letter='c'>C<sup class='lc'></sup></span><span class='lt' data-letter='v'>V<sup class='lc'></sup></span><span class='lt' data-letter='b'>B<sup class='lc'></sup></span><span class='lt' data-letter='n'>N<sup class='lc'></sup></span><span class='lt' data-letter='m'>M<sup class='lc'></sup></span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <aside class='modal-panel'>
+          <div class='panel-row'>
+            <div class='panel-label'>Blank</div>
+            <div id='blankMeta' class='panel-meta'>Select a blank to begin</div>
+          </div>
+
+          <div class='panel-row'>
+            <input id='guessInput' class='guess' type='text' placeholder='Type your guess&hellip;' autocomplete='off' />
+            <button id='submitGuess' class='btn primary' type='button'>Submit</button>
+          </div>
+
+          <div class='panel-row hints'>
+            <button class='btn' type='button' data-hint='indirect'>Indirect</button>
+            <button class='btn' type='button' data-hint='intermediate'>Intermediate</button>
+            <button class='btn' type='button' data-hint='direct'>Direct</button>
+          </div>
+
+          <div id='allCluesList' class='all-clues-list' aria-live='polite'></div>
+
+          <div class='panel-row reveal-row'>
+            <button id='revealWord' class='btn danger' type='button'>Reveal word</button>
+            <button id='revealAll' class='btn danger' type='button'>Reveal all</button>
+          </div>
+
+          <div class='panel-row nav'>
+            <button id='prevBlank' class='btn' type='button'>&larr; Prev</button>
+            <button id='nextBlank' class='btn' type='button'>Next &rarr;</button>
+          </div>
+        </aside>
+      </div>
+
+      <div id='summary' class='modal-summary hidden'>
+        <div class='summary-title'>Completed</div>
+        <div id='summaryDetail' class='summary-detail'></div>
+        <div id='summaryText' class='summary-text masked-text'></div>
+        <div class='summary-actions'>
+          <button id='summaryClose' class='btn primary' type='button'>Return to reading</button>
+          <button id='summaryNextItem' class='btn' type='button'>Practice next item</button>
+        </div>
       </div>
     </div>
-  </main>
+  </div>
+
+  <!-- Letter Selection Modal -->
+  <div id="letter-selection-modal" class="modal-container" role="dialog" aria-modal="true" aria-labelledby="ls-modal-title">
+    <div class="modal-content ls-modal-content">
+      <div class="modal-header ls-modal-header">
+        <h2 id="ls-modal-title">Select 1 Vowel &amp; 2 Consonants</h2>
+        <button class="close-button" id="ls-modal-close" aria-label="Close">&times;</button>
+      </div>
+      <div class="modal-body ls-modal-body">
+        <div class="letter-grid-container ls-modal-grid">
+          <div class="letter-grid" id="ls-modal-letter-grid">
+            <div class="keyboard-row">
+              <button class="letter-tile" data-letter="q">Q</button>
+              <button class="letter-tile" data-letter="w">W</button>
+              <button class="letter-tile" data-letter="e">E</button>
+              <button class="letter-tile" data-letter="r">R</button>
+              <button class="letter-tile" data-letter="t">T</button>
+              <button class="letter-tile" data-letter="y">Y</button>
+              <button class="letter-tile" data-letter="u">U</button>
+              <button class="letter-tile" data-letter="i">I</button>
+              <button class="letter-tile" data-letter="o">O</button>
+              <button class="letter-tile" data-letter="p">P</button>
+            </div>
+            <div class="keyboard-row">
+              <button class="letter-tile" data-letter="a">A</button>
+              <button class="letter-tile" data-letter="s">S</button>
+              <button class="letter-tile" data-letter="d">D</button>
+              <button class="letter-tile" data-letter="f">F</button>
+              <button class="letter-tile" data-letter="g">G</button>
+              <button class="letter-tile" data-letter="h">H</button>
+              <button class="letter-tile" data-letter="j">J</button>
+              <button class="letter-tile" data-letter="k">K</button>
+              <button class="letter-tile" data-letter="l">L</button>
+            </div>
+            <div class="keyboard-row">
+              <button class="letter-tile" data-letter="z">Z</button>
+              <button class="letter-tile" data-letter="x">X</button>
+              <button class="letter-tile" data-letter="c">C</button>
+              <button class="letter-tile" data-letter="v">V</button>
+              <button class="letter-tile" data-letter="b">B</button>
+              <button class="letter-tile" data-letter="n">N</button>
+              <button class="letter-tile" data-letter="m">M</button>
+            </div>
+          </div>
+        </div>
+        <div class="ls-selection-slots">
+          <div class="ls-slot ls-slot-vowel" id="ls-slot-vowel">Vowel</div>
+          <div class="ls-slot ls-slot-consonant" id="ls-slot-c1">Consonant<br>1</div>
+          <div class="ls-slot ls-slot-consonant" id="ls-slot-c2">Consonant<br>2</div>
+        </div>
+        <p class="ls-modal-hint">Tip: click a selected tile again to deselect it.</p>
+        <button id="ls-confirm-btn" class="ls-confirm-btn" disabled>Start Practice &rarr;</button>
+      </div>
+    </div>
+  </div>
+
+  <script type='module' src='../units.js'></script>
 </body>
 </html>
