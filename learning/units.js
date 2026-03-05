@@ -597,11 +597,20 @@ const App = (function () {
     document.body.style.overflow = ''
   }
 
+  // ---- Path resolution ----
+
+  const basePath = document.body.dataset.basePath || ''
+
+  function resolvePath(p) {
+    if (!p || p.startsWith('/') || p.startsWith('http')) return p
+    return basePath + p
+  }
+
   // ---- Load unit from URL param ----
 
   async function loadUnit(unitPath) {
     if (!unitPath) throw new Error('Set data-manifest-path on <body> or pass ?unit= in URL.')
-    const res = await fetch(unitPath, { cache: 'no-store' })
+    const res = await fetch(resolvePath(unitPath), { cache: 'no-store' })
     if (!res.ok) throw new Error(`Failed to load unit: ${unitPath} (HTTP ${res.status})`)
     state.unit = await res.json()
     renderUnitHeader()
@@ -652,7 +661,7 @@ const App = (function () {
         <div class='item-footer'>
           <div>${escapeHTML(u.date || '')} &bull; ${u.item_count || '?'} items</div>
           <div class='item-actions'>
-            <a class='pill' href='?unit=/${escapeHTML(u.path)}'>Open &rarr;</a>
+            <a class='pill' href='?unit=${escapeHTML(u.path)}'>Open &rarr;</a>
           </div>
         </div>
       </article>
