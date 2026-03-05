@@ -33,6 +33,7 @@
     },
     {
       "slug": "ai-basics",
+      "url": "ai-basics/",
       "title": "AI Foundations",
       "description": "Core AI and ML vocabulary through short paragraphs.",
       "topic": "ai",
