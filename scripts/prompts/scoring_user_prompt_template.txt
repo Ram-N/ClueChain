@@ -1,0 +1,13 @@
+## Paragraph to Evaluate
+
+**Title:** {title}
+**Date:** {date}
+
+**Text:**
+{text}
+
+## Hidden Words and Their Clues
+
+{hidden_words_section}
+
+Please score this paragraph on connectivity, clueability, discovery_curve, narrative_interest, and catalog_penalty.
