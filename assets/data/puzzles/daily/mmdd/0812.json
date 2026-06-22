@@ -1,232 +1,232 @@
 {
-  "title": "fMRI on infants",
+  "title": "What my dog taught me",
   "date": "08-12",
-  "text": "Title: fMRI on infants\n\nWhen fMRI machines came online in the 1990s, researchers did use them to look at infant brains, but these scans were typically conducted when babies were sleeping, Yates said. This means they couldn’t study how aspects of the waking brain like cognition were impacted by various stimuli.\n\"We’re excited that we’re going to be able to start to disentangle what is going on here.\"",
+  "text": "1. As I sat at my desk wrestling with the grant proposal I was coordinating, I could feel my eyes glaze over. I’d spent all afternoon figuring out how to keep dozens of consortium partners happy, and I was now deep in the thankless task of cutting budgets and moving numbers from one column to another. But just then an unlikely lab member offered a reprieve: my dog, Zazil. She had been snoozing under my desk, but now she put her head on my thigh. This was the signal: Enough, let’s go for a walk. For 2 years Zazil had been giving me this kind of wise counsel on a daily basis. When I received an offer to establish my lab in 2022, I was delighted at the prospect of some stability after years of being a postdoc. But I had seen too many colleagues burn out from the pressure of running a lab, or push their trainees so hard that everyone in the group felt miserable. How could I create an environment where we did good, robust, cutting-edge science while also looking out for each other?",
   "hiddenWords": [
     {
-      "word": "researchers",
-      "difficulty": "Intermediate",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "People in lab coats trying to figure out how things work",
-          "type": "Indirect",
-          "points": 6
-        },
-        {
-          "clue": "Scientists conducting studies to gather data",
-          "type": "Suggestive",
-          "points": 4
-        },
-        {
-          "clue": "Experts in a field of study",
-          "type": "Straight",
-          "points": 2
-        }
-      ]
-    },
-    {
-      "word": "machines",
+      "word": "lab",
       "difficulty": "Easy",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "Devices that make our lives easier, but can be noisy",
-          "type": "Indirect",
-          "points": 5
-        },
-        {
-          "clue": "Equipment used to perform tasks efficiently",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "Devices with moving parts",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "cognition",
-      "difficulty": "Hard",
       "related_words": [
-        "brain",
-        "stimuli"
+        "science",
+        "colleagues"
       ],
       "clues": [
         {
-          "clue": "The process of knowing and understanding",
-          "type": "Indirect",
-          "points": 7
-        },
-        {
-          "clue": "Mental processes that help us learn and remember",
-          "type": "Suggestive",
-          "points": 4
-        },
-        {
-          "clue": "The act of thinking and problem-solving",
+          "clue": "Place where experiments are conducted",
           "type": "Straight",
-          "points": 2
+          "points": 1
+        },
+        {
+          "clue": "Area for research and development",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Where the magic happens, or so they say",
+          "type": "Indirect",
+          "points": 6
         }
       ]
     },
     {
-      "word": "brain",
+      "word": "science",
       "difficulty": "Intermediate",
       "related_words": [
-        "cognition",
-        "stimuli"
+        "lab",
+        "colleagues"
       ],
       "clues": [
         {
-          "clue": "The control center of our body, where thoughts are born",
-          "type": "Indirect",
-          "points": 6
-        },
-        {
-          "clue": "The organ responsible for controlling our movements and thoughts",
+          "clue": "Systematic study of the world",
           "type": "Suggestive",
-          "points": 3
+          "points": 4
         },
         {
-          "clue": "The center of the nervous system",
+          "clue": "Field of study that's all about discovery",
           "type": "Straight",
-          "points": 1
+          "points": 2
+        },
+        {
+          "clue": "The art of asking the right questions",
+          "type": "Indirect",
+          "points": 5
         }
       ]
     },
     {
-      "word": "stimuli",
-      "difficulty": "Hard",
+      "word": "colleagues",
+      "difficulty": "Intermediate",
       "related_words": [
-        "cognition",
-        "brain"
+        "lab",
+        "science"
       ],
       "clues": [
         {
-          "clue": "Things that provoke a reaction, like a poke or a whisper",
-          "type": "Indirect",
-          "points": 7
-        },
-        {
-          "clue": "External factors that affect our behavior and thoughts",
-          "type": "Suggestive",
-          "points": 4
-        },
-        {
-          "clue": "Things that cause a response",
+          "clue": "People you work with, ideally",
           "type": "Straight",
-          "points": 2
-        }
-      ]
-    },
-    {
-      "word": "babies",
-      "difficulty": "Easy",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "Tiny humans who cry and coo",
-          "type": "Indirect",
-          "points": 5
+          "points": 1
         },
         {
-          "clue": "Newly born humans",
+          "clue": "Those who share your professional interests",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "Infants in their first year",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "sleeping",
-      "difficulty": "Intermediate",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "The state of being unconscious, yet still dreaming",
+          "clue": "The ones who make the office coffee taste better",
           "type": "Indirect",
           "points": 6
-        },
-        {
-          "clue": "A natural part of our daily cycle, essential for rest",
-          "type": "Suggestive",
-          "points": 4
-        },
-        {
-          "clue": "The state of being asleep",
-          "type": "Straight",
-          "points": 2
         }
       ]
     },
     {
-      "word": "excited",
-      "difficulty": "Easy",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "Feeling happy and eager, like a kid on Christmas morning",
-          "type": "Indirect",
-          "points": 5
-        },
-        {
-          "clue": "Having a strong feeling of enthusiasm",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "Feeling thrilled or delighted",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "disentangle",
+      "word": "stability",
       "difficulty": "Hard",
       "related_words": [],
       "clues": [
         {
-          "clue": "To untangle a messy knot, or understand a complex idea",
+          "clue": "The opposite of chaos, hopefully",
           "type": "Indirect",
           "points": 7
         },
         {
-          "clue": "To separate and clarify complex things",
+          "clue": "A state of being that's hard to achieve",
           "type": "Suggestive",
           "points": 4
         },
         {
-          "clue": "To unravel or clarify something",
+          "clue": "Freedom from change or fluctuation",
           "type": "Straight",
           "points": 2
         }
       ]
     },
     {
-      "word": "aspects",
+      "word": "pressure",
       "difficulty": "Intermediate",
       "related_words": [],
       "clues": [
         {
-          "clue": "Different parts or features of something, like facets of a gem",
-          "type": "Indirect",
-          "points": 6
+          "clue": "The weight of expectation",
+          "type": "Suggestive",
+          "points": 3
         },
         {
-          "clue": "Parts or features of a thing, person, or situation",
+          "clue": "Force that's applied to an object",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "The thing that makes you want to scream",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "word": "environment",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The world around us, or so it seems",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "The setting in which something exists",
           "type": "Suggestive",
           "points": 4
         },
         {
-          "clue": "Distinct parts or features",
+          "clue": "The external surroundings",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "robust",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Strong and healthy, like a good laugh",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Able to withstand or resist",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Solid and reliable",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "cutting",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The act of reducing or diminishing",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Removing or trimming something",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "A sharp move, literally or figuratively",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "word": "edge",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The boundary or limit of something",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "A sharp or cutting part",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The point where two things meet",
+          "type": "Indirect",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "word": "prospect",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A possibility that's full of promise",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "A potential or likely outcome",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A future event or situation",
           "type": "Straight",
           "points": 2
         }

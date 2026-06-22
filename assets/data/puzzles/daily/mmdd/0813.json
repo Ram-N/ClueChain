@@ -1,229 +1,232 @@
 {
-  "title": "Development of accept",
+  "title": "Rethinking my mother's story",
   "date": "08-13",
-  "text": "Title: Development of accept\nTesla fanatics may interpret my argument as saying that he does not deserve recognition for his vital work—and nothing could be further from the truth. Tesla made countless important contributions to the world, but he was not the sole “inventor” of these technologies. Many people did work in these areas before Tesla, just as many people contributed to them long after he died.",
+  "text": "1. Despite my precautions I could not quiet the nagging worry that any vulnerability I showed could be used against me. If a pregnancy cost my mother her adviser’s support, why not a failed experiment, or an illness? As I went through my lab rotations, I was guarded and cautious. Rather than ask for help, I chose to figure things out myself, even if it took me much longer. When well-meaning colleagues offered constructive feedback on my work during lab meetings, I felt myself become defensive, seeking to validate that I was “on track.” I evaded meetings with my rotation advisers, dreading that they’d tell me they were dissatisfied with my progress. This pattern came to a head when I found myself struggling to understand a paper I was to present for a journal club. Instead of either choosing a different paper or seeking help, I froze. When the moment came to give my presentation, I claimed I’d been too busy to prepare. What I intended as a face-saving excuse was received as disrespect, and the professor told me I was his worst student ever.",
   "hiddenWords": [
     {
-      "word": "vital",
-      "difficulty": "Easy",
+      "word": "vulnerability",
+      "difficulty": "Hard",
       "related_words": [],
       "clues": [
         {
-          "clue": "Essential for life, like water or air",
-          "type": "Indirect",
-          "points": 5
-        },
-        {
-          "clue": "Having a strong impact on overall health",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "Crucial or necessary",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "truth",
-      "difficulty": "Intermediate",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "What a lie is not",
+          "clue": "A state that makes you an easy target for criticism",
           "type": "Indirect",
           "points": 6
         },
         {
-          "clue": "Something that is genuine and real",
+          "clue": "A condition that makes someone susceptible to being hurt or attacked",
           "type": "Suggestive",
           "points": 4
         },
         {
-          "clue": "Factual information",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "inventor",
-      "difficulty": "Hard",
-      "related_words": [
-        "technologies"
-      ],
-      "clues": [
-        {
-          "clue": "Someone who creates new things, often with a lightbulb moment",
-          "type": "Indirect",
-          "points": 7
-        },
-        {
-          "clue": "A person who designs and builds innovative devices",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "A creator of new machines or processes",
+          "clue": "A state of being open to attack or damage",
           "type": "Straight",
           "points": 2
         }
       ]
     },
     {
-      "word": "technologies",
-      "difficulty": "Hard",
-      "related_words": [
-        "inventor"
-      ],
+      "word": "precautions",
+      "difficulty": "Intermediate",
+      "related_words": [],
       "clues": [
         {
-          "clue": "Advancements that change the way we live and work",
+          "clue": "Measures taken to prevent a potential problem",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Actions taken to reduce risk or danger",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Steps taken to avoid harm or injury",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "pregnancy",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A life-changing event that can impact one's career",
           "type": "Indirect",
           "points": 6
         },
         {
-          "clue": "Methods and tools used to achieve a particular goal",
+          "clue": "A condition that affects a woman's body and life",
           "type": "Suggestive",
           "points": 4
         },
         {
-          "clue": "Scientific knowledge used for practical purposes",
+          "clue": "The state of having a developing fetus in the womb",
           "type": "Straight",
           "points": 2
         }
       ]
     },
     {
-      "word": "argument",
-      "difficulty": "Intermediate",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "A reason given to support a claim",
-          "type": "Indirect",
-          "points": 5
-        },
-        {
-          "clue": "A statement or fact used to persuade someone",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "A discussion or debate",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "recognition",
+      "word": "experiment",
       "difficulty": "Easy",
-      "related_words": [],
+      "related_words": [
+        "lab",
+        "rotation"
+      ],
       "clues": [
         {
-          "clue": "When someone notices your achievement",
+          "clue": "A trial or test to validate a hypothesis",
           "type": "Indirect",
           "points": 5
         },
         {
-          "clue": "The act of acknowledging someone's effort",
+          "clue": "A procedure to test a scientific theory",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "Acknowledgement or appreciation",
+          "clue": "A test or trial to determine the validity of something",
           "type": "Straight",
           "points": 1
         }
       ]
     },
     {
-      "word": "countless",
-      "difficulty": "Intermediate",
-      "related_words": [],
+      "word": "lab",
+      "difficulty": "Easy",
+      "related_words": [
+        "experiment",
+        "rotation"
+      ],
       "clues": [
         {
-          "clue": "More than you can count",
+          "clue": "A room or building for scientific research",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A place where scientists conduct tests and experiments",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A facility for scientific research and experimentation",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "rotation",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "experiment",
+        "lab"
+      ],
+      "clues": [
+        {
+          "clue": "A cycle or sequence of events",
           "type": "Indirect",
           "points": 6
         },
         {
-          "clue": "An extremely large number",
+          "clue": "A schedule or arrangement of tasks or duties",
           "type": "Suggestive",
           "points": 4
         },
         {
-          "clue": "Innumerable or numerous",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "contributions",
-      "difficulty": "Hard",
-      "related_words": [
-        "inventor"
-      ],
-      "clues": [
-        {
-          "clue": "When many people help to make something happen",
-          "type": "Indirect",
-          "points": 7
-        },
-        {
-          "clue": "The act of giving or providing something",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "Something given or done to help a cause",
+          "clue": "A turn or cycle of work or activity",
           "type": "Straight",
           "points": 2
         }
       ]
     },
     {
-      "word": "important",
+      "word": "defensive",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A behavior that protects one's ego or self-image",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A reaction to criticism or perceived attack",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A state of being prepared to defend oneself",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "advisers",
       "difficulty": "Easy",
       "related_words": [],
       "clues": [
         {
-          "clue": "Having a significant impact or influence",
+          "clue": "People who provide guidance and advice",
           "type": "Indirect",
           "points": 5
         },
         {
-          "clue": "Crucial or vital to a particular situation",
+          "clue": "Experts who offer counsel and direction",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "Matters or has significance",
+          "clue": "Individuals who provide advice and guidance",
           "type": "Straight",
           "points": 1
         }
       ]
     },
     {
-      "word": "nothing",
+      "word": "pattern",
       "difficulty": "Intermediate",
       "related_words": [],
       "clues": [
         {
-          "clue": "The absence of something",
+          "clue": "A repeating or recurring design or behavior",
           "type": "Indirect",
           "points": 6
         },
         {
-          "clue": "No thing or zero amount",
+          "clue": "A regular or habitual way of doing something",
           "type": "Suggestive",
           "points": 4
         },
         {
-          "clue": "Not a single thing",
+          "clue": "A design or sequence that repeats itself",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "journal",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A publication that contains articles and research",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A book or magazine that records events or ideas",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A periodical that contains written articles and research",
           "type": "Straight",
           "points": 1
         }

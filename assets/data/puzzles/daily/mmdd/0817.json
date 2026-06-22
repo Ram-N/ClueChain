@@ -1,237 +1,237 @@
 {
-  "title": "Being born in the wrong ZIP code can shorten your life",
+  "title": "A Lab Accident Changed my Approach",
   "date": "08-17",
-  "text": "Being born in the wrong ZIP code can shorten your life\nSalon.com\n\nHowever, life expectancy varies widely across geography. A child born in Mississippi today could expect to never \nreach his or her 75th birthday. But a child born in California, Hawaii or New York could expect to reach their expect to live into the early 80s.\n\nAt the neighborhood level, these differences are sometimes even more drastic, appearing even when communities are only a few miles apart. In Washington, D.C., for example, people living in the Barry Farms neighborhood face a life expectancy of 63.2 years. Yet, less than 10 miles away, a baby born in Friendship Heights and Friendship Village can expect to live 96.1 year, according to CDC data.\n\nJust 10 miles represent a life expectancy difference of almost 33 years, a generation lost due to premature deaths. Overall, any two census tracts in the U.S. can differ in expected life expectancy by 41.2 years, a staggering range. \nThese missing lives have important social and economic costs, for families, communities and workplaces.",
+  "text": "I had just wrapped up my experiments for the day and taken off my lab coat when upsetting news popped up on my phone: A lab explosion at a university in China had killed one student and injured three. I felt awful for the people involved and their families—and I couldn’t avoid painful memories. Years earlier, I had caused a lab accident myself while I was a master’s student in China. I was lucky I didn’t kill someone. It haunts me to this day.\n\nBack then, I was always in a hurry. I wanted to get results fast, publish papers, and outperform my peers. I took on as many projects as I could, aiming to impress my supervisor and earn a strong recommendation letter. Speed and output felt like the only way to get into a top North American Ph.D. program. I rushed through lab work, too—causing an accident that forever changed my attitude and approach to research.",
   "hiddenWords": [
     {
-      "word": "life",
+      "word": "experiments",
       "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A series of tests to find something out",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "This is what scientists do to prove a theory",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The process of trial and error to achieve a goal",
+          "type": "Indirect",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "word": "news",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Information about recent events",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "What you read in the paper or watch on TV",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A message that can be good or bad",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "word": "university",
+      "difficulty": "Intermediate",
       "related_words": [
-        "expectancy",
-        "generation"
+        "student",
+        "research"
       ],
       "clues": [
         {
-          "clue": "a state of being",
+          "clue": "Where you go to get a higher education",
           "type": "Straight",
-          "points": 1
+          "points": 2
         },
         {
-          "clue": "it's what you live",
+          "clue": "A place with many departments and faculties",
           "type": "Suggestive",
-          "points": 3
+          "points": 4
         },
         {
-          "clue": "a flame that flickers",
+          "clue": "A hub for knowledge and innovation",
           "type": "Indirect",
           "points": 6
         }
       ]
     },
     {
-      "word": "expectancy",
-      "difficulty": "Intermediate",
+      "word": "student",
+      "difficulty": "Easy",
       "related_words": [
-        "life",
-        "generation"
+        "university",
+        "research"
       ],
       "clues": [
         {
-          "clue": "the average time one is expected to live",
+          "clue": "Someone who attends school",
           "type": "Straight",
           "points": 1
         },
         {
-          "clue": "a statistical prediction of future events",
+          "clue": "A person who learns and grows",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "when anticipation meets probability",
+          "clue": "The future of our world",
           "type": "Indirect",
-          "points": 6
+          "points": 5
         }
       ]
     },
     {
-      "word": "generation",
+      "word": "research",
       "difficulty": "Intermediate",
       "related_words": [
-        "life",
-        "expectancy"
+        "university",
+        "student"
       ],
       "clues": [
         {
-          "clue": "a group of people born at the same time",
+          "clue": "A careful study to discover new knowledge",
           "type": "Straight",
-          "points": 1
+          "points": 2
         },
         {
-          "clue": "the time it takes for a population to replace itself",
+          "clue": "What scientists do to find answers",
           "type": "Suggestive",
-          "points": 3
+          "points": 4
         },
         {
-          "clue": "when the past meets the future",
+          "clue": "A journey to uncover the truth",
           "type": "Indirect",
           "points": 6
         }
       ]
     },
     {
-      "word": "geography",
+      "word": "projects",
       "difficulty": "Intermediate",
       "related_words": [],
       "clues": [
         {
-          "clue": "the study of the Earth's physical features",
+          "clue": "Tasks that require planning and execution",
           "type": "Straight",
-          "points": 1
+          "points": 2
         },
         {
-          "clue": "the arrangement of natural and human-made elements on the Earth's surface",
+          "clue": "What you work on to achieve a goal",
           "type": "Suggestive",
-          "points": 3
+          "points": 4
         },
         {
-          "clue": "where the map meets the landscape",
+          "clue": "A way to showcase your skills and talents",
           "type": "Indirect",
           "points": 6
         }
       ]
     },
     {
-      "word": "miles",
+      "word": "supervisor",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The person in charge of a team or project",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "Someone who guides and directs",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A leader who helps you grow and learn",
+          "type": "Indirect",
+          "points": 7
+        }
+      ]
+    },
+    {
+      "word": "letter",
       "difficulty": "Easy",
       "related_words": [],
       "clues": [
         {
-          "clue": "a unit of distance",
+          "clue": "A written message or note",
           "type": "Straight",
           "points": 1
         },
         {
-          "clue": "the distance between two points on the Earth's surface",
+          "clue": "What you send to someone through the mail",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "when the road stretches out before you",
+          "clue": "A symbol or character in the alphabet",
           "type": "Indirect",
           "points": 5
         }
       ]
     },
     {
-      "word": "neighborhood",
+      "word": "program",
       "difficulty": "Intermediate",
       "related_words": [],
       "clues": [
         {
-          "clue": "a residential area",
+          "clue": "A set of activities or courses",
           "type": "Straight",
-          "points": 1
+          "points": 2
         },
         {
-          "clue": "a group of houses and buildings where people live",
+          "clue": "What you follow to achieve a goal",
           "type": "Suggestive",
-          "points": 3
+          "points": 4
         },
         {
-          "clue": "where community meets home",
+          "clue": "A plan or schedule for something",
           "type": "Indirect",
           "points": 6
         }
       ]
     },
     {
-      "word": "communities",
-      "difficulty": "Easy",
+      "word": "memories",
+      "difficulty": "Hard",
       "related_words": [],
       "clues": [
         {
-          "clue": "groups of people living together",
+          "clue": "Recollections of the past",
           "type": "Straight",
-          "points": 1
+          "points": 2
         },
         {
-          "clue": "social units with shared interests and goals",
+          "clue": "What you remember from your experiences",
           "type": "Suggestive",
-          "points": 3
+          "points": 4
         },
         {
-          "clue": "when individuals come together",
+          "clue": "The ghosts that haunt you",
           "type": "Indirect",
-          "points": 5
-        }
-      ]
-    },
-    {
-      "word": "workplaces",
-      "difficulty": "Easy",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "places where people work",
-          "type": "Straight",
-          "points": 1
-        },
-        {
-          "clue": "locations where employees perform their jobs",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "where labor meets industry",
-          "type": "Indirect",
-          "points": 5
-        }
-      ]
-    },
-    {
-      "word": "costs",
-      "difficulty": "Intermediate",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "the amount paid or required for something",
-          "type": "Straight",
-          "points": 1
-        },
-        {
-          "clue": "expenses or expenditures",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "when value meets expense",
-          "type": "Indirect",
-          "points": 6
-        }
-      ]
-    },
-    {
-      "word": "year",
-      "difficulty": "Easy",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "a unit of time",
-          "type": "Straight",
-          "points": 1
-        },
-        {
-          "clue": "a period of 365 days",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "when time meets cycle",
-          "type": "Indirect",
-          "points": 5
+          "points": 7
         }
       ]
     }
   ],
-  "id": "ClueChain-2026-08-18"
+  "id": "ClueChain-2026-08-17"
 }

@@ -376,9 +376,38 @@ def classify_tier(score: float) -> str:
         return "Bottom"
 
 
+def classify_overall_rating(total_score: float) -> str:
+    """Classify a 0-100 total score into an overall rating."""
+    if total_score >= 75:
+        return "good"
+    elif total_score >= 50:
+        return "okay"
+    else:
+        return "poor"
+
+
+def compute_total_score(scores: Dict, has_llm: bool) -> float:
+    """Compute a 0-100 total score from dimension scores."""
+    if has_llm:
+        final = compute_final_score(scores)
+    else:
+        final, _ = compute_partial_score(scores)
+    return round(max(0, min(100, final * 10)), 1)
+
+
 # ---------------------------------------------------------------------------
 # File I/O
 # ---------------------------------------------------------------------------
+
+def stamp_summary_fields(all_scores: Dict):
+    """Add total_score and overall_rating to every entry."""
+    for filename, entry in all_scores.items():
+        scores = entry.get("scores", {})
+        has_llm = entry.get("has_llm_scores", False)
+        total = compute_total_score(scores, has_llm)
+        entry["total_score"] = total
+        entry["overall_rating"] = classify_overall_rating(total)
+
 
 def load_paragraph_files(data_dir: Path, single_file: Optional[str] = None) -> List[Tuple[str, Dict]]:
     """Load paragraph JSON files. Returns list of (filename, data) tuples."""
@@ -441,10 +470,14 @@ def generate_rankings(all_scores: Dict) -> List[Dict]:
             final, weight_covered = compute_partial_score(scores)
             score_type = f"partial ({int(weight_covered * 100)}%)"
 
+        total = round(max(0, min(100, final * 10)), 1)
+
         rows.append({
             "filename": filename,
             "title": entry.get("title", ""),
             "final_score": final,
+            "total_score": total,
+            "overall_rating": classify_overall_rating(total),
             "score_type": score_type,
             "tier": classify_tier(final),
             "word_quality": scores.get("word_quality"),
@@ -463,7 +496,8 @@ def generate_rankings(all_scores: Dict) -> List[Dict]:
 def write_rankings_csv(rows: List[Dict], output_path: Path):
     """Write rankings to CSV."""
     output_path.parent.mkdir(parents=True, exist_ok=True)
-    fieldnames = ["rank", "filename", "title", "final_score", "tier", "score_type",
+    fieldnames = ["rank", "filename", "title", "total_score", "overall_rating",
+                  "final_score", "tier", "score_type",
                   "word_quality", "variety", "connectivity", "clueability",
                   "discovery_curve", "narrative_interest", "catalog_penalty"]
     with open(output_path, "w", newline="", encoding="utf-8") as f:
@@ -486,6 +520,10 @@ def write_rankings_md(rows: List[Dict], output_path: Path):
     full_count = sum(1 for r in rows if r["score_type"] == "full")
     partial_count = len(rows) - full_count
 
+    good = sum(1 for r in rows if r["overall_rating"] == "good")
+    okay = sum(1 for r in rows if r["overall_rating"] == "okay")
+    poor = sum(1 for r in rows if r["overall_rating"] == "poor")
+
     lines = [
         "# ClueChain Paragraph Quality Rankings",
         "",
@@ -496,11 +534,11 @@ def write_rankings_md(rows: List[Dict], output_path: Path):
         "",
         "## Summary",
         "",
-        f"| Tier | Count | Score Range |",
-        f"|------|-------|-------------|",
-        f"| Top | {len(top)} | >= 7.5 |",
-        f"| Middle | {len(middle)} | 5.0 - 7.5 |",
-        f"| Bottom | {len(bottom)} | < 5.0 |",
+        f"| Rating | Count | Score Range (0-100) |",
+        f"|--------|-------|---------------------|",
+        f"| Good | {good} | >= 75 |",
+        f"| Okay | {okay} | 50 - 74 |",
+        f"| Poor | {poor} | < 50 |",
         "",
     ]
 
@@ -511,11 +549,11 @@ def write_rankings_md(rows: List[Dict], output_path: Path):
             section.append("")
             return section
 
-        section.append("| # | Score | Type | Title | File |")
-        section.append("|---|-------|------|-------|------|")
+        section.append("| # | Total | Rating | Type | Title | File |")
+        section.append("|---|-------|--------|------|-------|------|")
         for i, r in enumerate(tier_rows, 1):
-            score_str = f"{r['final_score']:.1f}"
-            section.append(f"| {i} | {score_str} | {r['score_type']} | {r['title'][:40]} | {r['filename']} |")
+            total_str = f"{r['total_score']:.0f}"
+            section.append(f"| {i} | {total_str}/100 | {r['overall_rating']} | {r['score_type']} | {r['title'][:40]} | {r['filename']} |")
         section.append("")
         return section
 
@@ -537,12 +575,15 @@ def main():
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Examples:
-  python scripts/score_paragraphs.py                        # Score all unscored (resumes)
-  python scripts/score_paragraphs.py --batch-size 20        # Score only 20 unscored then stop
+  python scripts/score_paragraphs.py                        # LLM-score all unscored (resumes)
+  python scripts/score_paragraphs.py --batch-size 20        # LLM-score only 20 unscored then stop
+  python scripts/score_paragraphs.py --rules                # Also run rule-based scoring (spaCy)
+  python scripts/score_paragraphs.py --rules --batch-size 0 # Rule-based only, no LLM
   python scripts/score_paragraphs.py --force                # Re-score everything
   python scripts/score_paragraphs.py --file path/to/file    # Score single file
   python scripts/score_paragraphs.py --dry-run              # Show what would be scored
   python scripts/score_paragraphs.py --delay 2.0            # Custom API delay
+  python scripts/score_paragraphs.py --groq                 # Use Groq instead of NIM
         """
     )
     parser.add_argument("--batch-size", type=int, default=20,
@@ -555,11 +596,15 @@ Examples:
                         help="Show what would be scored without scoring")
     parser.add_argument("--delay", type=float, default=2.0,
                         help="Delay between API calls in seconds (default: 2.0)")
+    parser.add_argument("--rules", action="store_true",
+                        help="Run rule-based scoring (spaCy POS/variety). Off by default.")
+    parser.add_argument("--groq", action="store_true",
+                        help="Use Groq instead of NIM for LLM scoring")
     args = parser.parse_args()
 
-    # Load env and spaCy
+    # Load env and optionally spaCy
     load_dotenv()
-    nlp = _load_spacy_model()
+    nlp = _load_spacy_model() if args.rules else None
 
     # Load existing scores (checkpoint)
     if args.force:
@@ -575,32 +620,45 @@ Examples:
         print("No paragraph files found.")
         return
 
-    # Phase 1: Rule-based scoring for ALL paragraphs (always runs, free)
-    print("\n--- Phase 1: Rule-based scoring ---")
-    rule_scored = 0
-    for filename, data in paragraphs:
-        wq_score, wq_reason = score_word_quality(nlp, data)
-        var_score, var_reason = score_variety(nlp, data)
+    # Phase 1: Rule-based scoring (only when --rules is passed)
+    if args.rules:
+        print("\n--- Phase 1: Rule-based scoring ---")
+        rule_scored = 0
+        for filename, data in paragraphs:
+            wq_score, wq_reason = score_word_quality(nlp, data)
+            var_score, var_reason = score_variety(nlp, data)
 
-        if filename not in all_scores:
-            all_scores[filename] = {
-                "title": data.get("title", ""),
-                "date": data.get("date", ""),
-                "scores": {},
-                "reasons": {},
-                "has_llm_scores": False,
-            }
+            if filename not in all_scores:
+                all_scores[filename] = {
+                    "title": data.get("title", ""),
+                    "date": data.get("date", ""),
+                    "scores": {},
+                    "reasons": {},
+                    "has_llm_scores": False,
+                }
 
-        all_scores[filename]["scores"]["word_quality"] = wq_score
-        all_scores[filename]["scores"]["variety"] = var_score
-        all_scores[filename]["reasons"]["word_quality"] = wq_reason
-        all_scores[filename]["reasons"]["variety"] = var_reason
-        rule_scored += 1
+            all_scores[filename]["scores"]["word_quality"] = wq_score
+            all_scores[filename]["scores"]["variety"] = var_score
+            all_scores[filename]["reasons"]["word_quality"] = wq_reason
+            all_scores[filename]["reasons"]["variety"] = var_reason
+            rule_scored += 1
 
-    print(f"Rule-based scores computed for {rule_scored} paragraphs")
+        print(f"Rule-based scores computed for {rule_scored} paragraphs")
 
-    # Save after rule-based phase
-    save_scores(all_scores, _SCORES_FILE)
+        # Save after rule-based phase
+        stamp_summary_fields(all_scores)
+        save_scores(all_scores, _SCORES_FILE)
+    else:
+        # Ensure entries exist for paragraphs not yet in all_scores
+        for filename, data in paragraphs:
+            if filename not in all_scores:
+                all_scores[filename] = {
+                    "title": data.get("title", ""),
+                    "date": data.get("date", ""),
+                    "scores": {},
+                    "reasons": {},
+                    "has_llm_scores": False,
+                }
 
     # Phase 2: LLM scoring for unscored paragraphs
     # Determine which need LLM scoring
@@ -620,11 +678,21 @@ Examples:
         if len(needs_llm) > args.batch_size:
             print(f"  ... and {len(needs_llm) - args.batch_size} more in future batches")
     else:
-        # Set up LLM client: NIM primary, Groq fallback
+        # Set up LLM client: NIM default, --groq to override
         nim_key = os.getenv("NIM_API_KEY")
         groq_key = os.getenv("GROQ_API_KEY")
+        client = None
+        provider = None
 
-        if nim_key:
+        if args.groq:
+            if groq_key:
+                client = _make_groq_client(groq_key)
+                model = GROQ_MODEL
+                provider = "Groq"
+            else:
+                print("Error: --groq specified but GROQ_API_KEY not set.")
+                sys.exit(1)
+        elif nim_key:
             client = _make_nim_client(nim_key)
             model = NIM_MODEL
             provider = "NIM"
@@ -632,9 +700,6 @@ Examples:
             client = _make_groq_client(groq_key)
             model = GROQ_MODEL
             provider = "Groq"
-        else:
-            client = None
-            provider = None
 
         if not client:
             print("Warning: Neither NIM_API_KEY nor GROQ_API_KEY set. Skipping LLM scoring.")
@@ -666,6 +731,7 @@ Examples:
                     print(f"done ({elapsed:.1f}s)")
 
                     # Save checkpoint after each successful scoring
+                    stamp_summary_fields(all_scores)
                     save_scores(all_scores, _SCORES_FILE)
 
                     # Rate limiting
@@ -699,11 +765,11 @@ Examples:
     print(f"  {_RANKINGS_MD}")
 
     # Summary
-    top = sum(1 for r in rows if r["tier"] == "Top")
-    mid = sum(1 for r in rows if r["tier"] == "Middle")
-    bot = sum(1 for r in rows if r["tier"] == "Bottom")
+    good = sum(1 for r in rows if r["overall_rating"] == "good")
+    okay = sum(1 for r in rows if r["overall_rating"] == "okay")
+    poor = sum(1 for r in rows if r["overall_rating"] == "poor")
     full = sum(1 for r in rows if r["score_type"] == "full")
-    print(f"\nTier distribution: Top={top}, Middle={mid}, Bottom={bot}")
+    print(f"\nRating distribution: Good={good}, Okay={okay}, Poor={poor}")
     print(f"Fully scored: {full}/{len(rows)}")
 
 

@@ -1,229 +1,234 @@
 {
-  "title": "WORLD’S GREAT TELESCOPES",
+  "title": "An irrational sports allegiance",
   "date": "08-08",
-  "text": "Thanks to the wide public interest taken in astronomical matters, a large number of powerful telescopes has been set up in various parts of the world. To the British Islands belongs the honour of possessing the largest telescope in the world. This is the giant reflector erected by Lord Rosse, in 1842, at Parsonstown, the mirror being 6 feet in diameter, and the focal length 60 feet. Many very valuable observations were made with this instrument in its early days, but of late years it seems to have fallen into disuse. One reason may be that the mounting is not of the most convenient form, and makes the telescope unsuitable for photographic work.",
+  "text": "1. \nAn irrational sports allegiance\n\nMost men you meet will happily tell you they were one back-pull away from the national team. Maybe a selector's bad mood or politics? The mythology is rich. But really, they weren’t even troubling the reserve bench. But the team you support like they’re blood? That’s different. That’s the emotional hedge you refuse to sell. Every season begins with champagne optimism and ends with a masterclass in humbling character development. Letting eleven other grown men and a coach dictate your mental stability should probably require legal paperwork. You could walk into a sports bar anywhere in the world and find a friend in five minutes flat. Shared suffering is a universal language.",
   "hiddenWords": [
     {
-      "word": "public",
-      "difficulty": "Easy",
+      "word": "mythology",
+      "difficulty": "Intermediate",
       "related_words": [],
       "clues": [
         {
-          "clue": "Something for everyone, not exclusive",
+          "clue": "A collection of stories that explain natural phenomena.",
           "type": "Indirect",
           "points": 6
         },
         {
-          "clue": "General population",
+          "clue": "The study of myths and legends.",
           "type": "Suggestive",
-          "points": 3
+          "points": 4
         },
         {
-          "clue": "Open to all people",
+          "clue": "A body of myths.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "selector",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The one who chooses, but not the one who chooses for themselves.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "A person who picks the best from a group.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "One who selects.",
           "type": "Straight",
           "points": 1
         }
       ]
     },
     {
-      "word": "number",
+      "word": "champagne",
       "difficulty": "Easy",
       "related_words": [],
       "clues": [
         {
-          "clue": "Quantity that can be counted",
+          "clue": "A drink often used to celebrate special occasions.",
           "type": "Indirect",
           "points": 5
         },
         {
-          "clue": "Amount or quantity",
+          "clue": "A type of luxurious wine.",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "Mathematical value",
+          "clue": "A sparkling wine.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "stability",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "character",
+        "development"
+      ],
+      "clues": [
+        {
+          "clue": "The state of being unchanging, like a rock in the sea.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A quality that helps people stay calm in difficult situations.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The state of being firm and unwavering.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "character",
+      "difficulty": "Hard",
+      "related_words": [
+        "stability",
+        "development"
+      ],
+      "clues": [
+        {
+          "clue": "The combination of traits that form a person's personality.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "A person's moral and ethical qualities.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "The personality of a person.",
           "type": "Straight",
           "points": 1
         }
       ]
     },
     {
-      "word": "instrument",
+      "word": "development",
       "difficulty": "Intermediate",
       "related_words": [
-        "mirror"
+        "character",
+        "stability"
       ],
       "clues": [
         {
-          "clue": "Device used to achieve a particular end",
+          "clue": "The process of growing and becoming more complex.",
           "type": "Indirect",
           "points": 6
         },
         {
-          "clue": "Tool used for scientific measurements",
+          "clue": "The act of making something more advanced.",
           "type": "Suggestive",
           "points": 4
         },
         {
-          "clue": "Device for observing or measuring",
+          "clue": "The state of being developed.",
           "type": "Straight",
           "points": 2
         }
       ]
     },
     {
-      "word": "mirror",
-      "difficulty": "Intermediate",
-      "related_words": [
-        "instrument"
-      ],
+      "word": "politics",
+      "difficulty": "Hard",
+      "related_words": [],
       "clues": [
         {
-          "clue": "Reflective surface, like still water",
+          "clue": "The art of getting what you want without making anyone angry.",
           "type": "Indirect",
-          "points": 6
+          "points": 7
         },
         {
-          "clue": "Object that reflects light",
+          "clue": "The way in which a country is governed.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "The science of government.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "reserve",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A place where things are kept for later use.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A group of people who are available to replace others.",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "Glass surface for reflection",
+          "clue": "A supply of something kept for future use.",
           "type": "Straight",
           "points": 2
         }
       ]
     },
     {
-      "word": "diameter",
-      "difficulty": "Hard",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "Measurement across a circle, passing through its center",
-          "type": "Indirect",
-          "points": 7
-        },
-        {
-          "clue": "Distance across a circular shape",
-          "type": "Suggestive",
-          "points": 4
-        },
-        {
-          "clue": "Length of a line passing through the center of a circle",
-          "type": "Straight",
-          "points": 2
-        }
-      ]
-    },
-    {
-      "word": "length",
+      "word": "paperwork",
       "difficulty": "Intermediate",
       "related_words": [],
       "clues": [
         {
-          "clue": "Distance from one end to the other",
+          "clue": "The documents that need to be completed for a task.",
           "type": "Indirect",
           "points": 6
         },
         {
-          "clue": "Measurement of how long something is",
+          "clue": "Official documents that need to be filled out.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Written documents, especially official ones.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "language",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A system of communication used by humans.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "The way people express their thoughts and ideas.",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "Extent or measurement from end to end",
+          "clue": "A means of communication.",
           "type": "Straight",
-          "points": 2
-        }
-      ]
-    },
-    {
-      "word": "valuable",
-      "difficulty": "Intermediate",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "Worth a great deal, not just in money",
-          "type": "Indirect",
-          "points": 6
-        },
-        {
-          "clue": "Having great worth or importance",
-          "type": "Suggestive",
-          "points": 4
-        },
-        {
-          "clue": "Precious or of great worth",
-          "type": "Straight",
-          "points": 2
-        }
-      ]
-    },
-    {
-      "word": "observations",
-      "difficulty": "Hard",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "Noticing and recording something, often in a scientific way",
-          "type": "Indirect",
-          "points": 7
-        },
-        {
-          "clue": "Act of observing or paying attention",
-          "type": "Suggestive",
-          "points": 4
-        },
-        {
-          "clue": "Scientific recordings or notes",
-          "type": "Straight",
-          "points": 2
-        }
-      ]
-    },
-    {
-      "word": "mounting",
-      "difficulty": "Hard",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "Act of placing or fixing something",
-          "type": "Indirect",
-          "points": 6
-        },
-        {
-          "clue": "Support or fixture for holding something",
-          "type": "Suggestive",
-          "points": 4
-        },
-        {
-          "clue": "Device for holding an object in place",
-          "type": "Straight",
-          "points": 2
-        }
-      ]
-    },
-    {
-      "word": "photographic",
-      "difficulty": "Hard",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "Relating to the art of capturing images with light",
-          "type": "Indirect",
-          "points": 7
-        },
-        {
-          "clue": "Pertaining to the process of taking pictures",
-          "type": "Suggestive",
-          "points": 4
-        },
-        {
-          "clue": "Related to photography",
-          "type": "Straight",
-          "points": 2
+          "points": 1
         }
       ]
     }

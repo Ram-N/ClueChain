@@ -1,225 +1,229 @@
 {
-  "title": "Finding Harmony: A King’s Vision review – some of Charles’s ideas are strangely trippy",
+  "title": "Only Disconnect by By Gary Shteyngart",
   "date": "08-07",
-  "text": "Title: Finding Harmony: A King’s Vision review – some of Charles’s ideas are strangely trippy\n\nTwenty years ago, a film with this level of access to a British monarch would have aired on a terrestrial channel, and people would have watched in their \nmillions, if only for the fact that nothing else was on. Here it will find itself nestled in a submenu alongside MrBeast and an Italian brainrot cartoon. \nWho knows if the king of the United Kingdom can compete with that any more.",
+  "text": "1. \nOnly Disconnect by By Gary Shteyngart\n\nWith each post, each tap of the screen, each drag and click, I am becoming a different person — \nsolitary where I was once gregarious; a content provider where I at least once imagined \nmyself an artist; nervous and constantly updated where I once knew the world through sleepy, half-shut eyes; detail-oriented and productive where I once saw life float by like a gorgeously made documentary film. And, increasingly, irrevocably, I am a stranger to books, to the long-form text, to the pleasures of leaving myself and inhabiting the free-floating consciousness of another. With each passing year, scientists estimate that I lose between 6 and 8 percent of my humanity, so that by the close of this decade you will be able to quantify my personality.\n\n2.",
   "hiddenWords": [
     {
-      "word": "monarch",
-      "difficulty": "Intermediate",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "A ruler with a fancy hat and a lot of power",
-          "type": "Indirect",
-          "points": 6
-        },
-        {
-          "clue": "The head of a kingdom",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "A king or queen",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "terrestrial",
-      "difficulty": "Hard",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "Not from the sky, but from the ground",
-          "type": "Indirect",
-          "points": 7
-        },
-        {
-          "clue": "Relating to the earth",
-          "type": "Suggestive",
-          "points": 4
-        },
-        {
-          "clue": "Land-based",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "channel",
+      "word": "person",
       "difficulty": "Easy",
       "related_words": [],
       "clues": [
         {
-          "clue": "A path for water or a path for sound",
-          "type": "Indirect",
-          "points": 5
+          "clue": "An individual with their own thoughts and feelings.",
+          "type": "Straight",
+          "points": 1
         },
         {
-          "clue": "A medium for broadcasting",
+          "clue": "Someone you might meet in a crowd, but also someone with a unique identity.",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "A TV station",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "millions",
-      "difficulty": "Easy",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "A very large number, almost too big to count",
-          "type": "Indirect",
-          "points": 5
-        },
-        {
-          "clue": "A huge amount of people",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "One million or more",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "submenu",
-      "difficulty": "Intermediate",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "A list within a list, like a matryoshka doll",
+          "clue": "Imagine a puzzle with many pieces; this is what makes the puzzle whole.",
           "type": "Indirect",
           "points": 6
-        },
-        {
-          "clue": "A secondary menu option",
-          "type": "Suggestive",
-          "points": 4
-        },
-        {
-          "clue": "A smaller menu within a larger one",
-          "type": "Straight",
-          "points": 1
         }
       ]
     },
     {
-      "word": "brainrot",
-      "difficulty": "Hard",
-      "related_words": [],
+      "word": "artist",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "documentary"
+      ],
       "clues": [
         {
-          "clue": "What happens when you watch too much TV",
-          "type": "Indirect",
-          "points": 7
-        },
-        {
-          "clue": "Mental decay or deterioration",
-          "type": "Suggestive",
-          "points": 4
-        },
-        {
-          "clue": "A pejorative term for mindless entertainment",
+          "clue": "Creator of something beautiful, often using their imagination.",
           "type": "Straight",
           "points": 2
-        }
-      ]
-    },
-    {
-      "word": "cartoon",
-      "difficulty": "Easy",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "A funny drawing that moves",
-          "type": "Indirect",
-          "points": 5
         },
         {
-          "clue": "An animated film or TV show",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "A humorous or satirical drawing",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "compete",
-      "difficulty": "Intermediate",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "To try to be better than someone or something else",
-          "type": "Indirect",
-          "points": 6
-        },
-        {
-          "clue": "To participate in a contest or rivalry",
+          "clue": "A person who brings new ideas to life through various forms of expression.",
           "type": "Suggestive",
           "points": 4
         },
         {
-          "clue": "To strive against others",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "access",
-      "difficulty": "Intermediate",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "The ability to enter or use something",
-          "type": "Indirect",
-          "points": 6
-        },
-        {
-          "clue": "Permission or opportunity to use or see something",
-          "type": "Suggestive",
-          "points": 4
-        },
-        {
-          "clue": "The right to enter or use something",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "italian",
-      "difficulty": "Easy",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "From a country famous for pizza and pasta",
+          "clue": "Think of someone who paints masterpieces without a brush.",
           "type": "Indirect",
           "points": 5
+        }
+      ]
+    },
+    {
+      "word": "documentary",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "artist"
+      ],
+      "clues": [
+        {
+          "clue": "A film that shows real people and events.",
+          "type": "Straight",
+          "points": 2
         },
         {
-          "clue": "Relating to Italy or its people",
+          "clue": "A type of movie that informs and educates the viewer about a particular subject.",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "From Italy",
+          "clue": "Picture a movie that tells a true story, like a window into another world.",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "word": "humanity",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The quality that makes us different from machines.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "What remains when all the technology is taken away.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "The essence of being alive and having emotions.",
           "type": "Straight",
           "points": 1
+        }
+      ]
+    },
+    {
+      "word": "scientists",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "People who conduct experiments to learn more about the world.",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "Experts who study and analyze data to come to conclusions.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Imagine a group of detectives trying to solve the mystery of the universe.",
+          "type": "Indirect",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "word": "decade",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A period of ten years.",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "A block of time used to measure the passage of years.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Think of a chapter in the book of time.",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "word": "nervous",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Feeling anxious or on edge.",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "A state of being that makes you fidget or feel uneasy.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Imagine a high-strung guitar string, always ready to vibrate.",
+          "type": "Indirect",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "word": "productive",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Able to create or accomplish a lot in a short amount of time.",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "Someone who uses their time efficiently to achieve goals.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Picture a well-oiled machine, working smoothly and effectively.",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "word": "consciousness",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The state of being aware of one's surroundings and thoughts.",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "The quality or state of being aware of something within oneself or in the external environment.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Imagine a river of thoughts and feelings, constantly flowing and changing.",
+          "type": "Indirect",
+          "points": 7
+        }
+      ]
+    },
+    {
+      "word": "percent",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A number or rate expressed as a fraction of 100.",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "A way to show a part of a whole as a fraction of 100.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Picture a pie cut into 100 slices, with some slices missing.",
+          "type": "Indirect",
+          "points": 5
         }
       ]
     }

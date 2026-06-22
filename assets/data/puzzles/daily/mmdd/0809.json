@@ -1,229 +1,233 @@
 {
-  "title": "Television documentary — 1950–1970",
+  "title": "A barber you’d trust with your life",
   "date": "08-09",
-  "text": "Title: Television documentary — 1950–1970\n\nThe origin of television documentary within the United States dates to 1949, depicting a series of wartime memoirs. During the 1950s, prominent commercial broadcasting networks, such as NBC, ABC and CBS, centred their televised documentaries around historical, military, wartime and event-related genres. The 1960s are frequently celebrated as the \"Golden Age\" of television documentary within the United States. At this time, television documentaries began to hold increasing importance within both journalistic and political realms. Notably, the Kennedy administration believed that televised documentaries could contribute towards the American efforts to constrain the growth of communism. Television documentary continued to grow in popularity globally throughout the forthcoming decades. James Chapman notes Royal Family (1969) as \"the best indication of the cultural acceptance\" of television documentary. Following its screening, Royal Family amassed viewership figures of 40 million people globally.",
+  "text": "1. \nA barber you’d trust with your life\nAllowing another man that close to your exposed neck with a blade every fortnight is, when you think about it, an act of extraordinary faith. And yet the greater risk isn’t mortal peril, it’s aesthetic negligence. The horror of being released back into society looking faintly… experimental. The right barber respects this. He considers the slope of your forehead, the ambition of your jawline, the inconvenient cowlick that has derailed lesser men. He works with what you’ve got, not against it.",
   "hiddenWords": [
     {
-      "word": "memoirs",
+      "word": "fortnight",
       "difficulty": "Intermediate",
       "related_words": [],
       "clues": [
         {
-          "clue": "A nostalgic look back at past experiences",
+          "clue": "A time frame that's longer than a week but shorter than a month",
           "type": "Indirect",
           "points": 6
         },
         {
-          "clue": "Personal accounts of significant life events",
+          "clue": "A period of two weeks",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "Written records of a person's life",
+          "clue": "A unit of time equal to 14 days",
           "type": "Straight",
           "points": 1
         }
       ]
     },
     {
-      "word": "networks",
-      "difficulty": "Easy",
-      "related_words": [
-        "broadcasting"
-      ],
-      "clues": [
-        {
-          "clue": "Interconnected systems for sharing information",
-          "type": "Indirect",
-          "points": 5
-        },
-        {
-          "clue": "Groups of people or organizations working together",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "Systems of connected computers or devices",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "broadcasting",
-      "difficulty": "Intermediate",
-      "related_words": [
-        "networks"
-      ],
-      "clues": [
-        {
-          "clue": "The act of sending out messages to a wide audience",
-          "type": "Indirect",
-          "points": 6
-        },
-        {
-          "clue": "A method of sharing information with the public",
-          "type": "Suggestive",
-          "points": 4
-        },
-        {
-          "clue": "The act of transmitting programs or messages",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "genres",
+      "word": "aesthetic",
       "difficulty": "Hard",
-      "related_words": [],
+      "related_words": [
+        "experimental"
+      ],
       "clues": [
         {
-          "clue": "Categories that help us understand and organize things",
+          "clue": "Concerned with the appreciation of beauty",
           "type": "Indirect",
           "points": 7
         },
         {
-          "clue": "Types or styles of creative works",
+          "clue": "Related to the way something looks or is designed",
           "type": "Suggestive",
           "points": 4
         },
         {
-          "clue": "Categories of artistic or literary works",
+          "clue": "Pertaining to the science of beauty",
           "type": "Straight",
           "points": 2
         }
       ]
     },
     {
-      "word": "journalistic",
+      "word": "experimental",
       "difficulty": "Hard",
-      "related_words": [],
+      "related_words": [
+        "aesthetic"
+      ],
       "clues": [
         {
-          "clue": "Relating to the work of gathering and reporting news",
+          "clue": "Trying new and untested things",
           "type": "Indirect",
           "points": 6
         },
         {
-          "clue": "Pertaining to the profession of news reporting",
-          "type": "Suggestive",
-          "points": 4
-        },
-        {
-          "clue": "Of or relating to journalism",
-          "type": "Straight",
-          "points": 2
-        }
-      ]
-    },
-    {
-      "word": "realms",
-      "difficulty": "Intermediate",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "Areas of influence or control",
-          "type": "Indirect",
-          "points": 5
-        },
-        {
-          "clue": "Domains or fields of activity",
+          "clue": "Relating to the process of testing or trying new ideas",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "Spheres of influence or authority",
+          "clue": "Involving the testing of new ideas or methods",
           "type": "Straight",
           "points": 1
         }
       ]
     },
     {
-      "word": "communism",
+      "word": "faith",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A feeling that something will happen or be the case",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Complete trust or confidence in something",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Belief in something without evidence",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "forehead",
+      "difficulty": "Easy",
+      "related_words": [
+        "jawline"
+      ],
+      "clues": [
+        {
+          "clue": "The upper part of the face",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "The part of the face above the eyebrows",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The front of the head above the eyebrows",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "jawline",
+      "difficulty": "Easy",
+      "related_words": [
+        "forehead"
+      ],
+      "clues": [
+        {
+          "clue": "The shape of the lower part of the face",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "The line of the jawbone",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "The edge of the lower jaw",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "horror",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A feeling of intense fear or disgust",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Something that causes a feeling of intense fear",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "An intense feeling of fear or revulsion",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "inconvenient",
       "difficulty": "Hard",
       "related_words": [],
       "clues": [
         {
-          "clue": "A system where everything is shared equally",
+          "clue": "Causing trouble or difficulty",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Not convenient or easy to deal with",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Causing trouble or annoyance",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "negligence",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A lack of proper care or attention",
           "type": "Indirect",
           "points": 7
         },
         {
-          "clue": "A political ideology that emphasizes collective ownership",
+          "clue": "Failure to take proper care or responsibility",
           "type": "Suggestive",
           "points": 4
         },
         {
-          "clue": "A system of government where resources are shared",
+          "clue": "The state of being neglectful",
           "type": "Straight",
           "points": 2
         }
       ]
     },
     {
-      "word": "popularity",
-      "difficulty": "Easy",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "The state of being liked or admired by many people",
-          "type": "Indirect",
-          "points": 5
-        },
-        {
-          "clue": "The quality of being well-liked or in demand",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "The state of being widely accepted or liked",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "viewership",
+      "word": "peril",
       "difficulty": "Intermediate",
       "related_words": [],
       "clues": [
         {
-          "clue": "The number of people watching a particular program",
+          "clue": "A situation of danger or risk",
           "type": "Indirect",
           "points": 6
         },
         {
-          "clue": "The size of an audience for a television show",
-          "type": "Suggestive",
-          "points": 4
-        },
-        {
-          "clue": "The number of people watching a TV program",
-          "type": "Straight",
-          "points": 2
-        }
-      ]
-    },
-    {
-      "word": "acceptance",
-      "difficulty": "Easy",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "The act of receiving something willingly",
-          "type": "Indirect",
-          "points": 5
-        },
-        {
-          "clue": "The state of being approved or recognized",
+          "clue": "A state of danger or uncertainty",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "The act of accepting or approving something",
+          "clue": "A danger or risk of harm",
           "type": "Straight",
-          "points": 1
+          "points": 2
         }
       ]
     }
