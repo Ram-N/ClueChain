@@ -1,6 +1,6 @@
 {
   "id": "ClueChain-2025-07-20",
-  "date": "07-20",
+  "date": "06-26",
   "title": "The Glass Jar by Sylvia Plath (1963)",
   "text": "“It was a queer, sultry summer, the summer they electrocuted the Rosenbergs, and I didn't know what I was doing in New York.”\nSo much of successful storytelling is about establishing time and place, and Plath does this beautifully with her opening line that delivers, if not an actual date and address, about as close as you can come. Her novel explores this clearly unsure narrator’s descent into depression, partly due to societal expectations.",
   "hiddenWords": [
@@ -24,7 +24,9 @@
           "points": 1
         }
       ],
-      "related_words": ["summer"]
+      "related_words": [
+        "summer"
+      ]
     },
     {
       "word": "summer",
@@ -46,7 +48,9 @@
           "points": 1
         }
       ],
-      "related_words": ["sultry"]
+      "related_words": [
+        "sultry"
+      ]
     },
     {
       "word": "electrocuted",
@@ -134,7 +138,10 @@
           "points": 2
         }
       ],
-      "related_words": ["time", "place"]
+      "related_words": [
+        "time",
+        "place"
+      ]
     },
     {
       "word": "time",
@@ -156,7 +163,10 @@
           "points": 1
         }
       ],
-      "related_words": ["establishing", "place"]
+      "related_words": [
+        "establishing",
+        "place"
+      ]
     },
     {
       "word": "place",
@@ -178,7 +188,10 @@
           "points": 1
         }
       ],
-      "related_words": ["establishing", "time"]
+      "related_words": [
+        "establishing",
+        "time"
+      ]
     },
     {
       "word": "explores",
@@ -200,7 +213,9 @@
           "points": 1
         }
       ],
-      "related_words": ["descent"]
+      "related_words": [
+        "descent"
+      ]
     },
     {
       "word": "descent",
@@ -222,7 +237,9 @@
           "points": 2
         }
       ],
-      "related_words": ["explores"]
+      "related_words": [
+        "explores"
+      ]
     }
   ]
 }

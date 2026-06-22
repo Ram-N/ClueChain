@@ -1,239 +1,248 @@
 {
-  "title": "The Bell System Science Series — Hemo the Magnificent (1957)",
+  "id": "ClueChain-2025-07-18",
   "date": "04-09",
-  "text": "Hemo the Magnificent is an examination of what the circulatory system is and how it works. It was written and directed by Frank Capra, and starred Frank C. Baxter as Dr. Research, Richard Carlson as the Fiction Writer, Sterling Holloway as the lab assistant, Mel Blanc as the squirrel, June Foray as the deer, and Marvin Miller as Hemo. This film was first broadcast on March 20, 1957, at 9:00 p.m. This was a better hour for a family program than used for Our Mr. Sun, and the program had more viewers than those being broadcast on the two other major television networks.",
+  "title": "Fear and Loathing in Las Vegas by Hunter S. Thompson (1971)",
+  "text": "“We were somewhere around Barstow on the edge of the desert when the drugs began to take hold.”\nIf the title wasn’t enough to warn the reader, the first line tips it—this is not a book for the faint of heart. The narrator is going on two trips, one from the drugs, one to the edge of the desert, and neither seems well-planned. The book follows the journalist’s epic journeys.",
   "hiddenWords": [
     {
-      "word": "circulatory",
-      "difficulty": "Hard",
-      "related_words": [],
+      "word": "somewhere",
+      "difficulty": "Intermediate",
       "clues": [
         {
-          "clue": "Life-giving network that's always on the move, like a river with many tributaries",
           "type": "Indirect",
-          "points": 6
-        },
-        {
-          "clue": "System that transports essential nutrients and oxygen",
-          "type": "Suggestive",
-          "points": 4
-        },
-        {
-          "clue": "Relating to the circulation of blood",
-          "type": "Straight",
-          "points": 2
-        }
-      ]
-    },
-    {
-      "word": "broadcast",
-      "difficulty": "Easy",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "A message sent out to many, like seeds spread by the wind",
-          "type": "Indirect",
+          "clue": "An unspecified location, a place unknown, a point on the map, uniquely shown.",
           "points": 5
         },
         {
-          "clue": "Transmitting a program for public reception",
           "type": "Suggestive",
+          "clue": "In, at, or to some unspecified or unknown place.",
           "points": 3
         },
         {
-          "clue": "To transmit a program on television or radio",
           "type": "Straight",
+          "clue": "In or to an unspecified or unknown place.",
           "points": 1
         }
+      ],
+      "related_words": [
+        "edge"
       ]
     },
     {
-      "word": "assistant",
-      "difficulty": "Intermediate",
-      "related_words": [],
+      "word": "edge",
+      "difficulty": "Easy",
       "clues": [
         {
-          "clue": "A helping hand, like a trusted sidekick",
           "type": "Indirect",
-          "points": 6
-        },
-        {
-          "clue": "A person who helps another, often in a subordinate role",
-          "type": "Suggestive",
+          "clue": "A sharp border, a precipice's view, where beginnings meet ends, forever new.",
           "points": 4
         },
         {
-          "clue": "One who assists or helps",
-          "type": "Straight",
+          "type": "Suggestive",
+          "clue": "The outside limit of an object, surface, or area.",
           "points": 2
+        },
+        {
+          "type": "Straight",
+          "clue": "The outside limit of an object, area, or surface; a place or part farthest away from the center of a thing.",
+          "points": 1
         }
+      ],
+      "related_words": [
+        "somewhere",
+        "desert"
       ]
     },
     {
-      "word": "examination",
-      "difficulty": "Hard",
-      "related_words": [],
+      "word": "desert",
+      "difficulty": "Intermediate",
       "clues": [
         {
-          "clue": "A thorough investigation, like a detective searching for clues",
           "type": "Indirect",
+          "clue": "A vast expanse, dry and bare, where life finds solace, beyond compare.",
+          "points": 5
+        },
+        {
+          "type": "Suggestive",
+          "clue": "A dry, barren area of land, especially one where it is hot and has little or no vegetation.",
+          "points": 3
+        },
+        {
+          "type": "Straight",
+          "clue": "A barren or desolate area, especially one with very little rainfall.",
+          "points": 1
+        }
+      ],
+      "related_words": [
+        "edge"
+      ]
+    },
+    {
+      "word": "drugs",
+      "difficulty": "Intermediate",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "They can heal or harm, a double-edged sword, altering perceptions, to be adored or abhorred.",
+          "points": 5
+        },
+        {
+          "type": "Suggestive",
+          "clue": "Substances that have a physiological effect when ingested, often used for medicine or recreation.",
+          "points": 3
+        },
+        {
+          "type": "Straight",
+          "clue": "Medicines or other substances which have a physiological effect when ingested or otherwise introduced into the body.",
+          "points": 1
+        }
+      ],
+      "related_words": [
+        "take"
+      ]
+    },
+    {
+      "word": "take",
+      "difficulty": "Easy",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "To grasp or seize, to capture or hold, a possession acquired, brave and bold.",
+          "points": 4
+        },
+        {
+          "type": "Suggestive",
+          "clue": "To lay hold of something with one's hands; to pick up.",
+          "points": 2
+        },
+        {
+          "type": "Straight",
+          "clue": "To lay hold of (something) with one's hands; pick up.",
+          "points": 1
+        }
+      ],
+      "related_words": [
+        "drugs",
+        "hold"
+      ]
+    },
+    {
+      "word": "hold",
+      "difficulty": "Easy",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "To retain a grip, to possess with might, maintaining control, through day and night.",
+          "points": 4
+        },
+        {
+          "type": "Suggestive",
+          "clue": "To keep or grasp in one's hand; to maintain a position or belief.",
+          "points": 2
+        },
+        {
+          "type": "Straight",
+          "clue": "Grasp, carry, or support with one's hands.",
+          "points": 1
+        }
+      ],
+      "related_words": [
+        "take"
+      ]
+    },
+    {
+      "word": "warn",
+      "difficulty": "Intermediate",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "To give notice, a cautionary sign, alerting to danger, a protective design.",
+          "points": 5
+        },
+        {
+          "type": "Suggestive",
+          "clue": "To tell someone about possible danger or trouble.",
+          "points": 3
+        },
+        {
+          "type": "Straight",
+          "clue": "To inform someone in advance of a possible danger, problem, or other unpleasant situation.",
+          "points": 1
+        }
+      ],
+      "related_words": []
+    },
+    {
+      "word": "faint",
+      "difficulty": "Hard",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "Barely perceptible, a whisper in the breeze, or losing consciousness, brought to your knees.",
           "points": 7
         },
         {
-          "clue": "A detailed analysis or study",
           "type": "Suggestive",
+          "clue": "Lacking strength or vigor; feeling dizzy or about to lose consciousness.",
           "points": 4
         },
         {
-          "clue": "The act of examining something closely",
           "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "fiction",
-      "difficulty": "Intermediate",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "A made-up story, like a dream that's hard to shake",
-          "type": "Indirect",
-          "points": 5
-        },
-        {
-          "clue": "A literary work that's not based on fact",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "A product of imagination, not fact",
-          "type": "Straight",
+          "clue": "Lacking clarity or strength; weak.",
           "points": 2
         }
-      ]
-    },
-    {
-      "word": "network",
-      "difficulty": "Hard",
-      "related_words": [
-        "broadcast"
       ],
-      "clues": [
-        {
-          "clue": "A complex web of connections, like threads in a tapestry",
-          "type": "Indirect",
-          "points": 6
-        },
-        {
-          "clue": "A system of interconnected things",
-          "type": "Suggestive",
-          "points": 4
-        },
-        {
-          "clue": "A group of connected computers or telecommunication systems",
-          "type": "Straight",
-          "points": 1
-        }
+      "related_words": [
+        "heart"
       ]
     },
     {
-      "word": "program",
+      "word": "heart",
       "difficulty": "Easy",
-      "related_words": [
-        "broadcast"
-      ],
       "clues": [
         {
-          "clue": "A set of instructions, like a recipe for success",
           "type": "Indirect",
-          "points": 5
-        },
-        {
-          "clue": "A planned series of events or activities",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "A television or radio show",
-          "type": "Straight",
-          "points": 2
-        }
-      ]
-    },
-    {
-      "word": "starred",
-      "difficulty": "Intermediate",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "Shone brightly, like a celebrity on the red carpet",
-          "type": "Indirect",
-          "points": 6
-        },
-        {
-          "clue": "Featured or played a major role",
-          "type": "Suggestive",
+          "clue": "The core of emotion, a vital beat, pumping life's rhythm, oh so sweet.",
           "points": 4
         },
         {
-          "clue": "Had a starring role in a movie or play",
+          "type": "Suggestive",
+          "clue": "The muscular organ that pumps blood, often associated with emotions.",
+          "points": 2
+        },
+        {
           "type": "Straight",
+          "clue": "A hollow muscular organ that pumps the blood through the circulatory system.",
           "points": 1
         }
+      ],
+      "related_words": [
+        "faint"
       ]
     },
     {
-      "word": "television",
-      "difficulty": "Easy",
-      "related_words": [
-        "broadcast",
-        "network",
-        "program"
-      ],
+      "word": "journeys",
+      "difficulty": "Intermediate",
       "clues": [
         {
-          "clue": "A box that brings the world into your living room",
           "type": "Indirect",
+          "clue": "Expeditions taken, through lands afar, adventures unfolding, guided by a star.",
           "points": 5
         },
         {
-          "clue": "An electronic device for receiving video and audio signals",
           "type": "Suggestive",
+          "clue": "Acts of traveling from one place to another, usually over a fairly long distance.",
           "points": 3
         },
         {
-          "clue": "A device for watching TV shows and movies",
           "type": "Straight",
+          "clue": "Acts of traveling from one place to another.",
           "points": 1
         }
-      ]
-    },
-    {
-      "word": "viewers",
-      "difficulty": "Intermediate",
-      "related_words": [
-        "broadcast",
-        "television"
       ],
-      "clues": [
-        {
-          "clue": "People who watch, like an audience at a play",
-          "type": "Indirect",
-          "points": 6
-        },
-        {
-          "clue": "Those who watch a television program or film",
-          "type": "Suggestive",
-          "points": 4
-        },
-        {
-          "clue": "People who look at or watch something",
-          "type": "Straight",
-          "points": 2
-        }
+      "related_words": [
+        "trips"
       ]
     }
-  ],
-  "id": "ClueChain-2026-04-09"
+  ]
 }

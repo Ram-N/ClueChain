@@ -1,6 +1,6 @@
 {
   "id": "ClueChain-2025-07-17",
-  "date": "07-17",
+  "date": "03-09",
   "title": "Their Eyes Were Watching God by Zora Neale Hurston (1937)",
   "text": "“Ships at a distance have every man's wish on board.”\nNeale Hurston’s writing style is pure poetry, and this opener captures the romance of the unknown. When you can’t touch something, it always carries the promise of being exactly what you want; but no “ship” grants everyone’s wish. This treatise on gender and race inequality follows Janie as she falls in love with Tea Cake.",
   "hiddenWords": [
@@ -24,7 +24,9 @@
           "points": 1
         }
       ],
-      "related_words": ["board"]
+      "related_words": [
+        "board"
+      ]
     },
     {
       "word": "distance",
@@ -46,7 +48,9 @@
           "points": 1
         }
       ],
-      "related_words": ["unknown"]
+      "related_words": [
+        "unknown"
+      ]
     },
     {
       "word": "wish",
@@ -68,7 +72,9 @@
           "points": 1
         }
       ],
-      "related_words": ["promise"]
+      "related_words": [
+        "promise"
+      ]
     },
     {
       "word": "board",
@@ -90,7 +96,9 @@
           "points": 1
         }
       ],
-      "related_words": ["ships"]
+      "related_words": [
+        "ships"
+      ]
     },
     {
       "word": "writing",
@@ -112,7 +120,9 @@
           "points": 1
         }
       ],
-      "related_words": ["poetry"]
+      "related_words": [
+        "poetry"
+      ]
     },
     {
       "word": "poetry",
@@ -134,7 +144,9 @@
           "points": 1
         }
       ],
-      "related_words": ["writing"]
+      "related_words": [
+        "writing"
+      ]
     },
     {
       "word": "unknown",
@@ -156,7 +168,9 @@
           "points": 2
         }
       ],
-      "related_words": ["distance"]
+      "related_words": [
+        "distance"
+      ]
     },
     {
       "word": "promise",
@@ -178,7 +192,9 @@
           "points": 1
         }
       ],
-      "related_words": ["wish"]
+      "related_words": [
+        "wish"
+      ]
     },
     {
       "word": "treatise",
@@ -200,7 +216,9 @@
           "points": 2
         }
       ],
-      "related_words": ["gender"]
+      "related_words": [
+        "gender"
+      ]
     },
     {
       "word": "gender",
@@ -222,7 +240,9 @@
           "points": 1
         }
       ],
-      "related_words": ["treatise"]
+      "related_words": [
+        "treatise"
+      ]
     }
   ]
 }

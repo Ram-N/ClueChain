@@ -1,237 +1,245 @@
 {
-  "title": "Robotics — Further reading",
+  "id": "ClueChain-2025-07-20",
   "date": "06-26",
-  "text": "Title: Robotics — Further reading\n\nR. Andrew Russell (1990). Robot Tactile Sensing. New York: Prentice Hall. ISBN 978-0-13-781592-0. McGaughey, Ewan (16 October 2019). \"Will robots automate your job away? Full employment, basic income, and economic democracy\". LawArXiv Papers. doi:10.31228/osf.io/udbj8. S2CID 243172487. SSRN 3044448. Autor, David H. (1 August 2015). \"Why Are There Still So Many Jobs? The History and Future of Workplace Automation\". Journal of Economic Perspectives. 29 (3): 3–30. doi:10.1257/jep.29.3.3. hdl:1721.1/109476. Tooze, Adam (6 June 2019). \"Democracy and Its Discontents\". The New York Review of Books. Vol. 66, no. 10.",
+  "title": "The Glass Jar by Sylvia Plath (1963)",
+  "text": "“It was a queer, sultry summer, the summer they electrocuted the Rosenbergs, and I didn't know what I was doing in New York.”\nSo much of successful storytelling is about establishing time and place, and Plath does this beautifully with her opening line that delivers, if not an actual date and address, about as close as you can come. Her novel explores this clearly unsure narrator’s descent into depression, partly due to societal expectations.",
   "hiddenWords": [
     {
-      "word": "sensing",
-      "difficulty": "Easy",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "It's how we perceive the world around us, a way of feeling and knowing.",
-          "type": "Indirect",
-          "points": 6
-        },
-        {
-          "clue": "This word is related to the way robots interact with their environment.",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "The act of perceiving or feeling something.",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "automation",
+      "word": "sultry",
       "difficulty": "Intermediate",
-      "related_words": [
-        "jobs",
-        "employment"
-      ],
       "clues": [
         {
-          "clue": "A process that's changing the face of work, making some tasks obsolete.",
           "type": "Indirect",
+          "clue": "Hot and humid, a stifling embrace, or alluringly passionate, with a certain grace.",
           "points": 5
         },
         {
-          "clue": "This concept is closely tied to the idea of machines performing tasks on their own.",
           "type": "Suggestive",
-          "points": 4
-        },
-        {
-          "clue": "The use of machines or computers to control and operate something.",
-          "type": "Straight",
-          "points": 2
-        }
-      ]
-    },
-    {
-      "word": "jobs",
-      "difficulty": "Intermediate",
-      "related_words": [
-        "automation",
-        "employment"
-      ],
-      "clues": [
-        {
-          "clue": "The things we do to earn a living, but will they still exist in the future?",
-          "type": "Indirect",
-          "points": 6
-        },
-        {
-          "clue": "These are the positions or roles that people occupy in the workforce.",
-          "type": "Suggestive",
+          "clue": "Describes weather that is hot and humid, or a person who is attractive in a passionate way.",
           "points": 3
         },
         {
-          "clue": "A regular activity performed in exchange for payment.",
           "type": "Straight",
+          "clue": "(Of the air or weather) hot and humid.",
           "points": 1
         }
-      ]
-    },
-    {
-      "word": "employment",
-      "difficulty": "Intermediate",
-      "related_words": [
-        "jobs",
-        "automation"
       ],
-      "clues": [
-        {
-          "clue": "The state of having a job or being paid to work, but what happens when machines take over?",
-          "type": "Indirect",
-          "points": 5
-        },
-        {
-          "clue": "This term refers to the act of giving someone a job or position.",
-          "type": "Suggestive",
-          "points": 4
-        },
-        {
-          "clue": "The act of having a paid job or position.",
-          "type": "Straight",
-          "points": 2
-        }
+      "related_words": [
+        "summer"
       ]
     },
     {
-      "word": "income",
+      "word": "summer",
       "difficulty": "Easy",
-      "related_words": [],
       "clues": [
         {
-          "clue": "The money that comes in, but will it be enough in a world of automation?",
           "type": "Indirect",
-          "points": 6
+          "clue": "The season of sun, of long days and bright, where warmth embraces, dispelling the night.",
+          "points": 4
         },
         {
-          "clue": "This is the amount of money received, especially on a regular basis.",
           "type": "Suggestive",
-          "points": 3
+          "clue": "The warmest season of the year, between spring and autumn.",
+          "points": 2
         },
         {
-          "clue": "Money earned or received, especially on a regular basis.",
           "type": "Straight",
+          "clue": "The warmest season of the year, in the northern hemisphere from June to August and in the southern hemisphere from December to February.",
           "points": 1
         }
+      ],
+      "related_words": [
+        "sultry"
       ]
     },
     {
-      "word": "perspectives",
+      "word": "electrocuted",
       "difficulty": "Hard",
-      "related_words": [],
       "clues": [
         {
-          "clue": "Different ways of looking at things, like angles on a puzzle.",
           "type": "Indirect",
+          "clue": "Given a shocking end, by currents strong, life's final spark, where nothing can go wrong, but wrong it went.",
           "points": 7
         },
         {
-          "clue": "These are the points of view or opinions on a particular subject.",
           "type": "Suggestive",
+          "clue": "Killed by electric shock.",
           "points": 4
         },
         {
-          "clue": "A particular attitude or point of view.",
           "type": "Straight",
+          "clue": "Killed (someone) by electric shock.",
           "points": 2
         }
-      ]
+      ],
+      "related_words": []
     },
     {
-      "word": "democracy",
-      "difficulty": "Intermediate",
-      "related_words": [],
+      "word": "knew",
+      "difficulty": "Easy",
       "clues": [
         {
-          "clue": "A system where power is held by the people, but can it survive in a world of automation?",
           "type": "Indirect",
+          "clue": "Past tense of understanding, a fact once grasped, knowledge acquired, firmly clasped.",
+          "points": 4
+        },
+        {
+          "type": "Suggestive",
+          "clue": "Had information or understanding about something.",
+          "points": 2
+        },
+        {
+          "type": "Straight",
+          "clue": "Past tense of know; had information or understanding.",
+          "points": 1
+        }
+      ],
+      "related_words": []
+    },
+    {
+      "word": "storytelling",
+      "difficulty": "Intermediate",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "The ancient art, weaving tales from afar, engaging listeners, like a guiding star.",
           "points": 5
         },
         {
-          "clue": "This is a system of government where power is held by the people.",
           "type": "Suggestive",
+          "clue": "The activity of telling or writing stories.",
           "points": 3
         },
         {
-          "clue": "A system of government in which power is vested in the people.",
           "type": "Straight",
+          "clue": "The activity or occupation of composing text for books, articles, etc.",
           "points": 1
         }
-      ]
+      ],
+      "related_words": []
     },
     {
-      "word": "review",
-      "difficulty": "Easy",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "A look back at something, like a book or a movie.",
-          "type": "Indirect",
-          "points": 6
-        },
-        {
-          "clue": "This is an evaluation or assessment of something, like a book or a performance.",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "An evaluation or assessment of something.",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "economic",
+      "word": "establishing",
       "difficulty": "Hard",
-      "related_words": [],
       "clues": [
         {
-          "clue": "The study of money and trade, but also a way of life.",
           "type": "Indirect",
+          "clue": "Laying foundations, setting things firm, creating a basis, weathering life's storm.",
           "points": 7
         },
         {
-          "clue": "This term refers to the production, distribution, and consumption of goods and services.",
           "type": "Suggestive",
+          "clue": "To set up (an organization, system, or set of rules) on a firm or permanent basis.",
           "points": 4
         },
         {
-          "clue": "Relating to the economy or the study of economics.",
           "type": "Straight",
+          "clue": "Setting up (an organization, system, or set of rules) on a firm or permanent basis.",
           "points": 2
         }
+      ],
+      "related_words": [
+        "time",
+        "place"
       ]
     },
     {
-      "word": "future",
+      "word": "time",
       "difficulty": "Easy",
-      "related_words": [],
       "clues": [
         {
-          "clue": "The time that is yet to come, full of possibilities and uncertainties.",
           "type": "Indirect",
-          "points": 6
+          "clue": "A flowing river, forever unbound, measuring moments, without a sound.",
+          "points": 4
         },
         {
-          "clue": "This is the period of time that has not yet happened.",
           "type": "Suggestive",
+          "clue": "The indefinite continued progress of existence and events in the past, present, and future regarded as a whole.",
+          "points": 2
+        },
+        {
+          "type": "Straight",
+          "clue": "The indefinite continued progress of existence and events.",
+          "points": 1
+        }
+      ],
+      "related_words": [
+        "establishing",
+        "place"
+      ]
+    },
+    {
+      "word": "place",
+      "difficulty": "Easy",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "A specific location, a spatial design, where events unfold, in every line.",
+          "points": 4
+        },
+        {
+          "type": "Suggestive",
+          "clue": "A particular position, point, or area in space; a location.",
+          "points": 2
+        },
+        {
+          "type": "Straight",
+          "clue": "A particular position, point, or area in space; a location.",
+          "points": 1
+        }
+      ],
+      "related_words": [
+        "establishing",
+        "time"
+      ]
+    },
+    {
+      "word": "explores",
+      "difficulty": "Intermediate",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "Ventures into the depths, a journey of thought, uncovering insights, carefully sought.",
+          "points": 5
+        },
+        {
+          "type": "Suggestive",
+          "clue": "To travel in or through (an unfamiliar country or area) in order to learn about or familiarize oneself with it.",
           "points": 3
         },
         {
-          "clue": "The time that is to come.",
           "type": "Straight",
+          "clue": "Travels in or through (an unfamiliar country or area) in order to learn about or familiarize oneself with it.",
           "points": 1
         }
+      ],
+      "related_words": [
+        "descent"
+      ]
+    },
+    {
+      "word": "descent",
+      "difficulty": "Hard",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "A downward path, a lowering of state, a genetic lineage, sealed by fate.",
+          "points": 7
+        },
+        {
+          "type": "Suggestive",
+          "clue": "An act of moving downwards, or a decline to a lower state.",
+          "points": 4
+        },
+        {
+          "type": "Straight",
+          "clue": "An act of moving downwards, dropping, or falling.",
+          "points": 2
+        }
+      ],
+      "related_words": [
+        "explores"
       ]
     }
-  ],
-  "id": "ClueChain-2026-06-26"
+  ]
 }

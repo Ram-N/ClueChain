@@ -1,6 +1,6 @@
 {
   "id": "ClueChain-2025-07-21",
-  "date": "07-21",
+  "date": "02-07",
   "title": "A Wrinkle in Time by Madeleine L'Engle (1962)",
   "text": "“It was a dark and stormy night.”\nThis line has become cliché for a reason—it perfectly sets tone, mood and expectations for this novel about a young girl’s quest to find her lost father. The guileless tone and straightforward description (nothing flowery) create expectations that L’Engle fulfills for a thrilling yet winnable adventure.",
   "hiddenWords": [
@@ -24,7 +24,10 @@
           "points": 1
         }
       ],
-      "related_words": ["stormy", "night"]
+      "related_words": [
+        "stormy",
+        "night"
+      ]
     },
     {
       "word": "stormy",
@@ -46,7 +49,10 @@
           "points": 1
         }
       ],
-      "related_words": ["dark", "night"]
+      "related_words": [
+        "dark",
+        "night"
+      ]
     },
     {
       "word": "night",
@@ -68,7 +74,10 @@
           "points": 1
         }
       ],
-      "related_words": ["dark", "stormy"]
+      "related_words": [
+        "dark",
+        "stormy"
+      ]
     },
     {
       "word": "cliché",
@@ -112,7 +121,10 @@
           "points": 1
         }
       ],
-      "related_words": ["tone", "mood"]
+      "related_words": [
+        "tone",
+        "mood"
+      ]
     },
     {
       "word": "tone",
@@ -134,7 +146,10 @@
           "points": 1
         }
       ],
-      "related_words": ["sets", "mood"]
+      "related_words": [
+        "sets",
+        "mood"
+      ]
     },
     {
       "word": "mood",
@@ -156,7 +171,10 @@
           "points": 1
         }
       ],
-      "related_words": ["sets", "tone"]
+      "related_words": [
+        "sets",
+        "tone"
+      ]
     },
     {
       "word": "expectations",
@@ -200,7 +218,9 @@
           "points": 1
         }
       ],
-      "related_words": ["adventure"]
+      "related_words": [
+        "adventure"
+      ]
     },
     {
       "word": "adventure",
@@ -222,7 +242,9 @@
           "points": 1
         }
       ],
-      "related_words": ["quest"]
+      "related_words": [
+        "quest"
+      ]
     }
   ]
 }

@@ -1,0 +1,239 @@
+{
+  "title": "The Bell System Science Series — Hemo the Magnificent (1957)",
+  "date": "04-09",
+  "text": "Hemo the Magnificent is an examination of what the circulatory system is and how it works. It was written and directed by Frank Capra, and starred Frank C. Baxter as Dr. Research, Richard Carlson as the Fiction Writer, Sterling Holloway as the lab assistant, Mel Blanc as the squirrel, June Foray as the deer, and Marvin Miller as Hemo. This film was first broadcast on March 20, 1957, at 9:00 p.m. This was a better hour for a family program than used for Our Mr. Sun, and the program had more viewers than those being broadcast on the two other major television networks.",
+  "hiddenWords": [
+    {
+      "word": "circulatory",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Life-giving network that's always on the move, like a river with many tributaries",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "System that transports essential nutrients and oxygen",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Relating to the circulation of blood",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "broadcast",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A message sent out to many, like seeds spread by the wind",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Transmitting a program for public reception",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "To transmit a program on television or radio",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "assistant",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A helping hand, like a trusted sidekick",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A person who helps another, often in a subordinate role",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "One who assists or helps",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "examination",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A thorough investigation, like a detective searching for clues",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "A detailed analysis or study",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "The act of examining something closely",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "fiction",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A made-up story, like a dream that's hard to shake",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A literary work that's not based on fact",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A product of imagination, not fact",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "network",
+      "difficulty": "Hard",
+      "related_words": [
+        "broadcast"
+      ],
+      "clues": [
+        {
+          "clue": "A complex web of connections, like threads in a tapestry",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A system of interconnected things",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A group of connected computers or telecommunication systems",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "program",
+      "difficulty": "Easy",
+      "related_words": [
+        "broadcast"
+      ],
+      "clues": [
+        {
+          "clue": "A set of instructions, like a recipe for success",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A planned series of events or activities",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A television or radio show",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "starred",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Shone brightly, like a celebrity on the red carpet",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Featured or played a major role",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Had a starring role in a movie or play",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "television",
+      "difficulty": "Easy",
+      "related_words": [
+        "broadcast",
+        "network",
+        "program"
+      ],
+      "clues": [
+        {
+          "clue": "A box that brings the world into your living room",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "An electronic device for receiving video and audio signals",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A device for watching TV shows and movies",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "viewers",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "broadcast",
+        "television"
+      ],
+      "clues": [
+        {
+          "clue": "People who watch, like an audience at a play",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Those who watch a television program or film",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "People who look at or watch something",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-04-09"
+}

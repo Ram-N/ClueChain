@@ -1,0 +1,246 @@
+{
+  "title": "Documentary film — Documentaries without words",
+  "date": "03-09",
+  "text": "Title: Documentary film — Documentaries without words\n\nFilms in the documentary form without words have been made. Listen to Britain, directed by Humphrey Jennings and Stuart McAllister \nin 1942, is a wordless meditation on wartime Britain. From 1982, the Qatsi trilogy and the similar Baraka could be described as visual tone poems, with music related to the images, but no spoken content. Koyaanisqatsi (part of the Qatsi trilogy) consists primarily of slow motion and time-lapse photography of cities and many natural landscapes across the United States. Baraka tries to capture the great pulse of humanity as it flocks and swarms in daily activity and religious ceremonies. Bodysong was made in 2003 and won a British Independent Film Award for \"Best British Documentary.\" The 2004 film Genesis shows animal and plant life in states of expansion, decay, sex, and death, with some, but little, narration.",
+  "hiddenWords": [
+    {
+      "word": "meditation",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A state of deep reflection, often used in mindfulness practices.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A practice that helps calm the mind and focus thoughts.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A period of contemplation or reflection.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "trilogy",
+      "difficulty": "Easy",
+      "related_words": [
+        "film",
+        "series"
+      ],
+      "clues": [
+        {
+          "clue": "A set of three connected artistic works, like books or movies.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A series of three related works, often in the arts.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A set of three works, especially novels or films.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "poems",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Artistic expressions that use language in a creative way.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Compositions that use rhythm and language to evoke emotions.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Literary works that use aesthetic language.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "photography",
+      "difficulty": "Hard",
+      "related_words": [
+        "film",
+        "images"
+      ],
+      "clues": [
+        {
+          "clue": "Capturing life's moments, one frame at a time, without a single word.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "The art of taking pictures, often used to tell stories.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The process of creating images using a camera.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "pulse",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A rhythmic beat that signifies life and energy.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A vital sign that indicates the health of a living being.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "The rhythmical throbbing of the heart.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "expansion",
+      "difficulty": "Hard",
+      "related_words": [
+        "growth",
+        "decay"
+      ],
+      "clues": [
+        {
+          "clue": "A process that increases size or extent, often naturally.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "The act of becoming larger or more extensive.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The process of increasing in size or amount.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "decay",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "expansion",
+        "growth"
+      ],
+      "clues": [
+        {
+          "clue": "A process of deterioration, often due to natural causes.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "The state of something falling into disrepair or rot.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "The process of something becoming rotten or spoiled.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "award",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A recognition given for outstanding achievement.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A prize or honor given for excellence.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A prize or reward for achievement.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "genesis",
+      "difficulty": "Hard",
+      "related_words": [
+        "expansion",
+        "decay"
+      ],
+      "clues": [
+        {
+          "clue": "The origin or beginning of something, often complex.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "The process of coming into being or formation.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "The origin or creation of something.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "narration",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "film",
+        "story"
+      ],
+      "clues": [
+        {
+          "clue": "The act of telling a story, often through spoken words.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "The process of giving a commentary or explanation.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The act of telling a story, often in a film or book.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-03-09"
+}

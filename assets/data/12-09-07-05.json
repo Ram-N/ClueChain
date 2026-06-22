@@ -1,7 +1,7 @@
 {
   "title": "Frederick Douglass's Fourth of July Speech ClueChain",
   "id": "douglass-speech-cluechain-2025-07-01",
-  "date": "07-05",
+  "date": "12-09",
   "text": "On July 5, 1852, Frederick Douglass gave a keynote address at an Independence Day celebration and asked, “What to the Slave is the Fourth of July?” Douglass was a powerful orator, often traveling six months out of the year to give lectures on abolition. His speech, given at an event commemorating the signing of the Declaration of Independence, was held at Corinthian Hall in Rochester, New York. It was a scathing speech in which Douglass stated, “This Fourth of July is yours, not mine, You may rejoice, I must mourn.”",
   "hiddenWords": [
     {
@@ -46,7 +46,9 @@
           "points": 1
         }
       ],
-      "related_words": ["Fourth"]
+      "related_words": [
+        "Fourth"
+      ]
     },
     {
       "word": "Orator",
@@ -134,7 +136,9 @@
           "points": 1
         }
       ],
-      "related_words": ["Mourn"]
+      "related_words": [
+        "Mourn"
+      ]
     },
     {
       "word": "Mourn",
@@ -156,7 +160,9 @@
           "points": 1
         }
       ],
-      "related_words": ["Rejoice"]
+      "related_words": [
+        "Rejoice"
+      ]
     },
     {
       "word": "Fourth",
@@ -178,7 +184,9 @@
           "points": 1
         }
       ],
-      "related_words": ["July"]
+      "related_words": [
+        "July"
+      ]
     },
     {
       "word": "Address",

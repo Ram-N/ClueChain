@@ -1,232 +1,237 @@
 {
-  "title": "Manifest destiny — Journal articles",
+  "title": "Being born in the wrong ZIP code can shorten your life",
   "date": "04-28",
-  "text": "Title: Manifest destiny — Journal articles\n\nVictor, Frances Fuller (August 1869). \"Manifest Destiny in the West\" . Overland Monthly. 3 (2). Dunning, Mike (2001). \"Manifest Destiny and the Trans-Mississippi South: Natural Laws and the Extension of Slavery into Mexico\". Journal of Popular Culture. 35 (2): 111–127. doi:10.1111/j.0022-3840.2001.00111.x. ISSN 0022-3840. Fulltext: Ebsco. Pinheiro, John C (2003). ''Religion Without Restriction'': Anti-catholicism, All Mexico, and the Treaty of Guadalupe Hidalgo\". Journal of the Early Republic. 23 (1): 69–96. doi:10.2307/3124986. ISSN 0275-1275. JSTOR 3124986. Sampson, Robert D (2002). \"The Pacifist-reform Roots of John L. O'Sullivan's Manifest Destiny\". Mid-America. 84 (1–3): 129–144. ISSN 0026-2927.",
+  "text": "Being born in the wrong ZIP code can shorten your life\nSalon.com\n\nHowever, life expectancy varies widely across geography. A child born in Mississippi today could expect to never \nreach his or her 75th birthday. But a child born in California, Hawaii or New York could expect to reach their expect to live into the early 80s.\n\nAt the neighborhood level, these differences are sometimes even more drastic, appearing even when communities are only a few miles apart. In Washington, D.C., for example, people living in the Barry Farms neighborhood face a life expectancy of 63.2 years. Yet, less than 10 miles away, a baby born in Friendship Heights and Friendship Village can expect to live 96.1 year, according to CDC data.\n\nJust 10 miles represent a life expectancy difference of almost 33 years, a generation lost due to premature deaths. Overall, any two census tracts in the U.S. can differ in expected life expectancy by 41.2 years, a staggering range. \nThese missing lives have important social and economic costs, for families, communities and workplaces.",
   "hiddenWords": [
     {
-      "word": "culture",
+      "word": "life",
       "difficulty": "Easy",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "It's the way we live and think, a shared attitude that's quite unique.",
-          "type": "Indirect",
-          "points": 6
-        },
-        {
-          "clue": "This is the social behavior and norms found in human societies.",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "The arts, customs, and achievements of a particular civilization.",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "monthly",
-      "difficulty": "Easy",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "A magazine that comes out once a month might be called this.",
-          "type": "Indirect",
-          "points": 5
-        },
-        {
-          "clue": "It refers to something that happens or is published every month.",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "A periodical that is issued once a month.",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "republic",
-      "difficulty": "Intermediate",
       "related_words": [
-        "democracy"
+        "expectancy",
+        "generation"
       ],
       "clues": [
         {
-          "clue": "In ancient Rome, this form of government was quite a feat.",
-          "type": "Indirect",
-          "points": 6
-        },
-        {
-          "clue": "A system of government where power is held by the people or their representatives.",
-          "type": "Suggestive",
-          "points": 4
-        },
-        {
-          "clue": "A state in which the power is held by the people or their elected representatives.",
+          "clue": "a state of being",
           "type": "Straight",
-          "points": 2
-        }
-      ]
-    },
-    {
-      "word": "democracy",
-      "difficulty": "Intermediate",
-      "related_words": [
-        "republic"
-      ],
-      "clues": [
-        {
-          "clue": "A system where the people rule, either directly or through elected officials.",
-          "type": "Indirect",
-          "points": 7
+          "points": 1
         },
         {
-          "clue": "This form of government is characterized by free and fair elections.",
+          "clue": "it's what you live",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "A system of government by the whole population, usually through elected representatives.",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "extension",
-      "difficulty": "Hard",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "A new wing added to a house could be seen as this.",
+          "clue": "a flame that flickers",
           "type": "Indirect",
           "points": 6
-        },
-        {
-          "clue": "The act of extending something, like a deadline or a piece of land.",
-          "type": "Suggestive",
-          "points": 4
-        },
-        {
-          "clue": "The process of making something longer or larger.",
-          "type": "Straight",
-          "points": 2
         }
       ]
     },
     {
-      "word": "treaty",
-      "difficulty": "Hard",
+      "word": "expectancy",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "life",
+        "generation"
+      ],
+      "clues": [
+        {
+          "clue": "the average time one is expected to live",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "a statistical prediction of future events",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "when anticipation meets probability",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "word": "generation",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "life",
+        "expectancy"
+      ],
+      "clues": [
+        {
+          "clue": "a group of people born at the same time",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "the time it takes for a population to replace itself",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "when the past meets the future",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "word": "geography",
+      "difficulty": "Intermediate",
       "related_words": [],
       "clues": [
         {
-          "clue": "When countries agree on something, they sign one of these.",
-          "type": "Indirect",
-          "points": 5
-        },
-        {
-          "clue": "A formally concluded and ratified agreement between countries.",
-          "type": "Suggestive",
-          "points": 4
-        },
-        {
-          "clue": "A formal agreement between two or more nations.",
+          "clue": "the study of the Earth's physical features",
           "type": "Straight",
           "points": 1
+        },
+        {
+          "clue": "the arrangement of natural and human-made elements on the Earth's surface",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "where the map meets the landscape",
+          "type": "Indirect",
+          "points": 6
         }
       ]
     },
     {
-      "word": "popular",
+      "word": "miles",
       "difficulty": "Easy",
       "related_words": [],
       "clues": [
         {
-          "clue": "Something that is liked or enjoyed by a lot of people might be called this.",
-          "type": "Indirect",
-          "points": 6
+          "clue": "a unit of distance",
+          "type": "Straight",
+          "points": 1
         },
         {
-          "clue": "Widely liked or enjoyed by a large number of people.",
+          "clue": "the distance between two points on the Earth's surface",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "Liked or enjoyed by many people.",
-          "type": "Straight",
-          "points": 1
+          "clue": "when the road stretches out before you",
+          "type": "Indirect",
+          "points": 5
         }
       ]
     },
     {
-      "word": "natural",
+      "word": "neighborhood",
       "difficulty": "Intermediate",
       "related_words": [],
       "clues": [
         {
-          "clue": "The earth and its processes are often described as this.",
-          "type": "Indirect",
-          "points": 7
-        },
-        {
-          "clue": "Existing in or caused by nature; not made or caused by people.",
-          "type": "Suggestive",
-          "points": 4
-        },
-        {
-          "clue": "Occurring in nature; not artificial.",
-          "type": "Straight",
-          "points": 2
-        }
-      ]
-    },
-    {
-      "word": "roots",
-      "difficulty": "Hard",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "Plants have these underground, and ideas can have them too.",
-          "type": "Indirect",
-          "points": 5
-        },
-        {
-          "clue": "The underlying basis or origin of something.",
-          "type": "Suggestive",
-          "points": 4
-        },
-        {
-          "clue": "The underground part of a plant.",
+          "clue": "a residential area",
           "type": "Straight",
           "points": 1
+        },
+        {
+          "clue": "a group of houses and buildings where people live",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "where community meets home",
+          "type": "Indirect",
+          "points": 6
         }
       ]
     },
     {
-      "word": "pacific",
-      "difficulty": "Hard",
+      "word": "communities",
+      "difficulty": "Easy",
       "related_words": [],
       "clues": [
         {
-          "clue": "A ocean that's often associated with peace might be called this.",
+          "clue": "groups of people living together",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "social units with shared interests and goals",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "when individuals come together",
+          "type": "Indirect",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "word": "workplaces",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "places where people work",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "locations where employees perform their jobs",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "where labor meets industry",
+          "type": "Indirect",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "word": "costs",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "the amount paid or required for something",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "expenses or expenditures",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "when value meets expense",
           "type": "Indirect",
           "points": 6
-        },
+        }
+      ]
+    },
+    {
+      "word": "year",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
         {
-          "clue": "Calm and peaceful, or describing the world's largest ocean.",
-          "type": "Suggestive",
-          "points": 4
-        },
-        {
-          "clue": "Inclined to peace; not warlike.",
+          "clue": "a unit of time",
           "type": "Straight",
-          "points": 2
+          "points": 1
+        },
+        {
+          "clue": "a period of 365 days",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "when time meets cycle",
+          "type": "Indirect",
+          "points": 5
         }
       ]
     }
   ],
-  "id": "ClueChain-2026-04-28"
+  "id": "ClueChain-2026-08-18"
 }

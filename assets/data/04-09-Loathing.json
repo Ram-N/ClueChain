@@ -1,6 +1,6 @@
 {
   "id": "ClueChain-2025-07-18",
-  "date": "07-18",
+  "date": "04-09",
   "title": "Fear and Loathing in Las Vegas by Hunter S. Thompson (1971)",
   "text": "“We were somewhere around Barstow on the edge of the desert when the drugs began to take hold.”\nIf the title wasn’t enough to warn the reader, the first line tips it—this is not a book for the faint of heart. The narrator is going on two trips, one from the drugs, one to the edge of the desert, and neither seems well-planned. The book follows the journalist’s epic journeys.",
   "hiddenWords": [
@@ -24,7 +24,9 @@
           "points": 1
         }
       ],
-      "related_words": ["edge"]
+      "related_words": [
+        "edge"
+      ]
     },
     {
       "word": "edge",
@@ -46,7 +48,10 @@
           "points": 1
         }
       ],
-      "related_words": ["somewhere", "desert"]
+      "related_words": [
+        "somewhere",
+        "desert"
+      ]
     },
     {
       "word": "desert",
@@ -68,7 +73,9 @@
           "points": 1
         }
       ],
-      "related_words": ["edge"]
+      "related_words": [
+        "edge"
+      ]
     },
     {
       "word": "drugs",
@@ -90,7 +97,9 @@
           "points": 1
         }
       ],
-      "related_words": ["take"]
+      "related_words": [
+        "take"
+      ]
     },
     {
       "word": "take",
@@ -112,7 +121,10 @@
           "points": 1
         }
       ],
-      "related_words": ["drugs", "hold"]
+      "related_words": [
+        "drugs",
+        "hold"
+      ]
     },
     {
       "word": "hold",
@@ -134,7 +146,9 @@
           "points": 1
         }
       ],
-      "related_words": ["take"]
+      "related_words": [
+        "take"
+      ]
     },
     {
       "word": "warn",
@@ -178,7 +192,9 @@
           "points": 2
         }
       ],
-      "related_words": ["heart"]
+      "related_words": [
+        "heart"
+      ]
     },
     {
       "word": "heart",
@@ -200,7 +216,9 @@
           "points": 1
         }
       ],
-      "related_words": ["faint"]
+      "related_words": [
+        "faint"
+      ]
     },
     {
       "word": "journeys",
@@ -222,7 +240,9 @@
           "points": 1
         }
       ],
-      "related_words": ["trips"]
+      "related_words": [
+        "trips"
+      ]
     }
   ]
 }

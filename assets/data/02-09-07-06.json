@@ -1,5 +1,5 @@
 {
-  "date": "07-06",
+  "date": "02-09",
   "title": "\"This Is Just To Say\" by William Carlos Williams. 1934",
   "text": "I have eaten the plums that were in the icebox and which you were probably saving for breakfast Forgive me they were delicious so sweet and so cold",
   "hiddenWords": [
@@ -23,7 +23,10 @@
           "points": 1
         }
       ],
-      "related_words": ["plums", "delicious"]
+      "related_words": [
+        "plums",
+        "delicious"
+      ]
     },
     {
       "word": "plums",
@@ -45,7 +48,10 @@
           "points": 1
         }
       ],
-      "related_words": ["eaten", "delicious"]
+      "related_words": [
+        "eaten",
+        "delicious"
+      ]
     },
     {
       "word": "icebox",
@@ -67,7 +73,9 @@
           "points": 1
         }
       ],
-      "related_words": ["cold"]
+      "related_words": [
+        "cold"
+      ]
     },
     {
       "word": "saving",
@@ -155,7 +163,11 @@
           "points": 1
         }
       ],
-      "related_words": ["eaten", "plums", "sweet"]
+      "related_words": [
+        "eaten",
+        "plums",
+        "sweet"
+      ]
     },
     {
       "word": "sweet",
@@ -177,7 +189,10 @@
           "points": 1
         }
       ],
-      "related_words": ["delicious", "cold"]
+      "related_words": [
+        "delicious",
+        "cold"
+      ]
     },
     {
       "word": "cold",
@@ -199,7 +214,10 @@
           "points": 1
         }
       ],
-      "related_words": ["icebox", "sweet"]
+      "related_words": [
+        "icebox",
+        "sweet"
+      ]
     },
     {
       "word": "probably",

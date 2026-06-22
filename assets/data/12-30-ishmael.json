@@ -1,6 +1,6 @@
 {
   "id": "ClueChain-2025-07-19",
-  "date": "07-19",
+  "date": "12-30",
   "title": "Moby Dick (1851)",
   "text": "“Call me Ishmael.”\nSimple, to the point and unassuming, the opening line of Melville’s whale of a tale introduces the plainspoken narrator—who, it turns out, may not be quite as reliable a narrator as it first seems (why not just say, “my name is Ishmael”). He describes his captain’s quest to hunt down the great Moby Dick.",
   "hiddenWords": [
@@ -24,7 +24,9 @@
           "points": 1
         }
       ],
-      "related_words": ["name"]
+      "related_words": [
+        "name"
+      ]
     },
     {
       "word": "Simple",
@@ -46,7 +48,9 @@
           "points": 1
         }
       ],
-      "related_words": ["unassuming"]
+      "related_words": [
+        "unassuming"
+      ]
     },
     {
       "word": "point",
@@ -90,7 +94,9 @@
           "points": 2
         }
       ],
-      "related_words": ["Simple"]
+      "related_words": [
+        "Simple"
+      ]
     },
     {
       "word": "introduces",
@@ -112,7 +118,9 @@
           "points": 1
         }
       ],
-      "related_words": ["narrator"]
+      "related_words": [
+        "narrator"
+      ]
     },
     {
       "word": "narrator",
@@ -134,7 +142,10 @@
           "points": 1
         }
       ],
-      "related_words": ["introduces", "reliable"]
+      "related_words": [
+        "introduces",
+        "reliable"
+      ]
     },
     {
       "word": "reliable",
@@ -156,7 +167,9 @@
           "points": 1
         }
       ],
-      "related_words": ["narrator"]
+      "related_words": [
+        "narrator"
+      ]
     },
     {
       "word": "name",
@@ -178,7 +191,9 @@
           "points": 1
         }
       ],
-      "related_words": ["Call"]
+      "related_words": [
+        "Call"
+      ]
     },
     {
       "word": "describes",
@@ -200,7 +215,9 @@
           "points": 1
         }
       ],
-      "related_words": ["hunt"]
+      "related_words": [
+        "hunt"
+      ]
     },
     {
       "word": "hunt",
@@ -222,7 +239,9 @@
           "points": 1
         }
       ],
-      "related_words": ["describes"]
+      "related_words": [
+        "describes"
+      ]
     }
   ]
 }

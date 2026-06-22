@@ -1,0 +1,233 @@
+{
+  "title": "Petrarch — References",
+  "date": "06-27",
+  "text": "Title: Petrarch — References\nBartlett, Kenneth R. (1992). The Civilization of the Italian Renaissance; a Source Book. Lexington: D.C. Heath and Company. ISBN 0-669-20900-7 Bishop, Morris (1961). \"Petrarch.\" In J. H. Plumb (Ed.), Renaissance Profiles, pp. 1–17. New York: Harper & Row. ISBN 0-06-131162-6 . Hanawalt, A. Barbara (1998). The Middle Ages: An Illustrated History pp. 131–132 New York: Oxford University Press James, Paul (2014). \"Emotional Ambivalence across Times and Spaces: Mapping Petrarch's Intersecting Worlds\". Exemplaria. 26 (1): 81–104. doi:10.1179/1041257313z.00000000044. S2CID 191454887. Kallendorf, Craig. \"The Historical Petrarch,\" The American Historical Review, Vol. 101, No. 1 (Feb. 1996): 130–141. Minta, Stephen (1980). Petrarch and Petrarchism: the English and French Traditions. Manchester; New York: Manchester University Press; Barnes & Noble. ISBN 0-719-00745-3.",
+  "hiddenWords": [
+    {
+      "word": "Civilization",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A high level of cultural and scientific development.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "The state of being civilized.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A refined and cultured society.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "Renaissance",
+      "difficulty": "Hard",
+      "related_words": [
+        "Civilization"
+      ],
+      "clues": [
+        {
+          "clue": "A cultural movement that's a 're-birth'.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "A period of renewed interest in classical culture.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A time of great artistic and intellectual growth.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "Profiles",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Portraits that show a side of something.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Detailed descriptions of people or things.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A outline or shape of something.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "Ambivalence",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A feeling that's both hot and cold.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A state of having mixed or conflicting feelings.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Uncertainty or indecisiveness.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "Illustrated",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A book with pictures, not just words.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Having pictures or diagrams to help explain.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Decorated with images or drawings.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "Historical",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "Renaissance",
+        "Civilization"
+      ],
+      "clues": [
+        {
+          "clue": "A story that's been passed down through time.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Relating to the past, especially to important events.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Concerned with the study of past events.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "Exemplaria",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Examples that serve as models.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "A collection of examples or case studies.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A journal that publishes scholarly articles.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "Traditions",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Customs that are passed down through generations.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Long-established customs or ways of doing things.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A way of doing something that's been handed down.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "Manchester",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A city in the north of England.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A place known for its textile industry.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A city in England with a rich history.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "University",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A place where people go to learn and grow.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "An institution of higher education.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A school where people can get a degree.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-06-27"
+}

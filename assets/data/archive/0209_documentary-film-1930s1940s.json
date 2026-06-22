@@ -1,0 +1,237 @@
+{
+  "title": "Documentary film — 1930s–1940s",
+  "date": "02-09",
+  "text": "Title: Documentary film — 1930s–1940s\n\nIn Britain, a number of different filmmakers came together under John Grierson. They became known as the Documentary Film Movement. Grierson, Alberto Cavalcanti, Harry Watt, Basil Wright, and Humphrey Jennings amongst others succeeded in blending propaganda, information, and education with a more poetic aesthetic approach to documentary. Examples of their work include Drifters (John Grierson), Song of Ceylon (Basil Wright), Fires Were Started, and A Diary for Timothy (Humphrey Jennings). Their work involved poets such as W. H. Auden, composers such as Benjamin Britten, and writers such as J. B. Priestley. Among the best known films of the movement are Night Mail and Coal Face. Calling Mr. Smith (1943) is an anti-Nazi color film created by Stefan Themerson which is both a documentary and an avant-garde film against war. It was one of the first anti-Nazi films in history.",
+  "hiddenWords": [
+    {
+      "word": "poets",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "composers",
+        "writers"
+      ],
+      "clues": [
+        {
+          "clue": "Artistic individuals who use language in a creative way",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "People who create works of poetry",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Authors of verse",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "composers",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "poets",
+        "writers"
+      ],
+      "clues": [
+        {
+          "clue": "Musical masters who craft harmonious sounds",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "People who create original music",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Creators of musical pieces",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "writers",
+      "difficulty": "Easy",
+      "related_words": [
+        "poets",
+        "composers"
+      ],
+      "clues": [
+        {
+          "clue": "Individuals who express thoughts through the written word",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "People who produce written content",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Authors of texts",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "blending",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The act of combining different things to create a new whole",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Mixing different elements together",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Combining things into a unified mixture",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "aesthetic",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A quality that is pleasing to the senses",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Relating to the appreciation of beauty",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Concerned with the beautiful and tasteful",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "approach",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A way of dealing with a situation or problem",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Method or technique used to accomplish something",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Manner of doing something",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "avant",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Experimental or innovative in nature",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Pushing the boundaries of what is considered normal",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Forward-thinking or cutting-edge",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "movement",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A group of people working together towards a common goal",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A series of actions or events that are connected",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A change in position or a trend",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "propaganda",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Information that is spread to influence people's opinions",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Material used to promote a particular idea or ideology",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Biased or misleading information",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "education",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The process of teaching or learning",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "The act of acquiring knowledge or skills",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The act of instructing or training",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-02-09"
+}

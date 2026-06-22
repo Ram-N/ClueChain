@@ -1,241 +1,236 @@
 {
-  "title": "Documentary film — DVD documentary",
+  "title": "Frederick Douglass's Fourth of July Speech ClueChain",
+  "id": "douglass-speech-cluechain-2025-07-01",
   "date": "12-09",
-  "text": "A DVD documentary is a documentary film of indeterminate length that has been produced with the sole intent of releasing it for direct sale to the public on DVD, which is different from a documentary being made and released first on television or on a cinema screen (a.k.a. theatrical release) and subsequently on DVD for public consumption. This form of documentary release is becoming more popular and accepted as costs and difficulty with finding TV or theatrical release slots increases. It is also commonly used for more \"specialist\" documentaries, which might not have general interest to a wider TV audience. Examples are military, cultural arts, transport, sports, animals, etc.",
+  "text": "On July 5, 1852, Frederick Douglass gave a keynote address at an Independence Day celebration and asked, “What to the Slave is the Fourth of July?” Douglass was a powerful orator, often traveling six months out of the year to give lectures on abolition. His speech, given at an event commemorating the signing of the Declaration of Independence, was held at Corinthian Hall in Rochester, New York. It was a scathing speech in which Douglass stated, “This Fourth of July is yours, not mine, You may rejoice, I must mourn.”",
   "hiddenWords": [
     {
-      "word": "length",
-      "difficulty": "Easy",
-      "related_words": [],
+      "word": "Slave",
+      "difficulty": "Intermediate",
       "clues": [
         {
-          "clue": "A measure used to describe how long something is.",
           "type": "Indirect",
-          "points": 6
-        },
-        {
-          "clue": "Used to describe the size of an object from one end to the other.",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "Extent or distance from one end to the other.",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "public",
-      "difficulty": "Easy",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "The people who are not private.",
-          "type": "Indirect",
+          "clue": "A cog in a machine of forced labor, whose chains are forged by another's will.",
           "points": 5
         },
         {
-          "clue": "Relating to people in general, rather than a specific group.",
           "type": "Suggestive",
+          "clue": "One held in bondage, deprived of freedom and personal rights.",
           "points": 3
         },
         {
-          "clue": "General people, not a specific individual or group.",
           "type": "Straight",
+          "clue": "A person who is the legal property of another and is forced to obey them.",
           "points": 1
         }
-      ]
-    },
-    {
-      "word": "television",
-      "difficulty": "Intermediate",
-      "related_words": [
-        "theatrical"
       ],
-      "clues": [
-        {
-          "clue": "A device for receiving moving images and sound.",
-          "type": "Indirect",
-          "points": 6
-        },
-        {
-          "clue": "A common source of entertainment for many people.",
-          "type": "Suggestive",
-          "points": 4
-        },
-        {
-          "clue": "An electronic device for receiving video and audio signals.",
-          "type": "Straight",
-          "points": 2
-        }
-      ]
+      "related_words": []
     },
     {
-      "word": "theatrical",
-      "difficulty": "Intermediate",
-      "related_words": [
-        "television"
-      ],
-      "clues": [
-        {
-          "clue": "Relating to the performing arts, especially drama.",
-          "type": "Indirect",
-          "points": 7
-        },
-        {
-          "clue": "Pertaining to a type of performance that takes place on a stage.",
-          "type": "Suggestive",
-          "points": 4
-        },
-        {
-          "clue": "Of or relating to the theater or acting.",
-          "type": "Straight",
-          "points": 2
-        }
-      ]
-    },
-    {
-      "word": "military",
-      "difficulty": "Hard",
-      "related_words": [
-        "sports",
-        "animals"
-      ],
-      "clues": [
-        {
-          "clue": "An organization that uses force to protect or defend a country.",
-          "type": "Indirect",
-          "points": 7
-        },
-        {
-          "clue": "Relating to the armed forces, especially the army.",
-          "type": "Suggestive",
-          "points": 4
-        },
-        {
-          "clue": "Connected with the armed forces.",
-          "type": "Straight",
-          "points": 2
-        }
-      ]
-    },
-    {
-      "word": "sports",
-      "difficulty": "Intermediate",
-      "related_words": [
-        "military",
-        "animals"
-      ],
-      "clues": [
-        {
-          "clue": "Activities that involve physical exercise or competition.",
-          "type": "Indirect",
-          "points": 6
-        },
-        {
-          "clue": "Games or contests that require physical skill or strength.",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "Physical activities that people do for fun or competition.",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "animals",
+      "word": "July",
       "difficulty": "Easy",
-      "related_words": [
-        "military",
-        "sports"
-      ],
       "clues": [
         {
-          "clue": "Living creatures that are not human.",
           "type": "Indirect",
-          "points": 6
+          "clue": "The month when fireworks light up the night for a nation's birth.",
+          "points": 4
         },
         {
-          "clue": "Creatures that have the ability to move and respond to stimuli.",
           "type": "Suggestive",
+          "clue": "The seventh month of the year, often associated with summer and independence.",
+          "points": 2
+        },
+        {
+          "type": "Straight",
+          "clue": "The seventh month of the Gregorian calendar.",
+          "points": 1
+        }
+      ],
+      "related_words": [
+        "Fourth"
+      ]
+    },
+    {
+      "word": "Orator",
+      "difficulty": "Intermediate",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "One who wields words as a weapon, stirring souls with their spoken art.",
+          "points": 5
+        },
+        {
+          "type": "Suggestive",
+          "clue": "A skilled public speaker, known for persuasive and eloquent speeches.",
           "points": 3
         },
         {
-          "clue": "Living beings that are not plants or humans.",
           "type": "Straight",
+          "clue": "A public speaker, especially one who is eloquent or skilled.",
           "points": 1
         }
-      ]
+      ],
+      "related_words": []
     },
     {
-      "word": "examples",
+      "word": "Speech",
+      "difficulty": "Easy",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "A flow of structured sound, designed to convey a message from a podium.",
+          "points": 4
+        },
+        {
+          "type": "Suggestive",
+          "clue": "A formal address delivered to an audience.",
+          "points": 2
+        },
+        {
+          "type": "Straight",
+          "clue": "The expression of thoughts and feelings in spoken language.",
+          "points": 1
+        }
+      ],
+      "related_words": []
+    },
+    {
+      "word": "Hall",
+      "difficulty": "Easy",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "A place where echoes of history often resound, and crowds gather for grand events.",
+          "points": 4
+        },
+        {
+          "type": "Suggestive",
+          "clue": "A large room or building used for public meetings or entertainment.",
+          "points": 2
+        },
+        {
+          "type": "Straight",
+          "clue": "A building or large room for public assembly.",
+          "points": 1
+        }
+      ],
+      "related_words": []
+    },
+    {
+      "word": "Rejoice",
       "difficulty": "Intermediate",
-      "related_words": [],
       "clues": [
         {
-          "clue": "Things that are used to illustrate a point or idea.",
           "type": "Indirect",
-          "points": 6
+          "clue": "To leap with joy and sing praises, especially in celebration of triumph.",
+          "points": 5
         },
         {
-          "clue": "Instances that demonstrate or explain something.",
           "type": "Suggestive",
-          "points": 4
+          "clue": "To feel or show great joy or delight.",
+          "points": 3
         },
         {
-          "clue": "Instances that are used to demonstrate or illustrate something.",
           "type": "Straight",
-          "points": 2
+          "clue": "To feel or show great happiness or delight.",
+          "points": 1
         }
+      ],
+      "related_words": [
+        "Mourn"
       ]
     },
     {
-      "word": " slots",
-      "difficulty": "Hard",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "A narrow opening or space, especially one for inserting something.",
-          "type": "Indirect",
-          "points": 7
-        },
-        {
-          "clue": "A time or place allocated for a particular activity.",
-          "type": "Suggestive",
-          "points": 4
-        },
-        {
-          "clue": "A narrow opening or space, often used for a specific purpose.",
-          "type": "Straight",
-          "points": 2
-        }
-      ]
-    },
-    {
-      "word": "interest",
+      "word": "Mourn",
       "difficulty": "Intermediate",
-      "related_words": [],
       "clues": [
         {
-          "clue": "A feeling of wanting to learn or know more about something.",
           "type": "Indirect",
-          "points": 6
+          "clue": "To wear the color of sorrow, reflecting a deep personal loss or profound sadness.",
+          "points": 5
         },
         {
-          "clue": "A quality or feature that makes something appealing or attractive.",
           "type": "Suggestive",
+          "clue": "To feel or express deep sadness or grief, often for a death.",
+          "points": 3
+        },
+        {
+          "type": "Straight",
+          "clue": "To feel or show sorrow or grief.",
+          "points": 1
+        }
+      ],
+      "related_words": [
+        "Rejoice"
+      ]
+    },
+    {
+      "word": "Fourth",
+      "difficulty": "Easy",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "The ordinal position that often signifies a major American holiday.",
           "points": 4
         },
         {
-          "clue": "A state of wanting to learn or know more about something.",
-          "type": "Straight",
+          "type": "Suggestive",
+          "clue": "Coming after the third in order or in a sequence.",
           "points": 2
+        },
+        {
+          "type": "Straight",
+          "clue": "The ordinal number corresponding to the number four.",
+          "points": 1
         }
+      ],
+      "related_words": [
+        "July"
       ]
+    },
+    {
+      "word": "Address",
+      "difficulty": "Intermediate",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "More than just a location, it's a formal presentation or a direct communication.",
+          "points": 5
+        },
+        {
+          "type": "Suggestive",
+          "clue": "To speak to a person or an assembly.",
+          "points": 3
+        },
+        {
+          "type": "Straight",
+          "clue": "A formal speech delivered to an audience.",
+          "points": 1
+        }
+      ],
+      "related_words": []
+    },
+    {
+      "word": "Lectures",
+      "difficulty": "Intermediate",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "Formal dissertations often accompanied by notes and a captive audience.",
+          "points": 5
+        },
+        {
+          "type": "Suggestive",
+          "clue": "Educational talks delivered to a group of people, often in a university setting.",
+          "points": 3
+        },
+        {
+          "type": "Straight",
+          "clue": "An educational talk to an audience, especially one given by a university professor.",
+          "points": 1
+        }
+      ],
+      "related_words": []
     }
-  ],
-  "id": "ClueChain-2026-12-09"
+  ]
 }

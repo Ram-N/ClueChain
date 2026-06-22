@@ -1,232 +1,245 @@
 {
-  "title": "Nelly Sachs — Further reading",
+  "text": "It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair.",
+  "title": "A Tale of Two Cities by Charles Dickens",
+  "id": "a-tale-of-two-cities",
+  "author": "Charles Dickens",
   "date": "05-27",
-  "text": "Title: Nelly Sachs — Further reading\n\nRuth Dinesen (2005). \"Sachs, Nelly\". Neue Deutsche Biographie (in German). Vol. 22. Berlin: Duncker & Humblot. pp. 336–337. Walter A. Berendsohn: Nelly Sachs: Einführung in das Werk der Dichterin jüdischen Schicksals. Agora, Darmstadt 1974, ISBN 978-3-87008-046-4. Gudrun Dähnert: \"Wie Nelly Sachs 1940 aus Deutschland entkam. Mit einem Brief an Ruth Mövius.\" in: Sinn und Form February 2009, pp. 226–257 Ruth Dinesen: Nelly Sachs. Eine Biographie. Suhrkamp, Frankfurt 1992, ISBN 978-3-518-40426-3 Gabriele Fritsch-Vivié: Nelly Sachs. Monographie. Rowohlt, Reinbek, 3rd edition, 2001, ISBN 978-3-499-50496-9. Petra Oelker: \"Und doch, am Ende steht wieder das Licht, wenn auch noch so fern\". In: Charlotte Kerner: Nicht nur Madame Curie. Frauen, die den Nobelpreis bekamen. Beltz, Weinheim 1999, ISBN 978-3-407-80862-2. Gerald Sommerer: Aber dies ist nichts für Deutschland, das weiß und fühle ich. Nelly Sachs – Untersuchungen zu ihrem szenischen Werk. Königshausen & Neumann, Würzburg 2008, ISBN 978-3-8260-3860-0.",
   "hiddenWords": [
     {
-      "word": "deutsch",
+      "word": "best",
       "difficulty": "Easy",
-      "related_words": [],
       "clues": [
         {
-          "clue": "Language of the provided text.",
           "type": "Indirect",
-          "points": 6
-        },
-        {
-          "clue": "Native language of many authors mentioned.",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "Language of Germany.",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "biographie",
-      "difficulty": "Intermediate",
-      "related_words": [
-        "monographie"
-      ],
-      "clues": [
-        {
-          "clue": "What you'd expect from a life story, but with more pages.",
-          "type": "Indirect",
-          "points": 6
-        },
-        {
-          "clue": "Detailed account of someone's life.",
-          "type": "Suggestive",
-          "points": 4
-        },
-        {
-          "clue": "Biography in German.",
-          "type": "Straight",
-          "points": 2
-        }
-      ]
-    },
-    {
-      "word": "monographie",
-      "difficulty": "Intermediate",
-      "related_words": [
-        "biographie"
-      ],
-      "clues": [
-        {
-          "clue": "Sometimes longer than a biography, but just as informative.",
-          "type": "Indirect",
+          "clue": "When you're at the top, you might just be this.",
           "points": 5
         },
         {
-          "clue": "Detailed study of a single subject.",
           "type": "Suggestive",
+          "clue": "Opposite of worst, often signifying superiority.",
           "points": 3
         },
         {
-          "clue": "A long, detailed book about one thing.",
           "type": "Straight",
+          "clue": "Of the most excellent or desirable type or quality.",
           "points": 1
         }
+      ],
+      "related_words": [
+        "worst"
       ]
     },
     {
-      "word": "frauen",
+      "word": "worst",
       "difficulty": "Easy",
-      "related_words": [],
       "clues": [
         {
-          "clue": "Women, in German.",
           "type": "Indirect",
-          "points": 7
-        },
-        {
-          "clue": "The female gender.",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "Women.",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "nobelpreis",
-      "difficulty": "Intermediate",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "Awarded to the best, but not always the brightest.",
-          "type": "Indirect",
-          "points": 6
-        },
-        {
-          "clue": "Prestigious award for outstanding achievements.",
-          "type": "Suggestive",
-          "points": 4
-        },
-        {
-          "clue": "A famous prize.",
-          "type": "Straight",
-          "points": 2
-        }
-      ]
-    },
-    {
-      "word": "isbn",
-      "difficulty": "Hard",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "The secret code to find any book.",
-          "type": "Indirect",
-          "points": 7
-        },
-        {
-          "clue": "Used to identify books.",
-          "type": "Suggestive",
-          "points": 4
-        },
-        {
-          "clue": "International Standard Book Number.",
-          "type": "Straight",
-          "points": 2
-        }
-      ]
-    },
-    {
-      "word": "untersuchungen",
-      "difficulty": "Hard",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "What you do when you're trying to figure out a puzzle.",
-          "type": "Indirect",
-          "points": 6
-        },
-        {
-          "clue": "Systematic studies or examinations.",
-          "type": "Suggestive",
-          "points": 4
-        },
-        {
-          "clue": "Investigations or research.",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "weinheim",
-      "difficulty": "Hard",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "A city where wine flows like rivers, or so it seems.",
-          "type": "Indirect",
-          "points": 7
-        },
-        {
-          "clue": "City in Germany.",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "Location in Germany.",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "würzburg",
-      "difficulty": "Hard",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "A place with a long name and an even longer history.",
-          "type": "Indirect",
-          "points": 6
-        },
-        {
-          "clue": "City in Bavaria, Germany.",
-          "type": "Suggestive",
-          "points": 4
-        },
-        {
-          "clue": "City in Germany.",
-          "type": "Straight",
-          "points": 2
-        }
-      ]
-    },
-    {
-      "word": "darmstadt",
-      "difficulty": "Hard",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "A city with a name that sounds like a mix of German and English.",
-          "type": "Indirect",
+          "clue": "When things couldn't get any lower, you've hit this point.",
           "points": 5
         },
         {
-          "clue": "City in the state of Hesse, Germany.",
           "type": "Suggestive",
+          "clue": "Opposite of best, indicating inferiority or misfortune.",
           "points": 3
         },
         {
-          "clue": "City in Germany.",
           "type": "Straight",
+          "clue": "Of the poorest quality or the most unfavorable kind.",
           "points": 1
         }
+      ],
+      "related_words": [
+        "best"
       ]
+    },
+    {
+      "word": "wisdom",
+      "difficulty": "Intermediate",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "A sage often possesses this, guiding their choices and understanding.",
+          "points": 6
+        },
+        {
+          "type": "Suggestive",
+          "clue": "The quality of having experience, knowledge, and good judgment.",
+          "points": 4
+        },
+        {
+          "type": "Straight",
+          "clue": "The quality of being wise.",
+          "points": 2
+        }
+      ],
+      "related_words": [
+        "foolishness"
+      ]
+    },
+    {
+      "word": "foolishness",
+      "difficulty": "Intermediate",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "One might trip over their own decisions when embracing this state.",
+          "points": 6
+        },
+        {
+          "type": "Suggestive",
+          "clue": "Lack of good sense or judgment; folly.",
+          "points": 4
+        },
+        {
+          "type": "Straight",
+          "clue": "The quality of being foolish.",
+          "points": 2
+        }
+      ],
+      "related_words": [
+        "wisdom"
+      ]
+    },
+    {
+      "word": "epoch",
+      "difficulty": "Hard",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "A marker in history, often signaling the dawn of something significant.",
+          "points": 7
+        },
+        {
+          "type": "Suggestive",
+          "clue": "A long and distinct period of history or life, marked by notable events.",
+          "points": 5
+        },
+        {
+          "type": "Straight",
+          "clue": "A period of time in history or a person's life, typically one marked by notable events or particular characteristics.",
+          "points": 3
+        }
+      ],
+      "related_words": []
+    },
+    {
+      "word": "belief",
+      "difficulty": "Intermediate",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "It can move mountains, or at least your conviction in them.",
+          "points": 6
+        },
+        {
+          "type": "Suggestive",
+          "clue": "Acceptance that a statement is true or that something exists.",
+          "points": 4
+        },
+        {
+          "type": "Straight",
+          "clue": "An acceptance that something is true or exists.",
+          "points": 2
+        }
+      ],
+      "related_words": [
+        "incredulity"
+      ]
+    },
+    {
+      "word": "incredulity",
+      "difficulty": "Hard",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "When the unbelievable unfolds, this state of mind often follows.",
+          "points": 7
+        },
+        {
+          "type": "Suggestive",
+          "clue": "The state of being unwilling or unable to believe something.",
+          "points": 5
+        },
+        {
+          "type": "Straight",
+          "clue": "The state of being unwilling or unable to believe something.",
+          "points": 3
+        }
+      ],
+      "related_words": [
+        "belief"
+      ]
+    },
+    {
+      "word": "Light",
+      "difficulty": "Easy",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "It banishes shadows and reveals the truth.",
+          "points": 5
+        },
+        {
+          "type": "Suggestive",
+          "clue": "The natural agent that stimulates sight and makes things visible.",
+          "points": 3
+        },
+        {
+          "type": "Straight",
+          "clue": "The natural agent that makes things visible.",
+          "points": 1
+        }
+      ],
+      "related_words": [
+        "Darkness"
+      ]
+    },
+    {
+      "word": "Darkness",
+      "difficulty": "Easy",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "Where shadows reside and vision fades.",
+          "points": 5
+        },
+        {
+          "type": "Suggestive",
+          "clue": "The absence of light.",
+          "points": 3
+        },
+        {
+          "type": "Straight",
+          "clue": "The absence of light.",
+          "points": 1
+        }
+      ],
+      "related_words": [
+        "Light"
+      ]
+    },
+    {
+      "word": "hope",
+      "difficulty": "Intermediate",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "A tiny spark that keeps possibilities alive, even in the bleakest moments.",
+          "points": 6
+        },
+        {
+          "type": "Suggestive",
+          "clue": "A feeling of expectation and desire for a certain thing to happen.",
+          "points": 4
+        },
+        {
+          "type": "Straight",
+          "clue": "A feeling of expectation and desire.",
+          "points": 2
+        }
+      ],
+      "related_words": []
     }
-  ],
-  "id": "ClueChain-2026-05-27"
+  ]
 }

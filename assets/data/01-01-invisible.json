@@ -1,6 +1,6 @@
 {
   "id": "ClueChain-2025-07-22",
-  "date": "07-22",
+  "date": "01-01",
   "title": "Invisible Man by Ralph Ellison (1952)",
   "text": "“I am an invisible man.”\nEllison’s narrator lays it all on the line to start. He tells the reader that he is invisible, and it soon becomes apparent that this truth is a metaphor for Blackness in the early 20th century. The unnamed protagonist (unseen even by the reader) struggles to fulfill his dreams of professional success due to racism.",
   "hiddenWords": [
@@ -24,7 +24,9 @@
           "points": 2
         }
       ],
-      "related_words": ["unseen"]
+      "related_words": [
+        "unseen"
+      ]
     },
     {
       "word": "narrator",
@@ -46,7 +48,9 @@
           "points": 1
         }
       ],
-      "related_words": ["reader"]
+      "related_words": [
+        "reader"
+      ]
     },
     {
       "word": "reader",
@@ -68,7 +72,9 @@
           "points": 1
         }
       ],
-      "related_words": ["narrator"]
+      "related_words": [
+        "narrator"
+      ]
     },
     {
       "word": "truth",
@@ -90,7 +96,9 @@
           "points": 1
         }
       ],
-      "related_words": ["metaphor"]
+      "related_words": [
+        "metaphor"
+      ]
     },
     {
       "word": "metaphor",
@@ -112,7 +120,9 @@
           "points": 2
         }
       ],
-      "related_words": ["truth"]
+      "related_words": [
+        "truth"
+      ]
     },
     {
       "word": "Blackness",
@@ -134,7 +144,9 @@
           "points": 1
         }
       ],
-      "related_words": ["racism"]
+      "related_words": [
+        "racism"
+      ]
     },
     {
       "word": "unnamed",
@@ -178,7 +190,9 @@
           "points": 1
         }
       ],
-      "related_words": ["invisible"]
+      "related_words": [
+        "invisible"
+      ]
     },
     {
       "word": "struggles",
@@ -200,7 +214,9 @@
           "points": 1
         }
       ],
-      "related_words": ["racism"]
+      "related_words": [
+        "racism"
+      ]
     },
     {
       "word": "racism",
@@ -222,7 +238,10 @@
           "points": 2
         }
       ],
-      "related_words": ["Blackness", "struggles"]
+      "related_words": [
+        "Blackness",
+        "struggles"
+      ]
     }
   ]
 }

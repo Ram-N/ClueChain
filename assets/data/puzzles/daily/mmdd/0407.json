@@ -1,237 +1,232 @@
 {
-  "title": "Palace must keep Guéhi because finding replacement ‘almost impossible’",
+  "id": "ClueChain-2025-07-02",
   "date": "04-07",
-  "text": "Oliver Glasner has made clear that Crystal Palace must not sell Marc Guéhi before Monday’s transfer deadline because finding a replacement for the England defender will be “almost impossible”. Palace, who confirmed the signing of Spain forward Yeremy Pino from Villarreal on Friday, have agreed a fee worth up to €27m (£23.4m) with Toulouse for Jaydee Canvot, with the France Under-20 defender expected to sign a five-year contract. Palace have been desperate to add defensive reinforcements amid uncertainty over Guéhi’s future and Canvot is seen as a player with huge potential having made his breakthrough in Ligue 1 last season. But the FA Cup winners have been frustrated so far in their attempts to find a more experienced option.",
+  "title": "Sharing some truth (How to Write One Song • By Jeff Tweedy)",
+  "text": "Sometimes I think of it as a search for low-hanging fruit, even though I know that’s not quite the right simile–it’s something people walk by all the time, something so ingrained in our environment that it’s become invisible, something so obvious nobody sees it anymore, but then someone figures out how to say what it is, or how to see it, and everyone else says, “Of course! Why didn’t I say that? That’s exactly right. I always knew that was there,” or “That’s exactly how I feel.” Like when Bill Callahan sings, “Well, I can tell you about the river / Or we could just get in.”",
   "hiddenWords": [
     {
-      "word": "reinforcements",
-      "difficulty": "Intermediate",
-      "related_words": [
-        "defender",
-        "contract"
-      ],
-      "clues": [
-        {
-          "clue": "Support troops are often sent as these",
-          "type": "Indirect",
-          "points": 6
-        },
-        {
-          "clue": "Something that strengthens a team or position",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "Means of making something stronger",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "defender",
+      "word": "search",
       "difficulty": "Easy",
-      "related_words": [
-        "reinforcements",
-        "contract"
-      ],
       "clues": [
         {
-          "clue": "A player who guards the goal",
           "type": "Indirect",
-          "points": 5
-        },
-        {
-          "clue": "Someone who protects a team's interests",
-          "type": "Suggestive",
+          "clue": "What a detective does, or what you use a browser for on the internet.",
           "points": 4
         },
         {
-          "clue": "A football player who helps guard the goal",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "contract",
-      "difficulty": "Intermediate",
-      "related_words": [
-        "reinforcements",
-        "defender"
-      ],
-      "clues": [
-        {
-          "clue": "A document that outlines the terms of a deal",
-          "type": "Indirect",
-          "points": 6
+          "type": "Suggestive",
+          "clue": "To look for something carefully and thoroughly.",
+          "points": 2
         },
         {
-          "clue": "An agreement between two parties",
+          "type": "Straight",
+          "clue": "An act of looking for someone or something.",
+          "points": 1
+        }
+      ],
+      "related_words": []
+    },
+    {
+      "word": "quite",
+      "difficulty": "Intermediate",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "Not entirely, but more than a little; often found before 'right' or 'wrong'.",
+          "points": 5
+        },
+        {
           "type": "Suggestive",
+          "clue": "Used to express the extent to which a statement is true.",
           "points": 3
         },
         {
-          "clue": "A formal agreement",
           "type": "Straight",
-          "points": 1
+          "clue": "To the utmost or most absolute extent or degree; absolutely; completely.",
+          "points": 2
         }
-      ]
+      ],
+      "related_words": []
     },
     {
-      "word": "potential",
-      "difficulty": "Hard",
-      "related_words": [],
+      "word": "people",
+      "difficulty": "Easy",
       "clues": [
         {
-          "clue": "The ability to develop into something in the future",
           "type": "Indirect",
+          "clue": "A collective noun for a crowd, or what makes up a population.",
+          "points": 4
+        },
+        {
+          "type": "Suggestive",
+          "clue": "Human beings in general or considered collectively.",
+          "points": 2
+        },
+        {
+          "type": "Straight",
+          "clue": "The individuals of a country, state, or community.",
+          "points": 1
+        }
+      ],
+      "related_words": []
+    },
+    {
+      "word": "ingrained",
+      "difficulty": "Hard",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "Deeply rooted, like a habit that's become a part of the fiber of your being.",
           "points": 7
         },
         {
-          "clue": "A quality that may be developed and used",
           "type": "Suggestive",
+          "clue": "Firmly fixed or established in a person's mind or habits, or in a material.",
           "points": 4
         },
         {
-          "clue": "The possibility of something happening or being the case",
           "type": "Straight",
+          "clue": "Firmly fixed or established.",
           "points": 2
         }
-      ]
+      ],
+      "related_words": []
     },
     {
-      "word": "breakthrough",
-      "difficulty": "Hard",
-      "related_words": [],
+      "word": "environment",
+      "difficulty": "Intermediate",
       "clues": [
         {
-          "clue": "A sudden and significant discovery",
           "type": "Indirect",
+          "clue": "Your surroundings, the world around you, both natural and man-made.",
           "points": 6
         },
         {
-          "clue": "An achievement that comes after a lot of effort",
           "type": "Suggestive",
+          "clue": "The natural world, or the surroundings or conditions in which a person, animal, or plant lives or operates.",
           "points": 3
         },
         {
-          "clue": "A major achievement or success",
           "type": "Straight",
+          "clue": "The surroundings or conditions in which a person, animal, or plant lives or operates.",
           "points": 2
         }
+      ],
+      "related_words": []
+    },
+    {
+      "word": "invisible",
+      "difficulty": "Intermediate",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "What a ghost might be, or a secret that's hidden from plain sight.",
+          "points": 6
+        },
+        {
+          "type": "Suggestive",
+          "clue": "Not able to be seen.",
+          "points": 3
+        },
+        {
+          "type": "Straight",
+          "clue": "Unable to be seen.",
+          "points": 2
+        }
+      ],
+      "related_words": [
+        "obvious"
       ]
     },
     {
-      "word": "deadline",
+      "word": "obvious",
       "difficulty": "Easy",
-      "related_words": [],
       "clues": [
         {
-          "clue": "A time limit for something to be done",
           "type": "Indirect",
+          "clue": "Clear as day, plain to see, no mystery here for you or me.",
+          "points": 4
+        },
+        {
+          "type": "Suggestive",
+          "clue": "Easily perceived or understood; clear, self-evident, or apparent.",
+          "points": 2
+        },
+        {
+          "type": "Straight",
+          "clue": "Easily perceived or understood.",
+          "points": 1
+        }
+      ],
+      "related_words": [
+        "invisible"
+      ]
+    },
+    {
+      "word": "figures",
+      "difficulty": "Intermediate",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "Numbers in a sequence, or what someone does when they solve a puzzle.",
           "points": 5
         },
         {
-          "clue": "The latest time something can be done",
           "type": "Suggestive",
-          "points": 4
+          "clue": "To work out or calculate something.",
+          "points": 3
         },
         {
-          "clue": "A time limit",
           "type": "Straight",
-          "points": 1
+          "clue": "To think, consider, or expect.",
+          "points": 2
         }
-      ]
+      ],
+      "related_words": []
     },
     {
-      "word": "forward",
+      "word": "exactly",
       "difficulty": "Easy",
-      "related_words": [],
       "clues": [
         {
-          "clue": "A player who scores goals",
           "type": "Indirect",
-          "points": 5
+          "clue": "Not approximate, but spot on, precisely as it should be done.",
+          "points": 4
         },
         {
-          "clue": "Someone who moves in a direction ahead",
           "type": "Suggestive",
-          "points": 3
+          "clue": "Used to emphasize the accuracy or precision of a statement.",
+          "points": 2
         },
         {
-          "clue": "A player who plays in the front of the team",
           "type": "Straight",
+          "clue": "In an exact manner; precisely.",
           "points": 1
         }
-      ]
+      ],
+      "related_words": []
     },
     {
-      "word": "season",
-      "difficulty": "Intermediate",
-      "related_words": [],
+      "word": "river",
+      "difficulty": "Easy",
       "clues": [
         {
-          "clue": "A period of the year when a particular activity is done",
           "type": "Indirect",
-          "points": 6
-        },
-        {
-          "clue": "A time of year when something happens",
-          "type": "Suggestive",
+          "clue": "A flowing body of water, often leading to the sea, where currents gently flow.",
           "points": 4
         },
         {
-          "clue": "A period of the year",
-          "type": "Straight",
-          "points": 2
-        }
-      ]
-    },
-    {
-      "word": "experienced",
-      "difficulty": "Intermediate",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "Having a lot of knowledge or skill",
-          "type": "Indirect",
-          "points": 6
-        },
-        {
-          "clue": "Someone who has a lot of practice or training",
           "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "Having a lot of experience",
-          "type": "Straight",
+          "clue": "A large natural stream of water flowing in a channel to the sea, a lake, or another river.",
           "points": 2
-        }
-      ]
-    },
-    {
-      "word": "uncertainty",
-      "difficulty": "Hard",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "A feeling of not being sure about something",
-          "type": "Indirect",
-          "points": 7
         },
         {
-          "clue": "A state of doubt or insecurity",
-          "type": "Suggestive",
-          "points": 4
-        },
-        {
-          "clue": "Not being sure about something",
           "type": "Straight",
-          "points": 2
+          "clue": "A large natural flowing watercourse.",
+          "points": 1
         }
-      ]
+      ],
+      "related_words": []
     }
-  ],
-  "id": "ClueChain-2026-04-07"
+  ]
 }
