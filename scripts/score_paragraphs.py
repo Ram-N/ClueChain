@@ -273,6 +273,27 @@ def score_variety(nlp, paragraph_data: Dict) -> Tuple[float, str]:
     return round(max(0, min(10, score)), 1), reason
 
 
+def score_title_spoiler(paragraph_data: Dict) -> Tuple[float, str]:
+    """
+    Penalize puzzles where hidden words appear in the title.
+    A word in the title is a dead giveaway — players see the title before guessing.
+    Returns (penalty <= 0, reason string).
+    """
+    title = paragraph_data.get("title", "")
+    title_words = set(title.lower().split())
+    hidden_words = [hw["word"].lower() for hw in paragraph_data["hiddenWords"]]
+
+    spoiled = [w for w in hidden_words if w in title_words]
+
+    if not spoiled:
+        return 0.0, "no spoilers"
+
+    # -0.5 per spoiled word (on the 0-10 scale, so -5 per word on the 0-100 scale)
+    penalty = -0.5 * len(spoiled)
+    reason = f"{len(spoiled)} hidden word(s) in title: {', '.join(spoiled)}"
+    return round(penalty, 1), reason
+
+
 # ---------------------------------------------------------------------------
 # LLM scoring
 # ---------------------------------------------------------------------------
@@ -334,10 +355,11 @@ def compute_final_score(scores: Dict) -> float:
         if dim in scores and scores[dim] is not None:
             total += scores[dim] * weight
 
-    # Add catalog penalty (raw deduction)
-    catalog = scores.get("catalog_penalty", 0)
-    if catalog is not None:
-        total += catalog
+    # Add raw penalties (deductions)
+    for penalty_key in ("catalog_penalty", "title_spoiler"):
+        val = scores.get(penalty_key, 0)
+        if val is not None:
+            total += val
 
     return round(total, 2)
 
@@ -355,12 +377,14 @@ def compute_partial_score(scores: Dict) -> Tuple[float, float]:
             total += scores[dim] * weight
             weight_used += weight
 
-    catalog = scores.get("catalog_penalty", 0) or 0
-    total += catalog
+    penalties = 0.0
+    for penalty_key in ("catalog_penalty", "title_spoiler"):
+        val = scores.get(penalty_key, 0) or 0
+        penalties += val
 
     if weight_used > 0:
         # Scale up to what a full score would be (proportional estimate)
-        estimated_full = (total - catalog) / weight_used + catalog
+        estimated_full = (total / weight_used) + penalties
         return round(estimated_full, 2), round(weight_used, 2)
 
     return 0.0, 0.0
@@ -487,6 +511,7 @@ def generate_rankings(all_scores: Dict) -> List[Dict]:
             "discovery_curve": scores.get("discovery_curve"),
             "narrative_interest": scores.get("narrative_interest"),
             "catalog_penalty": scores.get("catalog_penalty"),
+            "title_spoiler": scores.get("title_spoiler"),
         })
 
     rows.sort(key=lambda r: r["final_score"], reverse=True)
@@ -499,7 +524,8 @@ def write_rankings_csv(rows: List[Dict], output_path: Path):
     fieldnames = ["rank", "filename", "title", "total_score", "overall_rating",
                   "final_score", "tier", "score_type",
                   "word_quality", "variety", "connectivity", "clueability",
-                  "discovery_curve", "narrative_interest", "catalog_penalty"]
+                  "discovery_curve", "narrative_interest", "catalog_penalty",
+                  "title_spoiler"]
     with open(output_path, "w", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(f, fieldnames=fieldnames)
         writer.writeheader()
@@ -603,7 +629,10 @@ Examples:
     args = parser.parse_args()
 
     # Load env and optionally spaCy
+    # --file implies --rules (fast enough to always run)
     load_dotenv()
+    if args.file:
+        args.rules = True
     nlp = _load_spacy_model() if args.rules else None
 
     # Load existing scores (checkpoint)
@@ -659,6 +688,27 @@ Examples:
                     "reasons": {},
                     "has_llm_scores": False,
                 }
+
+    # Title spoiler penalty (always runs — no spaCy or LLM needed)
+    spoiler_count = 0
+    for filename, data in paragraphs:
+        ts_score, ts_reason = score_title_spoiler(data)
+        if filename not in all_scores:
+            all_scores[filename] = {
+                "title": data.get("title", ""),
+                "date": data.get("date", ""),
+                "scores": {},
+                "reasons": {},
+                "has_llm_scores": False,
+            }
+        all_scores[filename]["scores"]["title_spoiler"] = ts_score
+        all_scores[filename]["reasons"]["title_spoiler"] = ts_reason
+        if ts_score < 0:
+            spoiler_count += 1
+    if spoiler_count:
+        print(f"Title spoiler penalty applied to {spoiler_count} paragraphs")
+    stamp_summary_fields(all_scores)
+    save_scores(all_scores, _SCORES_FILE)
 
     # Phase 2: LLM scoring for unscored paragraphs
     # Determine which need LLM scoring
