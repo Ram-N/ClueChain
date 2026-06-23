@@ -3,20 +3,40 @@
 # Shows coverage across all 366 calendar days (one puzzle per day)
 
 INDEX="assets/data/indexes/daily.json"
+MMDD_DIR="assets/data/puzzles/daily/mmdd"
 GOAL=366
+CHECK_FILES=0
+
+if [ "$1" = "--check-files" ]; then
+  CHECK_FILES=1
+fi
 
 if [ ! -f "$INDEX" ]; then
   echo "Error: $INDEX not found. Run from the ClueChain project root."
   exit 1
 fi
 
-python3 - <<'PYEOF'
-import json, calendar
+python3 - "$CHECK_FILES" "$MMDD_DIR" <<'PYEOF'
+import json, calendar, sys
+from pathlib import Path
+
+check_files = sys.argv[1] == "1"
+mmdd_dir = Path(sys.argv[2])
 
 with open("assets/data/indexes/daily.json") as f:
     data = json.load(f)
 
-days = set(data.get("generic_days", []))
+if check_files:
+    # Only count dates that have an actual file on disk
+    days = set()
+    for p in mmdd_dir.glob("*.json"):
+        stem = p.stem
+        if len(stem) == 4 and stem.isdigit():
+            days.add(stem)
+    source_label = "files on disk"
+else:
+    days = set(data.get("generic_days", []))
+    source_label = "index"
 total = len(days)
 GOAL  = 366
 
@@ -54,9 +74,12 @@ MONTH_NAMES = ["Jan","Feb","Mar","Apr","May","Jun",
 
 pct = total / GOAL * 100
 
+mode_label = f"  (source: {source_label})"
+
 print()
 print(f"{BOLD}{'═' * 60}{RESET}")
 print(f"{BOLD}  ClueChain Puzzle Dashboard  —  {total}/{GOAL} puzzles ({pct:.1f}%){RESET}")
+print(f"{DIM}{mode_label}{RESET}")
 print(f"{BOLD}{'═' * 60}{RESET}")
 
 overall_bar = bar(total, GOAL, width=40)
@@ -119,6 +142,23 @@ next_day = next((d for d in range(1, 32) if MONTHS_WITH_DAY[d][0] < MONTHS_WITH_
 if next_day:
     covered, possible = MONTHS_WITH_DAY[next_day]
     print(f"\n  {BOLD}Next day gap:{RESET} Day {next_day:02d}  ({covered}/{possible} months done, {possible - covered} to go)")
+
+# ── Missing dates list (--check-files only) ────────────────
+if check_files and total < GOAL:
+    print()
+    print(f"{BOLD}{'─' * 60}{RESET}")
+    print(f"{BOLD}  Missing Dates ({GOAL - total} total){RESET}")
+    print(f"{BOLD}{'─' * 60}{RESET}\n")
+
+    for m in range(1, 13):
+        month_total = MONTH_DAYS[m - 1]
+        missing = [d for d in range(1, month_total + 1) if f"{m:02d}{d:02d}" not in days]
+        if missing:
+            date_strs = ", ".join(f"{m:02d}-{d:02d}" for d in missing)
+            print(f"  {MONTH_NAMES[m-1]:<5}  ({len(missing):>2})  {date_strs}")
+
+    print()
+    print(f"{BOLD}{'═' * 60}{RESET}")
 
 print()
 PYEOF

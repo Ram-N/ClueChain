@@ -409,20 +409,20 @@ def stamp_summary_fields(all_scores: Dict):
         entry["overall_rating"] = classify_overall_rating(total)
 
 
-def load_paragraph_files(data_dir: Path, single_file: Optional[str] = None) -> List[Tuple[str, Dict]]:
+def load_paragraph_files(data_dir: Path, files: Optional[List[str]] = None) -> List[Tuple[str, Dict]]:
     """Load paragraph JSON files. Returns list of (filename, data) tuples."""
     results = []
-    if single_file:
-        path = Path(single_file)
-        if not path.is_absolute():
-            # Resolve relative to cwd, not data_dir
-            path = Path.cwd() / path
-        if path.exists():
-            with open(path, encoding="utf-8") as f:
-                results.append((path.name, json.load(f)))
-        else:
-            print(f"Error: File not found: {path}")
-            sys.exit(1)
+    if files:
+        for file_path in files:
+            path = Path(file_path)
+            if not path.is_absolute():
+                path = Path.cwd() / path
+            if path.exists():
+                with open(path, encoding="utf-8") as f:
+                    results.append((path.name, json.load(f)))
+            else:
+                print(f"Error: File not found: {path}")
+                sys.exit(1)
     else:
         for path in sorted(data_dir.glob("*.json")):
             if path.name == "index.json":
@@ -580,7 +580,7 @@ Examples:
   python scripts/score_paragraphs.py --rules                # Also run rule-based scoring (spaCy)
   python scripts/score_paragraphs.py --rules --batch-size 0 # Rule-based only, no LLM
   python scripts/score_paragraphs.py --force                # Re-score everything
-  python scripts/score_paragraphs.py --file path/to/file    # Score single file
+  python scripts/score_paragraphs.py --file a.json b.json   # Score specific files
   python scripts/score_paragraphs.py --dry-run              # Show what would be scored
   python scripts/score_paragraphs.py --delay 2.0            # Custom API delay
   python scripts/score_paragraphs.py --groq                 # Use Groq instead of NIM
@@ -590,8 +590,8 @@ Examples:
                         help="Max paragraphs to LLM-score per run (default: 20)")
     parser.add_argument("--force", action="store_true",
                         help="Re-score all paragraphs (ignore checkpoint)")
-    parser.add_argument("--file", type=str, default=None,
-                        help="Score a single file")
+    parser.add_argument("--file", type=str, nargs="+", default=None,
+                        help="Score one or more specific files")
     parser.add_argument("--dry-run", action="store_true",
                         help="Show what would be scored without scoring")
     parser.add_argument("--delay", type=float, default=2.0,
@@ -677,7 +677,7 @@ Examples:
             print(f"  {fn}")
         if len(needs_llm) > args.batch_size:
             print(f"  ... and {len(needs_llm) - args.batch_size} more in future batches")
-    else:
+    elif needs_llm and args.batch_size > 0:
         # Set up LLM client: NIM default, --groq to override
         nim_key = os.getenv("NIM_API_KEY")
         groq_key = os.getenv("GROQ_API_KEY")

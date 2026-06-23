@@ -1,0 +1,237 @@
+{
+  "title": "The Miracles \u2014 Further reading",
+  "date": "05-30",
+  "text": "Title: The Miracles \u2014 Further reading\n\nBanks, Lacy J. (October 1971). \"The Miracle of the Miracles\". Ebony. Vol. 26, no. 12. Johnson Publishing Company. Dahl, Bill (February 28, 2011). Motown: The Golden Years: More than 100 photographs. Krause Publications. ISBN 978-0-87349-286-7. Gulla, Bob (2008). Icons of R&B and soul: an encyclopedia of the artists who revolutionized rhythm. Vol. 2. Westport, Conn: Greenwood Press. ISBN 978-0-313-34046-8. Ryan, Jack (2012). Recollections, the Detroit Years: The Motown Sound by the People who Made it. Glendower Media. ISBN 978-0-914303-04-6. Smokey Robinson in-depth interview by Pete Lewis, 'Blues & Soul' December 1992 (reprinted February 2009)",
+  "hiddenWords": [
+    {
+      "word": "rhythm",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "soul",
+        "artists"
+      ],
+      "clues": [
+        {
+          "clue": "A pattern of sounds having a regular repeated beat.",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "It's what makes you want to move your body when you hear music.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Life is like a song, and every moment has its own beat, don't you think?",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "word": "soul",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "rhythm",
+        "artists"
+      ],
+      "clues": [
+        {
+          "clue": "The spiritual or immaterial part of a person.",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "A genre of music that originated in the African-American community.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "What's the one thing that music can touch deep within you?",
+          "type": "Indirect",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "word": "artists",
+      "difficulty": "Easy",
+      "related_words": [
+        "rhythm",
+        "soul"
+      ],
+      "clues": [
+        {
+          "clue": "People who create paintings, drawings, or sculptures.",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "Individuals who perform or create music.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The ones who bring color and sound to our lives.",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "word": "encyclopedia",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A comprehensive reference work.",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "A book or set of books that contains a wide range of information on many subjects.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Imagine a treasure chest filled with knowledge, what would you call it?",
+          "type": "Indirect",
+          "points": 7
+        }
+      ]
+    },
+    {
+      "word": "photographs",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Pictures taken with a camera.",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "Images captured to preserve memories.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Moments frozen in time, what do you call them?",
+          "type": "Indirect",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "word": "publications",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The act of making something available to the public.",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "Companies that produce books, magazines, or newspapers.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The way ideas and stories are shared with the world, what's the process called?",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "word": "revolutionized",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Changed something completely, often in a dramatic way.",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "Had a significant impact on something, making it better or more efficient.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Imagine a storm that brings new and exciting things, what's the word for it?",
+          "type": "Indirect",
+          "points": 7
+        }
+      ]
+    },
+    {
+      "word": "reprinted",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Printed again, often with changes or updates.",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "Made available again, often in a new format or edition.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A second chance for something to be seen or read, what's the word for it?",
+          "type": "Indirect",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "word": "recollections",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Memories or reminiscences of the past.",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "The act of remembering or recalling something from the past.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A journey through the mind, where do you go to revisit the past?",
+          "type": "Indirect",
+          "points": 7
+        }
+      ]
+    },
+    {
+      "word": "indepth",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Thoroughly and carefully examined or analyzed.",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "A detailed and detailed examination or discussion of something.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A close look, like using a microscope to see the tiny details.",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-05-30"
+}

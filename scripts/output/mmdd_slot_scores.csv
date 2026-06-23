@@ -1,96 +1,4 @@
 mmdd,date,score_key,total_score,rating,title
-0513,05-13,0513.json,32.5,poor,The history of the elevator
-0614,06-14,0614.json,32.5,poor,Rhythm — Anthropology
-0914,09-14,0914.json,32.5,poor,Rhythm — Rhythm–tempo interaction
-1107,11-07,11-07-RHYTHM-rhythm-rhythmtempo-interaction.json,32.5,poor,Cancer Detectives: Finding the Cures review – this vaccine documentary is so inspirational it'll make you weep
-1109,11-09,1109.json,32.5,poor,Documentary editing — Print volumes
-1130,11-30,11-30-MIRACLE-miracle-external-links.json,33.3,poor,Miracle — External links
-0609,06-09,0609.json,34.5,poor,Documentary film — Hybrid documentary
-0112,01-12,0112.json,42.5,poor,How to Treat Alzheimer's
-0307,03-07,0307.json,42.5,poor,Losing grip on games is worry for Guardiola despite City finding way past Madrid
-0308,03-08,0308.json,42.5,poor,relative distances of the planets
-0408,04-08,0408.json,42.5,poor,slackening angular speed
-0509,05-09,0509.json,42.5,poor,Todd Sampson — Early life and education
-0530,05-30,05-30-MIRACLE-the-miracles-further-reading.json,42.5,poor,The Miracles — Further reading
-0607,06-07,06-07-RHYTHM-rhythm-and-blues-afro-cuban-rhythmic-influence.json,42.5,poor,UK considers new Russia sanctions after Navalny frog toxin finding
-0608,06-08,0608.json,42.5,poor,Canals
-0611,06-11,0611.json,42.5,poor,ClueChain Challenge
-0613,06-13,0613.json,42.5,poor,The Otis Difference
-0904,09-04,09-04-RHYTHM-circadian-rhythm-in-drosophila.json,42.5,poor,Invisible Man by Ralph Ellison (1952)
-1007,10-07,1007.json,42.5,poor,Environmental groups sue Trump's EPA over repeal of landmark climate finding
-1009,10-09,1009.json,42.5,poor,Television documentary — Pre-1900
-1012,10-12,1012.json,42.5,poor,Pollution and Mistakes
-1110,11-10,1110.json,42.5,poor,Paradise by Toni Morrison (1997)
-1112,11-12,1112.json,42.5,poor,Harm from Pollution
-1213,12-13,1213.json,42.5,poor,A Passive Exerciser
-0107,01-07,0107.json,43.5,poor,Finding humor in photography
-0110,01-10,0110.json,43.5,poor,Cold Storage review – mutant-mildew plague horror comedy stuffs fun into the fungi — The Guardian
-0113,01-13,0113.json,43.5,poor,"Abraham Lincoln, master inventor"
-0114,01-14,0114.json,43.5,poor,The Glass Jar by Sylvia Plath (1963)
-0208,02-08,02-08-RHYTHM-rhythm-and-blues-afro-cuban-rhythmic-influence.json,43.5,poor,Orbit of the binary star
-0212,02-12,0212.json,43.5,poor,AI Is Unlocking the Human Brain’s Secrets
-0213,02-13,0213.json,43.5,poor,Lincoln unclogs traffic jam
-0304,03-04,0304.json,43.5,poor,Moby Dick (1851)
-0310,03-10,0310.json,43.5,poor,Clive Myrie’s African Adventure
-0311,03-11,0311.json,43.5,poor,Three major things most people get wrong about the brain
-0411,04-11,0411.json,43.5,poor,Myth - The brain is region specific
-0507,05-07,0507.json,43.5,poor,Liverpool out of tune but Arne Slot working on finding better rhythm
-0508,05-08,0508.json,43.5,poor,A Variable Star
-0510,05-10,0510.json,43.5,poor,The Firework-Maker’s Daughter
-0514,05-14,0514.json,43.5,poor,Rhythm and blues — Afro-Cuban rhythmic influence
-0610,06-10,0610.json,43.5,poor,Sunny Nights
-0810,08-10,0810.json,43.5,poor,Aggressive Hospitality
-0812,08-12,0812.json,43.5,poor,What my dog taught me
-0817,08-17,0817.json,43.5,poor,A Lab Accident Changed my Approach
-0907,09-07,0907.json,43.5,poor,Finding Father Christmas review – Lenny Rush and James Buckley's chemistry is just wonderful
-0913,09-13,0913.json,43.5,poor,"Thanks, Nikola"
-1010,10-10,1010.json,43.5,poor,One Hundred Years of Solitude by Gabriel García Márquez (1967)
-1011,10-11,1011.json,43.5,poor,Human intelligence vs AI
-1014,10-14,1014.json,43.5,poor,Anna Karenina by Leo Tolstoy (1878)
-1108,11-08,1108.json,43.5,poor,Frederick Douglass's Fourth of July Speech ClueChain
-1113,11-13,1113.json,43.5,poor,Who invented the Internet?
-1214,12-14,1214.json,43.5,poor,The Myth of the Lone Inventor
-0928,09-28,09-28-DESTINY-indiana-jones-and-the-dial-of-destiny-budget.json,43.6,poor,Indiana Jones and the Dial of Destiny — Budget
-0108,01-08,0108.json,44.5,poor,It is not a star
-0109,01-09,0109.json,44.5,poor,Documentary film — Romanticism
-0111,01-11,0111.json,44.5,poor,Does pollution poison the mind?
-0115,01-15,0115.json,44.5,poor,"""This Is Just To Say"" by William Carlos Williams. 1934"
-0211,02-11,0211.json,44.5,poor,What makes humans intelligent?
-0214,02-14,0214.json,44.5,poor,A Wrinkle in Time by Madeleine L'Engle (1962)
-0312,03-12,0312.json,44.5,poor,Scanning Brain Thoughts
-0313,03-13,0313.json,44.5,poor,Lincoln's Idea
-0314,03-14,0314.json,44.5,poor,Their Eyes Were Watching God by Zora Neale Hurston (1937)
-0410,04-10,0410.json,44.5,poor,Wild Cherry
-0413,04-13,0413.json,44.5,poor,Otis' invention
-0511,05-11,0511.json,44.5,poor,Human Brains and Evolution
-0512,05-12,0512.json,44.5,poor,Human-only DNA
-0612,06-12,0612.json,44.5,poor,What’s it like to be a baby?
-0808,08-08,0808.json,44.5,poor,An irrational sports allegiance
-0813,08-13,0813.json,44.5,poor,Rethinking my mother's story
-0911,09-11,0911.json,44.5,poor,"Humans think — AI, not so much"
-0912,09-12,0912.json,44.5,poor,Baby brains
-1008,10-08,1008.json,44.5,poor,Fear and Loathing in Las Vegas by Hunter S. Thompson (1971)
-1013,10-13,1013.json,44.5,poor,Nikola Tesla Goes Viral
-1111,11-11,1111.json,44.5,poor,The average human brain size is growing
-1114,11-14,1114.json,44.5,poor,Who invented the iPad?
-1207,12-07,1207.json,44.5,poor,What happens to the human body in 49C heat? Australians are finding out
-1210,12-10,1210.json,44.5,poor,Slaughterhouse Five (Kurt Vonnegut) 1969
-1211,12-11,1211.json,44.5,poor,Bigger and Healthier Brains
-1212,12-12,1212.json,44.5,poor,Hebbian Theory
-0908,09-08,0908.json,45.0,poor,A Tale of Two Cities by Charles Dickens
-0807,08-07,0807.json,45.5,poor,Only Disconnect by By Gary Shteyngart
-0809,08-09,0809.json,45.5,poor,A barber you’d trust with your life
-0814,08-14,0814.json,45.5,poor,A professor who belongs
-0909,09-09,0909.json,45.5,poor,The Law of Compensation by Ralph Waldo Emerson
-0910,09-10,0910.json,45.5,poor,Sharing some truth (How to Write One Song • By Jeff Tweedy)
-1208,12-08,1208.json,45.5,poor,"Young Creators Are Burning Out and Breaking Down (by Taylor Lorenz, The New York Times)"
-0827,08-27,08-27-LYRICAL-nelly-sachs-poetry.json,46.0,poor,Nelly Sachs — Poetry
-0210,02-10,0210.json,46.5,poor,"Mob Justice Is Trampling Democratic Discourse (by Anne Applebaum, The Atlantic)"
-0412,04-12,0412.json,46.5,poor,A New Genetic Clue to How Humans Got Such Big Brains
-0811,08-11,0811.json,46.5,poor,How to think about the Sublime
-0628,06-28,06-28-DESTINY-destinys-child-tours.json,46.7,poor,Destiny's Child — Tours
-0405,04-05,04-05-GK--list-of-conspiracy-theories-george-soros.json,48.4,poor,List of conspiracy theories — George Soros
-1203,12-03,12-03-NOIR-marvel-noir-video-games.json,49.3,poor,Marvel Noir — Video games
 0204,02-04,02-04-CONSPIRACY-list-of-conspiracy-theories-flat-earth.json,50.8,okay,List of conspiracy theories — Flat Earth
 0531,05-31,05-31-RHYTHM-rhythm-counter-rhythm.json,57.9,okay,Rhythm — Counter rhythm
 0503,05-03,05-03-NOIR-terminal-film-development.json,60.2,okay,Terminal (film) — Development
@@ -110,6 +18,7 @@ mmdd,date,score_key,total_score,rating,title
 0905,09-05,09-05-GK--general-knowledge.json,66.5,okay,General knowledge
 0128,01-28,01-28-DESTINY-destiny-2-sales.json,66.6,okay,Destiny 2 — Sales
 0430,04-30,04-30-MIRACLE-miracle-on-ice-popular-culture.json,66.8,okay,Miracle on Ice — Popular culture
+1109,11-09,1109.json,67.0,okay,Documentary editing — Print volumes
 0429,04-29,04-29-BOARD-GAMES-board-game-hobby-board-games.json,67.1,okay,Board game — Hobby board games
 0703,07-03,07-03-NOIR-spider-noir-release.json,67.4,okay,Spider-Noir — Release
 0805,08-05,08-05-GK--common-knowledge.json,67.5,okay,Common knowledge
@@ -117,12 +26,14 @@ mmdd,date,score_key,total_score,rating,title
 0227,02-27,02-27-LYRICAL-lyric-poetry-rome.json,67.9,okay,Lyric poetry — Rome
 0829,08-29,08-29-BOARD-GAMES-this-war-of-mine-the-board-game-variants-and-expansions.json,67.9,okay,This War of Mine: The Board Game — Variants and expansions
 1031,10-31,10-31-RHYTHM-rhythm-tempo-and-duration.json,68.2,okay,Rhythm — Tempo and duration
+1107,11-07,11-07-RHYTHM-rhythm-rhythmtempo-interaction.json,68.2,okay,Cancer Detectives: Finding the Cures review – this vaccine documentary is so inspirational it'll make you weep
 0105,01-05,01-05-GK--knowledge-base-types-of-knowledge-base-systems.json,68.6,okay,Knowledge base — Types of Knowledge Base Systems
 0826,08-26,08-26-ROBOTICS-robotic-surgery-gastrointestinal.json,68.6,okay,Robotic surgery — Gastrointestinal
 0927,09-27,09-27-LYRICAL-lyric-poetry-18th-century.json,68.6,okay,Lyric poetry — 18th century
 0702,07-02,07-02-INFO-relevance-information-retrieval-history.json,68.9,okay,Relevance (information retrieval) — History
 0903,09-03,09-03-NOIR-neo-noir-overview.json,69.2,okay,Neo-noir — Overview
 0424,04-24,04-24-ANCIENT-INDIA-history-of-india-famines.json,69.4,okay,History of India — Famines
+0614,06-14,0614.json,69.4,okay,Rhythm — Anthropology
 0202,02-02,02-02-INFO-information-as-of-2007.json,69.5,okay,Information — As of 2007
 0803,08-03,08-03-NOIR-noir-film-overview.json,69.5,okay,Noir (film) — Overview
 1129,11-29,11-29-BOARD-GAMES-arcs-board-game-overview.json,69.5,okay,Arcs (board game) — Overview
@@ -146,6 +57,7 @@ mmdd,date,score_key,total_score,rating,title
 1225,12-25,12-25-JAZZ-MUSIC-jazz-swing-in-the-1920s-and-1930s.json,70.8,okay,Jazz — Swing in the 1920s and 1930s
 0301,03-01,03-01-RENEWAL-urban-renewal-hong-kong.json,70.9,okay,Urban renewal — Hong Kong
 0603,06-03,06-03-NOIR-film-noir-music.json,70.9,okay,Film noir — Music
+0609,06-09,0609.json,70.9,okay,Documentary film — Hybrid documentary
 0103,01-03,01-03-NOIR-film-noir-ruraloutback-noir.json,71.3,okay,Film noir — Rural/outback noir
 0130,01-30,01-30-MIRACLE-miracle-on-ice-popular-culture.json,71.3,okay,Miracle on Ice — Popular culture
 0131,01-31,01-31-RHYTHM-rhythm-heaven-sequels-and-legacy.json,71.3,okay,Rhythm Heaven — Sequels and legacy
@@ -179,6 +91,7 @@ mmdd,date,score_key,total_score,rating,title
 0930,09-30,09-30-MIRACLE-miracle-on-ice-nhl-careers.json,73.3,okay,Miracle on Ice — NHL careers
 0124,01-24,01-24-ANCIENT-INDIA-history-of-india-world-war-i.json,73.7,okay,History of India — World War I
 1025,10-25,10-25-JAZZ-MUSIC-jazz-social-media.json,73.7,okay,Jazz — Social media
+0513,05-13,0513.json,73.9,okay,The history of the elevator
 0624,06-24,06-24-ANCIENT-INDIA-history-of-india-sikh-empire.json,74.0,okay,History of India — Sikh Empire
 1030,10-30,10-30-MIRACLE-miracle-on-ice-gold-medal.json,74.2,okay,Miracle on Ice — Gold medal
 0425,04-25,04-25-JAZZ-MUSIC-jazz-jazz-and-race.json,74.5,okay,Jazz — Jazz and race
@@ -186,25 +99,37 @@ mmdd,date,score_key,total_score,rating,title
 1003,10-03,10-03-NOIR-spider-noir-marketing.json,75.3,good,Spider-Noir — Marketing
 0201,02-01,02-01-RENEWAL-new-hope-poland-ideology-and-position.json,75.8,good,New Hope (Poland) — Ideology and position
 0205,02-05,02-05-GK--list-of-conspiracy-theories-flat-earth.json,77.1,good,List of conspiracy theories — Flat Earth
+1110,11-10,1110.json,77.3,good,Paradise by Toni Morrison (1997)
+0607,06-07,06-07-RHYTHM-rhythm-and-blues-afro-cuban-rhythmic-influence.json,77.9,good,UK considers new Russia sanctions after Navalny frog toxin finding
 0917,09-17,09-17_What_makes_Hill_Country_so_prone_to_flooding.json,78.0,good,What makes Hill Country so prone to flooding?
 0716,07-16,07-16_1984.json,78.1,good,—Nineteen Eighty-Four by George Orwell (1949)
 0407,04-07,04-07-Sedaris.json,78.2,good,Sharing some truth (How to Write One Song • By Jeff Tweedy)
+0914,09-14,0914.json,78.2,good,Rhythm — Rhythm–tempo interaction
 0712,07-12,07-12_paradise.json,78.3,good,Neuroscience and baby brains
 0715,07-15,07-15_Kafka.json,78.6,good,Metamorphosis by Franz Kafka (1915)
+1114,11-14,1114.json,78.6,good,Who invented the iPad?
 0602,06-02,06-02-INFO-general-knowledge-game-shows-and-quizzes.json,78.8,good,General knowledge — Game shows and quizzes
 1128,11-28,11-28-DESTINY-manifest-destiny-spanishamerican-war.json,78.8,good,Manifest destiny — Spanish–American War
 0714,07-14,07-14_slaughterhouse.json,79.0,good,Rhythm and blues — Afro-Cuban rhythmic influence
 1127,11-27,11-27-LYRICAL-judah-halevi-riddles.json,79.0,good,Judah Halevi — Riddles
+1210,12-10,1210.json,79.0,good,Slaughterhouse Five (Kurt Vonnegut) 1969
 0309,03-09,03-09-Their_Eyes_Were_Watching_God_Zora_Neale_Hurston.json,79.2,good,Their Eyes Were Watching God by Zora Neale Hurston (1937)
 0822,08-22,08-22-WRITING-subject-matter-matters.json,79.2,good,Subject matter matters
+0910,09-10,0910.json,79.2,good,Sharing some truth (How to Write One Song • By Jeff Tweedy)
 1103,11-03,11-03-NOIR-marvel-noir-x-men-noir-mark-of-cain.json,79.2,good,Marvel Noir — X-Men Noir: Mark of Cain
 1226,12-26,12-26-ROBOTICS-robot-home-automation-for-the-elderly-and-disabled.json,79.4,good,Robot — Home automation for the elderly and disabled
 0528,05-28,05-28-DESTINY-destiny-politics.json,79.5,good,Destiny — Politics
+0115,01-15,0115.json,79.6,good,"""This Is Just To Say"" by William Carlos Williams. 1934"
 0209,02-09,02-09-07-06.json,79.6,good,"""This Is Just To Say"" by William Carlos Williams. 1934"
+0411,04-11,0411.json,79.6,good,Myth - The brain is region specific
+1014,10-14,1014.json,79.6,good,Anna Karenina by Leo Tolstoy (1878)
 0226,02-26,02-26-ROBOTICS-robotic-surgery-use-in-popular-media.json,79.7,good,Robotic surgery — Use in popular media
+0611,06-11,0611.json,79.7,good,ClueChain Challenge
 1101,11-01,11-01-RENEWAL-jd-vance-munich-security-conference.json,79.7,good,JD Vance — Munich Security Conference
 0317,03-17,03-17_Geographic_Analysis.json,79.9,good,Geographic Analysis
 0711,07-11,07-11_Solitude.json,79.9,good,Myth - Brain damage is always permanent
+1010,10-10,1010.json,79.9,good,One Hundred Years of Solitude by Gabriel García Márquez (1967)
+1213,12-13,1213.json,79.9,good,A Passive Exerciser
 0104,01-04,01-04-CONSPIRACY-list-of-conspiracy-theories-new-england-patriots.json,80.0,good,List of conspiracy theories — New England Patriots
 0421,04-21,04-21-HOBBIES-the-bizarre-relationship.json,80.0,good,The Bizarre Relationship
 0604,06-04,06-04-CONSPIRACY-list-of-conspiracy-theories-black-helicopters.json,80.0,good,List of conspiracy theories — Black helicopters
@@ -212,36 +137,55 @@ mmdd,date,score_key,total_score,rating,title
 0823,08-23,08-23-FOLKLORE-naïve-witchcraft-beliefs-in-acadian.json,80.0,good,Naïve witchcraft beliefs in Acadian
 1102,11-02,11-02-INFO-knowledge-economy.json,80.0,good,Knowledge economy
 1116,11-16,11-16_The_Noma_Way_Part2.json,80.0,good,The Noma Way Part2
+0314,03-14,0314.json,80.2,good,Their Eyes Were Watching God by Zora Neale Hurston (1937)
 0402,04-02,04-02-INFO-geographic-information-system-terrain-depiction.json,80.3,good,Geographic information system — Terrain depiction
 1002,10-02,10-02-INFO-common-knowledge-examples.json,80.3,good,Common knowledge — Examples
+0110,01-10,0110.json,80.4,good,Cold Storage review – mutant-mildew plague horror comedy stuffs fun into the fungi — The Guardian
+0211,02-11,0211.json,80.4,good,What makes humans intelligent?
 0328,03-28,03-28-DESTINY-destiny-streamer-political-violence.json,80.4,good,Destiny (streamer) — Political violence
 0403,04-03,04-03-NOIR-neo-noir-history.json,80.4,good,Neo-noir — History
 0626,06-26,06-26-jar.json,80.4,good,The Glass Jar by Sylvia Plath (1963)
 0629,06-29,06-29-BOARD-GAMES-this-war-of-mine-the-board-game-overview.json,80.4,good,This War of Mine: The Board Game — Overview
 0707,07-07,07-07_cut_paste.json,80.4,good,On the ‘cut-and-paste’ Mentality by Susan Greenfield ClueChain
 0710,07-10,07-10_kitchen_sink.json,80.4,good,The Running Man
+1007,10-07,1007.json,80.4,good,Environmental groups sue Trump's EPA over repeal of landmark climate finding
 1202,12-02,12-02-INFO-knowledge-base.json,80.4,good,Knowledge base
 0203,02-03,02-03-NOIR-science-fiction-noir.json,80.5,good,Science fiction noir
+0312,03-12,0312.json,80.5,good,Scanning Brain Thoughts
 0619,06-19,06-19-NEGOTIATION-the-diplomatic-path-to-a-secure-ukraine.json,80.5,good,The Diplomatic Path to a Secure Ukraine
 0901,09-01,09-01-RENEWAL-renewal-theory-interpretation.json,80.5,good,Renewal theory — Interpretation
+0111,01-11,0111.json,80.6,good,Does pollution poison the mind?
 0126,01-26,01-26-ROBOTICS-robot-etymology.json,80.6,good,Robot — Etymology
+0307,03-07,0307.json,80.6,good,Losing grip on games is worry for Guardiola despite City finding way past Madrid
+0308,03-08,0308.json,80.6,good,relative distances of the planets
 0414,04-14,04-14-burnout.json,80.6,good,"Young Creators Are Burning Out and Breaking Down (by Taylor Lorenz, The New York Times)"
+0508,05-08,0508.json,80.6,good,A Variable Star
 0713,07-13,07-13_Tolstoy.json,80.6,good,The electric Horse
+1208,12-08,1208.json,80.6,good,"Young Creators Are Burning Out and Breaking Down (by Taylor Lorenz, The New York Times)"
 0409,04-09,04-09-Loathing.json,80.7,good,Fear and Loathing in Las Vegas by Hunter S. Thompson (1971)
+1008,10-08,1008.json,80.7,good,Fear and Loathing in Las Vegas by Hunter S. Thompson (1971)
 1106,11-06,11-06-HUMAN-BRAIN-trump-officials-halt-offshore-wind-farm-projects-over-national-security-risks-the-guardian.json,80.7,good,Trump officials halt offshore wind-farm projects over ‘national security risks’ — The Guardian
+1113,11-13,1113.json,80.7,good,Who invented the Internet?
+1203,12-03,12-03-old_0807.json,80.7,good,Finding Harmony: A King’s Vision review – some of Charles’s ideas are strangely trippy
+0108,01-08,0108.json,80.8,good,It is not a star
+0405,04-05,04-05-old_0810.json,80.8,good,Sketch review – googly-eyed fuzzballs come to glitter-burping life in fun kids fantasy yarn — The Guardian
 0426,04-26,04-26-ROBOTICS-robotics-locomotion.json,80.8,good,Robotics — Locomotion
 0821,08-21,08-21-HOBBIES-why-ambitious-people-have-unrelated-hobbies.json,80.8,good,Why ambitious people have (unrelated) hobbies
 0207,02-07,02-07-07-21.json,80.9,good,A Wrinkle in Time by Madeleine L'Engle (1962)
+0214,02-14,0214.json,80.9,good,A Wrinkle in Time by Madeleine L'Engle (1962)
 0306,03-06,03-06-HUMAN-BRAIN-were-no-longer-attracting-top-talent-the-brain-drain-killing-american-science-the-guardian.json,80.9,good,‘We’re no longer attracting top talent’: the brain drain killing American science  — The Guardian
 0515,05-15,05-15_A_Maharaja_Bows_to_the_Present.json,80.9,good,A Maharaja Bows to the Present
+0610,06-10,0610.json,80.9,good,Sunny Nights
 0819,08-19,08-19-NEGOTIATION-negotiation.json,80.9,good,Negotiation
 1201,12-01,12-01-RENEWAL-urban-renewal-loss-or-change-of-character.json,80.9,good,Urban renewal — Loss or change of character
 1217,12-17,12-17_Is_Apple_maps_getting_ready_to_tackle_public_transport.json,80.9,good,Is Apple maps getting ready to tackle public transport?
+0109,01-09,0109.json,81.0,good,Documentary film — Romanticism
 0218,02-18,02-18-COLORS-redesigning-the-way-we-work.json,81.0,good,Redesigning the Way We Work
 0329,03-29,03-29-BOARD-GAMES-hotel-board-game-reception.json,81.0,good,Hotel (board game) — Reception
 0605,06-05,06-05-GK--general-knowledge-personality.json,81.0,good,General knowledge — Personality
 0621,06-21,06-21-HOBBIES-the-rage-of-the-almost-elite.json,81.0,good,The Rage of the Almost-Elite
 0830,08-30,08-30-MIRACLE-miracle-on-ice-second-period.json,81.0,good,Miracle on Ice — Second period
+1112,11-12,1112.json,81.0,good,Harm from Pollution
 0223,02-23,02-23-FOLKLORE-in-defense-of-persimmons.json,81.1,good,In defense of persimmons
 0925,09-25,09-25-JAZZ-MUSIC-jazz-syncopation.json,81.1,good,Jazz — Syncopation
 0123,01-23,01-23-FOLKLORE-ursula-k-le-guin-on-myths.json,81.2,good,Ursula K. Le Guin on myths
@@ -251,6 +195,7 @@ mmdd,date,score_key,total_score,rating,title
 0731,07-31,07-31-RHYTHM-rhythm-and-blues-afro-cuban-rhythmic-influence.json,81.2,good,Rhythm and blues — Afro-Cuban rhythmic influence
 0802,08-02,08-02-INFO-retrieval-augmented-generation-language-model.json,81.2,good,Retrieval-augmented generation — Language model
 0831,08-31,08-31-RHYTHM-rhythm-metric-structure.json,81.2,good,Rhythm — Metric structure
+0913,09-13,0913.json,81.2,good,"Thanks, Nikola"
 1215,12-15,12-15_Written_in_the_wind.json,81.2,good,Written in the wind
 1220,12-20,12-20-COOL-GADGETS-protect-your-hearing.json,81.2,good,Protect your hearing
 0117,01-17,01-17_History_of_Geography.json,81.3,good,History of Geography
@@ -260,11 +205,19 @@ mmdd,date,score_key,total_score,rating,title
 0719,07-19,07-19-NEGOTIATION-ive-studied-conflict-resolution.json,81.3,good,I’ve studied conflict resolution
 0722,07-22,07-22-WRITING-on-writing-habits-and-rituals.json,81.3,good,On Writing Habits And Rituals
 1004,10-04,10-04-CONSPIRACY-pizzagate-conspiracy-theory-turkish-press-reports.json,81.3,good,Pizzagate conspiracy theory — Turkish press reports
+0114,01-14,0114.json,81.4,good,The Glass Jar by Sylvia Plath (1963)
 0406,04-06,04-06-HUMAN-BRAIN-donald-trump-is-waging-war-against-human-conscience-the-guardian.json,81.4,good,Donald Trump is waging war against human conscience — The Guardian
 0418,04-18,04-18-COLORS-the-real-difference-between-warm-and-cool-colors.json,81.4,good,The Real Difference Between Warm and Cool Colors
+0613,06-13,0613.json,81.4,good,The Otis Difference
+0304,03-04,0304.json,81.5,good,Moby Dick (1851)
 0506,05-06,05-06-HUMAN-BRAIN-brain-has-five-eras-scientists-say-with-adult-mode-not-starting-until-early-30s-the-guardian.json,81.5,good,"Brain has five ‘eras’, scientists say – with adult mode not starting until early 30s — The Guardian"
+0510,05-10,0510.json,81.5,good,The Firework-Maker’s Daughter
+0628,06-28,06-28-old_0814.json,81.5,good,Circadian rhythm — In Drosophila
 0704,07-04,07-04-CONSPIRACY-pizzagate-conspiracy-theory-public-opinion.json,81.5,good,Pizzagate conspiracy theory — Public opinion
 0727,07-27,07-27-LYRICAL-petrarch-mount-ventoux.json,81.5,good,Petrarch — Mount Ventoux
+0827,08-27,08-27-old_0812.json,81.5,good,fMRI on infants
+0904,09-04,09-04-RHYTHM-circadian-rhythm-in-drosophila.json,81.5,good,Invisible Man by Ralph Ellison (1952)
+1009,10-09,1009.json,81.5,good,Television documentary — Pre-1900
 1017,10-17,10-17_A_modern_mathematical_method_for_calculating_centers_of_geography.json,81.5,good,A modern mathematical method for calculating centers of geography
 1028,10-28,10-28-DESTINY-destiny-2-fate-saga-2025present.json,81.5,good,Destiny 2 — Fate Saga (2025–present)
 1125,11-25,11-25-JAZZ-MUSIC-jazz-african-rhythmic-retention.json,81.5,good,Jazz — African rhythmic retention
@@ -272,12 +225,18 @@ mmdd,date,score_key,total_score,rating,title
 1223,12-23,12-23-FOLKLORE-what-the-germans-left-behind.json,81.5,good,What the Germans Left Behind
 1230,12-30,12-30-ishmael.json,81.5,good,Moby Dick (1851)
 0215,02-15,02-15_The_Success_of_Ordinary_Indians.json,81.6,good,The Success of Ordinary Indians
+0608,06-08,0608.json,81.6,good,Canals
 0720,07-20,07-20-COOL-GADGETS-inside-the-mind-of-an-ecoterrorist.json,81.6,good,Inside the Mind of an Ecoterrorist
+0808,08-08,0808.json,81.6,good,An irrational sports allegiance
 1120,11-20,11-20-COOL-GADGETS-this-remote-makes-controlling-your-phone-a-breeze.json,81.6,good,This remote makes controlling your phone a breeze
 0321,03-21,03-21-HOBBIES-harriet-the-spy.json,81.7,good,Harriet the Spy
+0112,01-12,0112.json,81.8,good,How to Treat Alzheimer's
 0120,01-20,01-20-COOL-GADGETS-skip-single-use-gadgets.json,81.8,good,Skip single-use gadgets
 0206,02-06,02-06-HUMAN-BRAIN-us-banks-announce-uk-expansion-projects-hours-after-budget-the-guardian.json,81.8,good,US banks announce UK expansion projects hours after budget  — The Guardian
+0208,02-08,02-08-RHYTHM-rhythm-and-blues-afro-cuban-rhythmic-influence.json,81.8,good,Orbit of the binary star
+0213,02-13,0213.json,81.8,good,Lincoln unclogs traffic jam
 0330,03-30,03-30-MIRACLE-miracle-on-ice-third-period.json,81.8,good,Miracle on Ice — Third period
+0514,05-14,0514.json,81.8,good,Rhythm and blues — Afro-Cuban rhythmic influence
 1018,10-18,10-18-COLORS-juvenile-impulse.json,81.8,good,Juvenile Impulse
 1206,12-06,12-06-HUMAN-BRAIN-trump-administration-freezes-21bn-in-funds-for-chicago-transit-projects-the-guardian.json,81.8,good,Trump administration freezes $2.1bn in funds for Chicago transit projects — The Guardian
 0416,04-16,04-16_The_Burning_Desire_for_Hot_Chicken.json,81.9,good,The Burning Desire for Hot Chicken
@@ -289,61 +248,97 @@ mmdd,date,score_key,total_score,rating,title
 1218,12-18,12-18-COLORS-natural-justice.json,82.0,good,Natural Justice
 1222,12-22,12-22-WRITING-writing-and-the-creative-life.json,82.0,good,Writing and the Creative Life
 0319,03-19,03-19-NEGOTIATION-5-things-you-can-negotiate-to-save-money.json,82.1,good,5 things you can negotiate to save money
+0511,05-11,0511.json,82.1,good,Human Brains and Evolution
 0525,05-25,05-25-JAZZ-MUSIC-jazz-blended-african-and-european-music-sensibilities.json,82.1,good,Jazz — Blended African and European music sensibilities
 0701,07-01,07-01-RENEWAL-urban-renewal-south-africa.json,82.1,good,Urban renewal — South Africa
+1111,11-11,1111.json,82.1,good,The average human brain size is growing
+0107,01-07,0107.json,82.2,good,Finding humor in photography
+0507,05-07,0507.json,82.2,good,Liverpool out of tune but Arne Slot working on finding better rhythm
 0726,07-26,07-26-ROBOTICS-robot-mesopotamia.json,82.2,good,Robot — Mesopotamia
 0228,02-28,02-28-DESTINY-destinys-child-19901997-early-beginnings-and-girls-tyme.json,82.3,good,Destiny's Child — 1990–1997: Early beginnings and Girl's Tyme
 0415,04-15,04-15_British_Fighter_Jet_Takes_Unexpected_Detour_to_India.json,82.3,good,British Fighter Jet Takes Unexpected Detour to India
 0625,06-25,06-25-JAZZ-MUSIC-jazz-machito-and-mario-bauza.json,82.3,good,Jazz — Machito and Mario Bauza
 0630,06-30,06-30-MIRACLE-miracle-on-ice-silver-medal.json,82.3,good,Miracle on Ice — Silver medal
+0812,08-12,0812.json,82.3,good,What my dog taught me
 1126,11-26,11-26-ROBOTICS-robot-swarm-robots.json,82.3,good,Robot — Swarm robots
+0612,06-12,0612.json,82.4,good,What’s it like to be a baby?
+1108,11-08,1108.json,82.4,good,Frederick Douglass's Fourth of July Speech ClueChain
 1209,12-09,12-09-07-05.json,82.4,good,Frederick Douglass's Fourth of July Speech ClueChain
+1212,12-12,1212.json,82.4,good,Hebbian Theory
 0428,04-28,04-28-Being_born_in_the_wrong_ZIP_code_can_shorten_your_life.json,82.5,good,Being born in the wrong ZIP code can shorten your life
 0606,06-06,06-06-HUMAN-BRAIN-englands-zombies-have-rapidly-descended-into-collective-brain-fog-in-six-nations-the-guardian.json,82.5,good,England’s zombies have rapidly descended into collective brain fog in Six Nations — The Guardian
 1001,10-01,10-01-RENEWAL-urban-renewal-united-states.json,82.5,good,Urban renewal — United States
+1013,10-13,1013.json,82.5,good,Nikola Tesla Goes Viral
 0221,02-21,02-21-HOBBIES-the-huntress-faces-a-gross-backlash.json,82.6,good,"The ""huntress"" faces a gross backlash"
 0718,07-18,07-18-COLORS-mustard-the-color-of-millennial-candidates.json,82.6,good,"Mustard, the Color of Millennial Candidates"
 0121,01-21,01-21-HOBBIES-politico-has-figured-out.json,82.7,good,Politico has figured out
 0706,07-06,07-06-HUMAN-BRAIN-democrats-activate-weeklong-voter-drive-to-offset-critical-registration-losses-the-guardian.json,82.7,good,Democrats activate weeklong voter drive to offset critical registration losses — The Guardian
 1027,10-27,10-27-LYRICAL-petrarch-later-years.json,82.7,good,Petrarch — Later years
+0310,03-10,0310.json,82.8,good,Clive Myrie’s African Adventure
 0516,05-16,05-16_Lush_Life_Lahore.json,82.8,good,Lush Life Lahore
 1229,12-29,12-29-BOARD-GAMES-anomia-game-design.json,82.8,good,Anomia (game) — Design
 0320,03-20,03-20-COOL-GADGETS-the-future-of-wearables.json,82.9,good,The Future of Wearables
 0923,09-23,09-23-FOLKLORE-china-in-ten-words.json,82.9,good,China in Ten Words
 1016,10-16,10-16_The_Noma_Way.json,82.9,good,The Noma Way
 1022,10-22,10-22-WRITING-neglecting-to-read.json,82.9,good,Neglecting to Read
+1211,12-11,1211.json,82.9,good,Bigger and Healthier Brains
 0216,02-16,02-16_Fancy_a_Kulfi_From_Granita_to_Queso_Helado.json,83.0,good,Fancy a Kulfi? From Granita to Queso Helado
+0313,03-13,0313.json,83.0,good,Lincoln's Idea
 0401,04-01,04-01-RENEWAL-jd-vance-zelenskyy-white-house-visit.json,83.0,good,JD Vance — Zelenskyy White House visit
 0730,07-30,07-30-MIRACLE-miracle-judaism.json,83.0,good,Miracle — Judaism
 0902,09-02,09-02-INFO-retrieval-augmented-generation-challenges.json,83.0,good,Retrieval-augmented generation — Challenges
 1015,10-15,10-15_An_Indian_City_Bursting_With_Action.json,83.0,good,An Indian City Bursting With Action
+1207,12-07,1207.json,83.0,good,What happens to the human body in 49C heat? Australians are finding out
+0408,04-08,0408.json,83.1,good,slackening angular speed
+0817,08-17,0817.json,83.1,good,A Lab Accident Changed my Approach
+0413,04-13,0413.json,83.3,good,Otis' invention
 0922,09-22,09-22-WRITING-a-writers-guide-to-just-getting-on-with-it.json,83.3,good,A writers guide to just getting on with it
+0928,09-28,09-28-tale-of-two-cities.json,83.3,good,A Tale of Two Cities
 1115,11-15,11-15_The_mist_mystery_and_mountains_of_Sikkim.json,83.3,good,"The mist, mystery, and mountains of Sikkim"
+1214,12-14,1214.json,83.3,good,The Myth of the Lone Inventor
+0113,01-13,0113.json,83.4,good,"Abraham Lincoln, master inventor"
+0212,02-12,0212.json,83.4,good,AI Is Unlocking the Human Brain’s Secrets
 0222,02-22,02-22-WRITING-writers-who-dont-read.json,83.4,good,Writers who don’t read
 0323,03-23,03-23-FOLKLORE-fairy-tales-fantasy-and-dangerous-female-desire.json,83.4,good,"Fairy tales, fantasy and dangerous female desire"
 0502,05-02,05-02-INFO-common-knowledge.json,83.4,good,Common knowledge
+0509,05-09,0509.json,83.4,good,Todd Sampson — Early life and education
 0709,07-09,07-09.json,83.4,good,The Law of Compensation by Ralph Waldo Emerson
 0806,08-06,08-06-HUMAN-BRAIN-human-activity-helped-make-2025-third-hottest-year-on-record-experts-say-the-guardian.json,83.4,good,"Human activity helped make 2025 third-hottest year on record, experts say — The Guardian"
+0809,08-09,0809.json,83.4,good,A barber you’d trust with your life
+0814,08-14,0814.json,83.4,good,A professor who belongs
 0816,08-16,08-16_Nestles_Half-Billion_Dollar_Noodle_Debacle.json,83.4,good,Nestle's Half-Billion Dollar Noodle Debacle
+0909,09-09,0909.json,83.4,good,The Law of Compensation by Ralph Waldo Emerson
 1020,10-20,10-20-COOL-GADGETS-i-rescued-a-panini-press.json,83.4,good,I rescued a panini press
 0101,01-01,01-01-invisible.json,83.5,good,Invisible Man by Ralph Ellison (1952)
 0318,03-18,03-18-COLORS-northern-lights-manitoba.json,83.5,good,"Northern Lights, Manitoba"
+0530,05-30,05-30-old_0817.json,83.5,good,Being born in the wrong ZIP code can shorten your life
+0911,09-11,0911.json,83.5,good,"Humans think — AI, not so much"
 1118,11-18,11-18-COLORS-unreal-city.json,83.5,good,Unreal City
 0122,01-22,01-22-WRITING-my-dirty-secret-writing-life.json,83.6,good,My dirty secret writing life
 0721,07-21,07-21-HOBBIES-holding-up-the-rear.json,83.6,good,Holding up the rear
+0810,08-10,0810.json,83.6,good,Aggressive Hospitality
+1011,10-11,1011.json,83.6,good,Human intelligence vs AI
+1012,10-12,1012.json,83.6,good,Pollution and Mistakes
 0322,03-22,03-22-WRITING-story-writers-tell-all.json,83.7,good,Story writers tell all
 0524,05-24,05-24-ANCIENT-INDIA-history-of-india-maurya-empire.json,83.7,good,History of India — Maurya Empire
 0615,06-15,06-15_36_Hours_in_Bangalore_India.json,83.7,good,"36 Hours in Bangalore, India"
+0210,02-10,0210.json,83.8,good,"Mob Justice Is Trampling Democratic Discourse (by Anne Applebaum, The Atlantic)"
+0412,04-12,0412.json,83.8,good,A New Genetic Clue to How Humans Got Such Big Brains
 0519,05-19,05-19-NEGOTIATION-whats-the-best-way-to-get-a-raise.json,83.8,good,What's the Best Way to Get a Raise?
 0627,06-27,06-27-07-01.json,83.8,good,"Mob Justice Is Trampling Democratic Discourse (by Anne Applebaum, The Atlantic)"
+0807,08-07,0807.json,83.8,good,Only Disconnect by By Gary Shteyngart
+0908,09-08,0908.json,83.8,good,A Tale of Two Cities by Charles Dickens
 0916,09-16,09-16_Delusion_at_the_Gastropub.json,83.8,good,Delusion at the Gastropub
 1221,12-21,12-21-HOBBIES-tips-and-tricks-from-a-crossword-prodigy.json,83.8,good,Tips and Tricks From a Crossword Prodigy
+0410,04-10,0410.json,83.9,good,Wild Cherry
 0521,05-21,05-21-HOBBIES-its-okay-to-start-small.json,83.9,good,It’s Okay to Start Small
 0618,06-18,06-18-COLORS-a-brief-history-of-the-new-republic.json,83.9,good,A Brief History of The New Republic
 0623,06-23,06-23-FOLKLORE-here-are-ghosts.json,83.9,good,Here Are Ghosts
 0918,09-18,09-18-COLORS-periwinkle-the-color-of-poison-modernism-and-dusk.json,83.9,good,"Periwinkle, the Color of Poison, Modernism, and Dusk"
 1019,10-19,10-19-NEGOTIATION-women-know-when-negotiating-isnt-worth-it.json,83.9,good,Women Know When Negotiating Isn't Worth It
 1119,11-19,11-19-NEGOTIATION-how-a-negotiation-expert-would-bargain-with-a-kid.json,83.9,good,How a Negotiation Expert Would Bargain With a Kid
+0813,08-13,0813.json,84.0,good,Rethinking my mother's story
+0907,09-07,0907.json,84.0,good,Finding Father Christmas review – Lenny Rush and James Buckley's chemistry is just wonderful
 0616,06-16,06-16_My_Wine_Accumulation.json,84.1,good,My Wine Accumulation
 0620,06-20,06-20-COOL-GADGETS-wealth-of-memory.json,84.1,good,Wealth of Memory
 0220,02-20,02-20-COOL-GADGETS-the-cheap-tools-that-will-transform-your-cooking.json,84.2,good,The (cheap) tools that will transform your cooking
@@ -354,9 +349,13 @@ mmdd,date,score_key,total_score,rating,title
 0224,02-24,02-24-ANCIENT-INDIA-history-of-india-trade-and-travels-to-india.json,84.4,good,History of India — Trade and travels to India
 0423,04-23,04-23-FOLKLORE-a-nation-of-truthers.json,84.4,good,A nation of truthers
 1122,11-22,11-22-WRITING-cal-newport-on-writing-productivity.json,84.4,good,Cal Newport on Writing Productivity
+1130,11-30,11-30-old_0811.json,84.4,good,Science explains why our brains aren’t just fancy computers
 0316,03-16,03-16_The_Unified_Theory_of_Deliciousness.json,84.5,good,The Unified Theory of Deliciousness
+0512,05-12,0512.json,84.6,good,Human-only DNA
+0912,09-12,0912.json,84.6,good,Baby brains
 0118,01-18,01-18-COLORS-how-giant-white-houses-took-over-america.json,84.9,good,How Giant White Houses Took Over America
 0815,08-15,08-15_Living_Landscapes_Of_Ladakh.json,85.0,good,Living Landscapes Of Ladakh 
+0811,08-11,0811.json,85.1,good,How to think about the Sublime
 1219,12-19,12-19-NEGOTIATION-the-patient-war.json,85.2,good,The Patient war
 1023,10-23,10-23-FOLKLORE-the-character-remains.json,85.4,good,The Character Remains
 1117,11-17,11-17_Expedition_to_the_End_of_the_World.json,85.5,good,“Expedition to the End of the World”
@@ -364,4 +363,5 @@ mmdd,date,score_key,total_score,rating,title
 1123,11-23,11-23-FOLKLORE-the-second-coming.json,85.8,good,The Second Coming
 0708,07-08,07-08_Patti.json,86.1,good,Sundial curiosity
 0520,05-20,05-20-COOL-GADGETS-privacy.json,86.4,good,Privacy
+0311,03-11,0311.json,86.5,good,Three major things most people get wrong about the brain
 0527,05-27,05-27-07-04.json,88.3,good,A Tale of Two Cities by Charles Dickens

@@ -359,43 +359,8 @@ def main():
 
 def regenerate_slot_scores(all_scores, mapping):
     """Rebuild mmdd_slot_scores.csv from current scores and mapping."""
-    rows = []
-    for mmdd in sorted(mapping.keys()):
-        entry = mapping[mmdd]
-        date_str = f"{mmdd[:2]}-{mmdd[2:]}"
-        old_file = entry.get("old_file", "").strip()
-
-        # Find score key
-        score_key = ""
-        total_score = 0.0
-        rating = ""
-
-        if old_file and old_file in all_scores:
-            score_key = old_file
-        elif f"{mmdd}.json" in all_scores:
-            score_key = f"{mmdd}.json"
-
-        if score_key and score_key in all_scores:
-            total_score = all_scores[score_key].get("total_score", 0)
-            rating = all_scores[score_key].get("overall_rating", "")
-
-        rows.append({
-            "mmdd": mmdd,
-            "date": date_str,
-            "score_key": score_key,
-            "total_score": total_score,
-            "rating": rating,
-            "title": entry.get("new_title", ""),
-        })
-
-    rows.sort(key=lambda r: r["total_score"])
-
-    with open(SLOT_SCORES_CSV, "w", newline="") as f:
-        writer = csv.DictWriter(
-            f, fieldnames=["mmdd", "date", "score_key", "total_score", "rating", "title"]
-        )
-        writer.writeheader()
-        writer.writerows(rows)
+    from regenerate_slot_scores import regenerate_slot_scores as _regen
+    _regen(all_scores, mapping, SLOT_SCORES_CSV)
 
 
 if __name__ == "__main__":
