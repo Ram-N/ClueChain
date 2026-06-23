@@ -100,24 +100,6 @@ def slugify(text):
     return text[:60].strip("-")
 
 
-def build_root_filename(staged_name, date_str):
-    """
-    Build a root-level filename like MM-DD-slug.json.
-
-    If the staged file already has an MM-DD prefix, strip it and use the rest.
-    Otherwise, use the full stem.
-    """
-    stem = Path(staged_name).stem
-
-    # Strip existing MM-DD- prefix if present
-    if re.match(r"^\d{2}-\d{2}[-_]", stem):
-        stem = stem[6:]
-
-    if not stem:
-        return f"{date_str}.json"
-
-    return f"{date_str}-{stem}.json"
-
 
 def score_staged_file(filepath):
     """
@@ -281,22 +263,15 @@ def main():
             archived_as = archive_file(DATA_DIR / score_key, score_key)
             print(f"  Archived root: {score_key} -> archive/{archived_as}")
 
-        # 6c. Build new root filename
-        new_root_name = build_root_filename(staged_path.name, date_str)
-
-        # 6d. Load staged JSON, update date, write to both locations
+        # 6c. Load staged JSON, update date, write to mmdd
         puzzle_data = load_json(staged_path)
         puzzle_data["date"] = date_str
-
-        new_root_path = DATA_DIR / new_root_name
-        save_json(new_root_path, puzzle_data)
-        print(f"  Written root:  {new_root_name}")
 
         save_json(mmdd_path, puzzle_data)
         print(f"  Written mmdd:  {mmdd}.json")
 
-        # 6e. Update paragraph_scores.json
-        #     Remove old score key, re-key staged entry under new root name
+        # 6d. Update paragraph_scores.json (keyed by mmdd filename)
+        mmdd_key = f"{mmdd}.json"
         if score_key and score_key in all_scores:
             del all_scores[score_key]
 
@@ -304,11 +279,10 @@ def main():
         if staged_basename in all_scores:
             entry = all_scores.pop(staged_basename)
             entry["date"] = date_str
-            all_scores[new_root_name] = entry
+            all_scores[mmdd_key] = entry
         else:
-            # Shouldn't happen, but handle gracefully
             new_title = puzzle_data.get("title", staged_path.stem)
-            all_scores[new_root_name] = {
+            all_scores[mmdd_key] = {
                 "title": new_title,
                 "date": date_str,
                 "total_score": staged_score,
@@ -317,13 +291,13 @@ def main():
                 "has_llm_scores": False,
             }
 
-        # 6f. Update old_new_mapping.csv
+        # 6e. Update old_new_mapping.csv
         new_title = puzzle_data.get("title", staged_path.stem)
         mapping[mmdd] = {
             "mmdd": mmdd,
             "new_file": f"{mmdd}.json",
             "new_title": new_title,
-            "old_file": new_root_name,
+            "old_file": f"{mmdd}.json",
             "old_title": new_title,
             "match": "identical",
         }

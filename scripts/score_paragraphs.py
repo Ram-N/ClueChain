@@ -51,6 +51,7 @@ _SCRIPT_DIR = Path(__file__).parent
 _PROMPTS_DIR = _SCRIPT_DIR / "prompts"
 _OUTPUT_DIR = _SCRIPT_DIR / "output"
 _DATA_DIR = _SCRIPT_DIR.parent / "assets" / "data"
+_MMDD_DIR = _DATA_DIR / "puzzles" / "daily" / "mmdd"
 _SCORES_FILE = _OUTPUT_DIR / "paragraph_scores.json"
 _RANKINGS_CSV = _OUTPUT_DIR / "paragraph_rankings.csv"
 _RANKINGS_MD = _OUTPUT_DIR / "paragraph_rankings.md"
@@ -448,9 +449,9 @@ def load_paragraph_files(data_dir: Path, files: Optional[List[str]] = None) -> L
                 print(f"Error: File not found: {path}")
                 sys.exit(1)
     else:
-        for path in sorted(data_dir.glob("*.json")):
-            if path.name == "index.json":
-                continue
+        # Scan the canonical mmdd directory
+        mmdd_dir = data_dir / "puzzles" / "daily" / "mmdd"
+        for path in sorted(mmdd_dir.glob("*.json")):
             try:
                 with open(path, encoding="utf-8") as f:
                     data = json.load(f)
