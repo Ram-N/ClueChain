@@ -470,12 +470,24 @@ def generate_single_paragraph(paragraph: ParagraphData, day: int,
 
                 continue  # Retry for transient failures (JSON parse, validation, etc.)
 
-            # Rename the generated file
+            # Rename to MMDD.json only when targeting the mmdd directory;
+            # staging and other dirs keep the descriptive MM-DD_Title.json name.
             try:
-                new_path = rename_output_file(
-                    output_dir, paragraph.month, day, paragraph.title, category
-                )
-                regenerate_daily_index(output_dir)
+                is_mmdd_dir = Path(output_dir).resolve().name == "mmdd"
+                if is_mmdd_dir:
+                    new_path = rename_output_file(
+                        output_dir, paragraph.month, day, paragraph.title, category
+                    )
+                    regenerate_daily_index(output_dir)
+                else:
+                    # Find the generated file by its original name
+                    pattern = f"{paragraph.month:02d}-{day:02d}*.json"
+                    matches = list(Path(output_dir).glob(pattern))
+                    if not matches:
+                        raise FileNotFoundError(
+                            f"Generated file not found matching: {pattern}"
+                        )
+                    new_path = matches[0]
                 duration = time.time() - start_time
                 return True, new_path.name, duration, "", attempts_made
             except FileNotFoundError as e:
@@ -570,7 +582,8 @@ def process_batch(paragraphs: List[ParagraphData], day: int, category: str,
     )
 
 
-def dry_run(paragraphs: List[ParagraphData], day: int, category: str):
+def dry_run(paragraphs: List[ParagraphData], day: int, category: str,
+            output_dir: str = "./assets/data/puzzles/daily/mmdd"):
     """
     Preview what would be generated without making API calls.
 
@@ -578,12 +591,20 @@ def dry_run(paragraphs: List[ParagraphData], day: int, category: str):
         paragraphs: Parsed paragraphs
         day: Day of month
         category: Category name
+        output_dir: Output directory
     """
+    is_mmdd_dir = Path(output_dir).resolve().name == "mmdd"
     print("\n🔍 DRY RUN MODE - No API calls will be made\n")
+    print(f"Output dir: {output_dir}")
+    print(f"Rename to MMDD.json: {'yes' if is_mmdd_dir else 'no (keeping title-based names)'}\n")
     print(f"Parsed {len(paragraphs)} paragraphs:\n")
 
     for para in paragraphs:
-        filename = f"{para.month:02d}{day:02d}.json"
+        if is_mmdd_dir:
+            filename = f"{para.month:02d}{day:02d}.json"
+        else:
+            slug = slugify_title(para.title)
+            filename = f"{para.month:02d}-{day:02d}_{slug}.json"
 
         print(f"[{para.month}] Month: {para.month:02d}, Day: {day:02d}")
         print(f"    Title: {para.title}")
@@ -698,8 +719,9 @@ Output Format:
         help="Seconds between API calls (default: 30.0)"
     )
     parser.add_argument(
-        "--output",
+        "--output-dir",
         default="./assets/data/puzzles/daily/mmdd",
+        dest="output",
         help="Output directory (default: ./assets/data/puzzles/daily/mmdd)"
     )
     parser.add_argument(
@@ -756,7 +778,7 @@ Output Format:
 
     # Dry run mode
     if args.dry_run:
-        dry_run(paragraphs, args.day, args.category)
+        dry_run(paragraphs, args.day, args.category, args.output)
         sys.exit(0)
 
     # Process batch

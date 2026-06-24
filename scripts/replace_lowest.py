@@ -271,15 +271,27 @@ def main():
         print(f"  Written mmdd:  {mmdd}.json")
 
         # 6d. Update paragraph_scores.json (keyed by mmdd filename)
+        #     Build the new entry from the staged file's score data, then
+        #     write it under mmdd_key. Never pop by staged_basename — it may
+        #     collide with an unrelated mmdd slot's key and clobber it.
         mmdd_key = f"{mmdd}.json"
-        if score_key and score_key in all_scores:
+        staged_basename = staged_path.name
+
+        # Remove the OLD slot's score entry (the one being replaced)
+        if score_key and score_key in all_scores and score_key != mmdd_key:
             del all_scores[score_key]
 
-        staged_basename = staged_path.name
-        if staged_basename in all_scores:
-            entry = all_scores.pop(staged_basename)
+        # Build new entry from staged score data (if available)
+        if staged_basename in all_scores and staged_basename != mmdd_key:
+            # Staged file has a different name — copy its data, don't pop
+            entry = dict(all_scores[staged_basename])
             entry["date"] = date_str
             all_scores[mmdd_key] = entry
+            # Clean up the staging-only key
+            del all_scores[staged_basename]
+        elif staged_basename in all_scores and staged_basename == mmdd_key:
+            # Staged file already named for the target slot — update in place
+            all_scores[mmdd_key]["date"] = date_str
         else:
             new_title = puzzle_data.get("title", staged_path.stem)
             all_scores[mmdd_key] = {
