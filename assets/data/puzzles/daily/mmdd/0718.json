@@ -7,8 +7,8 @@
       "word": "yellow",
       "difficulty": "Easy",
       "related_words": [
-        "mustard",
-        "blonde"
+        "blonde",
+        "wispy"
       ],
       "clues": [
         {
@@ -29,27 +29,27 @@
       ]
     },
     {
-      "word": "mustard",
+      "word": "wispy",
       "difficulty": "Intermediate",
       "related_words": [
-        "yellow",
-        "blonde"
+        "blonde",
+        "hair"
       ],
       "clues": [
         {
-          "clue": "A condiment often paired with hot dogs or burgers, also a fashion trend",
+          "clue": "Thin and feathery, like smoke drifting in still air",
           "type": "Indirect",
-          "points": 5
+          "points": 6
         },
         {
-          "clue": "A color that can add a vintage touch to an outfit",
+          "clue": "How you might describe very fine, delicate hair",
           "type": "Suggestive",
-          "points": 4
+          "points": 3
         },
         {
-          "clue": "A type of plant-based condiment",
+          "clue": "A word meaning thin and light in texture",
           "type": "Straight",
-          "points": 2
+          "points": 1
         }
       ]
     },
@@ -58,7 +58,7 @@
       "difficulty": "Easy",
       "related_words": [
         "yellow",
-        "mustard"
+        "wispy"
       ],
       "clues": [
         {
