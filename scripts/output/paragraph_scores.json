@@ -587,34 +587,6 @@
     "overall_rating": "okay",
     "llm_provider": "Groq"
   },
-  "0201.json": {
-    "title": "New Hope (Poland) — Ideology and position",
-    "date": "02-01",
-    "scores": {
-      "word_quality": 8.8,
-      "variety": 6.6,
-      "connectivity": 8,
-      "clueability": 7,
-      "discovery_curve": 7,
-      "narrative_interest": 6,
-      "catalog_penalty": 0,
-      "title_spoiler": 0.0
-    },
-    "reasons": {
-      "word_quality": "5 nouns, 0 function words",
-      "variety": "3 POS types, 10 word groups, length std=1.6",
-      "connectivity": "The hidden words are integral to the paragraph's theme, which is the ideology and position of the New Hope party in Poland, and most words are thematically connected to the party's stance on various issues.",
-      "clueability": "The clue tiers are generally well-separated and creative, but some clues, such as those for 'conservative' and 'libertarian', feel a bit too similar across tiers.",
-      "discovery_curve": "Solving some words, like 'conservative' and 'libertarian', can help inform others, such as 'populist', through related concepts and thematic connections, creating a moderate cascade effect.",
-      "narrative_interest": "The prose is informative and well-written, but it reads more like a factual description of the party's ideology rather than a compelling narrative, which somewhat limits its engagement value.",
-      "catalog_penalty": "The paragraph does not exhibit list-like, encyclopedic, or catalog-style writing; it presents information in a narrative format, making it a natural, flowing piece of prose.",
-      "title_spoiler": "no spoilers"
-    },
-    "has_llm_scores": true,
-    "total_score": 75.8,
-    "overall_rating": "good",
-    "llm_provider": "Groq"
-  },
   "0202.json": {
     "title": "Information — As of 2007",
     "date": "02-02",
@@ -669,34 +641,6 @@
     "has_llm_scores": true,
     "total_score": 80.5,
     "overall_rating": "good",
-    "llm_provider": "Groq"
-  },
-  "0204.json": {
-    "title": "List of conspiracy theories — Flat Earth",
-    "date": "02-04",
-    "scores": {
-      "word_quality": 9.8,
-      "variety": 5.9,
-      "connectivity": 7,
-      "clueability": 7,
-      "discovery_curve": 4,
-      "narrative_interest": 4,
-      "catalog_penalty": -2,
-      "title_spoiler": 0.0
-    },
-    "reasons": {
-      "word_quality": "10 nouns, 0 function words",
-      "variety": "2 POS types, 7 word groups, length std=2.3",
-      "connectivity": "Most words are thematically connected to the Flat Earth conspiracy theory, but a few, like 'England' and 'Pythagoras', feel slightly incidental to the main narrative.",
-      "clueability": "The clues are generally well-crafted and distinct across tiers, but some, such as those for 'YouTube' and 'videos', are too similar and straightforward.",
-      "discovery_curve": "The words are mostly independent, and solving one doesn't significantly help with others, although related words like 'GPS', 'pilots', and 'aircraft' do show some thematic connection.",
-      "narrative_interest": "The prose is serviceable but dry, reading more like an informative article than engaging storytelling, which makes it less captivating for the reader.",
-      "catalog_penalty": "The text has a somewhat list-like quality, particularly in the presentation of conspiracy theory claims, but it still maintains a narrative flow and doesn't read like a pure catalog or list.",
-      "title_spoiler": "no spoilers"
-    },
-    "has_llm_scores": true,
-    "total_score": 50.8,
-    "overall_rating": "okay",
     "llm_provider": "Groq"
   },
   "0205.json": {
@@ -1596,32 +1540,32 @@
     "llm_provider": "NIM"
   },
   "0325.json": {
-    "title": "Jazz — Latin jazz",
+    "title": "Frank Sinatra Has a Cold - 2",
     "date": "03-25",
     "scores": {
-      "word_quality": 9.8,
-      "variety": 5.6,
+      "word_quality": 8.5,
+      "variety": 5.9,
+      "title_spoiler": 0.0,
       "connectivity": 8,
-      "clueability": 9,
+      "clueability": 7,
       "discovery_curve": 6,
-      "narrative_interest": 8,
-      "catalog_penalty": -1,
-      "title_spoiler": -1.0
+      "narrative_interest": 9,
+      "catalog_penalty": 0
     },
     "reasons": {
-      "word_quality": "9 nouns, 0 function words",
-      "variety": "2 POS types, 8 word groups, length std=1.6",
-      "connectivity": "The hidden words are well-integrated into the paragraph, which discusses the evolution of Latin jazz and its characteristics, making most words feel essential to the narrative. However, a few words, such as 'pattern' and 'solos', while relevant, could be considered slightly less crucial to the central theme.",
-      "clueability": "The clue tiers are distinct, creative, and progressively helpful, with Indirect clues being clever, Suggestive clues providing a good hint, and Straight clues being straightforward. The clues for words like 'jazz', 'latin', and 'bossa' are particularly well-crafted.",
-      "discovery_curve": "Solving some words helps guess others to a moderate extent, as understanding the context of 'jazz' and 'latin' can inform the guesses for 'bossa' and other related words. However, the connection is not extremely strong, and many words can be solved independently.",
-      "narrative_interest": "The prose is engaging and interesting to read, providing a compelling look into the history and characteristics of Latin jazz. The use of specific examples and musician names adds depth and vividness to the narrative.",
-      "catalog_penalty": "While the paragraph does contain some enumeration of musical terms and styles, it is mostly narrative-driven, with these elements integrated naturally into the discussion rather than feeling like a list or catalog.",
-      "title_spoiler": "2 hidden word(s) in title: jazz, latin"
+      "word_quality": "4 nouns, 0 function words",
+      "variety": "3 POS types, 10 word groups, length std=0.9",
+      "title_spoiler": "no spoilers",
+      "connectivity": "The hidden words are well-integrated into the narrative, with most feeling essential to the story about Frank Sinatra and his relationship with Brad Dexter, although a few words like 'strangers' and 'properties' feel slightly less connected.",
+      "clueability": "The clues are generally well-crafted and distinct across tiers, but some clues, such as those for 'character' and 'seductive', feel a bit too similar across tiers or are somewhat generic.",
+      "discovery_curve": "Solving some words, like 'producer' and 'executive', can help inform others due to their related meanings, but the cascade effect is not extremely strong, and many words can be solved independently.",
+      "narrative_interest": "The prose is engaging, vivid, and interesting to read, providing a compelling glimpse into the life and relationships of Frank Sinatra, making the paragraph a pleasure to read.",
+      "catalog_penalty": "The writing is natural and flowing, with no list-like or encyclopedic style that would detract from the narrative experience."
     },
     "has_llm_scores": true,
-    "total_score": 61.3,
-    "overall_rating": "okay",
-    "llm_provider": "NIM"
+    "total_score": 75.9,
+    "overall_rating": "good",
+    "llm_provider": "Groq"
   },
   "0326.json": {
     "title": "Robotic surgery — Ophthalmology",
@@ -1791,34 +1735,6 @@
     "overall_rating": "okay",
     "llm_provider": "NIM"
   },
-  "0401.json": {
-    "title": "JD Vance — Zelenskyy White House visit",
-    "date": "04-01",
-    "scores": {
-      "word_quality": 9.2,
-      "variety": 8.6,
-      "connectivity": 8,
-      "clueability": 9,
-      "discovery_curve": 7,
-      "narrative_interest": 6,
-      "catalog_penalty": 0,
-      "title_spoiler": 0.0
-    },
-    "reasons": {
-      "word_quality": "8 nouns, 0 function words",
-      "variety": "4 POS types, 8 word groups, length std=2.6",
-      "connectivity": "The hidden words are well-integrated into the narrative, with most being essential to understanding the context and theme of the meeting between Vance, Trump, and Zelenskyy. Removing any of these words would disrupt the flow and meaning of the paragraph.",
-      "clueability": "The clue tiers are distinct and creative, with a smooth progression from vague to specific. The Indirect clues are particularly clever, requiring thought and connection to the context without being too obscure or too easy.",
-      "discovery_curve": "Solving some words, such as 'diplomacy' and 'agreement', can help inform others, like 'ceasefire', through their related contexts and themes, creating a moderate cascade effect that aids in solving harder words.",
-      "narrative_interest": "The prose is clear and informative, providing a straightforward account of the event. While it holds attention due to the interest in the subject matter, it lacks compelling storytelling or vivid descriptions that would elevate it to a more engaging read.",
-      "catalog_penalty": "The paragraph is written in natural, flowing prose without any list-like, encyclopedic, or catalog-style writing, making it a cohesive and readable narrative.",
-      "title_spoiler": "no spoilers"
-    },
-    "has_llm_scores": true,
-    "total_score": 83.0,
-    "overall_rating": "good",
-    "llm_provider": "NIM"
-  },
   "0402.json": {
     "title": "Geographic information system — Terrain depiction",
     "date": "04-02",
@@ -1876,32 +1792,32 @@
     "llm_provider": "NIM"
   },
   "0404.json": {
-    "title": "List of conspiracy theories — Death of Nero",
+    "title": "Your Lifestyle Has Already Been Designed",
     "date": "04-04",
     "scores": {
-      "word_quality": 6.2,
-      "variety": 9.1,
-      "connectivity": 7,
-      "clueability": 8,
+      "word_quality": 10,
+      "variety": 5.6,
+      "title_spoiler": 0.0,
+      "connectivity": 8,
+      "clueability": 9,
       "discovery_curve": 6,
-      "narrative_interest": 6,
-      "catalog_penalty": -1,
-      "title_spoiler": 0.0
+      "narrative_interest": 8,
+      "catalog_penalty": 0
     },
     "reasons": {
-      "word_quality": "2 nouns, 1 function words",
-      "variety": "5 POS types, 10 word groups, length std=2.1",
-      "connectivity": "Most hidden words are thematically connected to the narrative about conspiracy theories surrounding Nero's death, but a few, such as 'times' and 'ancient', feel somewhat incidental to the main story.",
-      "clueability": "The clue tiers are well-differentiated, with Indirect clues being creative and Suggestive clues providing a good balance of hinting at the word without giving it away, making the progression from vague to specific smooth and engaging.",
-      "discovery_curve": "Solving some words, like 'emperor' and 'Nero', helps to establish the context, which can inform guesses about other words, but the connection is not strong enough to create a significant cascade effect.",
-      "narrative_interest": "The prose is clear and well-written, providing an interesting look into historical conspiracy theories, but it lacks compelling storytelling or vivid descriptions to make it truly engaging.",
-      "catalog_penalty": "While the paragraph does list various conspiracy theories, it does so in a narrative manner, avoiding a pure catalog or list-like style, thus incurring only a minor penalty.",
-      "title_spoiler": "no spoilers"
+      "word_quality": "10 nouns, 0 function words",
+      "variety": "1 POS types, 8 word groups, length std=2.6",
+      "title_spoiler": "no spoilers",
+      "connectivity": "The hidden words are well-integrated into the narrative, and most are essential to understanding the theme of how marketing influences consumer behavior. Removing any of these words would disrupt the flow and meaning of the paragraph.",
+      "clueability": "The clue tiers are distinct, creative, and progressively helpful, with a clear differentiation between indirect, suggestive, and straight clues that guide the solver towards the correct answer.",
+      "discovery_curve": "Solving some words may provide context that helps guess others, but the connection is not overly strong, and each word can be solved relatively independently without a significant cascade effect.",
+      "narrative_interest": "The prose is engaging, discussing a fascinating and somewhat unsettling topic of how marketing tactics are used to influence consumer behavior, making it an interesting read.",
+      "catalog_penalty": "The paragraph features natural, flowing prose without list-like or encyclopedic writing, presenting a narrative that explores a specific topic in depth."
     },
     "has_llm_scores": true,
-    "total_score": 60.3,
-    "overall_rating": "okay",
-    "llm_provider": "NIM"
+    "total_score": 81.9,
+    "overall_rating": "good",
+    "llm_provider": "Groq"
   },
   "0406.json": {
     "title": "Donald Trump is waging war against human conscience — The Guardian",
@@ -2352,32 +2268,32 @@
     "llm_provider": "NIM"
   },
   "0501.json": {
-    "title": "New Hope (Poland) — Overview",
+    "title": "Your Lifestyle Has Already Been Designed",
     "date": "05-01",
     "scores": {
-      "word_quality": 9.8,
-      "variety": 7.5,
+      "word_quality": 8.8,
+      "variety": 6.3,
+      "title_spoiler": 0.0,
       "connectivity": 8,
       "clueability": 9,
       "discovery_curve": 6,
-      "narrative_interest": 5,
-      "catalog_penalty": -2,
-      "title_spoiler": 0.0
+      "narrative_interest": 8,
+      "catalog_penalty": 0
     },
     "reasons": {
-      "word_quality": "9 nouns, 0 function words",
-      "variety": "3 POS types, 8 word groups, length std=2.5",
-      "connectivity": "The hidden words are integral to the paragraph's theme of describing a political party in Poland, with most words being thematically connected to politics, government, or the party's history. Removing any of these words would disrupt the narrative's coherence.",
-      "clueability": "The clue tiers are distinct, creative, and progressively helpful, with a smooth transition from vague to specific. The Indirect clues are particularly clever, requiring thought to connect the dots, while the Straight clues provide clear confirmation.",
-      "discovery_curve": "Solving some words helps guess others to a moderate extent, as related concepts like 'party', 'member', and 'election' inform each other. However, some words, like 'renewal' or 'confederation', are more independent and don't significantly contribute to a cascade effect.",
-      "narrative_interest": "The prose is serviceable and informative but lacks engaging storytelling or vivid descriptions. It reads more like an encyclopedic entry, providing factual information about the New Hope party without captivating the reader's attention.",
-      "catalog_penalty": "The paragraph has a heavily list-based or encyclopedic style, reading like a Wikipedia article or reference list. The text enumerates various details about the party, its members, and related concepts without much narrative connective tissue.",
-      "title_spoiler": "no spoilers"
+      "word_quality": "5 nouns, 0 function words",
+      "variety": "2 POS types, 9 word groups, length std=2.3",
+      "title_spoiler": "no spoilers",
+      "connectivity": "The hidden words are integral to the narrative, exploring the theme of spending habits and financial decisions, making them feel essential to the paragraph's message.",
+      "clueability": "The clue tiers are distinct, creative, and progressively helpful, with indirect clues being particularly clever and thought-provoking, making the progression from vague to specific smooth and engaging.",
+      "discovery_curve": "Solving some words may help guess others due to related themes or word associations, but the connection is not overly strong, providing a moderate cascade effect.",
+      "narrative_interest": "The prose is engaging, reflective, and well-written, making the paragraph a pleasure to read, with the author's personal experience and observations holding the reader's attention.",
+      "catalog_penalty": "The writing is natural and flowing, with no list-like or encyclopedic style, making it an enjoyable and cohesive narrative."
     },
     "has_llm_scores": true,
-    "total_score": 61.1,
-    "overall_rating": "okay",
-    "llm_provider": "NIM"
+    "total_score": 79.3,
+    "overall_rating": "good",
+    "llm_provider": "Groq"
   },
   "0502.json": {
     "title": "Common knowledge",
@@ -2408,32 +2324,32 @@
     "llm_provider": "NIM"
   },
   "0503.json": {
-    "title": "Terminal (film) — Development",
+    "title": "Frank Sinatra Has a Cold",
     "date": "05-03",
     "scores": {
-      "word_quality": 9.0,
-      "variety": 8.5,
+      "word_quality": 10,
+      "variety": 5.6,
+      "title_spoiler": 0.0,
       "connectivity": 8,
       "clueability": 9,
       "discovery_curve": 6,
-      "narrative_interest": 5,
-      "catalog_penalty": -2,
-      "title_spoiler": 0.0
+      "narrative_interest": 9,
+      "catalog_penalty": 0
     },
     "reasons": {
-      "word_quality": "6 nouns, 0 function words",
-      "variety": "4 POS types, 9 word groups, length std=2.5",
-      "connectivity": "The hidden words are integral to the paragraph's theme of film development and production, with most words feeling essential to the narrative. The words are thematically connected, and removing any would affect the understanding of the paragraph.",
-      "clueability": "The clue tiers are distinct, creative, and progressively helpful, with a smooth progression from vague to specific. The Indirect clues are clever, and the Suggestive clues provide a good balance between hinting at the answer and not giving it away.",
-      "discovery_curve": "Solving some words helps guess others to a moderate extent, as related words or thematic connections provide some momentum. However, the words are not highly interdependent, and solving one does not significantly reveal others.",
-      "narrative_interest": "The prose is serviceable but dry, reading like a factual report or a Wikipedia article. While it holds attention due to its informative nature, it lacks engaging storytelling or vivid descriptions.",
-      "catalog_penalty": "The paragraph is heavily list-based or encyclopedic, with a focus on conveying information about the film's development and production. It reads like a reference list or a Wikipedia article, lacking narrative connective tissue.",
-      "title_spoiler": "no spoilers"
+      "word_quality": "10 nouns, 0 function words",
+      "variety": "2 POS types, 10 word groups, length std=1.6",
+      "title_spoiler": "no spoilers",
+      "connectivity": "The hidden words are well-integrated into the narrative, with most being essential to the scene's description and atmosphere, such as 'bourbon', 'cigarette', and 'smoke', which contribute to the portrayal of Frank Sinatra's character and setting.",
+      "clueability": "The clue tiers are distinct and creative, with a smooth progression from vague to specific, such as the clues for 'bourbon' and 'cigarette', which start with indirect hints and become more direct.",
+      "discovery_curve": "Solving some words may help guess others due to related themes, such as 'smoke' and 'cigarette', but the connection is not strong enough to create a significant cascade effect throughout the paragraph.",
+      "narrative_interest": "The prose is engaging, vivid, and interesting to read, with a compelling description of the scene and Frank Sinatra's character, making it a pleasure to read and become immersed in the story.",
+      "catalog_penalty": "The paragraph features natural, flowing prose without any list-like or encyclopedic writing style, which enhances the narrative's readability and engagement."
     },
     "has_llm_scores": true,
-    "total_score": 60.2,
-    "overall_rating": "okay",
-    "llm_provider": "NIM"
+    "total_score": 82.9,
+    "overall_rating": "good",
+    "llm_provider": "Groq"
   },
   "0504.json": {
     "title": "List of conspiracy theories — Weather and earthquake control projects",
@@ -2911,34 +2827,6 @@
     "overall_rating": "okay",
     "llm_provider": "NIM"
   },
-  "0531.json": {
-    "title": "Rhythm — Counter rhythm",
-    "date": "05-31",
-    "scores": {
-      "word_quality": 8.8,
-      "variety": 7.3,
-      "connectivity": 8,
-      "clueability": 9,
-      "discovery_curve": 6,
-      "narrative_interest": 5,
-      "catalog_penalty": -2,
-      "title_spoiler": 0.0
-    },
-    "reasons": {
-      "word_quality": "5 nouns, 0 function words",
-      "variety": "3 POS types, 9 word groups, length std=2.3",
-      "connectivity": "The hidden words are well-integrated into the paragraph's theme of 'Counter Rhythm', with most words being essential to the narrative and closely related to the concept, although a few feel slightly incidental due to the encyclopedic nature of the text.",
-      "clueability": "The clue tiers are distinct, creative, and progressively helpful, with a smooth transition from vague to specific, making it enjoyable to solve the words, although a few clues might be considered slightly too straightforward for their respective difficulty levels.",
-      "discovery_curve": "Solving some words helps guess others to a moderate extent, particularly with related words like 'musical' and 'tremolos', but the overall effect is not strongly cascading, as many words can be solved independently without revealing significant patterns or connections.",
-      "narrative_interest": "The prose is serviceable and informative, providing interesting facts about 'Counter Rhythm', but it reads more like an encyclopedic entry than engaging storytelling, lacking vivid descriptions or compelling narrative elements.",
-      "catalog_penalty": "The paragraph is heavily list-based or encyclopedic, especially in the section detailing previous definitions, which disrupts the flow of the narrative and makes it feel more like a reference list than a cohesive piece of writing.",
-      "title_spoiler": "no spoilers"
-    },
-    "has_llm_scores": true,
-    "total_score": 57.9,
-    "overall_rating": "okay",
-    "llm_provider": "NIM"
-  },
   "0601.json": {
     "title": "JD Vance — Opinion polls",
     "date": "06-01",
@@ -3161,34 +3049,6 @@
     "has_llm_scores": true,
     "total_score": 84.1,
     "overall_rating": "good",
-    "llm_provider": "NIM"
-  },
-  "0617.json": {
-    "title": "Notes on Location and Place",
-    "date": "06-17",
-    "scores": {
-      "word_quality": 9.2,
-      "variety": 6.3,
-      "connectivity": 8,
-      "clueability": 9,
-      "discovery_curve": 7,
-      "narrative_interest": 6,
-      "catalog_penalty": -1,
-      "title_spoiler": -1.0
-    },
-    "reasons": {
-      "word_quality": "7 nouns, 0 function words",
-      "variety": "3 POS types, 8 word groups, length std=1.3",
-      "connectivity": "The hidden words are well-integrated into the paragraph's theme of geography and location, with most words feeling essential to the narrative. The discussion of 'location' and 'place' sets the stage for the exploration of related concepts like 'geography' and 'relative', creating a cohesive and thematic connection among the hidden words.",
-      "clueability": "The clue tiers are distinct and creative, with a smooth progression from vague to specific. The Indirect clues are clever and require some thought, while the Suggestive clues provide a helpful nudge, and the Straight clues offer a clear confirmation. This progression helps players gradually build their understanding of the hidden words.",
-      "discovery_curve": "Solving some words helps guess others to a moderate extent. For example, understanding 'location' and 'place' can inform the player's approach to 'geography' and 'relative', but each word still requires some independent thought. The connections between words are present but not overly obvious, creating a moderate cascade effect.",
-      "narrative_interest": "The prose is clear and well-written, but the subject matter, while interesting to those in the field of geography, may not be universally engaging. The text provides a good introduction to the concepts of location and place, but it reads more like an informative article than a compelling story.",
-      "catalog_penalty": "While the paragraph does provide some definitions and explanations, it does so in a narrative manner that flows relatively naturally. There is some enumeration of concepts, but it is integrated into the text in a way that does not feel overly list-like or encyclopedic.",
-      "title_spoiler": "2 hidden word(s) in title: location, place"
-    },
-    "has_llm_scores": true,
-    "total_score": 59.6,
-    "overall_rating": "okay",
     "llm_provider": "NIM"
   },
   "0618.json": {
@@ -7140,32 +7000,32 @@
     "llm_provider": "NIM"
   },
   "1225.json": {
-    "title": "Jazz — Swing in the 1920s and 1930s",
+    "title": "Chardon, Ohio School Shooting",
     "date": "12-25",
     "scores": {
-      "word_quality": 8.5,
-      "variety": 7.2,
+      "word_quality": 10,
+      "variety": 5.2,
+      "title_spoiler": 0.0,
       "connectivity": 8,
       "clueability": 9,
-      "discovery_curve": 7,
+      "discovery_curve": 6,
       "narrative_interest": 8,
-      "catalog_penalty": -1,
-      "title_spoiler": -1.0
+      "catalog_penalty": 0
     },
     "reasons": {
-      "word_quality": "4 nouns, 0 function words",
-      "variety": "3 POS types, 8 word groups, length std=2.2",
-      "connectivity": "The hidden words are integral to the paragraph's theme of jazz and its evolution, with most words feeling essential to the narrative. The text effectively weaves together different concepts and figures in the jazz world, creating a cohesive and informative piece.",
-      "clueability": "The clue tiers are distinct, creative, and progressively helpful, with a smooth transition from vague to specific. The Indirect clues are clever and require some thought, while the Suggestive and Straight clues provide a clear path to the answer.",
-      "discovery_curve": "Solving some words helps guess others, as related concepts and themes are introduced throughout the paragraph. For example, understanding 'jazz' and 'swing' can inform the solution of 'bebop', creating a moderate cascade effect.",
-      "narrative_interest": "The prose is engaging, vivid, and interesting to read, with a clear passion for the subject matter. The text effectively conveys the history and development of jazz, making it a pleasure to read and learn about.",
-      "catalog_penalty": "While the paragraph does contain a list of notable figures in the jazz world, it is mostly narrative-driven and effectively integrates the list into the broader story, avoiding a purely catalog-like style.",
-      "title_spoiler": "2 hidden word(s) in title: jazz, swing"
+      "word_quality": "10 nouns, 0 function words",
+      "variety": "1 POS types, 9 word groups, length std=2.2",
+      "title_spoiler": "no spoilers",
+      "connectivity": "The hidden words are well-integrated into the narrative, describing aspects of Chardon, Ohio, and its community, making them feel essential to the paragraph's theme and narrative.",
+      "clueability": "The clue tiers are distinct, creative, and progressively helpful, with a smooth progression from vague to specific, making it enjoyable to solve the hidden words.",
+      "discovery_curve": "While solving some words might provide context for others, the connection is not strong enough to create a significant cascade effect, as many words are relatively independent.",
+      "narrative_interest": "The prose is engaging, vivid, and interesting to read, providing a charming portrayal of Chardon, Ohio, and its unique characteristics.",
+      "catalog_penalty": "The paragraph features natural, flowing prose, avoiding list-like or encyclopedic writing styles, making it a pleasure to read."
     },
     "has_llm_scores": true,
-    "total_score": 60.8,
-    "overall_rating": "okay",
-    "llm_provider": "NIM"
+    "total_score": 81.3,
+    "overall_rating": "good",
+    "llm_provider": "Groq"
   },
   "1226.json": {
     "title": "Robot — Home automation for the elderly and disabled",
@@ -7472,34 +7332,6 @@
     },
     "has_llm_scores": true,
     "total_score": 83.8,
-    "overall_rating": "good",
-    "llm_provider": "NIM"
-  },
-  "0101.json": {
-    "title": "Invisible Man by Ralph Ellison (1952)",
-    "date": "01-01",
-    "scores": {
-      "word_quality": 9.0,
-      "variety": 6.7,
-      "connectivity": 8,
-      "clueability": 9,
-      "discovery_curve": 8,
-      "narrative_interest": 9,
-      "catalog_penalty": 0,
-      "title_spoiler": -0.5
-    },
-    "reasons": {
-      "word_quality": "6 nouns, 0 function words",
-      "variety": "4 POS types, 6 word groups, length std=1.5",
-      "connectivity": "The hidden words are well-integrated into the paragraph's theme and narrative, exploring the concept of invisibility and its relation to Blackness and racism in the context of Ralph Ellison's novel. Most words feel essential to the discussion, with only a few feeling slightly incidental.",
-      "clueability": "The clue tiers are distinct, creative, and progressively helpful, with Indirect clues being particularly clever and thought-provoking. The progression from vague to specific is smooth, making it enjoyable to solve the words.",
-      "discovery_curve": "Solving some words helps guess others, as related words and thematic connections provide a moderate cascade effect. For example, understanding 'invisible' and 'unseen' can inform the solution of 'metaphor' and 'Blackness'.",
-      "narrative_interest": "The prose is engaging, vivid, and interesting to read, providing a compelling introduction to the themes and motifs of Ralph Ellison's novel. The writing is well-crafted and holds the reader's attention.",
-      "catalog_penalty": "The paragraph features natural, flowing prose with no list-like or encyclopedic writing, making it a pleasure to read and understand.",
-      "title_spoiler": "1 hidden word(s) in title: invisible"
-    },
-    "has_llm_scores": true,
-    "total_score": 78.5,
     "overall_rating": "good",
     "llm_provider": "NIM"
   },
@@ -10246,5 +10078,313 @@
     "llm_provider": "NIM",
     "total_score": 80.7,
     "overall_rating": "good"
+  },
+  "0204.json": {
+    "title": "Land by Maggie O’Farrell",
+    "date": "02-04",
+    "scores": {
+      "word_quality": 9.2,
+      "variety": 8.6,
+      "connectivity": 8,
+      "clueability": 9,
+      "discovery_curve": 7,
+      "narrative_interest": 6,
+      "catalog_penalty": 0,
+      "title_spoiler": 0.0
+    },
+    "reasons": {
+      "word_quality": "8 nouns, 0 function words",
+      "variety": "4 POS types, 8 word groups, length std=2.6",
+      "connectivity": "The hidden words are well-integrated into the narrative, with most being essential to understanding the context and theme of the meeting between Vance, Trump, and Zelenskyy. Removing any of these words would disrupt the flow and meaning of the paragraph.",
+      "clueability": "The clue tiers are distinct and creative, with a smooth progression from vague to specific. The Indirect clues are particularly clever, requiring thought and connection to the context without being too obscure or too easy.",
+      "discovery_curve": "Solving some words, such as 'diplomacy' and 'agreement', can help inform others, like 'ceasefire', through their related contexts and themes, creating a moderate cascade effect that aids in solving harder words.",
+      "narrative_interest": "The prose is clear and informative, providing a straightforward account of the event. While it holds attention due to the interest in the subject matter, it lacks compelling storytelling or vivid descriptions that would elevate it to a more engaging read.",
+      "catalog_penalty": "The paragraph is written in natural, flowing prose without any list-like, encyclopedic, or catalog-style writing, making it a cohesive and readable narrative.",
+      "title_spoiler": "no spoilers"
+    },
+    "has_llm_scores": true,
+    "total_score": 83.0,
+    "overall_rating": "good",
+    "llm_provider": "NIM"
+  },
+  "0531.json": {
+    "title": "An experiment for students to grasp by lessons",
+    "date": "05-31",
+    "scores": {
+      "word_quality": 9.0,
+      "variety": 6.7,
+      "connectivity": 8,
+      "clueability": 9,
+      "discovery_curve": 8,
+      "narrative_interest": 9,
+      "catalog_penalty": 0,
+      "title_spoiler": 0.0
+    },
+    "reasons": {
+      "word_quality": "6 nouns, 0 function words",
+      "variety": "4 POS types, 6 word groups, length std=1.5",
+      "connectivity": "The hidden words are well-integrated into the paragraph's theme and narrative, exploring the concept of invisibility and its relation to Blackness and racism in the context of Ralph Ellison's novel. Most words feel essential to the discussion, with only a few feeling slightly incidental.",
+      "clueability": "The clue tiers are distinct, creative, and progressively helpful, with Indirect clues being particularly clever and thought-provoking. The progression from vague to specific is smooth, making it enjoyable to solve the words.",
+      "discovery_curve": "Solving some words helps guess others, as related words and thematic connections provide a moderate cascade effect. For example, understanding 'invisible' and 'unseen' can inform the solution of 'metaphor' and 'Blackness'.",
+      "narrative_interest": "The prose is engaging, vivid, and interesting to read, providing a compelling introduction to the themes and motifs of Ralph Ellison's novel. The writing is well-crafted and holds the reader's attention.",
+      "catalog_penalty": "The paragraph features natural, flowing prose with no list-like or encyclopedic writing, making it a pleasure to read and understand.",
+      "title_spoiler": "no spoilers"
+    },
+    "has_llm_scores": true,
+    "total_score": 83.5,
+    "overall_rating": "good",
+    "llm_provider": "NIM"
+  },
+  "0617.json": {
+    "title": "The Frenzy by Joyce Carol Oates",
+    "date": "06-17",
+    "scores": {
+      "word_quality": 8.8,
+      "variety": 6.6,
+      "connectivity": 8,
+      "clueability": 7,
+      "discovery_curve": 7,
+      "narrative_interest": 6,
+      "catalog_penalty": 0,
+      "title_spoiler": 0.0
+    },
+    "reasons": {
+      "word_quality": "5 nouns, 0 function words",
+      "variety": "3 POS types, 10 word groups, length std=1.6",
+      "connectivity": "The hidden words are integral to the paragraph's theme, which is the ideology and position of the New Hope party in Poland, and most words are thematically connected to the party's stance on various issues.",
+      "clueability": "The clue tiers are generally well-separated and creative, but some clues, such as those for 'conservative' and 'libertarian', feel a bit too similar across tiers.",
+      "discovery_curve": "Solving some words, like 'conservative' and 'libertarian', can help inform others, such as 'populist', through related concepts and thematic connections, creating a moderate cascade effect.",
+      "narrative_interest": "The prose is informative and well-written, but it reads more like a factual description of the party's ideology rather than a compelling narrative, which somewhat limits its engagement value.",
+      "catalog_penalty": "The paragraph does not exhibit list-like, encyclopedic, or catalog-style writing; it presents information in a narrative format, making it a natural, flowing piece of prose.",
+      "title_spoiler": "no spoilers"
+    },
+    "has_llm_scores": true,
+    "total_score": 75.8,
+    "overall_rating": "good",
+    "llm_provider": "Groq"
+  },
+  "0101.json": {
+    "title": "Invisible Man by Ralph Ellison (1952)",
+    "date": "01-01",
+    "scores": {
+      "word_quality": 9.0,
+      "variety": 6.7,
+      "connectivity": 8,
+      "clueability": 9,
+      "discovery_curve": 8,
+      "narrative_interest": 9,
+      "catalog_penalty": 0,
+      "title_spoiler": -0.5
+    },
+    "reasons": {
+      "word_quality": "6 nouns, 0 function words",
+      "variety": "4 POS types, 6 word groups, length std=1.5",
+      "connectivity": "The hidden words are well-integrated into the paragraph's theme and narrative, exploring the concept of invisibility and its relation to Blackness and racism in the context of Ralph Ellison's novel. Most words feel essential to the discussion, with only a few feeling slightly incidental.",
+      "clueability": "The clue tiers are distinct, creative, and progressively helpful, with Indirect clues being particularly clever and thought-provoking. The progression from vague to specific is smooth, making it enjoyable to solve the words.",
+      "discovery_curve": "Solving some words helps guess others, as related words and thematic connections provide a moderate cascade effect. For example, understanding 'invisible' and 'unseen' can inform the solution of 'metaphor' and 'Blackness'.",
+      "narrative_interest": "The prose is engaging, vivid, and interesting to read, providing a compelling introduction to the themes and motifs of Ralph Ellison's novel. The writing is well-crafted and holds the reader's attention.",
+      "catalog_penalty": "The paragraph features natural, flowing prose with no list-like or encyclopedic writing, making it a pleasure to read and understand.",
+      "title_spoiler": "1 hidden word(s) in title: invisible"
+    },
+    "has_llm_scores": true,
+    "total_score": 78.5,
+    "overall_rating": "good",
+    "llm_provider": "NIM"
+  },
+  "0201.json": {
+    "title": "New Hope (Poland) — Ideology and position",
+    "date": "02-01",
+    "scores": {
+      "word_quality": 8.8,
+      "variety": 6.6,
+      "connectivity": 8,
+      "clueability": 7,
+      "discovery_curve": 7,
+      "narrative_interest": 6,
+      "catalog_penalty": 0,
+      "title_spoiler": 0.0
+    },
+    "reasons": {
+      "word_quality": "5 nouns, 0 function words",
+      "variety": "3 POS types, 10 word groups, length std=1.6",
+      "connectivity": "The hidden words are integral to the paragraph's theme, which is the ideology and position of the New Hope party in Poland, and most words are thematically connected to the party's stance on various issues.",
+      "clueability": "The clue tiers are generally well-separated and creative, but some clues, such as those for 'conservative' and 'libertarian', feel a bit too similar across tiers.",
+      "discovery_curve": "Solving some words, like 'conservative' and 'libertarian', can help inform others, such as 'populist', through related concepts and thematic connections, creating a moderate cascade effect.",
+      "narrative_interest": "The prose is informative and well-written, but it reads more like a factual description of the party's ideology rather than a compelling narrative, which somewhat limits its engagement value.",
+      "catalog_penalty": "The paragraph does not exhibit list-like, encyclopedic, or catalog-style writing; it presents information in a narrative format, making it a natural, flowing piece of prose.",
+      "title_spoiler": "no spoilers"
+    },
+    "has_llm_scores": true,
+    "total_score": 75.8,
+    "overall_rating": "good",
+    "llm_provider": "Groq"
+  },
+  "0401.json": {
+    "title": "JD Vance — Zelenskyy White House visit",
+    "date": "04-01",
+    "scores": {
+      "word_quality": 9.2,
+      "variety": 8.6,
+      "connectivity": 8,
+      "clueability": 9,
+      "discovery_curve": 7,
+      "narrative_interest": 6,
+      "catalog_penalty": 0,
+      "title_spoiler": 0.0
+    },
+    "reasons": {
+      "word_quality": "8 nouns, 0 function words",
+      "variety": "4 POS types, 8 word groups, length std=2.6",
+      "connectivity": "The hidden words are well-integrated into the narrative, with most being essential to understanding the context and theme of the meeting between Vance, Trump, and Zelenskyy. Removing any of these words would disrupt the flow and meaning of the paragraph.",
+      "clueability": "The clue tiers are distinct and creative, with a smooth progression from vague to specific. The Indirect clues are particularly clever, requiring thought and connection to the context without being too obscure or too easy.",
+      "discovery_curve": "Solving some words, such as 'diplomacy' and 'agreement', can help inform others, like 'ceasefire', through their related contexts and themes, creating a moderate cascade effect that aids in solving harder words.",
+      "narrative_interest": "The prose is clear and informative, providing a straightforward account of the event. While it holds attention due to the interest in the subject matter, it lacks compelling storytelling or vivid descriptions that would elevate it to a more engaging read.",
+      "catalog_penalty": "The paragraph is written in natural, flowing prose without any list-like, encyclopedic, or catalog-style writing, making it a cohesive and readable narrative.",
+      "title_spoiler": "no spoilers"
+    },
+    "has_llm_scores": true,
+    "total_score": 83.0,
+    "overall_rating": "good",
+    "llm_provider": "NIM"
+  },
+  "01-18_Chardon_Ohio_School_Shooting.json": {
+    "title": "Chardon, Ohio School Shooting",
+    "date": "01-18",
+    "scores": {
+      "word_quality": 10,
+      "variety": 5.2,
+      "title_spoiler": 0.0,
+      "connectivity": 8,
+      "clueability": 9,
+      "discovery_curve": 6,
+      "narrative_interest": 8,
+      "catalog_penalty": 0
+    },
+    "reasons": {
+      "word_quality": "10 nouns, 0 function words",
+      "variety": "1 POS types, 9 word groups, length std=2.2",
+      "title_spoiler": "no spoilers",
+      "connectivity": "The hidden words are well-integrated into the narrative, describing the town of Chardon and its characteristics, making them feel essential to the story. However, a few words like 'globe' and 'prayer' feel slightly incidental.",
+      "clueability": "The clue tiers are distinct and creative, with a smooth progression from vague to specific, making it enjoyable to solve the words. The clues are well-crafted and require thought, but are not overly complex.",
+      "discovery_curve": "Solving some words helps guess others to a moderate extent, as related words like 'maple' and 'syrup' are connected, but most words are independent and don't have a strong cascade effect.",
+      "narrative_interest": "The prose is engaging and vivid, painting a picture of the town of Chardon and its unique characteristics, making it a pleasure to read and explore.",
+      "catalog_penalty": "The writing is natural and flowing, with no list-like or encyclopedic style, making it easy to follow and enjoy the narrative."
+    },
+    "has_llm_scores": true,
+    "total_score": 81.3,
+    "overall_rating": "good",
+    "llm_provider": "Groq"
+  },
+  "02-18_Frank_Sinatra_Has_a_Cold.json": {
+    "title": "Frank Sinatra Has a Cold",
+    "date": "02-18",
+    "scores": {
+      "word_quality": 10,
+      "variety": 5.6,
+      "title_spoiler": 0.0,
+      "connectivity": 8,
+      "clueability": 9,
+      "discovery_curve": 6,
+      "narrative_interest": 9,
+      "catalog_penalty": 0
+    },
+    "reasons": {
+      "word_quality": "10 nouns, 0 function words",
+      "variety": "2 POS types, 10 word groups, length std=1.6",
+      "title_spoiler": "no spoilers",
+      "connectivity": "The hidden words are well-integrated into the narrative, contributing to the overall atmosphere and character portrayal, with most words feeling essential to the story's theme and setting.",
+      "clueability": "The clues are distinct, creative, and progressively helpful across the three tiers, with indirect clues being particularly clever and requiring thoughtful consideration.",
+      "discovery_curve": "While solving some words may provide thematic insights that help with others, the connection is not overly strong, and each word largely stands as an independent puzzle to be solved.",
+      "narrative_interest": "The prose is engaging, vivid, and interesting to read, with a compelling portrayal of Frank Sinatra's character and the setting that draws the reader into the story.",
+      "catalog_penalty": "The writing is natural and flowing, with no evidence of list-like, encyclopedic, or catalog-style writing that would detract from the narrative experience."
+    },
+    "has_llm_scores": true,
+    "total_score": 82.9,
+    "overall_rating": "good",
+    "llm_provider": "Groq"
+  },
+  "03-18_Frank_Sinatra_Has_a_Cold_-_2.json": {
+    "title": "Frank Sinatra Has a Cold - 2",
+    "date": "03-18",
+    "scores": {
+      "word_quality": 8.5,
+      "variety": 5.9,
+      "title_spoiler": 0.0,
+      "connectivity": 8,
+      "clueability": 7,
+      "discovery_curve": 6,
+      "narrative_interest": 9,
+      "catalog_penalty": 0
+    },
+    "reasons": {
+      "word_quality": "4 nouns, 0 function words",
+      "variety": "3 POS types, 10 word groups, length std=0.9",
+      "title_spoiler": "no spoilers",
+      "connectivity": "The hidden words are well-integrated into the narrative, with many feeling essential to understanding the relationship between Brad Dexter and Frank Sinatra, and the context of their interactions.",
+      "clueability": "The clues are generally well-crafted and distinct across tiers, although some Indirect clues feel a bit too similar to their Suggestive counterparts, lacking the creativity and subtlety that would elevate them to a perfect score.",
+      "discovery_curve": "Solving some words, like 'producer' and 'executive', can help inform the context of others, but the connections are not always strong or direct enough to create a significant cascade effect.",
+      "narrative_interest": "The prose is engaging, offering a fascinating glimpse into the life and relationships of Frank Sinatra, with vivid descriptions and insightful character observations that make the text a pleasure to read.",
+      "catalog_penalty": "The writing is natural and narrative-driven, with no list-like or encyclopedic sections that would detract from the storytelling or the integration of the hidden words."
+    },
+    "has_llm_scores": true,
+    "total_score": 75.9,
+    "overall_rating": "good",
+    "llm_provider": "Groq"
+  },
+  "04-18_Your_Lifestyle_Has_Already_Been_Designed.json": {
+    "title": "Your Lifestyle Has Already Been Designed",
+    "date": "04-18",
+    "scores": {
+      "word_quality": 8.8,
+      "variety": 6.3,
+      "title_spoiler": 0.0,
+      "connectivity": 8,
+      "clueability": 9,
+      "discovery_curve": 6,
+      "narrative_interest": 8,
+      "catalog_penalty": 0
+    },
+    "reasons": {
+      "word_quality": "5 nouns, 0 function words",
+      "variety": "2 POS types, 9 word groups, length std=2.3",
+      "title_spoiler": "no spoilers",
+      "connectivity": "The hidden words are integral to the narrative, exploring the theme of lifestyle and spending habits, with most words feeling essential to the story. However, a few words, such as 'exceptional' and 'promiscuous', feel slightly less connected to the core theme.",
+      "clueability": "The clue tiers are distinct, creative, and progressively helpful, with indirect clues being particularly clever and thought-provoking, such as the 'snapshot in the timeline of life' for 'moment' and 'a flower that blooms for anyone who passes by' for 'promiscuous'.",
+      "discovery_curve": "Solving some words helps guess others to a moderate extent, with related words like 'money', 'wallet', and 'purchases' creating a sense of continuity, but the connections are not strong enough to create a significant cascade effect.",
+      "narrative_interest": "The prose is engaging and well-written, with vivid descriptions and relatable themes, making it a pleasure to read and become invested in the author's reflections on their spending habits.",
+      "catalog_penalty": "The text features natural, flowing prose with no list-like or encyclopedic sections, allowing the narrative to unfold smoothly and maintain the reader's interest."
+    },
+    "has_llm_scores": true,
+    "total_score": 79.3,
+    "overall_rating": "good",
+    "llm_provider": "Groq"
+  },
+  "05-18_Your_Lifestyle_Has_Already_Been_Designed.json": {
+    "title": "Your Lifestyle Has Already Been Designed",
+    "date": "05-18",
+    "scores": {
+      "word_quality": 10,
+      "variety": 5.6,
+      "title_spoiler": 0.0,
+      "connectivity": 8,
+      "clueability": 9,
+      "discovery_curve": 6,
+      "narrative_interest": 8,
+      "catalog_penalty": 0
+    },
+    "reasons": {
+      "word_quality": "10 nouns, 0 function words",
+      "variety": "1 POS types, 8 word groups, length std=2.6",
+      "title_spoiler": "no spoilers",
+      "connectivity": "The hidden words are integral to the narrative, exploring the theme of how marketing influences consumer behavior, with most words feeling essential to the discussion. The paragraph's focus on the documentary and the marketing psychologist's study ties the words together cohesively.",
+      "clueability": "The clue tiers are distinct and creative, with a smooth progression from vague to specific, making it enjoyable and challenging to solve the words. The indirect clues are particularly clever, requiring thought to connect them to the hidden words.",
+      "discovery_curve": "Solving some words helps guess others to a moderate extent, especially with related words like 'marketing' and 'psychologist', but the connection is not overly strong, and each word still presents a unique challenge.",
+      "narrative_interest": "The prose is engaging and interesting, discussing a compelling topic in a clear and concise manner, making the reader curious about the effects of marketing on consumer behavior and the strategies used by corporations.",
+      "catalog_penalty": "The paragraph features natural, flowing prose without list-like or encyclopedic structures, presenting the information in a narrative and engaging way."
+    },
+    "has_llm_scores": true,
+    "total_score": 81.9,
+    "overall_rating": "good",
+    "llm_provider": "Groq"
   }
 }

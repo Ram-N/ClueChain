@@ -1,0 +1,228 @@
+{
+  "title": "three six five by Lucy Ives",
+  "date": "05-01",
+  "text": "Title: three six five by Lucy Ives \n\nThis collection of writing exercises by the novelist, poet, and essayist Lucy Ives is built around the premise that an exercise succeeds when there is no right answer. One, “how to walk backward,” begins, “Write a description of your bed after you have slept in it.” Then a chair you’ve sat in, a room you’ve left, a glass you’ve drunk from, a person you no longer know, a belief you no longer hold; each instruction receding a little further until you’re trying to see “something so far out of sight that it cannot be seen.” Others offer tasks ranging from reviewing “an imaginary book” to writing a thirty-page sentence. If you can pull off that last one, Ives writes, “you are ready for the big leagues!”",
+  "hiddenWords": [
+    {
+      "word": "novelist",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A writer of long-form fiction, often with complex characters.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Someone who writes novels for a living.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A person who creates fictional stories in book form.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "premise",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A starting point for a logical argument or a story's plot.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "The underlying idea or hypothesis of a theory or a narrative.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A statement that forms the basis of an argument or a story.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "exercise",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A task designed to test or improve physical or mental abilities.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "An activity performed to develop or maintain a skill.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A physical or mental activity done for training or practice.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "description",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A vivid account of a person, place, or thing, using sensory details.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A detailed explanation or portrayal of something.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A written or spoken account that gives a detailed picture of something.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "instruction",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A directive that guides the performance of a specific task or action.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "A guideline or rule that must be followed in order to achieve a desired outcome.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A direction or order that tells someone what to do.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "belief",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A conviction or opinion that is held with confidence, but not necessarily based on fact.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A principle or tenet that guides one's thoughts or actions.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A thought or opinion that someone holds to be true.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "sentence",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A group of words expressing a complete thought or idea.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A unit of language that conveys a single idea or statement.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A set of words that express a complete thought.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "imaginary",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Existing only in the mind or imagination; not real.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Not based on fact, but on fantasy or invention.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Created or existing only in the imagination.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "poet",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A writer of verse, often using language in a creative and imaginative way.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Someone who creates original poems, often exploring themes and emotions.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A person who writes poetry.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "essayist",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A writer who creates short, nonfiction pieces that explore a topic or theme.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Someone who writes essays, often using persuasive or analytical techniques.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A person who writes essays, typically on a variety of subjects.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-05-01"
+}

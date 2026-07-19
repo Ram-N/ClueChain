@@ -1,12 +1,4 @@
 mmdd,date,score_key,total_score,rating,title
-0204,02-04,0204.json,50.8,okay,List of conspiracy theories — Flat Earth
-0531,05-31,0531.json,57.9,okay,Rhythm — Counter rhythm
-0617,06-17,0617.json,59.6,okay,Notes on Location and Place
-0503,05-03,0503.json,60.2,okay,Terminal (film) — Development
-0404,04-04,0404.json,60.3,okay,List of conspiracy theories — Death of Nero
-1225,12-25,1225.json,60.8,okay,Jazz — Swing in the 1920s and 1930s
-0501,05-01,0501.json,61.1,okay,New Hope (Poland) — Overview
-0325,03-25,0325.json,61.3,okay,Jazz — Latin jazz
 0125,01-25,0125.json,62.6,okay,Jazz — Dixieland revival
 0305,03-05,0305.json,62.8,okay,List of conspiracy theories — Death of Nero
 1204,12-04,1204.json,62.8,okay,List of conspiracy theories — John F. Kennedy assassination
@@ -108,6 +100,8 @@ mmdd,date,score_key,total_score,rating,title
 0823,08-23,0823.json,75.0,good,Naïve witchcraft beliefs in Acadian
 1003,10-03,1003.json,75.3,good,Spider-Noir — Marketing
 0201,02-01,0201.json,75.8,good,New Hope (Poland) — Ideology and position
+0617,06-17,0617.json,75.8,good,The Frenzy by Joyce Carol Oates
+0325,03-25,0325.json,75.9,good,Frank Sinatra Has a Cold - 2
 0819,08-19,0819.json,75.9,good,Negotiation
 1217,12-17,1217.json,75.9,good,Is Apple maps getting ready to tackle public transport?
 0223,02-23,0223.json,76.1,good,In defense of persimmons
@@ -147,6 +141,7 @@ mmdd,date,score_key,total_score,rating,title
 0309,03-09,0309.json,79.2,good,Their Eyes Were Watching God by Zora Neale Hurston (1937)
 0910,09-10,0910.json,79.2,good,Sharing some truth (How to Write One Song • By Jeff Tweedy)
 1103,11-03,1103.json,79.2,good,Marvel Noir — X-Men Noir: Mark of Cain
+0501,05-01,0501.json,79.3,good,Your Lifestyle Has Already Been Designed
 0818,08-18,0818.json,79.3,good,"Verdigris: The Color of Oxidation, Statues, and Impermanence"
 0224,02-24,0224.json,79.4,good,History of India — Trade and travels to India
 1226,12-26,1226.json,79.4,good,Robot — Home automation for the elderly and disabled
@@ -228,6 +223,7 @@ mmdd,date,score_key,total_score,rating,title
 0315,03-15,0315.json,81.3,good,Temples Where Gods Come to Life
 0505,05-05,0505.json,81.3,good,Conspiracy theories — New England Patriots
 1004,10-04,1004.json,81.3,good,Pizzagate conspiracy theory — Turkish press reports
+1225,12-25,1225.json,81.3,good,"Chardon, Ohio School Shooting"
 0114,01-14,0114.json,81.4,good,The Glass Jar by Sylvia Plath (1963)
 0406,04-06,0406.json,81.4,good,Donald Trump is waging war against human conscience — The Guardian
 0418,04-18,0418.json,81.4,good,The Real Difference Between Warm and Cool Colors
@@ -258,6 +254,7 @@ mmdd,date,score_key,total_score,rating,title
 0514,05-14,0514.json,81.8,good,Rhythm and blues — Afro-Cuban rhythmic influence
 1018,10-18,1018.json,81.8,good,Juvenile Impulse
 1206,12-06,1206.json,81.8,good,Trump administration freezes $2.1bn in funds for Chicago transit projects — The Guardian
+0404,04-04,0404.json,81.9,good,Your Lifestyle Has Already Been Designed
 0416,04-16,0416.json,81.9,good,The Burning Desire for Hot Chicken
 0919,09-19,0919.json,81.9,good,Iran Wants to Talk
 0921,09-21,0921.json,81.9,good,The Former Prince Andrew Never Should Have Forwarded Those Emails
@@ -293,10 +290,12 @@ mmdd,date,score_key,total_score,rating,title
 0516,05-16,0516.json,82.8,good,Lush Life Lahore
 1229,12-29,1229.json,82.8,good,Anomia (game) — Design
 0320,03-20,0320.json,82.9,good,The Future of Wearables
+0503,05-03,0503.json,82.9,good,Frank Sinatra Has a Cold
 0923,09-23,0923.json,82.9,good,China in Ten Words
 1016,10-16,1016.json,82.9,good,The Noma Way
 1022,10-22,1022.json,82.9,good,Neglecting to Read
 1211,12-11,1211.json,82.9,good,Bigger and Healthier Brains
+0204,02-04,0204.json,83.0,good,Land by Maggie O’Farrell
 0216,02-16,0216.json,83.0,good,Fancy a Kulfi? From Granita to Queso Helado
 0313,03-13,0313.json,83.0,good,Lincoln's Idea
 0401,04-01,0401.json,83.0,good,JD Vance — Zelenskyy White House visit
@@ -323,6 +322,7 @@ mmdd,date,score_key,total_score,rating,title
 0909,09-09,0909.json,83.4,good,The Law of Compensation by Ralph Waldo Emerson
 1020,10-20,1020.json,83.4,good,I rescued a panini press
 0318,03-18,0318.json,83.5,good,"Northern Lights, Manitoba"
+0531,05-31,0531.json,83.5,good,An experiment for students to grasp by lessons
 0911,09-11,0911.json,83.5,good,"Humans think — AI, not so much"
 1118,11-18,1118.json,83.5,good,Unreal City
 0122,01-22,0122.json,83.6,good,My dirty secret writing life

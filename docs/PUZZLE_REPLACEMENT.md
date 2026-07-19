@@ -38,7 +38,7 @@ python scripts/replace_lowest.py
 1. Scores each staged file (calls `score_paragraphs.py --file`)
 2. Reads `mmdd_slot_scores.csv` to find the lowest-scoring slots
 3. Pairs best new → worst slot (only replaces if new score > old score)
-4. Archives old files to `assets/data/archive/`
+4. Archives old files to `assets/data/replaced-puzzles/`
 5. Writes new puzzle to both `assets/data/MM-DD-slug.json` and `puzzles/daily/mmdd/MMDD.json`
 6. Updates `paragraph_scores.json`, `old_new_mapping.csv`, and `mmdd_slot_scores.csv`
 7. Regenerates `paragraph_rankings.csv`
@@ -94,7 +94,7 @@ One row per MMDD slot (366 rows). Maps each slot to its root-level source file.
 | `old_title` | Title of the root-level file |
 | `match` | `identical` (mmdd matches root), `different` (mmdd was replaced), or empty |
 
-### `assets/data/archive/`
+### `assets/data/replaced-puzzles/`
 
 Replaced puzzle files are moved here. Named as `MMDD_slugified-title.json`.
 

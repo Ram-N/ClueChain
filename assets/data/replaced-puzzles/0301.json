@@ -1,0 +1,236 @@
+{
+  "title": "Ghost-Eye by Amitav Ghosh",
+  "date": "03-01",
+  "text": "Title: Ghost-Eye by Amitav Ghosh\n\nThis sweeping novel opens in nineteen-sixties Calcutta, when a three-year-old girl demands to eat fish, shocking her family of Jains. Disturbed, her parents summon a psychologist, who concludes that she is the reincarnation of a person who grew up in a fishing village in the Sundarban forests, to the southeast. Fifty years later, an energy corporation announces plans to build a plant in that area, threatening ecological devastation. The psychologist’s adult nephew has been recruited by an environmentalist who believes that the psychologist’s case files hold the key to saving the forest. The story—replete with history and science, spiritualism and synchronicities—suggests that to find salvation, we must “remind ourselves of the old ways.”",
+  "hiddenWords": [
+    {
+      "word": "novel",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A book that tells a story",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "This form of writing often explores the human condition",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Imagine a canvas of words, painting a picture of life",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "word": "psychologist",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "scientist"
+      ],
+      "clues": [
+        {
+          "clue": "A person who studies the mind and its functions",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "They often help people deal with their emotions and behaviors",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Someone who tries to understand what makes us tick",
+          "type": "Indirect",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "word": "scientist",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "psychologist"
+      ],
+      "clues": [
+        {
+          "clue": "A person who studies the natural world",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "They often conduct experiments to test their theories",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Imagine someone who is always curious about how things work",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "word": "ecological",
+      "difficulty": "Hard",
+      "related_words": [
+        "environmentalist"
+      ],
+      "clues": [
+        {
+          "clue": "Related to the study of the environment",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "This term is often used to describe the impact of human actions on nature",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Think of the delicate balance of the natural world",
+          "type": "Indirect",
+          "points": 7
+        }
+      ]
+    },
+    {
+      "word": "environmentalist",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "ecological"
+      ],
+      "clues": [
+        {
+          "clue": "A person who fights to protect the natural world",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "They often work to preserve the beauty of nature",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Imagine someone who is passionate about saving the planet",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "word": "salvation",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The state of being saved from something",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "This concept is often associated with spiritual or religious beliefs",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Think of a safe haven from the storms of life",
+          "type": "Indirect",
+          "points": 7
+        }
+      ]
+    },
+    {
+      "word": "synchronicities",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The occurrence of events that seem to be meaningfully connected",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "This concept is often associated with the idea of fate or destiny",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Imagine the universe whispering secrets to those who listen",
+          "type": "Indirect",
+          "points": 7
+        }
+      ]
+    },
+    {
+      "word": "reincarnation",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The idea that a soul is reborn into a new body",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "This concept is often associated with spiritual or religious beliefs",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Think of a never-ending cycle of life and death",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "word": "corporation",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A large business organization",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "They often have a significant impact on the economy and society",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Imagine a giant machine that generates wealth and power",
+          "type": "Indirect",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "word": "devastation",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The state of being completely destroyed or ruined",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "This term is often used to describe the aftermath of a disaster",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Think of a landscape that has been ravaged by destruction",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-03-01"
+}

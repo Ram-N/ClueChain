@@ -1,232 +1,230 @@
 {
-  "title": "Terminal (film) — Development",
+  "title": "Frank Sinatra Has a Cold",
   "date": "05-03",
-  "text": "On 12 February 2016, it was announced that Margot Robbie would headline and produce a \"noir thriller\" written and directed by Vaughn Stein, through her production company LuckyChap Entertainment. Highland Film Group would be handling finance and introducing the project to international buyers in Berlin. Creative Artists Agency would handle domestic distribution sales in the United States. David Barron of Beagle Pug Films was also attached to the project as a producer. On 24 May 2016, Simon Pegg, Mike Myers, Max Irons and Dexter Fletcher joined the cast alongside Robbie. This film marks Mike Myers's first non-documentary film since 2012.",
+  "text": "Frank Sinatra Has a Cold\nEsquire, April 1966\n\nFRANK SINATRA, holding a glass of bourbon in one hand and a \ncigarette in the other, stood in a dark corner of the bar between two attractive but \nfading blondes who sat waiting for him to say something. But he said nothing; he had \nbeen silent during much of the evening, except now in this private club in Beverly Hills \nhe seemed even more distant, staring out through the smoke and semidarkness into a large \nroom beyond the bar where dozens of young couples sat huddled around small tables or \ntwisted in the center of the floor to the clamorous clang of folk-rock music blaring \nfrom the stereo. The two blondes knew, as did Sinatra's four male friends who stood \nnearby, that it was a bad idea to force conversation upon him when he was in this mood \nof sullen silence, a mood that had hardly been uncommon \nduring this first week of November, a month before his fiftieth birthday.",
   "hiddenWords": [
     {
-      "word": "thriller",
-      "difficulty": "Intermediate",
+      "word": "bourbon",
+      "difficulty": "Easy",
       "related_words": [],
       "clues": [
         {
-          "clue": "A genre of film that keeps you on the edge of your seat",
-          "type": "Indirect",
-          "points": 6
+          "clue": "A type of whiskey often enjoyed neat.",
+          "type": "Straight",
+          "points": 1
         },
         {
-          "clue": "A type of movie that is exciting and suspenseful",
+          "clue": "Frequently associated with a particular style of glass.",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "A film genre characterized by excitement and suspense",
+          "clue": "What might a sophisticated gentleman sip on a warm summer evening?",
+          "type": "Indirect",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "word": "cigarette",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A common habit that's hard to kick.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Something often lit with a match or lighter.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A small, usually cylindrical, roll of tobacco.",
           "type": "Straight",
           "points": 1
         }
       ]
     },
     {
-      "word": "producer",
+      "word": "blondes",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A hair color often associated with Scandinavian countries.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "What might attract attention in a crowded room?",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Women with a specific hair color.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "stereo",
       "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A device that produces sound from two channels.",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "Frequently used for playing music at parties.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "What might be found in a living room for entertainment?",
+          "type": "Indirect",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "word": "smoke",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "What rises from a burning cigarette?",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Something that can be seen but not held.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "The visible gaseous product of combustion.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "mood",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A temporary state of mind or feeling.",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "What changes with the phases of the moon for some people?",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "An atmosphere or feeling that predominates at a particular time.",
+          "type": "Suggestive",
+          "points": 4
+        }
+      ]
+    },
+    {
+      "word": "silence",
+      "difficulty": "Hard",
       "related_words": [
-        "company"
+        "mood"
       ],
       "clues": [
         {
-          "clue": "The person behind the scenes making it all happen",
-          "type": "Indirect",
-          "points": 5
-        },
-        {
-          "clue": "Someone responsible for overseeing a project",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "A person who creates or manufactures something",
+          "clue": "The absence of sound or noise.",
           "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "company",
-      "difficulty": "Easy",
-      "related_words": [
-        "producer"
-      ],
-      "clues": [
-        {
-          "clue": "A group of people working together towards a common goal",
-          "type": "Indirect",
-          "points": 5
+          "points": 2
         },
         {
-          "clue": "An organization that produces goods or services",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "A business or firm",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "finance",
-      "difficulty": "Intermediate",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "The management of money and investments",
+          "clue": "Sometimes golden, but often uncomfortable in social situations.",
           "type": "Indirect",
           "points": 6
         },
         {
-          "clue": "The provision of funds for a project or business",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "The handling of money matters",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "international",
-      "difficulty": "Hard",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "Beyond the borders of one's own country",
-          "type": "Indirect",
-          "points": 7
-        },
-        {
-          "clue": "Involving or affecting two or more nations",
+          "clue": "What can be deafening in a crowded room?",
           "type": "Suggestive",
           "points": 4
-        },
-        {
-          "clue": "Global or worldwide in scope",
-          "type": "Straight",
-          "points": 1
         }
       ]
     },
     {
-      "word": "attached",
-      "difficulty": "Intermediate",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "Connected or joined to something",
-          "type": "Indirect",
-          "points": 6
-        },
-        {
-          "clue": "Assigned or allocated to a particular task or project",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "Fastened or secured to something",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "documentary",
-      "difficulty": "Hard",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "A film that shows real people and events",
-          "type": "Indirect",
-          "points": 7
-        },
-        {
-          "clue": "A movie that aims to inform or educate the audience",
-          "type": "Suggestive",
-          "points": 4
-        },
-        {
-          "clue": "A non-fiction film",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "announced",
+      "word": "November",
       "difficulty": "Easy",
       "related_words": [],
       "clues": [
         {
-          "clue": "Made known or declared publicly",
-          "type": "Indirect",
-          "points": 5
+          "clue": "The eleventh month of the year.",
+          "type": "Straight",
+          "points": 1
         },
         {
-          "clue": "Declared or stated officially",
+          "clue": "A time when autumn is coming to an end in the Northern Hemisphere.",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "Made a public statement",
-          "type": "Straight",
-          "points": 1
+          "clue": "When Thanksgiving is celebrated in the United States.",
+          "type": "Indirect",
+          "points": 5
         }
       ]
     },
     {
-      "word": "entertainment",
+      "word": "birthday",
       "difficulty": "Intermediate",
       "related_words": [],
       "clues": [
         {
-          "clue": "Something that amuses or delights",
+          "clue": "A day to celebrate the anniversary of one's birth.",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "What might be marked with cake, candles, and gifts?",
           "type": "Indirect",
           "points": 6
         },
         {
-          "clue": "An activity or performance that is enjoyable",
+          "clue": "An annual occasion for festivities and gift-giving.",
           "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "The act of entertaining or being entertained",
-          "type": "Straight",
-          "points": 1
+          "points": 4
         }
       ]
     },
     {
-      "word": "agency",
-      "difficulty": "Hard",
+      "word": "folks",
+      "difficulty": "Intermediate",
       "related_words": [],
       "clues": [
         {
-          "clue": "A person or organization that acts on behalf of another",
-          "type": "Indirect",
-          "points": 7
+          "clue": "People in general, especially those of a particular region or community.",
+          "type": "Straight",
+          "points": 2
         },
         {
-          "clue": "A business that provides a particular service",
+          "clue": "What might be found at a music festival?",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Informal term for people, often used in music genres.",
           "type": "Suggestive",
           "points": 4
-        },
-        {
-          "clue": "An organization that represents or acts for others",
-          "type": "Straight",
-          "points": 1
         }
       ]
     }
   ],
-  "id": "ClueChain-2026-05-03"
+  "id": "ClueChain-2026-02-18"
 }

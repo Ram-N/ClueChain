@@ -1,237 +1,232 @@
 {
-  "title": "Jazz — Latin jazz",
+  "title": "Frank Sinatra Has a Cold - 2",
   "date": "03-25",
-  "text": "Title: Jazz — Latin jazz\n\nIn the 1960s and 1970s, many jazz musicians had only a basic understanding of Cuban and Brazilian music, and jazz compositions which used Cuban or Brazilian elements were often referred to as \"Latin tunes\", with no distinction between a Cuban son montuno and a Brazilian bossa nova. Even as late as 2000, in Mark Gridley's Jazz Styles: History and Analysis, a bossa nova bass line is referred to as a \"Latin bass figure\". It was not uncommon during the 1960s and 1970s to hear a conga playing a Cuban tumbao while the drumset and bass played a Brazilian bossa nova pattern. Many jazz standards such as \"Manteca\", \"On Green Dolphin Street\" and \"Song for My Father\" have a \"Latin\" A section and a swung B section. Typically, the band would only play an even-eighth \"Latin\" feel in the A section of the head and swing throughout all of the solos. Latin jazz specialists like Cal Tjader tended to be the exception. For example, on a 1959 live Tjader recording of \"A Night in Tunisia\", pianist Vince Guaraldi soloed through the entire form over an authentic mambo.",
+  "text": "Frank Sinatra Has a Cold - 2\nEsquire, April 1966\nBrad Dexter has appeared in several films and television shows, displaying fine talent as a \ncharacter actor, but in Beverly Hills he is equally known for the role he played in Hawaii \ntwo years ago when he swam a few hundred yards and risked his life to save Sinatra from \ndrowning in a riptide. Since then Dexter has been one of Sinatra's constant companions and\nhas been made a producer in Sinatra's film company. He occupies a plush office near Sinatra's \nexecutive suite. He is endlessly searching for literary properties that might be converted \ninto new starring roles for Sinatra. Whenever he is among strangers with Sinatra he worries \nbecause he knows that Sinatra brings out the best and worst in people--some men will become \naggressive, some women will become seductive, others will stand around skeptically appraising \nhim, the scene will be somehow intoxicated by his mere presence, and maybe Sinatra himself, \nif feeling as badly as he was tonight, might become intolerant or tense, and then: headlines. \nSo Brad Dexter tries to anticipate danger and warn Sinatra in advance. He confesses to feeling \nvery protective of Sinatra, admitting in a recent moment of self-revelation: \"I'd kill for him.\"",
   "hiddenWords": [
     {
-      "word": "jazz",
-      "difficulty": "Easy",
-      "related_words": [
-        "latin",
-        "bossa"
-      ],
+      "word": "character",
+      "difficulty": "Intermediate",
+      "related_words": [],
       "clues": [
         {
-          "clue": "It's the music of improvisation and syncopated rhythms",
+          "clue": "Role played by an actor",
           "type": "Indirect",
           "points": 6
         },
         {
-          "clue": "A genre of music originating from African American communities",
+          "clue": "Person's personality traits",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "A style of music characterized by its use of blue notes and swing rhythms",
+          "clue": "Person in a novel or play",
           "type": "Straight",
           "points": 1
         }
       ]
     },
     {
-      "word": "latin",
+      "word": "producer",
       "difficulty": "Easy",
-      "related_words": [
-        "jazz",
-        "bossa"
-      ],
+      "related_words": [],
       "clues": [
         {
-          "clue": "The language of love, also a genre of music",
+          "clue": "Person in charge of a project",
           "type": "Indirect",
           "points": 5
         },
         {
-          "clue": "Relating to the Romance languages or cultures",
-          "type": "Suggestive",
-          "points": 4
-        },
-        {
-          "clue": "Pertaining to Latin America or its people",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "bossa",
-      "difficulty": "Intermediate",
-      "related_words": [
-        "jazz",
-        "latin"
-      ],
-      "clues": [
-        {
-          "clue": "A Brazilian style that's a fusion of samba and jazz",
-          "type": "Indirect",
-          "points": 6
-        },
-        {
-          "clue": "A style of music characterized by its gentle, swaying rhythm",
+          "clue": "Person who oversees a film or show",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "A genre of Brazilian music known for its melodic and harmonic complexity",
+          "clue": "Person responsible for a movie or play",
           "type": "Straight",
           "points": 2
         }
       ]
     },
     {
-      "word": "bass",
-      "difficulty": "Easy",
-      "related_words": [],
+      "word": "executive",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "producer"
+      ],
       "clues": [
         {
-          "clue": "The lowest part of a musical range, or a type of fish",
+          "clue": "High-ranking person in a company",
           "type": "Indirect",
           "points": 6
         },
         {
-          "clue": "The lowest-pitched instrument in a musical ensemble",
+          "clue": "Person with decision-making power",
           "type": "Suggestive",
-          "points": 3
+          "points": 4
         },
         {
-          "clue": "A low-pitched sound or instrument",
+          "clue": "CEO or manager",
           "type": "Straight",
           "points": 1
         }
       ]
     },
     {
-      "word": "drumset",
-      "difficulty": "Intermediate",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "A collection of drums, often used in jazz and rock music",
-          "type": "Indirect",
-          "points": 5
-        },
-        {
-          "clue": "A set of drums played by a single musician",
-          "type": "Suggestive",
-          "points": 4
-        },
-        {
-          "clue": "A musical instrument consisting of a set of drums",
-          "type": "Straight",
-          "points": 2
-        }
-      ]
-    },
-    {
-      "word": "conga",
+      "word": "literary",
       "difficulty": "Hard",
       "related_words": [],
       "clues": [
         {
-          "clue": "A type of drum, or a line of people dancing",
+          "clue": "Related to books or writing",
           "type": "Indirect",
           "points": 7
         },
         {
-          "clue": "A type of hand drum originating from Africa",
+          "clue": "Concerning literature or authors",
           "type": "Suggestive",
           "points": 4
         },
         {
-          "clue": "A type of percussion instrument",
+          "clue": "Pertaining to written works",
           "type": "Straight",
           "points": 2
         }
       ]
     },
     {
-      "word": "tumbao",
-      "difficulty": "Hard",
-      "related_words": [],
+      "word": "properties",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "literary"
+      ],
       "clues": [
         {
-          "clue": "A rhythmic pattern in Afro-Cuban music, or a type of Cuban sandwich",
-          "type": "Indirect",
-          "points": 6
-        },
-        {
-          "clue": "A type of rhythmic pattern used in Cuban music",
-          "type": "Suggestive",
-          "points": 4
-        },
-        {
-          "clue": "A rhythmic pattern used in Afro-Cuban music",
-          "type": "Straight",
-          "points": 2
-        }
-      ]
-    },
-    {
-      "word": "pattern",
-      "difficulty": "Easy",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "A design or sequence of events, or a template for making something",
+          "clue": "Assets or possessions",
           "type": "Indirect",
           "points": 5
         },
         {
-          "clue": "A repeated or regular arrangement of things",
+          "clue": "Things that are owned or possessed",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "A design or sequence of events",
+          "clue": "Real estate or intellectual property",
           "type": "Straight",
           "points": 1
         }
       ]
     },
     {
-      "word": "standards",
-      "difficulty": "Intermediate",
+      "word": "strangers",
+      "difficulty": "Easy",
       "related_words": [],
       "clues": [
         {
-          "clue": "Music that's widely accepted and appreciated, or a measure of quality",
+          "clue": "People you don't know",
           "type": "Indirect",
-          "points": 6
+          "points": 5
         },
         {
-          "clue": "Established or widely accepted musical compositions",
+          "clue": "Unfamiliar individuals",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Unknown persons",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "aggressive",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Behavior that is hostile or confrontational",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Person who is forceful or assertive",
           "type": "Suggestive",
           "points": 4
         },
         {
-          "clue": "Well-known and widely performed musical pieces",
+          "clue": "Confrontational or violent",
           "type": "Straight",
           "points": 2
         }
       ]
     },
     {
-      "word": "solos",
-      "difficulty": "Easy",
+      "word": "seductive",
+      "difficulty": "Intermediate",
       "related_words": [],
       "clues": [
         {
-          "clue": "A performance by a single musician, or a type of Italian pasta",
+          "clue": "Attractive or alluring",
           "type": "Indirect",
-          "points": 5
+          "points": 6
         },
         {
-          "clue": "A musical performance by a single musician",
+          "clue": "Person who is charming or persuasive",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "A musical piece played by one person",
+          "clue": "Sexy or enticing",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "intoxicated",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "State of being under the influence",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Person who is drunk or high",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Drunk or under the influence",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "protective",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Caring for someone's well-being",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Person who looks out for others",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Defending or safeguarding",
           "type": "Straight",
           "points": 1
         }
       ]
     }
   ],
-  "id": "ClueChain-2026-03-25"
+  "id": "ClueChain-2026-03-18"
 }

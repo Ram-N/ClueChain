@@ -1,237 +1,232 @@
 {
-  "title": "Jazz — Swing in the 1920s and 1930s",
+  "title": "Chardon, Ohio School Shooting",
   "date": "12-25",
-  "text": "Title: Jazz — Swing in the 1920s and 1930s\n\nThe 1930s belonged to popular swing big bands, in which some virtuoso soloists became as famous as the band leaders. Key figures in developing the \"big\" jazz band included bandleaders and arrangers Count Basie, Cab Calloway, Jimmy and Tommy Dorsey, Duke Ellington, Benny Goodman, Fletcher Henderson, Earl Hines, Harry James, Jimmie Lunceford, Glenn Miller and Artie Shaw. Although it was a collective sound, swing also offered individual musicians a chance to \"solo\" and improvise melodic, thematic solos which could at times be complex \"important\" music. Over time, social strictures regarding racial segregation began to relax in America: white bandleaders began to recruit black musicians and black bandleaders white ones. In the mid-1930s, Benny Goodman hired pianist Teddy Wilson, vibraphonist Lionel Hampton and guitarist Charlie Christian to join small groups. In the 1930s, Kansas City Jazz as exemplified by tenor saxophonist Lester Young marked the transition from big bands to the bebop influence of the 1940s. An early 1940s style known as \"jumping the blues\" or jump blues used small combos, uptempo music and blues chord progressions, drawing on boogie-woogie from the 1930s.",
+  "text": "here’s one high school in Chardon, a town of about five thousand people deep in northeast Ohio's snow belt. Living in Chardon is like living in a snow globe, one resident told me. It was early May the first time I visited, and it had just snowed again. An electronic bulletin board in the town square announced the city’s annual snowfall total, an impressive 128.1 inches. There’s a picturesque nineteenth-century town square, home to a maple syrup festival and a bathtub race, in which citizens push wheeled cast-iron tubs down the town’s Main Street. There are antiques shops and a stylish coffeehouse with framed homilies on gratitude and prayer in the bathroom. One day I caught a middle school drama group in the square, performing skits designed to promote good values. One centered on how Humpty Dumpty should have taken responsibility for his own fall.",
   "hiddenWords": [
     {
-      "word": "jazz",
+      "word": "globe",
       "difficulty": "Easy",
-      "related_words": [
-        "swing",
-        "bebop"
-      ],
+      "related_words": [],
       "clues": [
         {
-          "clue": "a genre of music that originated in the southern United States",
-          "type": "Straight",
-          "points": 1
-        },
-        {
-          "clue": "often characterized by its improvisational nature and blue notes",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "think of a style that's the cat's pajamas, if you will",
+          "clue": "A decorative item often found on a desk",
           "type": "Indirect",
           "points": 6
-        }
-      ]
-    },
-    {
-      "word": "swing",
-      "difficulty": "Easy",
-      "related_words": [
-        "jazz",
-        "bebop"
-      ],
-      "clues": [
-        {
-          "clue": "a type of dance that was popular in the 1930s and 1940s",
-          "type": "Straight",
-          "points": 1
         },
         {
-          "clue": "characterized by a strong rhythmic pulse and solo improvisations",
+          "clue": "Something that represents the Earth",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "imagine a pendulum in motion, and you're on the right track",
-          "type": "Indirect",
-          "points": 5
+          "clue": "A spherical object",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
     {
-      "word": "bebop",
+      "word": "maple",
       "difficulty": "Intermediate",
       "related_words": [
-        "jazz",
-        "swing"
+        "syrup"
       ],
       "clues": [
         {
-          "clue": "a style of jazz that emerged in the 1940s",
-          "type": "Straight",
-          "points": 2
+          "clue": "A type of tree with distinctive leaves",
+          "type": "Indirect",
+          "points": 5
         },
         {
-          "clue": "characterized by fast tempos and complex harmonies",
+          "clue": "A flavor often associated with pancakes",
           "type": "Suggestive",
           "points": 4
         },
         {
-          "clue": "think of a musical revolution that was the opposite of 'cool'",
-          "type": "Indirect",
-          "points": 6
+          "clue": "A type of wood",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
     {
-      "word": "virtuoso",
+      "word": "syrup",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "maple"
+      ],
+      "clues": [
+        {
+          "clue": "A sweet topping for pancakes",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A thick liquid made from sugar and water",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A type of topping for ice cream",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "tubs",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Containers often used for bathing",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Large containers for holding water",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A type of container",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "coffeehouse",
       "difficulty": "Hard",
       "related_words": [],
       "clues": [
         {
-          "clue": "a person with great skill or expertise in a particular field",
-          "type": "Straight",
-          "points": 2
-        },
-        {
-          "clue": "someone who has mastered a musical instrument or art form",
-          "type": "Suggestive",
-          "points": 4
-        },
-        {
-          "clue": "picture a master of the keyboard, and you're on the right note",
+          "clue": "A place where people go to socialize and drink",
           "type": "Indirect",
           "points": 7
-        }
-      ]
-    },
-    {
-      "word": "melodic",
-      "difficulty": "Easy",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "having a pleasing or musical quality",
-          "type": "Straight",
-          "points": 1
         },
         {
-          "clue": "relating to the melody of a piece of music",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "think of a gentle stream that flows with harmony",
-          "type": "Indirect",
-          "points": 5
-        }
-      ]
-    },
-    {
-      "word": "thematic",
-      "difficulty": "Intermediate",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "relating to a theme or subject",
-          "type": "Straight",
-          "points": 2
-        },
-        {
-          "clue": "having a central idea or concept",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "imagine a thread that weaves through a narrative",
-          "type": "Indirect",
-          "points": 6
-        }
-      ]
-    },
-    {
-      "word": "uptempo",
-      "difficulty": "Easy",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "having a fast or lively tempo",
-          "type": "Straight",
-          "points": 1
-        },
-        {
-          "clue": "characterized by a quick or energetic pace",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "think of a runaway train that's gaining speed",
-          "type": "Indirect",
-          "points": 5
-        }
-      ]
-    },
-    {
-      "word": "combos",
-      "difficulty": "Intermediate",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "small groups of musicians who play together",
-          "type": "Straight",
-          "points": 2
-        },
-        {
-          "clue": "often used to describe a small jazz ensemble",
+          "clue": "A business that serves hot beverages",
           "type": "Suggestive",
           "points": 4
         },
         {
-          "clue": "picture a handful of ingredients that come together to create something new",
-          "type": "Indirect",
-          "points": 6
+          "clue": "An establishment that serves coffee",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
     {
-      "word": "segregation",
+      "word": "homilies",
       "difficulty": "Hard",
       "related_words": [],
       "clues": [
         {
-          "clue": "the act of separating or isolating a group of people",
-          "type": "Straight",
-          "points": 2
-        },
-        {
-          "clue": "a system of laws or social norms that enforce separation",
-          "type": "Suggestive",
-          "points": 4
-        },
-        {
-          "clue": "think of a wall that divides, but also think of a bridge that connects",
+          "clue": "Speeches given to convey moral lessons",
           "type": "Indirect",
-          "points": 7
-        }
-      ]
-    },
-    {
-      "word": "transition",
-      "difficulty": "Intermediate",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "the process of changing from one state to another",
-          "type": "Straight",
-          "points": 2
+          "points": 6
         },
         {
-          "clue": "a period of time during which a change takes place",
+          "clue": "Talks given to inspire and motivate",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "imagine a door that swings open to reveal a new path",
+          "clue": "Sermons or lectures",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "gratitude",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A feeling of appreciation for something",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A positive emotion felt towards someone or something",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "The state of being thankful",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "prayer",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A way of communicating with a higher power",
           "type": "Indirect",
           "points": 6
+        },
+        {
+          "clue": "A ritual or ceremony to invoke a deity",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A solemn request to a higher power",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "drama",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A performance or spectacle",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A type of story or play",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A performance with actors",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "values",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Principles that guide behavior",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Important ideas or standards",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Moral principles",
+          "type": "Straight",
+          "points": 2
         }
       ]
     }
   ],
-  "id": "ClueChain-2026-12-25"
+  "id": "ClueChain-2026-01-18"
 }

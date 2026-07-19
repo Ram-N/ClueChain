@@ -1,237 +1,235 @@
 {
-  "title": "New Hope (Poland) — Overview",
+  "title": "Your Lifestyle Has Already Been Designed",
   "date": "05-01",
-  "text": "The New Hope (Polish: Nowa Nadzieja [ˈnova naˈd͡ʑɛ.ja], NN) is a far-right political party in Poland and member of Confederation. As of 2024, it is led by Sławomir Mentzen. Founded in 2015 by Janusz Korwin-Mikke as a result of his removal from the Congress of the New Right, his former party, it was initially called Coalition for the Renewal of the Republic of Liberty and Hope (Koalicja Odnowy Rzeczypospolitej Wolność i Nadzieja) and then subsequently Confederation for the Renewal of the Republic of Liberty and Hope (Konfederacja Odnowy Rzeczypospolitej Wolność i Nadzieja), both backronym to KORWiN or sometimes shortened to Liberty (Wolność). Among the party's other members are Przemysław Wipler, who held a seat in the Polish Sejm, and Robert Iwaszkiewicz, Member of the European Parliament. The party's Polish name was originally a backronym of the founder's name Korwin-Mikke, who took part in the 2015 presidential election.",
+  "text": "Your Lifestyle Has Already Been Designed\n\nSince the moment I was offered the job, I’ve been markedly more careless with my money. Not stupid, just a little quick to pull out my wallet. As a small example, I’m buying expensive coffees again, even though they aren’t nearly as good as New Zealand’s exceptional flat whites, and I don’t get to savor the experience of drinking them on a sunny café patio. When I was away these purchases were less off-handed, and I enjoyed them more.\n\nI’m not talking about big, extravagant purchases. I’m talking about small-scale, casual, promiscuous spending on stuff that doesn’t really add a whole lot to my life. And I won’t actually get paid for another two weeks.",
   "hiddenWords": [
     {
-      "word": "party",
+      "word": "moment",
       "difficulty": "Easy",
-      "related_words": [
-        "member",
-        "election"
-      ],
+      "related_words": [],
       "clues": [
         {
-          "clue": "A group of people with a common goal, often in politics",
+          "clue": "A brief period of time",
           "type": "Straight",
           "points": 1
         },
         {
-          "clue": "It can be far-right or far-left, influencing the nation's decisions",
+          "clue": "When something significant happens",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "Imagine a gathering of like-minded individuals, what do you call it?",
+          "clue": "Like a snapshot in the timeline of life",
+          "type": "Indirect",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "word": "careless",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Lacking in thought or attention",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "Prone to making mistakes due to lack of focus",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Like a leaf blown by the wind, without direction",
           "type": "Indirect",
           "points": 6
         }
       ]
     },
     {
-      "word": "member",
+      "word": "wallet",
       "difficulty": "Easy",
       "related_words": [
-        "party",
-        "election"
+        "money"
       ],
       "clues": [
         {
-          "clue": "Someone who belongs to a group or organization",
+          "clue": "A common place to store identification and cash",
           "type": "Straight",
           "points": 1
         },
         {
-          "clue": "A person who participates in a particular activity or has a certain role",
+          "clue": "Something you might check when considering a purchase",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "Think of a person who has a specific role within a larger whole",
+          "clue": "Like a guardian of one's financial secrets",
           "type": "Indirect",
-          "points": 6
+          "points": 5
         }
       ]
     },
     {
-      "word": "election",
-      "difficulty": "Intermediate",
+      "word": "money",
+      "difficulty": "Easy",
       "related_words": [
-        "party",
-        "member"
+        "wallet"
       ],
       "clues": [
         {
-          "clue": "A process of choosing a leader or representative",
+          "clue": "A medium of exchange",
           "type": "Straight",
-          "points": 2
+          "points": 1
         },
         {
-          "clue": "It's a time when citizens exercise their right to vote",
+          "clue": "The reason for working and a source of financial freedom",
           "type": "Suggestive",
           "points": 4
         },
         {
-          "clue": "Consider a situation where people choose their next leader, what's it called?",
-          "type": "Indirect",
-          "points": 7
-        }
-      ]
-    },
-    {
-      "word": "republic",
-      "difficulty": "Intermediate",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "A system of government where power is held by the people",
-          "type": "Straight",
-          "points": 2
-        },
-        {
-          "clue": "It's a form of government where citizens have the right to participate",
-          "type": "Suggestive",
-          "points": 4
-        },
-        {
-          "clue": "Imagine a nation where the people have a say in how they're governed",
+          "clue": "The root of all evil, or so they say",
           "type": "Indirect",
           "points": 6
         }
       ]
     },
     {
-      "word": "liberty",
+      "word": "example",
       "difficulty": "Intermediate",
       "related_words": [],
       "clues": [
         {
-          "clue": "The state of being free from oppression or constraint",
+          "clue": "Something that illustrates or explains",
           "type": "Straight",
           "points": 2
         },
         {
-          "clue": "It's a fundamental human right, essential for a healthy society",
+          "clue": "A case in point that demonstrates a principle",
           "type": "Suggestive",
-          "points": 4
+          "points": 3
         },
         {
-          "clue": "Think of a concept that's closely tied to freedom and autonomy",
+          "clue": "Like a thread that weaves through a complex tapestry",
+          "type": "Indirect",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "word": "expensive",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Costing a lot of money",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "Something that might make you think twice before buying",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Like a luxury that only a few can afford",
           "type": "Indirect",
           "points": 6
         }
       ]
     },
     {
-      "word": "coalition",
+      "word": "exceptional",
       "difficulty": "Hard",
       "related_words": [],
       "clues": [
         {
-          "clue": "A group of people or organizations working together",
+          "clue": "Unusually good or of very high quality",
           "type": "Straight",
           "points": 2
         },
         {
-          "clue": "It's a temporary alliance formed to achieve a common goal",
+          "clue": "Something that stands out from the rest",
           "type": "Suggestive",
           "points": 4
         },
         {
-          "clue": "Consider a situation where different groups unite for a shared purpose",
+          "clue": "Like a masterpiece that surpasses all others",
           "type": "Indirect",
           "points": 7
         }
       ]
     },
     {
-      "word": "confederation",
+      "word": "promiscuous",
       "difficulty": "Hard",
       "related_words": [],
       "clues": [
         {
-          "clue": "A loose association of groups or states",
+          "clue": "Having or characterized by many casual relationships",
           "type": "Straight",
           "points": 2
         },
         {
-          "clue": "It's a union of organizations or nations with a common interest",
+          "clue": "Lacking in discretion or restraint",
           "type": "Suggestive",
           "points": 4
         },
         {
-          "clue": "Imagine a loose alliance of groups working together for a common cause",
-          "type": "Indirect",
-          "points": 7
-        }
-      ]
-    },
-    {
-      "word": "parliament",
-      "difficulty": "Intermediate",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "A legislative body of a country or state",
-          "type": "Straight",
-          "points": 2
-        },
-        {
-          "clue": "It's a gathering of representatives who make laws for a nation",
-          "type": "Suggestive",
-          "points": 4
-        },
-        {
-          "clue": "Think of a group of elected officials who create and pass laws",
+          "clue": "Like a flower that blooms for anyone who passes by",
           "type": "Indirect",
           "points": 6
         }
       ]
     },
     {
-      "word": "presidential",
-      "difficulty": "Hard",
+      "word": "extravagant",
+      "difficulty": "Intermediate",
       "related_words": [],
       "clues": [
         {
-          "clue": "Relating to a president or the office of president",
+          "clue": "Excessively elaborate or luxurious",
           "type": "Straight",
           "points": 2
         },
         {
-          "clue": "It's a term used to describe the leader of a country or organization",
+          "clue": "Something that goes beyond what is necessary or reasonable",
           "type": "Suggestive",
-          "points": 4
+          "points": 3
         },
         {
-          "clue": "Consider a title given to the head of state in some countries",
+          "clue": "Like a firework that lights up the night sky",
           "type": "Indirect",
-          "points": 7
+          "points": 5
         }
       ]
     },
     {
-      "word": "renewal",
-      "difficulty": "Hard",
-      "related_words": [],
+      "word": "purchases",
+      "difficulty": "Easy",
+      "related_words": [
+        "money",
+        "wallet"
+      ],
       "clues": [
         {
-          "clue": "The act of making something new or restoring it",
+          "clue": "The act of buying something",
           "type": "Straight",
-          "points": 2
+          "points": 1
         },
         {
-          "clue": "It's a process of revitalizing or rejuvenating something",
+          "clue": "Something you might regret later if not thought through",
           "type": "Suggestive",
-          "points": 4
+          "points": 3
         },
         {
-          "clue": "Imagine a transformation that brings new life to something",
+          "clue": "Like a footprint in the sand, a record of a decision made",
           "type": "Indirect",
-          "points": 7
+          "points": 5
         }
       ]
     }
   ],
-  "id": "ClueChain-2026-05-01"
+  "id": "ClueChain-2026-04-18"
 }

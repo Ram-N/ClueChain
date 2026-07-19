@@ -31,7 +31,7 @@ SCRIPT_DIR = Path(__file__).parent
 PROJECT_ROOT = SCRIPT_DIR.parent
 DATA_DIR = PROJECT_ROOT / "assets" / "data"
 STAGING_DIR = DATA_DIR / "staging"
-ARCHIVE_DIR = DATA_DIR / "archive"
+ARCHIVE_DIR = DATA_DIR / "replaced-puzzles"
 MMDD_DIR = DATA_DIR / "puzzles" / "daily" / "mmdd"
 SCORES_FILE = SCRIPT_DIR / "output" / "paragraph_scores.json"
 SLOT_SCORES_CSV = SCRIPT_DIR / "output" / "mmdd_slot_scores.csv"
@@ -124,7 +124,7 @@ def score_staged_file(filepath):
 
 
 def archive_file(src_path, archive_name):
-    """Move a file to the archive directory."""
+    """Move a file to the replaced-puzzles directory."""
     ARCHIVE_DIR.mkdir(parents=True, exist_ok=True)
     dst = ARCHIVE_DIR / archive_name
     # Avoid overwriting existing archives
@@ -256,12 +256,12 @@ def main():
             old_slug = slugify(slot["title"])[:30]
             archive_name = f"{mmdd}_{old_slug}.json"
             archived_as = archive_file(mmdd_path, archive_name)
-            print(f"  Archived mmdd: {mmdd}.json -> archive/{archived_as}")
+            print(f"  Archived mmdd: {mmdd}.json -> replaced-puzzles/{archived_as}")
 
         # 6b. Archive old root file (if it exists)
         if score_key and (DATA_DIR / score_key).exists():
             archived_as = archive_file(DATA_DIR / score_key, score_key)
-            print(f"  Archived root: {score_key} -> archive/{archived_as}")
+            print(f"  Archived root: {score_key} -> replaced-puzzles/{archived_as}")
 
         # 6c. Load staged JSON, update date, write to mmdd
         puzzle_data = load_json(staged_path)

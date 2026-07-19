@@ -1,19 +1,19 @@
 # ClueChain Paragraph Quality Rankings
 
-Generated: 2026-06-23 19:18
-Total paragraphs: 366
-Fully scored (rule + LLM): 366
+Generated: 2026-07-19 09:38
+Total paragraphs: 371
+Fully scored (rule + LLM): 371
 Partially scored (rule only): 0
 
 ## Summary
 
 | Rating | Count | Score Range (0-100) |
 |--------|-------|---------------------|
-| Good | 260 | >= 75 |
-| Okay | 106 | 50 - 74 |
+| Good | 273 | >= 75 |
+| Okay | 98 | 50 - 74 |
 | Poor | 0 | < 50 |
 
-## Top Tier (260 paragraphs)
+## Top Tier (273 paragraphs)
 
 | # | Total | Rating | Type | Title | File |
 |---|-------|--------|------|-------|------|
@@ -60,225 +60,238 @@ Partially scored (rule only): 0
 | 41 | 84/100 | good | full | Northern Lights, Manitoba | 0318.json |
 | 42 | 84/100 | good | full | Unreal City | 1118.json |
 | 43 | 84/100 | good | full | Humans think — AI, not so much | 0911.json |
-| 44 | 83/100 | good | full | Common knowledge | 0502.json |
-| 45 | 83/100 | good | full | The Law of Compensation by Ralph Waldo E | 0709.json |
-| 46 | 83/100 | good | full | Human activity helped make 2025 third-ho | 0806.json |
-| 47 | 83/100 | good | full | Nestle's Half-Billion Dollar Noodle Deba | 0816.json |
-| 48 | 83/100 | good | full | I rescued a panini press | 1020.json |
-| 49 | 83/100 | good | full | A barber you’d trust with your life | 0809.json |
-| 50 | 83/100 | good | full | Abraham Lincoln, master inventor | 0113.json |
-| 51 | 83/100 | good | full | AI Is Unlocking the Human Brain’s Secret | 0212.json |
-| 52 | 83/100 | good | full | Todd Sampson — Early life and education | 0509.json |
-| 53 | 83/100 | good | full | A professor who belongs | 0814.json |
-| 54 | 83/100 | good | full | The Law of Compensation by Ralph Waldo E | 0909.json |
-| 55 | 83/100 | good | full | A writers guide to just getting on with  | 0922.json |
-| 56 | 83/100 | good | full | The mist, mystery, and mountains of Sikk | 1115.json |
-| 57 | 83/100 | good | full | Otis' invention | 0413.json |
-| 58 | 83/100 | good | full | The Myth of the Lone Inventor | 1214.json |
-| 59 | 83/100 | good | full | A Tale of Two Cities | 0928.json |
-| 60 | 83/100 | good | full | slackening angular speed | 0408.json |
-| 61 | 83/100 | good | full | A Lab Accident Changed my Approach | 0817.json |
-| 62 | 83/100 | good | full | Fancy a Kulfi? From Granita to Queso Hel | 0216.json |
-| 63 | 83/100 | good | full | JD Vance — Zelenskyy White House visit | 0401.json |
+| 44 | 84/100 | good | full | An experiment for students to grasp by l | 0531.json |
+| 45 | 83/100 | good | full | Common knowledge | 0502.json |
+| 46 | 83/100 | good | full | The Law of Compensation by Ralph Waldo E | 0709.json |
+| 47 | 83/100 | good | full | Human activity helped make 2025 third-ho | 0806.json |
+| 48 | 83/100 | good | full | Nestle's Half-Billion Dollar Noodle Deba | 0816.json |
+| 49 | 83/100 | good | full | I rescued a panini press | 1020.json |
+| 50 | 83/100 | good | full | A barber you’d trust with your life | 0809.json |
+| 51 | 83/100 | good | full | Abraham Lincoln, master inventor | 0113.json |
+| 52 | 83/100 | good | full | AI Is Unlocking the Human Brain’s Secret | 0212.json |
+| 53 | 83/100 | good | full | Todd Sampson — Early life and education | 0509.json |
+| 54 | 83/100 | good | full | A professor who belongs | 0814.json |
+| 55 | 83/100 | good | full | The Law of Compensation by Ralph Waldo E | 0909.json |
+| 56 | 83/100 | good | full | A writers guide to just getting on with  | 0922.json |
+| 57 | 83/100 | good | full | The mist, mystery, and mountains of Sikk | 1115.json |
+| 58 | 83/100 | good | full | Otis' invention | 0413.json |
+| 59 | 83/100 | good | full | The Myth of the Lone Inventor | 1214.json |
+| 60 | 83/100 | good | full | A Tale of Two Cities | 0928.json |
+| 61 | 83/100 | good | full | slackening angular speed | 0408.json |
+| 62 | 83/100 | good | full | A Lab Accident Changed my Approach | 0817.json |
+| 63 | 83/100 | good | full | Fancy a Kulfi? From Granita to Queso Hel | 0216.json |
 | 64 | 83/100 | good | full | Miracle — Judaism | 0730.json |
 | 65 | 83/100 | good | full | Retrieval-augmented generation — Challen | 0902.json |
 | 66 | 83/100 | good | full | An Indian City Bursting With Action | 1015.json |
 | 67 | 83/100 | good | full | Lincoln's Idea | 0313.json |
 | 68 | 83/100 | good | full | What happens to the human body in 49C he | 1207.json |
-| 69 | 83/100 | good | full | The Future of Wearables | 0320.json |
-| 70 | 83/100 | good | full | China in Ten Words | 0923.json |
-| 71 | 83/100 | good | full | The Noma Way | 1016.json |
-| 72 | 83/100 | good | full | Neglecting to Read | 1022.json |
-| 73 | 83/100 | good | full | Bigger and Healthier Brains | 1211.json |
-| 74 | 83/100 | good | full | Lush Life Lahore | 0516.json |
-| 75 | 83/100 | good | full | Anomia (game) — Design | 1229.json |
-| 76 | 83/100 | good | full | Clive Myrie’s African Adventure | 0310.json |
-| 77 | 83/100 | good | full | Politico has figured out | 0121.json |
-| 78 | 83/100 | good | full | Democrats activate weeklong voter drive  | 0706.json |
-| 79 | 83/100 | good | full | Petrarch — Later years | 1027.json |
-| 80 | 83/100 | good | full | The "huntress" faces a gross backlash | 0221.json |
-| 81 | 83/100 | good | full | Mustard, the Color of Millennial Candida | 0718.json |
-| 82 | 82/100 | good | full | England’s zombies have rapidly descended | 0606.json |
-| 83 | 82/100 | good | full | Urban renewal — United States | 1001.json |
-| 84 | 82/100 | good | full | Nikola Tesla Goes Viral | 1013.json |
-| 85 | 82/100 | good | full | What’s it like to be a baby? | 0612.json |
-| 86 | 82/100 | good | full | Hebbian Theory | 1212.json |
-| 87 | 82/100 | good | full | Destiny's Child — 1990–1997: Early begin | 0228.json |
-| 88 | 82/100 | good | full | Jazz — Machito and Mario Bauza | 0625.json |
-| 89 | 82/100 | good | full | Miracle on Ice — Silver medal | 0630.json |
-| 90 | 82/100 | good | full | Robot — Swarm robots | 1126.json |
-| 91 | 82/100 | good | full | What my dog taught me | 0812.json |
-| 92 | 82/100 | good | full | Robot — Mesopotamia | 0726.json |
-| 93 | 82/100 | good | full | Finding humor in photography | 0107.json |
-| 94 | 82/100 | good | full | Liverpool out of tune but Arne Slot work | 0507.json |
-| 95 | 82/100 | good | full | 5 things you can negotiate to save money | 0319.json |
-| 96 | 82/100 | good | full | Jazz — Blended African and European musi | 0525.json |
-| 97 | 82/100 | good | full | Urban renewal — South Africa | 0701.json |
-| 98 | 82/100 | good | full | Human Brains and Evolution | 0511.json |
-| 99 | 82/100 | good | full | The average human brain size is growing | 1111.json |
-| 100 | 82/100 | good | full | The cheapest concession you can make | 0219.json |
-| 101 | 82/100 | good | full | A Window To The World | 0622.json |
-| 102 | 82/100 | good | full | Natural Justice | 1218.json |
-| 103 | 82/100 | good | full | Writing and the Creative Life | 1222.json |
-| 104 | 82/100 | good | full | The Burning Desire for Hot Chicken | 0416.json |
-| 105 | 82/100 | good | full | Iran Wants to Talk | 0919.json |
-| 106 | 82/100 | good | full | The Former Prince Andrew Never Should Ha | 0921.json |
-| 107 | 82/100 | good | full | Across and down with a word wrangler | 1121.json |
-| 108 | 82/100 | good | full | US banks announce UK expansion projects  | 0206.json |
-| 109 | 82/100 | good | full | Miracle on Ice — Third period | 0330.json |
-| 110 | 82/100 | good | full | Juvenile Impulse | 1018.json |
-| 111 | 82/100 | good | full | Trump administration freezes $2.1bn in f | 1206.json |
-| 112 | 82/100 | good | full | Rhythm and blues — Afro-Cuban rhythmic i | 0208.json |
-| 113 | 82/100 | good | full | How to Treat Alzheimer's | 0112.json |
-| 114 | 82/100 | good | full | Lincoln unclogs traffic jam | 0213.json |
-| 115 | 82/100 | good | full | Rhythm and blues — Afro-Cuban rhythmic i | 0514.json |
-| 116 | 82/100 | good | full | Harriet the Spy | 0321.json |
-| 117 | 82/100 | good | full | The Success of Ordinary Indians | 0215.json |
-| 118 | 82/100 | good | full | Inside the Mind of an Ecoterrorist | 0720.json |
-| 119 | 82/100 | good | full | Canals | 0608.json |
-| 120 | 82/100 | good | full | An irrational sports allegiance | 0808.json |
-| 121 | 82/100 | good | full | Brain has five ‘eras’, scientists say –  | 0506.json |
-| 122 | 82/100 | good | full | Pizzagate conspiracy theory — Public opi | 0704.json |
-| 123 | 82/100 | good | full | Petrarch — Mount Ventoux | 0727.json |
-| 124 | 82/100 | good | full | A modern mathematical method for calcula | 1017.json |
-| 125 | 82/100 | good | full | Destiny 2 — Fate Saga (2025–present) | 1028.json |
-| 126 | 82/100 | good | full | What the Germans Left Behind | 1223.json |
-| 127 | 82/100 | good | full | Moby Dick (1851) | 1230.json |
-| 128 | 82/100 | good | full | Moby Dick (1851) | 0304.json |
-| 129 | 82/100 | good | full | The Firework-Maker’s Daughter | 0510.json |
-| 130 | 82/100 | good | full | Television documentary — Pre-1900 | 1009.json |
-| 131 | 82/100 | good | full | fMRI on infants | 0827.json |
-| 132 | 82/100 | good | full | Circadian rhythm — In Drosophila | 0628.json |
-| 133 | 81/100 | good | full | Donald Trump is waging war against human | 0406.json |
-| 134 | 81/100 | good | full | The Real Difference Between Warm and Coo | 0418.json |
-| 135 | 81/100 | good | full | Privacy | 0520.json |
-| 136 | 81/100 | good | full | The Glass Jar by Sylvia Plath (1963) | 0114.json |
-| 137 | 81/100 | good | full | The Otis Difference | 0613.json |
-| 138 | 81/100 | good | full | Temples Where Gods Come to Life | 0315.json |
-| 139 | 81/100 | good | full | Conspiracy theories — New England Patrio | 0505.json |
-| 140 | 81/100 | good | full | Pizzagate conspiracy theory — Turkish pr | 1004.json |
-| 141 | 81/100 | good | full | Ursula K. Le Guin on myths | 0123.json |
-| 142 | 81/100 | good | full | How I learned to haggle | 0419.json |
-| 143 | 81/100 | good | full | On Sardinia, the Magic of Heading Inland | 0723.json |
-| 144 | 81/100 | good | full | This War of Mine: The Board Game — Since | 0729.json |
-| 145 | 81/100 | good | full | Rhythm and blues — Afro-Cuban rhythmic i | 0731.json |
-| 146 | 81/100 | good | full | Retrieval-augmented generation — Languag | 0802.json |
-| 147 | 81/100 | good | full | Rhythm — Metric structure | 0831.json |
-| 148 | 81/100 | good | full | Written in the wind | 1215.json |
-| 149 | 81/100 | good | full | Protect your hearing | 1220.json |
-| 150 | 81/100 | good | full | Thanks, Nikola | 0913.json |
-| 151 | 81/100 | good | full | Jazz — Syncopation | 0925.json |
-| 152 | 81/100 | good | full | Redesigning the Way We Work | 0218.json |
-| 153 | 81/100 | good | full | Hotel (board game) — Reception | 0329.json |
-| 154 | 81/100 | good | full | General knowledge — Personality | 0605.json |
-| 155 | 81/100 | good | full | The Rage of the Almost-Elite | 0621.json |
-| 156 | 81/100 | good | full | Miracle on Ice — Second period | 0830.json |
-| 157 | 81/100 | good | full | Documentary film — Romanticism | 0109.json |
-| 158 | 81/100 | good | full | Harm from Pollution | 1112.json |
-| 159 | 81/100 | good | full | ‘We’re no longer attracting top talent’: | 0306.json |
-| 160 | 81/100 | good | full | A Maharaja Bows to the Present | 0515.json |
-| 161 | 81/100 | good | full | Urban renewal — Loss or change of charac | 1201.json |
-| 162 | 81/100 | good | full | A Wrinkle in Time by Madeleine L'Engle ( | 0207.json |
-| 163 | 81/100 | good | full | A Wrinkle in Time by Madeleine L'Engle ( | 0214.json |
-| 164 | 81/100 | good | full | Sunny Nights | 0610.json |
-| 165 | 81/100 | good | full | Robotics — Locomotion | 0426.json |
-| 166 | 81/100 | good | full | Why ambitious people have (unrelated) ho | 0821.json |
-| 167 | 81/100 | good | full | It is not a star | 0108.json |
-| 168 | 81/100 | good | full | Sketch review – googly-eyed fuzzballs co | 0405.json |
-| 169 | 81/100 | good | full | Sunday mornings coming down | 1021.json |
-| 170 | 81/100 | good | full | Trump officials halt offshore wind-farm  | 1106.json |
-| 171 | 81/100 | good | full | Fear and Loathing in Las Vegas by Hunter | 0409.json |
-| 172 | 81/100 | good | full | Fear and Loathing in Las Vegas by Hunter | 1008.json |
-| 173 | 81/100 | good | full | Who invented the Internet? | 1113.json |
-| 174 | 81/100 | good | full | Finding Harmony: A King’s Vision review  | 1203.json |
-| 175 | 81/100 | good | full | Robot — Etymology | 0126.json |
-| 176 | 81/100 | good | full | Anna Karenina by Leo Tolstoy (1878) | 0713.json |
-| 177 | 81/100 | good | full | Does pollution poison the mind? | 0111.json |
-| 178 | 81/100 | good | full | Losing grip on games is worry for Guardi | 0307.json |
-| 179 | 81/100 | good | full | relative distances of the planets | 0308.json |
-| 180 | 81/100 | good | full | A Variable Star | 0508.json |
-| 181 | 80/100 | good | full | Science fiction noir | 0203.json |
-| 182 | 80/100 | good | full | The Diplomatic Path to a Secure Ukraine | 0619.json |
-| 183 | 80/100 | good | full | Renewal theory — Interpretation | 0901.json |
-| 184 | 80/100 | good | full | Scanning Brain Thoughts | 0312.json |
-| 185 | 80/100 | good | full | Destiny (streamer) — Political violence | 0328.json |
-| 186 | 80/100 | good | full | Neo-noir — History | 0403.json |
-| 187 | 80/100 | good | full | This War of Mine: The Board Game — Overv | 0629.json |
-| 188 | 80/100 | good | full | On the ‘cut-and-paste’ Mentality by Susa | 0707.json |
-| 189 | 80/100 | good | full | I Capture the Castle by Dodie Smith (194 | 0710.json |
-| 190 | 80/100 | good | full | Knowledge base | 1202.json |
-| 191 | 80/100 | good | full | The Glass Jar by Sylvia Plath (1963) | 0626.json |
-| 192 | 80/100 | good | full | Cold Storage review – mutant-mildew plag | 0110.json |
-| 193 | 80/100 | good | full | What makes humans intelligent? | 0211.json |
-| 194 | 80/100 | good | full | Environmental groups sue Trump's EPA ove | 1007.json |
-| 195 | 80/100 | good | full | Geographic information system — Terrain  | 0402.json |
-| 196 | 80/100 | good | full | Common knowledge — Examples | 1002.json |
-| 197 | 80/100 | good | full | Their Eyes Were Watching God by Zora Nea | 0314.json |
-| 198 | 80/100 | good | full | List of conspiracy theories — New Englan | 0104.json |
-| 199 | 80/100 | good | full | The Bizarre Relationship | 0421.json |
-| 200 | 80/100 | good | full | List of conspiracy theories — Black heli | 0604.json |
-| 201 | 80/100 | good | full | Catching up with Geoff Dyer | 0820.json |
-| 202 | 80/100 | good | full | Knowledge economy | 1102.json |
-| 203 | 80/100 | good | full | The Noma Way Part2 | 1116.json |
-| 204 | 80/100 | good | full | Geographic Analysis | 0317.json |
-| 205 | 80/100 | good | full | One Hundred Years of Solitude by Gabriel | 0711.json |
-| 206 | 80/100 | good | full | One Hundred Years of Solitude by Gabriel | 1010.json |
-| 207 | 80/100 | good | full | A Passive Exerciser | 1213.json |
-| 208 | 80/100 | good | full | Robotic surgery — Use in popular media | 0226.json |
-| 209 | 80/100 | good | full | JD Vance — Munich Security Conference | 1101.json |
-| 210 | 80/100 | good | full | ClueChain Challenge | 0611.json |
-| 211 | 80/100 | good | full | "This Is Just To Say" by William Carlos  | 0209.json |
-| 212 | 80/100 | good | full | "This Is Just To Say" by William Carlos  | 0115.json |
-| 213 | 80/100 | good | full | Myth - The brain is region specific | 0411.json |
-| 214 | 80/100 | good | full | Anna Karenina by Leo Tolstoy (1878) | 1014.json |
-| 215 | 80/100 | good | full | Destiny — Politics | 0528.json |
-| 216 | 79/100 | good | full | History of India — Trade and travels to  | 0224.json |
-| 217 | 79/100 | good | full | Robot — Home automation for the elderly  | 1226.json |
-| 218 | 79/100 | good | full | Verdigris: The Color of Oxidation, Statu | 0818.json |
-| 219 | 79/100 | good | full | The (cheap) tools that will transform yo | 0220.json |
-| 220 | 79/100 | good | full | Marvel Noir — X-Men Noir: Mark of Cain | 1103.json |
-| 221 | 79/100 | good | full | Their Eyes Were Watching God by Zora Nea | 0309.json |
-| 222 | 79/100 | good | full | Sharing some truth (How to Write One Son | 0910.json |
-| 223 | 79/100 | good | full | Wealth of Memory | 0620.json |
-| 224 | 79/100 | good | full | Slaughterhouse Five (Kurt Vonnegut) 1969 | 0714.json |
-| 225 | 79/100 | good | full | Judah Halevi — Riddles | 1127.json |
-| 226 | 79/100 | good | full | Slaughterhouse Five (Kurt Vonnegut) 1969 | 1210.json |
-| 227 | 79/100 | good | full | Here Are Ghosts | 0623.json |
-| 228 | 79/100 | good | full | Women Know When Negotiating Isn't Worth  | 1019.json |
-| 229 | 79/100 | good | full | How a Negotiation Expert Would Bargain W | 1119.json |
-| 230 | 79/100 | good | full | General knowledge — Game shows and quizz | 0602.json |
-| 231 | 79/100 | good | full | Manifest destiny — Spanish–American War | 1128.json |
-| 232 | 79/100 | good | full | History of India — Maurya Empire | 0524.json |
-| 233 | 79/100 | good | full | Metamorphosis by Franz Kafka (1915) | 0715.json |
-| 234 | 79/100 | good | full | Who invented the iPad? | 1114.json |
-| 235 | 78/100 | good | full | Invisible Man by Ralph Ellison (1952) | 0101.json |
-| 236 | 78/100 | good | full | Being born in the wrong ZIP code can sho | 0530.json |
-| 237 | 78/100 | good | full | Writers who don’t read | 0222.json |
-| 238 | 78/100 | good | full | Paradise by Toni Morrison (1997) | 0712.json |
-| 239 | 78/100 | good | full | Sharing some truth (How to Write One Son | 0407.json |
-| 240 | 78/100 | good | full | Rhythm — Rhythm–tempo interaction | 0914.json |
-| 241 | 78/100 | good | full | —Nineteen Eighty-Four by George Orwell ( | 0716.json |
-| 242 | 78/100 | good | full | What makes Hill Country so prone to floo | 0917.json |
-| 243 | 78/100 | good | full | Rhythm and blues — Afro-Cuban rhythmic i | 0607.json |
-| 244 | 78/100 | good | full | Being born in the wrong ZIP code can sho | 0428.json |
-| 245 | 77/100 | good | full | British Fighter Jet Takes Unexpected Det | 0415.json |
-| 246 | 77/100 | good | full | Paradise by Toni Morrison (1997) | 1110.json |
-| 247 | 77/100 | good | full | List of conspiracy theories — Flat Earth | 0205.json |
-| 248 | 77/100 | good | full | Skip single-use gadgets | 0120.json |
-| 249 | 76/100 | good | full | Jazz — African rhythmic retention | 1125.json |
-| 250 | 76/100 | good | full | French Food: The Iconic Dishes | 1216.json |
-| 251 | 76/100 | good | full | Circadian rhythm — In Drosophila | 0904.json |
-| 252 | 76/100 | good | full | History of Geography | 0117.json |
-| 253 | 76/100 | good | full | Why negotiating gives you anxiety | 0119.json |
-| 254 | 76/100 | good | full | I’ve studied conflict resolution | 0719.json |
-| 255 | 76/100 | good | full | In defense of persimmons | 0223.json |
-| 256 | 76/100 | good | full | Negotiation | 0819.json |
-| 257 | 76/100 | good | full | Is Apple maps getting ready to tackle pu | 1217.json |
-| 258 | 76/100 | good | full | New Hope (Poland) — Ideology and positio | 0201.json |
-| 259 | 75/100 | good | full | Spider-Noir — Marketing | 1003.json |
-| 260 | 75/100 | good | full | Naïve witchcraft beliefs in Acadian | 0823.json |
+| 69 | 83/100 | good | full | Land by Maggie O’Farrell | 0204.json |
+| 70 | 83/100 | good | full | JD Vance — Zelenskyy White House visit | 0401.json |
+| 71 | 83/100 | good | full | The Future of Wearables | 0320.json |
+| 72 | 83/100 | good | full | Frank Sinatra Has a Cold | 0503.json |
+| 73 | 83/100 | good | full | China in Ten Words | 0923.json |
+| 74 | 83/100 | good | full | The Noma Way | 1016.json |
+| 75 | 83/100 | good | full | Neglecting to Read | 1022.json |
+| 76 | 83/100 | good | full | Bigger and Healthier Brains | 1211.json |
+| 77 | 83/100 | good | full | Frank Sinatra Has a Cold | 02-18_Frank_Sinatra_Has_a_Cold.json |
+| 78 | 83/100 | good | full | Lush Life Lahore | 0516.json |
+| 79 | 83/100 | good | full | Anomia (game) — Design | 1229.json |
+| 80 | 83/100 | good | full | Clive Myrie’s African Adventure | 0310.json |
+| 81 | 83/100 | good | full | Politico has figured out | 0121.json |
+| 82 | 83/100 | good | full | Democrats activate weeklong voter drive  | 0706.json |
+| 83 | 83/100 | good | full | Petrarch — Later years | 1027.json |
+| 84 | 83/100 | good | full | The "huntress" faces a gross backlash | 0221.json |
+| 85 | 83/100 | good | full | Mustard, the Color of Millennial Candida | 0718.json |
+| 86 | 82/100 | good | full | England’s zombies have rapidly descended | 0606.json |
+| 87 | 82/100 | good | full | Urban renewal — United States | 1001.json |
+| 88 | 82/100 | good | full | Nikola Tesla Goes Viral | 1013.json |
+| 89 | 82/100 | good | full | What’s it like to be a baby? | 0612.json |
+| 90 | 82/100 | good | full | Hebbian Theory | 1212.json |
+| 91 | 82/100 | good | full | Destiny's Child — 1990–1997: Early begin | 0228.json |
+| 92 | 82/100 | good | full | Jazz — Machito and Mario Bauza | 0625.json |
+| 93 | 82/100 | good | full | Miracle on Ice — Silver medal | 0630.json |
+| 94 | 82/100 | good | full | Robot — Swarm robots | 1126.json |
+| 95 | 82/100 | good | full | What my dog taught me | 0812.json |
+| 96 | 82/100 | good | full | Robot — Mesopotamia | 0726.json |
+| 97 | 82/100 | good | full | Finding humor in photography | 0107.json |
+| 98 | 82/100 | good | full | Liverpool out of tune but Arne Slot work | 0507.json |
+| 99 | 82/100 | good | full | 5 things you can negotiate to save money | 0319.json |
+| 100 | 82/100 | good | full | Jazz — Blended African and European musi | 0525.json |
+| 101 | 82/100 | good | full | Urban renewal — South Africa | 0701.json |
+| 102 | 82/100 | good | full | Human Brains and Evolution | 0511.json |
+| 103 | 82/100 | good | full | The average human brain size is growing | 1111.json |
+| 104 | 82/100 | good | full | The cheapest concession you can make | 0219.json |
+| 105 | 82/100 | good | full | A Window To The World | 0622.json |
+| 106 | 82/100 | good | full | Natural Justice | 1218.json |
+| 107 | 82/100 | good | full | Writing and the Creative Life | 1222.json |
+| 108 | 82/100 | good | full | Your Lifestyle Has Already Been Designed | 0404.json |
+| 109 | 82/100 | good | full | The Burning Desire for Hot Chicken | 0416.json |
+| 110 | 82/100 | good | full | Iran Wants to Talk | 0919.json |
+| 111 | 82/100 | good | full | The Former Prince Andrew Never Should Ha | 0921.json |
+| 112 | 82/100 | good | full | Across and down with a word wrangler | 1121.json |
+| 113 | 82/100 | good | full | Your Lifestyle Has Already Been Designed | 05-18_Your_Lifestyle_Has_Already_Been_Designed.json |
+| 114 | 82/100 | good | full | US banks announce UK expansion projects  | 0206.json |
+| 115 | 82/100 | good | full | Miracle on Ice — Third period | 0330.json |
+| 116 | 82/100 | good | full | Juvenile Impulse | 1018.json |
+| 117 | 82/100 | good | full | Trump administration freezes $2.1bn in f | 1206.json |
+| 118 | 82/100 | good | full | Rhythm and blues — Afro-Cuban rhythmic i | 0208.json |
+| 119 | 82/100 | good | full | How to Treat Alzheimer's | 0112.json |
+| 120 | 82/100 | good | full | Lincoln unclogs traffic jam | 0213.json |
+| 121 | 82/100 | good | full | Rhythm and blues — Afro-Cuban rhythmic i | 0514.json |
+| 122 | 82/100 | good | full | Harriet the Spy | 0321.json |
+| 123 | 82/100 | good | full | The Success of Ordinary Indians | 0215.json |
+| 124 | 82/100 | good | full | Inside the Mind of an Ecoterrorist | 0720.json |
+| 125 | 82/100 | good | full | Canals | 0608.json |
+| 126 | 82/100 | good | full | An irrational sports allegiance | 0808.json |
+| 127 | 82/100 | good | full | Brain has five ‘eras’, scientists say –  | 0506.json |
+| 128 | 82/100 | good | full | Pizzagate conspiracy theory — Public opi | 0704.json |
+| 129 | 82/100 | good | full | Petrarch — Mount Ventoux | 0727.json |
+| 130 | 82/100 | good | full | A modern mathematical method for calcula | 1017.json |
+| 131 | 82/100 | good | full | Destiny 2 — Fate Saga (2025–present) | 1028.json |
+| 132 | 82/100 | good | full | What the Germans Left Behind | 1223.json |
+| 133 | 82/100 | good | full | Moby Dick (1851) | 1230.json |
+| 134 | 82/100 | good | full | Moby Dick (1851) | 0304.json |
+| 135 | 82/100 | good | full | The Firework-Maker’s Daughter | 0510.json |
+| 136 | 82/100 | good | full | Television documentary — Pre-1900 | 1009.json |
+| 137 | 82/100 | good | full | fMRI on infants | 0827.json |
+| 138 | 82/100 | good | full | Circadian rhythm — In Drosophila | 0628.json |
+| 139 | 81/100 | good | full | Donald Trump is waging war against human | 0406.json |
+| 140 | 81/100 | good | full | The Real Difference Between Warm and Coo | 0418.json |
+| 141 | 81/100 | good | full | Privacy | 0520.json |
+| 142 | 81/100 | good | full | The Glass Jar by Sylvia Plath (1963) | 0114.json |
+| 143 | 81/100 | good | full | The Otis Difference | 0613.json |
+| 144 | 81/100 | good | full | Temples Where Gods Come to Life | 0315.json |
+| 145 | 81/100 | good | full | Conspiracy theories — New England Patrio | 0505.json |
+| 146 | 81/100 | good | full | Pizzagate conspiracy theory — Turkish pr | 1004.json |
+| 147 | 81/100 | good | full | Chardon, Ohio School Shooting | 1225.json |
+| 148 | 81/100 | good | full | Chardon, Ohio School Shooting | 01-18_Chardon_Ohio_School_Shooting.json |
+| 149 | 81/100 | good | full | Ursula K. Le Guin on myths | 0123.json |
+| 150 | 81/100 | good | full | How I learned to haggle | 0419.json |
+| 151 | 81/100 | good | full | On Sardinia, the Magic of Heading Inland | 0723.json |
+| 152 | 81/100 | good | full | This War of Mine: The Board Game — Since | 0729.json |
+| 153 | 81/100 | good | full | Rhythm and blues — Afro-Cuban rhythmic i | 0731.json |
+| 154 | 81/100 | good | full | Retrieval-augmented generation — Languag | 0802.json |
+| 155 | 81/100 | good | full | Rhythm — Metric structure | 0831.json |
+| 156 | 81/100 | good | full | Written in the wind | 1215.json |
+| 157 | 81/100 | good | full | Protect your hearing | 1220.json |
+| 158 | 81/100 | good | full | Thanks, Nikola | 0913.json |
+| 159 | 81/100 | good | full | Jazz — Syncopation | 0925.json |
+| 160 | 81/100 | good | full | Redesigning the Way We Work | 0218.json |
+| 161 | 81/100 | good | full | Hotel (board game) — Reception | 0329.json |
+| 162 | 81/100 | good | full | General knowledge — Personality | 0605.json |
+| 163 | 81/100 | good | full | The Rage of the Almost-Elite | 0621.json |
+| 164 | 81/100 | good | full | Miracle on Ice — Second period | 0830.json |
+| 165 | 81/100 | good | full | Documentary film — Romanticism | 0109.json |
+| 166 | 81/100 | good | full | Harm from Pollution | 1112.json |
+| 167 | 81/100 | good | full | ‘We’re no longer attracting top talent’: | 0306.json |
+| 168 | 81/100 | good | full | A Maharaja Bows to the Present | 0515.json |
+| 169 | 81/100 | good | full | Urban renewal — Loss or change of charac | 1201.json |
+| 170 | 81/100 | good | full | A Wrinkle in Time by Madeleine L'Engle ( | 0207.json |
+| 171 | 81/100 | good | full | A Wrinkle in Time by Madeleine L'Engle ( | 0214.json |
+| 172 | 81/100 | good | full | Sunny Nights | 0610.json |
+| 173 | 81/100 | good | full | Robotics — Locomotion | 0426.json |
+| 174 | 81/100 | good | full | Why ambitious people have (unrelated) ho | 0821.json |
+| 175 | 81/100 | good | full | It is not a star | 0108.json |
+| 176 | 81/100 | good | full | Sketch review – googly-eyed fuzzballs co | 0405.json |
+| 177 | 81/100 | good | full | Sunday mornings coming down | 1021.json |
+| 178 | 81/100 | good | full | Trump officials halt offshore wind-farm  | 1106.json |
+| 179 | 81/100 | good | full | Fear and Loathing in Las Vegas by Hunter | 0409.json |
+| 180 | 81/100 | good | full | Fear and Loathing in Las Vegas by Hunter | 1008.json |
+| 181 | 81/100 | good | full | Who invented the Internet? | 1113.json |
+| 182 | 81/100 | good | full | Finding Harmony: A King’s Vision review  | 1203.json |
+| 183 | 81/100 | good | full | Robot — Etymology | 0126.json |
+| 184 | 81/100 | good | full | Anna Karenina by Leo Tolstoy (1878) | 0713.json |
+| 185 | 81/100 | good | full | Does pollution poison the mind? | 0111.json |
+| 186 | 81/100 | good | full | Losing grip on games is worry for Guardi | 0307.json |
+| 187 | 81/100 | good | full | relative distances of the planets | 0308.json |
+| 188 | 81/100 | good | full | A Variable Star | 0508.json |
+| 189 | 80/100 | good | full | Science fiction noir | 0203.json |
+| 190 | 80/100 | good | full | The Diplomatic Path to a Secure Ukraine | 0619.json |
+| 191 | 80/100 | good | full | Renewal theory — Interpretation | 0901.json |
+| 192 | 80/100 | good | full | Scanning Brain Thoughts | 0312.json |
+| 193 | 80/100 | good | full | Destiny (streamer) — Political violence | 0328.json |
+| 194 | 80/100 | good | full | Neo-noir — History | 0403.json |
+| 195 | 80/100 | good | full | This War of Mine: The Board Game — Overv | 0629.json |
+| 196 | 80/100 | good | full | On the ‘cut-and-paste’ Mentality by Susa | 0707.json |
+| 197 | 80/100 | good | full | I Capture the Castle by Dodie Smith (194 | 0710.json |
+| 198 | 80/100 | good | full | Knowledge base | 1202.json |
+| 199 | 80/100 | good | full | The Glass Jar by Sylvia Plath (1963) | 0626.json |
+| 200 | 80/100 | good | full | Cold Storage review – mutant-mildew plag | 0110.json |
+| 201 | 80/100 | good | full | What makes humans intelligent? | 0211.json |
+| 202 | 80/100 | good | full | Environmental groups sue Trump's EPA ove | 1007.json |
+| 203 | 80/100 | good | full | Geographic information system — Terrain  | 0402.json |
+| 204 | 80/100 | good | full | Common knowledge — Examples | 1002.json |
+| 205 | 80/100 | good | full | Their Eyes Were Watching God by Zora Nea | 0314.json |
+| 206 | 80/100 | good | full | List of conspiracy theories — New Englan | 0104.json |
+| 207 | 80/100 | good | full | The Bizarre Relationship | 0421.json |
+| 208 | 80/100 | good | full | List of conspiracy theories — Black heli | 0604.json |
+| 209 | 80/100 | good | full | Catching up with Geoff Dyer | 0820.json |
+| 210 | 80/100 | good | full | Knowledge economy | 1102.json |
+| 211 | 80/100 | good | full | The Noma Way Part2 | 1116.json |
+| 212 | 80/100 | good | full | Geographic Analysis | 0317.json |
+| 213 | 80/100 | good | full | One Hundred Years of Solitude by Gabriel | 0711.json |
+| 214 | 80/100 | good | full | One Hundred Years of Solitude by Gabriel | 1010.json |
+| 215 | 80/100 | good | full | A Passive Exerciser | 1213.json |
+| 216 | 80/100 | good | full | Robotic surgery — Use in popular media | 0226.json |
+| 217 | 80/100 | good | full | JD Vance — Munich Security Conference | 1101.json |
+| 218 | 80/100 | good | full | ClueChain Challenge | 0611.json |
+| 219 | 80/100 | good | full | "This Is Just To Say" by William Carlos  | 0209.json |
+| 220 | 80/100 | good | full | "This Is Just To Say" by William Carlos  | 0115.json |
+| 221 | 80/100 | good | full | Myth - The brain is region specific | 0411.json |
+| 222 | 80/100 | good | full | Anna Karenina by Leo Tolstoy (1878) | 1014.json |
+| 223 | 80/100 | good | full | Destiny — Politics | 0528.json |
+| 224 | 79/100 | good | full | History of India — Trade and travels to  | 0224.json |
+| 225 | 79/100 | good | full | Robot — Home automation for the elderly  | 1226.json |
+| 226 | 79/100 | good | full | Your Lifestyle Has Already Been Designed | 0501.json |
+| 227 | 79/100 | good | full | Verdigris: The Color of Oxidation, Statu | 0818.json |
+| 228 | 79/100 | good | full | Your Lifestyle Has Already Been Designed | 04-18_Your_Lifestyle_Has_Already_Been_Designed.json |
+| 229 | 79/100 | good | full | The (cheap) tools that will transform yo | 0220.json |
+| 230 | 79/100 | good | full | Marvel Noir — X-Men Noir: Mark of Cain | 1103.json |
+| 231 | 79/100 | good | full | Their Eyes Were Watching God by Zora Nea | 0309.json |
+| 232 | 79/100 | good | full | Sharing some truth (How to Write One Son | 0910.json |
+| 233 | 79/100 | good | full | Wealth of Memory | 0620.json |
+| 234 | 79/100 | good | full | Slaughterhouse Five (Kurt Vonnegut) 1969 | 0714.json |
+| 235 | 79/100 | good | full | Judah Halevi — Riddles | 1127.json |
+| 236 | 79/100 | good | full | Slaughterhouse Five (Kurt Vonnegut) 1969 | 1210.json |
+| 237 | 79/100 | good | full | Here Are Ghosts | 0623.json |
+| 238 | 79/100 | good | full | Women Know When Negotiating Isn't Worth  | 1019.json |
+| 239 | 79/100 | good | full | How a Negotiation Expert Would Bargain W | 1119.json |
+| 240 | 79/100 | good | full | General knowledge — Game shows and quizz | 0602.json |
+| 241 | 79/100 | good | full | Manifest destiny — Spanish–American War | 1128.json |
+| 242 | 79/100 | good | full | History of India — Maurya Empire | 0524.json |
+| 243 | 79/100 | good | full | Metamorphosis by Franz Kafka (1915) | 0715.json |
+| 244 | 79/100 | good | full | Who invented the iPad? | 1114.json |
+| 245 | 78/100 | good | full | Being born in the wrong ZIP code can sho | 0530.json |
+| 246 | 78/100 | good | full | Invisible Man by Ralph Ellison (1952) | 0101.json |
+| 247 | 78/100 | good | full | Writers who don’t read | 0222.json |
+| 248 | 78/100 | good | full | Paradise by Toni Morrison (1997) | 0712.json |
+| 249 | 78/100 | good | full | Sharing some truth (How to Write One Son | 0407.json |
+| 250 | 78/100 | good | full | Rhythm — Rhythm–tempo interaction | 0914.json |
+| 251 | 78/100 | good | full | —Nineteen Eighty-Four by George Orwell ( | 0716.json |
+| 252 | 78/100 | good | full | What makes Hill Country so prone to floo | 0917.json |
+| 253 | 78/100 | good | full | Rhythm and blues — Afro-Cuban rhythmic i | 0607.json |
+| 254 | 78/100 | good | full | Being born in the wrong ZIP code can sho | 0428.json |
+| 255 | 77/100 | good | full | British Fighter Jet Takes Unexpected Det | 0415.json |
+| 256 | 77/100 | good | full | Paradise by Toni Morrison (1997) | 1110.json |
+| 257 | 77/100 | good | full | List of conspiracy theories — Flat Earth | 0205.json |
+| 258 | 77/100 | good | full | Skip single-use gadgets | 0120.json |
+| 259 | 76/100 | good | full | Jazz — African rhythmic retention | 1125.json |
+| 260 | 76/100 | good | full | French Food: The Iconic Dishes | 1216.json |
+| 261 | 76/100 | good | full | Circadian rhythm — In Drosophila | 0904.json |
+| 262 | 76/100 | good | full | History of Geography | 0117.json |
+| 263 | 76/100 | good | full | Why negotiating gives you anxiety | 0119.json |
+| 264 | 76/100 | good | full | I’ve studied conflict resolution | 0719.json |
+| 265 | 76/100 | good | full | In defense of persimmons | 0223.json |
+| 266 | 76/100 | good | full | Frank Sinatra Has a Cold - 2 | 0325.json |
+| 267 | 76/100 | good | full | Negotiation | 0819.json |
+| 268 | 76/100 | good | full | Is Apple maps getting ready to tackle pu | 1217.json |
+| 269 | 76/100 | good | full | Frank Sinatra Has a Cold - 2 | 03-18_Frank_Sinatra_Has_a_Cold_-_2.json |
+| 270 | 76/100 | good | full | The Frenzy by Joyce Carol Oates | 0617.json |
+| 271 | 76/100 | good | full | New Hope (Poland) — Ideology and positio | 0201.json |
+| 272 | 75/100 | good | full | Spider-Noir — Marketing | 1003.json |
+| 273 | 75/100 | good | full | Naïve witchcraft beliefs in Acadian | 0823.json |
 
-## Middle Tier (106 paragraphs)
+## Middle Tier (98 paragraphs)
 
 | # | Total | Rating | Type | Title | File |
 |---|-------|--------|------|-------|------|
@@ -380,14 +393,6 @@ Partially scored (rule only): 0
 | 96 | 63/100 | okay | full | List of conspiracy theories — Death of N | 0305.json |
 | 97 | 63/100 | okay | full | List of conspiracy theories — John F. Ke | 1204.json |
 | 98 | 63/100 | okay | full | Jazz — Dixieland revival | 0125.json |
-| 99 | 61/100 | okay | full | Jazz — Latin jazz | 0325.json |
-| 100 | 61/100 | okay | full | New Hope (Poland) — Overview | 0501.json |
-| 101 | 61/100 | okay | full | Jazz — Swing in the 1920s and 1930s | 1225.json |
-| 102 | 60/100 | okay | full | List of conspiracy theories — Death of N | 0404.json |
-| 103 | 60/100 | okay | full | Terminal (film) — Development | 0503.json |
-| 104 | 60/100 | okay | full | Notes on Location and Place | 0617.json |
-| 105 | 58/100 | okay | full | Rhythm — Counter rhythm | 0531.json |
-| 106 | 51/100 | okay | full | List of conspiracy theories — Flat Earth | 0204.json |
 
 ## Bottom Tier (0 paragraphs)
 
