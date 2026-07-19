@@ -701,14 +701,20 @@ button:hover {
   color: #555;
 }
 
-.share-btn {
+.share-btns {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 14px;
+  flex-wrap: wrap;
+}
+
+.share-btn,
+.copy-btn {
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  margin-top: 14px;
   padding: 10px 20px;
-  background-color: #25d366;
-  color: #fff;
   border: none;
   border-radius: 6px;
   font-size: 0.95em;
@@ -717,8 +723,22 @@ button:hover {
   transition: background-color 0.2s;
 }
 
+.share-btn {
+  background-color: #25d366;
+  color: #fff;
+}
+
 .share-btn:hover {
   background-color: #1ebe5a;
+}
+
+.copy-btn {
+  background-color: #e0e0e0;
+  color: #333;
+}
+
+.copy-btn:hover {
+  background-color: #c8c8c8;
 }
 
 @keyframes slideDown {

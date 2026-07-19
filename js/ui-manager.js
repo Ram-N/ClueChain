@@ -1086,32 +1086,57 @@ export async function showGameOver(lastWordRevealed = false) {
   const puzzleUrl = window.location.origin + window.location.pathname
     + (mmdd ? `?date=${mmdd}` : '');
 
+  // Use Unicode escapes to avoid emoji encoding issues in JS source files
+  const CHAIN = '\u{1F517}'; // 🔗
+  const TARGET = '\u{1F3AF}'; // 🎯
+  const shareText = `Hey! Have you played today's ClueChain? ${CHAIN}\n"${puzzleTitle}" \u2014 I scored ${scorePercentage}% ${TARGET}\nCan you beat me?\n${puzzleUrl}`;
+
   const endGameMessage = document.createElement("div");
   endGameMessage.className = "game-over-message";
   endGameMessage.innerHTML = lastWordRevealed
     ? `
-        <h2>Chain Complete 🔓</h2>
+        <h2>Chain Complete &#x1F513;</h2>
         <p>Final Score: <span class="final-score">${score}</span> <span class="max-score">(Max Possible: ${maxScore})</span> - ${scorePercentage}%</p>
         ${assistedBadge}
-        <button class="share-btn" id="whatsapp-share-btn"><i class="fab fa-whatsapp"></i> Share on WhatsApp</button>
+        <div class="share-btns">
+          <button class="share-btn" id="whatsapp-share-btn"><i class="fab fa-whatsapp"></i> Share on WhatsApp</button>
+          <button class="copy-btn" id="copy-share-btn"><i class="fas fa-copy"></i> Copy</button>
+        </div>
     `
     : `
-        <h2>Chain Complete! 🎉</h2>
+        <h2>Chain Complete! &#x1F389;</h2>
         <p>You've linked every word in the paragraph!</p>
         <p>Final Score: <span class="final-score">${score}</span> <span class="max-score">(Max Possible: ${maxScore})</span> - ${scorePercentage}%</p>
         ${assistedBadge}
-        <button class="share-btn" id="whatsapp-share-btn"><i class="fab fa-whatsapp"></i> Share on WhatsApp</button>
+        <div class="share-btns">
+          <button class="share-btn" id="whatsapp-share-btn"><i class="fab fa-whatsapp"></i> Share on WhatsApp</button>
+          <button class="copy-btn" id="copy-share-btn"><i class="fas fa-copy"></i> Copy</button>
+        </div>
     `;
 
   updateElement("paragraph-container", (el) =>
     el.insertAdjacentElement("afterend", endGameMessage)
   );
 
+  // Scroll the banner into view
+  setTimeout(() => endGameMessage.scrollIntoView({ behavior: 'smooth', block: 'center' }), 350);
+
   const shareBtn = endGameMessage.querySelector('#whatsapp-share-btn');
   if (shareBtn) {
     shareBtn.addEventListener('click', () => {
-      const text = `Hey! Have you played today's ClueChain? 🔗\n"${puzzleTitle}" — I scored ${scorePercentage}% 🎯\nCan you beat me?\n${puzzleUrl}`;
-      window.open('https://wa.me/?text=' + encodeURIComponent(text), '_blank');
+      window.open('https://wa.me/?text=' + encodeURIComponent(shareText), '_blank');
+    });
+  }
+
+  const copyBtn = endGameMessage.querySelector('#copy-share-btn');
+  if (copyBtn) {
+    copyBtn.addEventListener('click', () => {
+      navigator.clipboard.writeText(shareText).then(() => {
+        copyBtn.textContent = 'Copied!';
+        setTimeout(() => {
+          copyBtn.innerHTML = '<i class="fas fa-copy"></i> Copy';
+        }, 2000);
+      });
     });
   }
 
