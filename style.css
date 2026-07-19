@@ -701,6 +701,26 @@ button:hover {
   color: #555;
 }
 
+.share-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 14px;
+  padding: 10px 20px;
+  background-color: #25d366;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 0.95em;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.share-btn:hover {
+  background-color: #1ebe5a;
+}
+
 @keyframes slideDown {
   from {
     opacity: 0;

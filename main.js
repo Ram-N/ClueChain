@@ -4,13 +4,21 @@ import { setupHelpButton } from "./assets/js/help-modal.js";
 
 // Initialize the game when the window loads
 window.onload = async () => {
-  // Set the date display to today's date on page load
+  // Set the date display on page load, respecting ?date=MMDD param for deep links
   const dateElementInit = document.getElementById("current-date");
   if (dateElementInit) {
-    const today = new Date();
-    const options = { year: 'numeric', month: 'long', day: 'numeric' };
-    // Fix: use correct type for year/month/day
-    dateElementInit.textContent = today.toLocaleDateString('en-US', {
+    const params = new URLSearchParams(window.location.search);
+    const dateParam = params.get('date'); // e.g. "0719"
+    let initialDate = new Date();
+    if (dateParam && /^\d{4}$/.test(dateParam)) {
+      const month = parseInt(dateParam.slice(0, 2), 10) - 1; // 0-based month
+      const day = parseInt(dateParam.slice(2), 10);
+      const parsed = new Date(new Date().getFullYear(), month, day);
+      if (!isNaN(parsed.getTime()) && parsed <= new Date()) {
+        initialDate = parsed;
+      }
+    }
+    dateElementInit.textContent = initialDate.toLocaleDateString('en-US', {
       year: 'numeric', month: 'long', day: 'numeric'
     });
   }
@@ -63,7 +71,15 @@ window.onload = async () => {
     }
   }
   updateDateDisplay(currentDate);
-  
+
+  // Keep the URL bar in sync with the active puzzle date so links are shareable
+  function setDateInUrl(date) {
+    const mm = String(date.getMonth() + 1).padStart(2, '0');
+    const dd = String(date.getDate()).padStart(2, '0');
+    history.replaceState(null, '', `?date=${mm}${dd}`);
+  }
+  setDateInUrl(currentDate);
+
   // Set up custom calendar
   const calendarButton = document.getElementById("calendar-button");
   const dateSelector = document.querySelector(".date-selector");
@@ -229,6 +245,7 @@ window.onload = async () => {
             if (confirm("Changing the date will reset your current game progress. Continue?")) {
               currentDate = new Date(calendarCurrentYear, calendarCurrentMonth, day);
               updateDateDisplay(currentDate);
+              setDateInUrl(currentDate);
               console.log(`Selected date: ${currentDate.toISOString().split('T')[0]}`);
               customCalendar.classList.remove("show");
               loadParagraphForDate(clickedMmDD);
@@ -238,6 +255,7 @@ window.onload = async () => {
             // No game in progress, proceed without confirmation
             currentDate = new Date(calendarCurrentYear, calendarCurrentMonth, day);
             updateDateDisplay(currentDate);
+            setDateInUrl(currentDate);
             console.log(`Selected date: ${currentDate.toISOString().split('T')[0]}`);
             customCalendar.classList.remove("show");
             loadParagraphForDate(clickedMmDD);
@@ -406,6 +424,7 @@ window.onload = async () => {
 
       currentDate = newDate;
       updateDateDisplay(currentDate);
+      setDateInUrl(currentDate);
       updateArrowStates();
       
       // Log the navigated date for debugging

@@ -1079,6 +1079,13 @@ export async function showGameOver(lastWordRevealed = false) {
     ? `<div><span class="assisted-badge">&#x1F5DD;&#xFE0F; Assisted play</span></div>`
     : "";
 
+  // Build WhatsApp share data
+  const paragraph = getCurrentParagraph();
+  const puzzleTitle = paragraph?.title || "today's puzzle";
+  const mmdd = paragraph?.date?.replace('-', '') || null;
+  const puzzleUrl = window.location.origin + window.location.pathname
+    + (mmdd ? `?date=${mmdd}` : '');
+
   const endGameMessage = document.createElement("div");
   endGameMessage.className = "game-over-message";
   endGameMessage.innerHTML = lastWordRevealed
@@ -1086,17 +1093,27 @@ export async function showGameOver(lastWordRevealed = false) {
         <h2>Chain Complete 🔓</h2>
         <p>Final Score: <span class="final-score">${score}</span> <span class="max-score">(Max Possible: ${maxScore})</span> - ${scorePercentage}%</p>
         ${assistedBadge}
+        <button class="share-btn" id="whatsapp-share-btn"><i class="fab fa-whatsapp"></i> Share on WhatsApp</button>
     `
     : `
         <h2>Chain Complete! 🎉</h2>
         <p>You've linked every word in the paragraph!</p>
         <p>Final Score: <span class="final-score">${score}</span> <span class="max-score">(Max Possible: ${maxScore})</span> - ${scorePercentage}%</p>
         ${assistedBadge}
+        <button class="share-btn" id="whatsapp-share-btn"><i class="fab fa-whatsapp"></i> Share on WhatsApp</button>
     `;
 
   updateElement("paragraph-container", (el) =>
     el.insertAdjacentElement("afterend", endGameMessage)
   );
+
+  const shareBtn = endGameMessage.querySelector('#whatsapp-share-btn');
+  if (shareBtn) {
+    shareBtn.addEventListener('click', () => {
+      const text = `Hey! Have you played today's ClueChain? 🔗\n"${puzzleTitle}" — I scored ${scorePercentage}% 🎯\nCan you beat me?\n${puzzleUrl}`;
+      window.open('https://wa.me/?text=' + encodeURIComponent(text), '_blank');
+    });
+  }
 
   // Start the celebration animations
   setTimeout(() => {
