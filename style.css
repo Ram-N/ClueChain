@@ -676,13 +676,29 @@ button:hover {
 }
 
 .game-over-message {
-  background-color: #e8f5e9;
-  border: 2px solid #4caf50;
   border-radius: 8px;
   padding: 20px;
   margin: 20px 0;
   text-align: center;
   animation: slideDown 0.5s ease-out;
+  /* default (high score) */
+  background-color: #e8f5e9;
+  border: 2px solid #4caf50;
+}
+
+.game-over-message.score-high {
+  background-color: #e8f5e9;
+  border-color: #4caf50;
+}
+
+.game-over-message.score-mid {
+  background-color: #fffde7;
+  border-color: #f9a825;
+}
+
+.game-over-message.score-low {
+  background-color: #ffebee;
+  border-color: #ef5350;
 }
 
 .game-over-message h2 {
@@ -690,11 +706,17 @@ button:hover {
   margin-top: 0;
 }
 
+.game-over-message.score-mid h2 { color: #e65100; }
+.game-over-message.score-low h2 { color: #b71c1c; }
+
 .game-over-message .final-score {
   font-weight: bold;
-  color: #4caf50;
   font-size: 1.2em;
+  color: #4caf50; /* default high */
 }
+
+.game-over-message.score-mid .final-score { color: #f9a825; }
+.game-over-message.score-low .final-score { color: #ef5350; }
 
 .game-over-message .max-score {
   font-size: 0.9em;

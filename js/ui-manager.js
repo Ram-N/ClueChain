@@ -1091,8 +1091,10 @@ export async function showGameOver(lastWordRevealed = false) {
   const TARGET = '\u{1F3AF}'; // 🎯
   const shareText = `Hey! Have you played today's ClueChain? ${CHAIN}\n"${puzzleTitle}" \u2014 I scored ${scorePercentage}% ${TARGET}\nCan you beat me?\n${puzzleUrl}`;
 
+  const scoreClass = scorePercentage >= 80 ? 'score-high' : scorePercentage >= 50 ? 'score-mid' : 'score-low';
+
   const endGameMessage = document.createElement("div");
-  endGameMessage.className = "game-over-message";
+  endGameMessage.className = `game-over-message ${scoreClass}`;
   endGameMessage.innerHTML = lastWordRevealed
     ? `
         <h2>Chain Complete &#x1F513;</h2>
