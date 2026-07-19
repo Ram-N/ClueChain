@@ -1089,7 +1089,8 @@ export async function showGameOver(lastWordRevealed = false) {
   // Use Unicode escapes to avoid emoji encoding issues in JS source files
   const CHAIN = '\u{1F517}'; // 🔗
   const TARGET = '\u{1F3AF}'; // 🎯
-  const shareText = `Hey! Have you played today's ClueChain? ${CHAIN}\n"${puzzleTitle}" \u2014 I scored ${scorePercentage}% ${TARGET}\nCan you beat me?\n${puzzleUrl}`;
+  const challenge = scorePercentage === 100 ? 'Can you match me?' : 'Can you beat me?';
+  const shareText = `Hey! Have you played today's ClueChain? ${CHAIN}\n"${puzzleTitle}" \u2014 I scored ${scorePercentage}% ${TARGET}\n${challenge}\n${puzzleUrl}`;
 
   const scoreClass = scorePercentage >= 80 ? 'score-high' : scorePercentage >= 50 ? 'score-mid' : 'score-low';
 
