@@ -12,9 +12,9 @@
       ],
       "clues": [
         {
-          "clue": "a state of being",
-          "type": "Straight",
-          "points": 1
+          "clue": "a flame that flickers",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "it's what you live",
@@ -22,9 +22,9 @@
           "points": 3
         },
         {
-          "clue": "a flame that flickers",
-          "type": "Indirect",
-          "points": 6
+          "clue": "a state of being",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -37,9 +37,9 @@
       ],
       "clues": [
         {
-          "clue": "the average time one is expected to live",
-          "type": "Straight",
-          "points": 1
+          "clue": "when anticipation meets probability",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "a statistical prediction of future events",
@@ -47,9 +47,9 @@
           "points": 3
         },
         {
-          "clue": "when anticipation meets probability",
-          "type": "Indirect",
-          "points": 6
+          "clue": "the average time one is expected to live",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -62,9 +62,9 @@
       ],
       "clues": [
         {
-          "clue": "a group of people born at the same time",
-          "type": "Straight",
-          "points": 1
+          "clue": "when the past meets the future",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "the time it takes for a population to replace itself",
@@ -72,9 +72,9 @@
           "points": 3
         },
         {
-          "clue": "when the past meets the future",
-          "type": "Indirect",
-          "points": 6
+          "clue": "a group of people born at the same time",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -84,9 +84,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "the study of the Earth's physical features",
-          "type": "Straight",
-          "points": 1
+          "clue": "where the map meets the landscape",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "the arrangement of natural and human-made elements on the Earth's surface",
@@ -94,9 +94,9 @@
           "points": 3
         },
         {
-          "clue": "where the map meets the landscape",
-          "type": "Indirect",
-          "points": 6
+          "clue": "the study of the Earth's physical features",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -106,9 +106,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "a unit of distance",
-          "type": "Straight",
-          "points": 1
+          "clue": "when the road stretches out before you",
+          "type": "Indirect",
+          "points": 5
         },
         {
           "clue": "the distance between two points on the Earth's surface",
@@ -116,9 +116,9 @@
           "points": 3
         },
         {
-          "clue": "when the road stretches out before you",
-          "type": "Indirect",
-          "points": 5
+          "clue": "a unit of distance",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -128,9 +128,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "a residential area",
-          "type": "Straight",
-          "points": 1
+          "clue": "where community meets home",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "a group of houses and buildings where people live",
@@ -138,9 +138,9 @@
           "points": 3
         },
         {
-          "clue": "where community meets home",
-          "type": "Indirect",
-          "points": 6
+          "clue": "a residential area",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -150,9 +150,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "groups of people living together",
-          "type": "Straight",
-          "points": 1
+          "clue": "when individuals come together",
+          "type": "Indirect",
+          "points": 5
         },
         {
           "clue": "social units with shared interests and goals",
@@ -160,9 +160,9 @@
           "points": 3
         },
         {
-          "clue": "when individuals come together",
-          "type": "Indirect",
-          "points": 5
+          "clue": "groups of people living together",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -172,9 +172,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "places where people work",
-          "type": "Straight",
-          "points": 1
+          "clue": "where labor meets industry",
+          "type": "Indirect",
+          "points": 5
         },
         {
           "clue": "locations where employees perform their jobs",
@@ -182,9 +182,9 @@
           "points": 3
         },
         {
-          "clue": "where labor meets industry",
-          "type": "Indirect",
-          "points": 5
+          "clue": "places where people work",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -194,9 +194,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "the amount paid or required for something",
-          "type": "Straight",
-          "points": 1
+          "clue": "when value meets expense",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "expenses or expenditures",
@@ -204,9 +204,9 @@
           "points": 3
         },
         {
-          "clue": "when value meets expense",
-          "type": "Indirect",
-          "points": 6
+          "clue": "the amount paid or required for something",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -216,9 +216,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "a unit of time",
-          "type": "Straight",
-          "points": 1
+          "clue": "when time meets cycle",
+          "type": "Indirect",
+          "points": 5
         },
         {
           "clue": "a period of 365 days",
@@ -226,9 +226,9 @@
           "points": 3
         },
         {
-          "clue": "when time meets cycle",
-          "type": "Indirect",
-          "points": 5
+          "clue": "a unit of time",
+          "type": "Straight",
+          "points": 1
         }
       ]
     }

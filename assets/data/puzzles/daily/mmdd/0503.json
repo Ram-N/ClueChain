@@ -9,9 +9,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "A type of whiskey often enjoyed neat.",
-          "type": "Straight",
-          "points": 1
+          "clue": "What might a sophisticated gentleman sip on a warm summer evening?",
+          "type": "Indirect",
+          "points": 5
         },
         {
           "clue": "Frequently associated with a particular style of glass.",
@@ -19,9 +19,9 @@
           "points": 3
         },
         {
-          "clue": "What might a sophisticated gentleman sip on a warm summer evening?",
-          "type": "Indirect",
-          "points": 5
+          "clue": "A type of whiskey often enjoyed neat.",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -53,14 +53,14 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "A hair color often associated with Scandinavian countries.",
-          "type": "Suggestive",
-          "points": 4
-        },
-        {
           "clue": "What might attract attention in a crowded room?",
           "type": "Indirect",
           "points": 6
+        },
+        {
+          "clue": "A hair color often associated with Scandinavian countries.",
+          "type": "Suggestive",
+          "points": 4
         },
         {
           "clue": "Women with a specific hair color.",
@@ -75,9 +75,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "A device that produces sound from two channels.",
-          "type": "Straight",
-          "points": 1
+          "clue": "What might be found in a living room for entertainment?",
+          "type": "Indirect",
+          "points": 5
         },
         {
           "clue": "Frequently used for playing music at parties.",
@@ -85,9 +85,9 @@
           "points": 3
         },
         {
-          "clue": "What might be found in a living room for entertainment?",
-          "type": "Indirect",
-          "points": 5
+          "clue": "A device that produces sound from two channels.",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -97,14 +97,14 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "What rises from a burning cigarette?",
-          "type": "Suggestive",
-          "points": 4
-        },
-        {
           "clue": "Something that can be seen but not held.",
           "type": "Indirect",
           "points": 6
+        },
+        {
+          "clue": "What rises from a burning cigarette?",
+          "type": "Suggestive",
+          "points": 4
         },
         {
           "clue": "The visible gaseous product of combustion.",
@@ -119,11 +119,6 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "A temporary state of mind or feeling.",
-          "type": "Straight",
-          "points": 2
-        },
-        {
           "clue": "What changes with the phases of the moon for some people?",
           "type": "Indirect",
           "points": 7
@@ -132,6 +127,11 @@
           "clue": "An atmosphere or feeling that predominates at a particular time.",
           "type": "Suggestive",
           "points": 4
+        },
+        {
+          "clue": "A temporary state of mind or feeling.",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -143,11 +143,6 @@
       ],
       "clues": [
         {
-          "clue": "The absence of sound or noise.",
-          "type": "Straight",
-          "points": 2
-        },
-        {
           "clue": "Sometimes golden, but often uncomfortable in social situations.",
           "type": "Indirect",
           "points": 6
@@ -156,6 +151,11 @@
           "clue": "What can be deafening in a crowded room?",
           "type": "Suggestive",
           "points": 4
+        },
+        {
+          "clue": "The absence of sound or noise.",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -165,9 +165,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "The eleventh month of the year.",
-          "type": "Straight",
-          "points": 1
+          "clue": "When Thanksgiving is celebrated in the United States.",
+          "type": "Indirect",
+          "points": 5
         },
         {
           "clue": "A time when autumn is coming to an end in the Northern Hemisphere.",
@@ -175,9 +175,9 @@
           "points": 3
         },
         {
-          "clue": "When Thanksgiving is celebrated in the United States.",
-          "type": "Indirect",
-          "points": 5
+          "clue": "The eleventh month of the year.",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -187,11 +187,6 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "A day to celebrate the anniversary of one's birth.",
-          "type": "Straight",
-          "points": 2
-        },
-        {
           "clue": "What might be marked with cake, candles, and gifts?",
           "type": "Indirect",
           "points": 6
@@ -200,6 +195,11 @@
           "clue": "An annual occasion for festivities and gift-giving.",
           "type": "Suggestive",
           "points": 4
+        },
+        {
+          "clue": "A day to celebrate the anniversary of one's birth.",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -209,11 +209,6 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "People in general, especially those of a particular region or community.",
-          "type": "Straight",
-          "points": 2
-        },
-        {
           "clue": "What might be found at a music festival?",
           "type": "Indirect",
           "points": 6
@@ -222,6 +217,11 @@
           "clue": "Informal term for people, often used in music genres.",
           "type": "Suggestive",
           "points": 4
+        },
+        {
+          "clue": "People in general, especially those of a particular region or community.",
+          "type": "Straight",
+          "points": 2
         }
       ]
     }

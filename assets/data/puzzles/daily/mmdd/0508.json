@@ -9,9 +9,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "A place to store historical documents",
-          "type": "Straight",
-          "points": 1
+          "clue": "Imagine a room filled with dusty old books, what might you find there?",
+          "type": "Indirect",
+          "points": 5
         },
         {
           "clue": "Used for keeping track of important events over time",
@@ -19,9 +19,9 @@
           "points": 3
         },
         {
-          "clue": "Imagine a room filled with dusty old books, what might you find there?",
-          "type": "Indirect",
-          "points": 5
+          "clue": "A place to store historical documents",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -31,9 +31,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "Full of light, shining very brightly",
-          "type": "Straight",
-          "points": 2
+          "clue": "What do you call a diamond that's exceptionally beautiful?",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "A quality often associated with stars in the night sky",
@@ -41,9 +41,9 @@
           "points": 3
         },
         {
-          "clue": "What do you call a diamond that's exceptionally beautiful?",
-          "type": "Indirect",
-          "points": 6
+          "clue": "Full of light, shining very brightly",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -56,9 +56,9 @@
       ],
       "clues": [
         {
-          "clue": "A period of 100 years",
-          "type": "Straight",
-          "points": 1
+          "clue": "If a decade is 10 years, and a millennium is 1000, what's in between?",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "A time frame often used to measure historical events",
@@ -66,9 +66,9 @@
           "points": 4
         },
         {
-          "clue": "If a decade is 10 years, and a millennium is 1000, what's in between?",
-          "type": "Indirect",
-          "points": 6
+          "clue": "A period of 100 years",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -81,9 +81,9 @@
       ],
       "clues": [
         {
-          "clue": "A span of 10 years",
-          "type": "Straight",
-          "points": 1
+          "clue": "If you're in your 30s, you've completed how many of these?",
+          "type": "Indirect",
+          "points": 5
         },
         {
           "clue": "Often used to mark significant periods in a person's life",
@@ -91,9 +91,9 @@
           "points": 3
         },
         {
-          "clue": "If you're in your 30s, you've completed how many of these?",
-          "type": "Indirect",
-          "points": 5
+          "clue": "A span of 10 years",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -106,9 +106,9 @@
       ],
       "clues": [
         {
-          "clue": "A thousand years",
-          "type": "Straight",
-          "points": 2
+          "clue": "What do you call a very long period of time that's also a round number?",
+          "type": "Indirect",
+          "points": 7
         },
         {
           "clue": "A significant milestone in the calendar",
@@ -116,9 +116,9 @@
           "points": 4
         },
         {
-          "clue": "What do you call a very long period of time that's also a round number?",
-          "type": "Indirect",
-          "points": 7
+          "clue": "A thousand years",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -128,9 +128,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "Not following a regular pattern",
-          "type": "Straight",
-          "points": 1
+          "clue": "Imagine a clock with hands that move randomly, what would you call its behavior?",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "Something that doesn't conform to the norm",
@@ -138,9 +138,9 @@
           "points": 3
         },
         {
-          "clue": "Imagine a clock with hands that move randomly, what would you call its behavior?",
-          "type": "Indirect",
-          "points": 6
+          "clue": "Not following a regular pattern",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -150,9 +150,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "A measure of the size or extent of something",
-          "type": "Straight",
-          "points": 2
+          "clue": "What do you call the scale used to measure the intensity of earthquakes or starlight?",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "In astronomy, it refers to the brightness of a star",
@@ -160,9 +160,9 @@
           "points": 4
         },
         {
-          "clue": "What do you call the scale used to measure the intensity of earthquakes or starlight?",
-          "type": "Indirect",
-          "points": 6
+          "clue": "A measure of the size or extent of something",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -172,9 +172,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "A flat, usually rectangular piece of material",
-          "type": "Straight",
-          "points": 1
+          "clue": "Imagine a woven piece of fabric used for sitting, what is it?",
+          "type": "Indirect",
+          "points": 5
         },
         {
           "clue": "Something you might sit or lie on",
@@ -182,9 +182,9 @@
           "points": 3
         },
         {
-          "clue": "Imagine a woven piece of fabric used for sitting, what is it?",
-          "type": "Indirect",
-          "points": 5
+          "clue": "A flat, usually rectangular piece of material",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -194,9 +194,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "A small part of something that remains",
-          "type": "Straight",
-          "points": 2
+          "clue": "If a big fire burned down a building, what might be left behind?",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "What's left after something has been destroyed or used up",
@@ -204,9 +204,9 @@
           "points": 4
         },
         {
-          "clue": "If a big fire burned down a building, what might be left behind?",
-          "type": "Indirect",
-          "points": 6
+          "clue": "A small part of something that remains",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -216,9 +216,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "Having a color similar to red",
-          "type": "Straight",
-          "points": 1
+          "clue": "Imagine a warm, fiery hue, what word comes to mind?",
+          "type": "Indirect",
+          "points": 5
         },
         {
           "clue": "A description often used for sunsets or autumn leaves",
@@ -226,9 +226,9 @@
           "points": 3
         },
         {
-          "clue": "Imagine a warm, fiery hue, what word comes to mind?",
-          "type": "Indirect",
-          "points": 5
+          "clue": "Having a color similar to red",
+          "type": "Straight",
+          "points": 1
         }
       ]
     }

@@ -12,14 +12,14 @@
       ],
       "clues": [
         {
-          "clue": "A business model with multiple locations",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
           "clue": "It's like a family tree, but for companies",
           "type": "Indirect",
           "points": 6
+        },
+        {
+          "clue": "A business model with multiple locations",
+          "type": "Suggestive",
+          "points": 3
         },
         {
           "clue": "A type of business organization",
@@ -37,14 +37,14 @@
       ],
       "clues": [
         {
-          "clue": "A sequence of related events",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
           "clue": "Like a row of pearls, but made of episodes",
           "type": "Indirect",
           "points": 5
+        },
+        {
+          "clue": "A sequence of related events",
+          "type": "Suggestive",
+          "points": 3
         },
         {
           "clue": "A set of related television programs",
@@ -62,14 +62,14 @@
       ],
       "clues": [
         {
-          "clue": "A device for watching moving images",
-          "type": "Suggestive",
-          "points": 4
-        },
-        {
           "clue": "It's like a window to another world, but in your living room",
           "type": "Indirect",
           "points": 6
+        },
+        {
+          "clue": "A device for watching moving images",
+          "type": "Suggestive",
+          "points": 4
         },
         {
           "clue": "A medium for broadcasting videos",
@@ -106,14 +106,14 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "Choices, like flavors of ice cream",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
           "clue": "Like a maze, but with possibilities",
           "type": "Indirect",
           "points": 6
+        },
+        {
+          "clue": "Choices, like flavors of ice cream",
+          "type": "Suggestive",
+          "points": 3
         },
         {
           "clue": "Alternatives or possibilities",
@@ -128,14 +128,14 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "Told or stated, like a news story",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
           "clue": "Like a messenger, but with information",
           "type": "Indirect",
           "points": 5
+        },
+        {
+          "clue": "Told or stated, like a news story",
+          "type": "Suggestive",
+          "points": 3
         },
         {
           "clue": "To give an account of something",
@@ -150,14 +150,14 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "Thought about, like a problem",
-          "type": "Suggestive",
-          "points": 4
-        },
-        {
           "clue": "Like weighing options on a balance scale",
           "type": "Indirect",
           "points": 6
+        },
+        {
+          "clue": "Thought about, like a problem",
+          "type": "Suggestive",
+          "points": 4
         },
         {
           "clue": "To think carefully about something",

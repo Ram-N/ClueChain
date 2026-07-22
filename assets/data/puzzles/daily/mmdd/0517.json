@@ -12,9 +12,9 @@
       ],
       "clues": [
         {
-          "clue": "A spot where something is situated.",
-          "type": "Straight",
-          "points": 1
+          "clue": "Imagine a dot on a map, what is it?",
+          "type": "Indirect",
+          "points": 5
         },
         {
           "clue": "It can be relative or absolute.",
@@ -22,9 +22,9 @@
           "points": 3
         },
         {
-          "clue": "Imagine a dot on a map, what is it?",
-          "type": "Indirect",
-          "points": 5
+          "clue": "A spot where something is situated.",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -37,9 +37,9 @@
       ],
       "clues": [
         {
-          "clue": "A particular position or point.",
-          "type": "Straight",
-          "points": 1
+          "clue": "Where do you live?",
+          "type": "Indirect",
+          "points": 5
         },
         {
           "clue": "It can be a city, town, or village.",
@@ -47,9 +47,9 @@
           "points": 3
         },
         {
-          "clue": "Where do you live?",
-          "type": "Indirect",
-          "points": 5
+          "clue": "A particular position or point.",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -62,9 +62,9 @@
       ],
       "clues": [
         {
-          "clue": "The amount of space between two points.",
-          "type": "Straight",
-          "points": 1
+          "clue": "How far is it from your home to school?",
+          "type": "Indirect",
+          "points": 5
         },
         {
           "clue": "It can be measured in kilometers or miles.",
@@ -72,9 +72,9 @@
           "points": 3
         },
         {
-          "clue": "How far is it from your home to school?",
-          "type": "Indirect",
-          "points": 5
+          "clue": "The amount of space between two points.",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -84,9 +84,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "A type of location that depends on other places.",
-          "type": "Straight",
-          "points": 1
+          "clue": "Think of family relationships, what comes to mind?",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "It is often compared to something else.",
@@ -94,9 +94,9 @@
           "points": 3
         },
         {
-          "clue": "Think of family relationships, what comes to mind?",
-          "type": "Indirect",
-          "points": 6
+          "clue": "A type of location that depends on other places.",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -106,9 +106,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "The way of life of a particular group.",
-          "type": "Straight",
-          "points": 1
+          "clue": "What do you learn from your family and community?",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "It includes customs, traditions, and values.",
@@ -116,9 +116,9 @@
           "points": 3
         },
         {
-          "clue": "What do you learn from your family and community?",
-          "type": "Indirect",
-          "points": 6
+          "clue": "The way of life of a particular group.",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -128,9 +128,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "The application of scientific knowledge for practical purposes.",
-          "type": "Straight",
-          "points": 1
+          "clue": "How do you stay connected with friends and family?",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "It includes computers, smartphones, and the internet.",
@@ -138,9 +138,9 @@
           "points": 3
         },
         {
-          "clue": "How do you stay connected with friends and family?",
-          "type": "Indirect",
-          "points": 6
+          "clue": "The application of scientific knowledge for practical purposes.",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -150,9 +150,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "A unit of measurement for distance in urban areas.",
-          "type": "Straight",
-          "points": 1
+          "clue": "Imagine a city grid, what are the small parts called?",
+          "type": "Indirect",
+          "points": 7
         },
         {
           "clue": "It is often used to describe short distances.",
@@ -160,9 +160,9 @@
           "points": 3
         },
         {
-          "clue": "Imagine a city grid, what are the small parts called?",
-          "type": "Indirect",
-          "points": 7
+          "clue": "A unit of measurement for distance in urban areas.",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -172,9 +172,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "A unit of measurement for distance in the metric system.",
-          "type": "Straight",
-          "points": 1
+          "clue": "What unit is used to measure the distance between cities in Europe?",
+          "type": "Indirect",
+          "points": 7
         },
         {
           "clue": "It is often used to measure long distances.",
@@ -182,9 +182,9 @@
           "points": 3
         },
         {
-          "clue": "What unit is used to measure the distance between cities in Europe?",
-          "type": "Indirect",
-          "points": 7
+          "clue": "A unit of measurement for distance in the metric system.",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -194,9 +194,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "A unit of measurement for distance in the imperial system.",
-          "type": "Straight",
-          "points": 1
+          "clue": "What unit is used to measure the distance between cities in the United States?",
+          "type": "Indirect",
+          "points": 7
         },
         {
           "clue": "It is often used to measure long distances in the United States.",
@@ -204,9 +204,9 @@
           "points": 3
         },
         {
-          "clue": "What unit is used to measure the distance between cities in the United States?",
-          "type": "Indirect",
-          "points": 7
+          "clue": "A unit of measurement for distance in the imperial system.",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -216,9 +216,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "Linked or joined together.",
-          "type": "Straight",
-          "points": 1
+          "clue": "What happens when you have a strong internet signal?",
+          "type": "Indirect",
+          "points": 7
         },
         {
           "clue": "It can refer to people, places, or things.",
@@ -226,9 +226,9 @@
           "points": 3
         },
         {
-          "clue": "What happens when you have a strong internet signal?",
-          "type": "Indirect",
-          "points": 7
+          "clue": "Linked or joined together.",
+          "type": "Straight",
+          "points": 1
         }
       ]
     }

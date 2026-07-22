@@ -9,14 +9,14 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "A measure of how much something can hold or produce.",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
           "clue": "Think of a bucket that's full to the brim, but not overflowing.",
           "type": "Indirect",
           "points": 6
+        },
+        {
+          "clue": "A measure of how much something can hold or produce.",
+          "type": "Suggestive",
+          "points": 3
         },
         {
           "clue": "The ability to contain or produce something.",
@@ -31,9 +31,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "A rough calculation, not an exact figure.",
-          "type": "Straight",
-          "points": 1
+          "clue": "Imagine taking a stab in the dark, but with math.",
+          "type": "Indirect",
+          "points": 5
         },
         {
           "clue": "Using numbers to make a guess about something.",
@@ -41,9 +41,9 @@
           "points": 3
         },
         {
-          "clue": "Imagine taking a stab in the dark, but with math.",
-          "type": "Indirect",
-          "points": 5
+          "clue": "A rough calculation, not an exact figure.",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -56,9 +56,9 @@
       ],
       "clues": [
         {
-          "clue": "Involving the use of machines and computers.",
-          "type": "Straight",
-          "points": 2
+          "clue": "Think of a world where humans and machines work together.",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "A field that's always changing and improving.",
@@ -66,9 +66,9 @@
           "points": 3
         },
         {
-          "clue": "Think of a world where humans and machines work together.",
-          "type": "Indirect",
-          "points": 6
+          "clue": "Involving the use of machines and computers.",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -81,14 +81,14 @@
       ],
       "clues": [
         {
-          "clue": "A group of interconnected things.",
-          "type": "Suggestive",
-          "points": 4
-        },
-        {
           "clue": "Imagine a web of strings that connect different points.",
           "type": "Indirect",
           "points": 5
+        },
+        {
+          "clue": "A group of interconnected things.",
+          "type": "Suggestive",
+          "points": 4
         },
         {
           "clue": "A system of connected devices or people.",
@@ -106,14 +106,14 @@
       ],
       "clues": [
         {
-          "clue": "A way of sending information over long distances.",
-          "type": "Suggestive",
-          "points": 4
-        },
-        {
           "clue": "Think of a message in a bottle, but instead of water, it's sent through the air.",
           "type": "Indirect",
           "points": 7
+        },
+        {
+          "clue": "A way of sending information over long distances.",
+          "type": "Suggestive",
+          "points": 4
         },
         {
           "clue": "The process of exchanging information between devices.",
@@ -128,14 +128,14 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "Made smaller, but still keeping its original meaning.",
-          "type": "Suggestive",
-          "points": 4
-        },
-        {
           "clue": "Imagine a spring that's been squeezed tight, but still has the same force.",
           "type": "Indirect",
           "points": 6
+        },
+        {
+          "clue": "Made smaller, but still keeping its original meaning.",
+          "type": "Suggestive",
+          "points": 4
         },
         {
           "clue": "Reduced in size, but not in importance.",
@@ -150,14 +150,14 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "A huge amount of digital information.",
-          "type": "Suggestive",
-          "points": 4
-        },
-        {
           "clue": "Think of a library that's so big, it has more books than you can count.",
           "type": "Indirect",
           "points": 7
+        },
+        {
+          "clue": "A huge amount of digital information.",
+          "type": "Suggestive",
+          "points": 4
         },
         {
           "clue": "A unit of measurement for digital data.",
@@ -172,9 +172,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "Publications that bring you the latest news.",
-          "type": "Straight",
-          "points": 1
+          "clue": "Imagine a daily delivery of stories and events.",
+          "type": "Indirect",
+          "points": 5
         },
         {
           "clue": "A way to stay informed about what's happening in the world.",
@@ -182,9 +182,9 @@
           "points": 3
         },
         {
-          "clue": "Imagine a daily delivery of stories and events.",
-          "type": "Indirect",
-          "points": 5
+          "clue": "Publications that bring you the latest news.",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -194,9 +194,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "Relating to computers and electronic devices.",
-          "type": "Straight",
-          "points": 2
+          "clue": "Think of a world where everything is made up of 1s and 0s.",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "A type of information that can be stored on devices.",
@@ -204,9 +204,9 @@
           "points": 3
         },
         {
-          "clue": "Think of a world where everything is made up of 1s and 0s.",
-          "type": "Indirect",
-          "points": 6
+          "clue": "Relating to computers and electronic devices.",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -216,9 +216,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "Devices that store digital information.",
-          "type": "Straight",
-          "points": 1
+          "clue": "Imagine a container that holds all your important documents.",
+          "type": "Indirect",
+          "points": 5
         },
         {
           "clue": "A way to keep your files and data safe.",
@@ -226,9 +226,9 @@
           "points": 3
         },
         {
-          "clue": "Imagine a container that holds all your important documents.",
-          "type": "Indirect",
-          "points": 5
+          "clue": "Devices that store digital information.",
+          "type": "Straight",
+          "points": 1
         }
       ]
     }

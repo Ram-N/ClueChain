@@ -9,9 +9,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "A belief that is not fully proven but is assumed for the sake of argument.",
-          "type": "Straight",
-          "points": 1
+          "clue": "Like a hunch, but with a lot more research; it's a guess that tries to make sense of the world.",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "Often discussed in academic circles, this concept attempts to explain something.",
@@ -19,9 +19,9 @@
           "points": 4
         },
         {
-          "clue": "Like a hunch, but with a lot more research; it's a guess that tries to make sense of the world.",
-          "type": "Indirect",
-          "points": 6
+          "clue": "A belief that is not fully proven but is assumed for the sake of argument.",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -31,9 +31,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "To come into view or existence.",
-          "type": "Straight",
-          "points": 2
+          "clue": "Like a butterfly from a cocoon, it describes something that appeared.",
+          "type": "Indirect",
+          "points": 5
         },
         {
           "clue": "Describes something that came out or became known.",
@@ -41,9 +41,9 @@
           "points": 3
         },
         {
-          "clue": "Like a butterfly from a cocoon, it describes something that appeared.",
-          "type": "Indirect",
-          "points": 5
+          "clue": "To come into view or existence.",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -56,9 +56,9 @@
       ],
       "clues": [
         {
-          "clue": "Having the form of a ball.",
-          "type": "Straight",
-          "points": 1
+          "clue": "It's what the Earth is, according to most people. It's the opposite of flat.",
+          "type": "Indirect",
+          "points": 7
         },
         {
           "clue": "This shape is like a ball.",
@@ -66,9 +66,9 @@
           "points": 4
         },
         {
-          "clue": "It's what the Earth is, according to most people. It's the opposite of flat.",
-          "type": "Indirect",
-          "points": 7
+          "clue": "Having the form of a ball.",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -78,9 +78,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "The inherent character or basic constitution of a person or thing.",
-          "type": "Straight",
-          "points": 2
+          "clue": "What makes a thing what it is; its core identity.",
+          "type": "Indirect",
+          "points": 5
         },
         {
           "clue": "It can be described as the essence of something.",
@@ -88,9 +88,9 @@
           "points": 3
         },
         {
-          "clue": "What makes a thing what it is; its core identity.",
-          "type": "Indirect",
-          "points": 5
+          "clue": "The inherent character or basic constitution of a person or thing.",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -100,9 +100,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "To further the progress of; encourage or advance.",
-          "type": "Straight",
-          "points": 2
+          "clue": "Like a salesperson, it means to help something become more popular.",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "It is often used when something is advertised.",
@@ -110,9 +110,9 @@
           "points": 3
         },
         {
-          "clue": "Like a salesperson, it means to help something become more popular.",
-          "type": "Indirect",
-          "points": 6
+          "clue": "To further the progress of; encourage or advance.",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -122,9 +122,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "A recording of moving visual images.",
-          "type": "Straight",
-          "points": 1
+          "clue": "What you watch to be entertained or informed, but without leaving your seat.",
+          "type": "Indirect",
+          "points": 5
         },
         {
           "clue": "Often viewed on YouTube.",
@@ -132,9 +132,9 @@
           "points": 3
         },
         {
-          "clue": "What you watch to be entertained or informed, but without leaving your seat.",
-          "type": "Indirect",
-          "points": 5
+          "clue": "A recording of moving visual images.",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -144,9 +144,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "A celestial body moving in an orbit around a star.",
-          "type": "Straight",
-          "points": 2
+          "clue": "The place where we all live, but not the only one in the sky.",
+          "type": "Indirect",
+          "points": 5
         },
         {
           "clue": "The Earth is one of these.",
@@ -154,9 +154,9 @@
           "points": 4
         },
         {
-          "clue": "The place where we all live, but not the only one in the sky.",
-          "type": "Indirect",
-          "points": 5
+          "clue": "A celestial body moving in an orbit around a star.",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -169,9 +169,9 @@
       ],
       "clues": [
         {
-          "clue": "A flat surface on which a straight line joining any two points would wholly lie.",
-          "type": "Straight",
-          "points": 1
+          "clue": "If the Earth isn't round, it might be this.",
+          "type": "Indirect",
+          "points": 7
         },
         {
           "clue": "A surface without curvature.",
@@ -179,9 +179,9 @@
           "points": 4
         },
         {
-          "clue": "If the Earth isn't round, it might be this.",
-          "type": "Indirect",
-          "points": 7
+          "clue": "A flat surface on which a straight line joining any two points would wholly lie.",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -191,9 +191,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "An assertion of something as a fact.",
-          "type": "Straight",
-          "points": 2
+          "clue": "Statements offered as truth, sometimes with little evidence.",
+          "type": "Indirect",
+          "points": 5
         },
         {
           "clue": "Often made in a courtroom.",
@@ -201,9 +201,9 @@
           "points": 3
         },
         {
-          "clue": "Statements offered as truth, sometimes with little evidence.",
-          "type": "Indirect",
-          "points": 5
+          "clue": "An assertion of something as a fact.",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -216,9 +216,9 @@
       ],
       "clues": [
         {
-          "clue": "A flat, circular plate.",
-          "type": "Straight",
-          "points": 1
+          "clue": "Picture a record, but not for music; it's a shape.",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "It's what a Flat Earther believes Earth to be.",
@@ -226,9 +226,9 @@
           "points": 4
         },
         {
-          "clue": "Picture a record, but not for music; it's a shape.",
-          "type": "Indirect",
-          "points": 6
+          "clue": "A flat, circular plate.",
+          "type": "Straight",
+          "points": 1
         }
       ]
     }

@@ -9,9 +9,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "A way to show feelings without speaking",
-          "type": "Straight",
-          "points": 1
+          "clue": "Silent expressions that speak volumes",
+          "type": "Indirect",
+          "points": 5
         },
         {
           "clue": "It can be a wave or a thumbs up",
@@ -19,9 +19,9 @@
           "points": 3
         },
         {
-          "clue": "Silent expressions that speak volumes",
-          "type": "Indirect",
-          "points": 5
+          "clue": "A way to show feelings without speaking",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -33,9 +33,9 @@
       ],
       "clues": [
         {
-          "clue": "A guide for those who are learning",
-          "type": "Straight",
-          "points": 2
+          "clue": "A role model who helps others find their path",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "Someone who provides valuable advice and support",
@@ -43,9 +43,9 @@
           "points": 3
         },
         {
-          "clue": "A role model who helps others find their path",
-          "type": "Indirect",
-          "points": 6
+          "clue": "A guide for those who are learning",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -57,9 +57,9 @@
       ],
       "clues": [
         {
-          "clue": "Those who attend school or classes",
-          "type": "Straight",
-          "points": 1
+          "clue": "The future of our world, shaping and learning",
+          "type": "Indirect",
+          "points": 5
         },
         {
           "clue": "Young minds eager to learn and grow",
@@ -67,9 +67,9 @@
           "points": 3
         },
         {
-          "clue": "The future of our world, shaping and learning",
-          "type": "Indirect",
-          "points": 5
+          "clue": "Those who attend school or classes",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -79,9 +79,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "A recognition for outstanding achievement",
-          "type": "Straight",
-          "points": 2
+          "clue": "A symbol of appreciation that shines brightly",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "Something given to honor a person's work",
@@ -89,9 +89,9 @@
           "points": 4
         },
         {
-          "clue": "A symbol of appreciation that shines brightly",
-          "type": "Indirect",
-          "points": 6
+          "clue": "A recognition for outstanding achievement",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -101,9 +101,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "An automatic response to a stimulus",
-          "type": "Straight",
-          "points": 2
+          "clue": "A spontaneous action that reveals our true selves",
+          "type": "Indirect",
+          "points": 7
         },
         {
           "clue": "A reaction that happens without much thought",
@@ -111,9 +111,9 @@
           "points": 4
         },
         {
-          "clue": "A spontaneous action that reveals our true selves",
-          "type": "Indirect",
-          "points": 7
+          "clue": "An automatic response to a stimulus",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -123,9 +123,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "Moving forward, step by step",
-          "type": "Straight",
-          "points": 1
+          "clue": "The path unwinds, and growth is revealed",
+          "type": "Indirect",
+          "points": 5
         },
         {
           "clue": "A journey towards a goal, with each step forward",
@@ -133,9 +133,9 @@
           "points": 3
         },
         {
-          "clue": "The path unwinds, and growth is revealed",
-          "type": "Indirect",
-          "points": 5
+          "clue": "Moving forward, step by step",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -145,9 +145,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "A machine that processes information",
-          "type": "Straight",
-          "points": 1
+          "clue": "A device that connects us to the digital world",
+          "type": "Indirect",
+          "points": 5
         },
         {
           "clue": "A tool used for work, play, and learning",
@@ -155,9 +155,9 @@
           "points": 3
         },
         {
-          "clue": "A device that connects us to the digital world",
-          "type": "Indirect",
-          "points": 5
+          "clue": "A machine that processes information",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -167,9 +167,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "Talks given to a group of students",
-          "type": "Straight",
-          "points": 2
+          "clue": "A platform for ideas to unfold and grow",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "A way to share knowledge and inspire minds",
@@ -177,9 +177,9 @@
           "points": 4
         },
         {
-          "clue": "A platform for ideas to unfold and grow",
-          "type": "Indirect",
-          "points": 6
+          "clue": "Talks given to a group of students",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -189,9 +189,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "A feeling of thanks and appreciation",
-          "type": "Straight",
-          "points": 2
+          "clue": "A treasure that we often forget to express",
+          "type": "Indirect",
+          "points": 7
         },
         {
           "clue": "A positive emotion that warms the heart",
@@ -199,9 +199,9 @@
           "points": 4
         },
         {
-          "clue": "A treasure that we often forget to express",
-          "type": "Indirect",
-          "points": 7
+          "clue": "A feeling of thanks and appreciation",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -211,9 +211,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "The state of being present somewhere",
-          "type": "Straight",
-          "points": 1
+          "clue": "A gift that can make a significant difference",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "A sense of being that can be felt by others",
@@ -221,9 +221,9 @@
           "points": 3
         },
         {
-          "clue": "A gift that can make a significant difference",
-          "type": "Indirect",
-          "points": 6
+          "clue": "The state of being present somewhere",
+          "type": "Straight",
+          "points": 1
         }
       ]
     }

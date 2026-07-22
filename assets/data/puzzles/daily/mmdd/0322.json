@@ -12,9 +12,9 @@
       ],
       "clues": [
         {
-          "clue": "A person who creates written content, often for entertainment or education.",
-          "type": "Straight",
-          "points": 1
+          "clue": "The 'scribe' of modern times, weaving tales that transport us to new worlds and perspectives.",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "This occupation involves expressing thoughts and ideas through the written word, often with the goal of engaging an audience.",
@@ -22,9 +22,9 @@
           "points": 3
         },
         {
-          "clue": "The 'scribe' of modern times, weaving tales that transport us to new worlds and perspectives.",
-          "type": "Indirect",
-          "points": 6
+          "clue": "A person who creates written content, often for entertainment or education.",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -37,9 +37,9 @@
       ],
       "clues": [
         {
-          "clue": "A narrative that is told or written, often featuring characters and a plot.",
-          "type": "Straight",
-          "points": 1
+          "clue": "The whispered secrets of the past, the fantasies of the present, and the dreams of the future.",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "These are the threads that weave together to form a larger tapestry of human experience.",
@@ -47,9 +47,9 @@
           "points": 3
         },
         {
-          "clue": "The whispered secrets of the past, the fantasies of the present, and the dreams of the future.",
-          "type": "Indirect",
-          "points": 6
+          "clue": "A narrative that is told or written, often featuring characters and a plot.",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -62,9 +62,9 @@
       ],
       "clues": [
         {
-          "clue": "A group of items or works gathered together, often for display or publication.",
-          "type": "Straight",
-          "points": 1
+          "clue": "A compilation of tales, each one a window into the soul of its creator.",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "This can be a treasure trove of artistic expression, showcasing the diversity of human creativity.",
@@ -72,9 +72,9 @@
           "points": 3
         },
         {
-          "clue": "A compilation of tales, each one a window into the soul of its creator.",
-          "type": "Indirect",
-          "points": 6
+          "clue": "A group of items or works gathered together, often for display or publication.",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -84,9 +84,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "Showing courage or confidence in one's actions or words.",
-          "type": "Straight",
-          "points": 1
+          "clue": "A dash of fearlessness, a pinch of creativity, and a whole lot of heart – the recipe for something truly remarkable.",
+          "type": "Indirect",
+          "points": 5
         },
         {
           "clue": "This quality is often admired in leaders and artists, as it allows them to take risks and push boundaries.",
@@ -94,9 +94,9 @@
           "points": 3
         },
         {
-          "clue": "A dash of fearlessness, a pinch of creativity, and a whole lot of heart – the recipe for something truly remarkable.",
-          "type": "Indirect",
-          "points": 5
+          "clue": "Showing courage or confidence in one's actions or words.",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -106,9 +106,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "The quality of being delicate and subtle in character or appearance.",
-          "type": "Straight",
-          "points": 1
+          "clue": "A whispered promise, a hint of smoke, a shadow on the wall – the subtlety of life's mysteries.",
+          "type": "Indirect",
+          "points": 7
         },
         {
           "clue": "This trait is often prized in art and literature, as it allows for nuance and depth.",
@@ -116,9 +116,9 @@
           "points": 3
         },
         {
-          "clue": "A whispered promise, a hint of smoke, a shadow on the wall – the subtlety of life's mysteries.",
-          "type": "Indirect",
-          "points": 7
+          "clue": "The quality of being delicate and subtle in character or appearance.",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -128,9 +128,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "A person responsible for reviewing and revising written content.",
-          "type": "Straight",
-          "points": 1
+          "clue": "The guardian of grammar, the referee of rhetoric, and the surgeon of sentences.",
+          "type": "Indirect",
+          "points": 5
         },
         {
           "clue": "This professional plays a crucial role in shaping the final product, ensuring clarity and coherence.",
@@ -138,9 +138,9 @@
           "points": 3
         },
         {
-          "clue": "The guardian of grammar, the referee of rhetoric, and the surgeon of sentences.",
-          "type": "Indirect",
-          "points": 5
+          "clue": "A person responsible for reviewing and revising written content.",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -150,9 +150,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "Written works, especially those considered to be of superior or lasting artistic merit.",
-          "type": "Straight",
-          "points": 1
+          "clue": "A world of words, where imagination knows no bounds and the human experience is laid bare.",
+          "type": "Indirect",
+          "points": 5
         },
         {
           "clue": "This realm of human expression encompasses a vast array of genres, styles, and themes.",
@@ -160,9 +160,9 @@
           "points": 3
         },
         {
-          "clue": "A world of words, where imagination knows no bounds and the human experience is laid bare.",
-          "type": "Indirect",
-          "points": 5
+          "clue": "Written works, especially those considered to be of superior or lasting artistic merit.",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -172,9 +172,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "A group of people who gather to watch or listen to a performance or presentation.",
-          "type": "Straight",
-          "points": 1
+          "clue": "A sea of faces, each one a unique universe of thoughts and emotions, waiting to be connected with.",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "This collective entity can be influenced, persuaded, or entertained by the right combination of words and ideas.",
@@ -182,9 +182,9 @@
           "points": 3
         },
         {
-          "clue": "A sea of faces, each one a unique universe of thoughts and emotions, waiting to be connected with.",
-          "type": "Indirect",
-          "points": 6
+          "clue": "A group of people who gather to watch or listen to a performance or presentation.",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -194,9 +194,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "A period of 365 days, or 366 in a leap year.",
-          "type": "Straight",
-          "points": 1
+          "clue": "A cycle of seasons, a rhythm of life, a chapter in the grand story of human existence.",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "This unit of time is often used to measure progress, growth, and change.",
@@ -204,9 +204,9 @@
           "points": 3
         },
         {
-          "clue": "A cycle of seasons, a rhythm of life, a chapter in the grand story of human existence.",
-          "type": "Indirect",
-          "points": 6
+          "clue": "A period of 365 days, or 366 in a leap year.",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -216,9 +216,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "An award or honor given in recognition of achievement or merit.",
-          "type": "Straight",
-          "points": 1
+          "clue": "A golden trophy, a shining star, a beacon of recognition that illuminates the path to success.",
+          "type": "Indirect",
+          "points": 5
         },
         {
           "clue": "This symbol of excellence can serve as a powerful motivator, driving individuals to strive for greatness.",
@@ -226,9 +226,9 @@
           "points": 3
         },
         {
-          "clue": "A golden trophy, a shining star, a beacon of recognition that illuminates the path to success.",
-          "type": "Indirect",
-          "points": 5
+          "clue": "An award or honor given in recognition of achievement or merit.",
+          "type": "Straight",
+          "points": 1
         }
       ]
     }

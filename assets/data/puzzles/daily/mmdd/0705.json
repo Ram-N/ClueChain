@@ -9,6 +9,11 @@
       "related_words": [],
       "clues": [
         {
+          "clue": "These are often used to gauge one's aptitude, much like a quiz or exam, but they can sometimes be more involved.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
           "clue": "They are designed to assess a person's abilities or knowledge.",
           "type": "Suggestive",
           "points": 4
@@ -17,11 +22,6 @@
           "clue": "A series of questions or exercises.",
           "type": "Straight",
           "points": 1
-        },
-        {
-          "clue": "These are often used to gauge one's aptitude, much like a quiz or exam, but they can sometimes be more involved.",
-          "type": "Indirect",
-          "points": 6
         }
       ]
     },
@@ -31,9 +31,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "A numerical value that represents performance.",
-          "type": "Straight",
-          "points": 1
+          "clue": "The final tally, the sum, the result; the thing you want to be high.",
+          "type": "Indirect",
+          "points": 5
         },
         {
           "clue": "It's what you aim to improve when practicing or studying.",
@@ -41,9 +41,9 @@
           "points": 3
         },
         {
-          "clue": "The final tally, the sum, the result; the thing you want to be high.",
-          "type": "Indirect",
-          "points": 5
+          "clue": "A numerical value that represents performance.",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -53,9 +53,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "In a way that is very favorable or complimentary.",
-          "type": "Straight",
-          "points": 2
+          "clue": "It's how you might describe a successful business or a well-regarded individual.",
+          "type": "Indirect",
+          "points": 5
         },
         {
           "clue": "Often used to describe a strong degree or extent.",
@@ -63,9 +63,9 @@
           "points": 3
         },
         {
-          "clue": "It's how you might describe a successful business or a well-regarded individual.",
-          "type": "Indirect",
-          "points": 5
+          "clue": "In a way that is very favorable or complimentary.",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -75,9 +75,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "To estimate or forecast a future event.",
-          "type": "Straight",
-          "points": 2
+          "clue": "Like a fortune teller, but using data and trends, you might try to do this.",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "Used to describe what might happen in the future.",
@@ -85,9 +85,9 @@
           "points": 4
         },
         {
-          "clue": "Like a fortune teller, but using data and trends, you might try to do this.",
-          "type": "Indirect",
-          "points": 6
+          "clue": "To estimate or forecast a future event.",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -97,9 +97,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "The process of taking into consideration or making adjustments.",
-          "type": "Straight",
-          "points": 2
+          "clue": "This term is used when figuring out the impact of something on a situation. It's about weighing different factors.",
+          "type": "Indirect",
+          "points": 7
         },
         {
           "clue": "Managing financial records, or more broadly, taking something into consideration.",
@@ -107,9 +107,9 @@
           "points": 4
         },
         {
-          "clue": "This term is used when figuring out the impact of something on a situation. It's about weighing different factors.",
-          "type": "Indirect",
-          "points": 7
+          "clue": "The process of taking into consideration or making adjustments.",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -119,9 +119,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "Elements that contribute to a result.",
-          "type": "Straight",
-          "points": 1
+          "clue": "The ingredients of a recipe, the variables in an equation, or the elements that shape a situation.",
+          "type": "Indirect",
+          "points": 5
         },
         {
           "clue": "Elements that influence an outcome.",
@@ -129,9 +129,9 @@
           "points": 3
         },
         {
-          "clue": "The ingredients of a recipe, the variables in an equation, or the elements that shape a situation.",
-          "type": "Indirect",
-          "points": 5
+          "clue": "Elements that contribute to a result.",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -141,9 +141,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "Used to introduce a statement that contrasts with something that has already been said.",
-          "type": "Straight",
-          "points": 1
+          "clue": "It's the bridge that connects two thoughts, often signaling a shift in direction or a differing view.",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "It can introduce a contrasting point or idea.",
@@ -151,9 +151,9 @@
           "points": 3
         },
         {
-          "clue": "It's the bridge that connects two thoughts, often signaling a shift in direction or a differing view.",
-          "type": "Indirect",
-          "points": 6
+          "clue": "Used to introduce a statement that contrasts with something that has already been said.",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -163,9 +163,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "Conforming to a standard; usual or typical.",
-          "type": "Straight",
-          "points": 2
+          "clue": "It's the state of being average, the expected, or the typical. Like the number of fingers on a hand.",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "Often used to describe something that is typical or expected.",
@@ -173,9 +173,9 @@
           "points": 3
         },
         {
-          "clue": "It's the state of being average, the expected, or the typical. Like the number of fingers on a hand.",
-          "type": "Indirect",
-          "points": 6
+          "clue": "Conforming to a standard; usual or typical.",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -185,6 +185,11 @@
       "related_words": [],
       "clues": [
         {
+          "clue": "Like the spreading of seeds or the division of resources, this describes how things are allocated or arranged.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
           "clue": "A way of arranging things or people.",
           "type": "Suggestive",
           "points": 4
@@ -193,11 +198,6 @@
           "clue": "The way in which something is spread out or arranged over a given area or space.",
           "type": "Straight",
           "points": 2
-        },
-        {
-          "clue": "Like the spreading of seeds or the division of resources, this describes how things are allocated or arranged.",
-          "type": "Indirect",
-          "points": 7
         }
       ]
     },
@@ -207,9 +207,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "Connected or linked to something else.",
-          "type": "Straight",
-          "points": 2
+          "clue": "It's what we do with things and ideas when we think about them together, like cause and effect.",
+          "type": "Indirect",
+          "points": 5
         },
         {
           "clue": "Frequently found together or connected in some way.",
@@ -217,9 +217,9 @@
           "points": 3
         },
         {
-          "clue": "It's what we do with things and ideas when we think about them together, like cause and effect.",
-          "type": "Indirect",
-          "points": 5
+          "clue": "Connected or linked to something else.",
+          "type": "Straight",
+          "points": 2
         }
       ]
     }

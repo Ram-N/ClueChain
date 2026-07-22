@@ -1,7 +1,7 @@
 {
-  "title": "JD Vance \u2014 Munich Security Conference",
+  "title": "JD Vance — Munich Security Conference",
   "date": "11-01",
-  "text": "Title: JD Vance \u2014 Munich Security Conference\n\nIn his February 2025 speech at the Munich Security Conference (MSC), partially due to what he said were examples in Romania, England, Scotland, and Germany, Vance called \"the threat from within\" his biggest concern in terms of security for Europe, \"not Russia, not China\". Some media outlets regarded the speech as a turning point in European Union\u2013United States relations along with President Trump's telephone conversation with President of Russia Vladimir Putin. Some called it a declaration of \"ideological war\" and \"culture war\" against the United States' European allies and a \"wrecking ball\" to the decades-long status quo of transatlantic relations.",
+  "text": "Title: JD Vance — Munich Security Conference\n\nIn his February 2025 speech at the Munich Security Conference (MSC), partially due to what he said were examples in Romania, England, Scotland, and Germany, Vance called \"the threat from within\" his biggest concern in terms of security for Europe, \"not Russia, not China\". Some media outlets regarded the speech as a turning point in European Union–United States relations along with President Trump's telephone conversation with President of Russia Vladimir Putin. Some called it a declaration of \"ideological war\" and \"culture war\" against the United States' European allies and a \"wrecking ball\" to the decades-long status quo of transatlantic relations.",
   "hiddenWords": [
     {
       "word": "examples",
@@ -9,9 +9,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "A teacher uses these to illustrate a concept.",
-          "type": "Straight",
-          "points": 1
+          "clue": "Life is full of these, but can you learn from them?",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "Instances that demonstrate a point or principle.",
@@ -19,9 +19,9 @@
           "points": 3
         },
         {
-          "clue": "Life is full of these, but can you learn from them?",
-          "type": "Indirect",
-          "points": 6
+          "clue": "A teacher uses these to illustrate a concept.",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -34,9 +34,9 @@
       ],
       "clues": [
         {
-          "clue": "Friends in time of need, or in battle.",
-          "type": "Straight",
-          "points": 2
+          "clue": "Together they stand, but what happens when they fall?",
+          "type": "Indirect",
+          "points": 5
         },
         {
           "clue": "Nations that cooperate for mutual benefit or defense.",
@@ -44,9 +44,9 @@
           "points": 4
         },
         {
-          "clue": "Together they stand, but what happens when they fall?",
-          "type": "Indirect",
-          "points": 5
+          "clue": "Friends in time of need, or in battle.",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -59,9 +59,9 @@
       ],
       "clues": [
         {
-          "clue": "A state of armed conflict between nations or states.",
-          "type": "Straight",
-          "points": 1
+          "clue": "Armed conflict between nations or groups, often involving military force.",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "A period of hostility or conflict, often involving military action.",
@@ -69,9 +69,9 @@
           "points": 3
         },
         {
-          "clue": "Armed conflict between nations or groups, often involving military force.",
-          "type": "Indirect",
-          "points": 6
+          "clue": "A state of armed conflict between nations or states.",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -84,9 +84,9 @@
       ],
       "clues": [
         {
-          "clue": "The way in which two or more people or groups interact.",
-          "type": "Straight",
-          "points": 2
+          "clue": "A delicate dance of power and influence.",
+          "type": "Indirect",
+          "points": 5
         },
         {
           "clue": "Connections or interactions between nations, organizations, or individuals.",
@@ -94,9 +94,9 @@
           "points": 4
         },
         {
-          "clue": "A delicate dance of power and influence.",
-          "type": "Indirect",
-          "points": 5
+          "clue": "The way in which two or more people or groups interact.",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -106,9 +106,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "A device used for real-time voice communication over a distance.",
-          "type": "Straight",
-          "points": 1
+          "clue": "Can you hear me now?",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "A common tool for remote conversations.",
@@ -116,9 +116,9 @@
           "points": 3
         },
         {
-          "clue": "Can you hear me now?",
-          "type": "Indirect",
-          "points": 6
+          "clue": "A device used for real-time voice communication over a distance.",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -128,9 +128,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "A feeling of worry or anxiety about something.",
-          "type": "Straight",
-          "points": 2
+          "clue": "What keeps you up at night?",
+          "type": "Indirect",
+          "points": 5
         },
         {
           "clue": "A matter that causes worry or apprehension.",
@@ -138,9 +138,9 @@
           "points": 4
         },
         {
-          "clue": "What keeps you up at night?",
-          "type": "Indirect",
-          "points": 5
+          "clue": "A feeling of worry or anxiety about something.",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -150,9 +150,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "A formal announcement or statement.",
-          "type": "Straight",
-          "points": 1
+          "clue": "The beginning of the end, or the end of the beginning?",
+          "type": "Indirect",
+          "points": 7
         },
         {
           "clue": "The act of making something known publicly.",
@@ -160,9 +160,9 @@
           "points": 3
         },
         {
-          "clue": "The beginning of the end, or the end of the beginning?",
-          "type": "Indirect",
-          "points": 7
+          "clue": "A formal announcement or statement.",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -172,9 +172,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "A period of ten years.",
-          "type": "Straight",
-          "points": 1
+          "clue": "Periods of ten years; long spans of time measured in multiples of ten.",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "A unit of time used to measure long periods.",
@@ -182,9 +182,9 @@
           "points": 3
         },
         {
-          "clue": "Periods of ten years; long spans of time measured in multiples of ten.",
-          "type": "Indirect",
-          "points": 6
+          "clue": "A period of ten years.",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -194,9 +194,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "The state or condition of something.",
-          "type": "Straight",
-          "points": 2
+          "clue": "The standing or rank of a person, organization, or thing in relation to others.",
+          "type": "Indirect",
+          "points": 5
         },
         {
           "clue": "A person's position or reputation in society.",
@@ -204,9 +204,9 @@
           "points": 4
         },
         {
-          "clue": "The standing or rank of a person, organization, or thing in relation to others.",
-          "type": "Indirect",
-          "points": 5
+          "clue": "The state or condition of something.",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -216,9 +216,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "The act of speaking, or a talk given to an audience.",
-          "type": "Straight",
-          "points": 1
+          "clue": "The power of words can change the world, but only if you speak up.",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "A formal address or oration.",
@@ -226,9 +226,9 @@
           "points": 3
         },
         {
-          "clue": "The power of words can change the world, but only if you speak up.",
-          "type": "Indirect",
-          "points": 6
+          "clue": "The act of speaking, or a talk given to an audience.",
+          "type": "Straight",
+          "points": 1
         }
       ]
     }

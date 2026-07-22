@@ -9,9 +9,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "A span of time",
-          "type": "Straight",
-          "points": 1
+          "clue": "When does a circle become a figure of time?",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "Length of time something lasts",
@@ -19,9 +19,9 @@
           "points": 3
         },
         {
-          "clue": "When does a circle become a figure of time?",
-          "type": "Indirect",
-          "points": 6
+          "clue": "A span of time",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -33,9 +33,9 @@
       ],
       "clues": [
         {
-          "clue": "A complete rotation around a central point",
-          "type": "Straight",
-          "points": 2
+          "clue": "What happens when the wheel turns full circle?",
+          "type": "Indirect",
+          "points": 5
         },
         {
           "clue": "Changes that occur over time in a system",
@@ -43,9 +43,9 @@
           "points": 4
         },
         {
-          "clue": "What happens when the wheel turns full circle?",
-          "type": "Indirect",
-          "points": 5
+          "clue": "A complete rotation around a central point",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -55,9 +55,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "How far something is from another thing",
-          "type": "Straight",
-          "points": 1
+          "clue": "What do you call the space between two points?",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "A measure of how far apart objects are",
@@ -65,9 +65,9 @@
           "points": 3
         },
         {
-          "clue": "What do you call the space between two points?",
-          "type": "Indirect",
-          "points": 6
+          "clue": "How far something is from another thing",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -80,9 +80,9 @@
       ],
       "clues": [
         {
-          "clue": "Parts that make up a whole system",
-          "type": "Straight",
-          "points": 2
+          "clue": "What are the building blocks of a complex thing?",
+          "type": "Indirect",
+          "points": 5
         },
         {
           "clue": "Elements that work together to form something",
@@ -90,9 +90,9 @@
           "points": 4
         },
         {
-          "clue": "What are the building blocks of a complex thing?",
-          "type": "Indirect",
-          "points": 5
+          "clue": "Parts that make up a whole system",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -104,9 +104,9 @@
       ],
       "clues": [
         {
-          "clue": "The quality of giving off light",
-          "type": "Straight",
-          "points": 1
+          "clue": "What makes the stars twinkle in the night sky?",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "A measure of how much light is emitted",
@@ -114,9 +114,9 @@
           "points": 3
         },
         {
-          "clue": "What makes the stars twinkle in the night sky?",
-          "type": "Indirect",
-          "points": 6
+          "clue": "The quality of giving off light",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -126,9 +126,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "Instruments for observing distant objects",
-          "type": "Straight",
-          "points": 2
+          "clue": "What helps us see beyond the reach of our eyes?",
+          "type": "Indirect",
+          "points": 5
         },
         {
           "clue": "Tools used to study the universe",
@@ -136,9 +136,9 @@
           "points": 4
         },
         {
-          "clue": "What helps us see beyond the reach of our eyes?",
-          "type": "Indirect",
-          "points": 5
+          "clue": "Instruments for observing distant objects",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -148,9 +148,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "Figured out using numbers and math",
-          "type": "Straight",
-          "points": 2
+          "clue": "What is the result of adding up all the pieces?",
+          "type": "Indirect",
+          "points": 7
         },
         {
           "clue": "Determined using calculations and data",
@@ -158,9 +158,9 @@
           "points": 4
         },
         {
-          "clue": "What is the result of adding up all the pieces?",
-          "type": "Indirect",
-          "points": 7
+          "clue": "Figured out using numbers and math",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -170,9 +170,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "Not completely sure or confident",
-          "type": "Straight",
-          "points": 2
+          "clue": "A state of mind like a cloudy day",
+          "type": "Indirect",
+          "points": 7
         },
         {
           "clue": "Lacking clarity or definiteness",
@@ -180,9 +180,9 @@
           "points": 4
         },
         {
-          "clue": "A state of mind like a cloudy day",
-          "type": "Indirect",
-          "points": 7
+          "clue": "Not completely sure or confident",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -192,9 +192,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "A large, but indefinite number",
-          "type": "Straight",
-          "points": 2
+          "clue": "What is the opposite of a single, solitary thing?",
+          "type": "Indirect",
+          "points": 5
         },
         {
           "clue": "Many, but not necessarily a specific count",
@@ -202,9 +202,9 @@
           "points": 4
         },
         {
-          "clue": "What is the opposite of a single, solitary thing?",
-          "type": "Indirect",
-          "points": 5
+          "clue": "A large, but indefinite number",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -214,9 +214,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "To support or approve of something",
-          "type": "Straight",
-          "points": 2
+          "clue": "What tips the scales in one direction?",
+          "type": "Indirect",
+          "points": 7
         },
         {
           "clue": "A decision or judgment that is made",
@@ -224,9 +224,9 @@
           "points": 4
         },
         {
-          "clue": "What tips the scales in one direction?",
-          "type": "Indirect",
-          "points": 7
+          "clue": "To support or approve of something",
+          "type": "Straight",
+          "points": 2
         }
       ]
     }

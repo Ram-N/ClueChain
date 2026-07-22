@@ -1,232 +1,232 @@
 {
-  "title": "Rhythm — Counter rhythm",
+  "title": "An experiment for students to grasp by lessons",
   "date": "05-31",
-  "text": "From 1927 and forward the recognized definition of \"Counter Rhythm\" is \"A subordinate rhythm acting as a counterbalance to the main rhythm\" (OED). Counter Rhythm is not a common word or phrase in the English Language, appearing approximately 0.01 times per million words in modern written English. Counter Rhythm has been on a steady decrease in usage since its conception, with the exception of a spike in usage in the 1970s. Previous definitions that have been phased out include, \"The musical counter-rhythms which Marlowe introduced\" and \"Splashes of counter-rhythms, flashing tremolos\" (OED).",
+  "text": "Title: An experiment for students to grasp by lessons\nI needed a way to gauge students’ understanding before it was too late. I could have given regular quizzes to assess where they were in their learning. But what I really wanted to test was my own teaching methods, and I was looking for a low-pressure way to invite feedback. So, soon after I became a chemistry instructor, I started to experiment with the index cards. After each lecture, I would collect them and identify the topics with the most yellow and red comments.\n\nThe distribution of colors—what I refer to as “traffic signals”—was eye opening. Concepts I thought were straightforward showed an unexpected mix of yellow and red. For the first time, I had a snapshot of comprehension across the class, and it quickly transformed how I taught.",
   "hiddenWords": [
     {
-      "word": "subordinate",
+      "word": "gauge",
       "difficulty": "Intermediate",
       "related_words": [],
       "clues": [
         {
-          "clue": "In a lower rank, it follows the leader",
+          "clue": "A tool to measure the size of something",
           "type": "Indirect",
           "points": 6
         },
         {
-          "clue": "A secondary role in a hierarchy",
+          "clue": "Used to assess progress or performance",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "Lower in rank or position",
+          "clue": "A measuring instrument",
           "type": "Straight",
           "points": 1
         }
       ]
     },
     {
-      "word": "counterbalance",
+      "word": "chemistry",
       "difficulty": "Hard",
-      "related_words": [],
+      "related_words": [
+        "instructor"
+      ],
       "clues": [
         {
-          "clue": "A delicate dance of opposing forces, in perfect harmony",
+          "clue": "A field that studies the building blocks of matter",
           "type": "Indirect",
           "points": 7
         },
         {
-          "clue": "A weight that offsets another",
+          "clue": "A science that deals with reactions and compounds",
           "type": "Suggestive",
           "points": 4
         },
         {
-          "clue": "Something that balances another",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "musical",
-      "difficulty": "Easy",
-      "related_words": [
-        "tremolos"
-      ],
-      "clues": [
-        {
-          "clue": "Like a melody that touches the heart",
-          "type": "Indirect",
-          "points": 5
-        },
-        {
-          "clue": "Relating to sound or music",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "Pertaining to music",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "tremolos",
-      "difficulty": "Hard",
-      "related_words": [
-        "musical"
-      ],
-      "clues": [
-        {
-          "clue": "A wavering effect, like ripples on a pond",
-          "type": "Indirect",
-          "points": 6
-        },
-        {
-          "clue": "A musical effect of rapid repetition",
-          "type": "Suggestive",
-          "points": 4
-        },
-        {
-          "clue": "A musical term for a trembling sound",
+          "clue": "The study of elements and their interactions",
           "type": "Straight",
           "points": 2
         }
       ]
     },
     {
-      "word": "conception",
+      "word": "instructor",
       "difficulty": "Intermediate",
-      "related_words": [],
+      "related_words": [
+        "chemistry"
+      ],
       "clues": [
         {
-          "clue": "The birth of an idea, like a spark in the mind",
-          "type": "Indirect",
-          "points": 6
-        },
-        {
-          "clue": "The process of forming an idea",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "The origin or starting point of something",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "introduced",
-      "difficulty": "Easy",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "Like a guest at a party, making a first impression",
+          "clue": "Someone who teaches or guides others",
           "type": "Indirect",
           "points": 5
         },
         {
-          "clue": "Brought into a place or situation",
+          "clue": "A person who imparts knowledge or skills",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "Presented or brought in",
+          "clue": "A teacher or educator",
           "type": "Straight",
           "points": 1
         }
       ]
     },
     {
-      "word": "phased",
-      "difficulty": "Intermediate",
+      "word": "distribution",
+      "difficulty": "Hard",
       "related_words": [],
       "clues": [
         {
-          "clue": "Like a moon changing shape, it evolves over time",
+          "clue": "The way things are spread out or arranged",
           "type": "Indirect",
           "points": 6
         },
         {
-          "clue": "Carried out or done in stages",
+          "clue": "A pattern of allocation or dispersal",
           "type": "Suggestive",
           "points": 4
         },
         {
-          "clue": "Done or happening in stages",
+          "clue": "The act of giving out or supplying something",
           "type": "Straight",
           "points": 2
         }
       ]
     },
     {
-      "word": "exception",
+      "word": "signals",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Indications or warnings",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Something that conveys information or meaning",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A sign or indication",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "concepts",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Abstract ideas or notions",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Mental representations or understandings",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Ideas or principles",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "transformed",
       "difficulty": "Hard",
       "related_words": [],
       "clues": [
         {
-          "clue": "A rule-breaker, standing out from the crowd",
+          "clue": "Changed completely in form or nature",
           "type": "Indirect",
           "points": 7
         },
         {
-          "clue": "A person or thing that does not conform",
+          "clue": "Altered or modified in some way",
           "type": "Suggestive",
           "points": 4
         },
         {
-          "clue": "A case that does not follow a general rule",
+          "clue": "Changed into something different",
           "type": "Straight",
           "points": 2
         }
       ]
     },
     {
-      "word": "decrease",
+      "word": "comprehension",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The act of understanding something",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "The ability to grasp or interpret information",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "The state of being able to understand",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "snapshot",
       "difficulty": "Easy",
       "related_words": [],
       "clues": [
         {
-          "clue": "Like a fading light, it grows smaller",
+          "clue": "A brief look or glimpse",
           "type": "Indirect",
           "points": 5
         },
         {
-          "clue": "To become or make something smaller",
+          "clue": "A photograph or image",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "To make or become less",
+          "clue": "A brief summary or overview",
           "type": "Straight",
           "points": 1
         }
       ]
     },
     {
-      "word": "recognized",
+      "word": "feedback",
       "difficulty": "Intermediate",
       "related_words": [],
       "clues": [
         {
-          "clue": "A badge of honor, a symbol of acceptance",
+          "clue": "Information or comments given in response",
           "type": "Indirect",
           "points": 6
         },
         {
-          "clue": "Acknowledged or accepted as valid",
+          "clue": "A reaction or response to something",
           "type": "Suggestive",
           "points": 4
         },
         {
-          "clue": "Officially accepted or approved",
+          "clue": "A response or evaluation",
           "type": "Straight",
           "points": 2
         }
       ]
     }
   ],
-  "id": "ClueChain-2026-05-31"
+  "id": "ClueChain-2026-01-01"
 }

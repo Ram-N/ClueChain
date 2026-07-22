@@ -9,9 +9,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "It's the initial one, the beginning, the start.",
-          "type": "Straight",
-          "points": 1
+          "clue": "Before the second, the very dawn of a sequence.",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "It can be a number, or it can be a feeling, like the beginning of something.",
@@ -19,9 +19,9 @@
           "points": 4
         },
         {
-          "clue": "Before the second, the very dawn of a sequence.",
-          "type": "Indirect",
-          "points": 6
+          "clue": "It's the initial one, the beginning, the start.",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -31,9 +31,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "Acknowledged or recognized.",
-          "type": "Straight",
-          "points": 2
+          "clue": "What is widely understood, but sometimes, what remains a mystery.",
+          "type": "Indirect",
+          "points": 5
         },
         {
           "clue": "Something that is familiar or widely accepted.",
@@ -41,9 +41,9 @@
           "points": 3
         },
         {
-          "clue": "What is widely understood, but sometimes, what remains a mystery.",
-          "type": "Indirect",
-          "points": 5
+          "clue": "Acknowledged or recognized.",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -53,9 +53,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "To put into effect, or to make use of something for a specific purpose.",
-          "type": "Straight",
-          "points": 2
+          "clue": "Consider it like a painter with a brush, but instead of paint, you're using a concept or a term.",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "It is what one does to a principle or a rule.",
@@ -63,9 +63,9 @@
           "points": 4
         },
         {
-          "clue": "Consider it like a painter with a brush, but instead of paint, you're using a concept or a term.",
-          "type": "Indirect",
-          "points": 6
+          "clue": "To put into effect, or to make use of something for a specific purpose.",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -75,9 +75,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "A piece of writing published in a newspaper or magazine.",
-          "type": "Straight",
-          "points": 1
+          "clue": "A collection of words, often with a title, meant to inform or persuade.",
+          "type": "Indirect",
+          "points": 5
         },
         {
           "clue": "It can be found in a journal or a periodical.",
@@ -85,9 +85,9 @@
           "points": 3
         },
         {
-          "clue": "A collection of words, often with a title, meant to inform or persuade.",
-          "type": "Indirect",
-          "points": 5
+          "clue": "A piece of writing published in a newspaper or magazine.",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -97,9 +97,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "Eager to know or learn something.",
-          "type": "Straight",
-          "points": 2
+          "clue": "It's what the cat did, and what the mind becomes when presented with the unknown.",
+          "type": "Indirect",
+          "points": 5
         },
         {
           "clue": "When you have a strong desire to know or learn something.",
@@ -107,9 +107,9 @@
           "points": 4
         },
         {
-          "clue": "It's what the cat did, and what the mind becomes when presented with the unknown.",
-          "type": "Indirect",
-          "points": 5
+          "clue": "Eager to know or learn something.",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -119,9 +119,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "Zero, or the absence of anything.",
-          "type": "Straight",
-          "points": 1
+          "clue": "A void, a blank, the state of not having anything at all.",
+          "type": "Indirect",
+          "points": 7
         },
         {
           "clue": "This is what you get when you add zero to anything.",
@@ -129,9 +129,9 @@
           "points": 3
         },
         {
-          "clue": "A void, a blank, the state of not having anything at all.",
-          "type": "Indirect",
-          "points": 7
+          "clue": "Zero, or the absence of anything.",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -141,9 +141,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "A word that describes a noun.",
-          "type": "Straight",
-          "points": 1
+          "clue": "It adds color and detail, painting a picture with words, but it is not a verb.",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "It modifies or describes a person, place, thing, or idea.",
@@ -151,9 +151,9 @@
           "points": 4
         },
         {
-          "clue": "It adds color and detail, painting a picture with words, but it is not a verb.",
-          "type": "Indirect",
-          "points": 6
+          "clue": "A word that describes a noun.",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -163,9 +163,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "Showing or pointing out something.",
-          "type": "Straight",
-          "points": 2
+          "clue": "It's the act of giving a hint or a clue, directing attention to something specific.",
+          "type": "Indirect",
+          "points": 5
         },
         {
           "clue": "This is what a sign does; it points to something.",
@@ -173,9 +173,9 @@
           "points": 3
         },
         {
-          "clue": "It's the act of giving a hint or a clue, directing attention to something specific.",
-          "type": "Indirect",
-          "points": 5
+          "clue": "Showing or pointing out something.",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -185,9 +185,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "Worthy of attention or notice.",
-          "type": "Straight",
-          "points": 2
+          "clue": "It is the opposite of forgettable, what makes you take a second look.",
+          "type": "Indirect",
+          "points": 7
         },
         {
           "clue": "Something that stands out.",
@@ -195,9 +195,9 @@
           "points": 3
         },
         {
-          "clue": "It is the opposite of forgettable, what makes you take a second look.",
-          "type": "Indirect",
-          "points": 7
+          "clue": "Worthy of attention or notice.",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -207,9 +207,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "Relating to or derived from living matter.",
-          "type": "Straight",
-          "points": 2
+          "clue": "It's the basis of life as we know it, a building block of living things.",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "Often used to describe something grown without artificial chemicals.",
@@ -217,9 +217,9 @@
           "points": 4
         },
         {
-          "clue": "It's the basis of life as we know it, a building block of living things.",
-          "type": "Indirect",
-          "points": 6
+          "clue": "Relating to or derived from living matter.",
+          "type": "Straight",
+          "points": 2
         }
       ]
     }

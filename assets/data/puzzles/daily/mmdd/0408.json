@@ -12,9 +12,9 @@
       ],
       "clues": [
         {
-          "clue": "A star at the center of our solar system",
-          "type": "Straight",
-          "points": 1
+          "clue": "A fiery ball of hot, glowing gas, without which life would not thrive",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "It rises in the east and sets in the west",
@@ -22,9 +22,9 @@
           "points": 3
         },
         {
-          "clue": "A fiery ball of hot, glowing gas, without which life would not thrive",
-          "type": "Indirect",
-          "points": 6
+          "clue": "A star at the center of our solar system",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -37,9 +37,9 @@
       ],
       "clues": [
         {
-          "clue": "An imaginary line that divides the earth into two hemispheres",
-          "type": "Straight",
-          "points": 2
+          "clue": "A line that is equidistant from the poles, where the days are always roughly equal in length",
+          "type": "Indirect",
+          "points": 7
         },
         {
           "clue": "It passes through countries near the middle of the earth",
@@ -47,9 +47,9 @@
           "points": 4
         },
         {
-          "clue": "A line that is equidistant from the poles, where the days are always roughly equal in length",
-          "type": "Indirect",
-          "points": 7
+          "clue": "An imaginary line that divides the earth into two hemispheres",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -62,9 +62,9 @@
       ],
       "clues": [
         {
-          "clue": "The act of turning around a central point",
-          "type": "Straight",
-          "points": 2
+          "clue": "A fundamental concept in physics, describing the motion of objects around a central axis",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "It is measured in periods, such as days or years",
@@ -72,9 +72,9 @@
           "points": 3
         },
         {
-          "clue": "A fundamental concept in physics, describing the motion of objects around a central axis",
-          "type": "Indirect",
-          "points": 6
+          "clue": "The act of turning around a central point",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -84,9 +84,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "Requiring careful handling",
-          "type": "Straight",
-          "points": 1
+          "clue": "Like a flower, needing gentle care to survive",
+          "type": "Indirect",
+          "points": 5
         },
         {
           "clue": "Fragile, and easily broken or damaged",
@@ -94,9 +94,9 @@
           "points": 3
         },
         {
-          "clue": "Like a flower, needing gentle care to survive",
-          "type": "Indirect",
-          "points": 5
+          "clue": "Requiring careful handling",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -106,9 +106,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "Improvements or enhancements, making something more precise",
-          "type": "Straight",
-          "points": 2
+          "clue": "A series of small, incremental changes, leading to a more sophisticated outcome",
+          "type": "Indirect",
+          "points": 7
         },
         {
           "clue": "The process of making something more subtle or nuanced",
@@ -116,9 +116,9 @@
           "points": 4
         },
         {
-          "clue": "A series of small, incremental changes, leading to a more sophisticated outcome",
-          "type": "Indirect",
-          "points": 7
+          "clue": "Improvements or enhancements, making something more precise",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -128,9 +128,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "The act of determining the size or amount of something",
-          "type": "Straight",
-          "points": 2
+          "clue": "A way to quantify the world, using numbers and units",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "A process used in science to collect data",
@@ -138,9 +138,9 @@
           "points": 3
         },
         {
-          "clue": "A way to quantify the world, using numbers and units",
-          "type": "Indirect",
-          "points": 6
+          "clue": "The act of determining the size or amount of something",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -150,9 +150,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "The extremities of a sphere, such as the earth",
-          "type": "Straight",
-          "points": 1
+          "clue": "Magnetic extremes, where the forces of nature are strongest",
+          "type": "Indirect",
+          "points": 5
         },
         {
           "clue": "Regions of extreme cold, near the top and bottom of the planet",
@@ -160,9 +160,9 @@
           "points": 3
         },
         {
-          "clue": "Magnetic extremes, where the forces of nature are strongest",
-          "type": "Indirect",
-          "points": 5
+          "clue": "The extremities of a sphere, such as the earth",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -172,9 +172,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "The distance north or south of the equator",
-          "type": "Straight",
-          "points": 2
+          "clue": "An angular measurement, used to define positions on a sphere",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "A measure used in geography to locate points on the earth",
@@ -182,9 +182,9 @@
           "points": 3
         },
         {
-          "clue": "An angular measurement, used to define positions on a sphere",
-          "type": "Indirect",
-          "points": 6
+          "clue": "The distance north or south of the equator",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -194,9 +194,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "A length of time, during which something happens or exists",
-          "type": "Straight",
-          "points": 1
+          "clue": "A span of time, marked by the completion of a cycle or the recurrence of an event",
+          "type": "Indirect",
+          "points": 5
         },
         {
           "clue": "A time of development or growth, in a cycle or series",
@@ -204,9 +204,9 @@
           "points": 3
         },
         {
-          "clue": "A span of time, marked by the completion of a cycle or the recurrence of an event",
-          "type": "Indirect",
-          "points": 5
+          "clue": "A length of time, during which something happens or exists",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -216,9 +216,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "Extended or prolonged, often unexpectedly",
-          "type": "Straight",
-          "points": 2
+          "clue": "A situation that is prolonged, often due to unforeseen circumstances",
+          "type": "Indirect",
+          "points": 7
         },
         {
           "clue": "A process that takes a long time, or is drawn out",
@@ -226,9 +226,9 @@
           "points": 4
         },
         {
-          "clue": "A situation that is prolonged, often due to unforeseen circumstances",
-          "type": "Indirect",
-          "points": 7
+          "clue": "Extended or prolonged, often unexpectedly",
+          "type": "Straight",
+          "points": 2
         }
       ]
     }

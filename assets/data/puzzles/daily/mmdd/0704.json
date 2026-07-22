@@ -9,9 +9,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "Method used to gather opinions",
-          "type": "Straight",
-          "points": 1
+          "clue": "It's not just about numbers, but also about voices",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "A way to understand the views of a group",
@@ -19,9 +19,9 @@
           "points": 3
         },
         {
-          "clue": "It's not just about numbers, but also about voices",
-          "type": "Indirect",
-          "points": 6
+          "clue": "Method used to gather opinions",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -31,9 +31,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "People who answer questions in a survey",
-          "type": "Straight",
-          "points": 2
+          "clue": "Their voices are heard, but not always loud",
+          "type": "Indirect",
+          "points": 5
         },
         {
           "clue": "Those who provide feedback in a study",
@@ -41,9 +41,9 @@
           "points": 4
         },
         {
-          "clue": "Their voices are heard, but not always loud",
-          "type": "Indirect",
-          "points": 5
+          "clue": "People who answer questions in a survey",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -56,9 +56,9 @@
       ],
       "clues": [
         {
-          "clue": "Citizens who participate in elections",
-          "type": "Straight",
-          "points": 1
+          "clue": "Their decision can change the course of history",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "People who have a say in the direction of a country",
@@ -66,9 +66,9 @@
           "points": 3
         },
         {
-          "clue": "Their decision can change the course of history",
-          "type": "Indirect",
-          "points": 6
+          "clue": "Citizens who participate in elections",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -81,9 +81,9 @@
       ],
       "clues": [
         {
-          "clue": "A process to choose leaders",
-          "type": "Straight",
-          "points": 2
+          "clue": "It's a time when voices are raised, and choices are made",
+          "type": "Indirect",
+          "points": 5
         },
         {
           "clue": "An event that can shape the future of a nation",
@@ -91,9 +91,9 @@
           "points": 4
         },
         {
-          "clue": "It's a time when voices are raised, and choices are made",
-          "type": "Indirect",
-          "points": 5
+          "clue": "A process to choose leaders",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -106,9 +106,9 @@
       ],
       "clues": [
         {
-          "clue": "A series of activities to promote a cause",
-          "type": "Straight",
-          "points": 2
+          "clue": "A journey to win hearts and minds",
+          "type": "Indirect",
+          "points": 5
         },
         {
           "clue": "Efforts to persuade people to support a particular side",
@@ -116,9 +116,9 @@
           "points": 4
         },
         {
-          "clue": "A journey to win hearts and minds",
-          "type": "Indirect",
-          "points": 5
+          "clue": "A series of activities to promote a cause",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -128,9 +128,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "Relating to education or research",
-          "type": "Straight",
-          "points": 2
+          "clue": "In pursuit of wisdom, they delve into the unknown",
+          "type": "Indirect",
+          "points": 7
         },
         {
           "clue": "A person who seeks knowledge and understanding",
@@ -138,9 +138,9 @@
           "points": 4
         },
         {
-          "clue": "In pursuit of wisdom, they delve into the unknown",
-          "type": "Indirect",
-          "points": 7
+          "clue": "Relating to education or research",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -150,9 +150,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "A place where children are cared for during the day",
-          "type": "Straight",
-          "points": 2
+          "clue": "A safe haven for young minds to grow and learn",
+          "type": "Indirect",
+          "points": 5
         },
         {
           "clue": "A service that supports working parents",
@@ -160,9 +160,9 @@
           "points": 4
         },
         {
-          "clue": "A safe haven for young minds to grow and learn",
-          "type": "Indirect",
-          "points": 5
+          "clue": "A place where children are cared for during the day",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -172,9 +172,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "A psychological disorder that involves attraction to children",
-          "type": "Straight",
-          "points": 2
+          "clue": "A darkness that lurks in the shadows, threatening innocence",
+          "type": "Indirect",
+          "points": 7
         },
         {
           "clue": "A serious issue that affects the most vulnerable members of society",
@@ -182,9 +182,9 @@
           "points": 4
         },
         {
-          "clue": "A darkness that lurks in the shadows, threatening innocence",
-          "type": "Indirect",
-          "points": 7
+          "clue": "A psychological disorder that involves attraction to children",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -194,9 +194,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "Relating to people",
-          "type": "Straight",
-          "points": 1
+          "clue": "A complex and fragile creature, capable of great beauty and great harm",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "Pertaining to the species that dominates the planet",
@@ -204,9 +204,9 @@
           "points": 3
         },
         {
-          "clue": "A complex and fragile creature, capable of great beauty and great harm",
-          "type": "Indirect",
-          "points": 6
+          "clue": "Relating to people",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -216,9 +216,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "The act of trading or smuggling people",
-          "type": "Straight",
-          "points": 2
+          "clue": "A hidden network that preys on the innocent, fueled by greed and power",
+          "type": "Indirect",
+          "points": 7
         },
         {
           "clue": "A serious crime that exploits the vulnerable",
@@ -226,9 +226,9 @@
           "points": 4
         },
         {
-          "clue": "A hidden network that preys on the innocent, fueled by greed and power",
-          "type": "Indirect",
-          "points": 7
+          "clue": "The act of trading or smuggling people",
+          "type": "Straight",
+          "points": 2
         }
       ]
     }

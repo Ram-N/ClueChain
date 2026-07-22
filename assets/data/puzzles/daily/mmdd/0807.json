@@ -9,9 +9,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "An individual with their own thoughts and feelings.",
-          "type": "Straight",
-          "points": 1
+          "clue": "Imagine a puzzle with many pieces; this is what makes the puzzle whole.",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "Someone you might meet in a crowd, but also someone with a unique identity.",
@@ -19,9 +19,9 @@
           "points": 3
         },
         {
-          "clue": "Imagine a puzzle with many pieces; this is what makes the puzzle whole.",
-          "type": "Indirect",
-          "points": 6
+          "clue": "An individual with their own thoughts and feelings.",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -33,9 +33,9 @@
       ],
       "clues": [
         {
-          "clue": "Creator of something beautiful, often using their imagination.",
-          "type": "Straight",
-          "points": 2
+          "clue": "Think of someone who paints masterpieces without a brush.",
+          "type": "Indirect",
+          "points": 5
         },
         {
           "clue": "A person who brings new ideas to life through various forms of expression.",
@@ -43,9 +43,9 @@
           "points": 4
         },
         {
-          "clue": "Think of someone who paints masterpieces without a brush.",
-          "type": "Indirect",
-          "points": 5
+          "clue": "Creator of something beautiful, often using their imagination.",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -57,9 +57,9 @@
       ],
       "clues": [
         {
-          "clue": "A film that shows real people and events.",
-          "type": "Straight",
-          "points": 2
+          "clue": "Picture a movie that tells a true story, like a window into another world.",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "A type of movie that informs and educates the viewer about a particular subject.",
@@ -67,9 +67,9 @@
           "points": 3
         },
         {
-          "clue": "Picture a movie that tells a true story, like a window into another world.",
-          "type": "Indirect",
-          "points": 6
+          "clue": "A film that shows real people and events.",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -79,14 +79,14 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "The quality that makes us different from machines.",
-          "type": "Suggestive",
-          "points": 4
-        },
-        {
           "clue": "What remains when all the technology is taken away.",
           "type": "Indirect",
           "points": 7
+        },
+        {
+          "clue": "The quality that makes us different from machines.",
+          "type": "Suggestive",
+          "points": 4
         },
         {
           "clue": "The essence of being alive and having emotions.",
@@ -101,9 +101,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "People who conduct experiments to learn more about the world.",
-          "type": "Straight",
-          "points": 2
+          "clue": "Imagine a group of detectives trying to solve the mystery of the universe.",
+          "type": "Indirect",
+          "points": 5
         },
         {
           "clue": "Experts who study and analyze data to come to conclusions.",
@@ -111,9 +111,9 @@
           "points": 3
         },
         {
-          "clue": "Imagine a group of detectives trying to solve the mystery of the universe.",
-          "type": "Indirect",
-          "points": 5
+          "clue": "People who conduct experiments to learn more about the world.",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -123,9 +123,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "A period of ten years.",
-          "type": "Straight",
-          "points": 1
+          "clue": "Think of a chapter in the book of time.",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "A block of time used to measure the passage of years.",
@@ -133,9 +133,9 @@
           "points": 3
         },
         {
-          "clue": "Think of a chapter in the book of time.",
-          "type": "Indirect",
-          "points": 6
+          "clue": "A period of ten years.",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -145,9 +145,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "Feeling anxious or on edge.",
-          "type": "Straight",
-          "points": 1
+          "clue": "Imagine a high-strung guitar string, always ready to vibrate.",
+          "type": "Indirect",
+          "points": 5
         },
         {
           "clue": "A state of being that makes you fidget or feel uneasy.",
@@ -155,9 +155,9 @@
           "points": 3
         },
         {
-          "clue": "Imagine a high-strung guitar string, always ready to vibrate.",
-          "type": "Indirect",
-          "points": 5
+          "clue": "Feeling anxious or on edge.",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -167,9 +167,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "Able to create or accomplish a lot in a short amount of time.",
-          "type": "Straight",
-          "points": 2
+          "clue": "Picture a well-oiled machine, working smoothly and effectively.",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "Someone who uses their time efficiently to achieve goals.",
@@ -177,9 +177,9 @@
           "points": 4
         },
         {
-          "clue": "Picture a well-oiled machine, working smoothly and effectively.",
-          "type": "Indirect",
-          "points": 6
+          "clue": "Able to create or accomplish a lot in a short amount of time.",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -189,9 +189,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "The state of being aware of one's surroundings and thoughts.",
-          "type": "Straight",
-          "points": 2
+          "clue": "Imagine a river of thoughts and feelings, constantly flowing and changing.",
+          "type": "Indirect",
+          "points": 7
         },
         {
           "clue": "The quality or state of being aware of something within oneself or in the external environment.",
@@ -199,9 +199,9 @@
           "points": 4
         },
         {
-          "clue": "Imagine a river of thoughts and feelings, constantly flowing and changing.",
-          "type": "Indirect",
-          "points": 7
+          "clue": "The state of being aware of one's surroundings and thoughts.",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -211,9 +211,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "A number or rate expressed as a fraction of 100.",
-          "type": "Straight",
-          "points": 1
+          "clue": "Picture a pie cut into 100 slices, with some slices missing.",
+          "type": "Indirect",
+          "points": 5
         },
         {
           "clue": "A way to show a part of a whole as a fraction of 100.",
@@ -221,9 +221,9 @@
           "points": 3
         },
         {
-          "clue": "Picture a pie cut into 100 slices, with some slices missing.",
-          "type": "Indirect",
-          "points": 5
+          "clue": "A number or rate expressed as a fraction of 100.",
+          "type": "Straight",
+          "points": 1
         }
       ]
     }

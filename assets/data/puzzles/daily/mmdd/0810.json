@@ -9,9 +9,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "A brief period of leisure time",
-          "type": "Straight",
-          "points": 1
+          "clue": "When does the workweek typically end?",
+          "type": "Indirect",
+          "points": 5
         },
         {
           "clue": "Often associated with vacations or getaways",
@@ -19,9 +19,9 @@
           "points": 3
         },
         {
-          "clue": "When does the workweek typically end?",
-          "type": "Indirect",
-          "points": 5
+          "clue": "A brief period of leisure time",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -33,9 +33,9 @@
       ],
       "clues": [
         {
-          "clue": "A common mode of transportation for long distances",
-          "type": "Straight",
-          "points": 1
+          "clue": "What has a locomotive and cars?",
+          "type": "Indirect",
+          "points": 5
         },
         {
           "clue": "Where you might find a dining car",
@@ -43,9 +43,9 @@
           "points": 3
         },
         {
-          "clue": "What has a locomotive and cars?",
-          "type": "Indirect",
-          "points": 5
+          "clue": "A common mode of transportation for long distances",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -57,9 +57,9 @@
       ],
       "clues": [
         {
-          "clue": "A place to stay when traveling",
-          "type": "Straight",
-          "points": 1
+          "clue": "Where you might find a concierge",
+          "type": "Indirect",
+          "points": 5
         },
         {
           "clue": "Often has a lobby and rooms",
@@ -67,9 +67,9 @@
           "points": 3
         },
         {
-          "clue": "Where you might find a concierge",
-          "type": "Indirect",
-          "points": 5
+          "clue": "A place to stay when traveling",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -79,9 +79,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "A small enclosed space",
-          "type": "Straight",
-          "points": 2
+          "clue": "What has a door and maybe some seats?",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "Found in trains or other vehicles",
@@ -89,9 +89,9 @@
           "points": 3
         },
         {
-          "clue": "What has a door and maybe some seats?",
-          "type": "Indirect",
-          "points": 6
+          "clue": "A small enclosed space",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -103,9 +103,9 @@
       ],
       "clues": [
         {
-          "clue": "A female child",
-          "type": "Straight",
-          "points": 1
+          "clue": "Who might inherit something from a parent?",
+          "type": "Indirect",
+          "points": 5
         },
         {
           "clue": "Often the offspring of a mother",
@@ -113,9 +113,9 @@
           "points": 3
         },
         {
-          "clue": "Who might inherit something from a parent?",
-          "type": "Indirect",
-          "points": 5
+          "clue": "A female child",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -127,9 +127,9 @@
       ],
       "clues": [
         {
-          "clue": "An adult female person",
-          "type": "Straight",
-          "points": 1
+          "clue": "Who is often referred to as a lady?",
+          "type": "Indirect",
+          "points": 5
         },
         {
           "clue": "Might be a mother or a sister",
@@ -137,9 +137,9 @@
           "points": 3
         },
         {
-          "clue": "Who is often referred to as a lady?",
-          "type": "Indirect",
-          "points": 5
+          "clue": "An adult female person",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -151,9 +151,9 @@
       ],
       "clues": [
         {
-          "clue": "A meal eaten in the middle of the day",
-          "type": "Straight",
-          "points": 1
+          "clue": "What do you eat when you're not having breakfast or dinner?",
+          "type": "Indirect",
+          "points": 5
         },
         {
           "clue": "Often consists of a sandwich or salad",
@@ -161,9 +161,9 @@
           "points": 3
         },
         {
-          "clue": "What do you eat when you're not having breakfast or dinner?",
-          "type": "Indirect",
-          "points": 5
+          "clue": "A meal eaten in the middle of the day",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -175,9 +175,9 @@
       ],
       "clues": [
         {
-          "clue": "The old city of Marrakech",
-          "type": "Straight",
-          "points": 2
+          "clue": "Where can you find a famous marketplace in Morocco?",
+          "type": "Indirect",
+          "points": 7
         },
         {
           "clue": "Known for its narrow streets and market stalls",
@@ -185,9 +185,9 @@
           "points": 4
         },
         {
-          "clue": "Where can you find a famous marketplace in Morocco?",
-          "type": "Indirect",
-          "points": 7
+          "clue": "The old city of Marrakech",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -197,9 +197,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "To travel to or through a place for pleasure",
-          "type": "Straight",
-          "points": 2
+          "clue": "What do adventurers and travelers like to do?",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "Often involves visiting new and unfamiliar areas",
@@ -207,9 +207,9 @@
           "points": 3
         },
         {
-          "clue": "What do adventurers and travelers like to do?",
-          "type": "Indirect",
-          "points": 6
+          "clue": "To travel to or through a place for pleasure",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -219,9 +219,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "People you like and enjoy spending time with",
-          "type": "Straight",
-          "points": 1
+          "clue": "Who do you invite to parties and gatherings?",
+          "type": "Indirect",
+          "points": 5
         },
         {
           "clue": "Often people you have known for a long time",
@@ -229,9 +229,9 @@
           "points": 3
         },
         {
-          "clue": "Who do you invite to parties and gatherings?",
-          "type": "Indirect",
-          "points": 5
+          "clue": "People you like and enjoy spending time with",
+          "type": "Straight",
+          "points": 1
         }
       ]
     }

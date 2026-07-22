@@ -12,9 +12,9 @@
       ],
       "clues": [
         {
-          "clue": "A place where humans live",
-          "type": "Straight",
-          "points": 1
+          "clue": "The scientist observes it from a unique vantage point",
+          "type": "Indirect",
+          "points": 5
         },
         {
           "clue": "It can be big or small, depending on perspective",
@@ -22,9 +22,9 @@
           "points": 3
         },
         {
-          "clue": "The scientist observes it from a unique vantage point",
-          "type": "Indirect",
-          "points": 5
+          "clue": "A place where humans live",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -37,9 +37,9 @@
       ],
       "clues": [
         {
-          "clue": "The opposite of wilderness",
-          "type": "Straight",
-          "points": 1
+          "clue": "The scientist is far from it, but still discusses its impact",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "It's what humans try to impose on nature",
@@ -47,9 +47,9 @@
           "points": 3
         },
         {
-          "clue": "The scientist is far from it, but still discusses its impact",
-          "type": "Indirect",
-          "points": 6
+          "clue": "The opposite of wilderness",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -62,9 +62,9 @@
       ],
       "clues": [
         {
-          "clue": "What you see when you look out the window",
-          "type": "Straight",
-          "points": 1
+          "clue": "The stark landscape is devoid of life, but full of meaning",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "It can be altered by human activity",
@@ -72,9 +72,9 @@
           "points": 3
         },
         {
-          "clue": "The stark landscape is devoid of life, but full of meaning",
-          "type": "Indirect",
-          "points": 6
+          "clue": "What you see when you look out the window",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -84,9 +84,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "A vessel that sails through water",
-          "type": "Straight",
-          "points": 1
+          "clue": "The scientist is aboard one, but it's not just any ship",
+          "type": "Indirect",
+          "points": 5
         },
         {
           "clue": "It can be old or new, big or small",
@@ -94,9 +94,9 @@
           "points": 3
         },
         {
-          "clue": "The scientist is aboard one, but it's not just any ship",
-          "type": "Indirect",
-          "points": 5
+          "clue": "A vessel that sails through water",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -106,9 +106,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "A journey, especially by sea",
-          "type": "Straight",
-          "points": 1
+          "clue": "The scientist is on a voyage, but it's not just about the destination",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "It can be long or short, but always has a purpose",
@@ -116,9 +116,9 @@
           "points": 3
         },
         {
-          "clue": "The scientist is on a voyage, but it's not just about the destination",
-          "type": "Indirect",
-          "points": 6
+          "clue": "A journey, especially by sea",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -128,9 +128,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "A film that shows real events",
-          "type": "Straight",
-          "points": 1
+          "clue": "The scientist is part of a documentary, but it's not just about him",
+          "type": "Indirect",
+          "points": 7
         },
         {
           "clue": "It's a way to learn about the world, but also to entertain",
@@ -138,9 +138,9 @@
           "points": 3
         },
         {
-          "clue": "The scientist is part of a documentary, but it's not just about him",
-          "type": "Indirect",
-          "points": 7
+          "clue": "A film that shows real events",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -150,9 +150,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "Animals that hunt other animals",
-          "type": "Straight",
-          "points": 1
+          "clue": "The scientist says that humans are the most dangerous predators, but why?",
+          "type": "Indirect",
+          "points": 7
         },
         {
           "clue": "They can be found in the wilderness, but also in human society",
@@ -160,9 +160,9 @@
           "points": 3
         },
         {
-          "clue": "The scientist says that humans are the most dangerous predators, but why?",
-          "type": "Indirect",
-          "points": 7
+          "clue": "Animals that hunt other animals",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -172,9 +172,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "A surface for showing images",
-          "type": "Straight",
-          "points": 1
+          "clue": "The documentary is best seen on a big screen, but why is that?",
+          "type": "Indirect",
+          "points": 5
         },
         {
           "clue": "It can be big or small, but always serves a purpose",
@@ -182,9 +182,9 @@
           "points": 3
         },
         {
-          "clue": "The documentary is best seen on a big screen, but why is that?",
-          "type": "Indirect",
-          "points": 5
+          "clue": "A surface for showing images",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -194,9 +194,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "Systems of communication",
-          "type": "Straight",
-          "points": 1
+          "clue": "The characters on the voyage switch languages, but what does that reveal?",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "They can be spoken or written, but always convey meaning",
@@ -204,9 +204,9 @@
           "points": 3
         },
         {
-          "clue": "The characters on the voyage switch languages, but what does that reveal?",
-          "type": "Indirect",
-          "points": 6
+          "clue": "Systems of communication",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -216,9 +216,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "A natural environment, untouched by humans",
-          "type": "Straight",
-          "points": 1
+          "clue": "The documentary is set in the wilderness, but it's not just about nature",
+          "type": "Indirect",
+          "points": 7
         },
         {
           "clue": "It can be beautiful or harsh, but always has a power",
@@ -226,9 +226,9 @@
           "points": 3
         },
         {
-          "clue": "The documentary is set in the wilderness, but it's not just about nature",
-          "type": "Indirect",
-          "points": 7
+          "clue": "A natural environment, untouched by humans",
+          "type": "Straight",
+          "points": 1
         }
       ]
     }

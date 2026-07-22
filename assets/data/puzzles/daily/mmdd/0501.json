@@ -9,9 +9,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "A brief period of time",
-          "type": "Straight",
-          "points": 1
+          "clue": "Like a snapshot in the timeline of life",
+          "type": "Indirect",
+          "points": 5
         },
         {
           "clue": "When something significant happens",
@@ -19,9 +19,9 @@
           "points": 3
         },
         {
-          "clue": "Like a snapshot in the timeline of life",
-          "type": "Indirect",
-          "points": 5
+          "clue": "A brief period of time",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -31,9 +31,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "Lacking in thought or attention",
-          "type": "Straight",
-          "points": 2
+          "clue": "Like a leaf blown by the wind, without direction",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "Prone to making mistakes due to lack of focus",
@@ -41,9 +41,9 @@
           "points": 3
         },
         {
-          "clue": "Like a leaf blown by the wind, without direction",
-          "type": "Indirect",
-          "points": 6
+          "clue": "Lacking in thought or attention",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -55,9 +55,9 @@
       ],
       "clues": [
         {
-          "clue": "A common place to store identification and cash",
-          "type": "Straight",
-          "points": 1
+          "clue": "Like a guardian of one's financial secrets",
+          "type": "Indirect",
+          "points": 5
         },
         {
           "clue": "Something you might check when considering a purchase",
@@ -65,9 +65,9 @@
           "points": 3
         },
         {
-          "clue": "Like a guardian of one's financial secrets",
-          "type": "Indirect",
-          "points": 5
+          "clue": "A common place to store identification and cash",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -79,9 +79,9 @@
       ],
       "clues": [
         {
-          "clue": "A medium of exchange",
-          "type": "Straight",
-          "points": 1
+          "clue": "The root of all evil, or so they say",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "The reason for working and a source of financial freedom",
@@ -89,9 +89,9 @@
           "points": 4
         },
         {
-          "clue": "The root of all evil, or so they say",
-          "type": "Indirect",
-          "points": 6
+          "clue": "A medium of exchange",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -101,9 +101,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "Something that illustrates or explains",
-          "type": "Straight",
-          "points": 2
+          "clue": "Like a thread that weaves through a complex tapestry",
+          "type": "Indirect",
+          "points": 5
         },
         {
           "clue": "A case in point that demonstrates a principle",
@@ -111,9 +111,9 @@
           "points": 3
         },
         {
-          "clue": "Like a thread that weaves through a complex tapestry",
-          "type": "Indirect",
-          "points": 5
+          "clue": "Something that illustrates or explains",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -123,9 +123,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "Costing a lot of money",
-          "type": "Straight",
-          "points": 2
+          "clue": "Like a luxury that only a few can afford",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "Something that might make you think twice before buying",
@@ -133,9 +133,9 @@
           "points": 3
         },
         {
-          "clue": "Like a luxury that only a few can afford",
-          "type": "Indirect",
-          "points": 6
+          "clue": "Costing a lot of money",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -145,9 +145,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "Unusually good or of very high quality",
-          "type": "Straight",
-          "points": 2
+          "clue": "Like a masterpiece that surpasses all others",
+          "type": "Indirect",
+          "points": 7
         },
         {
           "clue": "Something that stands out from the rest",
@@ -155,9 +155,9 @@
           "points": 4
         },
         {
-          "clue": "Like a masterpiece that surpasses all others",
-          "type": "Indirect",
-          "points": 7
+          "clue": "Unusually good or of very high quality",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -167,9 +167,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "Having or characterized by many casual relationships",
-          "type": "Straight",
-          "points": 2
+          "clue": "Like a flower that blooms for anyone who passes by",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "Lacking in discretion or restraint",
@@ -177,9 +177,9 @@
           "points": 4
         },
         {
-          "clue": "Like a flower that blooms for anyone who passes by",
-          "type": "Indirect",
-          "points": 6
+          "clue": "Having or characterized by many casual relationships",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -189,9 +189,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "Excessively elaborate or luxurious",
-          "type": "Straight",
-          "points": 2
+          "clue": "Like a firework that lights up the night sky",
+          "type": "Indirect",
+          "points": 5
         },
         {
           "clue": "Something that goes beyond what is necessary or reasonable",
@@ -199,9 +199,9 @@
           "points": 3
         },
         {
-          "clue": "Like a firework that lights up the night sky",
-          "type": "Indirect",
-          "points": 5
+          "clue": "Excessively elaborate or luxurious",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -214,9 +214,9 @@
       ],
       "clues": [
         {
-          "clue": "The act of buying something",
-          "type": "Straight",
-          "points": 1
+          "clue": "Like a footprint in the sand, a record of a decision made",
+          "type": "Indirect",
+          "points": 5
         },
         {
           "clue": "Something you might regret later if not thought through",
@@ -224,9 +224,9 @@
           "points": 3
         },
         {
-          "clue": "Like a footprint in the sand, a record of a decision made",
-          "type": "Indirect",
-          "points": 5
+          "clue": "The act of buying something",
+          "type": "Straight",
+          "points": 1
         }
       ]
     }

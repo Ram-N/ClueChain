@@ -9,9 +9,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "A series of tests to find something out",
-          "type": "Straight",
-          "points": 1
+          "clue": "The process of trial and error to achieve a goal",
+          "type": "Indirect",
+          "points": 5
         },
         {
           "clue": "This is what scientists do to prove a theory",
@@ -19,9 +19,9 @@
           "points": 3
         },
         {
-          "clue": "The process of trial and error to achieve a goal",
-          "type": "Indirect",
-          "points": 5
+          "clue": "A series of tests to find something out",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -31,9 +31,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "Information about recent events",
-          "type": "Straight",
-          "points": 1
+          "clue": "A message that can be good or bad",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "What you read in the paper or watch on TV",
@@ -41,9 +41,9 @@
           "points": 3
         },
         {
-          "clue": "A message that can be good or bad",
-          "type": "Indirect",
-          "points": 6
+          "clue": "Information about recent events",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -56,9 +56,9 @@
       ],
       "clues": [
         {
-          "clue": "Where you go to get a higher education",
-          "type": "Straight",
-          "points": 2
+          "clue": "A hub for knowledge and innovation",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "A place with many departments and faculties",
@@ -66,9 +66,9 @@
           "points": 4
         },
         {
-          "clue": "A hub for knowledge and innovation",
-          "type": "Indirect",
-          "points": 6
+          "clue": "Where you go to get a higher education",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -81,9 +81,9 @@
       ],
       "clues": [
         {
-          "clue": "Someone who attends school",
-          "type": "Straight",
-          "points": 1
+          "clue": "The future of our world",
+          "type": "Indirect",
+          "points": 5
         },
         {
           "clue": "A person who learns and grows",
@@ -91,9 +91,9 @@
           "points": 3
         },
         {
-          "clue": "The future of our world",
-          "type": "Indirect",
-          "points": 5
+          "clue": "Someone who attends school",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -106,9 +106,9 @@
       ],
       "clues": [
         {
-          "clue": "A careful study to discover new knowledge",
-          "type": "Straight",
-          "points": 2
+          "clue": "A journey to uncover the truth",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "What scientists do to find answers",
@@ -116,9 +116,9 @@
           "points": 4
         },
         {
-          "clue": "A journey to uncover the truth",
-          "type": "Indirect",
-          "points": 6
+          "clue": "A careful study to discover new knowledge",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -128,9 +128,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "Tasks that require planning and execution",
-          "type": "Straight",
-          "points": 2
+          "clue": "A way to showcase your skills and talents",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "What you work on to achieve a goal",
@@ -138,9 +138,9 @@
           "points": 4
         },
         {
-          "clue": "A way to showcase your skills and talents",
-          "type": "Indirect",
-          "points": 6
+          "clue": "Tasks that require planning and execution",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -150,9 +150,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "The person in charge of a team or project",
-          "type": "Straight",
-          "points": 2
+          "clue": "A leader who helps you grow and learn",
+          "type": "Indirect",
+          "points": 7
         },
         {
           "clue": "Someone who guides and directs",
@@ -160,9 +160,9 @@
           "points": 4
         },
         {
-          "clue": "A leader who helps you grow and learn",
-          "type": "Indirect",
-          "points": 7
+          "clue": "The person in charge of a team or project",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -172,9 +172,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "A written message or note",
-          "type": "Straight",
-          "points": 1
+          "clue": "A symbol or character in the alphabet",
+          "type": "Indirect",
+          "points": 5
         },
         {
           "clue": "What you send to someone through the mail",
@@ -182,9 +182,9 @@
           "points": 3
         },
         {
-          "clue": "A symbol or character in the alphabet",
-          "type": "Indirect",
-          "points": 5
+          "clue": "A written message or note",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -194,9 +194,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "A set of activities or courses",
-          "type": "Straight",
-          "points": 2
+          "clue": "A plan or schedule for something",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "What you follow to achieve a goal",
@@ -204,9 +204,9 @@
           "points": 4
         },
         {
-          "clue": "A plan or schedule for something",
-          "type": "Indirect",
-          "points": 6
+          "clue": "A set of activities or courses",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -216,9 +216,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "Recollections of the past",
-          "type": "Straight",
-          "points": 2
+          "clue": "The ghosts that haunt you",
+          "type": "Indirect",
+          "points": 7
         },
         {
           "clue": "What you remember from your experiences",
@@ -226,9 +226,9 @@
           "points": 4
         },
         {
-          "clue": "The ghosts that haunt you",
-          "type": "Indirect",
-          "points": 7
+          "clue": "Recollections of the past",
+          "type": "Straight",
+          "points": 2
         }
       ]
     }

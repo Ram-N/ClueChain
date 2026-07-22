@@ -9,9 +9,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "Offered to serve without being forced",
-          "type": "Straight",
-          "points": 1
+          "clue": "A willingness to take on a task, like a soldier stepping forward",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "Gave time or service for a particular activity",
@@ -19,9 +19,9 @@
           "points": 3
         },
         {
-          "clue": "A willingness to take on a task, like a soldier stepping forward",
-          "type": "Indirect",
-          "points": 6
+          "clue": "Offered to serve without being forced",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -34,9 +34,9 @@
       ],
       "clues": [
         {
-          "clue": "Formations are groups of troops, like battalions or brigades",
-          "type": "Straight",
-          "points": 2
+          "clue": "Like the pieces on a chessboard, but with people instead",
+          "type": "Indirect",
+          "points": 7
         },
         {
           "clue": "A specific arrangement of troops for a particular purpose",
@@ -44,9 +44,9 @@
           "points": 4
         },
         {
-          "clue": "Like the pieces on a chessboard, but with people instead",
-          "type": "Indirect",
-          "points": 7
+          "clue": "Formations are groups of troops, like battalions or brigades",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -59,9 +59,9 @@
       ],
       "clues": [
         {
-          "clue": "A series of military operations, often in a specific area",
-          "type": "Straight",
-          "points": 2
+          "clue": "Imagine a big puzzle, with each piece being a battle or skirmish",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "A campaign is like a plan of action, with many smaller parts working together",
@@ -69,9 +69,9 @@
           "points": 4
         },
         {
-          "clue": "Imagine a big puzzle, with each piece being a battle or skirmish",
-          "type": "Indirect",
-          "points": 6
+          "clue": "A series of military operations, often in a specific area",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -84,9 +84,9 @@
       ],
       "clues": [
         {
-          "clue": "A battalion is a group of soldiers, often with a specific task",
-          "type": "Straight",
-          "points": 2
+          "clue": "Like the different parts of a machine, each one has its own job",
+          "type": "Indirect",
+          "points": 5
         },
         {
           "clue": "Battalions work together to achieve a common goal, like a team",
@@ -94,9 +94,9 @@
           "points": 3
         },
         {
-          "clue": "Like the different parts of a machine, each one has its own job",
-          "type": "Indirect",
-          "points": 5
+          "clue": "A battalion is a group of soldiers, often with a specific task",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -106,9 +106,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "People who are hurt or killed in a war or accident",
-          "type": "Straight",
-          "points": 1
+          "clue": "Like a ripple in a pond, one event can have many effects",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "The number of casualties can be an important measure of a conflict's severity",
@@ -116,9 +116,9 @@
           "points": 3
         },
         {
-          "clue": "Like a ripple in a pond, one event can have many effects",
-          "type": "Indirect",
-          "points": 6
+          "clue": "People who are hurt or killed in a war or accident",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -128,9 +128,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "A border or edge of a country or region",
-          "type": "Straight",
-          "points": 2
+          "clue": "Imagine a line in the sand, separating two different worlds",
+          "type": "Indirect",
+          "points": 7
         },
         {
           "clue": "A frontier can be a place of exploration and discovery",
@@ -138,9 +138,9 @@
           "points": 4
         },
         {
-          "clue": "Imagine a line in the sand, separating two different worlds",
-          "type": "Indirect",
-          "points": 7
+          "clue": "A border or edge of a country or region",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -150,9 +150,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "A low area of land between hills or mountains",
-          "type": "Straight",
-          "points": 1
+          "clue": "Like a cradle, holding and nurturing the surrounding landscape",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "A valley can be a peaceful and beautiful place",
@@ -160,9 +160,9 @@
           "points": 3
         },
         {
-          "clue": "Like a cradle, holding and nurturing the surrounding landscape",
-          "type": "Indirect",
-          "points": 6
+          "clue": "A low area of land between hills or mountains",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -172,9 +172,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "An attack or aggressive action, often in a military context",
-          "type": "Straight",
-          "points": 2
+          "clue": "Like a stormy sea, with waves crashing against the shore",
+          "type": "Indirect",
+          "points": 7
         },
         {
           "clue": "An offensive can be a bold and decisive move, but also risky",
@@ -182,9 +182,9 @@
           "points": 4
         },
         {
-          "clue": "Like a stormy sea, with waves crashing against the shore",
-          "type": "Indirect",
-          "points": 7
+          "clue": "An attack or aggressive action, often in a military context",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -194,9 +194,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "Relating to a military expedition or campaign",
-          "type": "Straight",
-          "points": 2
+          "clue": "Imagine a team of explorers, venturing into the unknown",
+          "type": "Indirect",
+          "points": 7
         },
         {
           "clue": "An expeditionary force is like a task force, sent to achieve a specific goal",
@@ -204,9 +204,9 @@
           "points": 4
         },
         {
-          "clue": "Imagine a team of explorers, venturing into the unknown",
-          "type": "Indirect",
-          "points": 7
+          "clue": "Relating to a military expedition or campaign",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -216,9 +216,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "Honored or remembered, often with a monument or ceremony",
-          "type": "Straight",
-          "points": 2
+          "clue": "Like a beacon of light, shining brightly to guide us",
+          "type": "Indirect",
+          "points": 7
         },
         {
           "clue": "Commemorating an event or person can help keep their memory alive",
@@ -226,9 +226,9 @@
           "points": 4
         },
         {
-          "clue": "Like a beacon of light, shining brightly to guide us",
-          "type": "Indirect",
-          "points": 7
+          "clue": "Honored or remembered, often with a monument or ceremony",
+          "type": "Straight",
+          "points": 2
         }
       ]
     }

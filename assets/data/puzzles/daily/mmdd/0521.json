@@ -12,9 +12,9 @@
       ],
       "clues": [
         {
-          "clue": "A social unit bound together by ties of blood or marriage",
-          "type": "Straight",
-          "points": 1
+          "clue": "Where do you find the people who will love you unconditionally, even when you're a little crazy?",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "The people you grow up with, or the ones you find along the way",
@@ -22,9 +22,9 @@
           "points": 3
         },
         {
-          "clue": "Where do you find the people who will love you unconditionally, even when you're a little crazy?",
-          "type": "Indirect",
-          "points": 6
+          "clue": "A social unit bound together by ties of blood or marriage",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -42,14 +42,14 @@
           "points": 5
         },
         {
-          "clue": "The event that brings a new life into the world",
-          "type": "Straight",
-          "points": 1
-        },
-        {
           "clue": "A significant occasion that changes everything, often marked with celebration",
           "type": "Suggestive",
           "points": 3
+        },
+        {
+          "clue": "The event that brings a new life into the world",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -62,6 +62,11 @@
       ],
       "clues": [
         {
+          "clue": "The ones who will always be there for you, no matter what, or so you hope",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
           "clue": "The people who raise you and teach you how to be a good person",
           "type": "Suggestive",
           "points": 3
@@ -70,11 +75,6 @@
           "clue": "Those who brought you into this world, and are responsible for your well-being",
           "type": "Straight",
           "points": 1
-        },
-        {
-          "clue": "The ones who will always be there for you, no matter what, or so you hope",
-          "type": "Indirect",
-          "points": 6
         }
       ]
     },
@@ -84,11 +84,6 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "A written or printed work consisting of pages glued or sewn together",
-          "type": "Straight",
-          "points": 1
-        },
-        {
           "clue": "A portal to other worlds, a source of knowledge, and a companion for the curious",
           "type": "Indirect",
           "points": 6
@@ -97,6 +92,11 @@
           "clue": "Something you can get lost in, and find yourself at the same time",
           "type": "Suggestive",
           "points": 3
+        },
+        {
+          "clue": "A written or printed work consisting of pages glued or sewn together",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -106,14 +106,14 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "A long and often difficult process of personal change and growth",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
           "clue": "The path that winds and turns, leading you to unexpected places",
           "type": "Indirect",
           "points": 5
+        },
+        {
+          "clue": "A long and often difficult process of personal change and growth",
+          "type": "Suggestive",
+          "points": 3
         },
         {
           "clue": "Travel from one place to another, or a process of change and development",
@@ -128,11 +128,6 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "The study of living organisms, from the simplest to the most complex",
-          "type": "Straight",
-          "points": 1
-        },
-        {
           "clue": "Life, in all its forms and mysteries, waiting to be unraveled",
           "type": "Indirect",
           "points": 7
@@ -141,6 +136,11 @@
           "clue": "The science that explores the secrets of life, and our place in the natural world",
           "type": "Suggestive",
           "points": 4
+        },
+        {
+          "clue": "The study of living organisms, from the simplest to the most complex",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -172,6 +172,11 @@
       "related_words": [],
       "clues": [
         {
+          "clue": "A window into the past, where the author's voice and perspective come alive",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
           "clue": "A personal narrative, where memories and experiences are woven together",
           "type": "Suggestive",
           "points": 3
@@ -180,11 +185,6 @@
           "clue": "A book that tells the story of a person's life, often with reflections and insights",
           "type": "Straight",
           "points": 1
-        },
-        {
-          "clue": "A window into the past, where the author's voice and perspective come alive",
-          "type": "Indirect",
-          "points": 5
         }
       ]
     },
@@ -194,11 +194,6 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "A desire to learn, to explore, and to discover new things",
-          "type": "Straight",
-          "points": 1
-        },
-        {
           "clue": "The spark that sets the mind ablaze, driving us to ask questions and seek answers",
           "type": "Indirect",
           "points": 5
@@ -207,6 +202,11 @@
           "clue": "A natural inclination to inquire, to investigate, and to learn from experience",
           "type": "Suggestive",
           "points": 3
+        },
+        {
+          "clue": "A desire to learn, to explore, and to discover new things",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -216,11 +216,6 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "A choice or judgment, often made after careful consideration",
-          "type": "Straight",
-          "points": 1
-        },
-        {
           "clue": "The moment when you commit to a path, and the consequences that follow",
           "type": "Indirect",
           "points": 6
@@ -229,6 +224,11 @@
           "clue": "A conclusion or resolution, reached after weighing options and alternatives",
           "type": "Suggestive",
           "points": 3
+        },
+        {
+          "clue": "A choice or judgment, often made after careful consideration",
+          "type": "Straight",
+          "points": 1
         }
       ]
     }

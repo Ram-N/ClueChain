@@ -12,9 +12,9 @@
       ],
       "clues": [
         {
-          "clue": "Where meals are often prepared",
-          "type": "Straight",
-          "points": 1
+          "clue": "Heat, food, and love come together here",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "A room where cooking happens, and utensils are found",
@@ -22,9 +22,9 @@
           "points": 3
         },
         {
-          "clue": "Heat, food, and love come together here",
-          "type": "Indirect",
-          "points": 6
+          "clue": "Where meals are often prepared",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -37,9 +37,9 @@
       ],
       "clues": [
         {
-          "clue": "Used for tasks and jobs",
-          "type": "Straight",
-          "points": 1
+          "clue": "Extensions of human hands, used to achieve goals",
+          "type": "Indirect",
+          "points": 5
         },
         {
           "clue": "Devices that help with work and tasks",
@@ -47,9 +47,9 @@
           "points": 3
         },
         {
-          "clue": "Extensions of human hands, used to achieve goals",
-          "type": "Indirect",
-          "points": 5
+          "clue": "Used for tasks and jobs",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -62,9 +62,9 @@
       ],
       "clues": [
         {
-          "clue": "Small machines or devices with a specific function",
-          "type": "Straight",
-          "points": 1
+          "clue": "Innovations that bring surprise and delight",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "Novelty items that serve a particular purpose",
@@ -72,9 +72,9 @@
           "points": 3
         },
         {
-          "clue": "Innovations that bring surprise and delight",
-          "type": "Indirect",
-          "points": 6
+          "clue": "Small machines or devices with a specific function",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -84,9 +84,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "The money received for work or services",
-          "type": "Straight",
-          "points": 1
+          "clue": "A flow of money that helps make life's plans possible",
+          "type": "Indirect",
+          "points": 5
         },
         {
           "clue": "Funds available for spending and saving",
@@ -94,9 +94,9 @@
           "points": 3
         },
         {
-          "clue": "A flow of money that helps make life's plans possible",
-          "type": "Indirect",
-          "points": 5
+          "clue": "The money received for work or services",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -106,9 +106,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "Someone known for being famous",
-          "type": "Straight",
-          "points": 1
+          "clue": "A star that shines brightly, yet briefly, in the public eye",
+          "type": "Indirect",
+          "points": 7
         },
         {
           "clue": "A public figure who is widely recognized",
@@ -116,9 +116,9 @@
           "points": 3
         },
         {
-          "clue": "A star that shines brightly, yet briefly, in the public eye",
-          "type": "Indirect",
-          "points": 7
+          "clue": "Someone known for being famous",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -128,9 +128,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "A stage for performing or speaking",
-          "type": "Straight",
-          "points": 1
+          "clue": "A foundation for launching messages to the world",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "A means of sharing ideas or showcasing talent",
@@ -138,9 +138,9 @@
           "points": 3
         },
         {
-          "clue": "A foundation for launching messages to the world",
-          "type": "Indirect",
-          "points": 6
+          "clue": "A stage for performing or speaking",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -150,9 +150,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "Carefully planned to achieve a goal",
-          "type": "Straight",
-          "points": 1
+          "clue": "A clever move in the game of life, where every step counts",
+          "type": "Indirect",
+          "points": 7
         },
         {
           "clue": "A thoughtful approach to solving problems",
@@ -160,9 +160,9 @@
           "points": 3
         },
         {
-          "clue": "A clever move in the game of life, where every step counts",
-          "type": "Indirect",
-          "points": 7
+          "clue": "Carefully planned to achieve a goal",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -172,9 +172,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "Items given to show appreciation or kindness",
-          "type": "Straight",
-          "points": 1
+          "clue": " Tokens of love and friendship, wrapped with care",
+          "type": "Indirect",
+          "points": 5
         },
         {
           "clue": "Presents that bring joy to the recipient",
@@ -182,9 +182,9 @@
           "points": 3
         },
         {
-          "clue": " Tokens of love and friendship, wrapped with care",
-          "type": "Indirect",
-          "points": 5
+          "clue": "Items given to show appreciation or kindness",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -194,9 +194,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "Spoke out strongly against something",
-          "type": "Straight",
-          "points": 1
+          "clue": "Used words as weapons to attack and defend",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "Expressed strong disapproval or criticism",
@@ -204,9 +204,9 @@
           "points": 3
         },
         {
-          "clue": "Used words as weapons to attack and defend",
-          "type": "Indirect",
-          "points": 6
+          "clue": "Spoke out strongly against something",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -216,9 +216,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "A person who supports a cause or idea",
-          "type": "Straight",
-          "points": 1
+          "clue": "A champion of justice, fighting for what is right",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "Someone who speaks up for what they believe in",
@@ -226,9 +226,9 @@
           "points": 3
         },
         {
-          "clue": "A champion of justice, fighting for what is right",
-          "type": "Indirect",
-          "points": 6
+          "clue": "A person who supports a cause or idea",
+          "type": "Straight",
+          "points": 1
         }
       ]
     }

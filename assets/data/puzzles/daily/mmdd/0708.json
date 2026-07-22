@@ -9,9 +9,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "A book that contains a calendar of events.",
-          "type": "Straight",
-          "points": 1
+          "clue": "It's often filled with predictions and astronomical data, a tool for the wise.",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "Published annually, it helps people plan their year.",
@@ -19,9 +19,9 @@
           "points": 3
         },
         {
-          "clue": "It's often filled with predictions and astronomical data, a tool for the wise.",
-          "type": "Indirect",
-          "points": 6
+          "clue": "A book that contains a calendar of events.",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -33,9 +33,9 @@
       ],
       "clues": [
         {
-          "clue": "The time of day when the sun is high in the sky.",
-          "type": "Straight",
-          "points": 1
+          "clue": "When shadows are shorter, and the day is halfway done.",
+          "type": "Indirect",
+          "points": 5
         },
         {
           "clue": "A period often associated with leisure activities.",
@@ -43,9 +43,9 @@
           "points": 3
         },
         {
-          "clue": "When shadows are shorter, and the day is halfway done.",
-          "type": "Indirect",
-          "points": 5
+          "clue": "The time of day when the sun is high in the sky.",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -57,9 +57,9 @@
       ],
       "clues": [
         {
-          "clue": "The beginning of the day, when the sun rises.",
-          "type": "Straight",
-          "points": 1
+          "clue": "When the world awakens, and darkness fades away.",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "A time for new beginnings and fresh starts.",
@@ -67,9 +67,9 @@
           "points": 3
         },
         {
-          "clue": "When the world awakens, and darkness fades away.",
-          "type": "Indirect",
-          "points": 6
+          "clue": "The beginning of the day, when the sun rises.",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -79,9 +79,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "A statement that expresses the equality of two mathematical expressions.",
-          "type": "Straight",
-          "points": 2
+          "clue": "Balancing the scales, a delicate dance of numbers and symbols.",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "It's used to solve problems and find unknown values.",
@@ -89,9 +89,9 @@
           "points": 3
         },
         {
-          "clue": "Balancing the scales, a delicate dance of numbers and symbols.",
-          "type": "Indirect",
-          "points": 6
+          "clue": "A statement that expresses the equality of two mathematical expressions.",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -101,9 +101,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "Worthy of notice or attention.",
-          "type": "Straight",
-          "points": 2
+          "clue": "A mark that is left, a memory that remains.",
+          "type": "Indirect",
+          "points": 5
         },
         {
           "clue": "Something that stands out from the ordinary.",
@@ -111,9 +111,9 @@
           "points": 4
         },
         {
-          "clue": "A mark that is left, a memory that remains.",
-          "type": "Indirect",
-          "points": 5
+          "clue": "Worthy of notice or attention.",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -123,9 +123,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "The point or place where something is invented or provided.",
-          "type": "Straight",
-          "points": 2
+          "clue": "Where the journey begins, and the path unwinds.",
+          "type": "Indirect",
+          "points": 7
         },
         {
           "clue": "The starting point of a development or a process.",
@@ -133,9 +133,9 @@
           "points": 4
         },
         {
-          "clue": "Where the journey begins, and the path unwinds.",
-          "type": "Indirect",
-          "points": 7
+          "clue": "The point or place where something is invented or provided.",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -145,9 +145,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "Devices that show the time.",
-          "type": "Straight",
-          "points": 1
+          "clue": "Ticking away, marking the passage of time.",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "They help us keep a schedule and stay on track.",
@@ -155,9 +155,9 @@
           "points": 3
         },
         {
-          "clue": "Ticking away, marking the passage of time.",
-          "type": "Indirect",
-          "points": 6
+          "clue": "Devices that show the time.",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -167,9 +167,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "An average value.",
-          "type": "Straight",
-          "points": 2
+          "clue": "The midpoint of a journey, where balance is found.",
+          "type": "Indirect",
+          "points": 7
         },
         {
           "clue": "A middle point between two extremes.",
@@ -177,9 +177,9 @@
           "points": 4
         },
         {
-          "clue": "The midpoint of a journey, where balance is found.",
-          "type": "Indirect",
-          "points": 7
+          "clue": "An average value.",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -189,9 +189,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "A unit of time.",
-          "type": "Straight",
-          "points": 1
+          "clue": "The smallest piece of time, a fragment of a minute.",
+          "type": "Indirect",
+          "points": 5
         },
         {
           "clue": "A brief moment, a short period of time.",
@@ -199,9 +199,9 @@
           "points": 3
         },
         {
-          "clue": "The smallest piece of time, a fragment of a minute.",
-          "type": "Indirect",
-          "points": 5
+          "clue": "A unit of time.",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -211,9 +211,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "A quality that is unusual or unexpected.",
-          "type": "Straight",
-          "points": 2
+          "clue": "A quirk that sets something apart, a unique trait.",
+          "type": "Indirect",
+          "points": 7
         },
         {
           "clue": "Something that is strange or odd.",
@@ -221,9 +221,9 @@
           "points": 4
         },
         {
-          "clue": "A quirk that sets something apart, a unique trait.",
-          "type": "Indirect",
-          "points": 7
+          "clue": "A quality that is unusual or unexpected.",
+          "type": "Straight",
+          "points": 2
         }
       ]
     }

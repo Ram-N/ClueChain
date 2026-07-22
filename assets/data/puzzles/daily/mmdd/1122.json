@@ -9,9 +9,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "A task that needs to be done",
-          "type": "Straight",
-          "points": 1
+          "clue": "It's not play, but something you must undertake every day",
+          "type": "Indirect",
+          "points": 5
         },
         {
           "clue": "This is what you do when you're on the job",
@@ -19,9 +19,9 @@
           "points": 3
         },
         {
-          "clue": "It's not play, but something you must undertake every day",
-          "type": "Indirect",
-          "points": 5
+          "clue": "A task that needs to be done",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -33,9 +33,9 @@
       ],
       "clues": [
         {
-          "clue": "A device to make calls",
-          "type": "Straight",
-          "points": 1
+          "clue": "A pocket-sized companion that's always by your side, but can be a hindrance",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "A common distraction during deep work",
@@ -43,9 +43,9 @@
           "points": 3
         },
         {
-          "clue": "A pocket-sized companion that's always by your side, but can be a hindrance",
-          "type": "Indirect",
-          "points": 6
+          "clue": "A device to make calls",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -57,9 +57,9 @@
       ],
       "clues": [
         {
-          "clue": "A digital message sent over the internet",
-          "type": "Straight",
-          "points": 1
+          "clue": "A way to send letters, but not the traditional kind",
+          "type": "Indirect",
+          "points": 5
         },
         {
           "clue": "A potential source of distraction during work",
@@ -67,9 +67,9 @@
           "points": 3
         },
         {
-          "clue": "A way to send letters, but not the traditional kind",
-          "type": "Indirect",
-          "points": 5
+          "clue": "A digital message sent over the internet",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -81,14 +81,14 @@
       ],
       "clues": [
         {
-          "clue": "A type of work that requires focus",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
           "clue": "Diving into the ocean of knowledge",
           "type": "Indirect",
           "points": 6
+        },
+        {
+          "clue": "A type of work that requires focus",
+          "type": "Suggestive",
+          "points": 3
         },
         {
           "clue": "Intense and meaningful work",
@@ -105,9 +105,9 @@
       ],
       "clues": [
         {
-          "clue": "Lacking in depth or substance",
-          "type": "Straight",
-          "points": 2
+          "clue": "A pond of water, where the depth is limited",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "The opposite of deep work, where focus is divided",
@@ -115,9 +115,9 @@
           "points": 3
         },
         {
-          "clue": "A pond of water, where the depth is limited",
-          "type": "Indirect",
-          "points": 6
+          "clue": "Lacking in depth or substance",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -127,9 +127,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "The ability to focus on one thing",
-          "type": "Straight",
-          "points": 2
+          "clue": "A magic trick where the mind disappears into a task",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "A mental state of being fully engaged",
@@ -137,9 +137,9 @@
           "points": 3
         },
         {
-          "clue": "A magic trick where the mind disappears into a task",
-          "type": "Indirect",
-          "points": 6
+          "clue": "The ability to focus on one thing",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -149,14 +149,14 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "A challenge that must be overcome",
-          "type": "Suggestive",
-          "points": 4
-        },
-        {
           "clue": "A puzzle that requires solving",
           "type": "Indirect",
           "points": 7
+        },
+        {
+          "clue": "A challenge that must be overcome",
+          "type": "Suggestive",
+          "points": 4
         },
         {
           "clue": "Something that is hard to do",
@@ -171,9 +171,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "Related to the mind or mental processes",
-          "type": "Straight",
-          "points": 2
+          "clue": "The mysterious workings of the brain, a puzzle to unravel",
+          "type": "Indirect",
+          "points": 7
         },
         {
           "clue": "A way of thinking that's connected to knowledge",
@@ -181,9 +181,9 @@
           "points": 4
         },
         {
-          "clue": "The mysterious workings of the brain, a puzzle to unravel",
-          "type": "Indirect",
-          "points": 7
+          "clue": "Related to the mind or mental processes",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -193,9 +193,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "Requiring a lot of effort or energy",
-          "type": "Straight",
-          "points": 2
+          "clue": "A challenge that makes you question your abilities, but helps you grow",
+          "type": "Indirect",
+          "points": 7
         },
         {
           "clue": "A task that pushes you to your limits",
@@ -203,9 +203,9 @@
           "points": 4
         },
         {
-          "clue": "A challenge that makes you question your abilities, but helps you grow",
-          "type": "Indirect",
-          "points": 7
+          "clue": "Requiring a lot of effort or energy",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -215,9 +215,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "The situation or circumstances surrounding something",
-          "type": "Straight",
-          "points": 2
+          "clue": "A frame that holds the picture of your thoughts, but can be easily changed",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "A word that's connected to the idea of surroundings",
@@ -225,9 +225,9 @@
           "points": 3
         },
         {
-          "clue": "A frame that holds the picture of your thoughts, but can be easily changed",
-          "type": "Indirect",
-          "points": 6
+          "clue": "The situation or circumstances surrounding something",
+          "type": "Straight",
+          "points": 2
         }
       ]
     }

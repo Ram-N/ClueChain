@@ -12,9 +12,9 @@
       ],
       "clues": [
         {
-          "clue": "The control center of the body",
-          "type": "Straight",
-          "points": 1
+          "clue": "A puzzle that's hard to wrap your head around",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "Where thoughts and memories are processed",
@@ -22,9 +22,9 @@
           "points": 3
         },
         {
-          "clue": "A puzzle that's hard to wrap your head around",
-          "type": "Indirect",
-          "points": 6
+          "clue": "The control center of the body",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -37,6 +37,11 @@
       ],
       "clues": [
         {
+          "clue": "A spark of electricity can ignite a thousand",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
           "clue": "Tiny messengers in the body",
           "type": "Suggestive",
           "points": 4
@@ -45,11 +50,6 @@
           "clue": "The building blocks of intelligence",
           "type": "Straight",
           "points": 2
-        },
-        {
-          "clue": "A spark of electricity can ignite a thousand",
-          "type": "Indirect",
-          "points": 5
         }
       ]
     },
@@ -62,9 +62,9 @@
       ],
       "clues": [
         {
-          "clue": "A web of connections",
-          "type": "Straight",
-          "points": 1
+          "clue": "A hidden pattern waiting to be uncovered",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "Where information flows and grows",
@@ -72,9 +72,9 @@
           "points": 3
         },
         {
-          "clue": "A hidden pattern waiting to be uncovered",
-          "type": "Indirect",
-          "points": 6
+          "clue": "A web of connections",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -84,9 +84,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "Simplified representations of complex systems",
-          "type": "Straight",
-          "points": 2
+          "clue": "A miniature version of reality, with all its flaws",
+          "type": "Indirect",
+          "points": 7
         },
         {
           "clue": "Tools for understanding and predicting behavior",
@@ -94,9 +94,9 @@
           "points": 4
         },
         {
-          "clue": "A miniature version of reality, with all its flaws",
-          "type": "Indirect",
-          "points": 7
+          "clue": "Simplified representations of complex systems",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -106,9 +106,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "Abstract ideas or notions",
-          "type": "Straight",
-          "points": 1
+          "clue": "A jigsaw puzzle with missing pieces",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "The building blocks of thought and understanding",
@@ -116,9 +116,9 @@
           "points": 3
         },
         {
-          "clue": "A jigsaw puzzle with missing pieces",
-          "type": "Indirect",
-          "points": 6
+          "clue": "Abstract ideas or notions",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -128,9 +128,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "New findings or revelations",
-          "type": "Straight",
-          "points": 2
+          "clue": "A hidden treasure waiting to be unearthed",
+          "type": "Indirect",
+          "points": 5
         },
         {
           "clue": "The outcome of exploration and investigation",
@@ -138,9 +138,9 @@
           "points": 4
         },
         {
-          "clue": "A hidden treasure waiting to be unearthed",
-          "type": "Indirect",
-          "points": 5
+          "clue": "New findings or revelations",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -150,9 +150,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "Relating to warm-blooded animals",
-          "type": "Straight",
-          "points": 2
+          "clue": "A trait that sets us apart from the rest",
+          "type": "Indirect",
+          "points": 7
         },
         {
           "clue": "A characteristic of humans and other warm-blooded creatures",
@@ -160,9 +160,9 @@
           "points": 4
         },
         {
-          "clue": "A trait that sets us apart from the rest",
-          "type": "Indirect",
-          "points": 7
+          "clue": "Relating to warm-blooded animals",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -172,9 +172,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "Changes that help an organism survive",
-          "type": "Straight",
-          "points": 1
+          "clue": "A clever solution to a problem, crafted by nature",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "Special features that enhance fitness and function",
@@ -182,9 +182,9 @@
           "points": 3
         },
         {
-          "clue": "A clever solution to a problem, crafted by nature",
-          "type": "Indirect",
-          "points": 6
+          "clue": "Changes that help an organism survive",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -194,9 +194,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "The purpose or role of something",
-          "type": "Straight",
-          "points": 1
+          "clue": "A puzzle piece that fits perfectly into place",
+          "type": "Indirect",
+          "points": 5
         },
         {
           "clue": "The way something works or operates",
@@ -204,9 +204,9 @@
           "points": 3
         },
         {
-          "clue": "A puzzle piece that fits perfectly into place",
-          "type": "Indirect",
-          "points": 5
+          "clue": "The purpose or role of something",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -216,9 +216,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "The power or capacity to do something",
-          "type": "Straight",
-          "points": 2
+          "clue": "A hidden talent waiting to be unleashed",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "The skills or talents that make us unique",
@@ -226,9 +226,9 @@
           "points": 4
         },
         {
-          "clue": "A hidden talent waiting to be unleashed",
-          "type": "Indirect",
-          "points": 6
+          "clue": "The power or capacity to do something",
+          "type": "Straight",
+          "points": 2
         }
       ]
     }

@@ -9,14 +9,14 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "This adjective describes something of great consequence or import.",
-          "type": "Suggestive",
-          "points": 4
-        },
-        {
           "clue": "What's the meaning when something truly matters?",
           "type": "Indirect",
           "points": 6
+        },
+        {
+          "clue": "This adjective describes something of great consequence or import.",
+          "type": "Suggestive",
+          "points": 4
         },
         {
           "clue": "Important; noteworthy.",
@@ -31,6 +31,11 @@
       "related_words": [],
       "clues": [
         {
+          "clue": "The current popular style or direction.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
           "clue": "It's what the cool kids are doing.",
           "type": "Suggestive",
           "points": 3
@@ -39,11 +44,6 @@
           "clue": "A general direction in which something is developing or changing.",
           "type": "Straight",
           "points": 2
-        },
-        {
-          "clue": "The current popular style or direction.",
-          "type": "Indirect",
-          "points": 5
         }
       ]
     },
@@ -53,6 +53,11 @@
       "related_words": [],
       "clues": [
         {
+          "clue": "What do you call a lion and a tiger's offspring?",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
           "clue": "Often seen in botany, but also applicable to cinema.",
           "type": "Suggestive",
           "points": 3
@@ -61,11 +66,6 @@
           "clue": "A cross between two different things, often used in biology.",
           "type": "Straight",
           "points": 2
-        },
-        {
-          "clue": "What do you call a lion and a tiger's offspring?",
-          "type": "Indirect",
-          "points": 7
         }
       ]
     },
@@ -75,6 +75,11 @@
       "related_words": [],
       "clues": [
         {
+          "clue": "It can mean 'to take part in' or 'to affect'.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
           "clue": "When you're 'in' something, you're this.",
           "type": "Suggestive",
           "points": 3
@@ -83,11 +88,6 @@
           "clue": "Included or connected.",
           "type": "Straight",
           "points": 1
-        },
-        {
-          "clue": "It can mean 'to take part in' or 'to affect'.",
-          "type": "Indirect",
-          "points": 5
         }
       ]
     },
@@ -97,9 +97,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "The day after today.",
-          "type": "Straight",
-          "points": 1
+          "clue": "If today is Tuesday, that would be Wednesday.",
+          "type": "Indirect",
+          "points": 5
         },
         {
           "clue": "What one hopes for with a new day.",
@@ -107,9 +107,9 @@
           "points": 3
         },
         {
-          "clue": "If today is Tuesday, that would be Wednesday.",
-          "type": "Indirect",
-          "points": 5
+          "clue": "The day after today.",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -119,6 +119,11 @@
       "related_words": [],
       "clues": [
         {
+          "clue": "Where the action is, the heart of the matter.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
           "clue": "It is the main focus of a story.",
           "type": "Suggestive",
           "points": 4
@@ -127,11 +132,6 @@
           "clue": "Focuses on; is based on.",
           "type": "Straight",
           "points": 2
-        },
-        {
-          "clue": "Where the action is, the heart of the matter.",
-          "type": "Indirect",
-          "points": 5
         }
       ]
     },
@@ -141,6 +141,11 @@
       "related_words": [],
       "clues": [
         {
+          "clue": "The opposite of forgiving; a hard heart.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
           "clue": "This describes a character who will not be swayed.",
           "type": "Suggestive",
           "points": 4
@@ -149,11 +154,6 @@
           "clue": "Unappeasable; relentless.",
           "type": "Straight",
           "points": 1
-        },
-        {
-          "clue": "The opposite of forgiving; a hard heart.",
-          "type": "Indirect",
-          "points": 7
         }
       ]
     },
@@ -163,6 +163,11 @@
       "related_words": [],
       "clues": [
         {
+          "clue": "They can't recall yesterday, or perhaps even this morning.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
           "clue": "Suffering from memory loss.",
           "type": "Suggestive",
           "points": 3
@@ -171,11 +176,6 @@
           "clue": "A person affected by amnesia.",
           "type": "Straight",
           "points": 2
-        },
-        {
-          "clue": "They can't recall yesterday, or perhaps even this morning.",
-          "type": "Indirect",
-          "points": 6
         }
       ]
     },
@@ -185,6 +185,11 @@
       "related_words": [],
       "clues": [
         {
+          "clue": "The opposite of utopia.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
           "clue": "A society characterized by human misery, as squalor, oppression, disease, and overcrowding.",
           "type": "Suggestive",
           "points": 4
@@ -193,11 +198,6 @@
           "clue": "Relating to or denoting an imagined place or state in which everything is unpleasant or bad, typically a totalitarian or environmentally degraded one.",
           "type": "Straight",
           "points": 2
-        },
-        {
-          "clue": "The opposite of utopia.",
-          "type": "Indirect",
-          "points": 5
         }
       ]
     },
@@ -207,6 +207,11 @@
       "related_words": [],
       "clues": [
         {
+          "clue": "The process of identifying or discovering something.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
           "clue": "What a detective does.",
           "type": "Suggestive",
           "points": 3
@@ -215,11 +220,6 @@
           "clue": "The act of discovering something not easily noticed.",
           "type": "Straight",
           "points": 1
-        },
-        {
-          "clue": "The process of identifying or discovering something.",
-          "type": "Indirect",
-          "points": 6
         }
       ]
     }

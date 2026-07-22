@@ -9,9 +9,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "A condition that makes it hard to breathe",
-          "type": "Straight",
-          "points": 1
+          "clue": "Imagine a tight squeeze in your chest, making every breath a challenge",
+          "type": "Indirect",
+          "points": 5
         },
         {
           "clue": "It's often triggered by allergens or pollution",
@@ -19,9 +19,9 @@
           "points": 3
         },
         {
-          "clue": "Imagine a tight squeeze in your chest, making every breath a challenge",
-          "type": "Indirect",
-          "points": 5
+          "clue": "A condition that makes it hard to breathe",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -34,9 +34,9 @@
       ],
       "clues": [
         {
-          "clue": "A systematic investigation into a subject",
-          "type": "Straight",
-          "points": 2
+          "clue": "Think of a detective searching for clues to unravel a mystery",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "It helps us understand complex phenomena and find solutions",
@@ -44,9 +44,9 @@
           "points": 4
         },
         {
-          "clue": "Think of a detective searching for clues to unravel a mystery",
-          "type": "Indirect",
-          "points": 6
+          "clue": "A systematic investigation into a subject",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -59,9 +59,9 @@
       ],
       "clues": [
         {
-          "clue": "The control center of the human body",
-          "type": "Straight",
-          "points": 1
+          "clue": "Imagine a complex network of roads, highways, and intersections",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "They're responsible for processing information and controlling movements",
@@ -69,9 +69,9 @@
           "points": 3
         },
         {
-          "clue": "Imagine a complex network of roads, highways, and intersections",
-          "type": "Indirect",
-          "points": 6
+          "clue": "The control center of the human body",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -83,9 +83,9 @@
       ],
       "clues": [
         {
-          "clue": "The element of a person that enables them to be aware of their surroundings",
-          "type": "Straight",
-          "points": 2
+          "clue": "Picture a vast, uncharted territory waiting to be explored",
+          "type": "Indirect",
+          "points": 5
         },
         {
           "clue": "It's where thoughts, emotions, and memories reside",
@@ -93,9 +93,9 @@
           "points": 3
         },
         {
-          "clue": "Picture a vast, uncharted territory waiting to be explored",
-          "type": "Indirect",
-          "points": 5
+          "clue": "The element of a person that enables them to be aware of their surroundings",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -105,9 +105,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "A medical condition that occurs when the blood supply to the brain is interrupted",
-          "type": "Straight",
-          "points": 2
+          "clue": "Imagine a sudden, intense storm that ravages the landscape",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "It can cause paralysis, speech problems, and even death",
@@ -115,9 +115,9 @@
           "points": 4
         },
         {
-          "clue": "Imagine a sudden, intense storm that ravages the landscape",
-          "type": "Indirect",
-          "points": 6
+          "clue": "A medical condition that occurs when the blood supply to the brain is interrupted",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -127,9 +127,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "A circumstance or fact that influences a result",
-          "type": "Straight",
-          "points": 2
+          "clue": "Think of a hidden thread that weaves its way through a complex tapestry",
+          "type": "Indirect",
+          "points": 7
         },
         {
           "clue": "It's an element that contributes to a particular outcome",
@@ -137,9 +137,9 @@
           "points": 4
         },
         {
-          "clue": "Think of a hidden thread that weaves its way through a complex tapestry",
-          "type": "Indirect",
-          "points": 7
+          "clue": "A circumstance or fact that influences a result",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -151,9 +151,9 @@
       ],
       "clues": [
         {
-          "clue": "A detailed examination and analysis of a subject",
-          "type": "Straight",
-          "points": 1
+          "clue": "Imagine a journey through uncharted territory, guided by curiosity",
+          "type": "Indirect",
+          "points": 5
         },
         {
           "clue": "It helps us gain a deeper understanding of the world around us",
@@ -161,9 +161,9 @@
           "points": 3
         },
         {
-          "clue": "Imagine a journey through uncharted territory, guided by curiosity",
-          "type": "Indirect",
-          "points": 5
+          "clue": "A detailed examination and analysis of a subject",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -173,9 +173,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "A vital organ responsible for exchanging oxygen and carbon dioxide",
-          "type": "Straight",
-          "points": 2
+          "clue": "Picture a delicate, intricate network of air sacs and tubes",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "It's essential for maintaining proper respiratory function",
@@ -183,9 +183,9 @@
           "points": 4
         },
         {
-          "clue": "Picture a delicate, intricate network of air sacs and tubes",
-          "type": "Indirect",
-          "points": 6
+          "clue": "A vital organ responsible for exchanging oxygen and carbon dioxide",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -195,9 +195,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "A disease characterized by the uncontrolled growth of abnormal cells",
-          "type": "Straight",
-          "points": 2
+          "clue": "Imagine a rogue cell that refuses to follow the rules, threatening the entire system",
+          "type": "Indirect",
+          "points": 7
         },
         {
           "clue": "It can be caused by genetic mutations, environmental factors, or a combination of both",
@@ -205,9 +205,9 @@
           "points": 4
         },
         {
-          "clue": "Imagine a rogue cell that refuses to follow the rules, threatening the entire system",
-          "type": "Indirect",
-          "points": 7
+          "clue": "A disease characterized by the uncontrolled growth of abnormal cells",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -217,9 +217,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "A disorder of a structure or function of the body",
-          "type": "Straight",
-          "points": 2
+          "clue": "Think of a puzzle with missing pieces, where the solution is not always clear",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "It can be caused by a variety of factors, including genetics, environment, and lifestyle",
@@ -227,9 +227,9 @@
           "points": 4
         },
         {
-          "clue": "Think of a puzzle with missing pieces, where the solution is not always clear",
-          "type": "Indirect",
-          "points": 6
+          "clue": "A disorder of a structure or function of the body",
+          "type": "Straight",
+          "points": 2
         }
       ]
     }

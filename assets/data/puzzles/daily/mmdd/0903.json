@@ -9,9 +9,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "A category or type of artistic work.",
-          "type": "Straight",
-          "points": 1
+          "clue": "If you are into crime films, you know what this is.",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "It can be a type of music, film, or literature.",
@@ -19,9 +19,9 @@
           "points": 4
         },
         {
-          "clue": "If you are into crime films, you know what this is.",
-          "type": "Indirect",
-          "points": 6
+          "clue": "A category or type of artistic work.",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -31,9 +31,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "Mainly or chiefly.",
-          "type": "Straight",
-          "points": 2
+          "clue": "If something is most responsible, it is this.",
+          "type": "Indirect",
+          "points": 5
         },
         {
           "clue": "This word describes the most important thing.",
@@ -41,9 +41,9 @@
           "points": 3
         },
         {
-          "clue": "If something is most responsible, it is this.",
-          "type": "Indirect",
-          "points": 5
+          "clue": "Mainly or chiefly.",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -53,9 +53,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "Connected or linked to something else.",
-          "type": "Straight",
-          "points": 2
+          "clue": "What goes with the territory.",
+          "type": "Indirect",
+          "points": 7
         },
         {
           "clue": "Often used to describe a relationship or connection.",
@@ -63,9 +63,9 @@
           "points": 4
         },
         {
-          "clue": "What goes with the territory.",
-          "type": "Indirect",
-          "points": 7
+          "clue": "Connected or linked to something else.",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -75,9 +75,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "Relating to seeing or sight.",
-          "type": "Straight",
-          "points": 1
+          "clue": "Seeing is believing, if you can perceive anything with this.",
+          "type": "Indirect",
+          "points": 5
         },
         {
           "clue": "This describes something you can see with your eyes.",
@@ -85,9 +85,9 @@
           "points": 3
         },
         {
-          "clue": "Seeing is believing, if you can perceive anything with this.",
-          "type": "Indirect",
-          "points": 5
+          "clue": "Relating to seeing or sight.",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -97,9 +97,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "Common or overused themes or devices.",
-          "type": "Straight",
-          "points": 2
+          "clue": "The things that are old, familiar, and sometimes predictable.",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "These are often found in stories and movies.",
@@ -107,9 +107,9 @@
           "points": 3
         },
         {
-          "clue": "The things that are old, familiar, and sometimes predictable.",
-          "type": "Indirect",
-          "points": 6
+          "clue": "Common or overused themes or devices.",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -119,9 +119,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "Modifying something to fit a new purpose.",
-          "type": "Straight",
-          "points": 2
+          "clue": "If you're making something new from something old, you are doing this.",
+          "type": "Indirect",
+          "points": 5
         },
         {
           "clue": "Changing something to make it suitable.",
@@ -129,9 +129,9 @@
           "points": 4
         },
         {
-          "clue": "If you're making something new from something old, you are doing this.",
-          "type": "Indirect",
-          "points": 5
+          "clue": "Modifying something to fit a new purpose.",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -141,9 +141,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "Belonging to the present time.",
-          "type": "Straight",
-          "points": 2
+          "clue": "If you're living in the moment, you are this.",
+          "type": "Indirect",
+          "points": 5
         },
         {
           "clue": "This describes things that are happening now.",
@@ -151,9 +151,9 @@
           "points": 3
         },
         {
-          "clue": "If you're living in the moment, you are this.",
-          "type": "Indirect",
-          "points": 5
+          "clue": "Belonging to the present time.",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -163,9 +163,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "The group of people watching a film or performance.",
-          "type": "Straight",
-          "points": 1
+          "clue": "These people are the ones who consume entertainment.",
+          "type": "Indirect",
+          "points": 7
         },
         {
           "clue": "They watch movies, listen to music, and attend plays.",
@@ -173,9 +173,9 @@
           "points": 4
         },
         {
-          "clue": "These people are the ones who consume entertainment.",
-          "type": "Indirect",
-          "points": 7
+          "clue": "The group of people watching a film or performance.",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -185,9 +185,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "Explicit or detailed.",
-          "type": "Straight",
-          "points": 1
+          "clue": "This is often found in films that are not for children.",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "Often used to describe violence or imagery.",
@@ -195,9 +195,9 @@
           "points": 3
         },
         {
-          "clue": "This is often found in films that are not for children.",
-          "type": "Indirect",
-          "points": 6
+          "clue": "Explicit or detailed.",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -207,9 +207,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "Parts or components of something.",
-          "type": "Straight",
-          "points": 2
+          "clue": "The ingredients of a recipe, the parts of a film.",
+          "type": "Indirect",
+          "points": 7
         },
         {
           "clue": "These are the building blocks of a whole.",
@@ -217,9 +217,9 @@
           "points": 4
         },
         {
-          "clue": "The ingredients of a recipe, the parts of a film.",
-          "type": "Indirect",
-          "points": 7
+          "clue": "Parts or components of something.",
+          "type": "Straight",
+          "points": 2
         }
       ]
     }

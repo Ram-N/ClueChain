@@ -9,9 +9,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "Outcome that brings joy to fans",
-          "type": "Straight",
-          "points": 1
+          "clue": "A triumph that's sweet as a melody",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "The result of a hard-fought battle",
@@ -19,9 +19,9 @@
           "points": 3
         },
         {
-          "clue": "A triumph that's sweet as a melody",
-          "type": "Indirect",
-          "points": 6
+          "clue": "Outcome that brings joy to fans",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -34,9 +34,9 @@
       ],
       "clues": [
         {
-          "clue": "People in charge of enforcing the rules",
-          "type": "Straight",
-          "points": 2
+          "clue": "Their calls can make or break a team's season",
+          "type": "Indirect",
+          "points": 5
         },
         {
           "clue": "They wear special uniforms to officiate games",
@@ -44,9 +44,9 @@
           "points": 3
         },
         {
-          "clue": "Their calls can make or break a team's season",
-          "type": "Indirect",
-          "points": 5
+          "clue": "People in charge of enforcing the rules",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -59,9 +59,9 @@
       ],
       "clues": [
         {
-          "clue": "A big cat known for its speed",
-          "type": "Straight",
-          "points": 1
+          "clue": "Their name evokes the idea of a powerful predator",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "This team is known for its fierce name",
@@ -69,9 +69,9 @@
           "points": 4
         },
         {
-          "clue": "Their name evokes the idea of a powerful predator",
-          "type": "Indirect",
-          "points": 6
+          "clue": "A big cat known for its speed",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -81,9 +81,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "A person who breaks down complex data",
-          "type": "Straight",
-          "points": 2
+          "clue": "Their insights can be like a key to unlocking a puzzle",
+          "type": "Indirect",
+          "points": 7
         },
         {
           "clue": "Someone who provides expert opinions on TV",
@@ -91,9 +91,9 @@
           "points": 4
         },
         {
-          "clue": "Their insights can be like a key to unlocking a puzzle",
-          "type": "Indirect",
-          "points": 7
+          "clue": "A person who breaks down complex data",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -106,9 +106,9 @@
       ],
       "clues": [
         {
-          "clue": "When two teams compete against each other",
-          "type": "Straight",
-          "points": 1
+          "clue": "The pairing of two teams can be like a recipe for excitement",
+          "type": "Indirect",
+          "points": 5
         },
         {
           "clue": "A contest between two opponents",
@@ -116,9 +116,9 @@
           "points": 3
         },
         {
-          "clue": "The pairing of two teams can be like a recipe for excitement",
-          "type": "Indirect",
-          "points": 5
+          "clue": "When two teams compete against each other",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -131,9 +131,9 @@
       ],
       "clues": [
         {
-          "clue": "A type of bird known for its speed",
-          "type": "Straight",
-          "points": 1
+          "clue": "Their name suggests a sense of swiftness and agility",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "This team's name is inspired by a bird of prey",
@@ -141,9 +141,9 @@
           "points": 4
         },
         {
-          "clue": "Their name suggests a sense of swiftness and agility",
-          "type": "Indirect",
-          "points": 6
+          "clue": "A type of bird known for its speed",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -153,9 +153,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "A decision that's open to debate",
-          "type": "Straight",
-          "points": 2
+          "clue": "A choice that's like a coin flip - it could go either way",
+          "type": "Indirect",
+          "points": 7
         },
         {
           "clue": "Something that's uncertain or unclear",
@@ -163,9 +163,9 @@
           "points": 4
         },
         {
-          "clue": "A choice that's like a coin flip - it could go either way",
-          "type": "Indirect",
-          "points": 7
+          "clue": "A decision that's open to debate",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -175,9 +175,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "To move forward or progress",
-          "type": "Straight",
-          "points": 1
+          "clue": "Like a river flowing to its destination",
+          "type": "Indirect",
+          "points": 5
         },
         {
           "clue": "The act of going to the next level",
@@ -185,9 +185,9 @@
           "points": 3
         },
         {
-          "clue": "Like a river flowing to its destination",
-          "type": "Indirect",
-          "points": 5
+          "clue": "To move forward or progress",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -197,9 +197,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "A winner of a competition",
-          "type": "Straight",
-          "points": 1
+          "clue": "A hero who rises to the top like a phoenix",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "Someone who has achieved great success",
@@ -207,9 +207,9 @@
           "points": 3
         },
         {
-          "clue": "A hero who rises to the top like a phoenix",
-          "type": "Indirect",
-          "points": 6
+          "clue": "A winner of a competition",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -219,9 +219,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "To be overcome or beaten",
-          "type": "Straight",
-          "points": 1
+          "clue": "Like a fallen warrior, rising again is key",
+          "type": "Indirect",
+          "points": 5
         },
         {
           "clue": "The result of a lost battle",
@@ -229,9 +229,9 @@
           "points": 3
         },
         {
-          "clue": "Like a fallen warrior, rising again is key",
-          "type": "Indirect",
-          "points": 5
+          "clue": "To be overcome or beaten",
+          "type": "Straight",
+          "points": 1
         }
       ]
     }

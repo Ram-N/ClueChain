@@ -9,9 +9,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "A type of singing voice",
-          "type": "Straight",
-          "points": 1
+          "clue": "Like a gentle brook, it flows with harmony",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "Relating to a pleasant musical quality",
@@ -19,9 +19,9 @@
           "points": 3
         },
         {
-          "clue": "Like a gentle brook, it flows with harmony",
-          "type": "Indirect",
-          "points": 6
+          "clue": "A type of singing voice",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -33,9 +33,9 @@
       ],
       "clues": [
         {
-          "clue": "A type of musical vibration",
-          "type": "Straight",
-          "points": 2
+          "clue": "Imagine multiple strings resonating together",
+          "type": "Indirect",
+          "points": 5
         },
         {
           "clue": "It's about the combination of multiple pitches",
@@ -43,9 +43,9 @@
           "points": 4
         },
         {
-          "clue": "Imagine multiple strings resonating together",
-          "type": "Indirect",
-          "points": 5
+          "clue": "A type of musical vibration",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -55,9 +55,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "Uniformity in composition or structure",
-          "type": "Straight",
-          "points": 1
+          "clue": "Like a single-colored painting, it lacks diversity",
+          "type": "Indirect",
+          "points": 7
         },
         {
           "clue": "A state of being the same throughout",
@@ -65,9 +65,9 @@
           "points": 4
         },
         {
-          "clue": "Like a single-colored painting, it lacks diversity",
-          "type": "Indirect",
-          "points": 7
+          "clue": "Uniformity in composition or structure",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -79,9 +79,9 @@
       ],
       "clues": [
         {
-          "clue": "A rhythmic throbbing or vibration",
-          "type": "Straight",
-          "points": 2
+          "clue": "Imagine a wave that expands and contracts",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "It's like the beating of the heart",
@@ -89,9 +89,9 @@
           "points": 3
         },
         {
-          "clue": "Imagine a wave that expands and contracts",
-          "type": "Indirect",
-          "points": 6
+          "clue": "A rhythmic throbbing or vibration",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -101,9 +101,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "The process of becoming aware of something",
-          "type": "Straight",
-          "points": 1
+          "clue": "It's like trying to see through a foggy window",
+          "type": "Indirect",
+          "points": 7
         },
         {
           "clue": "How we interpret sensory information",
@@ -111,9 +111,9 @@
           "points": 4
         },
         {
-          "clue": "It's like trying to see through a foggy window",
-          "type": "Indirect",
-          "points": 7
+          "clue": "The process of becoming aware of something",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -123,9 +123,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "A mutual relationship between two things",
-          "type": "Straight",
-          "points": 2
+          "clue": "Imagine two dancers moving in perfect sync",
+          "type": "Indirect",
+          "points": 5
         },
         {
           "clue": "It's about how things are connected",
@@ -133,9 +133,9 @@
           "points": 3
         },
         {
-          "clue": "Imagine two dancers moving in perfect sync",
-          "type": "Indirect",
-          "points": 5
+          "clue": "A mutual relationship between two things",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -145,9 +145,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "Relating to the process of adding something",
-          "type": "Straight",
-          "points": 1
+          "clue": "Like building blocks, it's about combining parts",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "It's a type of mathematical operation",
@@ -155,9 +155,9 @@
           "points": 3
         },
         {
-          "clue": "Like building blocks, it's about combining parts",
-          "type": "Indirect",
-          "points": 6
+          "clue": "Relating to the process of adding something",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -167,9 +167,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "A musical term for increasing speed",
-          "type": "Straight",
-          "points": 2
+          "clue": "Imagine a rollercoaster going downhill",
+          "type": "Indirect",
+          "points": 5
         },
         {
           "clue": "It's like a car gaining momentum",
@@ -177,9 +177,9 @@
           "points": 4
         },
         {
-          "clue": "Imagine a rollercoaster going downhill",
-          "type": "Indirect",
-          "points": 5
+          "clue": "A musical term for increasing speed",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -189,9 +189,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "A musical term for decreasing speed",
-          "type": "Straight",
-          "points": 1
+          "clue": "Imagine a wave losing its energy",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "It's like a car slowing down",
@@ -199,9 +199,9 @@
           "points": 3
         },
         {
-          "clue": "Imagine a wave losing its energy",
-          "type": "Indirect",
-          "points": 6
+          "clue": "A musical term for decreasing speed",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -211,9 +211,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "Not necessary or excessive",
-          "type": "Straight",
-          "points": 2
+          "clue": "Like a puzzle with too many identical pieces",
+          "type": "Indirect",
+          "points": 7
         },
         {
           "clue": "It's like having too many unnecessary parts",
@@ -221,9 +221,9 @@
           "points": 4
         },
         {
-          "clue": "Like a puzzle with too many identical pieces",
-          "type": "Indirect",
-          "points": 7
+          "clue": "Not necessary or excessive",
+          "type": "Straight",
+          "points": 2
         }
       ]
     }

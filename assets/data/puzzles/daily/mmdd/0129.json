@@ -12,9 +12,9 @@
       ],
       "clues": [
         {
-          "clue": "Where goods are exchanged for money, a place of commerce.",
-          "type": "Straight",
-          "points": 1
+          "clue": "Imagine a place where people gather to exchange goods, a concept that has been around for centuries, but what is the word that describes this concept?",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "Area where products are bought and sold, often influenced by supply and demand.",
@@ -22,9 +22,9 @@
           "points": 3
         },
         {
-          "clue": "Imagine a place where people gather to exchange goods, a concept that has been around for centuries, but what is the word that describes this concept?",
-          "type": "Indirect",
-          "points": 6
+          "clue": "Where goods are exchanged for money, a place of commerce.",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -37,9 +37,9 @@
       ],
       "clues": [
         {
-          "clue": "The production of goods and services within an economy, often involving manufacturing and trade.",
-          "type": "Straight",
-          "points": 2
+          "clue": "Think of a sector that drives economic growth, innovation, and employment, but what is the term that encompasses all these aspects?",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "A group of companies or organizations that produce goods or services, often requiring specialized skills and knowledge.",
@@ -47,9 +47,9 @@
           "points": 4
         },
         {
-          "clue": "Think of a sector that drives economic growth, innovation, and employment, but what is the term that encompasses all these aspects?",
-          "type": "Indirect",
-          "points": 6
+          "clue": "The production of goods and services within an economy, often involving manufacturing and trade.",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -62,9 +62,9 @@
       ],
       "clues": [
         {
-          "clue": "The process of growing, changing, or improving something, such as a product, skill, or idea.",
-          "type": "Straight",
-          "points": 1
+          "clue": "Envision a journey of progress, where something evolves over time, but what is the term that describes this journey?",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "The act of creating or bringing something into existence, often requiring planning, resources, and effort.",
@@ -72,9 +72,9 @@
           "points": 3
         },
         {
-          "clue": "Envision a journey of progress, where something evolves over time, but what is the term that describes this journey?",
-          "type": "Indirect",
-          "points": 6
+          "clue": "The process of growing, changing, or improving something, such as a product, skill, or idea.",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -84,9 +84,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "A period of 100 years, often used to divide history into distinct eras.",
-          "type": "Straight",
-          "points": 1
+          "clue": "Imagine a long stretch of time, divided into equal parts, but what is the term that describes each part?",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "A unit of time that helps us measure the passage of years, often marking significant events and milestones.",
@@ -94,9 +94,9 @@
           "points": 3
         },
         {
-          "clue": "Imagine a long stretch of time, divided into equal parts, but what is the term that describes each part?",
-          "type": "Indirect",
-          "points": 6
+          "clue": "A period of 100 years, often used to divide history into distinct eras.",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -106,9 +106,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "The process of becoming visible or apparent, often unexpectedly.",
-          "type": "Straight",
-          "points": 2
+          "clue": "Think of a phenomenon where something new and unexpected appears, like a phoenix from the ashes, but what is the term that describes this phenomenon?",
+          "type": "Indirect",
+          "points": 7
         },
         {
           "clue": "The act of rising to prominence or becoming noticeable, often due to changing circumstances.",
@@ -116,9 +116,9 @@
           "points": 4
         },
         {
-          "clue": "Think of a phenomenon where something new and unexpected appears, like a phoenix from the ashes, but what is the term that describes this phenomenon?",
-          "type": "Indirect",
-          "points": 7
+          "clue": "The process of becoming visible or apparent, often unexpectedly.",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -128,9 +128,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "The state of being controlled or influenced by someone or something.",
-          "type": "Straight",
-          "points": 2
+          "clue": "Imagine a scenario where one force or entity has complete control over others, but what is the term that describes this state of control?",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "The act of exerting power or authority over others, often to achieve a specific goal or outcome.",
@@ -138,9 +138,9 @@
           "points": 4
         },
         {
-          "clue": "Imagine a scenario where one force or entity has complete control over others, but what is the term that describes this state of control?",
-          "type": "Indirect",
-          "points": 6
+          "clue": "The state of being controlled or influenced by someone or something.",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -150,9 +150,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "A group of people who watch, listen to, or read something, such as a performance or a book.",
-          "type": "Straight",
-          "points": 1
+          "clue": "Think of a gathering of people who are united by a common interest or purpose, but what is the term that describes this gathering?",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "The people who are intended to receive a message, entertainment, or information, often through various media channels.",
@@ -160,9 +160,9 @@
           "points": 3
         },
         {
-          "clue": "Think of a gathering of people who are united by a common interest or purpose, but what is the term that describes this gathering?",
-          "type": "Indirect",
-          "points": 6
+          "clue": "A group of people who watch, listen to, or read something, such as a performance or a book.",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -172,9 +172,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "Business organizations that produce goods or services, often with the goal of making a profit.",
-          "type": "Straight",
-          "points": 2
+          "clue": "Imagine a group of organizations that work together to achieve a common goal, but what is the term that describes these organizations?",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "Entities that operate in a specific industry or market, often with their own unique culture and mission.",
@@ -182,9 +182,9 @@
           "points": 4
         },
         {
-          "clue": "Imagine a group of organizations that work together to achieve a common goal, but what is the term that describes these organizations?",
-          "type": "Indirect",
-          "points": 6
+          "clue": "Business organizations that produce goods or services, often with the goal of making a profit.",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -194,9 +194,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "Set up or founded, often with a sense of permanence or stability.",
-          "type": "Straight",
-          "points": 2
+          "clue": "Think of a concept that implies a sense of stability and recognition, but what is the term that describes this concept?",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "Recognized or accepted as being valid or legitimate, often due to a long history or tradition.",
@@ -204,9 +204,9 @@
           "points": 4
         },
         {
-          "clue": "Think of a concept that implies a sense of stability and recognition, but what is the term that describes this concept?",
-          "type": "Indirect",
-          "points": 6
+          "clue": "Set up or founded, often with a sense of permanence or stability.",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -216,9 +216,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "A person who engages in an activity for pleasure or enjoyment, rather than as a profession.",
-          "type": "Straight",
-          "points": 2
+          "clue": "Imagine a person who is driven by a passion for a particular activity, but what is the term that describes this person?",
+          "type": "Indirect",
+          "points": 7
         },
         {
           "clue": "Someone who has a strong interest or passion for a particular activity, often spending their free time pursuing it.",
@@ -226,9 +226,9 @@
           "points": 4
         },
         {
-          "clue": "Imagine a person who is driven by a passion for a particular activity, but what is the term that describes this person?",
-          "type": "Indirect",
-          "points": 7
+          "clue": "A person who engages in an activity for pleasure or enjoyment, rather than as a profession.",
+          "type": "Straight",
+          "points": 2
         }
       ]
     }

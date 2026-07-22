@@ -9,9 +9,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "A body of written works, often about a specific subject",
-          "type": "Straight",
-          "points": 1
+          "clue": "Imagine a world without stories, what would fill the void?",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "Something that is studied in school, like books and poems",
@@ -19,9 +19,9 @@
           "points": 3
         },
         {
-          "clue": "Imagine a world without stories, what would fill the void?",
-          "type": "Indirect",
-          "points": 6
+          "clue": "A body of written works, often about a specific subject",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -34,9 +34,9 @@
       ],
       "clues": [
         {
-          "clue": "A series of rulers from the same family",
-          "type": "Straight",
-          "points": 2
+          "clue": "The rise and fall of power, like the tides of the sea, can be seen in these",
+          "type": "Indirect",
+          "points": 7
         },
         {
           "clue": "Families that ruled countries for generations, sometimes fair, sometimes not",
@@ -44,9 +44,9 @@
           "points": 4
         },
         {
-          "clue": "The rise and fall of power, like the tides of the sea, can be seen in these",
-          "type": "Indirect",
-          "points": 7
+          "clue": "A series of rulers from the same family",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -59,9 +59,9 @@
       ],
       "clues": [
         {
-          "clue": "A length of time, like a century or an era",
-          "type": "Straight",
-          "points": 1
+          "clue": "Time is a river, and this is one of its many branches",
+          "type": "Indirect",
+          "points": 5
         },
         {
           "clue": "A specific time in the past that is studied by historians",
@@ -69,9 +69,9 @@
           "points": 3
         },
         {
-          "clue": "Time is a river, and this is one of its many branches",
-          "type": "Indirect",
-          "points": 5
+          "clue": "A length of time, like a century or an era",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -84,9 +84,9 @@
       ],
       "clues": [
         {
-          "clue": "The study of past events, especially human affairs",
-          "type": "Straight",
-          "points": 2
+          "clue": "The echoes of the past, whispering secrets to those who listen",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "What happened before us, and how it affects us today",
@@ -94,9 +94,9 @@
           "points": 3
         },
         {
-          "clue": "The echoes of the past, whispering secrets to those who listen",
-          "type": "Indirect",
-          "points": 6
+          "clue": "The study of past events, especially human affairs",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -106,9 +106,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "The art of governing, or the science of control",
-          "type": "Straight",
-          "points": 2
+          "clue": "A game of power, where pawns are people and the board is the world",
+          "type": "Indirect",
+          "points": 7
         },
         {
           "clue": "The way countries are run, with all its complexities and intrigue",
@@ -116,9 +116,9 @@
           "points": 4
         },
         {
-          "clue": "A game of power, where pawns are people and the board is the world",
-          "type": "Indirect",
-          "points": 7
+          "clue": "The art of governing, or the science of control",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -128,9 +128,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "The way of life, especially the general customs and beliefs, of a particular group of people",
-          "type": "Straight",
-          "points": 1
+          "clue": "A tapestry woven from threads of tradition, innovation, and expression",
+          "type": "Indirect",
+          "points": 5
         },
         {
           "clue": "What makes a society unique, like a fingerprint or a snowflake",
@@ -138,9 +138,9 @@
           "points": 3
         },
         {
-          "clue": "A tapestry woven from threads of tradition, innovation, and expression",
-          "type": "Indirect",
-          "points": 5
+          "clue": "The way of life, especially the general customs and beliefs, of a particular group of people",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -150,9 +150,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "A collection of literary works, like poems or stories",
-          "type": "Straight",
-          "points": 2
+          "clue": "A garden of words, where each flower is a unique and beautiful expression",
+          "type": "Indirect",
+          "points": 7
         },
         {
           "clue": "A gathering of creative pieces, showcasing the best of a genre",
@@ -160,9 +160,9 @@
           "points": 4
         },
         {
-          "clue": "A garden of words, where each flower is a unique and beautiful expression",
-          "type": "Indirect",
-          "points": 7
+          "clue": "A collection of literary works, like poems or stories",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -172,9 +172,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "Having a quality that is pleasing to the mind or spirit",
-          "type": "Straight",
-          "points": 1
+          "clue": "The language of the soul, where emotions are the rhythm and words are the melody",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "Expressing feelings or ideas in a beautiful or imaginative way",
@@ -182,9 +182,9 @@
           "points": 3
         },
         {
-          "clue": "The language of the soul, where emotions are the rhythm and words are the melody",
-          "type": "Indirect",
-          "points": 6
+          "clue": "Having a quality that is pleasing to the mind or spirit",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -194,9 +194,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "A person who studies or writes about the rules of language",
-          "type": "Straight",
-          "points": 2
+          "clue": "A guardian of the language, ensuring its structure and beauty are preserved",
+          "type": "Indirect",
+          "points": 7
         },
         {
           "clue": "Someone who helps people understand how to use language correctly",
@@ -204,9 +204,9 @@
           "points": 4
         },
         {
-          "clue": "A guardian of the language, ensuring its structure and beauty are preserved",
-          "type": "Indirect",
-          "points": 7
+          "clue": "A person who studies or writes about the rules of language",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -216,9 +216,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "Long, narrative poems that tell stories of heroic deeds",
-          "type": "Straight",
-          "points": 1
+          "clue": "The sagas of old, where legends are born and heroes rise",
+          "type": "Indirect",
+          "points": 5
         },
         {
           "clue": "Great works of literature that inspire and captivate audiences",
@@ -226,9 +226,9 @@
           "points": 3
         },
         {
-          "clue": "The sagas of old, where legends are born and heroes rise",
-          "type": "Indirect",
-          "points": 5
+          "clue": "Long, narrative poems that tell stories of heroic deeds",
+          "type": "Straight",
+          "points": 1
         }
       ]
     }

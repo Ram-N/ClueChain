@@ -9,9 +9,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "The person in charge of a movie or music project",
-          "type": "Straight",
-          "points": 1
+          "clue": "Without them, the show wouldn't go on, but they're often behind the scenes",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "They oversee the entire process, from start to finish",
@@ -19,9 +19,9 @@
           "points": 3
         },
         {
-          "clue": "Without them, the show wouldn't go on, but they're often behind the scenes",
-          "type": "Indirect",
-          "points": 6
+          "clue": "The person in charge of a movie or music project",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -34,9 +34,9 @@
       ],
       "clues": [
         {
-          "clue": "The low-pitched sound in music",
-          "type": "Straight",
-          "points": 1
+          "clue": "The biggest fish in the sea, but also a vital part of the band",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "It provides the foundation in many types of music",
@@ -44,9 +44,9 @@
           "points": 3
         },
         {
-          "clue": "The biggest fish in the sea, but also a vital part of the band",
-          "type": "Indirect",
-          "points": 6
+          "clue": "The low-pitched sound in music",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -59,9 +59,9 @@
       ],
       "clues": [
         {
-          "clue": "A popular instrument in rock music",
-          "type": "Straight",
-          "points": 1
+          "clue": "Six strings and a pick can make beautiful music, or a lot of noise",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "Often used to add melody and harmony to a song",
@@ -69,9 +69,9 @@
           "points": 3
         },
         {
-          "clue": "Six strings and a pick can make beautiful music, or a lot of noise",
-          "type": "Indirect",
-          "points": 6
+          "clue": "A popular instrument in rock music",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -84,9 +84,9 @@
       ],
       "clues": [
         {
-          "clue": "A woodwind instrument often used in jazz",
-          "type": "Straight",
-          "points": 2
+          "clue": "Imagine a brass tube with keys, but not just for blowing bubbles",
+          "type": "Indirect",
+          "points": 5
         },
         {
           "clue": "It can add a smooth, rich sound to music",
@@ -94,9 +94,9 @@
           "points": 4
         },
         {
-          "clue": "Imagine a brass tube with keys, but not just for blowing bubbles",
-          "type": "Indirect",
-          "points": 5
+          "clue": "A woodwind instrument often used in jazz",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -106,9 +106,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "A repeated design or sequence",
-          "type": "Straight",
-          "points": 2
+          "clue": "A code to crack, or a design to follow, but what's the hidden message?",
+          "type": "Indirect",
+          "points": 7
         },
         {
           "clue": "It can be used to create a sense of rhythm or structure",
@@ -116,9 +116,9 @@
           "points": 4
         },
         {
-          "clue": "A code to crack, or a design to follow, but what's the hidden message?",
-          "type": "Indirect",
-          "points": 7
+          "clue": "A repeated design or sequence",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -128,9 +128,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "A repeated phrase or idea in music",
-          "type": "Straight",
-          "points": 2
+          "clue": "A small part of a larger whole, but it can make all the difference",
+          "type": "Indirect",
+          "points": 7
         },
         {
           "clue": "It can be used to build tension or create a sense of anticipation",
@@ -138,9 +138,9 @@
           "points": 4
         },
         {
-          "clue": "A small part of a larger whole, but it can make all the difference",
-          "type": "Indirect",
-          "points": 7
+          "clue": "A repeated phrase or idea in music",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -150,9 +150,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "A round, flat piece of material used for storing music",
-          "type": "Straight",
-          "points": 2
+          "clue": "A spinning top, but not just for kids, and not just for fun",
+          "type": "Indirect",
+          "points": 7
         },
         {
           "clue": "It can be made of vinyl, CD, or even digital files",
@@ -160,9 +160,9 @@
           "points": 4
         },
         {
-          "clue": "A spinning top, but not just for kids, and not just for fun",
-          "type": "Indirect",
-          "points": 7
+          "clue": "A round, flat piece of material used for storing music",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -172,9 +172,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "A room or building where music or art is created",
-          "type": "Straight",
-          "points": 2
+          "clue": "A place where magic happens, but only if you have the right tools",
+          "type": "Indirect",
+          "points": 7
         },
         {
           "clue": "It can be equipped with specialized equipment and instruments",
@@ -182,9 +182,9 @@
           "points": 4
         },
         {
-          "clue": "A place where magic happens, but only if you have the right tools",
-          "type": "Indirect",
-          "points": 7
+          "clue": "A room or building where music or art is created",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -194,9 +194,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "To place one thing on top of another",
-          "type": "Straight",
-          "points": 2
+          "clue": "Imagine two pictures, one on top of the other, but which one is real?",
+          "type": "Indirect",
+          "points": 7
         },
         {
           "clue": "It can be used to create a new layer or dimension",
@@ -204,9 +204,9 @@
           "points": 4
         },
         {
-          "clue": "Imagine two pictures, one on top of the other, but which one is real?",
-          "type": "Indirect",
-          "points": 7
+          "clue": "To place one thing on top of another",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -216,9 +216,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "A type of voice or instrument with a deep, rich sound",
-          "type": "Straight",
-          "points": 2
+          "clue": "A voice that's not too high, not too low, but just right, like a fine wine",
+          "type": "Indirect",
+          "points": 7
         },
         {
           "clue": "It can add a sense of warmth and depth to music",
@@ -226,9 +226,9 @@
           "points": 4
         },
         {
-          "clue": "A voice that's not too high, not too low, but just right, like a fine wine",
-          "type": "Indirect",
-          "points": 7
+          "clue": "A type of voice or instrument with a deep, rich sound",
+          "type": "Straight",
+          "points": 2
         }
       ]
     }

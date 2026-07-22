@@ -31,9 +31,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "A result that follows from a particular action or set of circumstances.",
-          "type": "Straight",
-          "points": 2
+          "clue": "The aftermath of a decision can be far-reaching, like ripples on a pond.",
+          "type": "Indirect",
+          "points": 5
         },
         {
           "clue": "Something that happens as a result of something else.",
@@ -41,9 +41,9 @@
           "points": 3
         },
         {
-          "clue": "The aftermath of a decision can be far-reaching, like ripples on a pond.",
-          "type": "Indirect",
-          "points": 5
+          "clue": "A result that follows from a particular action or set of circumstances.",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -101,9 +101,9 @@
       ],
       "clues": [
         {
-          "clue": "A range of different things.",
-          "type": "Straight",
-          "points": 1
+          "clue": "Imagine a colorful box of assorted candies, each one unique.",
+          "type": "Indirect",
+          "points": 5
         },
         {
           "clue": "This refers to a mix of different types or styles.",
@@ -111,9 +111,9 @@
           "points": 3
         },
         {
-          "clue": "Imagine a colorful box of assorted candies, each one unique.",
-          "type": "Indirect",
-          "points": 5
+          "clue": "A range of different things.",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -123,9 +123,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "The process of changing from one situation or stage to another.",
-          "type": "Straight",
-          "points": 2
+          "clue": "Like the phases of the moon, change can be a gradual and natural process.",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "This is a period of time when something is changing or developing.",
@@ -133,9 +133,9 @@
           "points": 4
         },
         {
-          "clue": "Like the phases of the moon, change can be a gradual and natural process.",
-          "type": "Indirect",
-          "points": 6
+          "clue": "The process of changing from one situation or stage to another.",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -145,14 +145,14 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "The quality of being consistent, or unchanging, is key to success in many areas.",
-          "type": "Suggestive",
-          "points": 4
-        },
-        {
           "clue": "A steady and unchanging pace, like a metronome, can be very reassuring.",
           "type": "Indirect",
           "points": 7
+        },
+        {
+          "clue": "The quality of being consistent, or unchanging, is key to success in many areas.",
+          "type": "Suggestive",
+          "points": 4
         },
         {
           "clue": "The state of being consistent.",
@@ -167,9 +167,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "A plan or suggestion, especially one that is put forward for consideration.",
-          "type": "Straight",
-          "points": 2
+          "clue": "Like a mathematical equation, it can be a statement that is either true or false.",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "This can be an offer or a statement that is presented for acceptance or rejection.",
@@ -177,9 +177,9 @@
           "points": 4
         },
         {
-          "clue": "Like a mathematical equation, it can be a statement that is either true or false.",
-          "type": "Indirect",
-          "points": 6
+          "clue": "A plan or suggestion, especially one that is put forward for consideration.",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -189,9 +189,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "Expected or predicted to happen.",
-          "type": "Straight",
-          "points": 1
+          "clue": "The feeling of waiting for something to happen can be filled with excitement or anxiety.",
+          "type": "Indirect",
+          "points": 5
         },
         {
           "clue": "This is something that was expected to occur, but may not have happened yet.",
@@ -199,9 +199,9 @@
           "points": 3
         },
         {
-          "clue": "The feeling of waiting for something to happen can be filled with excitement or anxiety.",
-          "type": "Indirect",
-          "points": 5
+          "clue": "Expected or predicted to happen.",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -211,9 +211,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "The middle area of a sports field.",
-          "type": "Straight",
-          "points": 1
+          "clue": "Imagine a battlefield, where the action is fierce and the outcome is far from certain.",
+          "type": "Indirect",
+          "points": 5
         },
         {
           "clue": "This is the part of the field where players often have the most responsibility.",
@@ -221,9 +221,9 @@
           "points": 3
         },
         {
-          "clue": "Imagine a battlefield, where the action is fierce and the outcome is far from certain.",
-          "type": "Indirect",
-          "points": 5
+          "clue": "The middle area of a sports field.",
+          "type": "Straight",
+          "points": 1
         }
       ]
     }

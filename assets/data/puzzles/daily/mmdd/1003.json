@@ -9,9 +9,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "It can be a synonym for 'through' or 'throughout'.",
-          "type": "Straight",
-          "points": 1
+          "clue": "What happens when you are in the middle of something?",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "It often marks a period of time, like a movie's runtime.",
@@ -19,9 +19,9 @@
           "points": 3
         },
         {
-          "clue": "What happens when you are in the middle of something?",
-          "type": "Indirect",
-          "points": 6
+          "clue": "It can be a synonym for 'through' or 'throughout'.",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -31,9 +31,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "A visual representation.",
-          "type": "Straight",
-          "points": 2
+          "clue": "If a thousand are worth a thousand words, what is a single one worth?",
+          "type": "Indirect",
+          "points": 7
         },
         {
           "clue": "Often taken to commemorate an event.",
@@ -41,9 +41,9 @@
           "points": 4
         },
         {
-          "clue": "If a thousand are worth a thousand words, what is a single one worth?",
-          "type": "Indirect",
-          "points": 7
+          "clue": "A visual representation.",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -53,9 +53,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "Clothing worn to portray a character.",
-          "type": "Straight",
-          "points": 2
+          "clue": "A disguise that can be donned for a role.",
+          "type": "Indirect",
+          "points": 5
         },
         {
           "clue": "What an actor wears to become someone else.",
@@ -63,9 +63,9 @@
           "points": 4
         },
         {
-          "clue": "A disguise that can be donned for a role.",
-          "type": "Indirect",
-          "points": 5
+          "clue": "Clothing worn to portray a character.",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -75,9 +75,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "Past tense of a word meaning to give an account in words.",
-          "type": "Straight",
-          "points": 1
+          "clue": "It's what you do when you want to paint a word-portrait.",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "Used to tell someone about something.",
@@ -85,9 +85,9 @@
           "points": 3
         },
         {
-          "clue": "It's what you do when you want to paint a word-portrait.",
-          "type": "Indirect",
-          "points": 6
+          "clue": "Past tense of a word meaning to give an account in words.",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -97,9 +97,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "Having likeness to something else.",
-          "type": "Straight",
-          "points": 2
+          "clue": "A twin is one of these to the other.",
+          "type": "Indirect",
+          "points": 5
         },
         {
           "clue": "Sharing characteristics with something.",
@@ -107,9 +107,9 @@
           "points": 4
         },
         {
-          "clue": "A twin is one of these to the other.",
-          "type": "Indirect",
-          "points": 5
+          "clue": "Having likeness to something else.",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -119,9 +119,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "A particular form of something.",
-          "type": "Straight",
-          "points": 1
+          "clue": "What you might find on a movie's Blu-ray.",
+          "type": "Indirect",
+          "points": 7
         },
         {
           "clue": "A rendition or adaptation.",
@@ -129,9 +129,9 @@
           "points": 3
         },
         {
-          "clue": "What you might find on a movie's Blu-ray.",
-          "type": "Indirect",
-          "points": 7
+          "clue": "A particular form of something.",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -141,9 +141,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "A short preview of something.",
-          "type": "Straight",
-          "points": 2
+          "clue": "What a movie studio puts out to get you excited about its upcoming film.",
+          "type": "Indirect",
+          "points": 5
         },
         {
           "clue": "Something that builds anticipation.",
@@ -151,9 +151,9 @@
           "points": 4
         },
         {
-          "clue": "What a movie studio puts out to get you excited about its upcoming film.",
-          "type": "Indirect",
-          "points": 5
+          "clue": "A short preview of something.",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -163,9 +163,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "Made available to the public.",
-          "type": "Straight",
-          "points": 1
+          "clue": "The opposite of detained or withheld.",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "When a film goes to theaters.",
@@ -173,9 +173,9 @@
           "points": 3
         },
         {
-          "clue": "The opposite of detained or withheld.",
-          "type": "Indirect",
-          "points": 6
+          "clue": "Made available to the public.",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -185,9 +185,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "A catchphrase.",
-          "type": "Straight",
-          "points": 2
+          "clue": "The sentence that sticks with you after seeing a movie.",
+          "type": "Indirect",
+          "points": 5
         },
         {
           "clue": "A short, memorable phrase used in advertising.",
@@ -195,9 +195,9 @@
           "points": 4
         },
         {
-          "clue": "The sentence that sticks with you after seeing a movie.",
-          "type": "Indirect",
-          "points": 5
+          "clue": "A catchphrase.",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -207,9 +207,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "A group of words.",
-          "type": "Straight",
-          "points": 1
+          "clue": "A short string of words; it's what you say.",
+          "type": "Indirect",
+          "points": 7
         },
         {
           "clue": "A common expression.",
@@ -217,9 +217,9 @@
           "points": 3
         },
         {
-          "clue": "A short string of words; it's what you say.",
-          "type": "Indirect",
-          "points": 7
+          "clue": "A group of words.",
+          "type": "Straight",
+          "points": 1
         }
       ]
     }

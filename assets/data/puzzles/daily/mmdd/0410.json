@@ -9,9 +9,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "The control center of the body",
-          "type": "Straight",
-          "points": 1
+          "clue": "A puzzle to unravel, or so it seems",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "Something you might set aside to relax",
@@ -19,9 +19,9 @@
           "points": 3
         },
         {
-          "clue": "A puzzle to unravel, or so it seems",
-          "type": "Indirect",
-          "points": 6
+          "clue": "The control center of the body",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -39,14 +39,14 @@
           "points": 6
         },
         {
-          "clue": "A trip or excursion, often with a purpose",
-          "type": "Straight",
-          "points": 2
-        },
-        {
           "clue": "Something that can be physical or emotional",
           "type": "Suggestive",
           "points": 4
+        },
+        {
+          "clue": "A trip or excursion, often with a purpose",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -59,14 +59,14 @@
       ],
       "clues": [
         {
-          "clue": "Season of coziness and warmth",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
           "clue": "A time for hot chocolate and stories",
           "type": "Indirect",
           "points": 5
+        },
+        {
+          "clue": "Season of coziness and warmth",
+          "type": "Suggestive",
+          "points": 3
         },
         {
           "clue": "The coldest of the four seasons",
@@ -84,9 +84,9 @@
       ],
       "clues": [
         {
-          "clue": "The time of day when the sun sets",
-          "type": "Straight",
-          "points": 1
+          "clue": "When the stars come out to play",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "A period often spent relaxing or socializing",
@@ -94,9 +94,9 @@
           "points": 3
         },
         {
-          "clue": "When the stars come out to play",
-          "type": "Indirect",
-          "points": 6
+          "clue": "The time of day when the sun sets",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -108,6 +108,11 @@
       ],
       "clues": [
         {
+          "clue": "Like a mirror reflecting what's behind",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
           "clue": "A look back at what's been, in film or memory",
           "type": "Suggestive",
           "points": 4
@@ -116,11 +121,6 @@
           "clue": "A narrative device used to reveal the past",
           "type": "Straight",
           "points": 2
-        },
-        {
-          "clue": "Like a mirror reflecting what's behind",
-          "type": "Indirect",
-          "points": 7
         }
       ]
     },
@@ -130,6 +130,11 @@
       "related_words": [],
       "clues": [
         {
+          "clue": "Like a duo, side by side, they stand",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
           "clue": "To prepare oneself for impact",
           "type": "Suggestive",
           "points": 4
@@ -138,11 +143,6 @@
           "clue": "A pair or a support, in various contexts",
           "type": "Straight",
           "points": 2
-        },
-        {
-          "clue": "Like a duo, side by side, they stand",
-          "type": "Indirect",
-          "points": 6
         }
       ]
     },
@@ -152,9 +152,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "Garments worn closest to the skin",
-          "type": "Straight",
-          "points": 1
+          "clue": "The unseen layers, a secret kept",
+          "type": "Indirect",
+          "points": 5
         },
         {
           "clue": "Often hidden from view, for modesty's sake",
@@ -162,9 +162,9 @@
           "points": 3
         },
         {
-          "clue": "The unseen layers, a secret kept",
-          "type": "Indirect",
-          "points": 5
+          "clue": "Garments worn closest to the skin",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -174,9 +174,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "Something that must be done, out of duty or requirement",
-          "type": "Straight",
-          "points": 2
+          "clue": "Like a contract, binding and unbroken",
+          "type": "Indirect",
+          "points": 7
         },
         {
           "clue": "A necessary part of a process or ritual",
@@ -184,9 +184,9 @@
           "points": 4
         },
         {
-          "clue": "Like a contract, binding and unbroken",
-          "type": "Indirect",
-          "points": 7
+          "clue": "Something that must be done, out of duty or requirement",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -196,6 +196,11 @@
       "related_words": [],
       "clues": [
         {
+          "clue": "The overture, setting the stage",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
           "clue": "An introduction to what's to come",
           "type": "Suggestive",
           "points": 4
@@ -204,11 +209,6 @@
           "clue": "A musical term for an introductory piece",
           "type": "Straight",
           "points": 2
-        },
-        {
-          "clue": "The overture, setting the stage",
-          "type": "Indirect",
-          "points": 6
         }
       ]
     },
@@ -218,9 +218,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "Female parents, guides, and caregivers",
-          "type": "Straight",
-          "points": 1
+          "clue": "The ones who shape the future, one child at a time",
+          "type": "Indirect",
+          "points": 5
         },
         {
           "clue": "Those who nurture and protect",
@@ -228,9 +228,9 @@
           "points": 3
         },
         {
-          "clue": "The ones who shape the future, one child at a time",
-          "type": "Indirect",
-          "points": 5
+          "clue": "Female parents, guides, and caregivers",
+          "type": "Straight",
+          "points": 1
         }
       ]
     }

@@ -9,9 +9,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "Person who makes a ruling in court",
-          "type": "Straight",
-          "points": 1
+          "clue": "A figure of authority, like a referee but with more power",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "They wear a robe and bang a gavel",
@@ -19,9 +19,9 @@
           "points": 3
         },
         {
-          "clue": "A figure of authority, like a referee but with more power",
-          "type": "Indirect",
-          "points": 6
+          "clue": "Person who makes a ruling in court",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -31,9 +31,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "A very large number",
-          "type": "Straight",
-          "points": 2
+          "clue": "One thousand million, a number that's hard to comprehend",
+          "type": "Indirect",
+          "points": 7
         },
         {
           "clue": "Often associated with wealth or large sums of money",
@@ -41,9 +41,9 @@
           "points": 4
         },
         {
-          "clue": "One thousand million, a number that's hard to comprehend",
-          "type": "Indirect",
-          "points": 7
+          "clue": "A very large number",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -53,9 +53,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "A business or company",
-          "type": "Straight",
-          "points": 1
+          "clue": "Something that's established or unshakeable",
+          "type": "Indirect",
+          "points": 5
         },
         {
           "clue": "Stable or secure, like a foundation",
@@ -63,9 +63,9 @@
           "points": 3
         },
         {
-          "clue": "Something that's established or unshakeable",
-          "type": "Indirect",
-          "points": 5
+          "clue": "A business or company",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -78,9 +78,9 @@
       ],
       "clues": [
         {
-          "clue": "A place where justice is served",
-          "type": "Straight",
-          "points": 2
+          "clue": "A venue for legal proceedings, with its own set of rules",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "Where lawyers argue and judges preside",
@@ -88,9 +88,9 @@
           "points": 4
         },
         {
-          "clue": "A venue for legal proceedings, with its own set of rules",
-          "type": "Indirect",
-          "points": 6
+          "clue": "A place where justice is served",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -103,9 +103,9 @@
       ],
       "clues": [
         {
-          "clue": "A set of rules that govern behavior",
-          "type": "Straight",
-          "points": 1
+          "clue": "A system that's meant to be fair and just",
+          "type": "Indirect",
+          "points": 5
         },
         {
           "clue": "Enforced by authorities to maintain order",
@@ -113,9 +113,9 @@
           "points": 3
         },
         {
-          "clue": "A system that's meant to be fair and just",
-          "type": "Indirect",
-          "points": 5
+          "clue": "A set of rules that govern behavior",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -125,9 +125,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "Something that's considered timeless",
-          "type": "Straight",
-          "points": 2
+          "clue": "A work that stands the test of time, remaining relevant",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "Often associated with high quality or enduring appeal",
@@ -135,9 +135,9 @@
           "points": 4
         },
         {
-          "clue": "A work that stands the test of time, remaining relevant",
-          "type": "Indirect",
-          "points": 6
+          "clue": "Something that's considered timeless",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -147,9 +147,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "A part of a play or movie",
-          "type": "Straight",
-          "points": 1
+          "clue": "A snapshot in time, capturing a moment or mood",
+          "type": "Indirect",
+          "points": 5
         },
         {
           "clue": "A setting or location, often with a specific atmosphere",
@@ -157,9 +157,9 @@
           "points": 3
         },
         {
-          "clue": "A snapshot in time, capturing a moment or mood",
-          "type": "Indirect",
-          "points": 5
+          "clue": "A part of a play or movie",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -169,9 +169,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "Coming before something else in time or order",
-          "type": "Straight",
-          "points": 2
+          "clue": "A concept that's crucial in understanding cause and effect",
+          "type": "Indirect",
+          "points": 7
         },
         {
           "clue": "Often used in legal contexts to refer to earlier events",
@@ -179,9 +179,9 @@
           "points": 4
         },
         {
-          "clue": "A concept that's crucial in understanding cause and effect",
-          "type": "Indirect",
-          "points": 7
+          "clue": "Coming before something else in time or order",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -191,9 +191,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "The creation of beautiful or thought-provoking works",
-          "type": "Straight",
-          "points": 2
+          "clue": "A form of expression that can be visual, auditory, or performance-based",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "Can refer to skill or craftsmanship",
@@ -201,9 +201,9 @@
           "points": 3
         },
         {
-          "clue": "A form of expression that can be visual, auditory, or performance-based",
-          "type": "Indirect",
-          "points": 6
+          "clue": "The creation of beautiful or thought-provoking works",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -213,9 +213,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "An object that performs a specific function",
-          "type": "Straight",
-          "points": 1
+          "clue": "Something that's designed to make a task easier or more efficient",
+          "type": "Indirect",
+          "points": 5
         },
         {
           "clue": "Often electronic, used for a particular purpose",
@@ -223,9 +223,9 @@
           "points": 3
         },
         {
-          "clue": "Something that's designed to make a task easier or more efficient",
-          "type": "Indirect",
-          "points": 5
+          "clue": "An object that performs a specific function",
+          "type": "Straight",
+          "points": 1
         }
       ]
     }

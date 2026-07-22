@@ -12,9 +12,9 @@
       ],
       "clues": [
         {
-          "clue": "Low areas between hills",
-          "type": "Straight",
-          "points": 1
+          "clue": "Where rivers usually flow",
+          "type": "Indirect",
+          "points": 5
         },
         {
           "clue": "Often found near mountains",
@@ -22,9 +22,9 @@
           "points": 3
         },
         {
-          "clue": "Where rivers usually flow",
-          "type": "Indirect",
-          "points": 5
+          "clue": "Low areas between hills",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -37,9 +37,9 @@
       ],
       "clues": [
         {
-          "clue": "The highest points",
-          "type": "Straight",
-          "points": 1
+          "clue": "Challenging to climb",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "Usually snow-capped",
@@ -47,9 +47,9 @@
           "points": 3
         },
         {
-          "clue": "Challenging to climb",
-          "type": "Indirect",
-          "points": 6
+          "clue": "The highest points",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -62,9 +62,9 @@
       ],
       "clues": [
         {
-          "clue": "A group of companies",
-          "type": "Straight",
-          "points": 2
+          "clue": "Can be affected by government policies",
+          "type": "Indirect",
+          "points": 7
         },
         {
           "clue": "Sector of the economy",
@@ -72,9 +72,9 @@
           "points": 3
         },
         {
-          "clue": "Can be affected by government policies",
-          "type": "Indirect",
-          "points": 7
+          "clue": "A group of companies",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -84,9 +84,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "A gathering of people",
-          "type": "Straight",
-          "points": 2
+          "clue": "Can be used to raise spirits",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "Often for a cause or event",
@@ -94,9 +94,9 @@
           "points": 4
         },
         {
-          "clue": "Can be used to raise spirits",
-          "type": "Indirect",
-          "points": 6
+          "clue": "A gathering of people",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -106,9 +106,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "A period of ten years",
-          "type": "Straight",
-          "points": 1
+          "clue": "A long time ago",
+          "type": "Indirect",
+          "points": 5
         },
         {
           "clue": "Used to measure time",
@@ -116,9 +116,9 @@
           "points": 3
         },
         {
-          "clue": "A long time ago",
-          "type": "Indirect",
-          "points": 5
+          "clue": "A period of ten years",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -128,9 +128,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "The head of a country",
-          "type": "Straight",
-          "points": 2
+          "clue": "Has a lot of power and responsibility",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "Elected by the people",
@@ -138,9 +138,9 @@
           "points": 4
         },
         {
-          "clue": "Has a lot of power and responsibility",
-          "type": "Indirect",
-          "points": 6
+          "clue": "The head of a country",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -150,9 +150,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "Where something comes from",
-          "type": "Straight",
-          "points": 2
+          "clue": "Important for energy production",
+          "type": "Indirect",
+          "points": 7
         },
         {
           "clue": "Can be renewable or non-renewable",
@@ -160,9 +160,9 @@
           "points": 4
         },
         {
-          "clue": "Important for energy production",
-          "type": "Indirect",
-          "points": 7
+          "clue": "Where something comes from",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -172,9 +172,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "Costs a lot of money",
-          "type": "Straight",
-          "points": 1
+          "clue": "Can be a financial burden",
+          "type": "Indirect",
+          "points": 5
         },
         {
           "clue": "Not affordable for everyone",
@@ -182,9 +182,9 @@
           "points": 3
         },
         {
-          "clue": "Can be a financial burden",
-          "type": "Indirect",
-          "points": 5
+          "clue": "Costs a lot of money",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -194,9 +194,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "Moving downwards",
-          "type": "Straight",
-          "points": 2
+          "clue": "Can be a result of a change",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "Can be a trend or pattern",
@@ -204,9 +204,9 @@
           "points": 4
         },
         {
-          "clue": "Can be a result of a change",
-          "type": "Indirect",
-          "points": 6
+          "clue": "Moving downwards",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -216,9 +216,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "Happened not long ago",
-          "type": "Straight",
-          "points": 1
+          "clue": "A short time ago",
+          "type": "Indirect",
+          "points": 5
         },
         {
           "clue": "Can be used to describe news",
@@ -226,9 +226,9 @@
           "points": 3
         },
         {
-          "clue": "A short time ago",
-          "type": "Indirect",
-          "points": 5
+          "clue": "Happened not long ago",
+          "type": "Straight",
+          "points": 1
         }
       ]
     }

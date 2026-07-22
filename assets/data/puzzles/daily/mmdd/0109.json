@@ -9,9 +9,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "A large marine mammal with tusks.",
-          "type": "Straight",
-          "points": 1
+          "clue": "Imagine a tusked giant of the sea, in a world of ice and snow, where it rules with gentle might.",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "It's a creature often found in Arctic waters, known for its distinctive appearance.",
@@ -19,9 +19,9 @@
           "points": 3
         },
         {
-          "clue": "Imagine a tusked giant of the sea, in a world of ice and snow, where it rules with gentle might.",
-          "type": "Indirect",
-          "points": 6
+          "clue": "A large marine mammal with tusks.",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -31,9 +31,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "A shelter made from blocks of snow.",
-          "type": "Straight",
-          "points": 1
+          "clue": "Picture a structure that's both a marvel of engineering and a fleeting work of art, crafted from the very essence of winter.",
+          "type": "Indirect",
+          "points": 5
         },
         {
           "clue": "It provides protection from the harsh Arctic environment.",
@@ -41,9 +41,9 @@
           "points": 3
         },
         {
-          "clue": "Picture a structure that's both a marvel of engineering and a fleeting work of art, crafted from the very essence of winter.",
-          "type": "Indirect",
-          "points": 5
+          "clue": "A shelter made from blocks of snow.",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -55,9 +55,9 @@
       ],
       "clues": [
         {
-          "clue": "A firearm designed for short-range shooting.",
-          "type": "Straight",
-          "points": 2
+          "clue": "In a tense moment, a choice is made to forgo this option, opting instead for a more primitive, yet equally effective, tool.",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "It's often used for hunting small game.",
@@ -65,9 +65,9 @@
           "points": 4
         },
         {
-          "clue": "In a tense moment, a choice is made to forgo this option, opting instead for a more primitive, yet equally effective, tool.",
-          "type": "Indirect",
-          "points": 6
+          "clue": "A firearm designed for short-range shooting.",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -79,9 +79,9 @@
       ],
       "clues": [
         {
-          "clue": "A tool used for catching large sea creatures.",
-          "type": "Straight",
-          "points": 2
+          "clue": "Imagine a weapon that's been used by hunters for centuries, its design rooted in the need to bring down massive prey in the harshest of environments.",
+          "type": "Indirect",
+          "points": 7
         },
         {
           "clue": "It's a barbed spear attached to a rope, used for whaling and sealing.",
@@ -89,9 +89,9 @@
           "points": 4
         },
         {
-          "clue": "Imagine a weapon that's been used by hunters for centuries, its design rooted in the need to bring down massive prey in the harshest of environments.",
-          "type": "Indirect",
-          "points": 7
+          "clue": "A tool used for catching large sea creatures.",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -101,9 +101,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "The process of planning and preparing a scene or event.",
-          "type": "Straight",
-          "points": 1
+          "clue": "Consider the art of creating an illusion, where reality is carefully manipulated to evoke a particular response or emotion from the audience.",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "It involves setting up and arranging the environment to achieve a specific effect or mood.",
@@ -111,9 +111,9 @@
           "points": 3
         },
         {
-          "clue": "Consider the art of creating an illusion, where reality is carefully manipulated to evoke a particular response or emotion from the audience.",
-          "type": "Indirect",
-          "points": 6
+          "clue": "The process of planning and preparing a scene or event.",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -123,9 +123,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "Presented in a way that is more attractive or appealing than it really is.",
-          "type": "Straight",
-          "points": 2
+          "clue": "Think of a lens through which the world is viewed, one that softens the edges and amplifies the charm, creating a dreamlike quality that captivates the heart.",
+          "type": "Indirect",
+          "points": 7
         },
         {
           "clue": "It involves emphasizing the beautiful or exciting aspects of something, often at the expense of accuracy.",
@@ -133,9 +133,9 @@
           "points": 4
         },
         {
-          "clue": "Think of a lens through which the world is viewed, one that softens the edges and amplifies the charm, creating a dreamlike quality that captivates the heart.",
-          "type": "Indirect",
-          "points": 7
+          "clue": "Presented in a way that is more attractive or appealing than it really is.",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -145,9 +145,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "The achievement of something desired or attempted.",
-          "type": "Straight",
-          "points": 1
+          "clue": "Picture a milestone reached, a goal attained, where the journey's end is met with joy and a sense of fulfillment.",
+          "type": "Indirect",
+          "points": 5
         },
         {
           "clue": "It's a favorable outcome that brings satisfaction or pleasure.",
@@ -155,9 +155,9 @@
           "points": 3
         },
         {
-          "clue": "Picture a milestone reached, a goal attained, where the journey's end is met with joy and a sense of fulfillment.",
-          "type": "Indirect",
-          "points": 5
+          "clue": "The achievement of something desired or attempted.",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -167,9 +167,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "The application of scientific knowledge for practical purposes.",
-          "type": "Straight",
-          "points": 2
+          "clue": "Imagine a bridge that spans the gap between innovation and everyday life, facilitating progress and shaping the future.",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "It involves the use of tools, machines, and methods to solve problems or make life easier.",
@@ -177,9 +177,9 @@
           "points": 4
         },
         {
-          "clue": "Imagine a bridge that spans the gap between innovation and everyday life, facilitating progress and shaping the future.",
-          "type": "Indirect",
-          "points": 6
+          "clue": "The application of scientific knowledge for practical purposes.",
+          "type": "Straight",
+          "points": 2
         }
       ]
     },
@@ -189,9 +189,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "People or things being studied, observed, or dealt with.",
-          "type": "Straight",
-          "points": 1
+          "clue": "Think of individuals or groups that are part of a larger context, where their actions, behaviors, or characteristics are of particular interest or importance.",
+          "type": "Indirect",
+          "points": 5
         },
         {
           "clue": "They are the focus of attention, interest, or activity.",
@@ -199,9 +199,9 @@
           "points": 3
         },
         {
-          "clue": "Think of individuals or groups that are part of a larger context, where their actions, behaviors, or characteristics are of particular interest or importance.",
-          "type": "Indirect",
-          "points": 5
+          "clue": "People or things being studied, observed, or dealt with.",
+          "type": "Straight",
+          "points": 1
         }
       ]
     },
@@ -211,9 +211,9 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "A length of time during which something happens or exists.",
-          "type": "Straight",
-          "points": 2
+          "clue": "Imagine a slice of time, a fragment of history, where events unfold and stories are written, leaving behind a legacy that shapes the future.",
+          "type": "Indirect",
+          "points": 6
         },
         {
           "clue": "It's a stretch of time characterized by a particular feature or activity.",
@@ -221,9 +221,9 @@
           "points": 4
         },
         {
-          "clue": "Imagine a slice of time, a fragment of history, where events unfold and stories are written, leaving behind a legacy that shapes the future.",
-          "type": "Indirect",
-          "points": 6
+          "clue": "A length of time during which something happens or exists.",
+          "type": "Straight",
+          "points": 2
         }
       ]
     }
