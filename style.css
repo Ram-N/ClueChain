@@ -2072,7 +2072,7 @@ button:hover {
     transition: opacity 0.3s, transform 0.3s;
     pointer-events: auto;
     text-align: center;
-    max-width: 90vw;
+    white-space: nowrap;
   }
 
   .mobile-toast-item.show {
