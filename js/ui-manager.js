@@ -1075,9 +1075,13 @@ export async function showGameOver(lastWordRevealed = false) {
   }
 
   const assistedPlay = gameState.current.assistedPlay;
-  const assistedBadge = assistedPlay
-    ? `<div><span class="assisted-badge">&#x1F5DD;&#xFE0F; Assisted play</span></div>`
-    : "";
+  let assistedBadge = "";
+  if (assistedPlay) {
+    const usedKey = gameState.current.goldenKeyUsed;
+    const usedCoin = gameState.current.goldenCoinUsed;
+    const icon = usedKey && usedCoin ? "&#x1F5DD;&#xFE0F;&#x1FA99;" : usedCoin ? "&#x1FA99;" : "&#x1F5DD;&#xFE0F;";
+    assistedBadge = `<div><span class="assisted-badge">${icon} Assisted play</span></div>`;
+  }
 
   // Build WhatsApp share data
   const paragraph = getCurrentParagraph();
@@ -1089,8 +1093,14 @@ export async function showGameOver(lastWordRevealed = false) {
   // Use Unicode escapes to avoid emoji encoding issues in JS source files
   const CHAIN = '\u{1F517}'; // 🔗
   const TARGET = '\u{1F3AF}'; // 🎯
+  const KEY = '\u{1F5DD}\u{FE0F}'; // 🗝️
+  const COIN = '\u{1FA99}'; // 🪙
+  const unusedItems = [];
+  if (!gameState.current.goldenKeyUsed) unusedItems.push(KEY);
+  if (!gameState.current.goldenCoinUsed) unusedItems.push(COIN);
+  const flexSuffix = unusedItems.length > 0 ? ' ' + unusedItems.join('') : '';
   const challenge = scorePercentage === 100 ? 'Can you match me?' : 'Can you beat me?';
-  const shareText = `Hey! Have you played today's ClueChain? ${CHAIN}\n"${puzzleTitle}" \u2014 I scored ${scorePercentage}% ${TARGET}\n${challenge}\n${puzzleUrl}`;
+  const shareText = `Hey! Have you played today's ClueChain? ${CHAIN}\n"${puzzleTitle}" \u2014 I scored ${scorePercentage}%${flexSuffix} ${TARGET}\n${challenge}\n${puzzleUrl}`;
 
   const scoreClass = scorePercentage >= 80 ? 'score-high' : scorePercentage >= 50 ? 'score-mid' : 'score-low';
 

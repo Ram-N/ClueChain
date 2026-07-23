@@ -39,8 +39,11 @@ def main():
         print(f"\n  {filename}")
         print(f"  {entry.get('title', '')}")
         print(f"  Date: {entry.get('date', '?')}    Score: {entry.get('total_score', '?')}/100    Rating: {entry.get('overall_rating', '?')}")
-        print()
         s = entry.get("scores", {})
+        ts = s.get("title_spoiler", 0)
+        if ts and ts < 0:
+            print(f"  *** TITLE LEAK: {entry.get('reasons', {}).get('title_spoiler', '')} ***")
+        print()
         for dim in ("word_quality", "variety", "connectivity", "clueability", "discovery_curve", "narrative_interest", "catalog_penalty"):
             val = s.get(dim)
             if val is not None:
