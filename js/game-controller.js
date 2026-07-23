@@ -47,6 +47,7 @@ import {
   handleGoldenCoin,
   showLetterSelectionModal,
   showAuthGateIfNeeded,
+  setupMobileLayout,
 } from "./ui-manager.js?v=1.1";
 
 import {
@@ -546,6 +547,9 @@ export async function initializeGame() {
         // Make sure input is enabled
         updateInputState();
       }
+
+      // Set up mobile layout (moves DOM elements for phone screens)
+      setupMobileLayout();
 
       // Show one-time banner prompting sign-in for streak tracking (only for guest users)
       if (window.authManager && !window.authManager.isAuthenticated() && !localStorage.getItem('auth-banner-dismissed')) {

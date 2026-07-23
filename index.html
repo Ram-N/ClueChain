@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ClueChain - Word Guessing Game</title>
     <link rel="icon" href="data:,">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css?v=2.0">
     <link rel="stylesheet" href="animations.css">
-    <link rel="stylesheet" href="assets/css/help-modal.css?v=2">
+    <link rel="stylesheet" href="assets/css/help-modal.css?v=3">
     <link rel="stylesheet" href="assets/css/auth-styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
@@ -144,8 +144,27 @@
                     </div>
                 </div>
             </section>
+
+            <!-- Mobile-only elements (inside .game-layout) -->
+            <div id="mobile-active-clue" class="mobile-active-clue"></div>
+            <div id="mobile-progress-row" class="mobile-progress-row"></div>
+            <div class="mobile-bottom-spacer"></div>
         </div>
-        </section>
+
+        <!-- Mobile fixed overlays (outside .game-layout) -->
+        <div id="mobile-toggle-bar" class="mobile-toggle-bar">
+            <button class="mobile-tab-btn" data-panel="clues"><i class="fas fa-list"></i> Clues</button>
+            <button class="mobile-tab-btn" data-panel="keyboard"><i class="fas fa-keyboard"></i> Letters</button>
+            <button class="mobile-tab-btn" data-panel="messages"><i class="fas fa-bell"></i> Msgs</button>
+        </div>
+
+        <div id="mobile-panel-clues" class="mobile-panel"></div>
+        <div id="mobile-panel-keyboard" class="mobile-panel"></div>
+        <div id="mobile-panel-messages" class="mobile-panel"></div>
+
+        <div id="mobile-toast" class="mobile-toast"></div>
+
+        <div id="mobile-input-bar" class="mobile-input-bar"></div>
     </main>
     <!-- Supabase CDN -->
     <script src="https://unpkg.com/@supabase/supabase-js@2"></script>

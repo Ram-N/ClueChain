@@ -86,6 +86,12 @@ const MAX_NOTIFICATIONS = 10;
 let initialMessageShown = false;
 
 /**
+ * Track whether mobile layout is currently active
+ * @type {boolean}
+ */
+let mobileLayoutActive = false;
+
+/**
  * Updates the DOM element if it exists
  * @param {string} id - Element ID
  * @param {(element: HTMLElement) => void} updater - Function to update the element
@@ -154,7 +160,12 @@ export function addNotification(message, type = "info", persistent = true) {
   
   // Scroll to top to show new notification
   notificationContent.scrollTop = 0;
-  
+
+  // Also show a mobile toast if mobile layout is active
+  if (mobileLayoutActive) {
+    showMobileToast(message, type);
+  }
+
   return notificationId;
 }
 
@@ -423,6 +434,18 @@ export function renderParagraph(vowel) {
     }
   );
 
+  // Strip "Title: <title>" prefix from paragraph text if the title is shown separately
+  if (currentParagraph.title) {
+    const titlePrefix = `Title: ${currentParagraph.title}`;
+    // Check the raw text (maskedParagraph has HTML spans now, so match carefully)
+    // The prefix appears at the start, possibly followed by newlines
+    const prefixPattern = new RegExp(
+      `^${titlePrefix.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\s*(<br\\s*/?>|\\n)*`,
+      'i'
+    );
+    maskedParagraph = maskedParagraph.replace(prefixPattern, '');
+  }
+
   // Add title if it exists
   let html = "";
   if (currentParagraph.title) {
@@ -445,6 +468,81 @@ export function renderParagraph(vowel) {
 /**
  * Sets up hover interactions between clues and masked words
  */
+/**
+ * Applies a clue tier switch: updates icons, text, and game state.
+ */
+function applyClueSwitch(clue, clueText, clueIcons, activeIcon, clueIndex, cluesData, wordIndex) {
+  clueIcons.forEach((i) => i.classList.remove("active"));
+  activeIcon.classList.add("active");
+
+  const word = getCurrentWords()[parseInt(wordIndex, 10)];
+  const wordLen = word?.word?.length || 0;
+
+  if (clueIndex === 0) {
+    clueText.textContent = `${cluesData[0].clue} (${wordLen})`;
+  } else {
+    clueText.innerHTML = "";
+    for (let ci = 0; ci <= clueIndex; ci++) {
+      const clueEntry = document.createElement("span");
+      clueEntry.className = `clue-line clue-line-${ci}${ci === clueIndex ? " clue-line-current" : ""}`;
+      clueEntry.textContent = ci === clueIndex
+        ? `${cluesData[ci]?.clue || ""} (${wordLen})`
+        : cluesData[ci]?.clue || "";
+      clueText.appendChild(clueEntry);
+    }
+  }
+
+  clue.setAttribute("data-active-clue", clueIndex.toString());
+  updateActiveClueIndex(parseInt(wordIndex, 10), clueIndex);
+}
+
+/**
+ * Shows a confirmation modal before switching to an easier (costlier) clue tier.
+ * @param {string} fromTier - Name of current tier
+ * @param {string} toTier - Name of target tier
+ * @param {number} cost - Point reduction
+ * @param {number} currentPts - Current tier points
+ * @param {number} newPts - New tier points
+ * @param {Function} onConfirm - Callback if user confirms
+ */
+function showClueConfirmModal(fromTier, toTier, cost, currentPts, newPts, onConfirm) {
+  // Remove any existing modal
+  document.getElementById("clue-confirm-modal")?.remove();
+
+  const modal = document.createElement("div");
+  modal.id = "clue-confirm-modal";
+  modal.className = "modal-container show";
+  modal.innerHTML = `
+    <div class="modal-content" style="max-width:340px; text-align:center; padding:20px;">
+      <h3 style="margin:0 0 12px; font-size:1.1rem;">Reveal easier clue?</h3>
+      <p style="margin:0 0 8px; font-size:0.9rem; color:#555;">
+        Switching from <strong>${fromTier}</strong> to <strong>${toTier}</strong>
+      </p>
+      <p style="margin:0 0 16px; font-size:0.95rem;">
+        Points: <strong>${currentPts}</strong> → <strong>${newPts}</strong>
+        <span style="color:#e53935; font-weight:600;"> (−${cost})</span>
+      </p>
+      <div style="display:flex; gap:10px; justify-content:center;">
+        <button id="clue-confirm-cancel" style="padding:8px 20px; border:1px solid #ccc; border-radius:6px; background:#fff; cursor:pointer; font-size:0.9rem;">Cancel</button>
+        <button id="clue-confirm-ok" style="padding:8px 20px; border:none; border-radius:6px; background:#1565c0; color:#fff; cursor:pointer; font-size:0.9rem; font-weight:600;">Reveal (−${cost} pts)</button>
+      </div>
+    </div>
+  `;
+
+  document.body.appendChild(modal);
+
+  document.getElementById("clue-confirm-cancel").addEventListener("click", () => modal.remove());
+  document.getElementById("clue-confirm-ok").addEventListener("click", () => {
+    modal.remove();
+    onConfirm();
+  });
+
+  // Close on backdrop click
+  modal.addEventListener("click", (e) => {
+    if (e.target === modal) modal.remove();
+  });
+}
+
 function setupClueInteractions() {
   const cluesList = document.getElementById("clues-list");
   if (!cluesList) return;
@@ -482,39 +580,34 @@ function setupClueInteractions() {
         // Get the clue index (difficulty level)
         const clueIndex = parseInt(icon.getAttribute("data-clue-index"), 10);
 
-        // Update active state of icons
-        clueIcons.forEach((i) => i.classList.remove("active"));
-        icon.classList.add("active");
-
         // Get the clues data from the parent li element
         try {
           const cluesData = JSON.parse(clue.getAttribute("data-clues") || "[]");
           const selectedClue = cluesData[clueIndex];
+          const currentActiveIndex = parseInt(clue.getAttribute("data-active-clue") || "0", 10);
 
-          if (selectedClue && clueText) {
-            const word = getCurrentWords()[parseInt(wordIndex, 10)];
-            const wordLen = word?.word?.length || 0;
+          if (!selectedClue || !clueText) return;
 
-            // Show all revealed clues up to and including the selected one
-            if (clueIndex === 0) {
-              clueText.textContent = `${selectedClue.clue} (${wordLen})`;
-            } else {
-              clueText.innerHTML = "";
-              for (let ci = 0; ci <= clueIndex; ci++) {
-                const clueEntry = document.createElement("span");
-                clueEntry.className = `clue-line clue-line-${ci}${ci === clueIndex ? " clue-line-current" : ""}`;
-                clueEntry.textContent = ci === clueIndex
-                  ? `${cluesData[ci]?.clue || ""} (${wordLen})`
-                  : cluesData[ci]?.clue || "";
-                clueText.appendChild(clueEntry);
+          // If moving to an easier (higher index) clue, show confirmation
+          if (clueIndex > currentActiveIndex) {
+            const currentPoints = cluesData[currentActiveIndex]?.points || 0;
+            const newPoints = cluesData[clueIndex]?.points || 0;
+            const cost = currentPoints - newPoints;
+            const tierNames = ["Indirect", "Suggestive", "Straight"];
+
+            showClueConfirmModal(
+              tierNames[currentActiveIndex] || `Tier ${currentActiveIndex}`,
+              tierNames[clueIndex] || `Tier ${clueIndex}`,
+              cost,
+              currentPoints,
+              newPoints,
+              () => {
+                applyClueSwitch(clue, clueText, clueIcons, icon, clueIndex, cluesData, wordIndex);
               }
-            }
-
-            // Update the active clue index in the UI
-            clue.setAttribute("data-active-clue", clueIndex.toString());
-
-            // Update the active clue index in the game state
-            updateActiveClueIndex(parseInt(wordIndex, 10), clueIndex);
+            );
+          } else {
+            // Moving to a harder clue or same — apply immediately (no cost)
+            applyClueSwitch(clue, clueText, clueIcons, icon, clueIndex, cluesData, wordIndex);
           }
         } catch (e) {
           console.error("Error parsing clues data:", e);
@@ -632,7 +725,22 @@ function setupClueInteractions() {
           `[data-masked="true"][data-clue-index="${wordIndex}"]`
         );
         if (firstWord) {
-          firstWord.scrollIntoView({ behavior: "smooth", block: "center" });
+          // On mobile, highlight the pair (no mouseenter on touch)
+          if (mobileLayoutActive) {
+            highlightPair(clueIndex, true);
+            setTimeout(() => highlightPair(clueIndex, false), 2500);
+          }
+          // Scroll within the paragraph container on mobile
+          const paragraphSection = document.getElementById("paragraph-section");
+          if (paragraphSection && paragraphSection.scrollHeight > paragraphSection.clientHeight) {
+            // Calculate position within the scrollable container
+            const containerRect = paragraphSection.getBoundingClientRect();
+            const wordRect = firstWord.getBoundingClientRect();
+            const scrollOffset = wordRect.top - containerRect.top - (containerRect.height / 2) + (wordRect.height / 2);
+            paragraphSection.scrollBy({ top: scrollOffset, behavior: "smooth" });
+          } else {
+            firstWord.scrollIntoView({ behavior: "smooth", block: "center" });
+          }
         }
       });
     }
@@ -667,6 +775,19 @@ function setupClueInteractions() {
           }
 
           if (clue) {
+            // On mobile, open the clues panel and highlight
+            if (mobileLayoutActive) {
+              const cluesPanel = document.getElementById("mobile-panel-clues");
+              const cluesBtn = document.querySelector('.mobile-tab-btn[data-panel="clues"]');
+              if (cluesPanel && cluesBtn) {
+                document.querySelectorAll(".mobile-panel.open").forEach((p) => p.classList.remove("open"));
+                document.querySelectorAll(".mobile-tab-btn.active").forEach((b) => b.classList.remove("active"));
+                cluesPanel.classList.add("open");
+                cluesBtn.classList.add("active");
+              }
+              highlightPair(clueIndex, true);
+              setTimeout(() => highlightPair(clueIndex, false), 2500);
+            }
             clue.scrollIntoView({ behavior: "smooth", block: "center" });
           }
         });
@@ -889,6 +1010,9 @@ export function renderClues() {
 
   // Set up hover interactions
   setupClueInteractions();
+
+  // Update mobile active clue strip
+  updateMobileActiveClue();
 }
 
 /**
@@ -1735,13 +1859,13 @@ function _confirmModalSelection() {
     completeLetterSelection();
     applySelectionPhaseStyles();  // removes phase highlight classes
 
-    // Mark the chosen tiles in the marketplace with the "selected" class
-    // so the existing blue highlight shows which letters were picked
+    // Mark the chosen tiles in the marketplace/keyboard with the "selected" class
+    // so the existing highlight shows which letters were picked.
+    // Use :not() to exclude the modal's own tiles.
     const chosenLetters = [vowel, ...consonants];
     chosenLetters.forEach((letter) => {
-      // Only target marketplace tiles (inside #marketplace-section), not modal tiles
       const tile = document.querySelector(
-        `#marketplace-section .letter-tile[data-letter="${letter}"]`
+        `.letter-tile[data-letter="${letter}"]:not(#ls-modal-letter-grid .letter-tile)`
       );
       if (tile) tile.classList.add("selected");
     });
@@ -1902,6 +2026,9 @@ function handleLetterPurchase(tile, isVowel) {
 export function resetUI() {
   // Force complete cleanup of all UI state
   console.log("Performing complete UI reset");
+
+  // Tear down mobile layout first so elements are back in desktop positions
+  teardownMobileLayout();
 
   // Reset vowel tiles
   document
@@ -2122,6 +2249,234 @@ function showGoldenKeyPicker(eligibleWords) {
  * Handles the Golden Coin button click.
  * Shows eligible rare letters and lets the player pick one to reveal for 3 links.
  */
+// ─── Mobile Layout ──────────────────────────────────────────────────────────
+
+/** Store references to original parent elements for teardown */
+const mobileOriginalParents = new Map();
+
+/** The matchMedia query list for mobile detection */
+const mobileQuery = window.matchMedia("(max-width: 768px)");
+
+/**
+ * Sets up the mobile layout by moving DOM elements into mobile containers.
+ * Only runs on screens <= 768px wide.
+ */
+export function setupMobileLayout() {
+  if (!mobileQuery.matches || mobileLayoutActive) return;
+  mobileLayoutActive = true;
+
+  // Helper: move an element, remembering where it came from
+  function moveElement(el, targetId) {
+    if (!el) return;
+    const target = document.getElementById(targetId);
+    if (!target) return;
+    // Remember original parent and sibling for teardown
+    mobileOriginalParents.set(el, {
+      parent: el.parentNode,
+      nextSibling: el.nextSibling,
+    });
+    target.appendChild(el);
+  }
+
+  // Move input elements to mobile input bar
+  moveElement(document.getElementById("guess-input"), "mobile-input-bar");
+  moveElement(document.getElementById("submit-guess"), "mobile-input-bar");
+  moveElement(document.getElementById("golden-actions"), "mobile-input-bar");
+
+  // Move clues to mobile panel
+  moveElement(document.getElementById("clues-container"), "mobile-panel-clues");
+
+  // Move keyboard/letters to mobile panel
+  const letterGridContainer = document.querySelector("#marketplace-section .letter-grid-container");
+  if (letterGridContainer) moveElement(letterGridContainer, "mobile-panel-keyboard");
+  const resetBtn = document.getElementById("reset-selection");
+  if (resetBtn) moveElement(resetBtn, "mobile-panel-keyboard");
+
+  // Move notification panel to mobile panel
+  moveElement(document.getElementById("notification-panel"), "mobile-panel-messages");
+
+  // Move score + chain to mobile progress row
+  const scoreDisplay = document.querySelector("#input-section .score-display");
+  if (scoreDisplay) moveElement(scoreDisplay, "mobile-progress-row");
+  const chainContainer = document.querySelector("#input-section .chain-progress-container");
+  if (chainContainer) moveElement(chainContainer, "mobile-progress-row");
+
+  setupMobileToggles();
+  setupMobileKeyboardHandler();
+  updateMobileActiveClue();
+
+  // Listen for orientation/resize changes
+  mobileQuery.addEventListener("change", handleMobileQueryChange);
+}
+
+/**
+ * Tears down the mobile layout and moves elements back to desktop positions.
+ */
+export function teardownMobileLayout() {
+  if (!mobileLayoutActive) return;
+  mobileLayoutActive = false;
+
+  // Move elements back to their original locations
+  mobileOriginalParents.forEach((info, el) => {
+    if (info.nextSibling && info.parent) {
+      info.parent.insertBefore(el, info.nextSibling);
+    } else if (info.parent) {
+      info.parent.appendChild(el);
+    }
+  });
+  mobileOriginalParents.clear();
+
+  // Close any open panels
+  document.querySelectorAll(".mobile-panel.open").forEach((p) => p.classList.remove("open"));
+  document.querySelectorAll(".mobile-tab-btn.active").forEach((b) => b.classList.remove("active"));
+
+  // Re-show toggle bar if it was hidden by keyboard handler
+  const toggleBar = document.getElementById("mobile-toggle-bar");
+  if (toggleBar) toggleBar.style.display = "";
+}
+
+/**
+ * Handles matchMedia change events for responsive layout switching.
+ */
+function handleMobileQueryChange(e) {
+  if (e.matches) {
+    setupMobileLayout();
+  } else {
+    teardownMobileLayout();
+  }
+}
+
+/**
+ * Sets up the toggle bar accordion behavior.
+ */
+function setupMobileToggles() {
+  const buttons = document.querySelectorAll(".mobile-tab-btn");
+  buttons.forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const panelName = btn.getAttribute("data-panel");
+      const panelId = `mobile-panel-${panelName}`;
+      const panel = document.getElementById(panelId);
+      if (!panel) return;
+
+      const isOpen = panel.classList.contains("open");
+
+      // Close all panels and deactivate all buttons
+      document.querySelectorAll(".mobile-panel.open").forEach((p) => p.classList.remove("open"));
+      document.querySelectorAll(".mobile-tab-btn.active").forEach((b) => b.classList.remove("active"));
+
+      // If it wasn't open, open it
+      if (!isOpen) {
+        panel.classList.add("open");
+        btn.classList.add("active");
+      }
+    });
+  });
+}
+
+/**
+ * Sets up the virtual keyboard detection handler using visualViewport API.
+ * Hides the toggle bar when the on-screen keyboard is open.
+ */
+function setupMobileKeyboardHandler() {
+  if (!window.visualViewport) return;
+
+  const initialHeight = window.visualViewport.height;
+  const toggleBar = document.getElementById("mobile-toggle-bar");
+
+  window.visualViewport.addEventListener("resize", () => {
+    if (!mobileLayoutActive || !toggleBar) return;
+
+    const heightDiff = initialHeight - window.visualViewport.height;
+    if (heightDiff > 100) {
+      // Keyboard is open
+      toggleBar.style.display = "none";
+      // Close any open panels
+      document.querySelectorAll(".mobile-panel.open").forEach((p) => p.classList.remove("open"));
+      document.querySelectorAll(".mobile-tab-btn.active").forEach((b) => b.classList.remove("active"));
+      // Adjust input bar position to stay above keyboard
+      const inputBar = document.getElementById("mobile-input-bar");
+      if (inputBar) {
+        inputBar.style.bottom = `${initialHeight - window.visualViewport.height}px`;
+      }
+    } else {
+      // Keyboard is closed
+      toggleBar.style.display = "";
+      const inputBar = document.getElementById("mobile-input-bar");
+      if (inputBar) {
+        inputBar.style.bottom = "0";
+      }
+    }
+  });
+}
+
+/**
+ * Updates the mobile active clue strip with the first unsolved clue.
+ * Called at the end of renderClues().
+ */
+export function updateMobileActiveClue() {
+  if (!mobileLayoutActive) return;
+
+  const strip = document.getElementById("mobile-active-clue");
+  if (!strip) return;
+
+  // Find active (unsolved) clues from the clues list
+  const activeClues = document.querySelectorAll("#clues-list .active-clues-container li");
+  if (activeClues.length === 0) {
+    strip.innerHTML = '<span class="clue-text-preview" style="color:#888;">All clues solved!</span>';
+    return;
+  }
+
+  const firstClue = activeClues[0];
+  const clueText = firstClue.querySelector(".clue-text");
+  const text = clueText ? clueText.textContent : "";
+  const moreCount = activeClues.length - 1;
+
+  strip.innerHTML = `
+    <span class="clue-icon-indicator"><i class="fas fa-list"></i></span>
+    <span class="clue-text-preview">${text}</span>
+    ${moreCount > 0 ? `<span class="clue-more-count">+${moreCount}</span>` : ""}
+  `;
+
+  // Tap to open clues panel
+  strip.onclick = () => {
+    const cluesPanel = document.getElementById("mobile-panel-clues");
+    const cluesBtn = document.querySelector('.mobile-tab-btn[data-panel="clues"]');
+    if (cluesPanel && cluesBtn) {
+      // Close other panels
+      document.querySelectorAll(".mobile-panel.open").forEach((p) => p.classList.remove("open"));
+      document.querySelectorAll(".mobile-tab-btn.active").forEach((b) => b.classList.remove("active"));
+      cluesPanel.classList.add("open");
+      cluesBtn.classList.add("active");
+    }
+  };
+}
+
+/**
+ * Shows a brief toast notification at the top of the screen on mobile.
+ * @param {string} message - The message to show
+ * @param {string} type - success, error, info, warning
+ */
+function showMobileToast(message, type = "info") {
+  const container = document.getElementById("mobile-toast");
+  if (!container) return;
+
+  const toast = document.createElement("div");
+  toast.className = `mobile-toast-item toast-${type}`;
+  toast.textContent = message;
+  container.appendChild(toast);
+
+  // Trigger animation
+  requestAnimationFrame(() => {
+    toast.classList.add("show");
+  });
+
+  // Remove after 2.5 seconds
+  setTimeout(() => {
+    toast.classList.remove("show");
+    setTimeout(() => toast.remove(), 300);
+  }, 2500);
+}
+
 export function handleGoldenCoin() {
   if (gameState.current.goldenCoinUsed) return;
 
