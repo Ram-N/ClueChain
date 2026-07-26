@@ -1779,8 +1779,30 @@ button:hover {
   /* ── Paragraph section ──────────────────────────────────────── */
   #paragraph-section {
     max-height: 30vh;
-    overflow-y: auto;
     padding: 10px;
+    /* Always show scrollbar so user knows content is scrollable */
+    overflow-y: scroll;
+    scrollbar-width: thin; /* Firefox */
+    scrollbar-color: #999 #e0e0e0; /* Firefox: thumb track */
+  }
+
+  #paragraph-section::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  #paragraph-section::-webkit-scrollbar-track {
+    background: #e0e0e0;
+    border-radius: 3px;
+  }
+
+  #paragraph-section::-webkit-scrollbar-thumb {
+    background: #999;
+    border-radius: 3px;
+    min-height: 30px;
+  }
+
+  #paragraph-section::-webkit-scrollbar-thumb:active {
+    background: #666;
   }
 
   #paragraph-container {

@@ -326,7 +326,12 @@ function setupGuessInput() {
     }
 
     input.value = "";
-    input.focus();
+    // On mobile, dismiss the keyboard so clues are visible; on desktop, keep focus
+    if (window.matchMedia("(max-width: 768px)").matches) {
+      input.blur();
+    } else {
+      input.focus();
+    }
   };
 
   submitButton.addEventListener("click", handleGuess);

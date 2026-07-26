@@ -428,9 +428,27 @@
 
 /* Responsive Design */
 @media (max-width: 768px) {
+  .game-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .game-header .auth-container {
+    position: static;
+    transform: none;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    order: 1; /* between header-content and any following content */
+  }
+
+  .game-header .header-content {
+    order: 0;
+    width: 100%;
+  }
+
   .auth-container {
     position: static;
-    margin-top: 10px;
     justify-content: center;
   }
   
