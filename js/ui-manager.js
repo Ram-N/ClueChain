@@ -2379,35 +2379,34 @@ function setupMobileToggles() {
 function setupMobileKeyboardHandler() {
   if (!window.visualViewport) return;
 
-  const initialHeight = window.visualViewport.height;
   const toggleBar = document.getElementById("mobile-toggle-bar");
+  // Use screen height as stable reference (doesn't change with Safari toolbar)
+  const stableHeight = window.screen.height;
 
-  const updateInputBarPosition = () => {
+  window.visualViewport.addEventListener("resize", () => {
     if (!mobileLayoutActive || !toggleBar) return;
 
-    const heightDiff = initialHeight - window.visualViewport.height;
+    // Keyboard is open when viewport is significantly shorter than screen
+    const keyboardOpen = (stableHeight - window.visualViewport.height) > stableHeight * 0.3;
     const inputBar = document.getElementById("mobile-input-bar");
-    if (heightDiff > 100) {
-      // Keyboard is open
+
+    if (keyboardOpen) {
       toggleBar.style.display = "none";
       // Close any open panels
       document.querySelectorAll(".mobile-panel.open").forEach((p) => p.classList.remove("open"));
       document.querySelectorAll(".mobile-tab-btn.active").forEach((b) => b.classList.remove("active"));
       // Pin input bar just above the keyboard
       if (inputBar) {
-        inputBar.style.bottom = `${heightDiff}px`;
+        const keyboardHeight = stableHeight - window.visualViewport.height - window.visualViewport.offsetTop;
+        inputBar.style.bottom = `${Math.max(0, keyboardHeight)}px`;
       }
     } else {
-      // Keyboard is closed
       toggleBar.style.display = "";
       if (inputBar) {
         inputBar.style.bottom = "0";
       }
     }
-  };
-
-  window.visualViewport.addEventListener("resize", updateInputBarPosition);
-  window.visualViewport.addEventListener("scroll", updateInputBarPosition);
+  });
 }
 
 /**
