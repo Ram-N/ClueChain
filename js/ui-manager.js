@@ -2247,6 +2247,15 @@ const mobileOriginalParents = new Map();
 /** The matchMedia query list for mobile detection */
 const mobileQuery = window.matchMedia("(max-width: 768px)");
 
+// Listen for orientation/resize changes (registered once)
+mobileQuery.addEventListener("change", (e) => {
+  if (e.matches) {
+    setupMobileLayout();
+  } else {
+    teardownMobileLayout();
+  }
+});
+
 /**
  * Sets up the mobile layout by moving DOM elements into mobile containers.
  * Only runs on screens <= 768px wide.
@@ -2303,9 +2312,6 @@ export function setupMobileLayout() {
 
   setupMobileToggles();
   setupMobileKeyboardHandler();
-
-  // Listen for orientation/resize changes
-  mobileQuery.addEventListener("change", handleMobileQueryChange);
 }
 
 /**
@@ -2335,40 +2341,37 @@ export function teardownMobileLayout() {
 }
 
 /**
- * Handles matchMedia change events for responsive layout switching.
- */
-function handleMobileQueryChange(e) {
-  if (e.matches) {
-    setupMobileLayout();
-  } else {
-    teardownMobileLayout();
-  }
-}
-
-/**
  * Sets up the toggle bar accordion behavior.
+ * Uses a single delegated listener on the toggle bar to avoid duplicate handlers.
  */
+let mobileTogglesInitialized = false;
 function setupMobileToggles() {
-  const buttons = document.querySelectorAll(".mobile-tab-btn");
-  buttons.forEach((btn) => {
-    btn.addEventListener("click", () => {
-      const panelName = btn.getAttribute("data-panel");
-      const panelId = `mobile-panel-${panelName}`;
-      const panel = document.getElementById(panelId);
-      if (!panel) return;
+  if (mobileTogglesInitialized) return;
+  mobileTogglesInitialized = true;
 
-      const isOpen = panel.classList.contains("open");
+  const toggleBar = document.getElementById("mobile-toggle-bar");
+  if (!toggleBar) return;
 
-      // Close all panels and deactivate all buttons
-      document.querySelectorAll(".mobile-panel.open").forEach((p) => p.classList.remove("open"));
-      document.querySelectorAll(".mobile-tab-btn.active").forEach((b) => b.classList.remove("active"));
+  toggleBar.addEventListener("click", (e) => {
+    const btn = e.target.closest(".mobile-tab-btn");
+    if (!btn) return;
 
-      // If it wasn't open, open it
-      if (!isOpen) {
-        panel.classList.add("open");
-        btn.classList.add("active");
-      }
-    });
+    const panelName = btn.getAttribute("data-panel");
+    const panelId = `mobile-panel-${panelName}`;
+    const panel = document.getElementById(panelId);
+    if (!panel) return;
+
+    const isOpen = panel.classList.contains("open");
+
+    // Close all panels and deactivate all buttons
+    document.querySelectorAll(".mobile-panel.open").forEach((p) => p.classList.remove("open"));
+    document.querySelectorAll(".mobile-tab-btn.active").forEach((b) => b.classList.remove("active"));
+
+    // If it wasn't open, open it
+    if (!isOpen) {
+      panel.classList.add("open");
+      btn.classList.add("active");
+    }
   });
 }
 
@@ -2376,8 +2379,10 @@ function setupMobileToggles() {
  * Sets up the virtual keyboard detection handler using visualViewport API.
  * Hides the toggle bar when the on-screen keyboard is open.
  */
+let mobileKeyboardHandlerInitialized = false;
 function setupMobileKeyboardHandler() {
-  if (!window.visualViewport) return;
+  if (!window.visualViewport || mobileKeyboardHandlerInitialized) return;
+  mobileKeyboardHandlerInitialized = true;
 
   const toggleBar = document.getElementById("mobile-toggle-bar");
   // Use screen height as stable reference (doesn't change with Safari toolbar)
