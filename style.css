@@ -1778,7 +1778,7 @@ button:hover {
 
   /* ── Paragraph section ──────────────────────────────────────── */
   #paragraph-section {
-    max-height: 40vh;
+    max-height: 30vh;
     overflow-y: auto;
     padding: 10px;
   }
@@ -1826,66 +1826,38 @@ button:hover {
     padding: 4px;
   }
 
-  /* ── Mobile active clue strip ───────────────────────────────── */
+  /* ── Mobile active clue strip (hidden — clues always visible) ─ */
   .mobile-active-clue {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    padding: 8px 12px;
-    background: #e3f2fd;
-    border: 1px solid #bbdefb;
-    border-radius: 8px;
-    font-size: 0.9rem;
-    cursor: pointer;
-    min-height: 36px;
+    display: none !important;
   }
 
-  .mobile-active-clue .clue-icon-indicator {
-    flex-shrink: 0;
-    font-size: 1.1em;
-  }
-
-  .mobile-active-clue .clue-text-preview {
-    flex: 1;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-  }
-
-  .mobile-active-clue .clue-more-count {
-    flex-shrink: 0;
-    font-size: 0.8rem;
-    color: #666;
-    background: #fff;
-    padding: 2px 6px;
-    border-radius: 10px;
-    border: 1px solid #ddd;
-  }
-
-  /* ── Mobile progress row ────────────────────────────────────── */
-  .mobile-progress-row {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    padding: 6px 10px;
-    background: #f8f9fa;
+  /* ── Always-visible clues on mobile ──────────────────────────── */
+  .game-layout > #clues-container {
+    max-height: 30vh;
+    overflow-y: auto;
+    margin: 0;
+    padding: 6px 4px;
     border-radius: 6px;
-    flex-wrap: wrap;
+    background: #f8f9fa;
+    border: 1px solid #e0e0e0;
   }
 
-  .mobile-progress-row .chain-links {
-    margin: 0;
+  /* ── Mobile progress row (no longer used — score in Score tab) ─ */
+  .mobile-progress-row {
+    display: none !important;
   }
 
-  .mobile-progress-row .score-display {
-    margin: 0;
-    font-size: 1rem;
+  /* ── Score panel content ──────────────────────────────────────── */
+  .mobile-panel .score-display {
+    margin: 12px auto;
+    font-size: 1.1rem;
+    text-align: center;
   }
 
-  .mobile-progress-row .chain-progress-container {
-    margin: 0;
-    padding: 0;
+  .mobile-panel .chain-progress-container {
+    margin: 8px auto;
+    padding: 0 10px;
+    justify-content: center;
   }
 
   /* ── Bottom spacer ──────────────────────────────────────────── */
@@ -2000,12 +1972,6 @@ button:hover {
   }
 
   /* Panel inner content padding */
-  .mobile-panel #clues-container {
-    max-height: none;
-    margin: 0;
-    border-radius: 0;
-  }
-
   .mobile-panel .letter-grid-container {
     margin-top: 0;
     padding: 8px 4px;
@@ -2138,11 +2104,6 @@ button:hover {
     height: 20px;
     font-size: 10px;
     margin: 0 -3px;
-  }
-
-  .mobile-active-clue {
-    font-size: 0.85rem;
-    padding: 6px 10px;
   }
 
   .mobile-tab-btn {

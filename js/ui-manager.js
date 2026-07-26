@@ -728,7 +728,6 @@ function setupClueInteractions() {
           // On mobile, highlight the pair (no mouseenter on touch)
           if (mobileLayoutActive) {
             highlightPair(clueIndex, true);
-            setTimeout(() => highlightPair(clueIndex, false), 2500);
           }
           // Scroll within the paragraph container on mobile
           const paragraphSection = document.getElementById("paragraph-section");
@@ -775,18 +774,9 @@ function setupClueInteractions() {
           }
 
           if (clue) {
-            // On mobile, open the clues panel and highlight
+            // On mobile, highlight the pair (clues are always visible)
             if (mobileLayoutActive) {
-              const cluesPanel = document.getElementById("mobile-panel-clues");
-              const cluesBtn = document.querySelector('.mobile-tab-btn[data-panel="clues"]');
-              if (cluesPanel && cluesBtn) {
-                document.querySelectorAll(".mobile-panel.open").forEach((p) => p.classList.remove("open"));
-                document.querySelectorAll(".mobile-tab-btn.active").forEach((b) => b.classList.remove("active"));
-                cluesPanel.classList.add("open");
-                cluesBtn.classList.add("active");
-              }
               highlightPair(clueIndex, true);
-              setTimeout(() => highlightPair(clueIndex, false), 2500);
             }
             clue.scrollIntoView({ behavior: "smooth", block: "center" });
           }
@@ -2283,8 +2273,18 @@ export function setupMobileLayout() {
   moveElement(document.getElementById("submit-guess"), "mobile-input-bar");
   moveElement(document.getElementById("golden-actions"), "mobile-input-bar");
 
-  // Move clues to mobile panel
-  moveElement(document.getElementById("clues-container"), "mobile-panel-clues");
+  // Move clues into game-layout flow (always visible, after paragraph)
+  const cluesContainer = document.getElementById("clues-container");
+  const paragraphSection = document.getElementById("paragraph-section");
+  const gameLayout = document.querySelector(".game-layout");
+  if (cluesContainer && paragraphSection && gameLayout) {
+    mobileOriginalParents.set(cluesContainer, {
+      parent: cluesContainer.parentNode,
+      nextSibling: cluesContainer.nextSibling,
+    });
+    // Insert clues right after paragraph section
+    paragraphSection.after(cluesContainer);
+  }
 
   // Move keyboard/letters to mobile panel
   const letterGridContainer = document.querySelector("#marketplace-section .letter-grid-container");
@@ -2295,15 +2295,14 @@ export function setupMobileLayout() {
   // Move notification panel to mobile panel
   moveElement(document.getElementById("notification-panel"), "mobile-panel-messages");
 
-  // Move score + chain to mobile progress row
+  // Move score + chain to mobile score panel
   const scoreDisplay = document.querySelector("#input-section .score-display");
-  if (scoreDisplay) moveElement(scoreDisplay, "mobile-progress-row");
+  if (scoreDisplay) moveElement(scoreDisplay, "mobile-panel-score");
   const chainContainer = document.querySelector("#input-section .chain-progress-container");
-  if (chainContainer) moveElement(chainContainer, "mobile-progress-row");
+  if (chainContainer) moveElement(chainContainer, "mobile-panel-score");
 
   setupMobileToggles();
   setupMobileKeyboardHandler();
-  updateMobileActiveClue();
 
   // Listen for orientation/resize changes
   mobileQuery.addEventListener("change", handleMobileQueryChange);
@@ -2383,30 +2382,32 @@ function setupMobileKeyboardHandler() {
   const initialHeight = window.visualViewport.height;
   const toggleBar = document.getElementById("mobile-toggle-bar");
 
-  window.visualViewport.addEventListener("resize", () => {
+  const updateInputBarPosition = () => {
     if (!mobileLayoutActive || !toggleBar) return;
 
     const heightDiff = initialHeight - window.visualViewport.height;
+    const inputBar = document.getElementById("mobile-input-bar");
     if (heightDiff > 100) {
       // Keyboard is open
       toggleBar.style.display = "none";
       // Close any open panels
       document.querySelectorAll(".mobile-panel.open").forEach((p) => p.classList.remove("open"));
       document.querySelectorAll(".mobile-tab-btn.active").forEach((b) => b.classList.remove("active"));
-      // Adjust input bar position to stay above keyboard
-      const inputBar = document.getElementById("mobile-input-bar");
+      // Pin input bar just above the keyboard
       if (inputBar) {
-        inputBar.style.bottom = `${initialHeight - window.visualViewport.height}px`;
+        inputBar.style.bottom = `${heightDiff}px`;
       }
     } else {
       // Keyboard is closed
       toggleBar.style.display = "";
-      const inputBar = document.getElementById("mobile-input-bar");
       if (inputBar) {
         inputBar.style.bottom = "0";
       }
     }
-  });
+  };
+
+  window.visualViewport.addEventListener("resize", updateInputBarPosition);
+  window.visualViewport.addEventListener("scroll", updateInputBarPosition);
 }
 
 /**
@@ -2414,41 +2415,7 @@ function setupMobileKeyboardHandler() {
  * Called at the end of renderClues().
  */
 export function updateMobileActiveClue() {
-  if (!mobileLayoutActive) return;
-
-  const strip = document.getElementById("mobile-active-clue");
-  if (!strip) return;
-
-  // Find active (unsolved) clues from the clues list
-  const activeClues = document.querySelectorAll("#clues-list .active-clues-container li");
-  if (activeClues.length === 0) {
-    strip.innerHTML = '<span class="clue-text-preview" style="color:#888;">All clues solved!</span>';
-    return;
-  }
-
-  const firstClue = activeClues[0];
-  const clueText = firstClue.querySelector(".clue-text");
-  const text = clueText ? clueText.textContent : "";
-  const moreCount = activeClues.length - 1;
-
-  strip.innerHTML = `
-    <span class="clue-icon-indicator"><i class="fas fa-list"></i></span>
-    <span class="clue-text-preview">${text}</span>
-    ${moreCount > 0 ? `<span class="clue-more-count">+${moreCount}</span>` : ""}
-  `;
-
-  // Tap to open clues panel
-  strip.onclick = () => {
-    const cluesPanel = document.getElementById("mobile-panel-clues");
-    const cluesBtn = document.querySelector('.mobile-tab-btn[data-panel="clues"]');
-    if (cluesPanel && cluesBtn) {
-      // Close other panels
-      document.querySelectorAll(".mobile-panel.open").forEach((p) => p.classList.remove("open"));
-      document.querySelectorAll(".mobile-tab-btn.active").forEach((b) => b.classList.remove("active"));
-      cluesPanel.classList.add("open");
-      cluesBtn.classList.add("active");
-    }
-  };
+  // No-op: clues are now always visible on mobile, active clue strip removed
 }
 
 /**
