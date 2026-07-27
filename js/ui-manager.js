@@ -1206,7 +1206,6 @@ export async function showGameOver(lastWordRevealed = false) {
 
   // Use Unicode escapes to avoid emoji encoding issues in JS source files
   const CHAIN = '\u{1F517}'; // 🔗
-  const TARGET = '\u{1F3AF}'; // 🎯
   const KEY = '\u{1F5DD}\u{FE0F}'; // 🗝️
   const COIN = '\u{1FA99}'; // 🪙
   const unusedItems = [];
@@ -1214,7 +1213,23 @@ export async function showGameOver(lastWordRevealed = false) {
   if (!gameState.current.goldenCoinUsed) unusedItems.push(COIN);
   const flexSuffix = unusedItems.length > 0 ? ' ' + unusedItems.join('') : '';
   const challenge = scorePercentage === 100 ? 'Can you match me?' : 'Can you beat me?';
-  const shareText = `Hey! Have you played today's ClueChain? ${CHAIN}\n"${puzzleTitle}" \u2014 I scored ${scorePercentage}%${flexSuffix} ${TARGET}\n${challenge}\n${puzzleUrl}`;
+  // Score bar: 5 squares colored by score percentage
+  const G = '\u{1F7E9}'; // 🟩
+  const Y = '\u{1F7E8}'; // 🟨
+  const O = '\u{1F7E7}'; // 🟧
+  const R = '\u{1F7E5}'; // 🟥
+  const W = '\u{2B1C}';  // ⬜
+  const filledCount = Math.round(scorePercentage / 20); // 0-5 filled squares
+  const fillColor = scorePercentage >= 95 ? G : scorePercentage >= 80 ? Y : scorePercentage >= 60 ? O : R;
+  const scoreBar = fillColor.repeat(filledCount) + W.repeat(5 - filledCount);
+  // Format date for display (e.g., "Jul 26")
+  const dateStr = paragraph?.date
+    ? new Date(2024, parseInt(paragraph.date.split('-')[0]) - 1, parseInt(paragraph.date.split('-')[1]))
+        .toLocaleDateString('en-US', { month: 'short', day: 'numeric' })
+    : '';
+  const datePart = dateStr ? ` (${dateStr})` : '';
+  // Keep on one line — newlines cause iMessage to split into multiple bubbles
+  const shareText = `Hey! Have you played today's ClueChain?${datePart} ${CHAIN} "${puzzleTitle}" \u2014 I scored ${scorePercentage}%${flexSuffix} ${scoreBar} ${challenge} ${puzzleUrl}`;
 
   const scoreClass = scorePercentage >= 80 ? 'score-high' : scorePercentage >= 50 ? 'score-mid' : 'score-low';
 
