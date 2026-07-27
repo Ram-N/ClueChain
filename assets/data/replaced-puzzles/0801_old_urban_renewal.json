@@ -1,0 +1,236 @@
+{
+  "title": "Urban renewal — Brazil",
+  "date": "08-01",
+  "text": "Title: Urban renewal — Brazil\n\nIn Rio de Janeiro, the Porto Maravilha is a large-scale urban waterfront revitalization project, which covers a centrally located five million square meter area. The project aims to redevelop the port area, increasing the city center attractiveness as a whole and enhancing the city's competitiveness in the global economy. The urban renovation involves 700 km of public networks for water supply, sanitation, drainage, electricity, gas and telecom; 5 km of tunnels; 70 km of roads; 650 km2 of sidewalks; 17 km of bike path; 15.000 trees; and 3 plants for sanitation treatment.",
+  "hiddenWords": [
+    {
+      "word": "revitalization",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A phoenix rising from the ashes, but not literally.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "The process of making something stronger or more active again.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The act of giving new life or energy to something.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "centrally",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Imagine a bullseye, where is the center?",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Located in the middle of something.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "In or near the center.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "attractiveness",
+      "difficulty": "Hard",
+      "related_words": [
+        "competitiveness"
+      ],
+      "clues": [
+        {
+          "clue": "The secret ingredient that makes you want to come back for more.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "A quality that makes something pleasing or appealing.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "The state of being attractive.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "competitiveness",
+      "difficulty": "Hard",
+      "related_words": [
+        "attractiveness"
+      ],
+      "clues": [
+        {
+          "clue": "The fire that fuels the machine, driving it to be the best.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "The ability to compete successfully.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The state of being competitive.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "sanitation",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "drainage"
+      ],
+      "clues": [
+        {
+          "clue": "A clean slate, but not just for art.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "The practice of keeping places clean and hygienic.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "The removal of waste and dirty water.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "drainage",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "sanitation"
+      ],
+      "clues": [
+        {
+          "clue": "The unsung hero of flood control.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "The system for removing water or waste.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The act of draining water or waste.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "electricity",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The spark that brings light to our lives.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A form of energy that powers devices.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The energy made available by the movement of charged particles.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "tunnels",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The hidden paths that connect us all.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Long, narrow passages through or under something.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A passage through or under something.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "telecom",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The invisible thread that weaves the world together.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "The industry that provides communication services.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Short for telecommunications.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "renovation",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A new face for an old friend.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "The act of making something new or improved again.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The process of repairing or improving something.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-08-01"
+}
