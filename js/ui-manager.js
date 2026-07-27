@@ -1213,15 +1213,15 @@ export async function showGameOver(lastWordRevealed = false) {
   if (!gameState.current.goldenCoinUsed) unusedItems.push(COIN);
   const flexSuffix = unusedItems.length > 0 ? ' ' + unusedItems.join('') : '';
   const challenge = scorePercentage === 100 ? 'Can you match me?' : 'Can you beat me?';
-  // Score bar: 5 squares colored by score percentage
-  const G = '\u{1F7E9}'; // 🟩
-  const Y = '\u{1F7E8}'; // 🟨
-  const O = '\u{1F7E7}'; // 🟧
-  const R = '\u{1F7E5}'; // 🟥
-  const W = '\u{2B1C}';  // ⬜
-  const filledCount = Math.round(scorePercentage / 20); // 0-5 filled squares
+  // Score bar: 5 colored circles by score tier + empty circles for the rest
+  const G = '\u{1F7E2}'; // 🟢
+  const Y = '\u{1F7E1}'; // 🟡
+  const O = '\u{1F7E0}'; // 🟠
+  const R = '\u{1F534}'; // 🔴
+  const E = '\u{26AA}';  // ⚪
+  const filledCount = Math.round(scorePercentage / 20); // 0-5 filled circles
   const fillColor = scorePercentage >= 95 ? G : scorePercentage >= 80 ? Y : scorePercentage >= 60 ? O : R;
-  const scoreBar = fillColor.repeat(filledCount) + W.repeat(5 - filledCount);
+  const scoreBar = fillColor.repeat(filledCount) + E.repeat(5 - filledCount);
   // Format date for display (e.g., "Jul 26")
   const dateStr = paragraph?.date
     ? new Date(2024, parseInt(paragraph.date.split('-')[0]) - 1, parseInt(paragraph.date.split('-')[1]))
