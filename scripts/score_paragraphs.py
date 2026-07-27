@@ -295,6 +295,113 @@ def score_title_spoiler(paragraph_data: Dict) -> Tuple[float, str]:
     return round(penalty, 1), reason
 
 
+def _get_lemma(nlp, word: str) -> str:
+    """Get the lemma of a word using spaCy."""
+    doc = nlp(word.lower())
+    return doc[0].lemma_ if doc else word.lower()
+
+
+def _shared_prefix_len(a: str, b: str) -> int:
+    """Return the length of the shared prefix between two strings."""
+    i = 0
+    for ca, cb in zip(a, b):
+        if ca != cb:
+            break
+        i += 1
+    return i
+
+
+# Common prefixes that don't indicate a shared root
+# e.g. "intermittent" and "intervals" both start with "inter" but are unrelated
+_FALSE_PREFIX_ROOTS = {
+    "inter", "multi", "super", "trans", "under", "over", "extra", "ultra",
+    "micro", "macro", "counter", "semi", "anti", "auto", "pre", "post",
+    "mis", "non", "sub", "fore", "out", "re", "un",
+}
+
+
+def _clue_word_leaks(nlp, hidden_word: str, clue_text: str) -> Optional[str]:
+    """
+    Check if a hidden word or its variant leaks into a clue using spaCy lemmatization
+    and shared-prefix heuristics.
+    Returns the leaking clue word if found, or None.
+    """
+    hw_lower = hidden_word.lower()
+    hw_lemma = _get_lemma(nlp, hw_lower)
+
+    clue_doc = nlp(clue_text.lower())
+
+    for token in clue_doc:
+        if not token.is_alpha or len(token.text) < 3:
+            continue
+
+        cw = token.text.lower()
+        cw_lemma = token.lemma_
+
+        # Check 1: exact word match (case-insensitive)
+        if hw_lower == cw:
+            return cw
+
+        # Check 2: lemmas match (e.g. "coastal" / "coast" -> "coast")
+        if hw_lemma == cw_lemma:
+            return cw
+
+        # Check 3: one lemma starts with the other
+        # Catches: reader(lemma:reader) vs reads(lemma:read) — "reader".startswith("read")
+        # Requires the shorter lemma to be >= 60% of the longer to avoid
+        # false positives like participation/part
+        if len(hw_lemma) >= 4 and len(cw_lemma) >= 4:
+            shorter_lemma = hw_lemma if len(hw_lemma) <= len(cw_lemma) else cw_lemma
+            longer_lemma = cw_lemma if len(hw_lemma) <= len(cw_lemma) else hw_lemma
+            if len(shorter_lemma) / len(longer_lemma) >= 0.6:
+                if longer_lemma.startswith(shorter_lemma):
+                    # Skip if the shorter lemma is a common prefix word
+                    if shorter_lemma not in _FALSE_PREFIX_ROOTS:
+                        return cw
+
+        # Check 4: shared prefix of 5+ chars between the raw words
+        # Catches: narrator vs narrates (share "narrat", 6 chars)
+        #          nature vs natural (share "natur", 5 chars)
+        # Avoids: intermittent vs intervals (share "inter" — a common prefix)
+        if len(hw_lower) >= 5 and len(cw) >= 5:
+            plen = _shared_prefix_len(hw_lower, cw)
+            if plen >= 5:
+                shared = hw_lower[:plen]
+                # Skip if the shared part is just a common Latin/Greek prefix
+                if shared not in _FALSE_PREFIX_ROOTS:
+                    return cw
+
+    return None
+
+
+def score_clue_leaks(nlp, paragraph_data: Dict) -> Tuple[float, str]:
+    """
+    Penalize puzzles where a hidden word (or variant) appears in its own clues.
+    Uses spaCy lemmatization to catch morphological variants (e.g. narrator/narrates).
+    This is a major quality issue — seeing a form of the answer in the clue
+    either gives it away or misleads the solver.
+    Returns (penalty <= 0, reason string).
+    """
+    leaks = []
+
+    for hw in paragraph_data["hiddenWords"]:
+        word = hw["word"]
+        for clue_obj in hw.get("clues", []):
+            clue_text = clue_obj.get("clue", "")
+            leaked_word = _clue_word_leaks(nlp, word, clue_text)
+            if leaked_word:
+                leak_desc = f'"{word}" -> {clue_obj["type"]} clue has "{leaked_word}"'
+                leaks.append(leak_desc)
+
+    if not leaks:
+        return 0.0, "no clue leaks"
+
+    # -0.5 per leaked clue (harsh — this is a serious quality issue)
+    penalty = -0.5 * len(leaks)
+    reason = f"{len(leaks)} clue leak(s): " + "; ".join(leaks)
+    return round(penalty, 1), reason
+
+
 # ---------------------------------------------------------------------------
 # LLM scoring
 # ---------------------------------------------------------------------------
@@ -357,7 +464,7 @@ def compute_final_score(scores: Dict) -> float:
             total += scores[dim] * weight
 
     # Add raw penalties (deductions)
-    for penalty_key in ("catalog_penalty", "title_spoiler"):
+    for penalty_key in ("catalog_penalty", "title_spoiler", "clue_leaks"):
         val = scores.get(penalty_key, 0)
         if val is not None:
             total += val
@@ -379,7 +486,7 @@ def compute_partial_score(scores: Dict) -> Tuple[float, float]:
             weight_used += weight
 
     penalties = 0.0
-    for penalty_key in ("catalog_penalty", "title_spoiler"):
+    for penalty_key in ("catalog_penalty", "title_spoiler", "clue_leaks"):
         val = scores.get(penalty_key, 0) or 0
         penalties += val
 
@@ -513,6 +620,7 @@ def generate_rankings(all_scores: Dict) -> List[Dict]:
             "narrative_interest": scores.get("narrative_interest"),
             "catalog_penalty": scores.get("catalog_penalty"),
             "title_spoiler": scores.get("title_spoiler"),
+            "clue_leaks": scores.get("clue_leaks"),
         })
 
     rows.sort(key=lambda r: r["final_score"], reverse=True)
@@ -526,7 +634,7 @@ def write_rankings_csv(rows: List[Dict], output_path: Path):
                   "final_score", "tier", "score_type",
                   "word_quality", "variety", "connectivity", "clueability",
                   "discovery_curve", "narrative_interest", "catalog_penalty",
-                  "title_spoiler"]
+                  "title_spoiler", "clue_leaks"]
     with open(output_path, "w", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(f, fieldnames=fieldnames)
         writer.writeheader()
@@ -629,12 +737,12 @@ Examples:
                         help="Use Groq instead of NIM for LLM scoring")
     args = parser.parse_args()
 
-    # Load env and optionally spaCy
+    # Load env and spaCy (always needed for clue leak detection)
     # --file implies --rules (fast enough to always run)
     load_dotenv()
     if args.file:
         args.rules = True
-    nlp = _load_spacy_model() if args.rules else None
+    nlp = _load_spacy_model()
 
     # Load existing scores (checkpoint)
     if args.force:
@@ -708,6 +816,26 @@ Examples:
             spoiler_count += 1
     if spoiler_count:
         print(f"Title spoiler penalty applied to {spoiler_count} paragraphs")
+
+    # Clue leak penalty (always runs — no spaCy or LLM needed)
+    leak_count = 0
+    for filename, data in paragraphs:
+        cl_score, cl_reason = score_clue_leaks(nlp, data)
+        if filename not in all_scores:
+            all_scores[filename] = {
+                "title": data.get("title", ""),
+                "date": data.get("date", ""),
+                "scores": {},
+                "reasons": {},
+                "has_llm_scores": False,
+            }
+        all_scores[filename]["scores"]["clue_leaks"] = cl_score
+        all_scores[filename]["reasons"]["clue_leaks"] = cl_reason
+        if cl_score < 0:
+            leak_count += 1
+    if leak_count:
+        print(f"Clue leak penalty applied to {leak_count} paragraphs")
+
     stamp_summary_fields(all_scores)
     save_scores(all_scores, _SCORES_FILE)
 
