@@ -1,372 +1,371 @@
-rank,filename,title,total_score,overall_rating,final_score,tier,score_type,word_quality,variety,connectivity,clueability,discovery_curve,narrative_interest,catalog_penalty,title_spoiler
-1,0527.json,A Tale of Two Cities by Charles Dickens,88.3,good,8.83,Top,full,9.5,6.9,9,9,8,10,0,0.0
-2,0311.json,Three major things most people get wrong about the brain,86.5,good,8.65,Top,full,10,8.0,8,9,7,8,0,0.0
-3,0708.json,The Videos That Rocked America. The Song That Knows Our Rage. ClueChain,86.1,good,8.61,Top,full,9.5,7.4,8,9,8,9,0,0.0
-4,1123.json,The Second Coming,85.8,good,8.58,Top,full,9.5,7.2,8,9,8,9,0,0.0
-5,1117.json,“Expedition to the End of the World”,85.5,good,8.55,Top,full,10,6.7,8,9,7,9,0,0.0
-6,1023.json,The Character Remains,85.4,good,8.54,Top,full,10,5.6,9,8,8,9,0,0.0
-7,1219.json,The Patient war,85.2,good,8.52,Top,full,9.8,6.9,8,9,7,9,0,0.0
-8,0811.json,How to think about the Sublime,85.1,good,8.51,Top,full,9.5,7.4,8,9,7,9,0,0.0
-9,0815.json,Living Landscapes Of Ladakh ,85.0,good,8.5,Top,full,9.5,8.0,8,9,7,8,0,0.0
-10,0118.json,How Giant White Houses Took Over America,84.9,good,8.49,Top,full,9.8,6.7,8,9,7,9,0,0.0
-11,0512.json,Human-only DNA,84.6,good,8.46,Top,full,9.0,8.7,8,9,7,8,0,0.0
-12,0912.json,Baby brains,84.6,good,8.46,Top,full,9.0,9.4,8,9,6,8,0,0.0
-13,0316.json,The Unified Theory of Deliciousness,84.5,good,8.45,Top,full,9.8,6.4,8,9,7,9,0,0.0
-14,0423.json,A nation of truthers,84.4,good,8.44,Top,full,9.8,7.0,8,9,7,8,0,0.0
-15,1122.json,Cal Newport on Writing Productivity,84.4,good,8.44,Top,full,8.8,9.0,8,9,8,7,0,0.0
-16,1130.json,Science explains why our brains aren’t just fancy computers,84.4,good,8.44,Top,full,10,6.6,8,9,8,7,0,0.0
-17,0523.json,A Grim Fairy Tale,84.2,good,8.42,Top,full,9.5,6.8,8,9,7,9,0,0.0
-18,0915.json,Exploring Kashmir,84.2,good,8.42,Top,full,9.2,7.4,8,9,7,9,0,0.0
-19,0616.json,My Wine Accumulation,84.1,good,8.41,Top,full,10,6.4,8,9,6,9,0,0.0
-20,0813.json,Rethinking my mother's story,84.0,good,8.4,Top,full,9.5,6.7,8,9,7,9,0,0.0
-21,0907.json,Finding Father Christmas review – Lenny Rush and James Buckley's chemistry is just wonderful,84.0,good,8.4,Top,full,10,7.0,8,9,6,8,0,0.0
-22,0521.json,It’s Okay to Start Small,83.9,good,8.39,Top,full,10,5.6,8,9,7,9,0,0.0
-23,0618.json,A Brief History of The New Republic,83.9,good,8.39,Top,full,9.5,7.3,8,9,7,8,0,0.0
-24,0918.json,"Periwinkle, the Color of Poison, Modernism, and Dusk",83.9,good,8.39,Top,full,9.8,6.0,8,9,7,9,0,0.0
-25,0410.json,Wild Cherry,83.9,good,8.39,Top,full,9.8,6.7,8,9,7,8,0,0.0
-26,0519.json,What's the Best Way to Get a Raise?,83.8,good,8.38,Top,full,10,6.9,8,9,6,8,0,0.0
-27,0916.json,Delusion at the Gastropub,83.8,good,8.38,Top,full,9.5,5.9,8,9,8,9,0,0.0
-28,1221.json,Tips and Tricks From a Crossword Prodigy,83.8,good,8.38,Top,full,9.5,7.2,8,9,7,8,0,0.0
-29,0627.json,"Mob Justice Is Trampling Democratic Discourse (by Anne Applebaum, The Atlantic)",83.8,good,8.38,Top,full,10,5.5,8,9,7,9,0,0.0
-30,0210.json,"Mob Justice Is Trampling Democratic Discourse (by Anne Applebaum, The Atlantic)",83.8,good,8.38,Top,full,10,5.5,8,9,7,9,0,0.0
-31,0412.json,A New Genetic Clue to How Humans Got Such Big Brains,83.8,good,8.38,Top,full,9.8,7.3,8,9,6,8,0,0.0
-32,0807.json,Only Disconnect by By Gary Shteyngart,83.8,good,8.38,Top,full,9.2,6.5,8,9,8,9,0,0.0
-33,0908.json,A Tale of Two Cities by Charles Dickens,83.8,good,8.38,Top,full,9.5,6.9,9,8,6,9,0,0.0
-34,0322.json,Story writers tell all,83.7,good,8.37,Top,full,9.8,7.2,8,9,6,8,0,0.0
-35,0615.json,"36 Hours in Bangalore, India",83.7,good,8.37,Top,full,10,6.8,8,9,6,8,0,0.0
-36,0122.json,My dirty secret writing life,83.6,good,8.36,Top,full,9.5,6.4,8,9,7,9,0,0.0
-37,0721.json,Holding up the rear,83.6,good,8.36,Top,full,9.2,7.0,8,9,8,8,0,0.0
-38,0810.json,Aggressive Hospitality,83.6,good,8.36,Top,full,10,6.7,8,9,6,8,0,0.0
-39,1011.json,Human intelligence vs AI,83.6,good,8.36,Top,full,9.2,7.0,8,9,8,8,0,0.0
-40,1012.json,Pollution and Mistakes,83.6,good,8.36,Top,full,9.5,8.4,8,9,6,7,0,0.0
-41,0318.json,"Northern Lights, Manitoba",83.5,good,8.35,Top,full,10,6.0,8,9,7,8,0,0.0
-42,1118.json,Unreal City,83.5,good,8.35,Top,full,8.5,9.0,8,9,7,8,0,0.0
-43,0911.json,"Humans think — AI, not so much",83.5,good,8.35,Top,full,10,6.0,8,9,7,8,0,0.0
-44,0531.json,An experiment for students to grasp by lessons,83.5,good,8.35,Top,full,9.0,6.7,8,9,8,9,0,0.0
-45,0502.json,Common knowledge,83.4,good,8.34,Top,full,9.5,8.3,8,9,6,7,0,0.0
-46,0709.json,The Law of Compensation by Ralph Waldo Emerson,83.4,good,8.34,Top,full,9.0,7.3,8,9,7,9,0,0.0
-47,0806.json,"Human activity helped make 2025 third-hottest year on record, experts say — The Guardian",83.4,good,8.34,Top,full,9.8,7.0,8,9,6,8,0,0.0
-48,0816.json,Nestle's Half-Billion Dollar Noodle Debacle,83.4,good,8.34,Top,full,9.8,7.0,8,9,6,8,0,0.0
-49,1020.json,I rescued a panini press,83.4,good,8.34,Top,full,9.5,6.3,8,9,7,9,0,0.0
-50,0809.json,A barber you’d trust with your life,83.4,good,8.34,Top,full,9.5,6.6,9,8,6,9,0,0.0
-51,0113.json,"Abraham Lincoln, master inventor",83.4,good,8.34,Top,full,9.8,7.0,8,9,6,8,0,0.0
-52,0212.json,AI Is Unlocking the Human Brain’s Secrets,83.4,good,8.34,Top,full,9.0,8.6,8,9,6,8,0,0.0
-53,0509.json,Todd Sampson — Early life and education,83.4,good,8.34,Top,full,9.5,8.3,8,9,6,7,0,0.0
-54,0814.json,A professor who belongs,83.4,good,8.34,Top,full,10,5.3,8,9,7,9,0,0.0
-55,0909.json,The Law of Compensation by Ralph Waldo Emerson,83.4,good,8.34,Top,full,9.0,7.3,8,9,7,9,0,0.0
-56,0922.json,A writers guide to just getting on with it,83.3,good,8.33,Top,full,9.5,7.5,8,9,6,8,0,0.0
-57,1115.json,"The mist, mystery, and mountains of Sikkim",83.3,good,8.33,Top,full,9.8,6.3,8,9,7,8,0,0.0
-58,0413.json,Otis' invention,83.3,good,8.33,Top,full,10,5.9,8,9,8,7,0,0.0
-59,1214.json,The Myth of the Lone Inventor,83.3,good,8.33,Top,full,9.2,7.5,8,9,7,8,0,0.0
-60,0928.json,A Tale of Two Cities,83.3,good,8.33,Top,full,10,4.2,9,8,8,9,0,0.0
-61,0408.json,slackening angular speed,83.1,good,8.31,Top,full,9.2,8.7,8,9,6,7,0,0.0
-62,0817.json,A Lab Accident Changed my Approach,83.1,good,8.31,Top,full,10,5.1,8,9,7,9,0,0.0
-63,0216.json,Fancy a Kulfi? From Granita to Queso Helado,83.0,good,8.3,Top,full,9.2,7.3,8,9,7,8,0,0.0
-64,0730.json,Miracle — Judaism,83.0,good,8.3,Top,full,9.5,6.7,8,9,7,8,0,0.0
-65,0902.json,Retrieval-augmented generation — Challenges,83.0,good,8.3,Top,full,9.0,9.0,8,9,6,7,0,0.0
-66,1015.json,An Indian City Bursting With Action,83.0,good,8.3,Top,full,9.8,6.1,8,9,7,8,0,0.0
-67,0313.json,Lincoln's Idea,83.0,good,8.3,Top,full,9.2,7.3,8,9,7,8,0,0.0
-68,1207.json,What happens to the human body in 49C heat? Australians are finding out,83.0,good,8.3,Top,full,9.2,8.6,8,9,6,7,0,0.0
-69,0204.json,Land by Maggie O’Farrell,83.0,good,8.3,Top,full,9.2,8.6,8,9,7,6,0,0.0
-70,0401.json,JD Vance — Zelenskyy White House visit,83.0,good,8.3,Top,full,9.2,8.6,8,9,7,6,0,0.0
-71,0320.json,The Future of Wearables,82.9,good,8.29,Top,full,10,6.3,8,9,6,8,0,0.0
-72,0503.json,Frank Sinatra Has a Cold,82.9,good,8.29,Top,full,10,5.6,8,9,6,9,0,0.0
-73,0923.json,China in Ten Words,82.9,good,8.29,Top,full,10,4.9,8,9,7,9,0,0.0
-74,1016.json,The Noma Way,82.9,good,8.29,Top,full,10,5.6,8,9,6,9,0,0.0
-75,1022.json,Neglecting to Read,82.9,good,8.29,Top,full,9.2,7.2,8,9,7,8,0,0.0
-76,1211.json,Bigger and Healthier Brains,82.9,good,8.29,Top,full,9.2,7.2,8,9,7,8,0,0.0
-77,02-18_Frank_Sinatra_Has_a_Cold.json,Frank Sinatra Has a Cold,82.9,good,8.29,Top,full,10,5.6,8,9,6,9,0,0.0
-78,0516.json,Lush Life Lahore,82.8,good,8.28,Top,full,10,5.5,8,9,7,8,0,0.0
-79,1229.json,Anomia (game) — Design,82.8,good,8.28,Top,full,9.5,6.5,8,9,7,8,0,0.0
-80,0310.json,Clive Myrie’s African Adventure,82.8,good,8.28,Top,full,9.8,6.6,8,9,6,8,0,0.0
-81,0121.json,Politico has figured out,82.7,good,8.27,Top,full,9.8,6.5,8,9,6,8,0,0.0
-82,0706.json,Democrats activate weeklong voter drive to offset critical registration losses — The Guardian,82.7,good,8.27,Top,full,9.5,7.8,8,9,6,7,0,0.0
-83,1027.json,Petrarch — Later years,82.7,good,8.27,Top,full,9.2,8.4,8,9,6,7,0,0.0
-84,0221.json,"The ""huntress"" faces a gross backlash",82.6,good,8.26,Top,full,9.2,7.0,8,9,7,8,0,0.0
-85,0718.json,"Mustard, the Color of Millennial Candidates",82.6,good,8.26,Top,full,9.2,7.0,8,9,7,8,0,0.0
-86,0606.json,England’s zombies have rapidly descended into collective brain fog in Six Nations — The Guardian,82.5,good,8.25,Top,full,9.0,8.0,8,9,6,8,0,0.0
-87,1001.json,Urban renewal — United States,82.5,good,8.25,Top,full,9.2,8.3,8,9,6,7,0,0.0
-88,1013.json,Nikola Tesla Goes Viral,82.5,good,8.25,Top,full,9.0,8.0,8,9,6,8,0,0.0
-89,0612.json,What’s it like to be a baby?,82.4,good,8.24,Top,full,10,6.6,8,9,6,7,0,0.0
-90,1212.json,Hebbian Theory,82.4,good,8.24,Top,full,9.2,6.9,8,9,7,8,0,0.0
-91,0228.json,Destiny's Child — 1990–1997: Early beginnings and Girl's Tyme,82.3,good,8.23,Top,full,9.5,6.9,8,9,6,8,0,0.0
-92,0625.json,Jazz — Machito and Mario Bauza,82.3,good,8.23,Top,full,9.5,6.2,8,9,8,7,0,0.0
-93,0630.json,Miracle on Ice — Silver medal,82.3,good,8.23,Top,full,8.8,7.6,8,9,7,8,0,0.0
-94,1126.json,Robot — Swarm robots,82.3,good,8.23,Top,full,9.0,7.2,8,9,7,8,0,0.0
-95,0812.json,What my dog taught me,82.3,good,8.23,Top,full,9.2,7.5,8,9,6,8,0,0.0
-96,0726.json,Robot — Mesopotamia,82.2,good,8.22,Top,full,9.5,6.8,8,9,6,8,0,0.0
-97,0107.json,Finding humor in photography,82.2,good,8.22,Top,full,9.5,6.8,8,9,6,8,0,0.0
-98,0507.json,Liverpool out of tune but Arne Slot working on finding better rhythm,82.2,good,8.22,Top,full,9.8,6.2,8,9,6,8,0,0.0
-99,0319.json,5 things you can negotiate to save money,82.1,good,8.21,Top,full,9.5,7.4,8,9,6,7,0,0.0
-100,0525.json,Jazz — Blended African and European music sensibilities,82.1,good,8.21,Top,full,10,5.1,8,9,7,8,0,0.0
-101,0701.json,Urban renewal — South Africa,82.1,good,8.21,Top,full,8.0,9.1,8,9,7,8,0,0.0
-102,0511.json,Human Brains and Evolution,82.1,good,8.21,Top,full,8.2,8.7,8,9,7,8,0,0.0
-103,1111.json,The average human brain size is growing,82.1,good,8.21,Top,full,9.5,6.1,8,9,7,8,0,0.0
-104,0219.json,The cheapest concession you can make,82.0,good,8.2,Top,full,10,5.0,8,9,7,8,0,0.0
-105,0622.json,A Window To The World,82.0,good,8.2,Top,full,9.2,6.6,8,9,7,8,0,0.0
-106,1218.json,Natural Justice,82.0,good,8.2,Top,full,9.0,7.0,8,9,7,8,0,0.0
-107,1222.json,Writing and the Creative Life,82.0,good,8.2,Top,full,9.0,7.0,8,9,7,8,0,0.0
-108,0404.json,Your Lifestyle Has Already Been Designed,81.9,good,8.19,Top,full,10,5.6,8,9,6,8,0,0.0
-109,0416.json,The Burning Desire for Hot Chicken,81.9,good,8.19,Top,full,10,5.6,8,9,6,8,0,0.0
-110,0919.json,Iran Wants to Talk,81.9,good,8.19,Top,full,9.8,6.0,8,9,6,8,0,0.0
-111,0921.json,The Former Prince Andrew Never Should Have Forwarded Those Emails,81.9,good,8.19,Top,full,10,5.6,8,9,6,8,0,0.0
-112,1121.json,Across and down with a word wrangler,81.9,good,8.19,Top,full,10,4.9,8,9,7,8,0,0.0
-113,05-18_Your_Lifestyle_Has_Already_Been_Designed.json,Your Lifestyle Has Already Been Designed,81.9,good,8.19,Top,full,10,5.6,8,9,6,8,0,0.0
-114,0206.json,US banks announce UK expansion projects hours after budget  — The Guardian,81.8,good,8.18,Top,full,9.2,7.8,8,9,6,7,0,0.0
-115,0330.json,Miracle on Ice — Third period,81.8,good,8.18,Top,full,9.5,6.5,8,9,6,8,0,0.0
-116,1018.json,Juvenile Impulse,81.8,good,8.18,Top,full,10,5.5,8,9,6,8,0,0.0
-117,1206.json,Trump administration freezes $2.1bn in funds for Chicago transit projects — The Guardian,81.8,good,8.18,Top,full,9.8,6.6,8,9,6,7,0,0.0
-118,0208.json,Rhythm and blues — Afro-Cuban rhythmic influence,81.8,good,8.18,Top,full,9.8,5.9,8,9,6,8,0,0.0
-119,0112.json,How to Treat Alzheimer's,81.8,good,8.18,Top,full,9.8,6.6,8,9,6,7,0,0.0
-120,0213.json,Lincoln unclogs traffic jam,81.8,good,8.18,Top,full,9.5,6.5,8,9,6,8,0,0.0
-121,0514.json,Rhythm and blues — Afro-Cuban rhythmic influence,81.8,good,8.18,Top,full,9.8,5.9,8,9,6,8,0,0.0
-122,0321.json,Harriet the Spy,81.7,good,8.17,Top,full,9.8,5.2,8,9,6,9,0,0.0
-123,0215.json,The Success of Ordinary Indians,81.6,good,8.16,Top,full,9.2,7.0,8,9,6,8,0,0.0
-124,0720.json,Inside the Mind of an Ecoterrorist,81.6,good,8.16,Top,full,9.2,7.0,8,9,6,8,0,0.0
-125,0608.json,Canals,81.6,good,8.16,Top,full,9.5,7.1,8,9,6,7,0,0.0
-126,0808.json,An irrational sports allegiance,81.6,good,8.16,Top,full,10,4.1,8,9,7,9,0,0.0
-127,0506.json,"Brain has five ‘eras’, scientists say – with adult mode not starting until early 30s — The Guardian",81.5,good,8.15,Top,full,9.0,8.0,8,9,6,7,0,0.0
-128,0704.json,Pizzagate conspiracy theory — Public opinion,81.5,good,8.15,Top,full,9.5,7.0,8,9,6,7,0,0.0
-129,0727.json,Petrarch — Mount Ventoux,81.5,good,8.15,Top,full,9.2,5.6,8,9,7,9,0,0.0
-130,1017.json,A modern mathematical method for calculating centers of geography,81.5,good,8.15,Top,full,9.5,5.7,8,9,7,8,0,0.0
-131,1028.json,Destiny 2 — Fate Saga (2025–present),81.5,good,8.15,Top,full,9.8,6.4,8,9,7,6,0,0.0
-132,1223.json,What the Germans Left Behind,81.5,good,8.15,Top,full,10,4.0,8,9,7,9,0,0.0
-133,1230.json,Moby Dick (1851),81.5,good,8.15,Top,full,8.5,7.7,8,9,7,8,0,0.0
-134,0304.json,Moby Dick (1851),81.5,good,8.15,Top,full,8.5,7.7,8,9,7,8,0,0.0
-135,0510.json,The Firework-Maker’s Daughter,81.5,good,8.15,Top,full,8.8,7.1,8,9,6,9,0,0.0
-136,1009.json,Television documentary — Pre-1900,81.5,good,8.15,Top,full,9.5,7.0,8,9,6,7,0,0.0
-137,0827.json,fMRI on infants,81.5,good,8.15,Top,full,9.5,7.0,8,9,7,6,0,0.0
-138,0628.json,Circadian rhythm — In Drosophila,81.5,good,8.15,Top,full,9.8,6.4,8,9,6,7,0,0.0
-139,0406.json,Donald Trump is waging war against human conscience — The Guardian,81.4,good,8.14,Top,full,9.5,6.3,8,9,6,8,0,0.0
-140,0418.json,The Real Difference Between Warm and Cool Colors,81.4,good,8.14,Top,full,8.8,7.0,8,9,7,8,0,0.0
-141,0520.json,Privacy,81.4,good,8.14,Top,full,9.8,6.7,9,8,8,9,0,-0.5
-142,0114.json,The Glass Jar by Sylvia Plath (1963),81.4,good,8.14,Top,full,9.2,6.2,8,9,7,8,0,0.0
-143,0613.json,The Otis Difference,81.4,good,8.14,Top,full,9.8,5.7,8,9,6,8,0,0.0
-144,0315.json,Temples Where Gods Come to Life,81.3,good,8.13,Top,full,10,3.9,8,9,7,9,0,0.0
-145,0505.json,Conspiracy theories — New England Patriots,81.3,good,8.13,Top,full,9.2,7.5,8,9,6,7,0,0.0
-146,1004.json,Pizzagate conspiracy theory — Turkish press reports,81.3,good,8.13,Top,full,9.0,7.9,8,9,6,7,0,0.0
-147,1225.json,"Chardon, Ohio School Shooting",81.3,good,8.13,Top,full,10,5.2,8,9,6,8,0,0.0
-148,01-18_Chardon_Ohio_School_Shooting.json,"Chardon, Ohio School Shooting",81.3,good,8.13,Top,full,10,5.2,8,9,6,8,0,0.0
-149,0123.json,Ursula K. Le Guin on myths,81.2,good,8.12,Top,full,9.5,6.1,8,9,6,8,0,0.0
-150,0419.json,How I learned to haggle,81.2,good,8.12,Top,full,9.5,5.5,8,9,6,9,0,0.0
-151,0723.json,"On Sardinia, the Magic of Heading Inland",81.2,good,8.12,Top,full,8.2,8.7,8,9,6,8,0,0.0
-152,0729.json,This War of Mine: The Board Game — Since publication,81.2,good,8.12,Top,full,9.2,6.7,8,9,6,8,0,0.0
-153,0731.json,Rhythm and blues — Afro-Cuban rhythmic influence,81.2,good,8.12,Top,full,9.2,6.7,8,9,6,8,0,0.0
-154,0802.json,Retrieval-augmented generation — Language model,81.2,good,8.12,Top,full,9.8,6.2,8,9,7,6,0,0.0
-155,0831.json,Rhythm — Metric structure,81.2,good,8.12,Top,full,9.8,6.2,8,9,6,7,0,0.0
-156,1215.json,Written in the wind,81.2,good,8.12,Top,full,9.0,6.5,8,9,7,8,0,0.0
-157,1220.json,Protect your hearing,81.2,good,8.12,Top,full,9.8,5.5,8,9,6,8,0,0.0
-158,0913.json,"Thanks, Nikola",81.2,good,8.12,Top,full,10,4.5,8,9,7,8,0,0.0
-159,0925.json,Jazz — Syncopation,81.1,good,8.11,Top,full,9.2,6.0,8,9,7,8,0,0.0
-160,0218.json,Redesigning the Way We Work,81.0,good,8.1,Top,full,10,5.0,8,9,6,8,0,0.0
-161,0329.json,Hotel (board game) — Reception,81.0,good,8.1,Top,full,9.0,7.7,8,9,6,7,0,0.0
-162,0605.json,General knowledge — Personality,81.0,good,8.1,Top,full,9.0,7.7,8,9,6,7,0,0.0
-163,0621.json,The Rage of the Almost-Elite,81.0,good,8.1,Top,full,8.8,7.4,8,9,6,8,0,0.0
-164,0830.json,Miracle on Ice — Second period,81.0,good,8.1,Top,full,8.5,8.0,8,9,6,8,0,0.0
-165,0109.json,Documentary film — Romanticism,81.0,good,8.1,Top,full,9.8,6.1,8,9,6,7,0,0.0
-166,1112.json,Harm from Pollution,81.0,good,8.1,Top,full,10,5.7,8,9,6,7,0,0.0
-167,0306.json,‘We’re no longer attracting top talent’: the brain drain killing American science  — The Guardian,80.9,good,8.09,Top,full,10,4.9,8,9,6,8,0,0.0
-168,0515.json,A Maharaja Bows to the Present,80.9,good,8.09,Top,full,10,4.9,8,9,6,8,0,0.0
-169,1201.json,Urban renewal — Loss or change of character,80.9,good,8.09,Top,full,9.8,5.3,8,9,6,8,0,0.0
-170,0207.json,A Wrinkle in Time by Madeleine L'Engle (1962),80.9,good,8.09,Top,full,9.2,6.5,8,9,6,8,0,0.0
-171,0214.json,A Wrinkle in Time by Madeleine L'Engle (1962),80.9,good,8.09,Top,full,9.2,6.5,8,9,6,8,0,0.0
-172,0610.json,Sunny Nights,80.9,good,8.09,Top,full,9.5,5.9,8,9,6,8,0,0.0
-173,0426.json,Robotics — Locomotion,80.8,good,8.08,Top,full,8.5,7.9,8,9,7,7,0,0.0
-174,0821.json,Why ambitious people have (unrelated) hobbies,80.8,good,8.08,Top,full,9.2,5.8,8,9,7,8,0,0.0
-175,0108.json,It is not a star,80.8,good,8.08,Top,full,9.0,6.2,8,9,7,8,0,0.0
-176,0405.json,Sketch review – googly-eyed fuzzballs come to glitter-burping life in fun kids fantasy yarn — The Guardian,80.8,good,8.08,Top,full,9.0,6.9,8,9,6,8,0,0.0
-177,1021.json,Sunday mornings coming down,80.7,good,8.07,Top,full,10,6.8,8,9,7,9,0,-0.5
-178,1106.json,Trump officials halt offshore wind-farm projects over ‘national security risks’ — The Guardian,80.7,good,8.07,Top,full,9.2,6.4,8,9,6,8,0,0.0
-179,0409.json,Fear and Loathing in Las Vegas by Hunter S. Thompson (1971),80.7,good,8.07,Top,full,9.2,6.4,8,9,6,8,0,0.0
-180,1008.json,Fear and Loathing in Las Vegas by Hunter S. Thompson (1971),80.7,good,8.07,Top,full,9.2,6.4,8,9,6,8,0,0.0
-181,1113.json,Who invented the Internet?,80.7,good,8.07,Top,full,9.0,6.8,8,9,6,8,0,0.0
-182,1203.json,Finding Harmony: A King’s Vision review – some of Charles’s ideas are strangely trippy,80.7,good,8.07,Top,full,9.2,6.4,8,9,6,8,0,0.0
-183,0126.json,Robot — Etymology,80.6,good,8.06,Top,full,9.2,7.0,8,9,6,7,0,0.0
-184,0713.json,Anna Karenina by Leo Tolstoy (1878),80.6,good,8.06,Top,full,8.5,7.1,8,9,7,8,0,0.0
-185,0111.json,Does pollution poison the mind?,80.6,good,8.06,Top,full,10,4.1,8,9,7,8,0,0.0
-186,0307.json,Losing grip on games is worry for Guardiola despite City finding way past Madrid,80.6,good,8.06,Top,full,9.2,7.0,8,9,6,7,0,0.0
-187,0308.json,relative distances of the planets,80.6,good,8.06,Top,full,8.8,7.8,8,9,6,7,0,0.0
-188,0508.json,A Variable Star,80.6,good,8.06,Top,full,9.0,6.1,8,9,7,8,0,0.0
-189,0203.json,Science fiction noir,80.5,good,8.05,Top,full,9.0,6.7,8,9,6,8,0,0.0
-190,0619.json,The Diplomatic Path to a Secure Ukraine,80.5,good,8.05,Top,full,9.8,5.1,8,9,6,8,0,0.0
-191,0901.json,Renewal theory — Interpretation,80.5,good,8.05,Top,full,8.8,7.1,8,9,6,8,0,0.0
-192,0312.json,Scanning Brain Thoughts,80.5,good,8.05,Top,full,9.0,6.7,8,9,6,8,0,0.0
-193,0328.json,Destiny (streamer) — Political violence,80.4,good,8.04,Top,full,9.8,7.0,8,9,6,5,0,0.0
-194,0403.json,Neo-noir — History,80.4,good,8.04,Top,full,9.2,6.9,8,9,6,7,0,0.0
-195,0629.json,This War of Mine: The Board Game — Overview,80.4,good,8.04,Top,full,9.0,7.3,8,9,6,7,0,0.0
-196,0707.json,On the ‘cut-and-paste’ Mentality by Susan Greenfield ClueChain,80.4,good,8.04,Top,full,8.8,6.3,8,9,7,8,0,0.0
-197,0710.json,I Capture the Castle by Dodie Smith (1948),80.4,good,8.04,Top,full,8.2,8.2,8,9,6,8,0,0.0
-198,1202.json,Knowledge base,80.4,good,8.04,Top,full,9.8,5.7,8,9,6,7,0,0.0
-199,0626.json,The Glass Jar by Sylvia Plath (1963),80.4,good,8.04,Top,full,9.2,6.2,8,9,6,8,0,0.0
-200,0110.json,Cold Storage review – mutant-mildew plague horror comedy stuffs fun into the fungi — The Guardian,80.4,good,8.04,Top,full,8.8,7.0,8,9,6,8,0,0.0
-201,0211.json,What makes humans intelligent?,80.4,good,8.04,Top,full,9.5,6.3,8,9,6,7,0,0.0
-202,1007.json,Environmental groups sue Trump's EPA over repeal of landmark climate finding,80.4,good,8.04,Top,full,9.5,6.3,8,9,6,7,0,0.0
-203,0402.json,Geographic information system — Terrain depiction,80.3,good,8.03,Top,full,8.8,6.9,8,9,7,7,0,0.0
-204,1002.json,Common knowledge — Examples,80.3,good,8.03,Top,full,9.8,5.6,8,9,6,7,0,0.0
-205,0314.json,Their Eyes Were Watching God by Zora Neale Hurston (1937),80.2,good,8.02,Top,full,9.8,4.2,8,9,7,8,0,0.0
-206,0104.json,List of conspiracy theories — New England Patriots,80.0,good,8.0,Top,full,9.0,7.0,8,9,6,7,0,0.0
-207,0421.json,The Bizarre Relationship,80.0,good,8.0,Top,full,9.5,7.3,8,7,6,8,0,0.0
-208,0604.json,List of conspiracy theories — Black helicopters,80.0,good,8.0,Top,full,8.5,8.0,8,9,6,7,0,0.0
-209,0820.json,Catching up with Geoff Dyer,80.0,good,8.0,Top,full,9.8,4.7,8,9,6,8,0,0.0
-210,1102.json,Knowledge economy,80.0,good,8.0,Top,full,9.8,5.4,8,9,6,7,0,0.0
-211,1116.json,The Noma Way Part2,80.0,good,8.0,Top,full,9.5,5.3,8,9,6,8,0,0.0
-212,0317.json,Geographic Analysis,79.9,good,7.99,Top,full,9.2,6.5,8,9,6,7,0,0.0
-213,0711.json,One Hundred Years of Solitude by Gabriel García Márquez (1967),79.9,good,7.99,Top,full,8.2,7.9,8,9,6,8,0,0.0
-214,1010.json,One Hundred Years of Solitude by Gabriel García Márquez (1967),79.9,good,7.99,Top,full,8.2,7.9,8,9,6,8,0,0.0
-215,1213.json,A Passive Exerciser,79.9,good,7.99,Top,full,9.5,5.9,8,9,6,7,0,0.0
-216,0226.json,Robotic surgery — Use in popular media,79.7,good,7.97,Top,full,9.0,6.8,8,9,6,7,0,0.0
-217,1101.json,JD Vance — Munich Security Conference,79.7,good,7.97,Top,full,9.8,5.2,8,9,6,7,0,0.0
-218,0611.json,ClueChain Challenge,79.7,good,7.97,Top,full,8.2,8.4,8,9,7,6,0,0.0
-219,0209.json,"""This Is Just To Say"" by William Carlos Williams. 1934",79.6,good,7.96,Top,full,8.0,7.4,8,9,6,9,0,0.0
-220,0115.json,"""This Is Just To Say"" by William Carlos Williams. 1934",79.6,good,7.96,Top,full,8.0,7.4,8,9,6,9,0,0.0
-221,0411.json,Myth - The brain is region specific,79.6,good,7.96,Top,full,9.2,5.7,8,9,7,7,0,0.0
-222,1014.json,Anna Karenina by Leo Tolstoy (1878),79.6,good,7.96,Top,full,8.5,7.1,8,9,6,8,0,0.0
-223,0528.json,Destiny — Politics,79.5,good,7.95,Top,full,7.0,10.0,8,9,6,8,0,0.0
-224,0224.json,History of India — Trade and travels to India,79.4,good,7.94,Top,full,9.8,7.0,8,9,7,8,0,-0.5
-225,1226.json,Robot — Home automation for the elderly and disabled,79.4,good,7.94,Top,full,9.2,6.2,8,9,6,7,0,0.0
-226,0501.json,Your Lifestyle Has Already Been Designed,79.3,good,7.93,Top,full,8.8,6.3,8,9,6,8,0,0.0
-227,0818.json,"Verdigris: The Color of Oxidation, Statues, and Impermanence",79.3,good,7.93,Top,full,9.5,7.5,8,9,6,9,0,-0.5
-228,04-18_Your_Lifestyle_Has_Already_Been_Designed.json,Your Lifestyle Has Already Been Designed,79.3,good,7.93,Top,full,8.8,6.3,8,9,6,8,0,0.0
-229,0220.json,The (cheap) tools that will transform your cooking,79.2,good,7.92,Top,full,9.8,6.2,8,9,7,9,0,-0.5
-230,1103.json,Marvel Noir — X-Men Noir: Mark of Cain,79.2,good,7.92,Top,full,9.0,5.8,8,9,6,8,0,0.0
-231,0309.json,Their Eyes Were Watching God by Zora Neale Hurston (1937),79.2,good,7.92,Top,full,9.8,4.2,8,9,6,8,0,0.0
-232,0910.json,Sharing some truth (How to Write One Song • By Jeff Tweedy),79.2,good,7.92,Top,full,6.8,8.9,8,9,7,9,0,0.0
-233,0620.json,Wealth of Memory,79.1,good,7.91,Top,full,9.2,8.0,8,9,7,8,0,-0.5
-234,0714.json,Slaughterhouse Five (Kurt Vonnegut) 1969,79.0,good,7.9,Top,full,8.0,7.0,8,9,7,8,0,0.0
-235,1127.json,Judah Halevi — Riddles,79.0,good,7.9,Top,full,8.8,6.7,8,9,6,7,0,0.0
-236,1210.json,Slaughterhouse Five (Kurt Vonnegut) 1969,79.0,good,7.9,Top,full,8.0,7.0,8,9,7,8,0,0.0
-237,0623.json,Here Are Ghosts,78.9,good,7.89,Top,full,9.8,6.7,8,9,6,9,0,-0.5
-238,1019.json,Women Know When Negotiating Isn't Worth It,78.9,good,7.89,Top,full,9.5,7.3,8,9,7,8,0,-0.5
-239,1119.json,How a Negotiation Expert Would Bargain With a Kid,78.9,good,7.89,Top,full,9.0,8.3,8,9,7,8,0,-0.5
-240,0602.json,General knowledge — Game shows and quizzes,78.8,good,7.88,Top,full,9.5,6.5,8,9,6,5,0,0.0
-241,1128.json,Manifest destiny — Spanish–American War,78.8,good,7.88,Top,full,8.2,7.8,8,9,6,7,0,0.0
-242,0524.json,History of India — Maurya Empire,78.7,good,7.87,Top,full,9.0,8.1,8,9,7,8,0,-0.5
-243,0715.json,Metamorphosis by Franz Kafka (1915),78.6,good,7.86,Top,full,8.2,7.0,8,9,6,8,0,0.0
-244,1114.json,Who invented the iPad?,78.6,good,7.86,Top,full,8.5,6.4,8,9,6,8,0,0.0
-245,0530.json,Being born in the wrong ZIP code can shorten your life,78.5,good,7.85,Top,full,10,6.0,8,9,7,8,0,-0.5
-246,0101.json,Invisible Man by Ralph Ellison (1952),78.5,good,7.85,Top,full,9.0,6.7,8,9,8,9,0,-0.5
-247,0222.json,Writers who don’t read,78.4,good,7.84,Top,full,9.2,6.2,8,9,8,9,0,-0.5
-248,0712.json,Paradise by Toni Morrison (1997),78.3,good,7.83,Top,full,8.2,6.8,8,9,6,8,0,0.0
-249,0407.json,Sharing some truth (How to Write One Song • By Jeff Tweedy),78.2,good,7.82,Top,full,6.8,8.9,8,9,6,9,0,0.0
-250,0914.json,Rhythm — Rhythm–tempo interaction,78.2,good,7.82,Top,full,9.0,5.8,8,9,6,7,0,0.0
-251,0716.json,—Nineteen Eighty-Four by George Orwell (1949),78.1,good,7.81,Top,full,8.5,6.1,8,9,6,8,0,0.0
-252,0917.json,What makes Hill Country so prone to flooding?,78.0,good,7.8,Top,full,9.2,6.6,8,7,6,8,0,0.0
-253,0607.json,Rhythm and blues — Afro-Cuban rhythmic influence,77.9,good,7.79,Top,full,9.2,5.2,8,9,6,7,0,0.0
-254,0428.json,Being born in the wrong ZIP code can shorten your life,77.5,good,7.75,Top,full,10,6.0,8,9,6,8,0,-0.5
-255,0415.json,British Fighter Jet Takes Unexpected Detour to India,77.3,good,7.73,Top,full,10,5.9,8,9,6,8,0,-0.5
-256,1110.json,Paradise by Toni Morrison (1997),77.3,good,7.73,Top,full,8.2,6.8,8,9,6,7,0,0.0
-257,0205.json,List of conspiracy theories — Flat Earth,77.1,good,7.71,Top,full,9.5,6.4,7,8,7,6,0,0.0
-258,0120.json,Skip single-use gadgets,76.8,good,7.68,Top,full,9.5,6.5,8,9,6,8,0,-0.5
-259,1125.json,Jazz — African rhythmic retention,76.5,good,7.65,Top,full,8.5,7.7,8,9,7,8,0,-0.5
-260,1216.json,French Food: The Iconic Dishes,76.5,good,7.65,Top,full,9.0,6.7,8,9,7,8,0,-0.5
-261,0904.json,Circadian rhythm — In Drosophila,76.5,good,7.65,Top,full,9.8,6.4,8,9,6,7,0,-0.5
-262,0117.json,History of Geography,76.3,good,7.63,Top,full,10,5.9,8,9,6,7,0,-0.5
-263,0119.json,Why negotiating gives you anxiety,76.3,good,7.63,Top,full,10,5.2,8,9,6,8,0,-0.5
-264,0719.json,I’ve studied conflict resolution,76.3,good,7.63,Top,full,10,5.2,8,9,6,8,0,-0.5
-265,0223.json,In defense of persimmons,76.1,good,7.61,Top,full,9.2,6.0,8,9,6,9,0,-0.5
-266,0325.json,Frank Sinatra Has a Cold - 2,75.9,good,7.59,Top,full,8.5,5.9,8,7,6,9,0,0.0
-267,0819.json,Negotiation,75.9,good,7.59,Top,full,9.2,5.9,8,9,7,8,0,-0.5
-268,1217.json,Is Apple maps getting ready to tackle public transport?,75.9,good,7.59,Top,full,9.2,7.2,8,9,6,7,0,-0.5
-269,03-18_Frank_Sinatra_Has_a_Cold_-_2.json,Frank Sinatra Has a Cold - 2,75.9,good,7.59,Top,full,8.5,5.9,8,7,6,9,0,0.0
-270,0617.json,The Frenzy by Joyce Carol Oates,75.8,good,7.58,Top,full,8.8,6.6,8,7,7,6,0,0.0
-271,0201.json,New Hope (Poland) — Ideology and position,75.8,good,7.58,Top,full,8.8,6.6,8,7,7,6,0,0.0
-272,1003.json,Spider-Noir — Marketing,75.3,good,7.53,Top,full,7.5,6.9,8,9,6,7,0,0.0
-273,0823.json,Naïve witchcraft beliefs in Acadian,75.0,good,7.5,Top,full,9.5,6.0,8,9,6,7,0,-0.5
-274,0225.json,Jazz — Punk jazz and jazzcore,74.2,okay,7.42,Middle,full,9.8,6.9,8,9,7,8,0,-1.0
-275,0822.json,Subject matter matters,74.2,okay,7.42,Middle,full,8.5,6.8,8,9,6,8,0,-0.5
-276,1030.json,Miracle on Ice — Gold medal,74.2,okay,7.42,Middle,full,9.0,9.8,8,9,6,7,-1,0.0
-277,0513.json,The history of the elevator,73.9,okay,7.39,Middle,full,9.8,8.0,8,9,6,7,-1,0.0
-278,0124.json,History of India — World War I,73.7,okay,7.37,Middle,full,9.5,7.1,8,9,7,8,-1,0.0
-279,1025.json,Jazz — Social media,73.7,okay,7.37,Middle,full,9.5,7.8,8,9,6,8,-1,0.0
-280,0323.json,"Fairy tales, fantasy and dangerous female desire",73.4,okay,7.34,Middle,full,9.5,5.6,8,9,8,9,0,-1.0
-281,0331.json,Rhythm and blues — Precursors,73.3,okay,7.33,Middle,full,9.5,6.9,8,9,7,8,-1,0.0
-282,0725.json,Jazz — Afro-Cuban influence,73.3,okay,7.33,Middle,full,9.8,6.3,8,9,7,8,-1,0.0
-283,0930.json,Miracle on Ice — NHL careers,73.3,okay,7.33,Middle,full,9.8,7.6,8,9,6,7,-1,0.0
-284,0801.json,Urban renewal — Brazil,73.0,okay,7.3,Middle,full,9.5,8.0,8,9,6,7,-1,0.0
-285,0920.json,Need a Father's Day Gift?,72.8,okay,7.28,Middle,full,10,5.5,8,9,6,9,-1,0.0
-286,0420.json,"Drink Whole Milk, Eat Red Meat, and Use ChatGPT",72.7,okay,7.27,Middle,full,10,6.8,8,9,6,7,-1,0.0
-287,0522.json,A Conversation with Donald Hall,72.7,okay,7.27,Middle,full,9.5,7.8,8,9,6,7,-1,0.0
-288,1205.json,Aromaticity — Etymology,72.6,okay,7.26,Middle,full,6.2,7.7,8,9,6,7,0,0.0
-289,0303.json,Film noir — 1960s and 1970s,72.5,okay,7.25,Middle,full,9.8,7.1,8,9,6,7,-1,0.0
-290,0127.json,Nelly Sachs — Overview,72.4,okay,7.24,Middle,full,10,6.6,8,9,6,7,-1,0.0
-291,0929.json,Wingspan (board game) — Overview,72.4,okay,7.24,Middle,full,9.8,7.0,8,9,6,7,-1,0.0
-292,0129.json,Board game — Renaissance era,72.3,okay,7.23,Middle,full,9.8,5.6,8,9,7,8,-1,0.0
-293,0517.json,Coordinate Systems,72.1,okay,7.21,Middle,full,9.8,6.8,8,9,6,7,-1,0.0
-294,0327.json,Lyrical Ballads — Volume II,71.9,okay,7.19,Middle,full,9.0,8.3,8,9,6,7,-1,0.0
-295,0828.json,Indiana Jones and the Dial of Destiny — Marketing,71.9,okay,7.19,Middle,full,9.2,7.9,8,9,6,7,-1,0.0
-296,0106.json,Does ‘laziness’ start in the brain? — The Guardian,71.6,okay,7.16,Middle,full,9.2,7.7,8,9,6,7,-1,0.0
-297,0601.json,JD Vance — Opinion polls,71.6,okay,7.16,Middle,full,9.8,7.8,8,9,6,5,-1,0.0
-298,1120.json,This remote makes controlling your phone a breeze,71.6,okay,7.16,Middle,full,10,6.1,8,9,6,7,0,-1.0
-299,1227.json,Petrarch — Works,71.6,okay,7.16,Middle,full,10,6.1,8,9,6,7,-1,0.0
-300,0324.json,History of India — Early medieval period (c. 650 – 1200),71.5,okay,7.15,Middle,full,9.2,6.3,8,9,7,8,-1,0.0
-301,0526.json,Robotic surgery — Bone,71.5,okay,7.15,Middle,full,9.0,8.0,8,9,6,7,-1,0.0
-302,0116.json,Kenyan Gourmet,71.4,okay,7.14,Middle,full,9.2,6.2,8,9,7,8,-1,0.0
-303,0103.json,Film noir — Rural/outback noir,71.3,okay,7.13,Middle,full,9.2,7.5,8,9,6,7,-1,0.0
-304,0130.json,Miracle on Ice — Popular culture,71.3,okay,7.13,Middle,full,9.0,7.9,8,9,6,7,-1,0.0
-305,0131.json,Rhythm Heaven — Sequels and legacy,71.3,okay,7.13,Middle,full,8.2,7.5,7,7,4,7,0,0.0
-306,0722.json,On Writing Habits And Rituals,71.3,okay,7.13,Middle,full,10,5.9,8,9,6,7,0,-1.0
-307,0301.json,Urban renewal — Hong Kong,70.9,okay,7.09,Middle,full,9.0,7.6,8,9,7,6,-1,0.0
-308,0603.json,Film noir — Music,70.9,okay,7.09,Middle,full,9.5,5.9,8,9,6,8,-1,0.0
-309,0609.json,Documentary film — Hybrid documentary,70.9,okay,7.09,Middle,full,8.8,8.0,8,9,6,7,-1,0.0
-310,0529.json,Daryl Hannah — Other work,70.7,okay,7.07,Middle,full,9.5,6.5,8,9,6,7,-1,0.0
-311,0102.json,Information technology — Storage,70.6,okay,7.06,Middle,full,8.5,8.4,8,9,6,7,-1,0.0
-312,0724.json,History of India — Gupta Empire,70.6,okay,7.06,Middle,full,9.2,5.7,8,9,7,8,-1,0.0
-313,0414.json,"Young Creators Are Burning Out and Breaking Down (by Taylor Lorenz, The New York Times)",70.6,okay,7.06,Middle,full,7.8,8.5,8,9,7,8,0,-1.0
-314,1208.json,"Young Creators Are Burning Out and Breaking Down (by Taylor Lorenz, The New York Times)",70.6,okay,7.06,Middle,full,7.8,8.5,8,9,7,8,0,-1.0
-315,0728.json,Destiny 2 — 2019,70.4,okay,7.04,Middle,full,10,6.6,8,9,6,5,-1,0.0
-316,0824.json,History of India — Mahajanapadas,70.4,okay,7.04,Middle,full,9.2,6.9,8,9,6,7,-1,0.0
-317,1026.json,Robot — Contemporary art and sculpture,70.3,okay,7.03,Middle,full,9.2,6.8,8,9,6,7,-1,0.0
-318,1029.json,Daryl Hannah — Overview,70.2,okay,7.02,Middle,full,8.5,6.8,8,9,7,8,-1,0.0
-319,0326.json,Robotic surgery — Ophthalmology,70.1,okay,7.01,Middle,full,8.8,7.5,8,9,6,7,-1,0.0
-320,1006.json,‘Zombie’ electricity projects in Britain face axe to ease quicker grid connections — The Guardian,70.1,okay,7.01,Middle,full,9.2,6.7,8,9,6,7,-1,0.0
-321,1224.json,History of India — Rashtrakuta Empire,70.1,okay,7.01,Middle,full,9.2,8.7,8,9,7,8,-1,-0.5
-322,0518.json,Here's Every New Republic Cover,70.0,okay,7.0,Middle,full,9.2,6.6,8,9,6,7,-1,0.0
-323,0926.json,Robot — Indian automata,70.0,okay,7.0,Middle,full,9.0,7.0,8,9,6,7,-1,0.0
-324,0906.json,UK households bin 168m Christmas lights and ‘fast tech’ items a year — The Guardian,69.9,okay,6.99,Middle,full,9.2,6.5,8,9,6,7,-1,0.0
-325,0217.json,Columbus Lands,69.7,okay,6.97,Middle,full,10,4.8,8,9,6,7,-1,0.0
-326,1005.json,Essential oil — History,69.7,okay,6.97,Middle,full,9.2,6.4,8,9,6,7,-1,0.0
-327,1231.json,Rhythm — Linguistics,69.7,okay,6.97,Middle,full,8.8,7.2,8,9,7,6,-1,0.0
-328,0202.json,Information — As of 2007,69.5,okay,6.95,Middle,full,9.0,8.0,8,9,6,5,-1,0.0
-329,0425.json,Jazz — Jazz and race,69.5,okay,6.95,Middle,full,9.5,9.0,8,9,6,7,-1,-0.5
-330,0803.json,Noir (film) — Overview,69.5,okay,6.95,Middle,full,8.2,8.3,8,9,6,7,-1,0.0
-331,1129.json,Arcs (board game) — Overview,69.5,okay,6.95,Middle,full,9.8,6.4,8,9,6,5,-1,0.0
-332,0614.json,Rhythm — Anthropology,69.4,okay,6.94,Middle,full,10,4.6,8,9,6,7,-1,0.0
-333,0903.json,Neo-noir — Overview,69.2,okay,6.92,Middle,full,8.2,8.1,8,9,6,7,-1,0.0
-334,0624.json,History of India — Sikh Empire,69.0,okay,6.9,Middle,full,9.5,8.0,8,9,6,8,-1,-0.5
-335,0702.json,Relevance (information retrieval) — History,68.9,okay,6.89,Middle,full,9.0,6.3,8,9,6,7,-1,0.0
-336,0105.json,Knowledge base — Types of Knowledge Base Systems,68.6,okay,6.86,Middle,full,9.2,7.0,8,9,6,5,-1,0.0
-337,0826.json,Robotic surgery — Gastrointestinal,68.6,okay,6.86,Middle,full,9.2,7.0,8,9,6,5,-1,0.0
-338,0927.json,Lyric poetry — 18th century,68.6,okay,6.86,Middle,full,9.2,5.7,8,9,6,7,-1,0.0
-339,1031.json,Rhythm — Tempo and duration,68.2,okay,6.82,Middle,full,8.8,6.2,8,9,6,7,-1,0.0
-340,1107.json,Rhythm — Rhythm–tempo interaction,68.2,okay,6.82,Middle,full,9.0,5.8,8,9,6,7,-1,0.0
-341,0227.json,Lyric poetry — Rome,67.9,okay,6.79,Middle,full,8.5,6.6,8,9,6,7,-1,0.0
-342,0829.json,This War of Mine: The Board Game — Variants and expansions,67.9,okay,6.79,Middle,full,10,4.9,8,9,6,5,-1,0.0
-343,1024.json,History of India — Vedic period (c. 1500 – 600 BCE),67.7,okay,6.77,Middle,full,9.0,8.8,8,9,7,6,-1,-0.5
-344,0805.json,Common knowledge,67.5,okay,6.75,Middle,full,4.0,8.7,8,9,6,7,0,0.0
-345,1228.json,Indiana Jones and the Dial of Destiny — Future,67.5,okay,6.75,Middle,full,8.5,6.3,8,9,6,7,-1,0.0
-346,0703.json,Spider-Noir — Release,67.4,okay,6.74,Middle,full,8.8,7.0,8,9,6,5,-1,0.0
-347,1209.json,Frederick Douglass's Fourth of July Speech ClueChain,67.4,okay,6.74,Middle,full,9.5,6.3,8,9,7,8,0,-1.5
-348,1108.json,Frederick Douglass's Fourth of July Speech ClueChain,67.4,okay,6.74,Middle,full,9.5,6.3,8,9,7,8,0,-1.5
-349,0429.json,Board game — Hobby board games,67.1,okay,6.71,Middle,full,8.5,7.4,8,9,6,5,-1,0.0
-350,1109.json,Documentary editing — Print volumes,67.0,okay,6.7,Middle,full,8.0,8.3,8,9,6,5,-1,0.0
-351,0430.json,Miracle on Ice — Popular culture,66.8,okay,6.68,Middle,full,8.8,5.3,8,9,6,7,-1,0.0
-352,0825.json,Jazz — Jazz pluralism,66.7,okay,6.67,Middle,full,10,4.8,8,9,7,8,-1,-0.5
-353,0128.json,Destiny 2 — Sales,66.6,okay,6.66,Middle,full,9.8,6.8,7,8,6,5,-1,0.0
-354,0422.json,Learn how to become a better writer,66.6,okay,6.66,Middle,full,9.2,7.7,8,9,6,7,-1,-0.5
-355,0705.json,General knowledge — Intelligence,66.5,okay,6.65,Middle,full,7.8,8.4,8,9,6,5,-1,0.0
-356,0905.json,General knowledge,66.5,okay,6.65,Middle,full,8.5,7.0,8,9,6,5,-1,0.0
-357,1124.json,History of India — Gurjara-Pratihara Empire,66.5,okay,6.65,Middle,full,10,6.0,8,9,6,7,-1,-0.5
-358,0302.json,Knowledge base — Properties,66.2,okay,6.62,Middle,full,8.8,8.5,7,8,6,5,-1,0.0
-359,0504.json,List of conspiracy theories — Weather and earthquake control projects,66.0,okay,6.6,Middle,full,9.0,8.0,7,8,6,5,-1,0.0
-360,0717.json,Notable Geographers Through the Ages,65.9,okay,6.59,Middle,full,9.5,6.9,7,8,6,5,-1,0.0
-361,0417.json,Relative Locations,65.6,okay,6.56,Middle,full,9.5,6.4,8,9,6,7,-1,-0.5
-362,0424.json,History of India — Famines,64.4,okay,6.44,Middle,full,9.0,6.6,8,9,6,7,-1,-0.5
-363,0229.json,Anomia (game) — Reception,63.9,okay,6.39,Middle,full,8.2,8.2,7,8,6,5,-1,0.0
-364,0804.json,List of conspiracy theories — Deep state,63.9,okay,6.39,Middle,full,9.0,6.6,7,8,6,5,-1,0.0
-365,1105.json,Aromatic hydrocarbon — Regulation and oversight,63.5,okay,6.35,Middle,full,9.5,8.3,7,7,4,4,-1,0.0
-366,0924.json,History of India — Sangam period,63.2,okay,6.32,Middle,full,9.5,6.8,8,9,7,8,-1,-1.0
-367,1104.json,List of conspiracy theories — Pre-Māori settlement of New Zealand,63.2,okay,6.32,Middle,full,9.2,6.4,6,8,5,7,-1,0.0
-368,0427.json,Lyric poetry — 17th century,63.1,okay,6.31,Middle,full,8.5,7.1,7,8,6,5,-1,0.0
-369,0305.json,List of conspiracy theories — Death of Nero,62.8,okay,6.28,Middle,full,7.8,7.6,7,8,6,6,-1,0.0
-370,1204.json,List of conspiracy theories — John F. Kennedy assassination,62.8,okay,6.28,Middle,full,8.0,8.5,6,8,5,7,-1,0.0
-371,0125.json,Jazz — Dixieland revival,62.6,okay,6.26,Middle,full,9.0,7.4,8,9,7,8,-1,-1.0
+rank,filename,title,total_score,overall_rating,final_score,tier,score_type,word_quality,variety,connectivity,clueability,discovery_curve,narrative_interest,catalog_penalty,title_spoiler,clue_leaks,length_penalty
+1,0125.json,Welcome to Dog World - part 2,83.6,good,8.36,Top,full,9.5,7.7,8,9,6,8,0,0.0,0.0,0.0
+2,0305.json,The Kingdom of the Lotus,83.4,good,8.34,Top,full,10,6.6,8,9,6,8,0,0.0,0.0,0.0
+3,1204.json,Mongolia Part 2,83.2,good,8.32,Top,full,9.2,8.1,8,9,6,8,0,0.0,0.0,0.0
+4,08-01_The_Lost_City_of_Z.json,The Lost City of Z,83.1,good,8.31,Top,full,9.8,5.5,8,9,7,9,0,0.0,0.0,0.0
+5,0801.json,The Lost City of Z,82.1,good,8.21,Top,full,9.8,5.5,8,9,6,9,0,0.0,0.0,0.0
+6,0802.json,The Lost City of Z (part 2),82.1,good,8.21,Top,full,9.2,7.3,8,9,6,8,0,0.0,0.0,0.0
+7,0730.json,Miracle — Judaism,82.1,good,8.21,Top,full,9.5,6.7,8,9,6,8,0,0.0,0.0,0.0
+8,08-02_The_Lost_City_of_Z_part_2.json,The Lost City of Z (part 2),82.1,good,8.21,Top,full,9.2,7.3,8,9,6,8,0,0.0,0.0,0.0
+9,0427.json,"Ulaanbaatar, Mongolia",81.3,good,8.13,Top,full,8.8,7.6,8,9,6,8,0,0.0,0.0,0.0
+10,0731.json,Rhythm and blues — Afro-Cuban rhythmic influence,81.2,good,8.12,Top,full,9.2,6.7,8,9,6,8,0,0.0,0.0,0.0
+11,0924.json,Outside Magazine - The Kingdom of the Lotus,79.7,good,7.97,Top,full,10,6.8,8,9,6,9,0,0.0,-0.5,0.0
+12,0727.json,Petrarch — Mount Ventoux,79.5,good,7.95,Top,full,9.2,5.6,8,9,6,8,0,0.0,0.0,0.0
+13,1104.json,LIKE BUTTERFLIES IN THE JUNGLE,77.5,good,7.75,Top,full,10,6.0,8,9,6,8,0,0.0,-0.5,0.0
+14,0729.json,This War of Mine: The Board Game — Since publication,76.2,good,7.62,Top,full,9.2,6.7,8,9,6,8,0,0.0,-0.5,0.0
+15,1105.json,Never Alone,75.8,good,7.58,Top,full,9.8,5.6,8,8,6,9,0,0.0,-0.5,0.0
+16,0728.json,Heart of Dark Chocolate,74.8,okay,7.48,Middle,full,9.5,5.2,8,9,6,8,0,0.0,0.0,-0.5
+17,07-28_Heart_of_Dark_Chocolate.json,Heart of Dark Chocolate,74.8,okay,7.48,Middle,full,9.5,5.2,8,9,6,8,0,0.0,0.0,-0.5
+18,0229.json,Welcome to Dog World!,70.5,okay,7.05,Middle,full,9.5,9.0,8,9,6,8,0,0.0,-0.5,-1.0
+19,0804.json,Thanksgiving in Mongolia,67.2,okay,6.72,Middle,full,8.2,8.4,7,8,6,8,0,0.0,-0.5,-0.5
+20,04-27_The_New_York_Public_Library.json,The New York Public Library,63.6,okay,6.36,Middle,full,9.5,7.7,8,9,6,8,0,0.0,-1.5,-0.5
+21,0101.json,Invisible Man by Ralph Ellison (1952),0,poor,0.0,Bottom,partial (0%),,,,,,,,-0.5,-2.5,-1.0
+22,0102.json,Information technology — Storage,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-2.0,0.0
+23,0103.json,Film noir — Rural/outback noir,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-0.5,0.0
+24,0104.json,List of conspiracy theories — New England Patriots,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,0.0
+25,0105.json,Knowledge base — Types of Knowledge Base Systems,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-0.5,0.0
+26,0106.json,Does ‘laziness’ start in the brain? — The Guardian,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,0.0
+27,0107.json,Finding humor in photography,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-0.5,0.0
+28,0108.json,It is not a star,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,0.0
+29,0109.json,Documentary film — Romanticism,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,0.0
+30,0110.json,Cold Storage review – mutant-mildew plague horror comedy stuffs fun into the fungi — The Guardian,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,-1.0
+31,0111.json,Does pollution poison the mind?,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-0.5,-0.5
+32,0112.json,How to Treat Alzheimer's,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-0.5,-0.5
+33,0113.json,"Abraham Lincoln, master inventor",0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,0.0
+34,0114.json,The Glass Jar by Sylvia Plath (1963),0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-1.5,-1.0
+35,0115.json,"""This Is Just To Say"" by William Carlos Williams. 1934",0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-0.5,-1.5
+36,0116.json,Kenyan Gourmet,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-0.5,0.0
+37,0117.json,History of Geography,0,poor,0.0,Bottom,partial (0%),,,,,,,,-0.5,0.0,0.0
+38,0118.json,How Giant White Houses Took Over America,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-1.0,0.0
+39,0119.json,Why negotiating gives you anxiety,0,poor,0.0,Bottom,partial (0%),,,,,,,,-0.5,-1.0,0.0
+40,0120.json,Skip single-use gadgets,0,poor,0.0,Bottom,partial (0%),,,,,,,,-0.5,0.0,0.0
+41,0121.json,Politico has figured out,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-0.5,0.0
+42,0122.json,My dirty secret writing life,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,-0.5
+43,0123.json,Ursula K. Le Guin on myths,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-1.5,0.0
+44,0124.json,History of India — World War I,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-5.5,-1.0
+45,0126.json,Robot — Etymology,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,0.0
+46,0127.json,Nelly Sachs — Overview,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-0.5,0.0
+47,0128.json,Destiny 2 — Sales,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,0.0
+48,0129.json,Board game — Renaissance era,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,0.0
+49,0130.json,Miracle on Ice — Popular culture,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,0.0
+50,0131.json,Rhythm Heaven — Sequels and legacy,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,0.0
+51,0201.json,New Hope (Poland) — Ideology and position,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,0.0
+52,0202.json,Information — As of 2007,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,0.0
+53,0203.json,Science fiction noir,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-1.0,0.0
+54,0204.json,Land by Maggie O’Farrell,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,0.0
+55,0205.json,List of conspiracy theories — Flat Earth,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,0.0
+56,0206.json,US banks announce UK expansion projects hours after budget  — The Guardian,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-0.5,0.0
+57,0207.json,A Wrinkle in Time by Madeleine L'Engle (1962),0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-0.5,-1.0
+58,0208.json,Orbit of the binary star,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,0.0
+59,0209.json,"""This Is Just To Say"" by William Carlos Williams. 1934",0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-0.5,-1.5
+60,0210.json,"Mob Justice Is Trampling Democratic Discourse (by Anne Applebaum, The Atlantic)",0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-0.5,-0.5
+61,0211.json,What makes humans intelligent?,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,0.0
+62,0212.json,AI Is Unlocking the Human Brain’s Secrets,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,0.0
+63,0213.json,Lincoln unclogs traffic jam,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,-0.5
+64,0214.json,A Wrinkle in Time by Madeleine L'Engle (1962),0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-0.5,-1.0
+65,0215.json,The Success of Ordinary Indians,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-1.0,0.0
+66,0216.json,Fancy a Kulfi? From Granita to Queso Helado,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-0.5,-0.5
+67,0217.json,Columbus Lands,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-0.5,0.0
+68,0218.json,Redesigning the Way We Work,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-0.5,-0.5
+69,0219.json,The cheapest concession you can make,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-1.0,0.0
+70,0220.json,The (cheap) tools that will transform your cooking,0,poor,0.0,Bottom,partial (0%),,,,,,,,-0.5,0.0,-1.0
+71,0221.json,"The ""huntress"" faces a gross backlash",0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,0.0
+72,0222.json,Writers who don’t read,0,poor,0.0,Bottom,partial (0%),,,,,,,,-0.5,-2.0,0.0
+73,0223.json,In defense of persimmons,0,poor,0.0,Bottom,partial (0%),,,,,,,,-0.5,0.0,-0.5
+74,0224.json,History of India — Trade and travels to India,0,poor,0.0,Bottom,partial (0%),,,,,,,,-0.5,-1.5,-0.5
+75,0225.json,Jazz — Punk jazz and jazzcore,0,poor,0.0,Bottom,partial (0%),,,,,,,,-1.0,-0.5,-0.5
+76,0226.json,Robotic surgery — Use in popular media,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,0.0
+77,0227.json,Lyric poetry — Rome,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-1.5,0.0
+78,0228.json,Destiny's Child — 1990–1997: Early beginnings and Girl's Tyme,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-1.0,0.0
+79,0301.json,Urban renewal — Hong Kong,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,0.0
+80,0302.json,Knowledge base — Properties,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-0.5,-1.0
+81,0303.json,Film noir — 1960s and 1970s,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,0.0
+82,0304.json,Moby Dick (1851),0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-0.5,-1.0
+83,0306.json,‘We’re no longer attracting top talent’: the brain drain killing American science  — The Guardian,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-0.5,0.0
+84,0307.json,Losing grip on games is worry for Guardiola despite City finding way past Madrid,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-2.0,0.0
+85,0308.json,relative distances of the planets,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,0.0
+86,0309.json,Their Eyes Were Watching God by Zora Neale Hurston (1937),0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,-1.0
+87,0310.json,Clive Myrie’s African Adventure,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,-0.5
+88,0311.json,Three major things most people get wrong about the brain,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,-1.0
+89,0312.json,Scanning Brain Thoughts,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,0.0
+90,0313.json,Lincoln's Idea,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,0.0
+91,0314.json,Their Eyes Were Watching God by Zora Neale Hurston (1937),0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,-1.0
+92,0315.json,Temples Where Gods Come to Life,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-0.5,-0.5
+93,0316.json,The Unified Theory of Deliciousness,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,0.0
+94,0317.json,Geographic Analysis,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-0.5,0.0
+95,0318.json,"Northern Lights, Manitoba",0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,0.0
+96,0319.json,5 things you can negotiate to save money,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-0.5,0.0
+97,0320.json,The Future of Wearables,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,0.0
+98,0321.json,Harriet the Spy,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,0.0
+99,0322.json,Story writers tell all,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-2.5,0.0
+100,0323.json,"Fairy tales, fantasy and dangerous female desire",0,poor,0.0,Bottom,partial (0%),,,,,,,,-1.0,-0.5,0.0
+101,0324.json,History of India — Early medieval period (c. 650 – 1200),0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-0.5,-0.5
+102,0325.json,Frank Sinatra Has a Cold - 2,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-1.0,-1.0
+103,0326.json,Robotic surgery — Ophthalmology,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-3.0,0.0
+104,0327.json,Lyrical Ballads — Volume II,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,0.0
+105,0328.json,Destiny (streamer) — Political violence,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-2.5,0.0
+106,0329.json,Hotel (board game) — Reception,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-0.5,0.0
+107,0330.json,Miracle on Ice — Third period,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-0.5,0.0
+108,0331.json,Rhythm and blues — Precursors,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-2.0,0.0
+109,0401.json,JD Vance — Zelenskyy White House visit,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,0.0
+110,0402.json,Geographic information system — Terrain depiction,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,0.0
+111,0403.json,Neo-noir — History,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,0.0
+112,0404.json,Your Lifestyle Has Already Been Designed,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-1.0,0.0
+113,0405.json,Sketch review – googly-eyed fuzzballs come to glitter-burping life in fun kids fantasy yarn — The Guardian,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-1.0,-0.5
+114,0406.json,Donald Trump is waging war against human conscience — The Guardian,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-0.5,0.0
+115,0407.json,Sharing some truth (How to Write One Song • By Jeff Tweedy),0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-1.0,0.0
+116,0408.json,slackening angular speed,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,-0.5
+117,0409.json,Fear and Loathing in Las Vegas by Hunter S. Thompson (1971),0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,-1.0
+118,0410.json,Wild Cherry,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,-0.5
+119,0411.json,Myth - The brain is region specific,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,-1.0
+120,0412.json,A New Genetic Clue to How Humans Got Such Big Brains,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,0.0
+121,0413.json,Otis' invention,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,0.0
+122,0414.json,"Young Creators Are Burning Out and Breaking Down (by Taylor Lorenz, The New York Times)",0,poor,0.0,Bottom,partial (0%),,,,,,,,-1.0,0.0,0.0
+123,0415.json,British Fighter Jet Takes Unexpected Detour to India,0,poor,0.0,Bottom,partial (0%),,,,,,,,-0.5,0.0,0.0
+124,0416.json,The Burning Desire for Hot Chicken,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,0.0
+125,0417.json,Relative Locations,0,poor,0.0,Bottom,partial (0%),,,,,,,,-0.5,-1.0,0.0
+126,0418.json,The Real Difference Between Warm and Cool Colors,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,0.0
+127,0419.json,How I learned to haggle,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-1.5,-1.0
+128,0420.json,"Drink Whole Milk, Eat Red Meat, and Use ChatGPT",0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,-0.5
+129,0421.json,The Bizarre Relationship,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,0.0
+130,0422.json,Learn how to become a better writer,0,poor,0.0,Bottom,partial (0%),,,,,,,,-0.5,-2.0,0.0
+131,0423.json,A nation of truthers,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-1.0,0.0
+132,0424.json,History of India — Famines,0,poor,0.0,Bottom,partial (0%),,,,,,,,-0.5,-1.5,0.0
+133,0425.json,Jazz — Jazz and race,0,poor,0.0,Bottom,partial (0%),,,,,,,,-0.5,0.0,0.0
+134,0426.json,Robotics — Locomotion,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-1.0,0.0
+135,0428.json,Being born in the wrong ZIP code can shorten your life,0,poor,0.0,Bottom,partial (0%),,,,,,,,-0.5,-0.5,0.0
+136,0429.json,Board game — Hobby board games,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-3.5,0.0
+137,0430.json,Miracle on Ice — Popular culture,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,0.0
+138,0501.json,Your Lifestyle Has Already Been Designed,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,0.0
+139,0502.json,Common knowledge,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,-0.5
+140,0503.json,Frank Sinatra Has a Cold,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-0.5,0.0
+141,0504.json,List of conspiracy theories — Weather and earthquake control projects,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-1.5,0.0
+142,0505.json,Conspiracy theories — New England Patriots,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,0.0
+143,0506.json,"Brain has five ‘eras’, scientists say – with adult mode not starting until early 30s — The Guardian",0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-1.0,0.0
+144,0507.json,Liverpool out of tune but Arne Slot working on finding better rhythm,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-1.0,0.0
+145,0508.json,A Variable Star,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,0.0
+146,0509.json,Todd Sampson — Early life and education,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-0.5,0.0
+147,0510.json,The Firework-Maker’s Daughter,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-1.5,-1.0
+148,0511.json,Human Brains and Evolution,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-0.5,-1.0
+149,0512.json,Human-only DNA,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-0.5,-1.5
+150,0513.json,The history of the elevator,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,0.0
+151,0514.json,Rhythm and blues — Afro-Cuban rhythmic influence,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,0.0
+152,0515.json,A Maharaja Bows to the Present,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-1.0,0.0
+153,0516.json,Lush Life Lahore,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,0.0
+154,0517.json,Coordinate Systems,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-0.5,0.0
+155,0518.json,Here's Every New Republic Cover,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-1.5,0.0
+156,0519.json,What's the Best Way to Get a Raise?,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,0.0
+157,0520.json,Privacy,0,poor,0.0,Bottom,partial (0%),,,,,,,,-0.5,-1.5,0.0
+158,0521.json,It’s Okay to Start Small,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,0.0
+159,0522.json,A Conversation with Donald Hall,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-1.0,0.0
+160,0523.json,A Grim Fairy Tale,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-0.5,0.0
+161,0524.json,History of India — Maurya Empire,0,poor,0.0,Bottom,partial (0%),,,,,,,,-0.5,-1.0,-0.5
+162,0525.json,Jazz — Blended African and European music sensibilities,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-0.5,-0.5
+163,0526.json,Robotic surgery — Bone,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-2.5,0.0
+164,0527.json,A Tale of Two Cities by Charles Dickens,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-0.5,-1.0
+165,0528.json,Destiny — Politics,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,0.0
+166,0529.json,Daryl Hannah — Other work,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-2.0,0.0
+167,0530.json,Being born in the wrong ZIP code can shorten your life,0,poor,0.0,Bottom,partial (0%),,,,,,,,-0.5,-0.5,0.0
+168,0531.json,An experiment for students to grasp by lessons,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-0.5,0.0
+169,0601.json,JD Vance — Opinion polls,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,0.0
+170,0602.json,General knowledge — Game shows and quizzes,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-3.0,-0.5
+171,0603.json,Film noir — Music,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-1.0,0.0
+172,0604.json,List of conspiracy theories — Black helicopters,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-2.0,0.0
+173,0605.json,General knowledge — Personality,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-1.0,0.0
+174,0606.json,England’s zombies have rapidly descended into collective brain fog in Six Nations — The Guardian,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-0.5,0.0
+175,0607.json,UK considers new Russia sanctions after Navalny frog toxin finding,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,0.0
+176,0608.json,Canals,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,-0.5
+177,0609.json,Documentary film — Hybrid documentary,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-0.5,0.0
+178,0610.json,Sunny Nights,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,-1.0
+179,0611.json,ClueChain Challenge,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-0.5,-1.5
+180,0612.json,What’s it like to be a baby?,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,-0.5
+181,0613.json,The Otis Difference,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-2.0,0.0
+182,0614.json,Rhythm — Anthropology,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,0.0
+183,0615.json,"36 Hours in Bangalore, India",0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,0.0
+184,0616.json,My Wine Accumulation,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,0.0
+185,0617.json,The Frenzy by Joyce Carol Oates,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-0.5,0.0
+186,0618.json,A Brief History of The New Republic,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-1.0,0.0
+187,0619.json,The Diplomatic Path to a Secure Ukraine,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-1.5,0.0
+188,0620.json,Wealth of Memory,0,poor,0.0,Bottom,partial (0%),,,,,,,,-0.5,0.0,-1.0
+189,0621.json,The Rage of the Almost-Elite,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,0.0
+190,0622.json,A Window To The World,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,-0.5
+191,0623.json,Here Are Ghosts,0,poor,0.0,Bottom,partial (0%),,,,,,,,-0.5,0.0,-1.0
+192,0624.json,History of India — Sikh Empire,0,poor,0.0,Bottom,partial (0%),,,,,,,,-0.5,-0.5,-1.0
+193,0625.json,Jazz — Machito and Mario Bauza,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-1.5,0.0
+194,0626.json,The Glass Jar by Sylvia Plath (1963),0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-1.5,-1.0
+195,0627.json,"Mob Justice Is Trampling Democratic Discourse (by Anne Applebaum, The Atlantic)",0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-0.5,-0.5
+196,0628.json,Circadian rhythm — In Drosophila,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-1.5,0.0
+197,0629.json,This War of Mine: The Board Game — Overview,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-0.5,0.0
+198,0630.json,Miracle on Ice — Silver medal,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,0.0
+199,0701.json,Urban renewal — South Africa,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,0.0
+200,0702.json,Relevance (information retrieval) — History,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-1.5,0.0
+201,0703.json,Spider-Noir — Release,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,0.0
+202,0704.json,Pizzagate conspiracy theory — Public opinion,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,0.0
+203,0705.json,General knowledge — Intelligence,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,0.0
+204,0706.json,Democrats activate weeklong voter drive to offset critical registration losses — The Guardian,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-0.5,0.0
+205,0707.json,On the ‘cut-and-paste’ Mentality by Susan Greenfield ClueChain,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,0.0
+206,0708.json,Sundial curiosity,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,0.0
+207,0709.json,The Law of Compensation by Ralph Waldo Emerson,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-1.0,0.0
+208,0710.json,The Running Man,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,-1.0
+209,0711.json,Myth - Brain damage is always permanent,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,-1.5
+210,0712.json,Neuroscience and baby brains,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,-0.5
+211,0713.json,The electric Horse,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-0.5,0.0
+212,0714.json,Rhythm and blues — Afro-Cuban rhythmic influence,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,0.0
+213,0715.json,Metamorphosis by Franz Kafka (1915),0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-1.5,-1.0
+214,0716.json,—Nineteen Eighty-Four by George Orwell (1949),0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-0.5,-1.0
+215,0717.json,Notable Geographers Through the Ages,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-5.0,0.0
+216,0718.json,"Mustard, the Color of Millennial Candidates",0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-0.5,-0.5
+217,0719.json,I’ve studied conflict resolution,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-0.5,-0.5
+218,0720.json,Inside the Mind of an Ecoterrorist,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-1.0,0.0
+219,0721.json,Holding up the rear,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,0.0
+220,0722.json,On Writing Habits And Rituals,0,poor,0.0,Bottom,partial (0%),,,,,,,,-1.0,-1.5,0.0
+221,0723.json,"On Sardinia, the Magic of Heading Inland",0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-0.5,0.0
+222,0724.json,History of India — Gupta Empire,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,-0.5
+223,0725.json,Jazz — Afro-Cuban influence,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-1.0,-0.5
+224,0726.json,Robot — Mesopotamia,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-0.5,0.0
+225,0803.json,Noir (film) — Overview,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-1.5,0.0
+226,0805.json,Common knowledge,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-0.5,-0.5
+227,0806.json,"Human activity helped make 2025 third-hottest year on record, experts say — The Guardian",0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-1.0,0.0
+228,0807.json,Only Disconnect by By Gary Shteyngart,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,0.0
+229,0808.json,An irrational sports allegiance,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-1.0,0.0
+230,0809.json,A barber you’d trust with your life,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,-0.5
+231,0810.json,Aggressive Hospitality,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,-0.5
+232,0811.json,How to think about the Sublime,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-1.0,0.0
+233,0812.json,What my dog taught me,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,-0.5
+234,0813.json,Rethinking my mother's story,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-0.5,-0.5
+235,0814.json,A professor who belongs,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-0.5,0.0
+236,0815.json,Living Landscapes Of Ladakh ,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,0.0
+237,0816.json,Nestle's Half-Billion Dollar Noodle Debacle,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-0.5,0.0
+238,0817.json,A Lab Accident Changed my Approach,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,0.0
+239,0818.json,"Verdigris: The Color of Oxidation, Statues, and Impermanence",0,poor,0.0,Bottom,partial (0%),,,,,,,,-0.5,-1.0,0.0
+240,0819.json,Negotiation,0,poor,0.0,Bottom,partial (0%),,,,,,,,-0.5,0.0,0.0
+241,0820.json,Catching up with Geoff Dyer,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-0.5,0.0
+242,0821.json,Why ambitious people have (unrelated) hobbies,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,-1.0
+243,0822.json,Subject matter matters,0,poor,0.0,Bottom,partial (0%),,,,,,,,-0.5,-0.5,-0.5
+244,0823.json,Naïve witchcraft beliefs in Acadian,0,poor,0.0,Bottom,partial (0%),,,,,,,,-0.5,-2.0,0.0
+245,0824.json,History of India — Mahajanapadas,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,0.0
+246,0825.json,Jazz — Jazz pluralism,0,poor,0.0,Bottom,partial (0%),,,,,,,,-0.5,0.0,0.0
+247,0826.json,Robotic surgery — Gastrointestinal,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-3.0,0.0
+248,0827.json,fMRI on infants,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,-1.0
+249,0828.json,Indiana Jones and the Dial of Destiny — Marketing,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-1.0,0.0
+250,0829.json,This War of Mine: The Board Game — Variants and expansions,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,0.0
+251,0830.json,Miracle on Ice — Second period,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-0.5,0.0
+252,0831.json,Rhythm — Metric structure,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-1.0,0.0
+253,0901.json,Renewal theory — Interpretation,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,0.0
+254,0902.json,Retrieval-augmented generation — Challenges,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-1.0,0.0
+255,0903.json,Neo-noir — Overview,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,0.0
+256,0904.json,Invisible Man by Ralph Ellison (1952),0,poor,0.0,Bottom,partial (0%),,,,,,,,-0.5,-2.5,-1.0
+257,0905.json,General knowledge,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-0.5,0.0
+258,0906.json,UK households bin 168m Christmas lights and ‘fast tech’ items a year — The Guardian,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-1.0,0.0
+259,0907.json,Finding Father Christmas review – Lenny Rush and James Buckley's chemistry is just wonderful,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-0.5,0.0
+260,0908.json,A Tale of Two Cities by Charles Dickens,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-0.5,-1.0
+261,0909.json,The Law of Compensation by Ralph Waldo Emerson,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-1.0,0.0
+262,0910.json,Sharing some truth (How to Write One Song • By Jeff Tweedy),0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-0.5,0.0
+263,0911.json,"Humans think — AI, not so much",0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,0.0
+264,0912.json,Baby brains,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,-0.5
+265,0913.json,"Thanks, Nikola",0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-1.0,-1.0
+266,0914.json,Rhythm — Rhythm–tempo interaction,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,0.0
+267,0915.json,Exploring Kashmir,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,0.0
+268,0916.json,Delusion at the Gastropub,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-0.5,0.0
+269,0917.json,What makes Hill Country so prone to flooding?,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,0.0
+270,0918.json,"Periwinkle, the Color of Poison, Modernism, and Dusk",0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-0.5,0.0
+271,0919.json,Iran Wants to Talk,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-1.5,0.0
+272,0920.json,Need a Father's Day Gift?,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,-0.5
+273,0921.json,The Former Prince Andrew Never Should Have Forwarded Those Emails,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-0.5,0.0
+274,0922.json,A writers guide to just getting on with it,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,0.0
+275,0923.json,China in Ten Words,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,0.0
+276,0925.json,Jazz — Syncopation,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-2.0,0.0
+277,0926.json,Robot — Indian automata,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-1.0,0.0
+278,0927.json,Lyric poetry — 18th century,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,0.0
+279,0928.json,A Tale of Two Cities,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,-0.5
+280,0929.json,Wingspan (board game) — Overview,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,0.0
+281,0930.json,Miracle on Ice — NHL careers,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-1.5,0.0
+282,1001.json,Urban renewal — United States,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,0.0
+283,1002.json,Common knowledge — Examples,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,0.0
+284,1003.json,Spider-Noir — Marketing,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,0.0
+285,1004.json,Pizzagate conspiracy theory — Turkish press reports,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-0.5,0.0
+286,1005.json,Essential oil — History,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-1.5,0.0
+287,1006.json,‘Zombie’ electricity projects in Britain face axe to ease quicker grid connections — The Guardian,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,0.0
+288,1007.json,Environmental groups sue Trump's EPA over repeal of landmark climate finding,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-1.0,0.0
+289,1008.json,Fear and Loathing in Las Vegas by Hunter S. Thompson (1971),0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,-1.0
+290,1009.json,Television documentary — Pre-1900,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-1.5,0.0
+291,1010.json,One Hundred Years of Solitude by Gabriel García Márquez (1967),0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-0.5,-0.5
+292,1011.json,Human intelligence vs AI,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-2.5,-0.5
+293,1012.json,Pollution and Mistakes,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-1.0,-1.0
+294,1013.json,Nikola Tesla Goes Viral,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-1.5,-1.0
+295,1014.json,Anna Karenina by Leo Tolstoy (1878),0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,-0.5
+296,1015.json,An Indian City Bursting With Action,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-0.5,0.0
+297,1016.json,The Noma Way,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,0.0
+298,1017.json,A modern mathematical method for calculating centers of geography,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-0.5,-0.5
+299,1018.json,Juvenile Impulse,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-0.5,-0.5
+300,1019.json,Women Know When Negotiating Isn't Worth It,0,poor,0.0,Bottom,partial (0%),,,,,,,,-0.5,-0.5,0.0
+301,1020.json,I rescued a panini press,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,-0.5
+302,1021.json,Sunday mornings coming down,0,poor,0.0,Bottom,partial (0%),,,,,,,,-0.5,0.0,0.0
+303,1022.json,Neglecting to Read,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,0.0
+304,1023.json,The Character Remains,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,0.0
+305,1024.json,History of India — Vedic period (c. 1500 – 600 BCE),0,poor,0.0,Bottom,partial (0%),,,,,,,,-0.5,-0.5,0.0
+306,1025.json,Jazz — Social media,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,0.0
+307,1026.json,Robot — Contemporary art and sculpture,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,0.0
+308,1027.json,Petrarch — Later years,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-1.0,0.0
+309,1028.json,Destiny 2 — Fate Saga (2025–present),0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,0.0
+310,1029.json,Daryl Hannah — Overview,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-1.0,0.0
+311,1030.json,Miracle on Ice — Gold medal,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-0.5,0.0
+312,1031.json,Rhythm — Tempo and duration,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-0.5,0.0
+313,1101.json,JD Vance — Munich Security Conference,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,0.0
+314,1102.json,Knowledge economy,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-0.5,0.0
+315,1103.json,Marvel Noir — X-Men Noir: Mark of Cain,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,0.0
+316,1106.json,Trump officials halt offshore wind-farm projects over ‘national security risks’ — The Guardian,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,-0.5
+317,1107.json,Cancer Detectives: Finding the Cures review – this vaccine documentary is so inspirational it'll make you weep,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-0.5,0.0
+318,1108.json,Frederick Douglass's Fourth of July Speech ClueChain,0,poor,0.0,Bottom,partial (0%),,,,,,,,-1.5,-0.5,0.0
+319,1109.json,Documentary editing — Print volumes,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-2.0,0.0
+320,1110.json,Paradise by Toni Morrison (1997),0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,-1.0
+321,1111.json,The average human brain size is growing,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-0.5,0.0
+322,1112.json,Harm from Pollution,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-1.0,-1.0
+323,1113.json,Who invented the Internet?,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-1.0,0.0
+324,1114.json,Who invented the iPad?,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,0.0
+325,1115.json,"The mist, mystery, and mountains of Sikkim",0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-1.0,0.0
+326,1116.json,The Noma Way Part2,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,-0.5
+327,1117.json,“Expedition to the End of the World”,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-4.0,0.0
+328,1118.json,Unreal City,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-1.5,0.0
+329,1119.json,How a Negotiation Expert Would Bargain With a Kid,0,poor,0.0,Bottom,partial (0%),,,,,,,,-0.5,0.0,0.0
+330,1120.json,This remote makes controlling your phone a breeze,0,poor,0.0,Bottom,partial (0%),,,,,,,,-1.0,-3.0,0.0
+331,1121.json,Across and down with a word wrangler,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,0.0
+332,1122.json,Cal Newport on Writing Productivity,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,0.0
+333,1123.json,The Second Coming,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-1.5,0.0
+334,1124.json,History of India — Gurjara-Pratihara Empire,0,poor,0.0,Bottom,partial (0%),,,,,,,,-0.5,0.0,-0.5
+335,1125.json,Jazz — African rhythmic retention,0,poor,0.0,Bottom,partial (0%),,,,,,,,-0.5,-3.5,-0.5
+336,1126.json,Robot — Swarm robots,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-1.0,0.0
+337,1127.json,Judah Halevi — Riddles,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,0.0
+338,1128.json,Manifest destiny — Spanish–American War,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-1.5,0.0
+339,1129.json,Arcs (board game) — Overview,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-0.5,0.0
+340,1130.json,Science explains why our brains aren’t just fancy computers,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,0.0
+341,1201.json,Urban renewal — Loss or change of character,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,0.0
+342,1202.json,Knowledge base,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,-0.5
+343,1203.json,Finding Harmony: A King’s Vision review – some of Charles’s ideas are strangely trippy,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-0.5,-0.5
+344,1205.json,Aromaticity — Etymology,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,0.0
+345,1206.json,Trump administration freezes $2.1bn in funds for Chicago transit projects — The Guardian,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-1.0,0.0
+346,1207.json,What happens to the human body in 49C heat? Australians are finding out,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-0.5,0.0
+347,1208.json,"Young Creators Are Burning Out and Breaking Down (by Taylor Lorenz, The New York Times)",0,poor,0.0,Bottom,partial (0%),,,,,,,,-1.0,0.0,0.0
+348,1209.json,Frederick Douglass's Fourth of July Speech ClueChain,0,poor,0.0,Bottom,partial (0%),,,,,,,,-1.5,-0.5,0.0
+349,1210.json,Slaughterhouse Five (Kurt Vonnegut) 1969,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-1.5,-1.0
+350,1211.json,Bigger and Healthier Brains,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,-0.5
+351,1212.json,Hebbian Theory,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,-1.0
+352,1213.json,A Passive Exerciser,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-2.0,-0.5
+353,1214.json,The Myth of the Lone Inventor,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-1.5,0.0
+354,1215.json,Written in the wind,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-2.0,0.0
+355,1216.json,French Food: The Iconic Dishes,0,poor,0.0,Bottom,partial (0%),,,,,,,,-0.5,-0.5,0.0
+356,1217.json,Is Apple maps getting ready to tackle public transport?,0,poor,0.0,Bottom,partial (0%),,,,,,,,-0.5,0.0,0.0
+357,1218.json,Natural Justice,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-0.5,-0.5
+358,1219.json,The Patient war,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-0.5,-0.5
+359,1220.json,Protect your hearing,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,0.0
+360,1221.json,Tips and Tricks From a Crossword Prodigy,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,-0.5
+361,1222.json,Writing and the Creative Life,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-1.0,0.0
+362,1223.json,What the Germans Left Behind,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,-0.5
+363,1224.json,History of India — Rashtrakuta Empire,0,poor,0.0,Bottom,partial (0%),,,,,,,,-0.5,-3.5,-0.5
+364,1225.json,"Chardon, Ohio School Shooting",0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-0.5,0.0
+365,1226.json,Robot — Home automation for the elderly and disabled,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-1.0,0.0
+366,1227.json,Petrarch — Works,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,0.0
+367,1228.json,Indiana Jones and the Dial of Destiny — Future,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,0.0,0.0
+368,1229.json,Anomia (game) — Design,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-0.5,0.0
+369,1230.json,Moby Dick (1851),0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-0.5,-1.0
+370,1231.json,Rhythm — Linguistics,0,poor,0.0,Bottom,partial (0%),,,,,,,,0.0,-0.5,0.0

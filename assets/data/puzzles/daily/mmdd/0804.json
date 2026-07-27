@@ -1,237 +1,237 @@
 {
-  "title": "List of conspiracy theories — Deep state",
+  "title": "Thanksgiving in Mongolia",
   "date": "08-04",
-  "text": "While the term is occasionally used as a neutral term to denote a nation's bureaucracy, the conspiratorial notion of a \"deep state\" originated principally in Middle Eastern and North African politics with some basis in truth, and has been known in the US since the 1960s. It was revived under the Trump presidency. \"Deep state\" in the latter sense refers to an unidentified insider \"power elite\" who manipulate a nation's politics and government. Proponents have included Canadian author Peter Dale Scott, who has promoted the idea in the US since the 1990s, as well as Breitbart News, Infowars and Donald Trump. A 2017 poll by ABC News and The Washington Post indicated that 48% of Americans believe in the existence of a conspiratorial \"deep state\" in the US.",
+  "text": "Title: Thanksgiving in Mongolia\nI was not big on playing house. I preferred make-believe that revolved around adventure, featuring pirates and knights. \nI was also domineering, impatient, relentlessly verbal, and, as an only child, often baffled by the mores of other kids. \nI was not a popular little girl. I played Robinson Crusoe in a small wooden fort that my parents built for me in the back yard. \nIn the fort, I was neither ostracized nor ill at ease—I was self-reliant, brave, ingeniously surviving, if lost.",
   "hiddenWords": [
     {
-      "word": "bureaucracy",
+      "word": "adventure",
       "difficulty": "Intermediate",
-      "related_words": [],
+      "related_words": [
+        "pirates",
+        "knights"
+      ],
       "clues": [
         {
-          "clue": "A system of organization with many layers, like an onion that needs to be peeled to find the truth",
+          "clue": "A journey with an unknown outcome, often sought by those who feel confined.",
           "type": "Indirect",
           "points": 6
         },
         {
-          "clue": "An administrative system with a clear hierarchy",
+          "clue": "This can be a thrilling experience, often associated with travel or bold undertakings.",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "A group of officials in a government department",
+          "clue": "A daring or exciting activity.",
           "type": "Straight",
           "points": 1
         }
       ]
     },
     {
-      "word": "politics",
+      "word": "pirates",
       "difficulty": "Easy",
       "related_words": [
-        "government",
-        "presidency"
+        "adventure",
+        "knights"
       ],
       "clues": [
         {
-          "clue": "A delicate dance of power and influence, where steps are carefully choreographed",
+          "clue": "Famous for sailing the seven seas, these characters are often depicted in children's stories.",
           "type": "Indirect",
           "points": 5
         },
         {
-          "clue": "The process of making decisions for a country or state",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "The art of governing",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "government",
-      "difficulty": "Easy",
-      "related_words": [
-        "politics",
-        "presidency"
-      ],
-      "clues": [
-        {
-          "clue": "A body that oversees the well-being of its people, like a guardian watching over its wards",
-          "type": "Indirect",
-          "points": 5
-        },
-        {
-          "clue": "The system or group of people that have the power to make and enforce laws",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "The ruling authority of a country",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "presidency",
-      "difficulty": "Intermediate",
-      "related_words": [
-        "politics",
-        "government"
-      ],
-      "clues": [
-        {
-          "clue": "A position of great power, where one person holds the reins",
-          "type": "Indirect",
-          "points": 6
-        },
-        {
-          "clue": "The office or term of a president",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "The highest executive office in a country",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "proponents",
-      "difficulty": "Hard",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "Those who wave the flag of an idea, championing its cause",
-          "type": "Indirect",
-          "points": 7
-        },
-        {
-          "clue": "People who support or advocate for a particular idea or policy",
+          "clue": "These lawless sailors are known for their treasure hunts and bravery.",
           "type": "Suggestive",
           "points": 4
         },
         {
-          "clue": "Supporters of a cause",
+          "clue": "Sailors who steal from other ships.",
           "type": "Straight",
           "points": 1
         }
       ]
     },
     {
-      "word": "existence",
+      "word": "knights",
       "difficulty": "Intermediate",
-      "related_words": [],
+      "related_words": [
+        "adventure",
+        "pirates"
+      ],
       "clues": [
         {
-          "clue": "A state of being that can be felt, but not always seen",
+          "clue": "These medieval warriors are often associated with honor and chivalry.",
           "type": "Indirect",
           "points": 6
         },
         {
-          "clue": "The fact or state of living or having objective reality",
+          "clue": "They were known for their bravery and noble deeds.",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "The state of being real",
+          "clue": "Medieval warrior of noble birth.",
           "type": "Straight",
-          "points": 1
+          "points": 2
         }
       ]
     },
     {
-      "word": "manipulate",
+      "word": "domineering",
       "difficulty": "Hard",
       "related_words": [],
       "clues": [
         {
-          "clue": "To pull the strings of a puppet, controlling its every move",
+          "clue": "This trait can be both a strength and a weakness, depending on the context.",
           "type": "Indirect",
           "points": 7
         },
         {
-          "clue": "To influence or control someone or something in a clever or unfair way",
+          "clue": "It describes someone who likes to be in control and have power over others.",
           "type": "Suggestive",
           "points": 4
         },
         {
-          "clue": "To handle or control something with skill",
+          "clue": "Tending to dominate or exert control over others.",
           "type": "Straight",
-          "points": 1
+          "points": 2
         }
       ]
     },
     {
-      "word": "notion",
+      "word": "verbal",
       "difficulty": "Easy",
       "related_words": [],
       "clues": [
         {
-          "clue": "A vague idea that floats in the air, waiting to be grasped",
+          "clue": "This type of skill is essential for effective communication.",
           "type": "Indirect",
           "points": 5
         },
         {
-          "clue": "A vague or imperfect idea or opinion",
+          "clue": "It relates to the use of words or language.",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "A vague concept",
+          "clue": "Relating to words or language.",
           "type": "Straight",
           "points": 1
         }
       ]
     },
     {
-      "word": "principally",
+      "word": "ostracized",
       "difficulty": "Hard",
       "related_words": [],
       "clues": [
         {
-          "clue": "A word that means mainly, or for the most part, like a compass pointing due north",
+          "clue": "This can be a painful experience, especially during childhood.",
           "type": "Indirect",
-          "points": 7
+          "points": 6
         },
         {
-          "clue": "To a great degree, or mostly",
+          "clue": "It involves being excluded or rejected by others.",
           "type": "Suggestive",
           "points": 4
         },
         {
-          "clue": "Mainly or chiefly",
+          "clue": "To be excluded or rejected by others.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "self-reliant",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "This quality is often admired in individuals who can fend for themselves.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "It describes someone who can take care of themselves without help from others.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Able to take care of oneself without help from others.",
           "type": "Straight",
           "points": 1
         }
       ]
     },
     {
-      "word": "promoted",
+      "word": "brave",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "This trait is often associated with courage and strength.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "It describes someone who is willing to face danger or difficulties without fear.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Showing courage or strength.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "ingeniously",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "This adverb describes a clever or inventive way of doing something.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "It relates to a clever or resourceful approach to a problem.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "In a clever or inventive way.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "surviving",
       "difficulty": "Intermediate",
       "related_words": [],
       "clues": [
         {
-          "clue": "To help something or someone advance, like a rising tide lifting all boats",
+          "clue": "This can be a challenge, especially in harsh or difficult conditions.",
           "type": "Indirect",
           "points": 6
         },
         {
-          "clue": "To support or encourage the progress or growth of something",
+          "clue": "It involves managing to stay alive or continue to exist in a difficult situation.",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "To move someone to a higher position or rank",
+          "clue": "To remain alive or in existence.",
           "type": "Straight",
           "points": 1
         }
       ]
     }
   ],
-  "id": "ClueChain-2026-08-04"
+  "id": "ClueChain-2026-07-27"
 }

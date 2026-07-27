@@ -1,232 +1,237 @@
 {
-  "title": "Anomia (game) — Reception",
+  "title": "Welcome to Dog World!",
   "date": "02-29",
-  "text": "Title: Anomia (game) — Reception\n\nWirecutter included Anomia in their list of the \"11 Best Board Games [as of] 2023\", with James Austin describing the game as \"a fantastic time of chaotic yelling\" and praising it for its fast pace and replayability. Writing for Polygon, Clayton Ashley wrote that \"Anomia challenges your ability to think fast\" and praised the game for its simple rules. In a brief review for Global News, Jim Joy described the game as \"a fun and easy-to-play game that tests your common knowledge against other players,\" concluding that \"it’s a wonderful family-friendly game to play any night of the week.\" An article for Slate, written by Noel Murray, compared the game to Scattegories because of its fast paced party game design.",
+  "text": "Title: Welcome to Dog World!\n\nAt first, from the helicopter, the only thing they’d see was the sweeping ice, smooth and white, \npunched through with mountaintops. If they had never been there before, the sight was near religious, \nsomething to bring them to tears. The pilots were instructed to play Enya on repeat, piped directly into \ntheir passengers’ headphones—music the tour company believed was a properly swooning soundtrack for the \notherworldly vista below.",
   "hiddenWords": [
     {
-      "word": "chaotic",
+      "word": "helicopter",
       "difficulty": "Intermediate",
       "related_words": [],
       "clues": [
         {
-          "clue": "A state of complete disorder, like a messy room after a party.",
+          "clue": "A mode of transport that can hover in place",
           "type": "Indirect",
           "points": 6
         },
         {
-          "clue": "Characterized by a complete lack of organization or order.",
+          "clue": "Often used for rescue missions or scenic tours",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "Completely disorganized or confused.",
+          "clue": "A type of aircraft",
           "type": "Straight",
           "points": 1
         }
       ]
     },
     {
-      "word": "replayability",
+      "word": "mountaintops",
       "difficulty": "Hard",
-      "related_words": [],
+      "related_words": [
+        "vista",
+        "ice"
+      ],
       "clues": [
         {
-          "clue": "The ability to play something multiple times without getting bored, like a favorite childhood game.",
+          "clue": "Where the air is thin and the view is grand",
           "type": "Indirect",
           "points": 7
         },
         {
-          "clue": "A desirable feature in games that keeps players engaged.",
+          "clue": "Often covered in snow, these are a challenge to climb",
           "type": "Suggestive",
           "points": 4
         },
         {
-          "clue": "The capability of being played again.",
+          "clue": "The highest points of mountains",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "religious",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A feeling that can bring people to their knees",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Connected to faith or spiritual beliefs",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A strong belief or conviction",
           "type": "Straight",
           "points": 1
         }
       ]
     },
     {
-      "word": "polygon",
+      "word": "pilots",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Those who navigate through the skies",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Trained to operate aircraft safely",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "People who fly planes",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "Enya",
       "difficulty": "Hard",
       "related_words": [],
       "clues": [
         {
-          "clue": "A shape with many sides, like a stop sign.",
+          "clue": "A sound that can transport you to another realm",
           "type": "Indirect",
-          "points": 5
+          "points": 7
         },
         {
-          "clue": "A geometric figure with multiple sides.",
+          "clue": "A musician known for ethereal music",
           "type": "Suggestive",
           "points": 4
         },
         {
-          "clue": "A two-dimensional shape with at least three sides.",
+          "clue": "An Irish singer-songwriter",
           "type": "Straight",
           "points": 2
         }
       ]
     },
     {
-      "word": "common",
-      "difficulty": "Easy",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "Something that is shared by many people, like a cold.",
-          "type": "Indirect",
-          "points": 6
-        },
-        {
-          "clue": "Widespread or frequent.",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "Ordinary or usual.",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "fantastic",
+      "word": "passengers",
       "difficulty": "Intermediate",
       "related_words": [],
       "clues": [
         {
-          "clue": "Like a dream come true, or an amazing vacation.",
-          "type": "Indirect",
-          "points": 6
-        },
-        {
-          "clue": "Extraordinarily good or attractive.",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "Extremely good or exciting.",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "family",
-      "difficulty": "Easy",
-      "related_words": [
-        "friendly"
-      ],
-      "clues": [
-        {
-          "clue": "A group of people who love and support each other, like a team.",
+          "clue": "People who ride but do not drive",
           "type": "Indirect",
           "points": 5
         },
         {
-          "clue": "A social unit that cares for its members.",
+          "clue": "Those who pay for transportation services",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "A group of people related by blood or marriage.",
+          "clue": "Individuals traveling in a vehicle",
           "type": "Straight",
           "points": 1
         }
       ]
     },
     {
-      "word": "friendly",
-      "difficulty": "Easy",
-      "related_words": [
-        "family"
-      ],
-      "clues": [
-        {
-          "clue": "Like a warm smile or a helping hand.",
-          "type": "Indirect",
-          "points": 5
-        },
-        {
-          "clue": "Having a pleasant and approachable nature.",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "Showing kindness and affection.",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "included",
-      "difficulty": "Intermediate",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "Like being part of a team or a club.",
-          "type": "Indirect",
-          "points": 6
-        },
-        {
-          "clue": "Made part of something, like a list or a group.",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "Added to something, like an ingredient to a recipe.",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "brief",
+      "word": "headphones",
       "difficulty": "Easy",
       "related_words": [],
       "clues": [
         {
-          "clue": "Like a quick summary or a short message.",
-          "type": "Indirect",
-          "points": 5
-        },
-        {
-          "clue": "Lasting for a short time, like a flash of light.",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "Short in duration or extent.",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "wonderful",
-      "difficulty": "Intermediate",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "Like a magical experience or a beautiful sunset.",
+          "clue": "A way to keep sound to yourself",
           "type": "Indirect",
           "points": 6
         },
         {
-          "clue": "Extremely good or enjoyable.",
+          "clue": "Used for listening to music in private",
           "type": "Suggestive",
           "points": 4
         },
         {
-          "clue": "Very pleasing or delightful.",
+          "clue": "Device for personal audio",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "vista",
+      "difficulty": "Hard",
+      "related_words": [
+        "mountaintops",
+        "ice"
+      ],
+      "clues": [
+        {
+          "clue": "A view that can leave you breathless",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "A panoramic sight, often of natural beauty",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A wide, scenic view",
           "type": "Straight",
           "points": 2
+        }
+      ]
+    },
+    {
+      "word": "ice",
+      "difficulty": "Easy",
+      "related_words": [
+        "mountaintops",
+        "vista"
+      ],
+      "clues": [
+        {
+          "clue": "Slippery when wet, fun to skate on",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Formed from frozen water, it can float",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A solid, frozen state of water",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "soundtrack",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Music that accompanies a visual experience",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A collection of songs for a movie or event",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Background music for a film or show",
+          "type": "Straight",
+          "points": 1
         }
       ]
     }
   ],
-  "id": "ClueChain-2026-02-29"
+  "id": "ClueChain-2026-05-27"
 }

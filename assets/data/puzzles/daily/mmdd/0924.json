@@ -1,237 +1,237 @@
 {
-  "title": "History of India — Sangam period",
+  "title": "Outside Magazine - The Kingdom of the Lotus",
   "date": "09-24",
-  "text": "Title: History of India — Sangam period\n\nDuring the Sangam period Tamil literature flourished from the 3rd century BCE to the 4th century CE. Three Tamil dynasties, collectively known as the Three Crowned Kings of Tamilakam: Chera dynasty, Chola dynasty, and the Pandya dynasty ruled parts of southern India. The Sangam literature deals with the history, politics, wars, and culture of the Tamil people of this period. Unlike Sanskrit writers who were mostly Brahmins, Sangam writers came from diverse classes and social backgrounds and were mostly non-Brahmins. Around c. 300 BCE – c. 200 CE, Pathupattu, an anthology of ten mid-length book collections, which is considered part of Sangam Literature, were composed; the composition of eight anthologies of poetic works Ettuthogai as well as the composition of eighteen minor poetic works Patiṉeṇkīḻkaṇakku; while Tolkāppiyam, the earliest grammarian work in the Tamil language was developed. Also, during Sangam period, two of the Five Great Epics of Tamil Literature were composed. Ilango Adigal composed Silappatikaram, which is a non-religious work, that revolves around Kannagi, and Manimekalai, composed by Chithalai Chathanar, is a sequel to Silappatikaram, and tells the story of the daughter of Kovalan and Madhavi, who became a Buddhist Bhikkhuni.",
+  "text": "SHAMBHALA IS THE OLDEST and purest vision of enlightenment, a prophecy that became a place and, finally, a legend. Varieties of the myth are shared among Indian Hindus, Chinese Taoists, and Tibetans of both Buddhist and Bon persuasions. It is the Ultima Thule of the East, a promise that a golden age will be restored by the king of a great northern paradise, riding forth on a white horse to destroy the barbarians of the world, to stamp out materialism and immorality and bring an end to this dark cycle of time. It is, in other words, what human beings need to believe in. A promise of eternity, and the return of hope.",
   "hiddenWords": [
     {
-      "word": "literature",
+      "word": "enlightenment",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A state of being free from ignorance",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "The ultimate goal of many spiritual practices",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A state of understanding and insight",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "prophecy",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A message from the gods, or so it's believed",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A prediction of future events",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A forecast or prediction",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "paradise",
+      "difficulty": "Easy",
+      "related_words": [
+        "utopia",
+        "haven"
+      ],
+      "clues": [
+        {
+          "clue": "A place of perfect happiness",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A desired destination",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A place of perfect bliss",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "utopia",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "paradise",
+        "haven"
+      ],
+      "clues": [
+        {
+          "clue": "An idealized place of perfection",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A hypothetical perfect society",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A perfect or ideal place",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "haven",
+      "difficulty": "Easy",
+      "related_words": [
+        "paradise",
+        "utopia"
+      ],
+      "clues": [
+        {
+          "clue": "A place of safety or refuge",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A sheltered or protected place",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A safe place",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "materialism",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A focus on worldly possessions",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "An emphasis on physical comfort",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A preoccupation with material possessions",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "immorality",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A lack of moral principles",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Unethical behavior",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Wickedness or wrongdoing",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "eternity",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A never-ending expanse of time",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "A state of timelessness",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Forever or always",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "legend",
       "difficulty": "Easy",
       "related_words": [],
       "clues": [
         {
-          "clue": "Imagine a world without stories, what would fill the void?",
-          "type": "Indirect",
-          "points": 6
-        },
-        {
-          "clue": "Something that is studied in school, like books and poems",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "A body of written works, often about a specific subject",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "dynasties",
-      "difficulty": "Intermediate",
-      "related_words": [
-        "period",
-        "rulers"
-      ],
-      "clues": [
-        {
-          "clue": "The rise and fall of power, like the tides of the sea, can be seen in these",
-          "type": "Indirect",
-          "points": 7
-        },
-        {
-          "clue": "Families that ruled countries for generations, sometimes fair, sometimes not",
-          "type": "Suggestive",
-          "points": 4
-        },
-        {
-          "clue": "A series of rulers from the same family",
-          "type": "Straight",
-          "points": 2
-        }
-      ]
-    },
-    {
-      "word": "period",
-      "difficulty": "Intermediate",
-      "related_words": [
-        "dynasties",
-        "history"
-      ],
-      "clues": [
-        {
-          "clue": "Time is a river, and this is one of its many branches",
+          "clue": "A story passed down through generations",
           "type": "Indirect",
           "points": 5
         },
         {
-          "clue": "A specific time in the past that is studied by historians",
+          "clue": "A famous or well-known story",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "A length of time, like a century or an era",
+          "clue": "A mythical or historical story",
           "type": "Straight",
-          "points": 1
+          "points": 2
         }
       ]
     },
     {
-      "word": "history",
-      "difficulty": "Easy",
-      "related_words": [
-        "period",
-        "literature"
-      ],
+      "word": "myth",
+      "difficulty": "Intermediate",
+      "related_words": [],
       "clues": [
         {
-          "clue": "The echoes of the past, whispering secrets to those who listen",
+          "clue": "A story that may or may not be true",
           "type": "Indirect",
           "points": 6
         },
         {
-          "clue": "What happened before us, and how it affects us today",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "The study of past events, especially human affairs",
-          "type": "Straight",
-          "points": 2
-        }
-      ]
-    },
-    {
-      "word": "politics",
-      "difficulty": "Hard",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "A game of power, where pawns are people and the board is the world",
-          "type": "Indirect",
-          "points": 7
-        },
-        {
-          "clue": "The way countries are run, with all its complexities and intrigue",
+          "clue": "A traditional or cultural story",
           "type": "Suggestive",
           "points": 4
         },
         {
-          "clue": "The art of governing, or the science of control",
-          "type": "Straight",
-          "points": 2
-        }
-      ]
-    },
-    {
-      "word": "culture",
-      "difficulty": "Intermediate",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "A tapestry woven from threads of tradition, innovation, and expression",
-          "type": "Indirect",
-          "points": 5
-        },
-        {
-          "clue": "What makes a society unique, like a fingerprint or a snowflake",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "The way of life, especially the general customs and beliefs, of a particular group of people",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "anthology",
-      "difficulty": "Hard",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "A garden of words, where each flower is a unique and beautiful expression",
-          "type": "Indirect",
-          "points": 7
-        },
-        {
-          "clue": "A gathering of creative pieces, showcasing the best of a genre",
-          "type": "Suggestive",
-          "points": 4
-        },
-        {
-          "clue": "A collection of literary works, like poems or stories",
-          "type": "Straight",
-          "points": 2
-        }
-      ]
-    },
-    {
-      "word": "poetic",
-      "difficulty": "Intermediate",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "The language of the soul, where emotions are the rhythm and words are the melody",
-          "type": "Indirect",
-          "points": 6
-        },
-        {
-          "clue": "Expressing feelings or ideas in a beautiful or imaginative way",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "Having a quality that is pleasing to the mind or spirit",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "grammarian",
-      "difficulty": "Hard",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "A guardian of the language, ensuring its structure and beauty are preserved",
-          "type": "Indirect",
-          "points": 7
-        },
-        {
-          "clue": "Someone who helps people understand how to use language correctly",
-          "type": "Suggestive",
-          "points": 4
-        },
-        {
-          "clue": "A person who studies or writes about the rules of language",
-          "type": "Straight",
-          "points": 2
-        }
-      ]
-    },
-    {
-      "word": "epics",
-      "difficulty": "Intermediate",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "The sagas of old, where legends are born and heroes rise",
-          "type": "Indirect",
-          "points": 5
-        },
-        {
-          "clue": "Great works of literature that inspire and captivate audiences",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "Long, narrative poems that tell stories of heroic deeds",
+          "clue": "A fictional story",
           "type": "Straight",
           "points": 1
         }
       ]
     }
   ],
-  "id": "ClueChain-2026-09-24"
+  "id": "ClueChain-2026-03-27"
 }

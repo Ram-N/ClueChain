@@ -23,7 +23,7 @@ mmdd,new_file,new_title,old_file,old_title,match
 0122,0122.json,My dirty secret writing life,01-22-WRITING-my-dirty-secret-writing-life.json,My dirty secret writing life,identical
 0123,0123.json,Ursula K. Le Guin on myths,01-23-FOLKLORE-ursula-k-le-guin-on-myths.json,Ursula K. Le Guin on myths,identical
 0124,0124.json,History of India — World War I,01-24-ANCIENT-INDIA-history-of-india-world-war-i.json,History of India — World War I,identical
-0125,0125.json,Jazz — Dixieland revival,01-25-JAZZ-MUSIC-jazz-dixieland-revival.json,Jazz — Dixieland revival,identical
+0125,0125.json,Welcome to Dog World - part 2,0125.json,Welcome to Dog World - part 2,identical
 0126,0126.json,Robot — Etymology,01-26-ROBOTICS-robot-etymology.json,Robot — Etymology,identical
 0127,0127.json,Nelly Sachs — Overview,01-27-LYRICAL-nelly-sachs-overview.json,Nelly Sachs — Overview,identical
 0128,0128.json,Destiny 2 — Sales,01-28-DESTINY-destiny-2-sales.json,Destiny 2 — Sales,identical
@@ -58,12 +58,12 @@ mmdd,new_file,new_title,old_file,old_title,match
 0226,0226.json,Robotic surgery — Use in popular media,02-26-ROBOTICS-robotic-surgery-use-in-popular-media.json,Robotic surgery — Use in popular media,identical
 0227,0227.json,Lyric poetry — Rome,02-27-LYRICAL-lyric-poetry-rome.json,Lyric poetry — Rome,identical
 0228,0228.json,Destiny's Child — 1990–1997: Early beginnings and Girl's Tyme,02-28-DESTINY-destinys-child-19901997-early-beginnings-and-girls-tyme.json,Destiny's Child — 1990–1997: Early beginnings and Girl's Tyme,identical
-0229,0229.json,Anomia (game) — Reception,02-29-BOARD-GAMES-anomia-game-reception.json,Anomia (game) — Reception,identical
+0229,0229.json,Welcome to Dog World!,0229.json,Welcome to Dog World!,identical
 0301,0301.json,Urban renewal — Hong Kong,03-01-RENEWAL-urban-renewal-hong-kong.json,Urban renewal — Hong Kong,identical
 0302,0302.json,Knowledge base — Properties,03-02-INFO-knowledge-base-properties.json,Knowledge base — Properties,identical
 0303,0303.json,Film noir — 1960s and 1970s,03-03-NOIR-film-noir-1960s-and-1970s.json,Film noir — 1960s and 1970s,identical
 0304,0304.json,Moby Dick (1851),,,
-0305,0305.json,List of conspiracy theories — Death of Nero,03-05-GK--list-of-conspiracy-theories-death-of-nero.json,List of conspiracy theories — Death of Nero,identical
+0305,0305.json,The Kingdom of the Lotus,0305.json,The Kingdom of the Lotus,identical
 0306,0306.json,‘We’re no longer attracting top talent’: the brain drain killing American science  — The Guardian,03-06-HUMAN-BRAIN-were-no-longer-attracting-top-talent-the-brain-drain-killing-american-science-the-guardian.json,‘We’re no longer attracting top talent’: the brain drain killing American science  — The Guardian,identical
 0307,0307.json,Losing grip on games is worry for Guardiola despite City finding way past Madrid,,,
 0308,0308.json,relative distances of the planets,,,
@@ -116,7 +116,7 @@ mmdd,new_file,new_title,old_file,old_title,match
 0424,0424.json,History of India — Famines,04-24-ANCIENT-INDIA-history-of-india-famines.json,History of India — Famines,identical
 0425,0425.json,Jazz — Jazz and race,04-25-JAZZ-MUSIC-jazz-jazz-and-race.json,Jazz — Jazz and race,identical
 0426,0426.json,Robotics — Locomotion,04-26-ROBOTICS-robotics-locomotion.json,Robotics — Locomotion,identical
-0427,0427.json,Lyric poetry — 17th century,04-27-LYRICAL-lyric-poetry-17th-century.json,Lyric poetry — 17th century,identical
+0427,0427.json,"Ulaanbaatar, Mongolia",0427.json,"Ulaanbaatar, Mongolia",identical
 0428,0428.json,Being born in the wrong ZIP code can shorten your life,04-28-Being_born_in_the_wrong_ZIP_code_can_shorten_your_life.json,Being born in the wrong ZIP code can shorten your life,identical
 0429,0429.json,Board game — Hobby board games,04-29-BOARD-GAMES-board-game-hobby-board-games.json,Board game — Hobby board games,identical
 0430,0430.json,Miracle on Ice — Popular culture,04-30-MIRACLE-miracle-on-ice-popular-culture.json,Miracle on Ice — Popular culture,identical
@@ -215,7 +215,7 @@ mmdd,new_file,new_title,old_file,old_title,match
 0801,0801.json,Urban renewal — Brazil,08-01-RENEWAL-urban-renewal-brazil.json,Urban renewal — Brazil,identical
 0802,0802.json,Retrieval-augmented generation — Language model,08-02-INFO-retrieval-augmented-generation-language-model.json,Retrieval-augmented generation — Language model,identical
 0803,0803.json,Noir (film) — Overview,08-03-NOIR-noir-film-overview.json,Noir (film) — Overview,identical
-0804,0804.json,List of conspiracy theories — Deep state,08-04-CONSPIRACY-list-of-conspiracy-theories-deep-state.json,List of conspiracy theories — Deep state,identical
+0804,0804.json,Thanksgiving in Mongolia,0804.json,Thanksgiving in Mongolia,identical
 0805,0805.json,Common knowledge,08-05-GK--common-knowledge.json,Common knowledge,identical
 0806,0806.json,"Human activity helped make 2025 third-hottest year on record, experts say — The Guardian",08-06-HUMAN-BRAIN-human-activity-helped-make-2025-third-hottest-year-on-record-experts-say-the-guardian.json,"Human activity helped make 2025 third-hottest year on record, experts say — The Guardian",identical
 0807,0807.json,Only Disconnect by By Gary Shteyngart,,,
@@ -266,7 +266,7 @@ mmdd,new_file,new_title,old_file,old_title,match
 0921,0921.json,The Former Prince Andrew Never Should Have Forwarded Those Emails,09-21-HOBBIES-the-former-prince-andrew-never-should-have-forwarded-those-emails.json,The Former Prince Andrew Never Should Have Forwarded Those Emails,identical
 0922,0922.json,A writers guide to just getting on with it,09-22-WRITING-a-writers-guide-to-just-getting-on-with-it.json,A writers guide to just getting on with it,identical
 0923,0923.json,China in Ten Words,09-23-FOLKLORE-china-in-ten-words.json,China in Ten Words,identical
-0924,0924.json,History of India — Sangam period,09-24-ANCIENT-INDIA-history-of-india-sangam-period.json,History of India — Sangam period,identical
+0924,0924.json,Outside Magazine - The Kingdom of the Lotus,0924.json,Outside Magazine - The Kingdom of the Lotus,identical
 0925,0925.json,Jazz — Syncopation,09-25-JAZZ-MUSIC-jazz-syncopation.json,Jazz — Syncopation,identical
 0926,0926.json,Robot — Indian automata,09-26-ROBOTICS-robot-indian-automata.json,Robot — Indian automata,identical
 0927,0927.json,Lyric poetry — 18th century,09-27-LYRICAL-lyric-poetry-18th-century.json,Lyric poetry — 18th century,identical
@@ -307,8 +307,8 @@ mmdd,new_file,new_title,old_file,old_title,match
 1101,1101.json,JD Vance — Munich Security Conference,11-01-RENEWAL-jd-vance-munich-security-conference.json,JD Vance — Munich Security Conference,identical
 1102,1102.json,Knowledge economy,11-02-INFO-knowledge-economy.json,Knowledge economy,identical
 1103,1103.json,Marvel Noir — X-Men Noir: Mark of Cain,11-03-NOIR-marvel-noir-x-men-noir-mark-of-cain.json,Marvel Noir — X-Men Noir: Mark of Cain,identical
-1104,1104.json,List of conspiracy theories — Pre-Māori settlement of New Zealand,11-04-CONSPIRACY-list-of-conspiracy-theories-pre-māori-settlement-of-new-zealand.json,List of conspiracy theories — Pre-Māori settlement of New Zealand,identical
-1105,1105.json,Aromatic hydrocarbon — Regulation and oversight,11-05-GK--aromatic-hydrocarbon-regulation-and-oversight.json,Aromatic hydrocarbon — Regulation and oversight,identical
+1104,1104.json,LIKE BUTTERFLIES IN THE JUNGLE,1104.json,LIKE BUTTERFLIES IN THE JUNGLE,identical
+1105,1105.json,Never Alone,1105.json,Never Alone,identical
 1106,1106.json,Trump officials halt offshore wind-farm projects over ‘national security risks’ — The Guardian,11-06-HUMAN-BRAIN-trump-officials-halt-offshore-wind-farm-projects-over-national-security-risks-the-guardian.json,Trump officials halt offshore wind-farm projects over ‘national security risks’ — The Guardian,identical
 1107,1107.json,Cancer Detectives: Finding the Cures review – this vaccine documentary is so inspirational it'll make you weep,11-07-RHYTHM-rhythm-rhythmtempo-interaction.json,Rhythm — Rhythm–tempo interaction,different
 1108,1108.json,Frederick Douglass's Fourth of July Speech ClueChain,,,
@@ -337,7 +337,7 @@ mmdd,new_file,new_title,old_file,old_title,match
 1201,1201.json,Urban renewal — Loss or change of character,12-01-RENEWAL-urban-renewal-loss-or-change-of-character.json,Urban renewal — Loss or change of character,identical
 1202,1202.json,Knowledge base,12-02-INFO-knowledge-base.json,Knowledge base,identical
 1203,1203.json,Finding Harmony: A King’s Vision review – some of Charles’s ideas are strangely trippy,12-03-old_0807.json,Finding Harmony: A King’s Vision review – some of Charles’s ideas are strangely trippy,identical
-1204,1204.json,List of conspiracy theories — John F. Kennedy assassination,12-04-CONSPIRACY-list-of-conspiracy-theories-john-f-kennedy-assassination.json,List of conspiracy theories — John F. Kennedy assassination,identical
+1204,1204.json,Mongolia Part 2,1204.json,Mongolia Part 2,identical
 1205,1205.json,Aromaticity — Etymology,12-05-GK--aromaticity-etymology.json,Aromaticity — Etymology,identical
 1206,1206.json,Trump administration freezes $2.1bn in funds for Chicago transit projects — The Guardian,12-06-HUMAN-BRAIN-trump-administration-freezes-21bn-in-funds-for-chicago-transit-projects-the-guardian.json,Trump administration freezes $2.1bn in funds for Chicago transit projects — The Guardian,identical
 1207,1207.json,What happens to the human body in 49C heat? Australians are finding out,,,

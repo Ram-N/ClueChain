@@ -1,237 +1,232 @@
 {
-  "title": "Jazz — Dixieland revival",
+  "title": "Welcome to Dog World - part 2",
   "date": "01-25",
-  "text": "Title: Jazz — Dixieland revival\n\nIn the late 1940s, there was a revival of Dixieland, harking back to the contrapuntal New Orleans style. This was driven in large part by record company reissues of jazz classics by the Oliver, Morton, and Armstrong bands of the 1930s. There were two types of musicians involved in the revival: the first group was made up of those who had begun their careers playing in the traditional style and were returning to it (or continuing what they had been playing all along), such as Bob Crosby's Bobcats, Max Kaminsky, Eddie Condon, and Wild Bill Davison. Most of these players were originally Midwesterners, although there were a small number of New Orleans musicians involved. The second group of revivalists consisted of younger musicians, such as those in the Lu Watters band, Conrad Janis, and Ward Kimball and his Firehouse Five Plus Two Jazz Band. By the late 1940s, Louis Armstrong's Allstars band became a leading ensemble. Through the 1950s and 1960s, Dixieland was one of the most commercially popular jazz styles in the US, Europe, and Japan, although critics paid little attention to it.",
+  "text": "My groups were often surprised that their guide was a young woman, and when I first arrived on the glacier I had taken pride in disarming them with my enthusiasm and knowledge. I praised their adventurousness, offered expertly timed confessions (\"I was terrified on my first helicopter ride, too!\"), took photos with their cameras and let their kids stand in front of me on the sled runners, pretending to drive. At first the performance was exciting, a chance to play the role of my bravest, brightest self. But with time my end of the conversation solidified into a script, one I could deploy with pristine enthusiasm. I hardly noticed what I was saying.",
   "hiddenWords": [
     {
-      "word": "revival",
-      "difficulty": "Easy",
-      "related_words": [
-        "jazz",
-        "style"
-      ],
-      "clues": [
-        {
-          "clue": "A renewal of interest in an old style can be seen as this.",
-          "type": "Indirect",
-          "points": 6
-        },
-        {
-          "clue": "This term refers to the act of bringing something back into popularity.",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "The word means a restoration of something to a former state.",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "jazz",
-      "difficulty": "Easy",
-      "related_words": [
-        "revival",
-        "style"
-      ],
-      "clues": [
-        {
-          "clue": "This music genre is known for its improvisational nature.",
-          "type": "Indirect",
-          "points": 5
-        },
-        {
-          "clue": "A style of music that originated in the southern United States.",
-          "type": "Suggestive",
-          "points": 4
-        },
-        {
-          "clue": "A type of music characterized by its blues and swing influences.",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "style",
+      "word": "glacier",
       "difficulty": "Intermediate",
-      "related_words": [
-        "revival",
-        "jazz"
-      ],
+      "related_words": [],
       "clues": [
         {
-          "clue": "A particular way of doing something can be considered this.",
+          "clue": "A slow-moving river of ice",
           "type": "Indirect",
           "points": 6
         },
         {
-          "clue": "This term refers to a manner or way of presenting something.",
+          "clue": "Formed from compressed snow",
           "type": "Suggestive",
           "points": 4
         },
         {
-          "clue": "A style is a distinctive way of doing something.",
+          "clue": "A large body of ice",
           "type": "Straight",
           "points": 2
         }
       ]
     },
     {
-      "word": "company",
-      "difficulty": "Intermediate",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "A group of people working together can be seen as this.",
-          "type": "Indirect",
-          "points": 5
-        },
-        {
-          "clue": "This term refers to a business organization.",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "A company is a commercial business.",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "classics",
+      "word": "enthusiasm",
       "difficulty": "Easy",
       "related_words": [],
       "clues": [
         {
-          "clue": "These are works that have stood the test of time.",
+          "clue": "Infectious energy at a sports event",
           "type": "Indirect",
-          "points": 6
+          "points": 5
         },
         {
-          "clue": "This term refers to something that is considered a standard or model.",
+          "clue": "A feeling of excitement and interest",
           "type": "Suggestive",
-          "points": 4
+          "points": 3
         },
         {
-          "clue": "Classics are works of enduring quality.",
+          "clue": "Eagerness and excitement",
           "type": "Straight",
           "points": 1
         }
       ]
     },
     {
-      "word": "traditional",
-      "difficulty": "Intermediate",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "Something that is passed down from one generation to the next can be seen as this.",
-          "type": "Indirect",
-          "points": 6
-        },
-        {
-          "clue": "This term refers to something that is in accordance with long-established customs.",
-          "type": "Suggestive",
-          "points": 4
-        },
-        {
-          "clue": "Traditional means conforming to a long-established custom.",
-          "type": "Straight",
-          "points": 2
-        }
-      ]
-    },
-    {
-      "word": "ensemble",
+      "word": "disarming",
       "difficulty": "Hard",
       "related_words": [],
       "clues": [
         {
-          "clue": "A group of musicians playing together can be seen as this, but what if they're not playing music?",
+          "clue": "Removing weapons to show peaceful intent",
           "type": "Indirect",
           "points": 7
         },
         {
-          "clue": "This term refers to a group of people working together to create a performance.",
+          "clue": "Charming someone into feeling at ease",
           "type": "Suggestive",
           "points": 4
         },
         {
-          "clue": "An ensemble is a group of musicians who perform together.",
+          "clue": "Making someone feel less threatened",
           "type": "Straight",
           "points": 2
         }
       ]
     },
     {
-      "word": "commercially",
+      "word": "performance",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "script"
+      ],
+      "clues": [
+        {
+          "clue": "Acting out a role for an audience",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Carrying out a task with skill and style",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The act of doing something",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "pristine",
       "difficulty": "Hard",
       "related_words": [],
       "clues": [
         {
-          "clue": "This term can be linked to the idea of something being successful in terms of sales.",
+          "clue": "Unspoiled and untouched, like a mountain spring",
           "type": "Indirect",
           "points": 6
         },
         {
-          "clue": "This term refers to something that is related to business or trade.",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "Commercially means in relation to commerce or business.",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "popular",
-      "difficulty": "Easy",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "Something that is well-liked by many people can be seen as this.",
-          "type": "Indirect",
-          "points": 5
-        },
-        {
-          "clue": "This term refers to something that is widely accepted or enjoyed.",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "Popular means liked or enjoyed by a large number of people.",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "critics",
-      "difficulty": "Intermediate",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "People who give their opinions on the quality of something can be seen as this.",
-          "type": "Indirect",
-          "points": 6
-        },
-        {
-          "clue": "This term refers to people who evaluate or judge something, often in a professional capacity.",
+          "clue": "Completely clean and pure",
           "type": "Suggestive",
           "points": 4
         },
         {
-          "clue": "Critics are people who give their opinions on the quality of something.",
+          "clue": "Perfectly clean and untouched",
           "type": "Straight",
           "points": 2
         }
       ]
+    },
+    {
+      "word": "script",
+      "difficulty": "Easy",
+      "related_words": [
+        "performance"
+      ],
+      "clues": [
+        {
+          "clue": "A set of instructions for a computer program",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A written document containing dialogue and stage directions",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A written plan or dialogue",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "adventurousness",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A willingness to take bold risks, like a pioneer",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "A desire to explore new and exciting experiences",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A sense of boldness and daring",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "helicopter",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A type of aircraft that can hover in place",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A mode of transportation often used in rescue missions",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A type of aircraft with rotating blades",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "cameras",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Devices used to capture memories of special moments",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Tools used to take photographs",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Devices for taking pictures",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "conversation",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "An exchange of ideas and thoughts between people",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A discussion or talk between two or more people",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "The act of talking with someone",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
     }
   ],
-  "id": "ClueChain-2026-01-25"
+  "id": "ClueChain-2026-06-27"
 }

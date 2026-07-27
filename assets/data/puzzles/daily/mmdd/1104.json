@@ -1,228 +1,232 @@
 {
-  "title": "List of conspiracy theories — Pre-Māori settlement of New Zealand",
+  "title": "LIKE BUTTERFLIES IN THE JUNGLE",
   "date": "11-04",
-  "text": "Title: List of conspiracy theories — Pre-Māori settlement of New Zealand\n\nNew Zealand was first inhabited by indigenous Māori who arrived from Polynesia in the 14th century AD. The Moriori were a group of Polynesians who left the New Zealand mainland for the Chatham Islands in 1500 AD. Some historians in the 1800s proposed that the Moriori were a pre-Māori civilization which some theorists still believe to be true despite it being disproven. Māori mythology tells of races such as the patupaiarehe living in New Zealand before Māori. Other conspiracy theorists have suggested New Zealand was colonised by groups like the Chinese and Spanish. Proponents of these theories may rely on pseudo-archaeological findings. Findings of Kiore rat fossils found beneath tephra of the Taupō Volcanic eruption were unable to be replicated elsewhere. Others have interpreted natural geological rock formations such as the Kaimanawa Wall as pyramids.",
+  "text": "Title: LIKE BUTTERFLIES IN THE JUNGLE\n\nHeading upriver into the darkness, there was no way to tell where water met jungle and the only sound was the buzz of the pirogue’s battered Yamaha Enduro 15. A Brazilian black-market transporter named Junior piloted the long, !at-bottomed boat. Another man, whose job it was to watch for things that could sink us, sat in the bow, illuminated by a spotlight hooked to a car battery. Several pirogues were ahead of us,and several more behind. Each carried three or four Brazilian wildcat gold miners and was loaded to the waterline with sacks of rice, frozen meat, engine parts, and plastic jerricans filled with diesel.",
   "hiddenWords": [
     {
-      "word": "century",
-      "difficulty": "Easy",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "A hundred years, a long time.",
-          "type": "Indirect",
-          "points": 5
-        },
-        {
-          "clue": "A unit of time equal to one hundred years.",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "A period of 100 years.",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "indigenous",
+      "word": "darkness",
       "difficulty": "Intermediate",
       "related_words": [],
       "clues": [
         {
-          "clue": "The opposite of introduced, or brought in from somewhere else.",
+          "clue": "A place where stars are more visible due to the lack of artificial light",
           "type": "Indirect",
           "points": 6
         },
         {
-          "clue": "Referring to the original inhabitants of a region.",
+          "clue": "The state of being without light",
           "type": "Suggestive",
-          "points": 4
+          "points": 3
         },
         {
-          "clue": "Native to a particular place.",
+          "clue": "The absence of illumination",
           "type": "Straight",
-          "points": 2
+          "points": 1
         }
       ]
     },
     {
-      "word": "mainland",
+      "word": "battered",
       "difficulty": "Easy",
       "related_words": [],
       "clues": [
         {
-          "clue": "If you're on this, you're not on an island.",
+          "clue": "What happens to a cake when it's dropped on the floor?",
           "type": "Indirect",
           "points": 5
         },
         {
-          "clue": "The primary landmass of a country or region.",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "The principal land mass of a country or territory.",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "historians",
-      "difficulty": "Intermediate",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "They study what happened before now.",
-          "type": "Indirect",
-          "points": 5
-        },
-        {
-          "clue": "People who study and write about the past.",
+          "clue": "A state of being worn out from use",
           "type": "Suggestive",
           "points": 4
         },
         {
-          "clue": "Experts in history.",
-          "type": "Straight",
-          "points": 2
-        }
-      ]
-    },
-    {
-      "word": "civilization",
-      "difficulty": "Intermediate",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "It's what we talk about when we discuss ancient Egypt, Greece, or Rome.",
-          "type": "Indirect",
-          "points": 6
-        },
-        {
-          "clue": "A complex human society, typically with urban development, social stratification, and cultural achievements.",
-          "type": "Suggestive",
-          "points": 4
-        },
-        {
-          "clue": "A society with a developed culture and way of life.",
-          "type": "Straight",
-          "points": 2
-        }
-      ]
-    },
-    {
-      "word": "mythology",
-      "difficulty": "Easy",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "The stories of old, often involving gods and heroes.",
-          "type": "Indirect",
-          "points": 5
-        },
-        {
-          "clue": "A collection of myths, especially one belonging to a particular religious or cultural tradition.",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "A set of myths.",
+          "clue": "Damaged or worn out",
           "type": "Straight",
           "points": 1
         }
       ]
     },
     {
-      "word": "suggested",
-      "difficulty": "Intermediate",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "You might do this with a possible course of action.",
-          "type": "Indirect",
-          "points": 5
-        },
-        {
-          "clue": "To propose something for consideration or discussion.",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "To put forward for consideration.",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "findings",
-      "difficulty": "Easy",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "What you discover when you are looking for things.",
-          "type": "Indirect",
-          "points": 5
-        },
-        {
-          "clue": "The results of an investigation or research.",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "Things that are discovered.",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "geological",
-      "difficulty": "Intermediate",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "Relating to the Earth's structure and materials.",
-          "type": "Indirect",
-          "points": 5
-        },
-        {
-          "clue": "Relating to the study of the physical structure and substance of the earth.",
-          "type": "Suggestive",
-          "points": 4
-        },
-        {
-          "clue": "Relating to the science of geology.",
-          "type": "Straight",
-          "points": 2
-        }
-      ]
-    },
-    {
-      "word": "formations",
+      "word": "transporter",
       "difficulty": "Hard",
       "related_words": [],
       "clues": [
         {
-          "clue": "They can be natural, or man-made, and they take shape.",
+          "clue": "Someone who makes a living moving things from one place to another",
           "type": "Indirect",
           "points": 6
         },
         {
-          "clue": "The way something is shaped or arranged.",
+          "clue": "A person or thing that carries something",
           "type": "Suggestive",
           "points": 4
         },
         {
-          "clue": "The action of forming something.",
+          "clue": "One who conveys goods or people",
           "type": "Straight",
           "points": 2
         }
       ]
+    },
+    {
+      "word": "spotlight",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A device used to highlight a performer on stage",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A source of light that is focused on a particular area",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A light that shines in a specific direction",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "battery",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A device that powers a flashlight",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A source of electrical power",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A cell that stores energy",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "pirogues",
+      "difficulty": "Hard",
+      "related_words": [
+        "boat"
+      ],
+      "clues": [
+        {
+          "clue": "Small boats used for fishing",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "A type of watercraft",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Small, flat-bottomed boats",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "boat",
+      "difficulty": "Easy",
+      "related_words": [
+        "pirogues"
+      ],
+      "clues": [
+        {
+          "clue": "A vehicle that travels on water",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A vessel used for transportation",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A watercraft",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "miners",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "People who dig for treasure",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Those who extract valuable resources from the earth",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Workers who extract minerals",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "jerricans",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Containers used to store liquids",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Plastic containers with a narrow neck",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Tanks used to carry fuel",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "diesel",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A type of fuel used in engines",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A refined product derived from crude oil",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A fuel used in vehicles",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
     }
   ],
-  "id": "ClueChain-2026-11-04"
+  "id": "ClueChain-2026-01-27"
 }

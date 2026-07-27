@@ -1,232 +1,242 @@
 {
-  "title": "List of conspiracy theories — Death of Nero",
+  "title": "The Kingdom of the Lotus",
   "date": "03-05",
-  "text": "Title: List of conspiracy theories — Death of Nero\n\nIn ancient times, widespread conspiracy theories were circulated pertaining to the death of the \nRoman emperor Nero, who killed himself in 68 AD. Some of these theories claimed that Nero had actually faked \nhis death and was secretly still alive, but in hiding, plotting to reestablish his reign. In most of these stories,\n he was said to have fled to the East, where he was still influential. Other theories held that Nero would return from the dead to retake his throne.\n  Many early Christians feared Nero's return to resume his vicious anti-Christian persecutions. The Book of Revelation may allude to these conspiracy \n  theories in its description of the slaughtered head returned to life.",
+  "text": "Title: The Kingdom of the Lotus\n\nI’M NOT TELLING you where it is. But in order to reach Shambhala, you need a mixture of merit and dumb luck, \nand at first the dumb part seemed to be working. When I wrestled my luggage, \npacked with clothes for three climates and obscure tracts from four religions, \nonto the night train out of New Delhi, there was something auspicious in my bunk assignment.\nIt was a sleeping carriage, the start of a run east. Tomorrow I would cross \nthe border to Nepal on foot. Then on to Kathmandu. \nThen Lhasa. Then over Tibet and onward, sometimes west and always north, to places unknown. \nTonight the train was jostling, hot, full of brilliant Indian colors and smells.",
   "hiddenWords": [
     {
-      "word": "ancient",
+      "word": "merit",
       "difficulty": "Intermediate",
       "related_words": [],
       "clues": [
         {
-          "clue": "Like a long-lost civilization, it is a time long past, a bygone era.",
+          "clue": "A quality that makes someone deserving of reward or praise",
           "type": "Indirect",
-          "points": 5
+          "points": 6
         },
         {
-          "clue": "Referring to a time long ago.",
+          "clue": "Something that is considered when evaluating a person's character",
           "type": "Suggestive",
-          "points": 4
+          "points": 3
         },
         {
-          "clue": "Belonging to the distant past.",
+          "clue": "A desirable or commendable quality",
           "type": "Straight",
-          "points": 1
+          "points": 2
         }
       ]
     },
     {
-      "word": "times",
+      "word": "luggage",
       "difficulty": "Easy",
       "related_words": [],
       "clues": [
         {
-          "clue": "The hands of history turn, and the clock keeps ticking, but what is the measure of it all?",
-          "type": "Indirect",
-          "points": 6
-        },
-        {
-          "clue": "A period in history.",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "Instances or occurrences.",
-          "type": "Straight",
-          "points": 2
-        }
-      ]
-    },
-    {
-      "word": "widespread",
-      "difficulty": "Intermediate",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "Like a virus, it spreads far and wide, touching many.",
+          "clue": "Something that is often a hassle to deal with when traveling",
           "type": "Indirect",
           "points": 5
         },
         {
-          "clue": "Common or prevalent over a large area or among many people.",
+          "clue": "Bags or containers used to carry personal belongings",
           "type": "Suggestive",
           "points": 4
         },
         {
-          "clue": "Extensive or prevalent.",
-          "type": "Straight",
-          "points": 2
-        }
-      ]
-    },
-    {
-      "word": "circulated",
-      "difficulty": "Intermediate",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "Like a rumor, it moved from mouth to ear, never quite settling down.",
-          "type": "Indirect",
-          "points": 6
-        },
-        {
-          "clue": "Spread or passed around from person to person.",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "Distributed or transmitted.",
+          "clue": "Suitcases or trunks",
           "type": "Straight",
           "points": 1
         }
       ]
     },
     {
-      "word": "emperor",
-      "difficulty": "Intermediate",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "A ruler of a vast domain, often with a crown.",
-          "type": "Indirect",
-          "points": 5
-        },
-        {
-          "clue": "A ruler of an empire.",
-          "type": "Suggestive",
-          "points": 4
-        },
-        {
-          "clue": "A sovereign ruler of great power and rank.",
-          "type": "Straight",
-          "points": 2
-        }
-      ]
-    },
-    {
-      "word": "claimed",
-      "difficulty": "Easy",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "In the realm of debate, it's what one puts forward, hoping to be believed.",
-          "type": "Indirect",
-          "points": 6
-        },
-        {
-          "clue": "Asserted something as a fact.",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "Stated or asserted something as a fact.",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "actually",
-      "difficulty": "Easy",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "It's the real deal, the unvarnished truth, the opposite of a dream or a lie.",
-          "type": "Indirect",
-          "points": 5
-        },
-        {
-          "clue": "In reality or fact.",
-          "type": "Suggestive",
-          "points": 4
-        },
-        {
-          "clue": "In fact or reality.",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "plotting",
-      "difficulty": "Intermediate",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "It's what the villains do in the shadows, scheming and scheming.",
-          "type": "Indirect",
-          "points": 6
-        },
-        {
-          "clue": "Engaging in secret plans for a specific purpose.",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "Making secret plans.",
-          "type": "Straight",
-          "points": 2
-        }
-      ]
-    },
-    {
-      "word": "return",
+      "word": "train",
       "difficulty": "Easy",
       "related_words": [
-        "resume"
+        "luggage"
       ],
       "clues": [
         {
-          "clue": "A journey's end, or a comeback, like the tide.",
+          "clue": "A mode of transportation that can be a bit unpredictable",
           "type": "Indirect",
-          "points": 5
+          "points": 6
         },
         {
-          "clue": "The act of coming back to a place or person.",
+          "clue": "A vehicle that carries people or goods on a fixed route",
           "type": "Suggestive",
-          "points": 4
+          "points": 3
         },
         {
-          "clue": "To go or come back.",
+          "clue": "A self-propelled vehicle on rails",
           "type": "Straight",
-          "points": 1
+          "points": 2
         }
       ]
     },
     {
-      "word": "resume",
-      "difficulty": "Intermediate",
+      "word": "religions",
+      "difficulty": "Hard",
       "related_words": [
-        "return"
+        "merit"
       ],
       "clues": [
         {
-          "clue": "When the curtain rises again, or a process begins anew, what is it that takes the stage?",
+          "clue": "Systems of belief that shape the way people live their lives",
           "type": "Indirect",
           "points": 7
         },
         {
-          "clue": "To begin again or continue after a pause or interruption.",
+          "clue": "Organized systems of faith and worship",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Belief systems",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "colors",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The way that light is perceived by the human eye",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Hues or shades used in art or design",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "To begin again or continue.",
+          "clue": "Tints or tones",
           "type": "Straight",
           "points": 2
         }
       ]
+    },
+    {
+      "word": "smells",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "colors"
+      ],
+      "clues": [
+        {
+          "clue": "Odors that can evoke strong emotions or memories",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Scents or aromas that are perceived by the nose",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Odors",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "bunk",
+      "difficulty": "Hard",
+      "related_words": [
+        "train"
+      ],
+      "clues": [
+        {
+          "clue": "A type of bed that is often found in cramped or rustic settings",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "A type of sleeping berth",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A bed or sleeping platform",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "Nepal",
+      "difficulty": "Hard",
+      "related_words": [
+        "train",
+        "bunk"
+      ],
+      "clues": [
+        {
+          "clue": "A country that is home to the highest mountain in the world",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "A country in South Asia",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A nation in the Himalayas",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "carriage",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "train",
+        "bunk"
+      ],
+      "clues": [
+        {
+          "clue": "A vehicle that is often associated with luxury or elegance",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A type of railroad car",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A wheeled vehicle",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "climates",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The weather patterns that shape the way people live and interact with their environment",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "The average atmospheric conditions in a particular region",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Weather patterns",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
     }
   ],
-  "id": "ClueChain-2026-03-05"
+  "id": "ClueChain-2026-02-27"
 }

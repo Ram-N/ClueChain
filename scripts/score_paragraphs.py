@@ -374,6 +374,40 @@ def _clue_word_leaks(nlp, hidden_word: str, clue_text: str) -> Optional[str]:
     return None
 
 
+def score_length_penalty(paragraph_data: Dict) -> Tuple[float, str]:
+    """
+    Penalize paragraphs that are too short or too long for 10 hidden words.
+    Ideal range: 90-160 words. Graduated penalties outside that range.
+    Returns (penalty <= 0, reason string).
+    """
+    text = paragraph_data.get("text", "")
+    word_count = len(text.split())
+
+    if word_count < 50:
+        penalty = -1.5
+        reason = f"{word_count} words — far too short for 10 hidden words"
+    elif word_count < 75:
+        penalty = -1.0
+        reason = f"{word_count} words — too short, words will be cramped"
+    elif word_count < 90:
+        penalty = -0.5
+        reason = f"{word_count} words — slightly short"
+    elif word_count <= 160:
+        penalty = 0.0
+        reason = f"{word_count} words — ideal range"
+    elif word_count <= 175:
+        penalty = 0.0
+        reason = f"{word_count} words — acceptable"
+    elif word_count <= 200:
+        penalty = -0.5
+        reason = f"{word_count} words — slightly long"
+    else:
+        penalty = -1.0
+        reason = f"{word_count} words — too long, drags for a daily puzzle"
+
+    return penalty, reason
+
+
 def score_clue_leaks(nlp, paragraph_data: Dict) -> Tuple[float, str]:
     """
     Penalize puzzles where a hidden word (or variant) appears in its own clues.
@@ -464,7 +498,7 @@ def compute_final_score(scores: Dict) -> float:
             total += scores[dim] * weight
 
     # Add raw penalties (deductions)
-    for penalty_key in ("catalog_penalty", "title_spoiler", "clue_leaks"):
+    for penalty_key in ("catalog_penalty", "title_spoiler", "clue_leaks", "length_penalty"):
         val = scores.get(penalty_key, 0)
         if val is not None:
             total += val
@@ -486,7 +520,7 @@ def compute_partial_score(scores: Dict) -> Tuple[float, float]:
             weight_used += weight
 
     penalties = 0.0
-    for penalty_key in ("catalog_penalty", "title_spoiler", "clue_leaks"):
+    for penalty_key in ("catalog_penalty", "title_spoiler", "clue_leaks", "length_penalty"):
         val = scores.get(penalty_key, 0) or 0
         penalties += val
 
@@ -621,6 +655,7 @@ def generate_rankings(all_scores: Dict) -> List[Dict]:
             "catalog_penalty": scores.get("catalog_penalty"),
             "title_spoiler": scores.get("title_spoiler"),
             "clue_leaks": scores.get("clue_leaks"),
+            "length_penalty": scores.get("length_penalty"),
         })
 
     rows.sort(key=lambda r: r["final_score"], reverse=True)
@@ -634,7 +669,7 @@ def write_rankings_csv(rows: List[Dict], output_path: Path):
                   "final_score", "tier", "score_type",
                   "word_quality", "variety", "connectivity", "clueability",
                   "discovery_curve", "narrative_interest", "catalog_penalty",
-                  "title_spoiler", "clue_leaks"]
+                  "title_spoiler", "clue_leaks", "length_penalty"]
     with open(output_path, "w", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(f, fieldnames=fieldnames)
         writer.writeheader()
@@ -835,6 +870,25 @@ Examples:
             leak_count += 1
     if leak_count:
         print(f"Clue leak penalty applied to {leak_count} paragraphs")
+
+    # Length penalty (always runs — no spaCy or LLM needed)
+    length_penalty_count = 0
+    for filename, data in paragraphs:
+        lp_score, lp_reason = score_length_penalty(data)
+        if filename not in all_scores:
+            all_scores[filename] = {
+                "title": data.get("title", ""),
+                "date": data.get("date", ""),
+                "scores": {},
+                "reasons": {},
+                "has_llm_scores": False,
+            }
+        all_scores[filename]["scores"]["length_penalty"] = lp_score
+        all_scores[filename]["reasons"]["length_penalty"] = lp_reason
+        if lp_score < 0:
+            length_penalty_count += 1
+    if length_penalty_count:
+        print(f"Length penalty applied to {length_penalty_count} paragraphs")
 
     stamp_summary_fields(all_scores)
     save_scores(all_scores, _SCORES_FILE)
