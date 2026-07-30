@@ -1,0 +1,247 @@
+{
+  "id": "ClueChain-2025-07-22",
+  "date": "01-01",
+  "title": "Invisible Man by Ralph Ellison (1952)",
+  "text": "“I am an invisible man.”\nEllison’s narrator lays it all on the line to start. He tells the reader that he is invisible, and it soon becomes apparent that this truth is a metaphor for Blackness in the early 20th century. The unnamed protagonist (unseen even by the reader) struggles to fulfill his dreams of professional success due to racism.",
+  "hiddenWords": [
+    {
+      "word": "invisible",
+      "difficulty": "Hard",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "Unseen by the eye, yet felt in the heart's sigh, a presence overlooked, under the sky.",
+          "points": 7
+        },
+        {
+          "type": "Suggestive",
+          "clue": "Unable to be seen, like air or a ghost.",
+          "points": 4
+        },
+        {
+          "type": "Straight",
+          "clue": "Unable to be seen.",
+          "points": 2
+        }
+      ],
+      "related_words": [
+        "unseen"
+      ]
+    },
+    {
+      "word": "narrator",
+      "difficulty": "Intermediate",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "The voice of the story, shaping what we hear, a perspective offered, drawing us near.",
+          "points": 5
+        },
+        {
+          "type": "Suggestive",
+          "clue": "A person who tells a story, especially in a literary work.",
+          "points": 3
+        },
+        {
+          "type": "Straight",
+          "clue": "A person who narrates something, especially a character who recounts the events of a novel or narrative poem.",
+          "points": 1
+        }
+      ],
+      "related_words": [
+        "reader"
+      ]
+    },
+    {
+      "word": "reader",
+      "difficulty": "Easy",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "One who deciphers words, and journeys through pages, across various ages.",
+          "points": 4
+        },
+        {
+          "type": "Suggestive",
+          "clue": "A person who reads, especially for pleasure.",
+          "points": 2
+        },
+        {
+          "type": "Straight",
+          "clue": "A person who reads.",
+          "points": 1
+        }
+      ],
+      "related_words": [
+        "narrator"
+      ]
+    },
+    {
+      "word": "truth",
+      "difficulty": "Intermediate",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "It can be stranger than fiction, a reality unveiled without contradiction.",
+          "points": 5
+        },
+        {
+          "type": "Suggestive",
+          "clue": "That which is in accordance with fact or reality.",
+          "points": 3
+        },
+        {
+          "type": "Straight",
+          "clue": "The quality or state of being true.",
+          "points": 1
+        }
+      ],
+      "related_words": [
+        "metaphor"
+      ]
+    },
+    {
+      "word": "metaphor",
+      "difficulty": "Hard",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "A figure of speech, where one thing becomes another, creating imagery, like a hidden mother.",
+          "points": 7
+        },
+        {
+          "type": "Suggestive",
+          "clue": "A figure of speech in which a word or phrase is applied to an object or action to which it is not literally applicable.",
+          "points": 4
+        },
+        {
+          "type": "Straight",
+          "clue": "A figure of speech in which a word or phrase is applied to an object or action to which it is not literally applicable.",
+          "points": 2
+        }
+      ],
+      "related_words": [
+        "truth"
+      ]
+    },
+    {
+      "word": "Blackness",
+      "difficulty": "Intermediate",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "A profound shade, or a cultural state, encompassing identity, sealed by fate.",
+          "points": 5
+        },
+        {
+          "type": "Suggestive",
+          "clue": "The quality or state of being black, especially in the context of race.",
+          "points": 3
+        },
+        {
+          "type": "Straight",
+          "clue": "The quality or state of being black.",
+          "points": 1
+        }
+      ],
+      "related_words": [
+        "racism"
+      ]
+    },
+    {
+      "word": "unnamed",
+      "difficulty": "Intermediate",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "Without a label, a mystery concealed, its identity hidden, yet revealed.",
+          "points": 5
+        },
+        {
+          "type": "Suggestive",
+          "clue": "Not having been given a name.",
+          "points": 3
+        },
+        {
+          "type": "Straight",
+          "clue": "Not named or identified.",
+          "points": 1
+        }
+      ],
+      "related_words": []
+    },
+    {
+      "word": "unseen",
+      "difficulty": "Easy",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "Beyond the gaze, a hidden display, present in shadow, fading away.",
+          "points": 4
+        },
+        {
+          "type": "Suggestive",
+          "clue": "Not seen or noticed, invisible.",
+          "points": 2
+        },
+        {
+          "type": "Straight",
+          "clue": "Not seen or noticed.",
+          "points": 1
+        }
+      ],
+      "related_words": [
+        "invisible"
+      ]
+    },
+    {
+      "word": "struggles",
+      "difficulty": "Intermediate",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "Faces difficulty, a wrestling match, striving hard, a victory to catch.",
+          "points": 5
+        },
+        {
+          "type": "Suggestive",
+          "clue": "To make forceful or violent efforts to get free of restraint or confinement.",
+          "points": 3
+        },
+        {
+          "type": "Straight",
+          "clue": "Makes forceful or violent efforts to get free of restraint or confinement.",
+          "points": 1
+        }
+      ],
+      "related_words": [
+        "racism"
+      ]
+    },
+    {
+      "word": "racism",
+      "difficulty": "Hard",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "A prejudice deep, a societal flaw, judging by color, ignoring the law.",
+          "points": 7
+        },
+        {
+          "type": "Suggestive",
+          "clue": "Prejudice, discrimination, or antagonism directed against someone of a different race.",
+          "points": 4
+        },
+        {
+          "type": "Straight",
+          "clue": "Prejudice, discrimination, or antagonism directed against someone of a different race based on the belief that one's own race is superior.",
+          "points": 2
+        }
+      ],
+      "related_words": [
+        "Blackness",
+        "struggles"
+      ]
+    }
+  ]
+}

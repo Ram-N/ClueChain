@@ -1,5 +1,5 @@
 mmdd,new_file,new_title,old_file,old_title,match
-0101,0101.json,Invisible Man by Ralph Ellison (1952),01-01-invisible.json,Invisible Man by Ralph Ellison (1952),identical
+0101,0101.json,Two strangers Meet,0101.json,Two strangers Meet,identical
 0102,0102.json,Information technology — Storage,01-02-INFO-information-technology-storage.json,Information technology — Storage,identical
 0103,0103.json,Film noir — Rural/outback noir,01-03-NOIR-film-noir-ruraloutback-noir.json,Film noir — Rural/outback noir,identical
 0104,0104.json,List of conspiracy theories — New England Patriots,01-04-CONSPIRACY-list-of-conspiracy-theories-new-england-patriots.json,List of conspiracy theories — New England Patriots,identical
@@ -22,7 +22,7 @@ mmdd,new_file,new_title,old_file,old_title,match
 0121,0121.json,Politico has figured out,01-21-HOBBIES-politico-has-figured-out.json,Politico has figured out,identical
 0122,0122.json,My dirty secret writing life,01-22-WRITING-my-dirty-secret-writing-life.json,My dirty secret writing life,identical
 0123,0123.json,Ursula K. Le Guin on myths,01-23-FOLKLORE-ursula-k-le-guin-on-myths.json,Ursula K. Le Guin on myths,identical
-0124,0124.json,History of India — World War I,01-24-ANCIENT-INDIA-history-of-india-world-war-i.json,History of India — World War I,identical
+0124,0124.json,Chernobyl,0124.json,Chernobyl,identical
 0125,0125.json,Welcome to Dog World - part 2,0125.json,Welcome to Dog World - part 2,identical
 0126,0126.json,Robot — Etymology,01-26-ROBOTICS-robot-etymology.json,Robot — Etymology,identical
 0127,0127.json,Nelly Sachs — Overview,01-27-LYRICAL-nelly-sachs-overview.json,Nelly Sachs — Overview,identical
@@ -197,7 +197,7 @@ mmdd,new_file,new_title,old_file,old_title,match
 0714,0714.json,Rhythm and blues — Afro-Cuban rhythmic influence,07-14_slaughterhouse.json,Slaughterhouse Five (Kurt Vonnegut) 1969,different
 0715,0715.json,Metamorphosis by Franz Kafka (1915),07-15_Kafka.json,Metamorphosis by Franz Kafka (1915),identical
 0716,0716.json,—Nineteen Eighty-Four by George Orwell (1949),07-16_1984.json,—Nineteen Eighty-Four by George Orwell (1949),identical
-0717,0717.json,Notable Geographers Through the Ages,07-17_Notable_Geographers_Through_the_Ages.json,Notable Geographers Through the Ages,identical
+0717,0717.json,The Invisible City Beneath Paris,0717.json,The Invisible City Beneath Paris,identical
 0718,0718.json,"Mustard, the Color of Millennial Candidates",07-18-COLORS-mustard-the-color-of-millennial-candidates.json,"Mustard, the Color of Millennial Candidates",identical
 0719,0719.json,I’ve studied conflict resolution,07-19-NEGOTIATION-ive-studied-conflict-resolution.json,I’ve studied conflict resolution,identical
 0720,0720.json,Inside the Mind of an Ecoterrorist,07-20-COOL-GADGETS-inside-the-mind-of-an-ecoterrorist.json,Inside the Mind of an Ecoterrorist,identical
@@ -246,7 +246,7 @@ mmdd,new_file,new_title,old_file,old_title,match
 0901,0901.json,Renewal theory — Interpretation,09-01-RENEWAL-renewal-theory-interpretation.json,Renewal theory — Interpretation,identical
 0902,0902.json,Retrieval-augmented generation — Challenges,09-02-INFO-retrieval-augmented-generation-challenges.json,Retrieval-augmented generation — Challenges,identical
 0903,0903.json,Neo-noir — Overview,09-03-NOIR-neo-noir-overview.json,Neo-noir — Overview,identical
-0904,0904.json,Invisible Man by Ralph Ellison (1952),09-04-RHYTHM-circadian-rhythm-in-drosophila.json,Circadian rhythm — In Drosophila,different
+0904,0904.json,Who Dares Wins,0904.json,Who Dares Wins,identical
 0905,0905.json,General knowledge,09-05-GK--general-knowledge.json,General knowledge,identical
 0906,0906.json,UK households bin 168m Christmas lights and ‘fast tech’ items a year — The Guardian,09-06-HUMAN-BRAIN-uk-households-bin-168m-christmas-lights-and-fast-tech-items-a-year-the-guardian.json,UK households bin 168m Christmas lights and ‘fast tech’ items a year — The Guardian,identical
 0907,0907.json,Finding Father Christmas review – Lenny Rush and James Buckley's chemistry is just wonderful,,,
@@ -328,7 +328,7 @@ mmdd,new_file,new_title,old_file,old_title,match
 1122,1122.json,Cal Newport on Writing Productivity,11-22-WRITING-cal-newport-on-writing-productivity.json,Cal Newport on Writing Productivity,identical
 1123,1123.json,The Second Coming,11-23-FOLKLORE-the-second-coming.json,The Second Coming,identical
 1124,1124.json,History of India — Gurjara-Pratihara Empire,11-24-ANCIENT-INDIA-history-of-india-gurjara-pratihara-empire.json,History of India — Gurjara-Pratihara Empire,identical
-1125,1125.json,Jazz — African rhythmic retention,11-25-JAZZ-MUSIC-jazz-african-rhythmic-retention.json,Jazz — African rhythmic retention,identical
+1125,1125.json,My Baby in Mongolia,1125.json,My Baby in Mongolia,identical
 1126,1126.json,Robot — Swarm robots,11-26-ROBOTICS-robot-swarm-robots.json,Robot — Swarm robots,identical
 1127,1127.json,Judah Halevi — Riddles,11-27-LYRICAL-judah-halevi-riddles.json,Judah Halevi — Riddles,identical
 1128,1128.json,Manifest destiny — Spanish–American War,11-28-DESTINY-manifest-destiny-spanishamerican-war.json,Manifest destiny — Spanish–American War,identical
@@ -357,7 +357,7 @@ mmdd,new_file,new_title,old_file,old_title,match
 1221,1221.json,Tips and Tricks From a Crossword Prodigy,12-21-HOBBIES-tips-and-tricks-from-a-crossword-prodigy.json,Tips and Tricks From a Crossword Prodigy,identical
 1222,1222.json,Writing and the Creative Life,12-22-WRITING-writing-and-the-creative-life.json,Writing and the Creative Life,identical
 1223,1223.json,What the Germans Left Behind,12-23-FOLKLORE-what-the-germans-left-behind.json,What the Germans Left Behind,identical
-1224,1224.json,History of India — Rashtrakuta Empire,12-24-ANCIENT-INDIA-history-of-india-rashtrakuta-empire.json,History of India — Rashtrakuta Empire,identical
+1224,1224.json,Shuffleboard at McMurdo,1224.json,Shuffleboard at McMurdo,identical
 1225,1225.json,"Chardon, Ohio School Shooting",1225.json,"Chardon, Ohio School Shooting",identical
 1226,1226.json,Robot — Home automation for the elderly and disabled,12-26-ROBOTICS-robot-home-automation-for-the-elderly-and-disabled.json,Robot — Home automation for the elderly and disabled,identical
 1227,1227.json,Petrarch — Works,12-27-LYRICAL-petrarch-works.json,Petrarch — Works,identical

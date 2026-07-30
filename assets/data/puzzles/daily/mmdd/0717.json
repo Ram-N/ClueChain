@@ -1,237 +1,239 @@
 {
-  "title": "Notable Geographers Through the Ages",
+  "title": "The Invisible City Beneath Paris",
   "date": "07-17",
-  "text": "Notable Geographers Through the Ages\nThe Babylonians were the first cartographers but the Greeks were the first geographers. These were the men who science owes for their contribution to geography. Eratosthenes was the first to simplify the science of geography with his works on longitude and latitude. The 12th Century geographer Al Idrisi made a map of North Africa and Eurasia that included the histories of the peoples and cultures in these areas. The 18th Century Prussian naturalist Alexander Humboldt wrote Kosmos, a book about geography and natural science. Another 18th Century scholar, the German Emmanuel Kant, was known for treating geography as an intellectual science. The 19th century saw Carl Ritter, also of Germany, as one of the most important geographers in history. The 20th Century Italian Arnold Faustini also made his mark in geography, and one of the moon's craters was later named after in his honor.",
+  "text": "Title: The Invisible City Beneath Paris \n\nThe map runs to sixteen laminated foolscap pages, or about ten square feet, when I tile the pages together. I have been given it on the condition that I do not pass it on. It is not like any map I have ever seen, and I have seen some strange maps in my time. The plan of the above-ground city is traced carefully in pale silver-gray ink, such that, if you read only for the gray, you can discern the faint footprints of apartment blocks and embassies, parks and ornamental gardens, boulevards and streets, the churches, the railway lines and the train stations, all hovering there, intricate and immaterial.",
   "hiddenWords": [
-    {
-      "word": "century",
-      "difficulty": "Easy",
-      "related_words": [
-        "history",
-        "science"
-      ],
-      "clues": [
-        {
-          "clue": "A period of 100 years is a long time, but it's just a number to some.",
-          "type": "Indirect",
-          "points": 6
-        },
-        {
-          "clue": "This term is often used to describe a time period in history.",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "A century is a unit of time.",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "history",
-      "difficulty": "Intermediate",
-      "related_words": [
-        "century",
-        "science"
-      ],
-      "clues": [
-        {
-          "clue": "The past is prologue, and this word is the story of what's come before.",
-          "type": "Indirect",
-          "points": 5
-        },
-        {
-          "clue": "This term refers to the study of past events.",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "History is the record of past events.",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "science",
-      "difficulty": "Intermediate",
-      "related_words": [
-        "century",
-        "history"
-      ],
-      "clues": [
-        {
-          "clue": "A systematic study that's always seeking the truth, but sometimes the truth is hard to find.",
-          "type": "Indirect",
-          "points": 6
-        },
-        {
-          "clue": "This term refers to a systematic study of the natural world.",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "Science is a method of studying the world.",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
     {
       "word": "map",
       "difficulty": "Easy",
       "related_words": [],
       "clues": [
         {
-          "clue": "A guide to help you find your way, but it's not always easy to read.",
-          "type": "Indirect",
-          "points": 5
+          "clue": "A guide to find your way",
+          "type": "Straight",
+          "points": 1
         },
         {
-          "clue": "This term refers to a visual representation of an area.",
+          "clue": "It's often folded and carried",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "A map is a chart of a region.",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "natural",
-      "difficulty": "Intermediate",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "The world outside is full of wonder, and this word describes it.",
+          "clue": "A representation of the world, but not the world itself",
           "type": "Indirect",
           "points": 6
-        },
-        {
-          "clue": "This term refers to something that is not man-made.",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "Natural refers to the physical world.",
-          "type": "Straight",
-          "points": 1
         }
       ]
     },
     {
-      "word": "geography",
-      "difficulty": "Hard",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "The study of the earth's surface, but it's not just about mountains and rivers.",
-          "type": "Indirect",
-          "points": 7
-        },
-        {
-          "clue": "This term refers to the study of the earth's physical features.",
-          "type": "Suggestive",
-          "points": 4
-        },
-        {
-          "clue": "Geography is the study of the earth's surface.",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "book",
+      "word": "time",
       "difficulty": "Easy",
       "related_words": [],
       "clues": [
         {
-          "clue": "A collection of pages with a cover, but it's not just a physical object.",
-          "type": "Indirect",
-          "points": 5
+          "clue": "A measure of how long something takes",
+          "type": "Straight",
+          "points": 1
         },
         {
-          "clue": "This term refers to a written or printed work.",
+          "clue": "It can be wasted or well-spent",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "A book is a written work.",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "mark",
-      "difficulty": "Intermediate",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "A sign or symbol that leaves a lasting impression, but it's not always intentional.",
+          "clue": "A concept that governs our lives, yet remains intangible",
           "type": "Indirect",
           "points": 6
-        },
-        {
-          "clue": "This term refers to a sign or symbol that indicates something.",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "A mark is a sign or symbol.",
-          "type": "Straight",
-          "points": 1
         }
       ]
     },
     {
-      "word": "moon",
-      "difficulty": "Easy",
-      "related_words": [],
+      "word": "plan",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "map"
+      ],
       "clues": [
         {
-          "clue": "A celestial body that's often associated with romance, but it's not just a pretty face.",
-          "type": "Indirect",
-          "points": 5
-        },
-        {
-          "clue": "This term refers to the natural satellite of the earth.",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "The moon is a celestial body.",
+          "clue": "A detailed proposal for doing or achieving something",
           "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "crater",
-      "difficulty": "Hard",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "A hole in the ground, but it's not just a simple depression.",
-          "type": "Indirect",
-          "points": 7
+          "points": 2
         },
         {
-          "clue": "This term refers to a depression in the surface of a planet or moon.",
+          "clue": "It requires consideration of various factors",
           "type": "Suggestive",
           "points": 4
         },
         {
-          "clue": "A crater is a depression in a planet's surface.",
+          "clue": "Like a blueprint, but for actions rather than buildings",
+          "type": "Indirect",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "word": "silver",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A precious metal often used in jewelry",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "It has a distinctive color and is highly valued",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "In the world of chemistry, it's represented by a symbol",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "word": "gray",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A color that is neither black nor white",
           "type": "Straight",
           "points": 1
+        },
+        {
+          "clue": "It's often associated with neutrality or balance",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Imagine a world without color, and you might see only this hue",
+          "type": "Indirect",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "word": "footprints",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Traces left by walking or standing",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "They can be found in sand, snow, or even on the moon",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Evidence of presence, like a ghostly reminder",
+          "type": "Indirect",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "word": "apartment",
+      "difficulty": "Hard",
+      "related_words": [
+        "embassies",
+        "parks"
+      ],
+      "clues": [
+        {
+          "clue": "A self-contained housing unit",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "It's often found in a larger building with many units",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Imagine a vertical neighborhood, with homes stacked high",
+          "type": "Indirect",
+          "points": 7
+        }
+      ]
+    },
+    {
+      "word": "embassies",
+      "difficulty": "Hard",
+      "related_words": [
+        "apartment",
+        "parks"
+      ],
+      "clues": [
+        {
+          "clue": "Official representations of a country in a foreign land",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "They serve as a symbol of diplomatic relations",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "In a world of international intrigue, these buildings hold secrets",
+          "type": "Indirect",
+          "points": 7
+        }
+      ]
+    },
+    {
+      "word": "parks",
+      "difficulty": "Easy",
+      "related_words": [
+        "apartment",
+        "embassies"
+      ],
+      "clues": [
+        {
+          "clue": "Green spaces in the midst of urban areas",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "They provide a tranquil escape from city life",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Nature's oasis in the heart of concrete and steel",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "word": "gardens",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Plots of land used for growing plants and flowers",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "They can be a source of beauty and tranquility",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Imagine a tapestry of colors, woven from nature's threads",
+          "type": "Indirect",
+          "points": 5
         }
       ]
     }
   ],
-  "id": "ClueChain-2026-07-17"
+  "id": "ClueChain-2026-05-01"
 }

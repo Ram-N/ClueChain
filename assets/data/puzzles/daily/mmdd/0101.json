@@ -1,247 +1,237 @@
 {
-  "id": "ClueChain-2025-07-22",
+  "title": "Two strangers Meet",
   "date": "01-01",
-  "title": "Invisible Man by Ralph Ellison (1952)",
-  "text": "“I am an invisible man.”\nEllison’s narrator lays it all on the line to start. He tells the reader that he is invisible, and it soon becomes apparent that this truth is a metaphor for Blackness in the early 20th century. The unnamed protagonist (unseen even by the reader) struggles to fulfill his dreams of professional success due to racism.",
+  "text": "Title: Two strangers Meet\n\nLeon Whiteley had been meandering west for 309 days and 11,337 miles. His journey began in Gumi, \na South Korean city where he’d spent the year teaching English. When his tenure ran out, he \ncame up with the boldest, daringest overland voyage he could fathom: riding to England by \nbike—solo. So far, the trip had not gone as planned. But Leon thrived on misadventure.",
   "hiddenWords": [
     {
-      "word": "invisible",
-      "difficulty": "Hard",
-      "clues": [
-        {
-          "type": "Indirect",
-          "clue": "Unseen by the eye, yet felt in the heart's sigh, a presence overlooked, under the sky.",
-          "points": 7
-        },
-        {
-          "type": "Suggestive",
-          "clue": "Unable to be seen, like air or a ghost.",
-          "points": 4
-        },
-        {
-          "type": "Straight",
-          "clue": "Unable to be seen.",
-          "points": 2
-        }
-      ],
-      "related_words": [
-        "unseen"
-      ]
-    },
-    {
-      "word": "narrator",
+      "word": "journey",
       "difficulty": "Intermediate",
+      "related_words": [
+        "voyage",
+        "trip"
+      ],
       "clues": [
         {
+          "clue": "A path that's often long and winding",
           "type": "Indirect",
-          "clue": "The voice of the story, shaping what we hear, a perspective offered, drawing us near.",
-          "points": 5
+          "points": 6
         },
         {
+          "clue": "Something you might plan and prepare for",
           "type": "Suggestive",
-          "clue": "A person who tells a story, especially in a literary work.",
           "points": 3
         },
         {
+          "clue": "A travel or excursion",
           "type": "Straight",
-          "clue": "A person who narrates something, especially a character who recounts the events of a novel or narrative poem.",
           "points": 1
         }
-      ],
-      "related_words": [
-        "reader"
       ]
     },
     {
-      "word": "reader",
+      "word": "voyage",
+      "difficulty": "Hard",
+      "related_words": [
+        "journey",
+        "trip"
+      ],
+      "clues": [
+        {
+          "clue": "A long journey by sea or space, often requiring great skill",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "An adventure that takes you far from home",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A long journey, especially by sea",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "trip",
       "difficulty": "Easy",
-      "clues": [
-        {
-          "type": "Indirect",
-          "clue": "One who deciphers words, and journeys through pages, across various ages.",
-          "points": 4
-        },
-        {
-          "type": "Suggestive",
-          "clue": "A person who reads, especially for pleasure.",
-          "points": 2
-        },
-        {
-          "type": "Straight",
-          "clue": "A person who reads.",
-          "points": 1
-        }
-      ],
       "related_words": [
-        "narrator"
-      ]
-    },
-    {
-      "word": "truth",
-      "difficulty": "Intermediate",
+        "journey",
+        "voyage"
+      ],
       "clues": [
         {
+          "clue": "A misstep can ruin it",
           "type": "Indirect",
-          "clue": "It can be stranger than fiction, a reality unveiled without contradiction.",
           "points": 5
         },
         {
+          "clue": "A short journey, often for pleasure",
           "type": "Suggestive",
-          "clue": "That which is in accordance with fact or reality.",
           "points": 3
         },
         {
+          "clue": "A journey or excursion",
           "type": "Straight",
-          "clue": "The quality or state of being true.",
           "points": 1
         }
-      ],
-      "related_words": [
-        "metaphor"
       ]
     },
     {
-      "word": "metaphor",
-      "difficulty": "Hard",
-      "clues": [
-        {
-          "type": "Indirect",
-          "clue": "A figure of speech, where one thing becomes another, creating imagery, like a hidden mother.",
-          "points": 7
-        },
-        {
-          "type": "Suggestive",
-          "clue": "A figure of speech in which a word or phrase is applied to an object or action to which it is not literally applicable.",
-          "points": 4
-        },
-        {
-          "type": "Straight",
-          "clue": "A figure of speech in which a word or phrase is applied to an object or action to which it is not literally applicable.",
-          "points": 2
-        }
-      ],
-      "related_words": [
-        "truth"
-      ]
-    },
-    {
-      "word": "Blackness",
-      "difficulty": "Intermediate",
-      "clues": [
-        {
-          "type": "Indirect",
-          "clue": "A profound shade, or a cultural state, encompassing identity, sealed by fate.",
-          "points": 5
-        },
-        {
-          "type": "Suggestive",
-          "clue": "The quality or state of being black, especially in the context of race.",
-          "points": 3
-        },
-        {
-          "type": "Straight",
-          "clue": "The quality or state of being black.",
-          "points": 1
-        }
-      ],
-      "related_words": [
-        "racism"
-      ]
-    },
-    {
-      "word": "unnamed",
-      "difficulty": "Intermediate",
-      "clues": [
-        {
-          "type": "Indirect",
-          "clue": "Without a label, a mystery concealed, its identity hidden, yet revealed.",
-          "points": 5
-        },
-        {
-          "type": "Suggestive",
-          "clue": "Not having been given a name.",
-          "points": 3
-        },
-        {
-          "type": "Straight",
-          "clue": "Not named or identified.",
-          "points": 1
-        }
-      ],
-      "related_words": []
-    },
-    {
-      "word": "unseen",
+      "word": "bike",
       "difficulty": "Easy",
+      "related_words": [],
       "clues": [
         {
+          "clue": "Wheels and pedals are its best friends",
           "type": "Indirect",
-          "clue": "Beyond the gaze, a hidden display, present in shadow, fading away.",
-          "points": 4
+          "points": 6
         },
         {
+          "clue": "A popular mode of transportation",
           "type": "Suggestive",
-          "clue": "Not seen or noticed, invisible.",
-          "points": 2
-        },
-        {
-          "type": "Straight",
-          "clue": "Not seen or noticed.",
-          "points": 1
-        }
-      ],
-      "related_words": [
-        "invisible"
-      ]
-    },
-    {
-      "word": "struggles",
-      "difficulty": "Intermediate",
-      "clues": [
-        {
-          "type": "Indirect",
-          "clue": "Faces difficulty, a wrestling match, striving hard, a victory to catch.",
-          "points": 5
-        },
-        {
-          "type": "Suggestive",
-          "clue": "To make forceful or violent efforts to get free of restraint or confinement.",
           "points": 3
         },
         {
+          "clue": "A two-wheeled vehicle",
           "type": "Straight",
-          "clue": "Makes forceful or violent efforts to get free of restraint or confinement.",
           "points": 1
         }
-      ],
-      "related_words": [
-        "racism"
       ]
     },
     {
-      "word": "racism",
-      "difficulty": "Hard",
+      "word": "English",
+      "difficulty": "Easy",
+      "related_words": [],
       "clues": [
         {
+          "clue": "The language of Shakespeare",
           "type": "Indirect",
-          "clue": "A prejudice deep, a societal flaw, judging by color, ignoring the law.",
+          "points": 5
+        },
+        {
+          "clue": "A widely spoken language",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The language spoken in England",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "year",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A cycle of seasons",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A unit of time",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A period of 365 days",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "solo",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "One musician can make beautiful music this way",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Alone, without companions",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Unaccompanied",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "misadventure",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "An unfortunate event that can be a great story",
+          "type": "Indirect",
           "points": 7
         },
         {
+          "clue": "An unpleasant or unlucky experience",
           "type": "Suggestive",
-          "clue": "Prejudice, discrimination, or antagonism directed against someone of a different race.",
           "points": 4
         },
         {
+          "clue": "An unfortunate or disastrous event",
           "type": "Straight",
-          "clue": "Prejudice, discrimination, or antagonism directed against someone of a different race based on the belief that one's own race is superior.",
           "points": 2
         }
-      ],
-      "related_words": [
-        "Blackness",
-        "struggles"
+      ]
+    },
+    {
+      "word": "tenure",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A long-term position can bring security",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A period of time spent in a job or position",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A status of holding a position",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "boldest",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A daring act requires courage",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Showing courage or confidence",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Most daring or courageous",
+          "type": "Straight",
+          "points": 2
+        }
       ]
     }
-  ]
+  ],
+  "id": "ClueChain-2026-02-01"
 }

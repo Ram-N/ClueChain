@@ -1,237 +1,232 @@
 {
-  "title": "History of India — World War I",
+  "title": "Chernobyl",
   "date": "01-24",
-  "text": "During World War I, over 800,000 volunteered for the army, and more than 400,000 volunteered for non-combat roles, compared with the pre-war annual recruitment of about 15,000 men. The Army saw early action on the Western Front at the First Battle of Ypres. After a year of front-line duty, sickness and casualties had reduced the Indian Corps to the point where it had to be withdrawn. Nearly 700,000 Indians fought the Turks in the Mesopotamian campaign. Indian formations were also sent to East Africa, Egypt, and Gallipoli. Indian Army and Imperial Service Troops fought during the Sinai and Palestine Campaign's defence of the Suez Canal in 1915, at Romani in 1916 and to Jerusalem in 1917. India units occupied the Jordan Valley and after the German spring offensive they became the major force in the Egyptian Expeditionary Force during the Battle of Megiddo and in the Desert Mounted Corps' advance to Damascus and on to Aleppo. Other divisions remained in India guarding the North-West Frontier and fulfilling internal security obligations. One million Indian troops served abroad during the war. In total, 74,187 died, and another 67,000 were wounded. The roughly 90,000 soldiers who died fighting in World War I and the Afghan Wars are commemorated by the India Gate.",
+  "text": "Title: Chernobyl\n\n We hurtle toward Chernobyl on a tightly packed minibus, far faster than is comfortable on\n  rutted country roads through the dewy post-dawn hours — drawing nearer, ever nearer, to \n  the ominously named “Exclusion Zone.” I think back on a lazy summer barbecue a few months \n  before, when I casually mentioned to some friends that I was thinking of visiting Chernobyl. \n  Mouths dropped open and faces turned white, as our lighthearted evening pivoted into a \n  full-blown intervention. They pleaded and begged me, for the love of all that’s holy, not to go. \n Only Karl — who I suspect doesn’t like me very much — was supportive of the idea.",
   "hiddenWords": [
     {
-      "word": "volunteered",
+      "word": "minibus",
       "difficulty": "Easy",
       "related_words": [],
       "clues": [
         {
-          "clue": "A willingness to take on a task, like a soldier stepping forward",
-          "type": "Indirect",
-          "points": 6
+          "clue": "A vehicle for a group of people",
+          "type": "Straight",
+          "points": 1
         },
         {
-          "clue": "Gave time or service for a particular activity",
+          "clue": "Often used for short trips",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "Offered to serve without being forced",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "formations",
-      "difficulty": "Intermediate",
-      "related_words": [
-        "campaign",
-        "battalions"
-      ],
-      "clues": [
-        {
-          "clue": "Like the pieces on a chessboard, but with people instead",
-          "type": "Indirect",
-          "points": 7
-        },
-        {
-          "clue": "A specific arrangement of troops for a particular purpose",
-          "type": "Suggestive",
-          "points": 4
-        },
-        {
-          "clue": "Formations are groups of troops, like battalions or brigades",
-          "type": "Straight",
-          "points": 2
-        }
-      ]
-    },
-    {
-      "word": "campaign",
-      "difficulty": "Intermediate",
-      "related_words": [
-        "formations",
-        "battalions"
-      ],
-      "clues": [
-        {
-          "clue": "Imagine a big puzzle, with each piece being a battle or skirmish",
-          "type": "Indirect",
-          "points": 6
-        },
-        {
-          "clue": "A campaign is like a plan of action, with many smaller parts working together",
-          "type": "Suggestive",
-          "points": 4
-        },
-        {
-          "clue": "A series of military operations, often in a specific area",
-          "type": "Straight",
-          "points": 2
-        }
-      ]
-    },
-    {
-      "word": "battalions",
-      "difficulty": "Intermediate",
-      "related_words": [
-        "formations",
-        "campaign"
-      ],
-      "clues": [
-        {
-          "clue": "Like the different parts of a machine, each one has its own job",
+          "clue": "Not as big as a house, but can take you on a ride",
           "type": "Indirect",
           "points": 5
-        },
-        {
-          "clue": "Battalions work together to achieve a common goal, like a team",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "A battalion is a group of soldiers, often with a specific task",
-          "type": "Straight",
-          "points": 2
         }
       ]
     },
     {
-      "word": "casualties",
+      "word": "barbecue",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "summer"
+      ],
+      "clues": [
+        {
+          "clue": "A social gathering with food",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "Typically involves grilled food",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "An event where you might see a lot of smoke",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "word": "summer",
+      "difficulty": "Easy",
+      "related_words": [
+        "barbecue"
+      ],
+      "clues": [
+        {
+          "clue": "One of the four seasons",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "Often associated with warm weather",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "When the days are long and the nights are short",
+          "type": "Indirect",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "word": "intervention",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A conversation to help someone",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "Can be a dramatic turn of events",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "When friends stage a surprise meeting",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "word": "roads",
       "difficulty": "Easy",
       "related_words": [],
       "clues": [
         {
-          "clue": "Like a ripple in a pond, one event can have many effects",
-          "type": "Indirect",
-          "points": 6
+          "clue": "Path for vehicles",
+          "type": "Straight",
+          "points": 1
         },
         {
-          "clue": "The number of casualties can be an important measure of a conflict's severity",
+          "clue": "Can be paved or unpaved",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "People who are hurt or killed in a war or accident",
-          "type": "Straight",
-          "points": 1
+          "clue": "Where you might see a lot of traffic",
+          "type": "Indirect",
+          "points": 5
         }
       ]
     },
     {
-      "word": "frontier",
+      "word": "dewy",
       "difficulty": "Intermediate",
       "related_words": [],
       "clues": [
         {
-          "clue": "Imagine a line in the sand, separating two different worlds",
-          "type": "Indirect",
-          "points": 7
-        },
-        {
-          "clue": "A frontier can be a place of exploration and discovery",
-          "type": "Suggestive",
-          "points": 4
-        },
-        {
-          "clue": "A border or edge of a country or region",
+          "clue": "Covered with dew",
           "type": "Straight",
           "points": 2
-        }
-      ]
-    },
-    {
-      "word": "valley",
-      "difficulty": "Easy",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "Like a cradle, holding and nurturing the surrounding landscape",
-          "type": "Indirect",
-          "points": 6
         },
         {
-          "clue": "A valley can be a peaceful and beautiful place",
+          "clue": "Often describes the morning",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "A low area of land between hills or mountains",
+          "clue": "When the grass is wet and sparkling",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "word": "ominoisly",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "In a way that suggests something bad",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "Can create a sense of foreboding",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Like a dark cloud on the horizon",
+          "type": "Indirect",
+          "points": 7
+        }
+      ]
+    },
+    {
+      "word": "mouths",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The opening of the face",
           "type": "Straight",
           "points": 1
+        },
+        {
+          "clue": "Used for eating and speaking",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Where words come out",
+          "type": "Indirect",
+          "points": 5
         }
       ]
     },
     {
-      "word": "offensive",
-      "difficulty": "Hard",
+      "word": "lazy",
+      "difficulty": "Intermediate",
       "related_words": [],
       "clues": [
         {
-          "clue": "Like a stormy sea, with waves crashing against the shore",
-          "type": "Indirect",
-          "points": 7
-        },
-        {
-          "clue": "An offensive can be a bold and decisive move, but also risky",
-          "type": "Suggestive",
-          "points": 4
-        },
-        {
-          "clue": "An attack or aggressive action, often in a military context",
+          "clue": "Not wanting to work or do much",
           "type": "Straight",
           "points": 2
+        },
+        {
+          "clue": "Often describes a relaxing day",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "When you just want to lounge around",
+          "type": "Indirect",
+          "points": 6
         }
       ]
     },
     {
-      "word": "expeditionary",
+      "word": "supportive",
       "difficulty": "Hard",
       "related_words": [],
       "clues": [
         {
-          "clue": "Imagine a team of explorers, venturing into the unknown",
-          "type": "Indirect",
-          "points": 7
+          "clue": "Helping or encouraging someone",
+          "type": "Straight",
+          "points": 2
         },
         {
-          "clue": "An expeditionary force is like a task force, sent to achieve a specific goal",
+          "clue": "Can be a positive influence",
           "type": "Suggestive",
           "points": 4
         },
         {
-          "clue": "Relating to a military expedition or campaign",
-          "type": "Straight",
-          "points": 2
-        }
-      ]
-    },
-    {
-      "word": "commemorated",
-      "difficulty": "Hard",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "Like a beacon of light, shining brightly to guide us",
+          "clue": "Like a helping hand in a difficult time",
           "type": "Indirect",
           "points": 7
-        },
-        {
-          "clue": "Commemorating an event or person can help keep their memory alive",
-          "type": "Suggestive",
-          "points": 4
-        },
-        {
-          "clue": "Honored or remembered, often with a monument or ceremony",
-          "type": "Straight",
-          "points": 2
         }
       ]
     }
   ],
-  "id": "ClueChain-2026-01-24"
+  "id": "ClueChain-2026-06-01"
 }

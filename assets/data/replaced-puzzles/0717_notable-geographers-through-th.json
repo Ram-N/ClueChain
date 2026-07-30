@@ -1,0 +1,237 @@
+{
+  "title": "Notable Geographers Through the Ages",
+  "date": "07-17",
+  "text": "Notable Geographers Through the Ages\nThe Babylonians were the first cartographers but the Greeks were the first geographers. These were the men who science owes for their contribution to geography. Eratosthenes was the first to simplify the science of geography with his works on longitude and latitude. The 12th Century geographer Al Idrisi made a map of North Africa and Eurasia that included the histories of the peoples and cultures in these areas. The 18th Century Prussian naturalist Alexander Humboldt wrote Kosmos, a book about geography and natural science. Another 18th Century scholar, the German Emmanuel Kant, was known for treating geography as an intellectual science. The 19th century saw Carl Ritter, also of Germany, as one of the most important geographers in history. The 20th Century Italian Arnold Faustini also made his mark in geography, and one of the moon's craters was later named after in his honor.",
+  "hiddenWords": [
+    {
+      "word": "century",
+      "difficulty": "Easy",
+      "related_words": [
+        "history",
+        "science"
+      ],
+      "clues": [
+        {
+          "clue": "A period of 100 years is a long time, but it's just a number to some.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "This term is often used to describe a time period in history.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A century is a unit of time.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "history",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "century",
+        "science"
+      ],
+      "clues": [
+        {
+          "clue": "The past is prologue, and this word is the story of what's come before.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "This term refers to the study of past events.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "History is the record of past events.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "science",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "century",
+        "history"
+      ],
+      "clues": [
+        {
+          "clue": "A systematic study that's always seeking the truth, but sometimes the truth is hard to find.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "This term refers to a systematic study of the natural world.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Science is a method of studying the world.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "map",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A guide to help you find your way, but it's not always easy to read.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "This term refers to a visual representation of an area.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A map is a chart of a region.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "natural",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The world outside is full of wonder, and this word describes it.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "This term refers to something that is not man-made.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Natural refers to the physical world.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "geography",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The study of the earth's surface, but it's not just about mountains and rivers.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "This term refers to the study of the earth's physical features.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Geography is the study of the earth's surface.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "book",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A collection of pages with a cover, but it's not just a physical object.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "This term refers to a written or printed work.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A book is a written work.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "mark",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A sign or symbol that leaves a lasting impression, but it's not always intentional.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "This term refers to a sign or symbol that indicates something.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A mark is a sign or symbol.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "moon",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A celestial body that's often associated with romance, but it's not just a pretty face.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "This term refers to the natural satellite of the earth.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The moon is a celestial body.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "crater",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A hole in the ground, but it's not just a simple depression.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "This term refers to a depression in the surface of a planet or moon.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A crater is a depression in a planet's surface.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-07-17"
+}
