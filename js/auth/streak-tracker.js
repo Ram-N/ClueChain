@@ -248,6 +248,52 @@ class StreakTracker {
   }
 
   /**
+   * Check if user has already completed a specific puzzle (by game_date)
+   * @param {string} gameDate - The puzzle date in YYYY-MM-DD format
+   * @returns {Promise<Object>} { success, completed, score, maxScore }
+   */
+  async hasCompletedPuzzle(gameDate) {
+    if (!this.initialized) {
+      await this.initialize();
+    }
+
+    if (!window.authManager.isAuthenticated()) {
+      return { success: false, error: new Error('User not authenticated') };
+    }
+
+    try {
+      const user = window.authManager.getCurrentUser();
+
+      const { data, error } = await this.supabase
+        .from('user_activities')
+        .select('score, max_possible_score')
+        .eq('user_id', user.id)
+        .eq('activity_type', this.activityTypes.GAME_COMPLETED)
+        .eq('game_date', gameDate)
+        .limit(1)
+        .maybeSingle();
+
+      if (error) {
+        throw error;
+      }
+
+      if (data) {
+        return {
+          success: true,
+          completed: true,
+          score: data.score,
+          maxScore: data.max_possible_score
+        };
+      }
+
+      return { success: true, completed: false };
+    } catch (error) {
+      console.error('Failed to check puzzle completion:', error);
+      return { success: false, error };
+    }
+  }
+
+  /**
    * Calculate streak from raw activity data
    * @param {Array} activities - Array of activity records
    * @returns {Object} Calculated streak information

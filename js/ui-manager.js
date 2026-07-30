@@ -241,6 +241,20 @@ export function addIncorrectGuessNotification(word, penalty = 0) {
 }
 
 /**
+ * Shows a warning when the player has already completed this puzzle
+ * @param {number} score - The player's original score
+ * @param {number} maxScore - The maximum possible score
+ */
+export function showReplayWarning(score, maxScore) {
+  const pct = maxScore > 0 ? Math.round((score / maxScore) * 100) : 0;
+  addNotification(
+    `You've already played this puzzle! Your score was ${pct}%. Playing again won't update your score.`,
+    "info",
+    true
+  );
+}
+
+/**
  * Updates the selection status in notifications with contextual messages
  * @param {string} vowel - Selected vowel
  * @param {string[]} consonants - Selected consonants

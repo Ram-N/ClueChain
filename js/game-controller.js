@@ -48,12 +48,33 @@ import {
   showLetterSelectionModal,
   showAuthGateIfNeeded,
   setupMobileLayout,
+  showReplayWarning,
 } from "./ui-manager.js?v=1.1";
 
 import {
   highlightCorrectWord,
   createSparklesAroundElement
 } from "./animations.js";
+
+/**
+ * Saves puzzle completion to localStorage
+ * @private
+ */
+function saveCompletion() {
+  const paragraph = getCurrentParagraph();
+  if (!paragraph || !paragraph.date) return;
+  const dateKey = paragraph.date; // MM-DD format
+  const year = new Date().getFullYear();
+  const key = `cluechain_completed_${year}-${dateKey}`;
+  try {
+    localStorage.setItem(key, JSON.stringify({
+      score: getCurrentScore(),
+      maxScore: getMaxScore(),
+    }));
+  } catch (e) {
+    console.warn("Failed to save completion to localStorage:", e);
+  }
+}
 
 /**
  * Sets up the game UI and initializes event handlers
@@ -179,6 +200,7 @@ function handleGuess(e) {
         }).catch(err => console.warn("Failed to record game completion:", err));
       }
 
+      saveCompletion();
       showGameOver();
     }
   } else {
@@ -304,6 +326,7 @@ function setupGuessInput() {
           }).catch(err => console.warn("Failed to record game completion:", err));
         }
 
+        saveCompletion();
         showGameOver();
       }
     } else {
@@ -484,7 +507,45 @@ export async function initializeGame() {
     }
     if (!selectedParagraph || !Array.isArray(selectedParagraph.hiddenWords)) {
       throw new Error("Invalid paragraph data structure");
-    } // Initialize game state in the correct order
+    }
+
+    // Check if player has already completed this puzzle
+    if (selectedParagraph.date) {
+      const year = new Date().getFullYear();
+      const completionKey = `cluechain_completed_${year}-${selectedParagraph.date}`;
+      let alreadyWarned = false;
+
+      // 1. Local check (works for all users, same device)
+      try {
+        const saved = localStorage.getItem(completionKey);
+        if (saved) {
+          const { score, maxScore } = JSON.parse(saved);
+          showReplayWarning(score, maxScore);
+          alreadyWarned = true;
+        }
+      } catch (e) {
+        console.warn("Failed to check completion status:", e);
+      }
+
+      // 2. Server-side check (works cross-device for authenticated users)
+      if (!alreadyWarned && window.streakTracker && window.authManager && window.authManager.isAuthenticated()) {
+        const fullDate = `${year}-${selectedParagraph.date}`;
+        window.streakTracker.hasCompletedPuzzle(fullDate).then(result => {
+          if (result.success && result.completed) {
+            showReplayWarning(result.score, result.maxScore);
+            // Sync to localStorage so future loads are instant
+            try {
+              localStorage.setItem(completionKey, JSON.stringify({
+                score: result.score,
+                maxScore: result.maxScore,
+              }));
+            } catch (e) { /* ignore */ }
+          }
+        }).catch(err => console.warn("Failed server-side completion check:", err));
+      }
+    }
+
+    // Initialize game state in the correct order
     // Filter and process hidden words to ensure they exist in the paragraph
     const initialWords = selectedParagraph.hiddenWords
       .filter(
