@@ -105,10 +105,16 @@ This automatically:
 # Check updated rankings
 cat scripts/output/paragraph_rankings.md
 
+# Verify slot scores — new puzzles should appear, replaced ones should be gone
+head -20 scripts/output/mmdd_slot_scores.csv
+
 # Commit and push
 git add -A && git commit -m "feat(puzzles): replace N low-scoring puzzles"
 git push
 ```
+
+`replace_lowest.py` automatically regenerates `mmdd_slot_scores.csv` —
+new puzzles are added with their scores and archived puzzles are removed.
 
 ---
 
