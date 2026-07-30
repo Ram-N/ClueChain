@@ -92,9 +92,11 @@ python scripts/replace_lowest.py
 
 This automatically:
 - Pairs staged files (best first) against worst-scoring active slots
+- Rejects any staged paragraph over 200 words
 - Only replaces if the new score > old score
 - Archives old puzzles to `assets/data/replaced-puzzles/`
 - Reassigns the date in the new puzzle JSON to match the slot
+- Removes used staged files (staging is empty after a successful run)
 - Updates scores, rankings, mapping, and slot scores
 
 ---
