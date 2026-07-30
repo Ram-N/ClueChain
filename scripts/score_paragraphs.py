@@ -402,8 +402,8 @@ def score_length_penalty(paragraph_data: Dict) -> Tuple[float, str]:
         penalty = -0.5
         reason = f"{word_count} words — slightly long"
     else:
-        penalty = -1.0
-        reason = f"{word_count} words — too long, drags for a daily puzzle"
+        penalty = -5.0
+        reason = f"{word_count} words — REJECTED, exceeds 200-word limit"
 
     return penalty, reason
 

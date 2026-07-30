@@ -182,6 +182,14 @@ def main():
                 continue
             print(f"{score:.1f}")
 
+        # Reject paragraphs over 200 words
+        with open(sf) as f:
+            data = json.load(f)
+        word_count = len(data.get("text", "").split())
+        if word_count > 200:
+            print(f"  ⛔ REJECTED {sf.name}: {word_count} words (max 200)")
+            continue
+
         staged_scores.append((sf, score))
 
     if not staged_scores:
