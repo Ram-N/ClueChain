@@ -39,3 +39,6 @@ CLAUDE.md
 
 # Paragraph library source files
 assets/data/library/
+
+# Generated scoring output (rebuild with: python scripts/regenerate_slot_scores.py)
+scripts/output/

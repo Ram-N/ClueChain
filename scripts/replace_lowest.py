@@ -35,6 +35,7 @@ ARCHIVE_DIR = DATA_DIR / "replaced-puzzles"
 MMDD_DIR = DATA_DIR / "puzzles" / "daily" / "mmdd"
 SCORES_FILE = SCRIPT_DIR / "output" / "paragraph_scores.json"
 SLOT_SCORES_CSV = SCRIPT_DIR / "output" / "mmdd_slot_scores.csv"
+CHRONO_SCORES_CSV = SCRIPT_DIR / "output" / "chrono_mmdd_slot_scores.csv"
 MAPPING_CSV = DATA_DIR / "old_new_mapping.csv"
 SCORE_SCRIPT = SCRIPT_DIR / "score_paragraphs.py"
 
@@ -354,7 +355,7 @@ def main():
 def regenerate_slot_scores(all_scores, mapping):
     """Rebuild mmdd_slot_scores.csv from current scores and mapping."""
     from regenerate_slot_scores import regenerate_slot_scores as _regen
-    _regen(all_scores, mapping, SLOT_SCORES_CSV)
+    _regen(all_scores, mapping, SLOT_SCORES_CSV, CHRONO_SCORES_CSV)
 
 
 if __name__ == "__main__":
