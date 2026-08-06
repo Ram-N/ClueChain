@@ -1,243 +1,237 @@
 {
-  "id": "ClueChain-12-10",
+  "title": "Damage Control",
   "date": "12-10",
-  "title": "Slaughterhouse Five (Kurt Vonnegut) 1969",
-  "text": "“All this happened, more or less.”\nMost authors are coy when introducing an unreliable narrator. Not Vonnegut—he informs the reader right off the bat that some of what is told may be misleading or even untrue. Narrator Billy Pilgrim, a soldier, struggles after witnessing horrors during the war that threaten his relationship to time.",
+  "text": "With the catastrophe out of the bag, the USSR scrambled to contain the damage. They sealed off an “Exclusion Zone” around the plant — at first 10 kilometers, later expanding to 30 kilometers — and evacuated tens of thousands of people from Pripyat and the surrounding villages. Firefighters, miners, and a half-million Soviet soldiers were mobilized. It took them two weeks to extinguish the fire at the core of the reactor; within seven months, a containment “sarcophagus” had been installed over the meltdown site.",
   "hiddenWords": [
     {
-      "word": "happened",
+      "word": "catastrophe",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A dramatic turn for the worse",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "An event with severe consequences",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A disaster",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "kilometers",
       "difficulty": "Easy",
-      "clues": [
-        {
-          "type": "Indirect",
-          "clue": "It came to pass, an event that occurred, making its mark, fully incurred.",
-          "points": 4
-        },
-        {
-          "type": "Suggestive",
-          "clue": "When something took place, an event occurred.",
-          "points": 2
-        },
-        {
-          "type": "Straight",
-          "clue": "Took place; occurred.",
-          "points": 1
-        }
+      "related_words": [
+        "villages",
+        "reactor"
       ],
-      "related_words": []
-    },
-    {
-      "word": "authors",
-      "difficulty": "Intermediate",
       "clues": [
         {
+          "clue": " Units of distance used for a marathon",
           "type": "Indirect",
-          "clue": "They pen the tales, both grand and small, crafting worlds that enthrall us all.",
           "points": 5
         },
         {
+          "clue": "Measure of how far something is from a certain point",
           "type": "Suggestive",
-          "clue": "People who write books, articles, or plays.",
           "points": 3
         },
         {
+          "clue": "A metric unit of length",
           "type": "Straight",
-          "clue": "Writers of books, articles, or documents.",
           "points": 1
         }
-      ],
-      "related_words": [
-        "reader"
       ]
     },
     {
-      "word": "coy",
-      "difficulty": "Hard",
+      "word": "villages",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "kilometers",
+        "reactor"
+      ],
       "clues": [
         {
+          "clue": "Places where community life is centered",
           "type": "Indirect",
-          "clue": "Artfully reserved, a playful pretense, feigning shyness, without offense.",
+          "points": 6
+        },
+        {
+          "clue": "Small groups of houses and associated buildings",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Rural settlements",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "reactor",
+      "difficulty": "Hard",
+      "related_words": [
+        "kilometers",
+        "villages"
+      ],
+      "clues": [
+        {
+          "clue": "The core of a nuclear power station where atoms are split",
+          "type": "Indirect",
           "points": 7
         },
         {
+          "clue": "A vessel where controlled fission takes place",
           "type": "Suggestive",
-          "clue": "Reluctant to give details, especially about something sensitive; shy or modest.",
           "points": 4
         },
         {
+          "clue": "A device that produces energy",
           "type": "Straight",
-          "clue": "Making a pretense of shyness or modesty which is intended to be alluring.",
-          "points": 2
-        }
-      ],
-      "related_words": []
-    },
-    {
-      "word": "introducing",
-      "difficulty": "Intermediate",
-      "clues": [
-        {
-          "type": "Indirect",
-          "clue": "To bring forth for the first time, unveiling a new face, a fresh paradigm.",
-          "points": 5
-        },
-        {
-          "type": "Suggestive",
-          "clue": "The act of presenting something new, or making someone known.",
-          "points": 3
-        },
-        {
-          "type": "Straight",
-          "clue": "Presenting (someone or something) to another for the first time.",
           "points": 1
         }
-      ],
-      "related_words": [
-        "narrator"
       ]
     },
     {
-      "word": "unreliable",
-      "difficulty": "Hard",
-      "clues": [
-        {
-          "type": "Indirect",
-          "clue": "Not to be trusted, a broken promise, a shaky ground, a twisted premise.",
-          "points": 7
-        },
-        {
-          "type": "Suggestive",
-          "clue": "Not able to be relied upon, like a car that frequently breaks down.",
-          "points": 4
-        },
-        {
-          "type": "Straight",
-          "clue": "Not able to be relied upon.",
-          "points": 2
-        }
-      ],
-      "related_words": [
-        "narrator"
-      ]
-    },
-    {
-      "word": "narrator",
-      "difficulty": "Intermediate",
-      "clues": [
-        {
-          "type": "Indirect",
-          "clue": "The voice of the story, shaping what we hear, a perspective offered, drawing us near.",
-          "points": 5
-        },
-        {
-          "type": "Suggestive",
-          "clue": "A person who tells a story, especially in a literary work.",
-          "points": 3
-        },
-        {
-          "type": "Straight",
-          "clue": "A person who narrates something, especially a character who recounts the events of a novel or narrative poem.",
-          "points": 1
-        }
-      ],
-      "related_words": [
-        "introducing",
-        "unreliable"
-      ]
-    },
-    {
-      "word": "reader",
+      "word": "firefighters",
       "difficulty": "Easy",
+      "related_words": [],
       "clues": [
         {
+          "clue": "People trained to rescue and put out fires",
           "type": "Indirect",
-          "clue": "One who deciphers words, and journeys through pages, across various ages.",
-          "points": 4
+          "points": 5
         },
         {
+          "clue": "Those who work to extinguish fires and rescue people",
           "type": "Suggestive",
-          "clue": "A person who reads, especially for pleasure.",
-          "points": 2
+          "points": 3
         },
         {
+          "clue": "Emergency responders",
           "type": "Straight",
-          "clue": "A person who reads.",
           "points": 1
         }
-      ],
-      "related_words": [
-        "authors"
       ]
     },
     {
-      "word": "misleading",
-      "difficulty": "Hard",
+      "word": "miners",
+      "difficulty": "Intermediate",
+      "related_words": [],
       "clues": [
         {
+          "clue": "People who dig for valuable resources",
           "type": "Indirect",
-          "clue": "Leading astray, a deceptive guise, hiding the truth behind its disguise.",
+          "points": 6
+        },
+        {
+          "clue": "Workers who dig underground to extract resources",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "People who work underground extracting coal or ore",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "sarcophagus",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A stone coffin",
+          "type": "Indirect",
           "points": 7
         },
         {
+          "clue": "A container for a body, often stone or metal",
           "type": "Suggestive",
-          "clue": "Giving a wrong idea or impression, like false advertising.",
           "points": 4
         },
         {
+          "clue": "A burial container",
           "type": "Straight",
-          "clue": "Giving the wrong idea or impression.",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "meltdown",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A complete failure of a system",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A severe accident in a nuclear reactor",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A catastrophic failure",
+          "type": "Straight",
           "points": 2
         }
-      ],
-      "related_words": [
-        "untrue"
       ]
     },
     {
-      "word": "untrue",
+      "word": "mobilized",
       "difficulty": "Intermediate",
+      "related_words": [],
       "clues": [
         {
+          "clue": "To make something or someone ready for action",
           "type": "Indirect",
-          "clue": "Not factual, a false display, leading beliefs astray.",
-          "points": 5
+          "points": 6
         },
         {
+          "clue": "To assemble and prepare troops for battle",
           "type": "Suggestive",
-          "clue": "Not in accordance with fact or reality; false or incorrect.",
-          "points": 3
+          "points": 4
         },
         {
+          "clue": "To put into action",
           "type": "Straight",
-          "clue": "Not true or false.",
           "points": 1
         }
-      ],
-      "related_words": [
-        "misleading"
       ]
     },
     {
-      "word": "struggles",
-      "difficulty": "Intermediate",
+      "word": "expanding",
+      "difficulty": "Easy",
+      "related_words": [],
       "clues": [
         {
+          "clue": "Getting bigger or wider",
           "type": "Indirect",
-          "clue": "Faces difficulty, a wrestling match, striving hard, a victory to catch.",
           "points": 5
         },
         {
+          "clue": "To increase in size or extent",
           "type": "Suggestive",
-          "clue": "To make forceful or violent efforts to get free of restraint or confinement.",
           "points": 3
         },
         {
+          "clue": "To grow or enlarge",
           "type": "Straight",
-          "clue": "Makes forceful or violent efforts to get free of restraint or confinement.",
-          "points": 1
+          "points": 2
         }
-      ],
-      "related_words": []
+      ]
     }
-  ]
+  ],
+  "id": "ClueChain-2026-02-01"
 }

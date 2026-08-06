@@ -1,237 +1,237 @@
 {
-  "title": "Common knowledge",
+  "title": "Take Nothing Leave Nothing",
   "date": "08-05",
-  "text": "Title: Common knowledge\n\nDefining something as common knowledge can differ based on circumstances because there are variations in what is considered common knowledge amongst different groups. \nThe variation can come from the time period, culture, population, class, age, demographic, and other circumstances. For example, the Fifth Amendment to the \nUnited States Constitution might be considered common knowledge among people residing in the United States of a certain age, but cannot be considered common knowledge when considering the general population of other countries.",
+  "text": "Title: Take Nothing Leave Nothing\n\nI am presently sitting five cables off this island, Tristan da Cunha, wallowing on the swells on a small boat that is hove-to just off the mole at the entrance to the harbor of Edinburgh of the Seven Seas, the island’s capital and only settlement. But while my fellow passengers will soon be landing—once the easterly gale blows itself out and the seas die down to an acceptable level—and so are excitedly preparing themselves to enjoy the fascinations that Edinburgh has in store (a visit to the fields where the islanders grow potatoes being the main advertised attraction), I will not be joining them.",
   "hiddenWords": [
     {
-      "word": "Defining",
-      "difficulty": "Intermediate",
-      "related_words": [],
+      "word": "island",
+      "difficulty": "Easy",
+      "related_words": [
+        "seas",
+        "harbor"
+      ],
       "clues": [
         {
-          "clue": "It's the act of stating the essential nature of something. What are you doing when you give a definition?",
+          "clue": "A place where you might find a castaway.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Landmass surrounded by water.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A piece of land completely surrounded by water.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "seas",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "island",
+        "harbor"
+      ],
+      "clues": [
+        {
+          "clue": "Where a sailor might spend their career.",
           "type": "Indirect",
           "points": 6
         },
         {
-          "clue": "This action is the first step in explaining something.",
+          "clue": "Large bodies of saltwater.",
           "type": "Suggestive",
           "points": 4
         },
         {
-          "clue": "Specifying the meaning of something.",
-          "type": "Straight",
-          "points": 2
-        }
-      ]
-    },
-    {
-      "word": "something",
-      "difficulty": "Easy",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "It's a stand-in for an unspecified thing, idea, or person.",
-          "type": "Indirect",
-          "points": 5
-        },
-        {
-          "clue": "This word represents an unspecified entity or item.",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "An unspecified or unknown item.",
+          "clue": "Oceans or large bodies of water.",
           "type": "Straight",
           "points": 1
         }
       ]
     },
     {
-      "word": "differ",
+      "word": "harbor",
       "difficulty": "Intermediate",
-      "related_words": [],
+      "related_words": [
+        "island",
+        "seas"
+      ],
       "clues": [
         {
-          "clue": "Like snowflakes, no two things are exactly alike; what do they do?",
-          "type": "Indirect",
-          "points": 7
-        },
-        {
-          "clue": "This word describes how things are not the same.",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "To be unlike or dissimilar.",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "because",
-      "difficulty": "Easy",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "It could be the reason why; the cause or motive.",
-          "type": "Indirect",
-          "points": 5
-        },
-        {
-          "clue": "This word introduces a reason or explanation.",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "For the reason that.",
-          "type": "Straight",
-          "points": 2
-        }
-      ]
-    },
-    {
-      "word": "amongst",
-      "difficulty": "Intermediate",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "Like a group of friends, what is one doing when they are in each other's company?",
+          "clue": "A safe place for boats during a storm.",
           "type": "Indirect",
           "points": 6
         },
         {
-          "clue": "This word signifies being in the middle of a group.",
-          "type": "Suggestive",
-          "points": 4
-        },
-        {
-          "clue": "In the company of.",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "period",
-      "difficulty": "Easy",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "This is a span of time, a chapter or era.",
-          "type": "Indirect",
-          "points": 5
-        },
-        {
-          "clue": "This term refers to a specific duration.",
+          "clue": "A body of water protected from the open sea.",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "A length or portion of time.",
+          "clue": "A place where ships can safely anchor.",
           "type": "Straight",
           "points": 2
         }
       ]
     },
     {
-      "word": "culture",
-      "difficulty": "Intermediate",
-      "related_words": [
-        "population",
-        "demographic"
-      ],
-      "clues": [
-        {
-          "clue": "It’s what defines a group’s way of life, from art to values.",
-          "type": "Indirect",
-          "points": 7
-        },
-        {
-          "clue": "This encompasses the shared customs, arts, and social institutions of a group.",
-          "type": "Suggestive",
-          "points": 4
-        },
-        {
-          "clue": "The customs, arts, social institutions, and achievements of a particular nation, people, or group.",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "population",
-      "difficulty": "Intermediate",
-      "related_words": [
-        "culture",
-        "demographic"
-      ],
-      "clues": [
-        {
-          "clue": "It's the total number of people living in a specific area.",
-          "type": "Indirect",
-          "points": 6
-        },
-        {
-          "clue": "This is the collection of individuals in a specific area.",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "The inhabitants of a particular town, area, or country.",
-          "type": "Straight",
-          "points": 2
-        }
-      ]
-    },
-    {
-      "word": "demographic",
-      "difficulty": "Hard",
-      "related_words": [
-        "culture",
-        "population"
-      ],
-      "clues": [
-        {
-          "clue": "It's a way to categorize people based on traits, like age or income.",
-          "type": "Indirect",
-          "points": 5
-        },
-        {
-          "clue": "This describes the characteristics of a population, like age and gender.",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "Relating to the structure of human populations.",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "example",
+      "word": "cables",
       "difficulty": "Hard",
       "related_words": [],
       "clues": [
         {
-          "clue": "It's a specific instance used to illustrate a general rule.",
+          "clue": "Units of measurement for nautical distances.",
           "type": "Indirect",
-          "points": 6
+          "points": 7
         },
         {
-          "clue": "This is a typical instance of something.",
+          "clue": "Heavy ropes or wires used for mooring or towing.",
           "type": "Suggestive",
           "points": 4
         },
         {
-          "clue": "A thing characteristic of its kind.",
+          "clue": "Thick, heavy ropes.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "passengers",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "People traveling by bus, train, or plane.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Travelers using a vehicle or ship for transportation.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "People who are traveling.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "gale",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A strong wind that can make it difficult to sail.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A very strong wind.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A strong windstorm.",
           "type": "Straight",
           "points": 2
+        }
+      ]
+    },
+    {
+      "word": "potatoes",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A popular side dish at many restaurants.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A common food grown underground.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A type of root vegetable.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "capital",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The city where a country's government is located.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "The most important city in a country or region.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "The main city of a country or state.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "settlement",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A place where people have come to live.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A small village or community.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A place where people live.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "fellow",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Someone you share a common experience or goal with.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A person who is a member of the same group.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A friend or companion.",
+          "type": "Straight",
+          "points": 1
         }
       ]
     }
   ],
-  "id": "ClueChain-2026-08-05"
+  "id": "ClueChain-2026-04-01"
 }

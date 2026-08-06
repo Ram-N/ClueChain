@@ -1,237 +1,237 @@
 {
-  "title": "General knowledge — Game shows and quizzes",
+  "title": "Is Chernobyl Safe?",
   "date": "06-02",
-  "text": "Many game shows use general knowledge questions for entertainment purposes. Game shows such as Who Wants to Be a Millionaire? and Fifteen to One centre their questions on general knowledge, while other shows focus questions more on specific subjects. Some shows ask questions both on specific subjects and on general knowledge, including Eggheads and Mastermind. In Mastermind, contestants choose their own \"specialist subject\" before answering general knowledge questions, whereas in Eggheads the subjects are chosen at random. The game show Jeopardy! tests contestants' knowledge.",
+  "text": "Title: Is Chernobyl Safe? Is Chernobyl safe? Wild carnivorous radioactive wolves aside, the answer seems to be yes. The most hazardous forms of radiation released in the accident also had the shortest half-lives and have already stopped being dangerous. A patina of longer-lasting radioactive particles settled over the entire region, but these sink deeper and deeper into the soil with each passing year. Because of these factors, a daylong visit to Chernobyl will expose me to 10 times less gamma radiation than my flight home to Seattle.",
   "hiddenWords": [
     {
-      "word": "entertainment",
+      "word": "wolves",
       "difficulty": "Easy",
       "related_words": [],
       "clues": [
         {
-          "clue": "A fun activity to do in free time",
+          "clue": "Fierce forest dwellers",
           "type": "Indirect",
           "points": 5
         },
         {
-          "clue": "Something that amuses or delights",
+          "clue": "Carnivorous mammals",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "Amusement or leisure activity",
+          "clue": "Large canines",
           "type": "Straight",
           "points": 1
         }
       ]
     },
     {
-      "word": "millionaire",
+      "word": "radiation",
       "difficulty": "Intermediate",
-      "related_words": [],
+      "related_words": [
+        "particles",
+        "gamma"
+      ],
       "clues": [
         {
-          "clue": "Someone with a large sum of money",
+          "clue": "Energy that travels in waves",
           "type": "Indirect",
           "points": 6
         },
         {
-          "clue": "A person of great wealth",
+          "clue": "Form of energy emission",
           "type": "Suggestive",
           "points": 4
         },
         {
-          "clue": "A person with a million or more units of currency",
+          "clue": "Ionizing energy",
           "type": "Straight",
           "points": 2
         }
       ]
     },
     {
-      "word": "subjects",
-      "difficulty": "Easy",
-      "related_words": [
-        "questions",
-        "topics"
-      ],
-      "clues": [
-        {
-          "clue": "Matters or fields of study",
-          "type": "Indirect",
-          "points": 5
-        },
-        {
-          "clue": "Things being discussed or learned",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "Topics or areas of study",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "questions",
-      "difficulty": "Easy",
-      "related_words": [
-        "subjects",
-        "topics"
-      ],
-      "clues": [
-        {
-          "clue": "Inquiries or interrogations",
-          "type": "Indirect",
-          "points": 5
-        },
-        {
-          "clue": "Things being asked",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "Inquiries or requests for information",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "topics",
+      "word": "particles",
       "difficulty": "Intermediate",
       "related_words": [
-        "subjects",
-        "questions"
+        "radiation",
+        "gamma"
       ],
       "clues": [
         {
-          "clue": "Matters or issues being discussed",
+          "clue": "Tiny units of matter",
           "type": "Indirect",
           "points": 6
         },
         {
-          "clue": "Things being talked about",
+          "clue": "Small components of a substance",
           "type": "Suggestive",
-          "points": 4
+          "points": 3
         },
         {
-          "clue": "Subjects or matters being discussed",
+          "clue": "Minute parts",
           "type": "Straight",
-          "points": 2
+          "points": 1
         }
       ]
     },
     {
-      "word": "random",
+      "word": "gamma",
       "difficulty": "Hard",
-      "related_words": [],
+      "related_words": [
+        "radiation",
+        "particles"
+      ],
       "clues": [
         {
-          "clue": "Lacking a predictable pattern or order",
+          "clue": "High-energy electromagnetic wave",
           "type": "Indirect",
           "points": 7
         },
         {
-          "clue": "Made or done without a specific plan",
+          "clue": "Short-wavelength radiation",
           "type": "Suggestive",
           "points": 4
         },
         {
-          "clue": "Without a regular or predictable pattern",
+          "clue": "Type of ionizing radiation",
           "type": "Straight",
           "points": 2
         }
       ]
     },
     {
-      "word": "contestants",
-      "difficulty": "Intermediate",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "People competing in a game or contest",
-          "type": "Indirect",
-          "points": 6
-        },
-        {
-          "clue": "Those taking part in a competition",
-          "type": "Suggestive",
-          "points": 4
-        },
-        {
-          "clue": "People competing in a contest or competition",
-          "type": "Straight",
-          "points": 2
-        }
-      ]
-    },
-    {
-      "word": "specialist",
-      "difficulty": "Hard",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "A person with a high level of knowledge in a particular area",
-          "type": "Indirect",
-          "points": 7
-        },
-        {
-          "clue": "Someone with expert knowledge or skills",
-          "type": "Suggestive",
-          "points": 4
-        },
-        {
-          "clue": "A person with specialized knowledge or skills",
-          "type": "Straight",
-          "points": 2
-        }
-      ]
-    },
-    {
-      "word": "centre",
+      "word": "region",
       "difficulty": "Easy",
       "related_words": [],
       "clues": [
         {
-          "clue": "The middle point of something",
+          "clue": "Geographic area",
           "type": "Indirect",
           "points": 5
         },
         {
-          "clue": "A central or middle point",
+          "clue": "Defined geographic space",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "The middle or central part of something",
+          "clue": "Area of land",
           "type": "Straight",
           "points": 1
         }
       ]
     },
     {
-      "word": "leisure",
+      "word": "soil",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Ground composition",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Upper layer of earth",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Dirt or ground",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "visit",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Stop by a place",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Go to see someone or something",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Pay a call",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "flight",
       "difficulty": "Intermediate",
       "related_words": [],
       "clues": [
         {
-          "clue": "Time spent relaxing or having fun",
+          "clue": "Air travel",
           "type": "Indirect",
           "points": 6
         },
         {
-          "clue": "Free time or time for relaxation",
+          "clue": "Journey by airplane",
           "type": "Suggestive",
           "points": 4
         },
         {
-          "clue": "Time spent in relaxation or enjoyment",
+          "clue": "Trip by air",
           "type": "Straight",
           "points": 2
+        }
+      ]
+    },
+    {
+      "word": "seattle",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "City known for coffee culture",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Large city in Washington state",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Major US city",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "accident",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Unfortunate event",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Unexpected happening",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Unplanned occurrence",
+          "type": "Straight",
+          "points": 1
         }
       ]
     }
   ],
-  "id": "ClueChain-2026-06-02"
+  "id": "ClueChain-2026-03-01"
 }
