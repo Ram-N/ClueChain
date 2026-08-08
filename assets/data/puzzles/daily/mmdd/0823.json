@@ -22,7 +22,7 @@
           "points": 3
         },
         {
-          "clue": "A person who practices witchcraft",
+          "clue": "A person who uses magic for supposedly evil purposes",
           "type": "Straight",
           "points": 1
         }
@@ -67,12 +67,12 @@
           "points": 6
         },
         {
-          "clue": "Practitioners of witchcraft, often stereotyped as evil",
+          "clue": "People often feared for their supposed evil powers in traditional folklore",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "People who practice witchcraft",
+          "clue": "Practitioners of magic or sorcery",
           "type": "Straight",
           "points": 1
         }
@@ -94,7 +94,7 @@
           "points": 3
         },
         {
-          "clue": "Adult human females",
+          "clue": "Grown-up human women",
           "type": "Straight",
           "points": 1
         }

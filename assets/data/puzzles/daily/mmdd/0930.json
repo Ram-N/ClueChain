@@ -63,7 +63,7 @@
           "points": 3
         },
         {
-          "clue": "Granted permission",
+          "clue": "Allowed by law or authority",
           "type": "Straight",
           "points": 1
         }
@@ -83,12 +83,12 @@
           "points": 7
         },
         {
-          "clue": "Athletes who participate in the Olympic Games",
+          "clue": "Elite athletes competing at a global multi-sport event",
           "type": "Suggestive",
           "points": 4
         },
         {
-          "clue": "Olympic athletes",
+          "clue": "International multi-sport event participants",
           "type": "Straight",
           "points": 2
         }

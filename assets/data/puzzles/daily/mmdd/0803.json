@@ -19,7 +19,7 @@
           "points": 4
         },
         {
-          "clue": "Relating to Canada or its people.",
+          "clue": "Pertaining to a nation in North America",
           "type": "Straight",
           "points": 1
         }
@@ -177,12 +177,12 @@
           "points": 7
         },
         {
-          "clue": "The plot or narrative of a story.",
+          "clue": "Interconnected threads that make up the narrative of a film or novel, often weaving together to form a complex tapestry",
           "type": "Suggestive",
           "points": 4
         },
         {
-          "clue": "The plot of a story.",
+          "clue": "A sequence of events in a narrative",
           "type": "Straight",
           "points": 1
         }

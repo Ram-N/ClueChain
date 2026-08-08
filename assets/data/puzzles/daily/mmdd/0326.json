@@ -14,12 +14,12 @@
           "points": 6
         },
         {
-          "clue": "Relating to the retina and vitreous humor in the eye",
+          "clue": "Pertaining to the delicate structures at the back of the eye, where light is focused and images are formed",
           "type": "Suggestive",
           "points": 4
         },
         {
-          "clue": "Pertaining to the vitreous and retina",
+          "clue": "Relating to the part of the eye where images are focused",
           "type": "Straight",
           "points": 1
         }
@@ -53,7 +53,7 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "The art of being precise, like a Swiss watchmaker",
+          "clue": "A quality that's vital when splitting hairs, or in this case, delicate tissues",
           "type": "Indirect",
           "points": 7
         },
@@ -63,7 +63,7 @@
           "points": 3
         },
         {
-          "clue": "The state of being precise and exact",
+          "clue": "State of being exact and accurate",
           "type": "Straight",
           "points": 1
         }
@@ -177,7 +177,7 @@
           "points": 3
         },
         {
-          "clue": "Pertaining to the cornea, the clear layer on the eye",
+          "clue": "Relating to the transparent outer layer of the eye",
           "type": "Straight",
           "points": 2
         }
@@ -199,7 +199,7 @@
           "points": 4
         },
         {
-          "clue": "Operations performed by a surgeon",
+          "clue": "Medical procedures",
           "type": "Straight",
           "points": 1
         }

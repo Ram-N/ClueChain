@@ -84,7 +84,7 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "The plural of a medium, which can be many things",
+          "clue": "A messenger might use one to convey a message, and so might a news outlet",
           "type": "Indirect",
           "points": 5
         },
@@ -177,12 +177,12 @@
           "points": 7
         },
         {
-          "clue": "By means of magnetic fields or properties",
+          "clue": "In the manner that compass needles align",
           "type": "Suggestive",
           "points": 4
         },
         {
-          "clue": "In a manner related to magnetism",
+          "clue": "By means of forces acting between moving or stationary charges",
           "type": "Straight",
           "points": 2
         }
@@ -204,7 +204,7 @@
           "points": 4
         },
         {
-          "clue": "In a manner related to light or optics",
+          "clue": "By means of light",
           "type": "Straight",
           "points": 2
         }

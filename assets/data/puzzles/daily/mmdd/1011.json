@@ -94,7 +94,7 @@
           "points": 4
         },
         {
-          "clue": "The act of adapting.",
+          "clue": "Process by which organisms adjust to their environment",
           "type": "Straight",
           "points": 1
         }
@@ -150,12 +150,12 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "Like a tool designed for a specific task, it's uniquely suited to its purpose.",
+          "clue": "A master craftsman's most prized possession is often one that's tailored to a single, expert purpose.",
           "type": "Indirect",
           "points": 7
         },
         {
-          "clue": "Having a specific function or skill.",
+          "clue": "Having a unique role or purpose, often acquired through development or training.",
           "type": "Suggestive",
           "points": 4
         },
@@ -182,7 +182,7 @@
           "points": 4
         },
         {
-          "clue": "Relating to mammals.",
+          "clue": "Pertaining to warm-blooded animals with hair or fur",
           "type": "Straight",
           "points": 1
         }
@@ -199,7 +199,7 @@
           "points": 5
         },
         {
-          "clue": "Too numerous to be counted.",
+          "clue": "Beyond what can be enumerated or measured precisely",
           "type": "Suggestive",
           "points": 3
         },

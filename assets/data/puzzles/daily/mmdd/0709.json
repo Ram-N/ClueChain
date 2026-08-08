@@ -41,8 +41,8 @@
           "points": 3
         },
         {
+          "clue": "Mental grasp or perception of a concept",
           "type": "Straight",
-          "clue": "The ability to understand something; comprehension.",
           "points": 1
         }
       ],
@@ -85,8 +85,8 @@
           "points": 4
         },
         {
+          "clue": "Having a healing or restorative effect",
           "type": "Straight",
-          "clue": "Providing a remedy; tending to improve or cure.",
           "points": 2
         }
       ],
@@ -178,7 +178,10 @@
           "points": 2
         }
       ],
-      "related_words": ["infancy", "youth"]
+      "related_words": [
+        "infancy",
+        "youth"
+      ]
     },
     {
       "word": "infancy",
@@ -200,7 +203,10 @@
           "points": 2
         }
       ],
-      "related_words": ["epoch", "youth"]
+      "related_words": [
+        "epoch",
+        "youth"
+      ]
     },
     {
       "word": "youth",
@@ -222,7 +228,10 @@
           "points": 1
         }
       ],
-      "related_words": ["epoch", "infancy"]
+      "related_words": [
+        "epoch",
+        "infancy"
+      ]
     }
   ]
 }

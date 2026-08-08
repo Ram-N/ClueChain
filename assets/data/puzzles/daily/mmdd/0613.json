@@ -111,12 +111,12 @@
           "points": 6
         },
         {
-          "clue": "A person who researches and interprets historical events.",
+          "clue": "Someone who studies the past to understand its impact on the present",
           "type": "Suggestive",
           "points": 4
         },
         {
-          "clue": "A scholar of history.",
+          "clue": "A person who researches and writes about past events",
           "type": "Straight",
           "points": 1
         }
@@ -194,7 +194,7 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "The state of being safe from harm or danger.",
+          "clue": "Invention that prevents a plunge when a critical line breaks, giving peace of mind to those in a lifting box.",
           "type": "Indirect",
           "points": 5
         },
@@ -204,7 +204,7 @@
           "points": 3
         },
         {
-          "clue": "The state of being safe.",
+          "clue": "A condition of being protected from harm",
           "type": "Straight",
           "points": 1
         }

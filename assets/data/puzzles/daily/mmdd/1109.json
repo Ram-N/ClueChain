@@ -36,7 +36,7 @@
           "points": 7
         },
         {
-          "clue": "Requiring something to be done because it is necessary",
+          "clue": "Making something essential or compulsory for a particular action or process",
           "type": "Suggestive",
           "points": 4
         },
@@ -77,12 +77,12 @@
       ],
       "clues": [
         {
-          "clue": "Making something available for the public to see or buy",
+          "clue": "Shared with the world, no longer confined",
           "type": "Indirect",
           "points": 5
         },
         {
-          "clue": "To make something available to the public",
+          "clue": "Made available for people to access or read",
           "type": "Suggestive",
           "points": 3
         },
@@ -111,7 +111,7 @@
           "points": 3
         },
         {
-          "clue": "Produced on paper using a printer",
+          "clue": "Created on paper in a physical form",
           "type": "Straight",
           "points": 1
         }

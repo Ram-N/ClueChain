@@ -62,13 +62,13 @@
           "points": 7
         },
         {
+          "clue": "Method of execution that uses a high-voltage current to cause death",
           "type": "Suggestive",
-          "clue": "Killed by electric shock.",
           "points": 4
         },
         {
+          "clue": "Killed by a high-voltage discharge",
           "type": "Straight",
-          "clue": "Killed (someone) by electric shock.",
           "points": 2
         }
       ],
@@ -89,8 +89,8 @@
           "points": 2
         },
         {
+          "clue": "Was aware or informed about something",
           "type": "Straight",
-          "clue": "Past tense of know; had information or understanding.",
           "points": 1
         }
       ],

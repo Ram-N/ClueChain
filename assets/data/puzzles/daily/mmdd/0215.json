@@ -222,12 +222,12 @@
           "points": 7
         },
         {
-          "clue": "Related to the economy or finances",
+          "clue": "Pertaining to the management of resources and wealth",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "In terms of economic factors",
+          "clue": "Relating to the production and consumption of goods and services",
           "type": "Straight",
           "points": 1
         }

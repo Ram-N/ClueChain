@@ -33,7 +33,7 @@
       ],
       "clues": [
         {
-          "clue": "Like a car going into reverse gear, but not for driving",
+          "clue": "A U-turn in policy, or a change of heart",
           "type": "Indirect",
           "points": 5
         },
@@ -155,7 +155,7 @@
           "points": 4
         },
         {
-          "clue": "Relating to a country's constitution",
+          "clue": "Established by law or custom as a fundamental principle",
           "type": "Straight",
           "points": 2
         }

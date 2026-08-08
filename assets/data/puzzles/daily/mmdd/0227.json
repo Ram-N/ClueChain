@@ -59,7 +59,7 @@
       ],
       "clues": [
         {
-          "clue": "The creators of poetic works",
+          "clue": "Makers of metered masterpieces, often inspired by myth and love",
           "type": "Indirect",
           "points": 5
         },
@@ -69,7 +69,7 @@
           "points": 3
         },
         {
-          "clue": "Writers of poetry",
+          "clue": "Creators of verse",
           "type": "Straight",
           "points": 1
         }
@@ -160,7 +160,7 @@
           "points": 3
         },
         {
-          "clue": "Belonging to a particular person",
+          "clue": "Relating to one's own self or individuality",
           "type": "Straight",
           "points": 1
         }

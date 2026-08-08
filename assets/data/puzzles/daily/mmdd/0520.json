@@ -111,12 +111,12 @@
           "points": 7
         },
         {
-          "clue": "A false or pretended reason",
+          "clue": "An excuse given to justify a particular action",
           "type": "Suggestive",
           "points": 4
         },
         {
-          "clue": "An excuse or a pretense",
+          "clue": "A reason or explanation given to justify something",
           "type": "Straight",
           "points": 1
         }
@@ -177,7 +177,7 @@
           "points": 6
         },
         {
-          "clue": "The quality of being willing or ready",
+          "clue": "A disposition that allows individuals to consent or agree to something, often marking the beginning of a compromise or negotiation.",
           "type": "Suggestive",
           "points": 3
         },

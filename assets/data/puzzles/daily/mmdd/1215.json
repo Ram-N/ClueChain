@@ -39,12 +39,12 @@
           "points": 5
         },
         {
-          "clue": "It describes a region with many mountains.",
+          "clue": "Terrain often depicted in dramatic landscape photography",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "Having many mountains.",
+          "clue": "Having many high natural elevations",
           "type": "Straight",
           "points": 1
         }
@@ -182,7 +182,7 @@
           "points": 4
         },
         {
-          "clue": "Giving rise to controversy.",
+          "clue": "Likely to arouse argument or debate",
           "type": "Straight",
           "points": 1
         }
@@ -226,7 +226,7 @@
           "points": 4
         },
         {
-          "clue": "The act of annexing something.",
+          "clue": "The process of taking control of a territory or state",
           "type": "Straight",
           "points": 1
         }

@@ -14,12 +14,12 @@
           "points": 6
         },
         {
-          "clue": "Individuals who propose and support theories",
+          "clue": "People who develop and advocate unconventional explanations for events",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "People who develop and advocate for theories",
+          "clue": "Individuals who propose and support speculative ideas",
           "type": "Straight",
           "points": 2
         }
@@ -199,7 +199,7 @@
           "points": 4
         },
         {
-          "clue": "Those who develop and use technology",
+          "clue": "Experts in applied sciences",
           "type": "Straight",
           "points": 1
         }

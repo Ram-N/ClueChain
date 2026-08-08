@@ -22,7 +22,7 @@
           "points": 4
         },
         {
-          "clue": "A military force that is not part of a regular army",
+          "clue": "A civilian group trained to fight in emergencies",
           "type": "Straight",
           "points": 2
         }
@@ -47,7 +47,7 @@
           "points": 3
         },
         {
-          "clue": "People who protest",
+          "clue": "Demonstrators in a public gathering",
           "type": "Straight",
           "points": 1
         }
@@ -116,7 +116,7 @@
           "points": 4
         },
         {
-          "clue": "A person attending an event",
+          "clue": "Person present at a gathering or function",
           "type": "Straight",
           "points": 2
         }
@@ -221,12 +221,12 @@
           "points": 7
         },
         {
-          "clue": "Someone who analyzes economic data and trends",
+          "clue": "A professional who studies and interprets financial trends and market data to forecast future developments",
           "type": "Suggestive",
           "points": 4
         },
         {
-          "clue": "A specialist in economics",
+          "clue": "A publication that analyzes global news and trends",
           "type": "Straight",
           "points": 2
         }

@@ -177,12 +177,12 @@
           "points": 6
         },
         {
-          "clue": "Relating to the spirit or soul",
+          "clue": "Concerned with the deeper aspects of human experience",
           "type": "Suggestive",
           "points": 4
         },
         {
-          "clue": "Concerned with the spirit or soul",
+          "clue": "Relating to the non-physical aspect of a person",
           "type": "Straight",
           "points": 2
         }
@@ -199,7 +199,7 @@
           "points": 5
         },
         {
-          "clue": "Determining the position or location of something",
+          "clue": "Figuring out where something or someone is in relation to other things",
           "type": "Suggestive",
           "points": 3
         },

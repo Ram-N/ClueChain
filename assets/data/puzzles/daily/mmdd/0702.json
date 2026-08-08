@@ -19,7 +19,7 @@
           "points": 4
         },
         {
-          "clue": "Relating to science.",
+          "clue": "Pertaining to knowledge or study",
           "type": "Straight",
           "points": 1
         }
@@ -56,7 +56,7 @@
       ],
       "clues": [
         {
-          "clue": "The process of making something available to the public.",
+          "clue": "It's often a milestone for authors, and can be a book, a paper, or even a notice in a newspaper.",
           "type": "Indirect",
           "points": 6
         },
@@ -66,7 +66,7 @@
           "points": 4
         },
         {
-          "clue": "The act of publishing something.",
+          "clue": "A printed or digital issue of a journal, book, or newspaper",
           "type": "Straight",
           "points": 2
         }

@@ -37,17 +37,17 @@
       ],
       "clues": [
         {
-          "clue": "The act of creating written content, like a letter or a novel, which can be a form of artistic expression.",
+          "clue": "A creative outlet that might involve a quill, a keyboard, or a whispered tale.",
           "type": "Indirect",
           "points": 5
         },
         {
-          "clue": "The process of putting thoughts and ideas into written form.",
+          "clue": "A creative activity that involves expressing thoughts and ideas through language",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "The act of creating written words.",
+          "clue": "The process of putting thoughts into permanent form",
           "type": "Straight",
           "points": 1
         }

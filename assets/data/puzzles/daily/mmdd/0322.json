@@ -17,12 +17,12 @@
           "points": 6
         },
         {
-          "clue": "This occupation involves expressing thoughts and ideas through the written word, often with the goal of engaging an audience.",
+          "clue": "This profession requires creativity and strong communication skills to craft compelling narratives that captivate readers.",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "A person who creates written content, often for entertainment or education.",
+          "clue": "A person who creates novels, stories, or articles for publication.",
           "type": "Straight",
           "points": 1
         }
@@ -106,7 +106,7 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "A whispered promise, a hint of smoke, a shadow on the wall – the subtlety of life's mysteries.",
+          "clue": "In the stillness, it's the unspoken nuance that speaks volumes, a delicate dance of suggestion and implication.",
           "type": "Indirect",
           "points": 7
         },
@@ -116,7 +116,7 @@
           "points": 3
         },
         {
-          "clue": "The quality of being delicate and subtle in character or appearance.",
+          "clue": "A quality of being delicate and refined in character or expression.",
           "type": "Straight",
           "points": 1
         }
@@ -204,7 +204,7 @@
           "points": 3
         },
         {
-          "clue": "A period of 365 days, or 366 in a leap year.",
+          "clue": "A unit of time equal to 12 months",
           "type": "Straight",
           "points": 1
         }

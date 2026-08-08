@@ -14,12 +14,12 @@
           "points": 6
         },
         {
-          "clue": "Relating to molecules",
+          "clue": "Pertaining to the smallest units of a substance that still retain its properties",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "Consisting of molecules",
+          "clue": "Relating to the smallest units of a substance",
           "type": "Straight",
           "points": 1
         }
@@ -202,7 +202,7 @@
           "points": 4
         },
         {
-          "clue": "A peptide that acts as a neurotransmitter",
+          "clue": "A short chain of amino acids that acts as a signaling molecule",
           "type": "Straight",
           "points": 2
         }

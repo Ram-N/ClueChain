@@ -172,7 +172,7 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "The skill of a craftsman, demonstrated through the quality of their work",
+          "clue": "Artistry that requires hands, but not necessarily fingers on a keyboard, to create something of value",
           "type": "Indirect",
           "points": 6
         },
@@ -182,7 +182,7 @@
           "points": 3
         },
         {
-          "clue": "Skill in a particular craft",
+          "clue": "Manual skill or expertise",
           "type": "Straight",
           "points": 1
         }
@@ -221,7 +221,7 @@
           "points": 7
         },
         {
-          "clue": "A place or organization that has been established, especially a business or institution",
+          "clue": "Places where people gather for a common purpose, such as work, worship, or education",
           "type": "Suggestive",
           "points": 4
         },

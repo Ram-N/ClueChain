@@ -41,7 +41,7 @@
           "points": 3
         },
         {
-          "clue": "Substances obtained by extracting something.",
+          "clue": "Substances obtained from plants or other materials",
           "type": "Straight",
           "points": 2
         }
@@ -85,7 +85,7 @@
           "points": 4
         },
         {
-          "clue": "Relating to traditions.",
+          "clue": "Long-established or customary",
           "type": "Straight",
           "points": 2
         }
@@ -217,7 +217,7 @@
           "points": 4
         },
         {
-          "clue": "An expert in chemistry.",
+          "clue": "A person who prepares and dispenses medicinal drugs",
           "type": "Straight",
           "points": 1
         }

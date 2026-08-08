@@ -111,12 +111,12 @@
           "points": 6
         },
         {
-          "clue": "People who play musical instruments or sing, often professionally.",
+          "clue": "Professionals who bring harmony and rhythm to life through various forms of expression",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "People who make music.",
+          "clue": "Performers who entertain with instrumental or vocal skills",
           "type": "Straight",
           "points": 1
         }
@@ -177,12 +177,12 @@
           "points": 5
         },
         {
-          "clue": "Powered by electricity, often used to describe a type of instrument or device.",
+          "clue": "A type of power that makes some guitars and devices work, often associated with rock music",
           "type": "Suggestive",
           "points": 4
         },
         {
-          "clue": "Powered by electricity.",
+          "clue": "Powered by a current",
           "type": "Straight",
           "points": 1
         }

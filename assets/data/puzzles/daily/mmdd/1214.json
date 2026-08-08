@@ -133,7 +133,7 @@
           "points": 6
         },
         {
-          "clue": "The state of being diverse.",
+          "clue": "A quality that makes a group stronger by including different types of people or things",
           "type": "Suggestive",
           "points": 4
         },
@@ -182,7 +182,7 @@
           "points": 4
         },
         {
-          "clue": "Relating to culture.",
+          "clue": "Pertaining to the customs and values of a society",
           "type": "Straight",
           "points": 2
         }
@@ -204,7 +204,7 @@
           "points": 4
         },
         {
-          "clue": "Relating to institutions.",
+          "clue": "Established or organized as part of a system",
           "type": "Straight",
           "points": 2
         }

@@ -211,17 +211,17 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "A state of being protected by a stronger power",
+          "clue": "A relationship where one country has significant influence over another's affairs, often through economic or military means, like a guardian watching over a ward.",
           "type": "Indirect",
           "points": 6
         },
         {
-          "clue": "A country or area under the protection of another country",
+          "clue": "A territory or state under the control or influence of another country, often with limited autonomy",
           "type": "Suggestive",
           "points": 4
         },
         {
-          "clue": "A territory under the protection of a stronger state",
+          "clue": "A territory under the control of a more powerful state",
           "type": "Straight",
           "points": 2
         }

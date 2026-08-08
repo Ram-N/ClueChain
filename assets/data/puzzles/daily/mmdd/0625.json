@@ -150,17 +150,17 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "A thing to which something else refers",
+          "clue": "Something that's pointed to, without actually being pointed at",
           "type": "Indirect",
           "points": 7
         },
         {
-          "clue": "A person or thing that is referred to",
+          "clue": "Something to which something else is related or compared, often serving as a standard or basis for evaluation",
           "type": "Suggestive",
           "points": 4
         },
         {
-          "clue": "Something that is being referred to",
+          "clue": "A person or thing that something is related or directed to",
           "type": "Straight",
           "points": 2
         }

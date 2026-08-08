@@ -43,7 +43,7 @@
           "points": 4
         },
         {
-          "clue": "The office of a president",
+          "clue": "Highest political office in a country",
           "type": "Straight",
           "points": 2
         }
@@ -84,12 +84,12 @@
           "points": 7
         },
         {
-          "clue": "An armed group that operates outside of official military structures",
+          "clue": "A private group of armed individuals who often defy government authority",
           "type": "Suggestive",
           "points": 4
         },
         {
-          "clue": "A civilian force that engages in military activities",
+          "clue": "A group of civilians who train for combat",
           "type": "Straight",
           "points": 1
         }
@@ -123,7 +123,7 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "With a lot of energy and enthusiasm",
+          "clue": "Like a dynamic and lively performance",
           "type": "Indirect",
           "points": 6
         },

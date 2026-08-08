@@ -14,7 +14,7 @@
           "points": 5
         },
         {
-          "clue": "A method or procedure for doing something, often in a series of steps.",
+          "clue": "A series of actions or steps taken to achieve a particular goal or outcome, often involving a transformation from one state to another.",
           "type": "Suggestive",
           "points": 3
         },
@@ -58,7 +58,7 @@
           "points": 5
         },
         {
-          "clue": "A popular beverage made from roasted coffee beans, often consumed for its stimulating effects.",
+          "clue": "A morning pick-me-up for many, this drink is often relied upon to boost energy and alertness.",
           "type": "Suggestive",
           "points": 3
         },
@@ -199,7 +199,7 @@
           "points": 4
         },
         {
-          "clue": "The act of inspiring or the state of being inspired.",
+          "clue": "A creative stimulus that motivates the mind or feelings",
           "type": "Straight",
           "points": 1
         }

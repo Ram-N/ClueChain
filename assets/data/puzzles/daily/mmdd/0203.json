@@ -173,7 +173,7 @@
           "points": 3
         },
         {
-          "clue": "A person affected by amnesia.",
+          "clue": "A person who has forgotten their past",
           "type": "Straight",
           "points": 2
         }
@@ -212,7 +212,7 @@
           "points": 6
         },
         {
-          "clue": "What a detective does.",
+          "clue": "Process used to uncover hidden truths or solve mysteries",
           "type": "Suggestive",
           "points": 3
         },

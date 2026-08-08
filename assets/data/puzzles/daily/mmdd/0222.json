@@ -84,17 +84,17 @@
       ],
       "clues": [
         {
-          "clue": "The act of creating written content, such as stories or articles",
+          "clue": "A midnight oil burner's labor of love, where imagination knows no bounds and the world fades into the background",
           "type": "Indirect",
           "points": 6
         },
         {
-          "clue": "The process of putting thoughts or ideas into written words",
+          "clue": "Crafting stories and ideas into a tangible form, often fueled by imagination and creativity",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "To create written words or symbols",
+          "clue": "To compose or produce literary or creative work",
           "type": "Straight",
           "points": 1
         }
@@ -116,7 +116,7 @@
           "points": 3
         },
         {
-          "clue": "A hot drink made from coffee beans",
+          "clue": "A popular morning pick-me-up beverage",
           "type": "Straight",
           "points": 1
         }

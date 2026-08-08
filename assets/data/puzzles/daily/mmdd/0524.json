@@ -89,7 +89,7 @@
           "points": 6
         },
         {
-          "clue": "Existing in or caused by nature, not made or caused by people.",
+          "clue": "Typically found outdoors and unaltered by human intervention, this concept is often associated with the environment and ecosystems.",
           "type": "Suggestive",
           "points": 3
         },
@@ -204,7 +204,7 @@
           "points": 4
         },
         {
-          "clue": "The state of being occupied by a military force.",
+          "clue": "A state of holding or possessing something, especially a position or a piece of land",
           "type": "Straight",
           "points": 2
         }

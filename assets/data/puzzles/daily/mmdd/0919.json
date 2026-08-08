@@ -59,7 +59,7 @@
       ],
       "clues": [
         {
-          "clue": "A sign or indication of something, like a message in the night",
+          "clue": "A hint that's caught, like a whisper in a crowd, or a wink across the room",
           "type": "Indirect",
           "points": 6
         },
@@ -69,7 +69,7 @@
           "points": 3
         },
         {
-          "clue": "A sign or indication",
+          "clue": "A hint or indication of something",
           "type": "Straight",
           "points": 1
         }
@@ -199,7 +199,7 @@
           "points": 7
         },
         {
-          "clue": "The state of being anonymous, or having no name",
+          "clue": "A condition often required for individuals sharing sensitive or confidential information",
           "type": "Suggestive",
           "points": 4
         },

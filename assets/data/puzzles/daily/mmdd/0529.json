@@ -43,7 +43,7 @@
           "points": 4
         },
         {
-          "clue": "A film that documents reality",
+          "clue": "A nonfiction film that captures real events or people",
           "type": "Straight",
           "points": 2
         }
@@ -128,12 +128,12 @@
           "points": 5
         },
         {
-          "clue": "A device used to record video",
+          "clue": "A common tool for capturing memories of special events and preserving them for years to come",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "A magnetic tape used to record video",
+          "clue": "A magnetic recording medium for capturing moving images",
           "type": "Straight",
           "points": 1
         }
@@ -221,7 +221,7 @@
           "points": 3
         },
         {
-          "clue": "A person or thing that is interesting or appealing",
+          "clue": "A person or thing that attracts or engages attention",
           "type": "Straight",
           "points": 1
         }

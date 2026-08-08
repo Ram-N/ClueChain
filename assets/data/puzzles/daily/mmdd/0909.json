@@ -41,8 +41,8 @@
           "points": 3
         },
         {
+          "clue": "Mental faculty that enables one to discern and interpret information",
           "type": "Straight",
-          "clue": "The ability to understand something; comprehension.",
           "points": 1
         }
       ],
@@ -85,8 +85,8 @@
           "points": 4
         },
         {
+          "clue": "Having a healing or curative effect",
           "type": "Straight",
-          "clue": "Providing a remedy; tending to improve or cure.",
           "points": 2
         }
       ],

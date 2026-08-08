@@ -131,14 +131,17 @@ class LLMProvider:
                         {"role": "user", "content": user_prompt},
                     ],
                     temperature=0.7,
-                    max_tokens=500,
-                    timeout=30,
+                    max_tokens=4096 if name == "nim" else 500,
+                    timeout=60 if name == "nim" else 30,
                 )
                 # NIM doesn't support response_format json_object
                 if name != "nim":
                     kwargs["response_format"] = {"type": "json_object"}
                 response = client.chat.completions.create(**kwargs)
-                return response.choices[0].message.content
+                content = response.choices[0].message.content
+                if not content:
+                    raise ValueError(f"{name} returned empty response")
+                return content
             except Exception as e:
                 err_str = str(e)
                 is_rate_limit = "429" in err_str or "rate" in err_str.lower()

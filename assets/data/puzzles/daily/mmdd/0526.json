@@ -47,7 +47,7 @@
           "points": 3
         },
         {
-          "clue": "A doctor who specializes in surgery.",
+          "clue": "Medical professional who performs operations",
           "type": "Straight",
           "points": 1
         }
@@ -91,7 +91,7 @@
           "points": 3
         },
         {
-          "clue": "A thing that replaces something else.",
+          "clue": "Something that serves as a substitute",
           "type": "Straight",
           "points": 1
         }
@@ -135,7 +135,7 @@
           "points": 3
         },
         {
-          "clue": "A power tool used for drilling holes.",
+          "clue": "A device with a rotating shaft used for making holes in materials",
           "type": "Straight",
           "points": 1
         }
@@ -216,7 +216,7 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "The use of instruments to achieve a specific goal.",
+          "clue": "A symphony of skilled hands and machines working together in perfect harmony to achieve a precise medical outcome.",
           "type": "Indirect",
           "points": 6
         },
@@ -226,7 +226,7 @@
           "points": 4
         },
         {
-          "clue": "The instruments used in a particular activity or field.",
+          "clue": "Equipment or devices used for a specific purpose",
           "type": "Straight",
           "points": 2
         }

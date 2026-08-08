@@ -89,12 +89,12 @@
           "points": 6
         },
         {
-          "clue": "Relating to a colony or a system of colonization",
+          "clue": "Associated with a system of governance where one country has control over another",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "Pertaining to a colony",
+          "clue": "Relating to a territory under the control of a distant country",
           "type": "Straight",
           "points": 1
         }
@@ -111,7 +111,7 @@
           "points": 5
         },
         {
-          "clue": "The system or group of people that govern a country",
+          "clue": "Body responsible for making and enforcing laws in a country",
           "type": "Suggestive",
           "points": 4
         },

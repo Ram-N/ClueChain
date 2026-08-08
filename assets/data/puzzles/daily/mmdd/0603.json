@@ -106,7 +106,7 @@
       ],
       "clues": [
         {
-          "clue": "Professionals operating cameras to capture scenes",
+          "clue": "Behind every great director, there's a team of skilled individuals who bring the scene into focus",
           "type": "Indirect",
           "points": 5
         },
@@ -116,7 +116,7 @@
           "points": 3
         },
         {
-          "clue": "People who operate cameras",
+          "clue": "Film crew members responsible for capturing visual content",
           "type": "Straight",
           "points": 1
         }

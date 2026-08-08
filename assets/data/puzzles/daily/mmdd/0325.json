@@ -82,7 +82,7 @@
           "points": 7
         },
         {
-          "clue": "Concerning literature or authors",
+          "clue": "Pertaining to written works or authors, often a subject of academic study",
           "type": "Suggestive",
           "points": 4
         },
@@ -111,7 +111,7 @@
           "points": 3
         },
         {
-          "clue": "Real estate or intellectual property",
+          "clue": "Assets or possessions",
           "type": "Straight",
           "points": 1
         }

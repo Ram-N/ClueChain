@@ -41,7 +41,7 @@
           "points": 3
         },
         {
-          "clue": "Doctors who perform surgery.",
+          "clue": "Medical professionals who operate on patients",
           "type": "Straight",
           "points": 1
         }
@@ -88,7 +88,7 @@
           "points": 4
         },
         {
-          "clue": "Pertaining to the esophagus.",
+          "clue": "Relating to the tube that carries food from the throat to the stomach",
           "type": "Straight",
           "points": 2
         }
@@ -155,12 +155,12 @@
           "points": 7
         },
         {
-          "clue": "A procedure to remove part or all of the pancreas.",
+          "clue": "A surgical procedure often used to treat tumors or cysts in a vital organ near the stomach and small intestine.",
           "type": "Suggestive",
           "points": 4
         },
         {
-          "clue": "Surgical removal of the pancreas.",
+          "clue": "Surgical procedure to remove a specific organ",
           "type": "Straight",
           "points": 2
         }
@@ -182,7 +182,7 @@
           "points": 4
         },
         {
-          "clue": "Pertaining to surgery using a laparoscope.",
+          "clue": "Minimally invasive surgical technique using small incisions",
           "type": "Straight",
           "points": 2
         }
@@ -226,7 +226,7 @@
           "points": 4
         },
         {
-          "clue": "The state of being mortal.",
+          "clue": "Death rate or the number of deaths in a given area or period",
           "type": "Straight",
           "points": 2
         }

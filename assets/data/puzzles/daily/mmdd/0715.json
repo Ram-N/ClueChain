@@ -19,12 +19,14 @@
           "points": 2
         },
         {
+          "clue": "Emerged from sleep",
           "type": "Straight",
-          "clue": "Past tense of awake; stopped sleeping.",
           "points": 1
         }
       ],
-      "related_words": ["dreams"]
+      "related_words": [
+        "dreams"
+      ]
     },
     {
       "word": "morning",
@@ -68,7 +70,9 @@
           "points": 1
         }
       ],
-      "related_words": ["dreams"]
+      "related_words": [
+        "dreams"
+      ]
     },
     {
       "word": "dreams",
@@ -90,7 +94,10 @@
           "points": 1
         }
       ],
-      "related_words": ["awoke", "uneasy"]
+      "related_words": [
+        "awoke",
+        "uneasy"
+      ]
     },
     {
       "word": "transformed",
@@ -112,7 +119,9 @@
           "points": 2
         }
       ],
-      "related_words": ["insect"]
+      "related_words": [
+        "insect"
+      ]
     },
     {
       "word": "gigantic",
@@ -134,7 +143,9 @@
           "points": 1
         }
       ],
-      "related_words": ["insect"]
+      "related_words": [
+        "insect"
+      ]
     },
     {
       "word": "insect",
@@ -156,7 +167,10 @@
           "points": 1
         }
       ],
-      "related_words": ["transformed", "gigantic"]
+      "related_words": [
+        "transformed",
+        "gigantic"
+      ]
     },
     {
       "word": "succinct",
@@ -212,13 +226,13 @@
           "points": 5
         },
         {
+          "clue": "Pertaining to the species that created art, literature, and complex societies",
           "type": "Suggestive",
-          "clue": "Relating to or characteristic of humankind.",
           "points": 3
         },
         {
+          "clue": "Pertaining to people or the species Homo sapiens",
           "type": "Straight",
-          "clue": "Relating to or characteristic of humankind.",
           "points": 1
         }
       ],

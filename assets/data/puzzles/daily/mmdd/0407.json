@@ -199,8 +199,8 @@
           "points": 2
         },
         {
+          "clue": "In a precise manner; without error",
           "type": "Straight",
-          "clue": "In an exact manner; precisely.",
           "points": 1
         }
       ],
@@ -216,8 +216,8 @@
           "points": 4
         },
         {
+          "clue": "A common boundary or dividing line between territories, often forming a natural obstacle or barrier, and sometimes serving as a source of inspiration in music and poetry.",
           "type": "Suggestive",
-          "clue": "A large natural stream of water flowing in a channel to the sea, a lake, or another river.",
           "points": 2
         },
         {

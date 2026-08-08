@@ -177,12 +177,12 @@
           "points": 7
         },
         {
-          "clue": "People who perform magic tricks and illusions",
+          "clue": "Entertainers often seen at circuses and carnivals with tricks up their sleeves",
           "type": "Suggestive",
           "points": 4
         },
         {
-          "clue": "People who perform magic",
+          "clue": "Performers who entertain with illusions and tricks",
           "type": "Straight",
           "points": 1
         }
