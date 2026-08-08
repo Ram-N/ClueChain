@@ -1,7 +1,7 @@
 {
   "title": "Redesigning the Way We Work",
   "date": "02-18",
-  "text": "Redesigning the Way We Work\nSlate.com\n\nA little over a year ago we published the results of an experiment: a new article design that didn’t look like the rest of our stories. It had an airy layout that gave clarity to the text, with new typefaces and colors, and it was published entirely outside of our CMS. Over the past year we’ve been using that article design to publish more stories as we’ve developed the complete new look we’re unveiling today. But we haven’t been calling this process a redesign—instead, I asked everyone to call it Redux. That’s because all the while the project has been a Trojan horse.\n\nSlate has been sorely in need of a visual update to bring our look up to the level of our stories, but rather than just focus on a redesign of the website, we wanted to redesign the way we work. Sure, on the other end of that we’d have a new home page and logo, but we wanted to build a process for working together that brought everyone to the same table—editorial, design, development, product, and sales.",
+  "text": "A little over a year ago we published the results of an experiment: a new article design that didn’t look like the rest of our stories. It had an airy layout that gave clarity to the text, with new typefaces and colors, and it was published entirely outside of our CMS. Over the past year we’ve been using that article design to publish more stories as we’ve developed the complete new look we’re unveiling today. But we haven’t been calling this process a redesign—instead, I asked everyone to call it Redux. That’s because all the while the project has been a Trojan horse.\n\nSlate has been sorely in need of a visual update to bring our look up to the level of our stories, but rather than just focus on a redesign of the website, we wanted to redesign the way we work. Sure, on the other end of that we’d have a new home page and logo, but we wanted to build a process for working together that brought everyone to the same table—editorial, design, development, product, and sales.",
   "hiddenWords": [
     {
       "word": "year",
@@ -116,7 +116,7 @@
           "points": 4
         },
         {
-          "clue": "A set of procedures",
+          "clue": "Series of actions to achieve a goal",
           "type": "Straight",
           "points": 1
         }

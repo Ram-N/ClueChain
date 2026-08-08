@@ -1,7 +1,7 @@
 {
   "title": "Geographic Analysis",
   "date": "03-17",
-  "text": "Geographic Analysis\nNational Geographic\n\nGeographic analyses of the spread of diseases have pointed to the conditions that allow particular diseases to develop and spread. Dr. John Snow’s cholera map stands out as a classic example. When cholera broke out in London, England, in 1854, Snow represented the deaths per household on a street map. Using the map, he was able to trace the source of the outbreak to a water pump on the corner of Broad Street and Cambridge Street. The geographic perspective helped identify the source of the problem (the water from a specific pump) and allowed people to avoid the disease (avoiding water from that pump).",
+  "text": "Geographic analyses of the spread of diseases have pointed to the conditions that allow particular diseases to develop and spread. Dr. John Snow’s cholera map stands out as a classic example. When cholera broke out in London, England, in 1854, Snow represented the deaths per household on a street map. Using the map, he was able to trace the source of the outbreak to a water pump on the corner of Broad Street and Cambridge Street. The geographic perspective helped identify the source of the problem (the water from a specific pump) and allowed people to avoid the disease (avoiding water from that pump).",
   "hiddenWords": [
     {
       "word": "map",
@@ -194,7 +194,7 @@
       "related_words": [],
       "clues": [
         {
-          "clue": "To steer clear of something, like a ship avoiding an iceberg.",
+          "clue": "Steering clear of trouble might mean taking a different route, like a ship altering its course to escape a hidden hazard.",
           "type": "Indirect",
           "points": 5
         },
