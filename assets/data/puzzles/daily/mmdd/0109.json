@@ -118,24 +118,24 @@
       ]
     },
     {
-      "word": "romanticized",
-      "difficulty": "Hard",
+      "word": "instance",
+      "difficulty": "Intermediate",
       "related_words": [],
       "clues": [
         {
-          "clue": "Think of a lens through which the world is viewed, one that softens the edges and amplifies the charm, creating a dreamlike quality that captivates the heart.",
+          "clue": "A single example that proves a point, like a drop of water in an ocean of data.",
           "type": "Indirect",
-          "points": 7
+          "points": 6
         },
         {
-          "clue": "It involves emphasizing the beautiful or exciting aspects of something, often at the expense of accuracy.",
+          "clue": "When something happens, it's one of these, a case or occurrence that illustrates a situation.",
           "type": "Suggestive",
-          "points": 4
+          "points": 3
         },
         {
-          "clue": "Presented in a way that is more attractive or appealing than it really is.",
+          "clue": "A single case or occurrence of something.",
           "type": "Straight",
-          "points": 2
+          "points": 1
         }
       ]
     },

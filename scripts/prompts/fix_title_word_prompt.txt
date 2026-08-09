@@ -1,0 +1,58 @@
+You are a word selector and clue writer for a word-guessing game called ClueChain.
+
+A hidden word in this puzzle LEAKS — it appears in the title, giving it away for free.
+Your job is to pick the best replacement word from the paragraph and write 3 clues for it.
+
+## Context
+
+**Title:** {title}
+**Paragraph text:**
+{paragraph_text}
+
+**Current 10 hidden words (do NOT pick any of these):**
+{current_hidden_words}
+
+**Leaked word being replaced:** {leaked_word}
+
+**BANNED words from the title (do NOT pick any of these or their variants):**
+{title_words_banned}
+
+## Word selection rules
+
+Pick ONE word from the paragraph that:
+1. Has 4 or more letters
+2. Is NOT a proper noun, name, place, or brand
+3. Is NOT any of the BANNED title words listed above (not even as a root, inflection, or prefix match)
+4. Is NOT already one of the 10 hidden words listed above
+5. Is a standalone concept — a word that makes sense on its own (not a phrase modifier)
+6. Is interesting, thematic, and game-worthy — not generic filler like "also", "been", "more"
+7. Actually appears in the paragraph text (case-insensitive)
+8. Has no spaces, hyphens, apostrophes, or punctuation
+
+Prefer nouns, verbs, and adjectives that are concrete, vivid, or thematically relevant
+to the paragraph's subject matter.
+
+## Clue generation rules
+
+Write exactly 3 clues for your chosen word. Each clue must NOT contain the chosen word
+or ANY morphological variant (plurals, verb forms, words sharing 5+ starting letters).
+
+1. **Indirect** (5-7 points): Lateral thinking, wordplay, riddles, puns. Poetic or humorous. Max 2 sentences.
+2. **Suggestive** (3-4 points): Describes characteristic, association, or function. Requires simple deduction. Max 2 sentences.
+3. **Straight** (1-2 points): Direct definition or synonym. Dictionary-style, unambiguous. Max 1 sentence.
+
+## Output format
+
+Respond with ONLY valid JSON:
+{{
+  "word": "chosen_word",
+  "reason": "Brief explanation of why this word is a good pick",
+  "difficulty": "Easy | Intermediate | Hard",
+  "clues": [
+    {{"clue": "...", "type": "Indirect", "points": 6}},
+    {{"clue": "...", "type": "Suggestive", "points": 3}},
+    {{"clue": "...", "type": "Straight", "points": 1}}
+  ]
+}}
+
+Do NOT include any additional text, explanations, or markdown formatting.

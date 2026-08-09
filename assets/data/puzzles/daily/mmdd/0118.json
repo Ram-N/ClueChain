@@ -4,25 +4,22 @@
   "text": "Last winter, we started seeing men pulling up in very nice SUVs and walking around the lot’s cluttered backyard, taking pictures with their phones. Because this was a change from the house’s usual foot traffic—teens daring other teens, late at night, to sneak inside—we suspected the property had finally gone on the market. In February, arborists arrived to cut down half a dozen trees. Then, one day in March, a guy driving an excavator knocked the house down, leaving a pile of rubble. It was a windy afternoon, and our yard was soon littered with old Penthouses and business correspondence from the 1980s. A construction crew spent the spring and summer building a new house, which, like all new houses in our suburban neighborhood, dwarfed our own. Indeed, the house is quite similar to nearly every other new house built in our neighborhood over the past few years, built in a style I think of as the Giant White House.",
   "hiddenWords": [
     {
-      "word": "house",
-      "difficulty": "Easy",
-      "related_words": [
-        "neighborhood",
-        "style"
-      ],
+      "word": "afternoon",
+      "difficulty": "Intermediate",
+      "related_words": [],
       "clues": [
         {
-          "clue": "A place where people live, often with a yard and trees.",
+          "clue": "Time for a siesta, perhaps, or a spot of tea?",
           "type": "Indirect",
           "points": 6
         },
         {
-          "clue": "A building that serves as a dwelling.",
+          "clue": "Often associated with a lull in activity before the evening rush",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "A dwelling or residence.",
+          "clue": "Part of the day between noon and evening",
           "type": "Straight",
           "points": 1
         }
@@ -32,7 +29,6 @@
       "word": "neighborhood",
       "difficulty": "Intermediate",
       "related_words": [
-        "house",
         "style"
       ],
       "clues": [
@@ -57,7 +53,6 @@
       "word": "style",
       "difficulty": "Intermediate",
       "related_words": [
-        "house",
         "neighborhood"
       ],
       "clues": [

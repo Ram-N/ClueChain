@@ -4,22 +4,22 @@
   "text": "Salon.com -- Does the word “influence” make you clench a little? Does the concept of “negotiation” give you anxiety? It shouldn’t. As author and assistant professor at Yale Zoe Chance explains it, we’ve been influencing and negotiating all our lives. Negotiation in everyday life isn’t like a tense Hollywood drama, with clocks running down and people pounding their fists on desks. It’s just… communication. And better communication makes life better for everybody, whether we’re trying to change the world or just change our jobs.\n\nIn “Influence Is Your Superpower: The Science of Winning Hearts, Sparking Change, and Making Good Things Happen,” Chance explores her research on persuasion, showing why our “gator brain” is a powerful decision maker, what saying no can teach us about getting to yes, and how charisma can — and should — be learned. Salon talked to Chance recently about the superpower of influence, and why it “isn’t just for do-gooders.”",
   "hiddenWords": [
     {
-      "word": "anxiety",
+      "word": "fists",
       "difficulty": "Intermediate",
       "related_words": [],
       "clues": [
         {
-          "clue": "A feeling that makes you clench, it's a common reaction to negotiation.",
+          "clue": "A symbol of tense argument, often raised in anger",
           "type": "Indirect",
           "points": 6
         },
         {
-          "clue": "A state of distress that people often experience during negotiations.",
+          "clue": "Used to emphasize a point or express frustration",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "A feeling of worry or nervousness.",
+          "clue": "Closed hands with curled fingers",
           "type": "Straight",
           "points": 1
         }
@@ -101,22 +101,22 @@
       ]
     },
     {
-      "word": "negotiation",
+      "word": "lives",
       "difficulty": "Easy",
       "related_words": [],
       "clues": [
         {
-          "clue": "A conversation with a purpose, not a confrontation.",
+          "clue": "A cat has nine of them, but humans only get one shot.",
           "type": "Indirect",
-          "points": 5
+          "points": 6
         },
         {
-          "clue": "The process of discussing and reaching an agreement.",
+          "clue": "The span of time a person is alive is marked by experiences and events.",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "A discussion between two or more parties to reach a mutually acceptable agreement.",
+          "clue": "Existences or periods of being alive.",
           "type": "Straight",
           "points": 1
         }

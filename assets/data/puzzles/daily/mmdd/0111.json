@@ -54,8 +54,7 @@
       "word": "brains",
       "difficulty": "Intermediate",
       "related_words": [
-        "research",
-        "minds"
+        "research"
       ],
       "clues": [
         {
@@ -76,26 +75,24 @@
       ]
     },
     {
-      "word": "minds",
-      "difficulty": "Easy",
-      "related_words": [
-        "brains"
-      ],
+      "word": "health",
+      "difficulty": "Intermediate",
+      "related_words": [],
       "clues": [
         {
-          "clue": "Picture a vast, uncharted territory waiting to be explored",
+          "clue": "Something we try to keep in good shape, but can be worn down by bad air.",
           "type": "Indirect",
-          "points": 5
+          "points": 6
         },
         {
-          "clue": "It's where thoughts, emotions, and memories reside",
+          "clue": "A state of well-being that's impacted by the quality of our surroundings.",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "The element of a person that enables them to be aware of their surroundings",
+          "clue": "A state of complete physical, mental, and emotional well-being.",
           "type": "Straight",
-          "points": 2
+          "points": 1
         }
       ]
     },

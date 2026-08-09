@@ -4,22 +4,22 @@
   "text": "History of geography\nNational Geographic\n\nOf course, the Greeks were not the only people interested in geography, nor were they the first. \nThroughout human history, most societies have sought to understand something about their \nplace in the world and the people and environments around them. Mesopotamian societies \ninscribed maps on clay tablets, some of which survive to this day. The earliest known \nattempt at mapping the world is a Babylonian clay tablet known as the Imago Mundi. \n\nThis map, created in the sixth century B.C.E., is more of a metaphorical and spiritual \nrepresentation of Babylonian society rather than an accurate depiction of geography. \nOther Mesopotamian maps were more practical, marking irrigation networks and landholdings.",
   "hiddenWords": [
     {
-      "word": "geography",
-      "difficulty": "Easy",
+      "word": "metaphorical",
+      "difficulty": "Intermediate",
       "related_words": [],
       "clues": [
         {
-          "clue": "Study of the Earth's surface and features.",
+          "clue": "A way to describe something that's not literally true, but conveys a deeper meaning, like a poet's verse.",
           "type": "Indirect",
           "points": 6
         },
         {
-          "clue": "Field of study that examines the Earth's physical features and human populations.",
+          "clue": "This concept is often used in art and literature to convey complex ideas or emotions, making it a useful tool for creatives.",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "The study of the Earth's physical features, human populations, and the ways in which people interact with the environment.",
+          "clue": "A figure of speech that uses an object or idea to represent something else.",
           "type": "Straight",
           "points": 1
         }
@@ -51,7 +51,6 @@
       "word": "maps",
       "difficulty": "Easy",
       "related_words": [
-        "geography",
         "societies"
       ],
       "clues": [
@@ -99,9 +98,7 @@
     {
       "word": "environments",
       "difficulty": "Intermediate",
-      "related_words": [
-        "geography"
-      ],
+      "related_words": [],
       "clues": [
         {
           "clue": "The natural world, including living and non-living components.",
@@ -145,9 +142,7 @@
     {
       "word": "world",
       "difficulty": "Easy",
-      "related_words": [
-        "geography"
-      ],
+      "related_words": [],
       "clues": [
         {
           "clue": "The planet we inhabit, with all its diverse features and inhabitants.",
