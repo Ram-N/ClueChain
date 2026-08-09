@@ -745,15 +745,16 @@ def main():
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Examples:
-  python scripts/score_paragraphs.py                        # LLM-score all unscored (resumes)
-  python scripts/score_paragraphs.py --batch-size 20        # LLM-score only 20 unscored then stop
-  python scripts/score_paragraphs.py --rules                # Also run rule-based scoring (spaCy)
-  python scripts/score_paragraphs.py --rules --batch-size 0 # Rule-based only, no LLM
-  python scripts/score_paragraphs.py --force                # Re-score everything
+  python scripts/score_paragraphs.py                        # Rule-based + LLM-score 20 unscored (resumes)
+  python scripts/score_paragraphs.py --batch-size 50        # LLM-score 50 unscored then stop
+  python scripts/score_paragraphs.py --batch-size 0         # Rule-based only, no LLM
+  python scripts/score_paragraphs.py --force                # Re-score everything from scratch
+  python scripts/score_paragraphs.py --force --batch-size 0 # Fresh rule-based only
   python scripts/score_paragraphs.py --file a.json b.json   # Score specific files
   python scripts/score_paragraphs.py --dry-run              # Show what would be scored
   python scripts/score_paragraphs.py --delay 2.0            # Custom API delay
-  python scripts/score_paragraphs.py --groq                 # Use Groq instead of NIM
+  python scripts/score_paragraphs.py --nim                  # Use NIM instead of Groq
+  python scripts/score_paragraphs.py --no-rules             # LLM scoring only, skip spaCy
         """
     )
     parser.add_argument("--batch-size", type=int, default=20,
@@ -766,17 +767,15 @@ Examples:
                         help="Show what would be scored without scoring")
     parser.add_argument("--delay", type=float, default=2.0,
                         help="Delay between API calls in seconds (default: 2.0)")
-    parser.add_argument("--rules", action="store_true",
-                        help="Run rule-based scoring (spaCy POS/variety). Off by default.")
-    parser.add_argument("--groq", action="store_true",
-                        help="Use Groq instead of NIM for LLM scoring")
+    parser.add_argument("--no-rules", action="store_true",
+                        help="Skip rule-based scoring (spaCy POS/variety). Useful for LLM-only re-runs.")
+    parser.add_argument("--nim", action="store_true",
+                        help="Use NIM instead of Groq for LLM scoring")
     args = parser.parse_args()
 
     # Load env and spaCy (always needed for clue leak detection)
-    # --file implies --rules (fast enough to always run)
     load_dotenv()
-    if args.file:
-        args.rules = True
+    args.rules = not args.no_rules
     nlp = _load_spacy_model()
 
     # Load existing scores (checkpoint)
@@ -911,28 +910,28 @@ Examples:
         if len(needs_llm) > args.batch_size:
             print(f"  ... and {len(needs_llm) - args.batch_size} more in future batches")
     elif needs_llm and args.batch_size > 0:
-        # Set up LLM client: NIM default, --groq to override
+        # Set up LLM client: Groq default, --nim to override
         nim_key = os.getenv("NIM_API_KEY")
         groq_key = os.getenv("GROQ_API_KEY")
         client = None
         provider = None
 
-        if args.groq:
-            if groq_key:
-                client = _make_groq_client(groq_key)
-                model = GROQ_MODEL
-                provider = "Groq"
+        if args.nim:
+            if nim_key:
+                client = _make_nim_client(nim_key)
+                model = NIM_MODEL
+                provider = "NIM"
             else:
-                print("Error: --groq specified but GROQ_API_KEY not set.")
+                print("Error: --nim specified but NIM_API_KEY not set.")
                 sys.exit(1)
-        elif nim_key:
-            client = _make_nim_client(nim_key)
-            model = NIM_MODEL
-            provider = "NIM"
         elif groq_key:
             client = _make_groq_client(groq_key)
             model = GROQ_MODEL
             provider = "Groq"
+        elif nim_key:
+            client = _make_nim_client(nim_key)
+            model = NIM_MODEL
+            provider = "NIM"
 
         if not client:
             print("Warning: Neither NIM_API_KEY nor GROQ_API_KEY set. Skipping LLM scoring.")
