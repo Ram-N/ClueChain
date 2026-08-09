@@ -7,7 +7,6 @@
       "word": "century",
       "difficulty": "Easy",
       "related_words": [
-        "french",
         "cuisine"
       ],
       "clues": [
@@ -29,25 +28,22 @@
       ]
     },
     {
-      "word": "french",
-      "difficulty": "Easy",
-      "related_words": [
-        "century",
-        "cuisine"
-      ],
+      "word": "character",
+      "difficulty": "Intermediate",
+      "related_words": [],
       "clues": [
         {
-          "clue": "A language and culture known for romance and fine dining.",
+          "clue": "A unique trait that sets something apart, like a fingerprint of flavor",
           "type": "Indirect",
-          "points": 5
+          "points": 6
         },
         {
-          "clue": "Relating to the country famous for its cuisine.",
+          "clue": "Something that defines a style or approach, making it recognizable",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "From or related to France.",
+          "clue": "A distinctive quality or attribute",
           "type": "Straight",
           "points": 1
         }
@@ -57,8 +53,7 @@
       "word": "cuisine",
       "difficulty": "Intermediate",
       "related_words": [
-        "century",
-        "french"
+        "century"
       ],
       "clues": [
         {

@@ -4,50 +4,44 @@
   "text": "It was late December, almost Christmas, and it was a time in my life when I had a job with no office hours and I could get up anytime I wanted, so every morning felt like Sunday morning, slow and hazy through the scrim of a Saturday night hangover. I was in love during at least some of that time with Harriet, or I thought I was anyway, and she was between jobs so we could get up at eleven, or noon, or whenever we wanted, and walk through the park, or go looking for Philip Roth, who lived in her neighborhood and was out on the streets around the same time we were every day. Philip Roth. There he was, head down, bent forward against a winter wind, thinking about Nathan Zuckerman.",
   "hiddenWords": [
     {
-      "word": "morning",
-      "difficulty": "Easy",
-      "related_words": [
-        "sunday",
-        "saturday"
-      ],
+      "word": "hangover",
+      "difficulty": "Intermediate",
+      "related_words": [],
       "clues": [
         {
-          "clue": "When the sun rises, but the night's effects still linger.",
+          "clue": "A price paid for last night's delight, a painful reminder of a joyful excess",
           "type": "Indirect",
           "points": 6
         },
         {
-          "clue": "The time of day when people usually wake up.",
+          "clue": "Common aftermath of a night out with friends, often involving headaches and regret",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "The first part of the day, after sunrise.",
+          "clue": "Unpleasant physical effect following heavy drinking",
           "type": "Straight",
           "points": 1
         }
       ]
     },
     {
-      "word": "sunday",
-      "difficulty": "Easy",
-      "related_words": [
-        "morning",
-        "saturday"
-      ],
+      "word": "scrim",
+      "difficulty": "Intermediate",
+      "related_words": [],
       "clues": [
         {
-          "clue": "The day of rest, when the world feels slower.",
+          "clue": "A thin veil that distorts, but still reveals the truth beneath",
           "type": "Indirect",
-          "points": 5
+          "points": 6
         },
         {
-          "clue": "The last day of the week, often associated with relaxation.",
+          "clue": "Something that filters or obscures one's view, like a hazy mist",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "The seventh day of the week.",
+          "clue": "A thin, translucent fabric or layer",
           "type": "Straight",
           "points": 1
         }
@@ -56,10 +50,7 @@
     {
       "word": "saturday",
       "difficulty": "Easy",
-      "related_words": [
-        "morning",
-        "sunday"
-      ],
+      "related_words": [],
       "clues": [
         {
           "clue": "The day before Sunday, often a night for going out.",

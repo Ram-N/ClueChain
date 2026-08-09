@@ -79,44 +79,44 @@
       ]
     },
     {
-      "word": "women",
-      "difficulty": "Easy",
+      "word": "merciless",
+      "difficulty": "Intermediate",
       "related_words": [],
       "clues": [
         {
-          "clue": "The ones who are often underpaid, but not underappreciated.",
+          "clue": "Gears that show no pity will leave you crushed, a common fate in a dog-eat-dog world.",
           "type": "Indirect",
           "points": 6
         },
         {
-          "clue": "Adult human females, who make up about half of the population.",
+          "clue": "This quality is often associated with strict rules or unyielding systems, where leniency is rare.",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "Female humans.",
+          "clue": "Lacking compassion or forgiveness, having a harsh nature.",
           "type": "Straight",
           "points": 1
         }
       ]
     },
     {
-      "word": "negotiate",
+      "word": "common",
       "difficulty": "Intermediate",
       "related_words": [],
       "clues": [
         {
-          "clue": "The art of getting what you want without giving up too much.",
+          "clue": "Shared by many, like a household item",
           "type": "Indirect",
           "points": 6
         },
         {
-          "clue": "To discuss and reach an agreement, often involving compromise.",
+          "clue": "Typical or expected, like a daily routine",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "To discuss and reach an agreement.",
+          "clue": "Widespread or ordinary",
           "type": "Straight",
           "points": 1
         }

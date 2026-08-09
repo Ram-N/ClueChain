@@ -24,7 +24,9 @@
           "points": 3
         }
       ],
-      "related_words": ["generated"]
+      "related_words": [
+        "generated"
+      ]
     },
     {
       "word": "generated",
@@ -46,7 +48,9 @@
           "points": 2
         }
       ],
-      "related_words": ["algorithmically"]
+      "related_words": [
+        "algorithmically"
+      ]
     },
     {
       "word": "delivers",
@@ -156,7 +160,9 @@
           "points": 2
         }
       ],
-      "related_words": ["prize"]
+      "related_words": [
+        "prize"
+      ]
     },
     {
       "word": "prize",
@@ -178,51 +184,53 @@
           "points": 1
         }
       ],
-      "related_words": ["capture"]
+      "related_words": [
+        "capture"
+      ]
     },
     {
-      "word": "burning",
-      "difficulty": "Medium",
+      "word": "fame",
+      "difficulty": "Intermediate",
+      "related_words": [],
       "clues": [
         {
+          "clue": "A fleeting dream that many chase, but few sustain, like a whispered promise in the night",
           "type": "Indirect",
-          "clue": "A fiery urge, run big and bright.",
-          "points": 8
+          "points": 6
         },
         {
+          "clue": "What many online personalities strive for, often measured by the number of followers they have",
           "type": "Suggestive",
-          "clue": "What a candle does, or how you might feel after a long day of intense work.",
-          "points": 5
+          "points": 3
         },
         {
+          "clue": "Widespread recognition or admiration",
           "type": "Straight",
-          "clue": "On fire; producing heat or light by combustion.",
-          "points": 2
+          "points": 1
         }
-      ],
-      "related_words": ["breaking"]
+      ]
     },
     {
-      "word": "breaking",
-      "difficulty": "Medium",
+      "word": "taste",
+      "difficulty": "Intermediate",
+      "related_words": [],
       "clues": [
         {
+          "clue": "A fleeting sensation that's hard to grasp, like a whisper on the wind",
           "type": "Indirect",
-          "clue": "Splintering news, perhaps, at a point in time.",
-          "points": 8
+          "points": 6
         },
         {
+          "clue": "Something that can be savored, but also lost, leaving a lingering memory",
           "type": "Suggestive",
-          "clue": "What glass does when dropped, or what a story does when it's newsworthy.",
-          "points": 5
+          "points": 3
         },
         {
+          "clue": "A small sample or experience of something",
           "type": "Straight",
-          "clue": "The action of fracturing or damaging something.",
-          "points": 2
+          "points": 1
         }
-      ],
-      "related_words": ["burning"]
+      ]
     }
   ]
 }

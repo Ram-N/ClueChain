@@ -140,25 +140,22 @@
       ]
     },
     {
-      "word": "brain",
-      "difficulty": "Easy",
-      "related_words": [
-        "cognition",
-        "neurons"
-      ],
+      "word": "reality",
+      "difficulty": "Intermediate",
+      "related_words": [],
       "clues": [
         {
-          "clue": "It's the control center of the body",
+          "clue": "What we think is out there, regardless of what's actually out there.",
           "type": "Indirect",
-          "points": 5
+          "points": 6
         },
         {
-          "clue": "It's the organ that controls thought and movement",
+          "clue": "Something that can be perceived, experienced, or understood.",
           "type": "Suggestive",
-          "points": 4
+          "points": 3
         },
         {
-          "clue": "It's the organ that controls the body's functions",
+          "clue": "The state of things as they actually exist.",
           "type": "Straight",
           "points": 1
         }

@@ -4,25 +4,22 @@
   "text": "Some recent job postings over at Apple hint the company has big plans to finally, just maybe, bring public transit information to the infamous Apple Maps. The lack of mass–transit directions has been one of the more vocalized complains about Apple’s native Maps app, but in the job descriptions for a “Maps Public Transit Engineering Manager” and a “Maps C++ Software Engineer – Public Transit,” spotted by Ars Technica, Apple teases: “You will work on one of the most anticipated features of Apple Maps.” Apple has acquired a number of smaller, public–transit appmakers like HopStop and Embark––perhaps they’re all about to come together. Let’s just hope these directions don’t lead us to another airport runway.",
   "hiddenWords": [
     {
-      "word": "maps",
-      "difficulty": "Easy",
-      "related_words": [
-        "transit",
-        "directions"
-      ],
+      "word": "infamous",
+      "difficulty": "Intermediate",
+      "related_words": [],
       "clues": [
         {
-          "clue": "often used for navigation",
+          "clue": "This kind of reputation can precede you, making you the talk of the town, for better or for worse.",
           "type": "Indirect",
           "points": 6
         },
         {
-          "clue": "a visual representation of an area",
+          "clue": "Something with this quality is often widely known, usually in a negative light, and can evoke strong emotions.",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "a diagrammatic representation of an area",
+          "clue": "Having a bad or unpleasant reputation.",
           "type": "Straight",
           "points": 1
         }
@@ -32,7 +29,6 @@
       "word": "transit",
       "difficulty": "Intermediate",
       "related_words": [
-        "maps",
         "directions"
       ],
       "clues": [
@@ -57,7 +53,6 @@
       "word": "directions",
       "difficulty": "Intermediate",
       "related_words": [
-        "maps",
         "transit"
       ],
       "clues": [

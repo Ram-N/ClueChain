@@ -7,8 +7,7 @@
       "word": "novel",
       "difficulty": "Easy",
       "related_words": [
-        "book",
-        "gift"
+        "book"
       ],
       "clues": [
         {
@@ -29,25 +28,22 @@
       ]
     },
     {
-      "word": "gift",
-      "difficulty": "Easy",
-      "related_words": [
-        "novel",
-        "book"
-      ],
+      "word": "paraphernalia",
+      "difficulty": "Intermediate",
+      "related_words": [],
       "clues": [
         {
-          "clue": "Something you give to show love",
+          "clue": "Something that's often gathered, yet serves no practical purpose, like a collection of trinkets or souvenirs.",
           "type": "Indirect",
-          "points": 5
+          "points": 6
         },
         {
-          "clue": "A present for someone",
+          "clue": "It's often associated with excessive or showy displays, like a fan's enthusiastic memorabilia.",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "Something given to someone",
+          "clue": "Equipment or items, especially those that are decorative or symbolic.",
           "type": "Straight",
           "points": 1
         }
@@ -57,8 +53,7 @@
       "word": "book",
       "difficulty": "Easy",
       "related_words": [
-        "novel",
-        "gift"
+        "novel"
       ],
       "clues": [
         {
@@ -79,22 +74,22 @@
       ]
     },
     {
-      "word": "father",
+      "word": "waffle",
       "difficulty": "Intermediate",
       "related_words": [],
       "clues": [
         {
-          "clue": "A male figure who guides",
+          "clue": "Breakfast treat that's often griddled and can be quite a trap for syrup.",
           "type": "Indirect",
           "points": 6
         },
         {
-          "clue": "A male parent",
+          "clue": "Something that might be made with a special appliance, often given as a quirky gift.",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "A male who has a child",
+          "clue": "A type of food with a distinctive pattern, often eaten with sweet toppings.",
           "type": "Straight",
           "points": 1
         }

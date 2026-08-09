@@ -26,22 +26,22 @@
       ]
     },
     {
-      "word": "surgeons",
-      "difficulty": "Easy",
+      "word": "fistula",
+      "difficulty": "Intermediate",
       "related_words": [],
       "clues": [
         {
-          "clue": "People who operate on patients to repair or remove damaged parts.",
+          "clue": "A tunnel or pipe that's not for transport, but a medical issue to report.",
           "type": "Indirect",
-          "points": 5
+          "points": 6
         },
         {
-          "clue": "Medical professionals trained to perform operations.",
+          "clue": "This condition can arise after certain operations, causing concern for patients and doctors alike.",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "Medical professionals who operate on patients",
+          "clue": "An abnormal connection or passageway between two body parts.",
           "type": "Straight",
           "points": 1
         }
@@ -73,7 +73,6 @@
       "word": "esophageal",
       "difficulty": "Hard",
       "related_words": [
-        "gastroesophageal",
         "reflux"
       ],
       "clues": [
@@ -95,27 +94,24 @@
       ]
     },
     {
-      "word": "gastroesophageal",
-      "difficulty": "Hard",
-      "related_words": [
-        "esophageal",
-        "reflux"
-      ],
+      "word": "cancer",
+      "difficulty": "Intermediate",
+      "related_words": [],
       "clues": [
         {
-          "clue": "A condition where stomach acid flows back into the esophagus.",
+          "clue": "Cellular chaos that's unwelcome, a troublesome growth to abate.",
           "type": "Indirect",
-          "points": 7
+          "points": 6
         },
         {
-          "clue": "Relating to the connection between the stomach and esophagus.",
+          "clue": "A condition that might require surgical intervention, such as gastrectomy.",
           "type": "Suggestive",
-          "points": 4
+          "points": 3
         },
         {
-          "clue": "Pertaining to the stomach and esophagus.",
+          "clue": "A malignant disease.",
           "type": "Straight",
-          "points": 2
+          "points": 1
         }
       ]
     },
@@ -123,8 +119,7 @@
       "word": "reflux",
       "difficulty": "Intermediate",
       "related_words": [
-        "esophageal",
-        "gastroesophageal"
+        "esophageal"
       ],
       "clues": [
         {

@@ -7,7 +7,6 @@
       "word": "power",
       "difficulty": "Easy",
       "related_words": [
-        "empire",
         "dynasty"
       ],
       "clues": [
@@ -29,27 +28,24 @@
       ]
     },
     {
-      "word": "empire",
-      "difficulty": "Intermediate",
-      "related_words": [
-        "power",
-        "dynasty"
-      ],
+      "word": "river",
+      "difficulty": "Easy",
+      "related_words": [],
       "clues": [
         {
-          "clue": "A vast territory with many subjects",
+          "clue": "A place where you might find a boat, but not a car",
           "type": "Indirect",
           "points": 6
         },
         {
-          "clue": "A large and powerful state",
+          "clue": "Often the border between two territories",
           "type": "Suggestive",
-          "points": 4
+          "points": 3
         },
         {
-          "clue": "A group of states under one ruler",
+          "clue": "A natural flowing body of water",
           "type": "Straight",
-          "points": 2
+          "points": 1
         }
       ]
     },
@@ -57,8 +53,7 @@
       "word": "dynasty",
       "difficulty": "Hard",
       "related_words": [
-        "power",
-        "empire"
+        "power"
       ],
       "clues": [
         {

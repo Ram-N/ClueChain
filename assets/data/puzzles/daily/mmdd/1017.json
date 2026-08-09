@@ -4,25 +4,22 @@
   "text": "People have long been intrigued by figuring out the center of the places where we live.\n\nYou’re probably familiar with the concept of center of population. Imagine placing an equal weight at the residential location of each individual; the center of population would be the single point on a map that balances all those weighted spots. The U.S. Census Bureau, for example, produces a map each decade showing the location of the country’s center, summarizing the geographic distribution of the national population. The U.S. center has moved steadily west — it first crossed the Mississippi River in 1980 — and in recent decades has taken a turn to the south.\n\nWhat about if you sweep all the people off the landscape? Where is the geographic center of a region? \nThis simple question has both a clear answer and an interesting history. The geographic \ncenter is also a balance point — it’s analogous to a center of mass or a center of \ngravity. For a two-dimensional region, it is the point at which you could balance, say, a cardboard cutout of the region on the head of a pin.",
   "hiddenWords": [
     {
-      "word": "center",
-      "difficulty": "Easy",
-      "related_words": [
-        "population",
-        "gravity"
-      ],
+      "word": "landscape",
+      "difficulty": "Intermediate",
+      "related_words": [],
       "clues": [
         {
-          "clue": "A point that is equidistant from the edges of a shape.",
+          "clue": "Imagine a postcard picture, but without the frame or the card",
           "type": "Indirect",
-          "points": 5
+          "points": 6
         },
         {
-          "clue": "A middle point that represents a balance.",
+          "clue": "It's what's left when you remove all the people and buildings",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "The middle point of something.",
+          "clue": "A natural scenery or view",
           "type": "Straight",
           "points": 1
         }
@@ -31,10 +28,7 @@
     {
       "word": "population",
       "difficulty": "Intermediate",
-      "related_words": [
-        "center",
-        "geographic"
-      ],
+      "related_words": [],
       "clues": [
         {
           "clue": "Imagine counting all the people in a country, where would you place the weight of each person?",
@@ -54,25 +48,22 @@
       ]
     },
     {
-      "word": "geographic",
+      "word": "cardboard",
       "difficulty": "Intermediate",
-      "related_words": [
-        "population",
-        "region"
-      ],
+      "related_words": [],
       "clues": [
         {
-          "clue": "Related to the study of the Earth's physical features.",
+          "clue": "Material for a kid's DIY project or a fragile package's protection",
           "type": "Indirect",
           "points": 6
         },
         {
-          "clue": "Concerned with the natural features of an area.",
+          "clue": "A material often used for making models or prototypes",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "Relating to the Earth's physical features.",
+          "clue": "A type of paper-based material used for packaging",
           "type": "Straight",
           "points": 1
         }
@@ -81,9 +72,7 @@
     {
       "word": "region",
       "difficulty": "Easy",
-      "related_words": [
-        "geographic"
-      ],
+      "related_words": [],
       "clues": [
         {
           "clue": "An area of land that is defined by its natural or cultural characteristics.",
@@ -105,9 +94,7 @@
     {
       "word": "gravity",
       "difficulty": "Hard",
-      "related_words": [
-        "center"
-      ],
+      "related_words": [],
       "clues": [
         {
           "clue": "A force that attracts objects towards each other, a concept that is essential in understanding the balance of the universe.",

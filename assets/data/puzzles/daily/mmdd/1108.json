@@ -27,26 +27,26 @@
       "related_words": []
     },
     {
-      "word": "July",
-      "difficulty": "Easy",
+      "word": "independence",
+      "difficulty": "Intermediate",
+      "related_words": [],
       "clues": [
         {
+          "clue": "A state of being free from external control or influence, often celebrated with fireworks.",
           "type": "Indirect",
-          "clue": "The month when fireworks light up the night for a nation's birth.",
-          "points": 4
+          "points": 6
         },
         {
+          "clue": "Something that is often declared or fought for, especially in the context of nations or social movements.",
           "type": "Suggestive",
-          "clue": "The seventh month of the year, often associated with summer and independence.",
-          "points": 2
+          "points": 3
         },
         {
+          "clue": "Freedom from the control or power of another country or authority.",
           "type": "Straight",
-          "clue": "The seventh month of the Gregorian calendar.",
           "points": 1
         }
-      ],
-      "related_words": ["Fourth"]
+      ]
     },
     {
       "word": "Orator",
@@ -71,26 +71,26 @@
       "related_words": []
     },
     {
-      "word": "Speech",
-      "difficulty": "Easy",
+      "word": "abolition",
+      "difficulty": "Intermediate",
+      "related_words": [],
       "clues": [
         {
+          "clue": "A movement to end a long-standing injustice, like a chain being broken",
           "type": "Indirect",
-          "clue": "A flow of structured sound, designed to convey a message from a podium.",
-          "points": 4
+          "points": 6
         },
         {
+          "clue": "The goal of many 19th-century reformers, aiming to eradicate a social evil",
           "type": "Suggestive",
-          "clue": "A formal address delivered to an audience.",
-          "points": 2
+          "points": 3
         },
         {
+          "clue": "The act of officially ending a practice or institution",
           "type": "Straight",
-          "clue": "The expression of thoughts and feelings in spoken language.",
           "points": 1
         }
-      ],
-      "related_words": []
+      ]
     },
     {
       "word": "Hall",
@@ -134,7 +134,9 @@
           "points": 1
         }
       ],
-      "related_words": ["Mourn"]
+      "related_words": [
+        "Mourn"
+      ]
     },
     {
       "word": "Mourn",
@@ -156,29 +158,31 @@
           "points": 1
         }
       ],
-      "related_words": ["Rejoice"]
+      "related_words": [
+        "Rejoice"
+      ]
     },
     {
-      "word": "Fourth",
-      "difficulty": "Easy",
+      "word": "celebration",
+      "difficulty": "Intermediate",
+      "related_words": [],
       "clues": [
         {
+          "clue": "Time to pop the cork, but for whom?",
           "type": "Indirect",
-          "clue": "The ordinal position that often signifies a major American holiday.",
-          "points": 4
+          "points": 6
         },
         {
+          "clue": "An event to honor a significant occasion, often with festivities",
           "type": "Suggestive",
-          "clue": "Coming after the third in order or in a sequence.",
-          "points": 2
+          "points": 3
         },
         {
+          "clue": "A special occasion with festivities",
           "type": "Straight",
-          "clue": "The ordinal number corresponding to the number four.",
           "points": 1
         }
-      ],
-      "related_words": ["July"]
+      ]
     },
     {
       "word": "Address",

@@ -4,50 +4,44 @@
   "text": "Texas as a whole leads the nation in flood deaths, and by a wide margin. A colleague and I analyzed data from 1959 to 2019 and found 1,069 people had died in flooding in Texas over those six decades. The next highest total was in Louisiana, with 693. Many of those flood deaths have been in Hill County. It’s part of an area known as Flash Flood Alley, a crescent of land that curves from near Dallas down to San Antonio and then westward. The hills are steep, and the water moves quickly when it floods. This is a semi-arid area with soils that don’t soak up much water, so the water sheets off quickly and the shallow creeks can rise fast.",
   "hiddenWords": [
     {
-      "word": "hills",
+      "word": "area",
       "difficulty": "Easy",
-      "related_words": [
-        "creeks",
-        "floods"
-      ],
+      "related_words": [],
       "clues": [
         {
-          "clue": "Where the sun sets slowly, often painted by artists",
+          "clue": "A space where something happens, like a stage for a performance or a zone for a specific activity",
           "type": "Indirect",
           "points": 6
         },
         {
-          "clue": "Natural elevation of the earth's surface",
+          "clue": "Something that is surrounded by a boundary, and has a specific purpose or function",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "Small mountains",
+          "clue": "A region or part of a surface",
           "type": "Straight",
           "points": 1
         }
       ]
     },
     {
-      "word": "floods",
+      "word": "shallow",
       "difficulty": "Intermediate",
-      "related_words": [
-        "hills",
-        "creeks"
-      ],
+      "related_words": [],
       "clues": [
         {
-          "clue": "A painting by a famous artist can depict this disaster",
+          "clue": "Reflect on a lake's opposite, where sunlight can still dance on the bottom",
           "type": "Indirect",
-          "points": 5
+          "points": 6
         },
         {
-          "clue": "Overflow of water that submerges land",
+          "clue": "A characteristic of waters where one can easily touch the ground",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "Deluge",
+          "clue": "Lacking depth",
           "type": "Straight",
           "points": 1
         }
@@ -56,10 +50,7 @@
     {
       "word": "creeks",
       "difficulty": "Easy",
-      "related_words": [
-        "hills",
-        "floods"
-      ],
+      "related_words": [],
       "clues": [
         {
           "clue": "A gentle brook where one might skip stones",

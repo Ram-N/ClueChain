@@ -4,22 +4,22 @@
   "text": "Most writers spend countless hours brainstorming characters and plot, and they even write page after page that they know they’ll never include in the book. They do this because they know that ideas need time to develop. We tend to freeze up when it’s time to get started because we know that our ideas aren’t perfect and what we produce might not be any good. But how can you ever produce something great if you don’t get started and give your ideas time to evolve? Author Jodi Picoult summarized the importance of avoiding perfectionism perfectly: “You can edit a bad page, but you can’t edit a blank page.”",
   "hiddenWords": [
     {
-      "word": "write",
-      "difficulty": "Easy",
+      "word": "importance",
+      "difficulty": "Intermediate",
       "related_words": [],
       "clues": [
         {
-          "clue": "Daily habit of authors that turns thoughts into tangible tales",
+          "clue": "A quality that makes something worthy of attention, often measured by its impact",
           "type": "Indirect",
           "points": 6
         },
         {
-          "clue": "The act of marking or inscribing words or symbols on a surface",
+          "clue": "A factor that influences decisions or outcomes, especially in creative pursuits",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "To create or produce text or symbols",
+          "clue": "The state of being significant or having a strong effect",
           "type": "Straight",
           "points": 1
         }
@@ -29,8 +29,7 @@
       "word": "page",
       "difficulty": "Easy",
       "related_words": [
-        "book",
-        "write"
+        "book"
       ],
       "clues": [
         {
@@ -54,8 +53,7 @@
       "word": "book",
       "difficulty": "Easy",
       "related_words": [
-        "page",
-        "write"
+        "page"
       ],
       "clues": [
         {

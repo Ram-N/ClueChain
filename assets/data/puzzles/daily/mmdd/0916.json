@@ -171,22 +171,22 @@
       ]
     },
     {
-      "word": "delusional",
-      "difficulty": "Hard",
+      "word": "municipal",
+      "difficulty": "Intermediate",
       "related_words": [],
       "clues": [
         {
-          "clue": "A state of mind where reality is distorted.",
+          "clue": "Where the water flows, but not the champagne",
           "type": "Indirect",
           "points": 6
         },
         {
-          "clue": "Having a false belief or opinion.",
+          "clue": "Associated with local governance and public services",
           "type": "Suggestive",
-          "points": 4
+          "points": 3
         },
         {
-          "clue": "Holding a false belief or opinion.",
+          "clue": "Relating to a city or town",
           "type": "Straight",
           "points": 1
         }

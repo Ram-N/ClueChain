@@ -26,24 +26,24 @@
       ]
     },
     {
-      "word": "reported",
-      "difficulty": "Easy",
+      "word": "scandal",
+      "difficulty": "Intermediate",
       "related_words": [],
       "clues": [
         {
-          "clue": "Like a tale carried on the breeze, this action shares information.",
+          "clue": "A juicy secret that's spilled, and now everyone's talking about it",
           "type": "Indirect",
-          "points": 5
+          "points": 6
         },
         {
-          "clue": "Describing the act of making something known to others.",
+          "clue": "Something that damages a person's or organization's reputation",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "Announced or communicated.",
+          "clue": "A publicized incident of wrongdoing",
           "type": "Straight",
-          "points": 2
+          "points": 1
         }
       ]
     },

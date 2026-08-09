@@ -96,22 +96,22 @@
       ]
     },
     {
-      "word": "expansion",
-      "difficulty": "Intermediate",
+      "word": "city",
+      "difficulty": "Easy",
       "related_words": [],
       "clues": [
         {
-          "clue": "The act of becoming larger or more extensive",
+          "clue": "A place where survivors might seek shelter from the war outside.",
           "type": "Indirect",
-          "points": 7
+          "points": 6
         },
         {
-          "clue": "An addition to something, making it larger",
+          "clue": "This is often the location of crucial infrastructure and resources.",
           "type": "Suggestive",
-          "points": 4
+          "points": 3
         },
         {
-          "clue": "A new part added to something",
+          "clue": "A large human settlement, typically with a fixed boundary.",
           "type": "Straight",
           "points": 1
         }

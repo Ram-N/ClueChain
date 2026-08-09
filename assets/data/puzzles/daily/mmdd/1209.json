@@ -27,27 +27,25 @@
       "related_words": []
     },
     {
-      "word": "July",
-      "difficulty": "Easy",
+      "word": "independence",
+      "difficulty": "Intermediate",
+      "related_words": [],
       "clues": [
         {
+          "clue": "A state of being free from external control or influence, like a bird set loose from its cage",
           "type": "Indirect",
-          "clue": "The month when fireworks light up the night for a nation's birth.",
-          "points": 4
+          "points": 6
         },
         {
+          "clue": "Something often fought for by nations or groups, symbolized by a broken chain",
           "type": "Suggestive",
-          "clue": "The seventh month of the year, often associated with summer and independence.",
-          "points": 2
+          "points": 3
         },
         {
+          "clue": "Freedom from the control or power of another country or government",
           "type": "Straight",
-          "clue": "The seventh month of the Gregorian calendar.",
           "points": 1
         }
-      ],
-      "related_words": [
-        "Fourth"
       ]
     },
     {
@@ -73,26 +71,26 @@
       "related_words": []
     },
     {
-      "word": "Speech",
-      "difficulty": "Easy",
+      "word": "abolition",
+      "difficulty": "Intermediate",
+      "related_words": [],
       "clues": [
         {
+          "clue": "A movement that seeks to end a long-standing injustice, like a chain being broken",
           "type": "Indirect",
-          "clue": "A flow of structured sound, designed to convey a message from a podium.",
-          "points": 4
+          "points": 6
         },
         {
+          "clue": "The process of ending a system or practice considered morally wrong",
           "type": "Suggestive",
-          "clue": "A formal address delivered to an audience.",
-          "points": 2
+          "points": 3
         },
         {
+          "clue": "The act of officially ending a law or practice",
           "type": "Straight",
-          "clue": "The expression of thoughts and feelings in spoken language.",
           "points": 1
         }
-      ],
-      "related_words": []
+      ]
     },
     {
       "word": "Hall",
@@ -165,27 +163,25 @@
       ]
     },
     {
-      "word": "Fourth",
-      "difficulty": "Easy",
+      "word": "celebration",
+      "difficulty": "Intermediate",
+      "related_words": [],
       "clues": [
         {
+          "clue": "A time for festivities, often with fireworks and feasts, but not for everyone.",
           "type": "Indirect",
-          "clue": "The ordinal position that often signifies a major American holiday.",
-          "points": 4
+          "points": 6
         },
         {
+          "clue": "An event where people gather to mark a special occasion, often with mixed emotions.",
           "type": "Suggestive",
-          "clue": "Coming after the third in order or in a sequence.",
-          "points": 2
+          "points": 3
         },
         {
-          "clue": "The numerical position immediately following third in a sequence",
+          "clue": "A special occasion or anniversary, typically marked with festivities.",
           "type": "Straight",
           "points": 1
         }
-      ],
-      "related_words": [
-        "July"
       ]
     },
     {

@@ -211,24 +211,24 @@
       ]
     },
     {
-      "word": "career",
-      "difficulty": "Hard",
+      "word": "player",
+      "difficulty": "Intermediate",
       "related_words": [],
       "clues": [
         {
-          "clue": "A lifelong journey, with its own ups and downs",
+          "clue": "A certain athlete might be a key figure on the field, but only one can hold this title in a particular position.",
           "type": "Indirect",
-          "points": 7
+          "points": 6
         },
         {
-          "clue": "A person's professional life",
+          "clue": "This individual participates in a sport, often as part of a larger group with a shared goal.",
           "type": "Suggestive",
-          "points": 4
+          "points": 3
         },
         {
-          "clue": "An occupation",
+          "clue": "An individual who participates in a game or sport.",
           "type": "Straight",
-          "points": 2
+          "points": 1
         }
       ]
     }

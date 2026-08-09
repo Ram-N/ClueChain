@@ -4,47 +4,44 @@
   "text": "The mist, mystery, and mountains of Sikkim\n\nWhile Gangtok is the capital city of Sikkim, I chose to go to Pelling because it is a small town surrounded by historic ruins, important monasteries, authentic villages and of course the mountains, especially Kanchendzonga, the world’s third highest. Sikkim seems to be an entirely mountainous state, and it is one of the smallest of India’s 28 states. It is also one of the newest. Until the mid-1970s, Sikkim was an independent mountain kingdom, ruled by a Buddhist King. How it came to be part of India is a controversial subject that still stirs up feelings. The book about the modern history of Sikkim and its annexation by India is called “Smash and Grab,” which gives you some idea about how some people think about it.",
   "hiddenWords": [
     {
-      "word": "mystery",
+      "word": "controversial",
       "difficulty": "Intermediate",
       "related_words": [],
       "clues": [
         {
-          "clue": "It's what detectives try to solve, often found in whodunits.",
+          "clue": "A topic that sparks heated debates and strong opinions, often dividing people into opposing camps",
           "type": "Indirect",
           "points": 6
         },
         {
-          "clue": "Something that is difficult to understand or explain.",
+          "clue": "Something that tends to provoke disagreement or argument, often due to conflicting views or values",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "Enigma or puzzle.",
+          "clue": "Causing disagreement or argument, often due to being disputed or disputed",
           "type": "Straight",
           "points": 1
         }
       ]
     },
     {
-      "word": "mountain",
-      "difficulty": "Easy",
-      "related_words": [
-        "kingdom",
-        "state"
-      ],
+      "word": "ruins",
+      "difficulty": "Intermediate",
+      "related_words": [],
       "clues": [
         {
-          "clue": "Where climbers often find their peak experiences.",
+          "clue": "A relic of the past, often a testament to what's been lost, yet still telling a story",
           "type": "Indirect",
-          "points": 5
+          "points": 6
         },
         {
-          "clue": "A natural elevation of the earth's surface, often forming a peak.",
+          "clue": "Something that was once whole, but now lies in decay, often found in historic sites",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "Hill or highland.",
+          "clue": "The remains of something that has been destroyed or badly damaged",
           "type": "Straight",
           "points": 1
         }
@@ -54,7 +51,6 @@
       "word": "kingdom",
       "difficulty": "Intermediate",
       "related_words": [
-        "mountain",
         "state"
       ],
       "clues": [
@@ -79,7 +75,6 @@
       "word": "state",
       "difficulty": "Easy",
       "related_words": [
-        "mountain",
         "kingdom"
       ],
       "clues": [

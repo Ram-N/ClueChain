@@ -72,9 +72,7 @@
     {
       "word": "published",
       "difficulty": "Easy",
-      "related_words": [
-        "printed"
-      ],
+      "related_words": [],
       "clues": [
         {
           "clue": "Shared with the world, no longer confined",
@@ -94,24 +92,22 @@
       ]
     },
     {
-      "word": "printed",
-      "difficulty": "Easy",
-      "related_words": [
-        "published"
-      ],
+      "word": "fidelity",
+      "difficulty": "Intermediate",
+      "related_words": [],
       "clues": [
         {
-          "clue": "Produced on paper or another material, often using ink",
+          "clue": "A virtue in marriage, and in copying documents too, where accuracy is key.",
           "type": "Indirect",
-          "points": 5
+          "points": 6
         },
         {
-          "clue": "Created using a machine that puts ink on paper",
+          "clue": "This quality is crucial when reproducing historical texts to ensure they remain true to the originals.",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "Created on paper in a physical form",
+          "clue": "The state of being accurate and true to the original.",
           "type": "Straight",
           "points": 1
         }

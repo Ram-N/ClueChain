@@ -7,8 +7,7 @@
       "word": "history",
       "difficulty": "Intermediate",
       "related_words": [
-        "innovation",
-        "invention"
+        "innovation"
       ],
       "clues": [
         {
@@ -32,8 +31,7 @@
       "word": "innovation",
       "difficulty": "Hard",
       "related_words": [
-        "history",
-        "invention"
+        "history"
       ],
       "clues": [
         {
@@ -54,27 +52,24 @@
       ]
     },
     {
-      "word": "invention",
-      "difficulty": "Hard",
-      "related_words": [
-        "history",
-        "innovation"
-      ],
+      "word": "facilitate",
+      "difficulty": "Intermediate",
+      "related_words": [],
       "clues": [
         {
-          "clue": "A creation of the human mind.",
+          "clue": "Without this, progress is hindered, like a river without a stream.",
           "type": "Indirect",
-          "points": 5
+          "points": 6
         },
         {
-          "clue": "The process of creating something new.",
+          "clue": "It's what organizations and systems do to help things run smoothly and efficiently.",
           "type": "Suggestive",
-          "points": 4
+          "points": 3
         },
         {
-          "clue": "A device or process created to solve a problem.",
+          "clue": "To make something easier or less difficult.",
           "type": "Straight",
-          "points": 2
+          "points": 1
         }
       ]
     },

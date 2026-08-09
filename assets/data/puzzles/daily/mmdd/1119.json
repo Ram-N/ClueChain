@@ -7,8 +7,7 @@
       "word": "table",
       "difficulty": "Easy",
       "related_words": [
-        "partner",
-        "negotiation"
+        "partner"
       ],
       "clues": [
         {
@@ -32,8 +31,7 @@
       "word": "partner",
       "difficulty": "Intermediate",
       "related_words": [
-        "table",
-        "negotiation"
+        "table"
       ],
       "clues": [
         {
@@ -54,25 +52,22 @@
       ]
     },
     {
-      "word": "negotiation",
+      "word": "counterpart",
       "difficulty": "Intermediate",
-      "related_words": [
-        "table",
-        "partner"
-      ],
+      "related_words": [],
       "clues": [
         {
-          "clue": "A delicate dance of give and take",
+          "clue": "Someone you face across a chessboard or a conference table, with mirror-like roles.",
           "type": "Indirect",
           "points": 6
         },
         {
-          "clue": "A discussion to reach an agreement",
+          "clue": "A person or entity that has a corresponding or complementary position in a relationship or situation.",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "The act of discussing something to reach a decision",
+          "clue": "An opposite or matching person or thing.",
           "type": "Straight",
           "points": 1
         }
@@ -123,22 +118,22 @@
       ]
     },
     {
-      "word": "experience",
+      "word": "tantrum",
       "difficulty": "Intermediate",
       "related_words": [],
       "clues": [
         {
-          "clue": "A lesson learned from a journey, not a book",
+          "clue": "A sudden burst of emotion can lead to a messy room and a worn-out parent.",
           "type": "Indirect",
           "points": 6
         },
         {
-          "clue": "The process of doing or seeing things",
+          "clue": "It's a common reaction of someone who doesn't get what they want, often accompanied by screaming or crying.",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "Knowledge or skill gained from what one has seen or done",
+          "clue": "A loud, angry outburst, especially by a child.",
           "type": "Straight",
           "points": 1
         }

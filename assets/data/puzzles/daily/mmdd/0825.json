@@ -7,7 +7,6 @@
       "word": "piano",
       "difficulty": "Easy",
       "related_words": [
-        "jazz",
         "recording"
       ],
       "clues": [
@@ -29,27 +28,24 @@
       ]
     },
     {
-      "word": "jazz",
+      "word": "soundtrack",
       "difficulty": "Intermediate",
-      "related_words": [
-        "piano",
-        "recording"
-      ],
+      "related_words": [],
       "clues": [
         {
-          "clue": "Imagine a city that never sleeps, where the sounds of the night create a unique rhythm, what kind of music would that be?",
+          "clue": "A movie's audio companion, often featuring catchy tunes.",
           "type": "Indirect",
-          "points": 5
+          "points": 6
         },
         {
-          "clue": "This genre of music often features improvisation and a mix of different styles",
+          "clue": "Something that enhances the cinematic experience with music.",
           "type": "Suggestive",
-          "points": 4
+          "points": 3
         },
         {
-          "clue": "A style of music that originated in the southern United States",
+          "clue": "A film's musical score.",
           "type": "Straight",
-          "points": 2
+          "points": 1
         }
       ]
     },
@@ -57,8 +53,7 @@
       "word": "recording",
       "difficulty": "Intermediate",
       "related_words": [
-        "piano",
-        "jazz"
+        "piano"
       ],
       "clues": [
         {
