@@ -4,22 +4,22 @@
   "text": "Title: List of conspiracy theories — Flat Earth\n\nFlat Earth theory first emerged in 19th-century England, despite the Earth's spherical nature having \nbeen known since at least the time of Pythagoras. It has in recent years been promoted by American software consultant \nMark Sargent through the use of YouTube videos. Flat-earther conspiracy theorists hold that planet Earth is not a sphere, \nand that evidence has been faked or suppressed to hide the fact that it is instead a disc, or a single infinite plane. \nThe conspiracy often implicates NASA. Other claims include that GPS devices are rigged to make aircraft pilots wrongly \nbelieve they are flying around a globe.",
   "hiddenWords": [
     {
-      "word": "theory",
-      "difficulty": "Easy",
+      "word": "devices",
+      "difficulty": "Intermediate",
       "related_words": [],
       "clues": [
         {
-          "clue": "Like a hunch, but with a lot more research; it's a guess that tries to make sense of the world.",
+          "clue": "Pilots rely on these to navigate, but some think they're misleading",
           "type": "Indirect",
           "points": 6
         },
         {
-          "clue": "Often discussed in academic circles, this concept attempts to explain something.",
+          "clue": "These are often used for navigation and tracking",
           "type": "Suggestive",
-          "points": 4
+          "points": 3
         },
         {
-          "clue": "A belief that is not fully proven but is assumed for the sake of argument.",
+          "clue": "Equipment or tools used for a particular purpose",
           "type": "Straight",
           "points": 1
         }

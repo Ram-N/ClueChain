@@ -4,25 +4,22 @@
   "text": "A top-of-the-line British F-35B fighter jet recently became stranded at an airport in Kerala, in southern India, after a hiccup over the Arabian Sea — and has become something of a local celebrity.\n\nAs the British military works to find a way to bring it home, A.I.-generated images of the jet — an aircraft worth more than $100 million currently parked on the airport’s tarmac — have spread across India.\n\nThe region’s tourism agency has joined in, posting a fictitious five-star review from the plane on social media: “Kerala is such an amazing place, I don’t want to leave. Definitely recommend.”\n\nThe plane, which arrived at the airport in mid-June, may be grounded for a bit longer too, as British engineers scramble to figure out how to get it back to its home country.",
   "hiddenWords": [
     {
-      "word": "jet",
-      "difficulty": "Easy",
-      "related_words": [
-        "plane",
-        "aircraft"
-      ],
+      "word": "hiccup",
+      "difficulty": "Intermediate",
+      "related_words": [],
       "clues": [
         {
-          "clue": "Fast mover in the sky, not a gemstone",
+          "clue": "A brief, unexpected pause can cause big trouble for a complex machine.",
           "type": "Indirect",
-          "points": 5
+          "points": 6
         },
         {
-          "clue": "A type of fast military plane",
+          "clue": "This minor malfunction might ruin an otherwise smooth journey.",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "A fast-moving aircraft",
+          "clue": "A sudden, involuntary interruption or glitch.",
           "type": "Straight",
           "points": 1
         }
@@ -32,7 +29,6 @@
       "word": "plane",
       "difficulty": "Easy",
       "related_words": [
-        "jet",
         "aircraft"
       ],
       "clues": [
@@ -57,7 +53,6 @@
       "word": "aircraft",
       "difficulty": "Intermediate",
       "related_words": [
-        "jet",
         "plane"
       ],
       "clues": [

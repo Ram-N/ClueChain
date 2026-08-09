@@ -116,29 +116,29 @@
           "points": 3
         },
         {
-          "clue": "Liable to be called to account.",
+          "clue": "Responsible for one's actions",
           "type": "Straight",
           "points": 1
         }
       ]
     },
     {
-      "word": "register",
-      "difficulty": "Easy",
+      "word": "markets",
+      "difficulty": "Intermediate",
       "related_words": [],
       "clues": [
         {
-          "clue": "To sign up or enlist for something, often by providing personal details.",
+          "clue": "Where farmers sell their fresh produce",
           "type": "Indirect",
-          "points": 5
+          "points": 6
         },
         {
-          "clue": "This is the process of recording or enlisting someone or something in an official list.",
+          "clue": "Places where people gather to buy and sell goods",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "To enter or record something in an official list or directory.",
+          "clue": "A place for commercial exchange",
           "type": "Straight",
           "points": 1
         }

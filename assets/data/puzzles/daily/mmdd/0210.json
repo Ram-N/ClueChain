@@ -27,27 +27,25 @@
       "related_words": []
     },
     {
-      "word": "discomfort",
+      "word": "interaction",
       "difficulty": "Intermediate",
+      "related_words": [],
       "clues": [
         {
+          "clue": "A dance of give and take, where two partners influence each other's steps",
           "type": "Indirect",
-          "clue": "That feeling you get when your shoes are too tight, or you're stuck in a long, awkward silence.",
-          "points": 5
+          "points": 6
         },
         {
+          "clue": "It's often studied in social sciences to understand how groups behave and affect one another",
           "type": "Suggestive",
-          "clue": "A state of uneasiness or slight pain.",
           "points": 3
         },
         {
+          "clue": "A mutual or reciprocal relationship between two or more things",
           "type": "Straight",
-          "clue": "Slight pain; uneasiness.",
           "points": 1
         }
-      ],
-      "related_words": [
-        "dissonance"
       ]
     },
     {
@@ -70,9 +68,7 @@
           "points": 2
         }
       ],
-      "related_words": [
-        "discomfort"
-      ]
+      "related_words": []
     },
     {
       "word": "praise",

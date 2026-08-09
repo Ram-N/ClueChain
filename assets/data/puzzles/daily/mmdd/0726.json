@@ -1,5 +1,5 @@
 {
-  "title": "Robot \u2014 Mesopotamia",
+  "title": "Robot — Mesopotamia",
   "date": "07-26",
   "text": "Ismail al-Jazari was a 13th-century polymath who built several automated devices driven by hydropower, including peacocks, automatic gates, and water clocks. Among al-Jazari's humanoid automata was a waitress that could serve drinks. The drink was stored in a reservoir tank, from where it would drip into a bucket and then a cup, after which the waitress would appear out of an automatic door to serve the drink. Al-Jazari also invented a hand washing automaton that incorporated a flush mechanism similar to that used in modern flush toilets. The automaton stood next to a basin filled with water. When the user pulled a lever, the water would drain, and the automaton would refill the basin.",
   "hiddenWords": [
@@ -88,7 +88,7 @@
           "points": 4
         },
         {
-          "clue": "Machines that can operate automatically.",
+          "clue": "Robots that can perform tasks on their own",
           "type": "Straight",
           "points": 1
         }

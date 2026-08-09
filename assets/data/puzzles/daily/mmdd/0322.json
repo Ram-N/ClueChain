@@ -4,50 +4,44 @@
   "text": "Not long after the announcement that Alice Munro had won this year’s Nobel Prize in Literature, there came the tidbit of news that an editor at Knopf had rejected Munro’s first book of stories partly on the basis of her chosen form. “There’s no question that the lady can write but it’s also clear she is primarily a short story writer,” wrote the editor, in 1971. But the collection was eventually published, as were Munro’s subsequent 13: Her subtle, formally bold stories have reached an increasingly broad audience in the past 40 years. In this interview, I talked to four young writers with recently published collections that share Munro’s boldness and subtlety: Kelly Luce (“Three Scenarios in Which Hana Sasaki Grows a Tail”), Nina McConigley (“Cowboys and East Indians”), Laura van den Berg (“The Isle of Youth”) and Claire Vaye Watkins (“Battleborn”). You’ll want to read their stories now; you may well want to read them 40 years from now.",
   "hiddenWords": [
     {
-      "word": "writer",
-      "difficulty": "Easy",
-      "related_words": [
-        "stories",
-        "collection"
-      ],
+      "word": "announcement",
+      "difficulty": "Intermediate",
+      "related_words": [],
       "clues": [
         {
-          "clue": "The 'scribe' of modern times, weaving tales that transport us to new worlds and perspectives.",
+          "clue": "A public declaration that sparks a reaction, and perhaps a literary career.",
           "type": "Indirect",
           "points": 6
         },
         {
-          "clue": "This profession requires creativity and strong communication skills to craft compelling narratives that captivate readers.",
+          "clue": "This is often made to share news or honor someone's achievement.",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "A person who creates novels, stories, or articles for publication.",
+          "clue": "A formal declaration or statement.",
           "type": "Straight",
           "points": 1
         }
       ]
     },
     {
-      "word": "stories",
-      "difficulty": "Easy",
-      "related_words": [
-        "writer",
-        "collection"
-      ],
+      "word": "tidbit",
+      "difficulty": "Intermediate",
+      "related_words": [],
       "clues": [
         {
-          "clue": "The whispered secrets of the past, the fantasies of the present, and the dreams of the future.",
+          "clue": "A small, tasty piece of gossip can be a delight to share, and this word describes it perfectly",
           "type": "Indirect",
           "points": 6
         },
         {
-          "clue": "These are the threads that weave together to form a larger tapestry of human experience.",
+          "clue": "This word is often used to describe a small, interesting fact or piece of information that is shared with others",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "A narrative that is told or written, often featuring characters and a plot.",
+          "clue": "A small, interesting item of information",
           "type": "Straight",
           "points": 1
         }
@@ -56,10 +50,7 @@
     {
       "word": "collection",
       "difficulty": "Easy",
-      "related_words": [
-        "writer",
-        "stories"
-      ],
+      "related_words": [],
       "clues": [
         {
           "clue": "A compilation of tales, each one a window into the soul of its creator.",

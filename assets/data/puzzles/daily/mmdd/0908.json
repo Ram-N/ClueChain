@@ -25,7 +25,9 @@
           "points": 1
         }
       ],
-      "related_words": ["worst"]
+      "related_words": [
+        "worst"
+      ]
     },
     {
       "word": "worst",
@@ -47,7 +49,9 @@
           "points": 1
         }
       ],
-      "related_words": ["best"]
+      "related_words": [
+        "best"
+      ]
     },
     {
       "word": "wisdom",
@@ -69,7 +73,9 @@
           "points": 2
         }
       ],
-      "related_words": ["foolishness"]
+      "related_words": [
+        "foolishness"
+      ]
     },
     {
       "word": "foolishness",
@@ -86,12 +92,14 @@
           "points": 4
         },
         {
+          "clue": "Lack of good sense or judgment",
           "type": "Straight",
-          "clue": "The quality of being foolish.",
           "points": 2
         }
       ],
-      "related_words": ["wisdom"]
+      "related_words": [
+        "wisdom"
+      ]
     },
     {
       "word": "epoch",
@@ -135,7 +143,9 @@
           "points": 2
         }
       ],
-      "related_words": ["incredulity"]
+      "related_words": [
+        "incredulity"
+      ]
     },
     {
       "word": "incredulity",
@@ -157,7 +167,9 @@
           "points": 3
         }
       ],
-      "related_words": ["belief"]
+      "related_words": [
+        "belief"
+      ]
     },
     {
       "word": "Light",
@@ -179,7 +191,9 @@
           "points": 1
         }
       ],
-      "related_words": ["Darkness"]
+      "related_words": [
+        "Darkness"
+      ]
     },
     {
       "word": "Darkness",
@@ -201,7 +215,9 @@
           "points": 1
         }
       ],
-      "related_words": ["Light"]
+      "related_words": [
+        "Light"
+      ]
     },
     {
       "word": "hope",

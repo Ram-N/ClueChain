@@ -29,7 +29,6 @@
       "word": "pleasure",
       "difficulty": "Intermediate",
       "related_words": [
-        "delicious",
         "elation"
       ],
       "clues": [
@@ -51,25 +50,22 @@
       ]
     },
     {
-      "word": "delicious",
-      "difficulty": "Easy",
-      "related_words": [
-        "pleasure",
-        "elation"
-      ],
+      "word": "ripple",
+      "difficulty": "Intermediate",
+      "related_words": [],
       "clues": [
         {
-          "clue": "Tastes that make time stand still, if only for a moment.",
+          "clue": "A small wave that spreads out, like the impact of a tasty bite",
           "type": "Indirect",
-          "points": 5
+          "points": 6
         },
         {
-          "clue": "Having a very pleasant taste or smell.",
+          "clue": "This can be a disturbance or a change that moves through a crowd",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "Tasting very good.",
+          "clue": "A gentle, wave-like movement or disturbance",
           "type": "Straight",
           "points": 1
         }
@@ -79,8 +75,7 @@
       "word": "elation",
       "difficulty": "Hard",
       "related_words": [
-        "pleasure",
-        "delicious"
+        "pleasure"
       ],
       "clues": [
         {

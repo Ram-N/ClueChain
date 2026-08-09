@@ -7,8 +7,7 @@
       "word": "kitchen",
       "difficulty": "Easy",
       "related_words": [
-        "tools",
-        "gadgets"
+        "tools"
       ],
       "clues": [
         {
@@ -32,8 +31,7 @@
       "word": "tools",
       "difficulty": "Easy",
       "related_words": [
-        "kitchen",
-        "gadgets"
+        "kitchen"
       ],
       "clues": [
         {
@@ -54,25 +52,22 @@
       ]
     },
     {
-      "word": "gadgets",
+      "word": "industry",
       "difficulty": "Intermediate",
-      "related_words": [
-        "kitchen",
-        "tools"
-      ],
+      "related_words": [],
       "clues": [
         {
-          "clue": "Innovations that bring surprise and delight",
+          "clue": "Where fortunes are made and lost, it's a game of supply and demand, with players big and small",
           "type": "Indirect",
           "points": 6
         },
         {
-          "clue": "Novelty items that serve a particular purpose",
+          "clue": "Sector that benefits from our buying habits, and is influenced by consumer trends",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "Small machines or devices with a specific function",
+          "clue": "Field of economic activity, often involving manufacturing and trade",
           "type": "Straight",
           "points": 1
         }

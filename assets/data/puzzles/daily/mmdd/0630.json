@@ -51,7 +51,6 @@
       "word": "performance",
       "difficulty": "Easy",
       "related_words": [
-        "medals",
         "tournament"
       ],
       "clues": [
@@ -73,25 +72,22 @@
       ]
     },
     {
-      "word": "medals",
-      "difficulty": "Easy",
-      "related_words": [
-        "performance",
-        "tournament"
-      ],
+      "word": "loss",
+      "difficulty": "Intermediate",
+      "related_words": [],
       "clues": [
         {
-          "clue": "Symbols of achievement, often given to winners",
+          "clue": "What you might cut to fit a smaller size, or suffer in a competition",
           "type": "Indirect",
-          "points": 5
+          "points": 6
         },
         {
-          "clue": "Awards given to winners of competitions",
+          "clue": "Something that can be blamed on a team or individual, resulting in disappointment",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "Means awards or prizes",
+          "clue": "The opposite of gain or victory",
           "type": "Straight",
           "points": 1
         }
@@ -101,7 +97,6 @@
       "word": "tournament",
       "difficulty": "Intermediate",
       "related_words": [
-        "medals",
         "performance"
       ],
       "clues": [

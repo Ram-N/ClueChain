@@ -4,25 +4,22 @@
   "text": "One of the things he found most fascinating about America was that there were Memory Stores on almost every street corner. A person could simply walk into any of the stores and sell their memories for money. It was that straightforward. He had come to the realization that certain things were undoubtedly straightforward in America. Take American beers, with their twist-off caps. Twist-off caps may not seem like a big deal.",
   "hiddenWords": [
     {
-      "word": "memory",
-      "difficulty": "Easy",
-      "related_words": [
-        "stores",
-        "money"
-      ],
+      "word": "person",
+      "difficulty": "Intermediate",
+      "related_words": [],
       "clues": [
         {
-          "clue": "A nostalgic recollection of a past event.",
+          "clue": "In America, this can be found on almost every street corner, but not in the sense of a landmark",
           "type": "Indirect",
-          "points": 5
+          "points": 6
         },
         {
-          "clue": "A person's ability to recall information.",
+          "clue": "Someone who can sell their memories for money, a unique aspect of America",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "The mental capacity to retain and recall.",
+          "clue": "A human being",
           "type": "Straight",
           "points": 1
         }
@@ -32,7 +29,6 @@
       "word": "stores",
       "difficulty": "Easy",
       "related_words": [
-        "memory",
         "money"
       ],
       "clues": [
@@ -57,7 +53,6 @@
       "word": "money",
       "difficulty": "Easy",
       "related_words": [
-        "memory",
         "stores"
       ],
       "clues": [

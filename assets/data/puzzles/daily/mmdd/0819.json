@@ -29,8 +29,7 @@
       "word": "process",
       "difficulty": "Intermediate",
       "related_words": [
-        "approach",
-        "negotiation"
+        "approach"
       ],
       "clues": [
         {
@@ -54,8 +53,7 @@
       "word": "approach",
       "difficulty": "Intermediate",
       "related_words": [
-        "process",
-        "negotiation"
+        "process"
       ],
       "clues": [
         {
@@ -76,25 +74,22 @@
       ]
     },
     {
-      "word": "negotiation",
+      "word": "philosophy",
       "difficulty": "Intermediate",
-      "related_words": [
-        "process",
-        "approach"
-      ],
+      "related_words": [],
       "clues": [
         {
-          "clue": "A delicate dance of give and take",
+          "clue": "A field that questions everything, yet seeks answers to life's biggest mysteries",
           "type": "Indirect",
           "points": 6
         },
         {
-          "clue": "A discussion to reach an agreement",
+          "clue": "It's often associated with ethics, morals, and the meaning of life",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "The act of discussing something to reach an agreement",
+          "clue": "A system of thought or theory derived from a particular set of principles",
           "type": "Straight",
           "points": 1
         }

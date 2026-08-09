@@ -94,10 +94,7 @@
     {
       "word": "dissonance",
       "difficulty": "Hard",
-      "related_words": [
-        "jazz",
-        "punk"
-      ],
+      "related_words": [],
       "clues": [
         {
           "clue": "A clash of sounds that can be jarring to the ear",
@@ -117,50 +114,44 @@
       ]
     },
     {
-      "word": "jazz",
+      "word": "contemporary",
       "difficulty": "Intermediate",
-      "related_words": [
-        "dissonance",
-        "punk"
-      ],
+      "related_words": [],
       "clues": [
         {
-          "clue": "A genre of music that's all about improvisation and experimentation",
+          "clue": "A time traveler from the past might feel out of place in this kind of setting.",
           "type": "Indirect",
           "points": 6
         },
         {
-          "clue": "A style of music that originated in the southern United States",
+          "clue": "It describes something belonging to the present time, often in art or culture.",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "A type of music characterized by its use of improvisation and syncopated rhythms",
+          "clue": "It means belonging to or occurring in the present.",
           "type": "Straight",
           "points": 1
         }
       ]
     },
     {
-      "word": "punk",
+      "word": "speed",
       "difficulty": "Easy",
-      "related_words": [
-        "dissonance",
-        "jazz"
-      ],
+      "related_words": [],
       "clues": [
         {
-          "clue": "A subculture known for its anti-establishment views and distinctive fashion",
+          "clue": "Racing hearts and frantic rhythms might be connected to this concept, found in the wild side of music",
           "type": "Indirect",
           "points": 6
         },
         {
-          "clue": "A genre of music characterized by its fast tempo and rebellious attitude",
+          "clue": "A key aspect of music that can be fast or slow, influencing the overall feel of a song",
           "type": "Suggestive",
-          "points": 4
+          "points": 3
         },
         {
-          "clue": "A type of rock music that is fast-paced and energetic",
+          "clue": "Rate of movement or activity, often measured in music as beats per minute",
           "type": "Straight",
           "points": 1
         }

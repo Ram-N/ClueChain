@@ -179,8 +179,8 @@
           "points": 2
         },
         {
+          "clue": "The numerical position immediately following third in a sequence",
           "type": "Straight",
-          "clue": "The ordinal number corresponding to the number four.",
           "points": 1
         }
       ],

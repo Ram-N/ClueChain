@@ -101,22 +101,22 @@
       ]
     },
     {
-      "word": "desire",
-      "difficulty": "Hard",
+      "word": "jeweler",
+      "difficulty": "Intermediate",
       "related_words": [],
       "clues": [
         {
-          "clue": "A feeling that can drive people to pursue their dreams, or lead them astray.",
+          "clue": "A master of adornment weaves precious stories, not just gems.",
           "type": "Indirect",
           "points": 6
         },
         {
-          "clue": "A strong wish or craving for something.",
+          "clue": "This expert's precision is reflected in both intricate craftsmanship and vivid prose.",
           "type": "Suggestive",
-          "points": 4
+          "points": 3
         },
         {
-          "clue": "A basic human emotion that can be all-consuming.",
+          "clue": "A skilled craftsman who cuts and polishes precious stones.",
           "type": "Straight",
           "points": 1
         }

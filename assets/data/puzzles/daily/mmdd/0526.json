@@ -29,25 +29,22 @@
       ]
     },
     {
-      "word": "surgeon",
-      "difficulty": "Easy",
-      "related_words": [
-        "orthopedic",
-        "spinal"
-      ],
+      "word": "actions",
+      "difficulty": "Intermediate",
+      "related_words": [],
       "clues": [
         {
-          "clue": "A person who might wear scrubs to work.",
+          "clue": "What a drama unfolds, in a sense, or what a busy robot undertakes",
           "type": "Indirect",
-          "points": 5
+          "points": 6
         },
         {
-          "clue": "Medical professional who performs operations.",
+          "clue": "Something a system is programmed to perform, in order to achieve a goal",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "Medical professional who performs operations",
+          "clue": "Things done or happening",
           "type": "Straight",
           "points": 1
         }
@@ -145,8 +142,7 @@
       "word": "spinal",
       "difficulty": "Intermediate",
       "related_words": [
-        "orthopedic",
-        "surgeon"
+        "orthopedic"
       ],
       "clues": [
         {

@@ -4,25 +4,22 @@
   "text": "However, life expectancy varies widely across geography. A child born in Mississippi today could expect to never \nreach his or her 75th birthday. But a child born in California, Hawaii or New York could expect to reach their expect to live into the early 80s.\n\nAt the neighborhood level, these differences are sometimes even more drastic, appearing even when communities are only a few miles apart. In Washington, D.C., for example, people living in the Barry Farms neighborhood face a life expectancy of 63.2 years. Yet, less than 10 miles away, a baby born in Friendship Heights and Friendship Village can expect to live 96.1 year, according to CDC data.\n\nJust 10 miles represent a life expectancy difference of almost 33 years, a generation lost due to premature deaths. Overall, any two census tracts in the U.S. can differ in expected life expectancy by 41.2 years, a staggering range. \nThese missing lives have important social and economic costs, for families, communities and workplaces.",
   "hiddenWords": [
     {
-      "word": "life",
-      "difficulty": "Easy",
-      "related_words": [
-        "expectancy",
-        "generation"
-      ],
+      "word": "premature",
+      "difficulty": "Intermediate",
+      "related_words": [],
       "clues": [
         {
-          "clue": "a flame that flickers",
+          "clue": "A flower that blooms before its time might be considered this, reflecting a broader societal issue",
           "type": "Indirect",
           "points": 6
         },
         {
-          "clue": "it's what you live",
+          "clue": "It's often associated with deaths that could have been prevented with better healthcare or living conditions",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "a state of being",
+          "clue": "Happening or done before the usual or expected time",
           "type": "Straight",
           "points": 1
         }
@@ -32,7 +29,6 @@
       "word": "expectancy",
       "difficulty": "Intermediate",
       "related_words": [
-        "life",
         "generation"
       ],
       "clues": [
@@ -57,7 +53,6 @@
       "word": "generation",
       "difficulty": "Intermediate",
       "related_words": [
-        "life",
         "expectancy"
       ],
       "clues": [

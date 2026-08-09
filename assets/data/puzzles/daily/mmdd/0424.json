@@ -4,25 +4,22 @@
   "text": "Title: History of India — Famines\n\nDuring British East India Company and British Crown rule, India experienced some of deadliest ever recorded famines. These famines, usually resulting from crop failures and often exacerbated by policies of the colonial government, included the Great Famine of 1876–1878 in which 6.1 million to 10.3 million people died, the Great Bengal famine of 1770 where between 1 and 10 million people died, the Indian famine of 1899–1900 in which 1.25 to 10 million people died, and the Bengal famine of 1943 where between 2.1 and 3.8 million people died. The Third plague pandemic in the mid-19th century killed 10 million people in India. Despite persistent diseases and famines, the population of the Indian subcontinent, which stood at up to 200 million in 1750, had reached 389 million by 1941.",
   "hiddenWords": [
     {
-      "word": "famines",
+      "word": "plague",
       "difficulty": "Intermediate",
-      "related_words": [
-        "diseases",
-        "pandemic"
-      ],
+      "related_words": [],
       "clues": [
         {
-          "clue": "A time of great scarcity, often bringing a nation to its knees",
+          "clue": "A dark cloud that spreads silently, leaving death in its wake",
           "type": "Indirect",
           "points": 6
         },
         {
-          "clue": "Events that lead to widespread hunger and lack of food",
+          "clue": "A widespread and usually serious disease, often caused by a bacterium or virus",
           "type": "Suggestive",
-          "points": 4
+          "points": 3
         },
         {
-          "clue": "Severe shortages of food",
+          "clue": "A contagious and often deadly disease",
           "type": "Straight",
           "points": 1
         }
@@ -32,7 +29,6 @@
       "word": "diseases",
       "difficulty": "Easy",
       "related_words": [
-        "famines",
         "pandemic"
       ],
       "clues": [
@@ -57,7 +53,6 @@
       "word": "pandemic",
       "difficulty": "Hard",
       "related_words": [
-        "famines",
         "diseases"
       ],
       "clues": [

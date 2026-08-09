@@ -4,25 +4,22 @@
   "text": "The spice trade in Kerala attracted traders from all over the Old World to India. India's Southwest coastal port Muziris had established itself as a major spice trade centre from as early as 3,000 BCE, according to Sumerian records. Jewish traders arrived in Kochi, Kerala, India as early as 562 BCE. The Greco-Roman world followed by trading along the incense route and the Roman-India routes. During the 2nd century BCE Greek and Indian ships met to trade at Arabian ports such as Aden. During the first millennium, the sea routes to India were controlled by the Indians and Ethiopians that became the maritime trading power of the Red Sea. Indian merchants involved in spice trade took Indian cuisine to Southeast Asia, where spice mixtures and curries became popular with the native inhabitants. Buddhism entered China through the Silk Road in the 1st or 2nd century CE. Hindu and Buddhist religious establishments of South and Southeast Asia came to be centres of production and commerce as they accumulated capital donated by patrons. They engaged in estate management, craftsmanship, and trade. Buddhism in particular travelled alongside the maritime trade, promoting literacy, art, and the use of coinage.",
   "hiddenWords": [
     {
-      "word": "trade",
-      "difficulty": "Easy",
-      "related_words": [
-        "spice",
-        "commerce"
-      ],
+      "word": "curries",
+      "difficulty": "Intermediate",
+      "related_words": [],
       "clues": [
         {
-          "clue": "Exchange of goods without using money is called barter, but what is the term for exchange using money?",
+          "clue": "Flavors blended in a dish to make it hotter than a summer day",
           "type": "Indirect",
           "points": 6
         },
         {
-          "clue": "The process of buying and selling goods or services",
+          "clue": "A popular component of Southeast Asian meals, influenced by Indian merchants",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "To buy and sell goods or services",
+          "clue": "Savory dishes made with a variety of spices",
           "type": "Straight",
           "points": 1
         }
@@ -32,7 +29,6 @@
       "word": "spice",
       "difficulty": "Easy",
       "related_words": [
-        "trade",
         "commerce"
       ],
       "clues": [
@@ -57,7 +53,6 @@
       "word": "commerce",
       "difficulty": "Intermediate",
       "related_words": [
-        "trade",
         "spice"
       ],
       "clues": [

@@ -4,25 +4,22 @@
   "text": "Verdigris: The Color of Oxidation, Statues, and Impermanence\n\nIt’s hard to imagine now, but people once gathered together freely, shoulders rubbing against shoulders, breath exchanged between lungs, bodies open to one another—all this closeness, almost a million people standing in a crowd just to watch a statue get undressed.\n\nIt was a rainy October day in 1886 and the Statue of Liberty was shrouded in a French flag. The weather was miserable and the ceremonial unveiling went poorly. The drapery was pulled off too soon (right in the middle of a speech), and the fireworks display had to be canceled and rescheduled. Still, over a million freezing New Yorkers came out (including a boat full of suffragettes, protesting the statue).",
   "hiddenWords": [
     {
-      "word": "statue",
+      "word": "crowd",
       "difficulty": "Easy",
-      "related_words": [
-        "liberty",
-        "ceremonial"
-      ],
+      "related_words": [],
       "clues": [
         {
-          "clue": "A work of art that's often monumental in scale.",
+          "clue": "A gathering that's loud, yet often silent in unison, can be a powerful force.",
           "type": "Indirect",
           "points": 6
         },
         {
-          "clue": "A sculpture, typically of a person or animal.",
+          "clue": "It's what forms when many people come together in one place, often for a shared experience.",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "A three-dimensional representation of a person or thing.",
+          "clue": "A large group of people assembled together.",
           "type": "Straight",
           "points": 1
         }
@@ -32,7 +29,6 @@
       "word": "liberty",
       "difficulty": "Intermediate",
       "related_words": [
-        "statue",
         "ceremonial"
       ],
       "clues": [
@@ -57,7 +53,6 @@
       "word": "ceremonial",
       "difficulty": "Intermediate",
       "related_words": [
-        "statue",
         "liberty"
       ],
       "clues": [
@@ -211,22 +206,22 @@
       ]
     },
     {
-      "word": "impermanence",
-      "difficulty": "Hard",
+      "word": "miserable",
+      "difficulty": "Intermediate",
       "related_words": [],
       "clues": [
         {
-          "clue": "A concept that's both beautiful and terrifying.",
+          "clue": "When life gives you rain, it's this, but a good umbrella helps.",
           "type": "Indirect",
-          "points": 7
+          "points": 6
         },
         {
-          "clue": "The state of being transient or ephemeral.",
+          "clue": "A feeling you get when you're stuck outside on a cold and wet day.",
           "type": "Suggestive",
-          "points": 4
+          "points": 3
         },
         {
-          "clue": "The state of not being permanent.",
+          "clue": "Unhappy or uncomfortable, often due to circumstances.",
           "type": "Straight",
           "points": 1
         }

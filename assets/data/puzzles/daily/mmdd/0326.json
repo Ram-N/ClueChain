@@ -184,22 +184,22 @@
       ]
     },
     {
-      "word": "surgeries",
+      "word": "field",
       "difficulty": "Easy",
       "related_words": [],
       "clues": [
         {
-          "clue": "A delicate dance of scalpels and stitches",
+          "clue": "Area where robots and humans collaborate to achieve a common goal, often with a medical twist",
           "type": "Indirect",
-          "points": 5
+          "points": 6
         },
         {
-          "clue": "Medical procedures that involve manual or instrumental treatment",
+          "clue": "Domain where medical professionals and engineers intersect to develop innovative solutions",
           "type": "Suggestive",
-          "points": 4
+          "points": 3
         },
         {
-          "clue": "Medical procedures",
+          "clue": "An area of activity or interest",
           "type": "Straight",
           "points": 1
         }

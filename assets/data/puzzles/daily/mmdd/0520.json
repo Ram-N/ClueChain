@@ -7,7 +7,6 @@
       "word": "surrender",
       "difficulty": "Intermediate",
       "related_words": [
-        "privacy",
         "consent"
       ],
       "clues": [
@@ -29,25 +28,22 @@
       ]
     },
     {
-      "word": "privacy",
+      "word": "table",
       "difficulty": "Easy",
-      "related_words": [
-        "surrender",
-        "consent"
-      ],
+      "related_words": [],
       "clues": [
         {
-          "clue": "What you lose with a surveillance state",
+          "clue": "Where dinner guests might sit, but also something that can be taken without permission.",
           "type": "Indirect",
-          "points": 5
+          "points": 6
         },
         {
-          "clue": "The state of being free from public attention",
+          "clue": "A piece of furniture often found in a dining room, associated with meals and social gatherings.",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "Personal secrecy or seclusion",
+          "clue": "A piece of furniture with a flat surface and legs.",
           "type": "Straight",
           "points": 1
         }
@@ -57,8 +53,7 @@
       "word": "consent",
       "difficulty": "Intermediate",
       "related_words": [
-        "surrender",
-        "privacy"
+        "surrender"
       ],
       "clues": [
         {

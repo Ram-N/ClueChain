@@ -19,35 +19,33 @@
           "points": 3
         },
         {
+          "clue": "The capacity to accept or endure something unpleasant or undesirable",
           "type": "Straight",
-          "clue": "The ability or willingness to tolerate the existence of opinions or behavior that one dislikes or disagrees with.",
           "points": 1
         }
       ],
       "related_words": []
     },
     {
-      "word": "discomfort",
+      "word": "bureaucracy",
       "difficulty": "Intermediate",
+      "related_words": [],
       "clues": [
         {
+          "clue": "Red tape can strangle it, but it's necessary for organization",
           "type": "Indirect",
-          "clue": "That feeling you get when your shoes are too tight, or you're stuck in a long, awkward silence.",
-          "points": 5
+          "points": 6
         },
         {
+          "clue": "It's often associated with government or large institutions",
           "type": "Suggestive",
-          "clue": "A state of uneasiness or slight pain.",
           "points": 3
         },
         {
+          "clue": "A system of administration",
           "type": "Straight",
-          "clue": "Slight pain; uneasiness.",
           "points": 1
         }
-      ],
-      "related_words": [
-        "dissonance"
       ]
     },
     {
@@ -70,9 +68,7 @@
           "points": 2
         }
       ],
-      "related_words": [
-        "discomfort"
-      ]
+      "related_words": []
     },
     {
       "word": "praise",

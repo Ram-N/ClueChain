@@ -92,48 +92,44 @@
       ]
     },
     {
-      "word": "rituals",
+      "word": "endeavors",
       "difficulty": "Intermediate",
-      "related_words": [
-        "habits"
-      ],
+      "related_words": [],
       "clues": [
         {
-          "clue": "Repeated actions or practices, often imbued with symbolic meaning or spiritual significance.",
+          "clue": "Creative pursuits that bring a sense of purpose, but can be daunting at times",
           "type": "Indirect",
           "points": 6
         },
         {
-          "clue": "A set of actions performed in a specific order, often used to create a sense of routine or tradition.",
+          "clue": "Something that requires dedication and hard work to achieve",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "A customary or traditional act or ceremony.",
+          "clue": "A serious attempt or effort",
           "type": "Straight",
           "points": 1
         }
       ]
     },
     {
-      "word": "habits",
+      "word": "block",
       "difficulty": "Intermediate",
-      "related_words": [
-        "rituals"
-      ],
+      "related_words": [],
       "clues": [
         {
-          "clue": "Automatic or usual practices, often hard to break but helpful in creating a sense of routine.",
+          "clue": "A barrier that stops the flow of ideas, but a change of scenery might help clear it",
           "type": "Indirect",
-          "points": 5
+          "points": 6
         },
         {
-          "clue": "Regular or usual practices or activities, often used to create a sense of stability or normalcy.",
+          "clue": "Something that can hinder progress or productivity, often requiring a break to overcome",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "A regular or usual practice or activity.",
+          "clue": "An obstacle or impediment",
           "type": "Straight",
           "points": 1
         }

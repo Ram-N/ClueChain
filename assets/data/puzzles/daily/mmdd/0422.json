@@ -4,50 +4,44 @@
   "text": "Title:  Learn how to become a better writer\n\nThis bundle includes nine comprehensive courses that show you how to be a more clear and effective writer — and organize your thoughts so that you can write faster than ever. From fiction to nonfiction, business writing to freelance, you’ll learn how to set good habits, be productive and produce high-quality writing that immediately hooks your audience.\n\nImprove your paragraph writing by following step-by-step guidance, leverage pre-writing skills such as brainstorming and research, and learn to apply the important principles of coherence and proofreading into your work. By the end of the bundle, you’ll have mastered a wide range of important techniques and styles — and gain a better understanding of traditional and digital publishing.",
   "hiddenWords": [
     {
-      "word": "write",
-      "difficulty": "Easy",
-      "related_words": [
-        "writer",
-        "writing"
-      ],
+      "word": "productive",
+      "difficulty": "Intermediate",
+      "related_words": [],
       "clues": [
         {
-          "clue": "What authors do with their pens?",
+          "clue": "A state where ideas flow like a well-oiled machine, and creativity knows no bounds",
           "type": "Indirect",
           "points": 6
         },
         {
-          "clue": "To express thoughts and ideas in a permanent form",
+          "clue": "Characterized by achieving much in a short amount of time, often due to good habits and focus",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "To mark or inscribe words, symbols, etc.",
+          "clue": "Efficient and effective in work or activity",
           "type": "Straight",
           "points": 1
         }
       ]
     },
     {
-      "word": "writer",
+      "word": "coherence",
       "difficulty": "Intermediate",
-      "related_words": [
-        "write",
-        "writing"
-      ],
+      "related_words": [],
       "clues": [
         {
-          "clue": "A person with a way with words",
+          "clue": "A harmonious connection that makes sense, like a well-tuned orchestra",
           "type": "Indirect",
-          "points": 5
+          "points": 6
         },
         {
-          "clue": "Someone who creates written content",
+          "clue": "A quality that makes written work logical and easy to follow",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "One who writes",
+          "clue": "A state of being logical and consistent",
           "type": "Straight",
           "points": 1
         }
@@ -56,10 +50,7 @@
     {
       "word": "writing",
       "difficulty": "Intermediate",
-      "related_words": [
-        "write",
-        "writer"
-      ],
+      "related_words": [],
       "clues": [
         {
           "clue": "The result of using a pen",

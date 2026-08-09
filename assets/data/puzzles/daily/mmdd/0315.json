@@ -7,8 +7,7 @@
       "word": "lingam",
       "difficulty": "Hard",
       "related_words": [
-        "pilgrims",
-        "temple"
+        "pilgrims"
       ],
       "clues": [
         {
@@ -32,8 +31,7 @@
       "word": "pilgrims",
       "difficulty": "Easy",
       "related_words": [
-        "lingam",
-        "temple"
+        "lingam"
       ],
       "clues": [
         {
@@ -54,25 +52,22 @@
       ]
     },
     {
-      "word": "temple",
-      "difficulty": "Easy",
-      "related_words": [
-        "lingam",
-        "pilgrims"
-      ],
+      "word": "courtyard",
+      "difficulty": "Intermediate",
+      "related_words": [],
       "clues": [
         {
-          "clue": "A place of worship, often featuring intricate architecture and art",
+          "clue": "A place where water features and architecture meet, often found in ancient structures.",
           "type": "Indirect",
-          "points": 5
+          "points": 6
         },
         {
-          "clue": "A sacred building for spiritual practices and rituals",
+          "clue": "An outdoor area surrounded by buildings, commonly used for gatherings or ceremonies.",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "A place for prayer or worship",
+          "clue": "An open space enclosed by walls or buildings.",
           "type": "Straight",
           "points": 1
         }

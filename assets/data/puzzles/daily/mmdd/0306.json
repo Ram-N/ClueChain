@@ -166,22 +166,22 @@
       ]
     },
     {
-      "word": "longevity",
-      "difficulty": "Hard",
+      "word": "table",
+      "difficulty": "Easy",
       "related_words": [],
       "clues": [
         {
-          "clue": "A long and healthy life is often the goal",
+          "clue": "Where you might find unclaimed treasures or overlooked gems, it's a surface that holds promise.",
           "type": "Indirect",
           "points": 6
         },
         {
-          "clue": "The quality of living a long life",
+          "clue": "A piece of furniture used for holding objects, often where meals or meetings take place.",
           "type": "Suggestive",
-          "points": 4
+          "points": 3
         },
         {
-          "clue": "A long lifespan",
+          "clue": "A flat surface, typically made of wood, metal, or glass.",
           "type": "Straight",
           "points": 1
         }

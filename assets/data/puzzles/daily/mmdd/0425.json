@@ -4,25 +4,22 @@
   "text": "Title: Jazz — Jazz and race\nFor some African Americans, jazz has drawn attention to African-American contributions to culture and history. For others, jazz is a reminder of \"an oppressive and racist society and restrictions on their artistic visions\". Amiri Baraka argues that there is a \"white jazz\" genre that expresses whiteness. White jazz musicians appeared in the Midwest and in other areas throughout the U.S. Papa Jack Laine, who ran the Reliance band in New Orleans in the 1910s, was called \"the father of white jazz\". The Original Dixieland Jazz Band, whose members were white, were the first jazz group to record, and Bix Beiderbecke was one of the most prominent jazz soloists of the 1920s. The Chicago Style was developed by white musicians such as Eddie Condon, Bud Freeman, Jimmy McPartland, and Dave Tough. Others from Chicago such as Benny Goodman and Gene Krupa became leading members of swing during the 1930s. Many bands included both Black and white musicians. These musicians helped change attitudes toward race in the U.S.",
   "hiddenWords": [
     {
-      "word": "jazz",
-      "difficulty": "Easy",
-      "related_words": [
-        "music",
-        "style"
-      ],
+      "word": "society",
+      "difficulty": "Intermediate",
+      "related_words": [],
       "clues": [
         {
-          "clue": "A genre that's all about improvisation and syncopated rhythms",
+          "clue": "A community bound by shared norms, where freedom of expression can be both celebrated and stifled.",
           "type": "Indirect",
           "points": 6
         },
         {
-          "clue": "A style of music that originated in the southern United States",
+          "clue": "The collective group whose values and behaviors are influenced by cultural and historical contexts.",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "A type of music characterized by its blue notes and swing rhythm",
+          "clue": "A group of people living together in a more or less ordered community.",
           "type": "Straight",
           "points": 1
         }
@@ -32,7 +29,6 @@
       "word": "music",
       "difficulty": "Easy",
       "related_words": [
-        "jazz",
         "style"
       ],
       "clues": [
@@ -57,7 +53,6 @@
       "word": "style",
       "difficulty": "Intermediate",
       "related_words": [
-        "jazz",
         "music"
       ],
       "clues": [

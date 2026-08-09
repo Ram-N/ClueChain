@@ -26,50 +26,44 @@
       ]
     },
     {
-      "word": "relative",
+      "word": "kilometers",
       "difficulty": "Intermediate",
-      "related_words": [
-        "location",
-        "distance"
-      ],
+      "related_words": [],
       "clues": [
         {
-          "clue": "A concept that's all about family ties, but not just blood.",
+          "clue": "A measure that's often used to describe how far it is from one landmark to a distant star, in a manner of speaking",
           "type": "Indirect",
           "points": 6
         },
         {
-          "clue": "Describing a connection or relationship between things.",
+          "clue": "Unit of length commonly used to express long distances between cities or countries",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "Connected by blood or marriage.",
+          "clue": "Metric unit of length equal to 1000 meters",
           "type": "Straight",
           "points": 1
         }
       ]
     },
     {
-      "word": "location",
-      "difficulty": "Easy",
-      "related_words": [
-        "relative",
-        "distance"
-      ],
+      "word": "building",
+      "difficulty": "Intermediate",
+      "related_words": [],
       "clues": [
         {
-          "clue": "The spot where your favorite story unfolds.",
+          "clue": "Structure that's often a work of art, and sometimes a giant metal beast with a lot of floors.",
           "type": "Indirect",
           "points": 6
         },
         {
-          "clue": "A specific point or area with defined boundaries.",
+          "clue": "It can be a landmark, a workplace, or a residence, often serving as a point of reference for directions.",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "A particular place or point.",
+          "clue": "A constructed edifice designed for occupancy or storage.",
           "type": "Straight",
           "points": 1
         }
@@ -78,10 +72,7 @@
     {
       "word": "distance",
       "difficulty": "Intermediate",
-      "related_words": [
-        "relative",
-        "location"
-      ],
+      "related_words": [],
       "clues": [
         {
           "clue": "The measure of how far love can reach.",

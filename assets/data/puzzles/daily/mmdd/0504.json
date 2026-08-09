@@ -4,24 +4,24 @@
   "text": "Title: List of conspiracy theories — Weather and earthquake control projects\nNumerous theories pertain to real or alleged weather-controlling projects. Theories include the debunked assertion that HAARP, a radio-technology research program funded by the US government, is a secret weather-controlling system. Some theorists have blamed 2005's Hurricane Katrina and 2024's Helene and Milton on HAARP. HAARP has also been suggested to have somehow caused earthquakes, such as the 2010 Haiti earthquake, the 2011 Tōhoku earthquake and tsunami, the 2013 Saravan earthquake or the 2023 Turkey–Syria earthquakes. Some HAARP-related claims refer to mind-control technology. Also, of interest to conspiracy theorists are cloud-seeding technologies. These include a debunked allegation that the British military's Project Cumulus caused the fatal 1952 Lynmouth Flood in Devon, England, California drought manipulation conspiracy theory, and claims concerning a secret project said to have caused the 2010 Pakistan floods.",
   "hiddenWords": [
     {
-      "word": "theorists",
+      "word": "flood",
       "difficulty": "Intermediate",
       "related_words": [],
       "clues": [
         {
-          "clue": "People who come up with explanations for events without solid evidence",
+          "clue": "Deluge that devastates a town, perhaps caused by a breached dam or stormy skies",
           "type": "Indirect",
           "points": 6
         },
         {
-          "clue": "People who develop and advocate unconventional explanations for events",
+          "clue": "Disaster that can occur when excess water overflows into an area, often causing damage and destruction",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "Individuals who propose and support speculative ideas",
+          "clue": "Overflow of water that submerges land",
           "type": "Straight",
-          "points": 2
+          "points": 1
         }
       ]
     },

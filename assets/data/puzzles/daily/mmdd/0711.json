@@ -2,26 +2,30 @@
   "title": "Myth - Brain damage is always permanent",
   "date": "07-11",
   "topic": "Science",
-  "themes": ["Neuroscience", "Myths", "Brain Health"],
+  "themes": [
+    "Neuroscience",
+    "Myths",
+    "Brain Health"
+  ],
   "text": "One of the most prevalent myths of neuroscience is that this damage is inevitably permanent and irreversible. It's sort of related to the myth that the brain stops developing once you reach a certain age. Neither is true.",
   "hiddenWords": [
     {
-      "word": "myths",
-      "difficulty": "Easy",
-      "related_words": ["myth"],
+      "word": "neither",
+      "difficulty": "Intermediate",
+      "related_words": [],
       "clues": [
         {
-          "clue": "Tales told around ancient fires — true to some, false to others.",
+          "clue": "A choice that's not one of two, yet still an option to consider, like a third path",
           "type": "Indirect",
-          "points": 5
+          "points": 6
         },
         {
-          "clue": "Widely believed stories that turn out to be false.",
+          "clue": "Used to indicate an alternative that doesn't fit into two given categories",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "Common misconceptions or false beliefs.",
+          "clue": "A term used to negate two preceding options",
           "type": "Straight",
           "points": 1
         }

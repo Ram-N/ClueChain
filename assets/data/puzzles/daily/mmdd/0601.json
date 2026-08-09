@@ -29,8 +29,7 @@
       "word": "dynamics",
       "difficulty": "Intermediate",
       "related_words": [
-        "election",
-        "poll"
+        "election"
       ],
       "clues": [
         {
@@ -54,8 +53,7 @@
       "word": "election",
       "difficulty": "Easy",
       "related_words": [
-        "dynamics",
-        "poll"
+        "dynamics"
       ],
       "clues": [
         {
@@ -76,25 +74,22 @@
       ]
     },
     {
-      "word": "poll",
-      "difficulty": "Easy",
-      "related_words": [
-        "dynamics",
-        "election"
-      ],
+      "word": "debate",
+      "difficulty": "Intermediate",
+      "related_words": [],
       "clues": [
         {
-          "clue": "A survey of people's opinions or attitudes",
+          "clue": "A verbal sparring match that's not about boxing, but can still leave participants bruised",
           "type": "Indirect",
-          "points": 5
+          "points": 6
         },
         {
-          "clue": "A way to measure public opinion",
+          "clue": "A formal discussion where people present differing views, often in front of an audience",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "A vote or survey of a group of people",
+          "clue": "A discussion between people with different opinions",
           "type": "Straight",
           "points": 1
         }

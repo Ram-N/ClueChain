@@ -7,8 +7,7 @@
       "word": "spoons",
       "difficulty": "Easy",
       "related_words": [
-        "spatula",
-        "tools"
+        "spatula"
       ],
       "clues": [
         {
@@ -32,8 +31,7 @@
       "word": "spatula",
       "difficulty": "Easy",
       "related_words": [
-        "spoons",
-        "tools"
+        "spoons"
       ],
       "clues": [
         {
@@ -54,25 +52,22 @@
       ]
     },
     {
-      "word": "tools",
-      "difficulty": "Easy",
-      "related_words": [
-        "spoons",
-        "spatula"
-      ],
+      "word": "handle",
+      "difficulty": "Intermediate",
+      "related_words": [],
       "clues": [
         {
-          "clue": "Equipment or devices used for a particular task",
+          "clue": "A part that's grasped, yet sometimes melted",
           "type": "Indirect",
           "points": 6
         },
         {
-          "clue": "Items used to help with cooking or other tasks",
+          "clue": "It's often found at the end of a long, flat extension",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "Devices used for a specific purpose",
+          "clue": "A grip or holder",
           "type": "Straight",
           "points": 1
         }

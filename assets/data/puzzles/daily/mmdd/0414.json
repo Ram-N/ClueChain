@@ -189,51 +189,47 @@
       ]
     },
     {
-      "word": "burning",
-      "difficulty": "Medium",
+      "word": "fame",
+      "difficulty": "Intermediate",
+      "related_words": [],
       "clues": [
         {
+          "clue": "A spark that flickers brightly, but can vanish in an instant, leaving one searching for its glow once more",
           "type": "Indirect",
-          "clue": "A fiery urge, run big and bright.",
-          "points": 8
+          "points": 6
         },
         {
+          "clue": "Something that many strive for, but few achieve, often bringing admiration and attention",
           "type": "Suggestive",
-          "clue": "What a candle does, or how you might feel after a long day of intense work.",
-          "points": 5
+          "points": 3
         },
         {
+          "clue": "Widespread recognition or admiration",
           "type": "Straight",
-          "clue": "On fire; producing heat or light by combustion.",
-          "points": 2
+          "points": 1
         }
-      ],
-      "related_words": [
-        "breaking"
       ]
     },
     {
-      "word": "breaking",
-      "difficulty": "Medium",
+      "word": "celebrity",
+      "difficulty": "Intermediate",
+      "related_words": [],
       "clues": [
         {
+          "clue": "A star in the spotlight, but not necessarily from the night sky",
           "type": "Indirect",
-          "clue": "Splintering news, perhaps, at a point in time.",
-          "points": 8
+          "points": 6
         },
         {
+          "clue": "Often associated with wealth, glamour, and public attention",
           "type": "Suggestive",
-          "clue": "What glass does when dropped, or what a story does when it's newsworthy.",
-          "points": 5
+          "points": 3
         },
         {
+          "clue": "A famous or well-known person",
           "type": "Straight",
-          "clue": "The action of fracturing or damaging something.",
-          "points": 2
+          "points": 1
         }
-      ],
-      "related_words": [
-        "burning"
       ]
     }
   ]

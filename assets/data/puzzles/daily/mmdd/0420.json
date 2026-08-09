@@ -4,22 +4,22 @@
   "text": "Drink Whole Milk, Eat Red Meat, and Use ChatGPT\n\nRobert F. Kennedy Jr. is an AI guy. Last week, during a stop in Nashville on his Take Back Your Health tour, the Health and Human Services secretary brought up the technology between condemning ultra-processed foods and urging Americans to eat protein. \"My agency is now leading the federal government in driving AI into all of our activities,\" he declared. An army of bots, Kennedy said, will transform medicine, eliminate fraud, and put a virtual doctor in everyone's pocket.\n\nRFK Jr. has talked up the promise of infusing his department with AI for months. \"The AI revolution has arrived,\" he told Congress in May. The next month, the FDA launched Elsa, a custom AI tool designed to expedite drug reviews and assist with agency work. In December, HHS issued an \"AI Strategy\" outlining how it intends to use the technology to modernize the department, aid scientific research, and advance Kennedy's Make America Healthy Again campaign. One CDC staffer showed us a recent email sent to all agency employees encouraging them to start experimenting with tools such as ChatGPT, Gemini, and Claude.",
   "hiddenWords": [
     {
-      "word": "Milk",
-      "difficulty": "Easy",
+      "word": "fraud",
+      "difficulty": "Intermediate",
       "related_words": [],
       "clues": [
         {
-          "clue": "A common breakfast cereal companion",
+          "clue": "A deception that can be costly, in more ways than one",
           "type": "Indirect",
           "points": 6
         },
         {
-          "clue": "A dairy product often consumed for calcium",
+          "clue": "Something that can be eliminated with the help of technology and AI",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "A type of liquid nutrient for humans",
+          "clue": "A false representation with intention to deceive",
           "type": "Straight",
           "points": 1
         }
