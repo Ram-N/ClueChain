@@ -112,43 +112,113 @@ for cat_words in CONCRETE_CATEGORIES.values():
 
 
 # ---------------------------------------------------------------------------
-# LLM provider helpers (NIM primary, Groq fallback)
+# LLM provider helpers — multi-key rotation with automatic fallback
 # ---------------------------------------------------------------------------
 
 NIM_BASE_URL = "https://integrate.api.nvidia.com/v1"
-NIM_MODEL = "meta/llama-3.3-70b-instruct"
+NIM_MODEL = "nvidia/llama-3.3-nemotron-super-49b-v1.5"
 
 
-def _make_nim_client(api_key: str):
-    """Create an OpenAI-compatible client pointing at NVIDIA NIM."""
-    try:
-        from openai import OpenAI
-        return OpenAI(base_url=NIM_BASE_URL, api_key=api_key)
-    except ImportError:
-        raise ImportError("openai package not installed. Run: uv pip install openai")
+class LLMProvider:
+    """Wraps one or more API backends with automatic key rotation and fallback."""
+
+    def __init__(self):
+        self._backends: List[Tuple[str, object, str]] = []  # (name, client, model)
+        self._current = 0
+
+    def add_groq(self, api_key: str):
+        try:
+            from groq import Groq
+            self._backends.append(("groq", Groq(api_key=api_key), GROQ_MODEL))
+        except ImportError:
+            raise ImportError("groq package not installed. Run: uv pip install groq")
+
+    def add_nim(self, api_key: str):
+        try:
+            from openai import OpenAI
+            client = OpenAI(base_url=NIM_BASE_URL, api_key=api_key)
+            self._backends.append(("nim", client, NIM_MODEL))
+        except ImportError:
+            raise ImportError("openai package not installed. Run: uv pip install openai")
+
+    @property
+    def name(self) -> str:
+        if not self._backends:
+            return "none"
+        return self._backends[self._current][0]
+
+    def _rotate(self) -> bool:
+        """Move to next backend. Returns False if exhausted."""
+        next_idx = self._current + 1
+        if next_idx >= len(self._backends):
+            return False
+        self._current = next_idx
+        name = self._backends[self._current][0]
+        print(f"    >> Rotated to {name} (backend {self._current + 1}/{len(self._backends)})")
+        return True
+
+    def call(self, system_prompt: str, user_prompt: str) -> str:
+        """Call the current backend, rotating on rate-limit errors."""
+        while True:
+            name, client, model = self._backends[self._current]
+            try:
+                kwargs = dict(
+                    model=model,
+                    messages=[
+                        {"role": "system", "content": system_prompt},
+                        {"role": "user", "content": user_prompt},
+                    ],
+                    temperature=0.3,
+                    max_tokens=2000,
+                )
+                # NIM doesn't support response_format json_object
+                if name != "nim":
+                    kwargs["response_format"] = {"type": "json_object"}
+                response = client.chat.completions.create(**kwargs)
+                content = response.choices[0].message.content
+                if not content:
+                    raise ValueError(f"{name} returned empty response")
+                return content
+            except Exception as e:
+                err_str = str(e)
+                is_rate_limit = "429" in err_str or "rate" in err_str.lower()
+                if is_rate_limit and self._rotate():
+                    continue
+                raise
 
 
-def _make_groq_client(api_key: str):
-    try:
-        from groq import Groq
-        return Groq(api_key=api_key)
-    except ImportError:
-        raise ImportError("groq package not installed. Run: uv pip install groq")
+def _build_provider(force: Optional[str] = None) -> Optional[LLMProvider]:
+    """Build an LLMProvider from environment variables."""
+    provider = LLMProvider()
 
+    groq_keys = [k for k in [
+        os.getenv("GROQ_API_KEY"),
+        os.getenv("GROQ_API_KEY2"),
+        os.getenv("GROQ_API_KEY3"),
+    ] if k]
 
-def _call_llm(client, model: str, system_prompt: str, user_prompt: str) -> str:
-    """Call an OpenAI-compatible LLM and return raw content."""
-    response = client.chat.completions.create(
-        model=model,
-        messages=[
-            {"role": "system", "content": system_prompt},
-            {"role": "user", "content": user_prompt},
-        ],
-        temperature=0.3,
-        max_tokens=2000,
-        response_format={"type": "json_object"},
-    )
-    return response.choices[0].message.content
+    nim_key = os.getenv("NIM_API_KEY")
+
+    if force == "nim":
+        if not nim_key:
+            print("Error: --nim specified but NIM_API_KEY not set.")
+            sys.exit(1)
+        provider.add_nim(nim_key)
+        for k in groq_keys:
+            provider.add_groq(k)
+    else:
+        # Default: Groq first (all keys), then NIM as fallback
+        for k in groq_keys:
+            provider.add_groq(k)
+        if nim_key:
+            provider.add_nim(nim_key)
+
+    if not provider._backends:
+        return None
+
+    names = [b[0] for b in provider._backends]
+    print(f"LLM backends: {', '.join(names)} ({len(names)} total)")
+    return provider
 
 
 # ---------------------------------------------------------------------------
@@ -454,7 +524,7 @@ def format_hidden_words_section(hidden_words: List[Dict]) -> str:
     return "\n".join(lines)
 
 
-def score_with_llm(client, model: str, paragraph_data: Dict) -> Optional[Dict]:
+def score_with_llm(provider: LLMProvider, paragraph_data: Dict) -> Optional[Dict]:
     """
     Get LLM scores for subjective dimensions.
     Returns dict with connectivity, clueability, discovery_curve, narrative_interest, catalog_penalty.
@@ -472,7 +542,7 @@ def score_with_llm(client, model: str, paragraph_data: Dict) -> Optional[Dict]:
         .replace("{hidden_words_section}", hidden_section)
     )
 
-    raw = _call_llm(client, model, system_prompt, user_prompt)
+    raw = provider.call(system_prompt, user_prompt)
     result = json.loads(raw)
 
     # Validate expected keys
@@ -910,34 +980,14 @@ Examples:
         if len(needs_llm) > args.batch_size:
             print(f"  ... and {len(needs_llm) - args.batch_size} more in future batches")
     elif needs_llm and args.batch_size > 0:
-        # Set up LLM client: Groq default, --nim to override
-        nim_key = os.getenv("NIM_API_KEY")
-        groq_key = os.getenv("GROQ_API_KEY")
-        client = None
-        provider = None
+        # Set up LLM provider: Groq default (all keys), --nim to override
+        force_provider = "nim" if args.nim else None
+        provider = _build_provider(force=force_provider)
 
-        if args.nim:
-            if nim_key:
-                client = _make_nim_client(nim_key)
-                model = NIM_MODEL
-                provider = "NIM"
-            else:
-                print("Error: --nim specified but NIM_API_KEY not set.")
-                sys.exit(1)
-        elif groq_key:
-            client = _make_groq_client(groq_key)
-            model = GROQ_MODEL
-            provider = "Groq"
-        elif nim_key:
-            client = _make_nim_client(nim_key)
-            model = NIM_MODEL
-            provider = "NIM"
-
-        if not client:
+        if not provider:
             print("Warning: Neither NIM_API_KEY nor GROQ_API_KEY set. Skipping LLM scoring.")
             print("Rankings will use rule-based scores only (45% weight).")
         else:
-            print(f"Using {provider} ({model})")
             batch = needs_llm[:args.batch_size]
             llm_scored = 0
             llm_failed = 0
@@ -946,7 +996,7 @@ Examples:
                 print(f"  [{i}/{len(batch)}] Scoring {filename}...", end=" ", flush=True)
                 start = time.time()
                 try:
-                    llm_result = score_with_llm(client, model, data)
+                    llm_result = score_with_llm(provider, data)
                     elapsed = time.time() - start
 
                     # Store LLM scores
@@ -957,7 +1007,7 @@ Examples:
                     all_scores[filename]["scores"]["catalog_penalty"] = llm_result["catalog_penalty"]["score"]
                     all_scores[filename]["reasons"]["catalog_penalty"] = llm_result["catalog_penalty"]["reason"]
                     all_scores[filename]["has_llm_scores"] = True
-                    all_scores[filename]["llm_provider"] = provider
+                    all_scores[filename]["llm_provider"] = provider.name
                     llm_scored += 1
 
                     print(f"done ({elapsed:.1f}s)")
