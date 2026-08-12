@@ -1,228 +1,237 @@
 {
-  "title": "History of India — Sikh Empire",
+  "title": "Mother Georgia",
   "date": "06-24",
-  "text": "Title: History of India — Sikh Empire\n\nThe Sikh Empire was a political entity that governed the Northwestern regions of the Indian subcontinent, based around the Punjab, from 1799 to 1849. It was forged, on the foundations of the Khalsa, under the leadership of Maharaja Ranjit Singh (1780–1839). Maharaja Ranjit Singh consolidated much of northern India into an empire using his Sikh Khalsa Army, trained in European military techniques and equipped with modern military technologies. Ranjit Singh proved himself to be a master strategist and selected well-qualified generals for his army. He successfully ended the Afghan-Sikh Wars. In stages, he added central Punjab, the provinces of Multan and Kashmir, and the Peshawar Valley to his empire. At its peak in the 19th century, the empire extended from the Khyber Pass in the west, to Kashmir in the north, to Sindh in the south, running along Sutlej river to Himachal in the east. After the death of Ranjit Singh, the empire weakened, leading to conflict with the British East India Company. The First Anglo-Sikh War and Second Anglo-Sikh War marked the downfall of the Sikh Empire, making it among the last areas of the Indian subcontinent to be conquered by the British.",
+  "text": "Title: Mother Georgia\n\nMother Georgia is a strong\naluminum woman of some\ntwenty meters. In her right\nhand, she holds aloft a bowl of\nwine. In her left hand, lowered\nto her long, slender, sheetmetal belly, is a sword. The\nguidebooks explain that she\nembodies the two signal virtues of this kingdom wedged\nbetween the mountains: the\ngenerosity of the host, who\nwelcomes all comers with food\nand drink, and the courage of\nthe warrior, who has defended\nherself, valiantly and without reasonable hope, against\nthe clockwork onslaughts of\nimperial whimsy. The other\ninterpretation is that she’s\nbrandishing the sword to\nmake sure you finish the wine.",
   "hiddenWords": [
     {
-      "word": "foundations",
-      "difficulty": "Intermediate",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "A starting point for something, like a base that's strong and wide, to help it grow and thrive with time",
-          "type": "Indirect",
-          "points": 6
-        },
-        {
-          "clue": "It's what provides a base for something to be built upon, like a framework or a beginning",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "A basis or starting point for something",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "military",
-      "difficulty": "Intermediate",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "An organized group with a strong defense system",
-          "type": "Indirect",
-          "points": 5
-        },
-        {
-          "clue": "Relating to the armed forces",
-          "type": "Suggestive",
-          "points": 4
-        },
-        {
-          "clue": "Connected to the army or navy",
-          "type": "Straight",
-          "points": 2
-        }
-      ]
-    },
-    {
-      "word": "techniques",
-      "difficulty": "Intermediate",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "Methods or skills used in a particular activity",
-          "type": "Indirect",
-          "points": 6
-        },
-        {
-          "clue": "Special ways of doing something",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "Methods or procedures",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "strategist",
-      "difficulty": "Hard",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "Someone skilled in planning and directing",
-          "type": "Indirect",
-          "points": 7
-        },
-        {
-          "clue": "A person who develops plans or policies",
-          "type": "Suggestive",
-          "points": 4
-        },
-        {
-          "clue": "A person skilled in planning and management",
-          "type": "Straight",
-          "points": 2
-        }
-      ]
-    },
-    {
-      "word": "generals",
+      "word": "aluminum",
       "difficulty": "Easy",
       "related_words": [],
       "clues": [
         {
-          "clue": "High-ranking officers in the army",
-          "type": "Indirect",
-          "points": 5
+          "clue": "A metal often used in aircraft",
+          "type": "Straight",
+          "points": 1
         },
         {
-          "clue": "Senior military leaders",
+          "clue": "Lightweight yet strong material",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "High-ranking army officers",
-          "type": "Straight",
-          "points": 1
+          "clue": "Silvery metal that's also a chemical element",
+          "type": "Indirect",
+          "points": 5
         }
       ]
     },
     {
-      "word": "provinces",
+      "word": "sword",
       "difficulty": "Intermediate",
-      "related_words": [],
+      "related_words": [
+        "courage",
+        "warrior"
+      ],
       "clues": [
         {
-          "clue": "Large areas of land within a country",
-          "type": "Indirect",
-          "points": 6
+          "clue": "A symbol of honor",
+          "type": "Suggestive",
+          "points": 3
         },
         {
-          "clue": "Divisions of a country or empire",
+          "clue": "Used for both attack and defense",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "In mythology, a powerful artifact",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "word": "courage",
+      "difficulty": "Hard",
+      "related_words": [
+        "sword",
+        "warrior"
+      ],
+      "clues": [
+        {
+          "clue": "The quality that helps you face danger",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "A virtue that's essential for heroes",
           "type": "Suggestive",
           "points": 4
         },
         {
-          "clue": "Large areas of land",
-          "type": "Straight",
-          "points": 1
+          "clue": "What you need to stand up for what's right",
+          "type": "Indirect",
+          "points": 7
         }
       ]
     },
     {
-      "word": "century",
+      "word": "warrior",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "sword",
+        "courage"
+      ],
+      "clues": [
+        {
+          "clue": "A person who fights in battles",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "Someone who's skilled in combat",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A figure often found in mythology and history",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "word": "generosity",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The quality of being kind and giving",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "A virtue that's admired in many cultures",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "What you show when you welcome strangers with open arms",
+          "type": "Indirect",
+          "points": 7
+        }
+      ]
+    },
+    {
+      "word": "host",
       "difficulty": "Easy",
       "related_words": [],
       "clues": [
         {
-          "clue": "A period of 100 years",
-          "type": "Indirect",
-          "points": 5
+          "clue": "The person who welcomes guests",
+          "type": "Straight",
+          "points": 1
         },
         {
-          "clue": "A unit of time",
+          "clue": "Someone who provides food and shelter",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "100 years",
+          "clue": "In biology, an organism that's infected by a parasite",
+          "type": "Indirect",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "word": "whimsy",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A feeling or mood of lighthearted, fanciful, or playful humor",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "A quality that's often associated with artistic expression",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "What you might find in a quirky, offbeat story",
+          "type": "Indirect",
+          "points": 7
+        }
+      ]
+    },
+    {
+      "word": "imperial",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Relating to an empire or emperor",
           "type": "Straight",
           "points": 1
-        }
-      ]
-    },
-    {
-      "word": "downfall",
-      "difficulty": "Hard",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "The act of falling or coming down",
-          "type": "Indirect",
-          "points": 7
         },
         {
-          "clue": "The failure or collapse of something",
+          "clue": "A term often used to describe a powerful, dominant state",
           "type": "Suggestive",
-          "points": 4
+          "points": 3
         },
         {
-          "clue": "The end of something",
-          "type": "Straight",
-          "points": 2
-        }
-      ]
-    },
-    {
-      "word": "subcontinent",
-      "difficulty": "Hard",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "A large area of land that is part of a continent",
+          "clue": "A word that evokes images of grandeur and majesty",
           "type": "Indirect",
           "points": 6
-        },
-        {
-          "clue": "A large region of land that is connected to a continent",
-          "type": "Suggestive",
-          "points": 4
-        },
-        {
-          "clue": "A large area of land",
-          "type": "Straight",
-          "points": 2
         }
       ]
     },
     {
-      "word": "consolidated",
+      "word": "clockwork",
       "difficulty": "Hard",
       "related_words": [],
       "clues": [
         {
-          "clue": "To bring together and unify",
-          "type": "Indirect",
-          "points": 7
+          "clue": "A mechanism that's powered by a spring or weights",
+          "type": "Straight",
+          "points": 2
         },
         {
-          "clue": "To make something stronger or more solid",
+          "clue": "A term often used to describe something that's precise and mechanical",
           "type": "Suggestive",
           "points": 4
         },
         {
-          "clue": "To combine or unite",
+          "clue": "What you might find in a intricate, complex device",
+          "type": "Indirect",
+          "points": 7
+        }
+      ]
+    },
+    {
+      "word": "onslaughts",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A strong and violent attack",
           "type": "Straight",
-          "points": 2
+          "points": 1
+        },
+        {
+          "clue": "A term often used to describe a powerful, overwhelming force",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "What you might experience in a intense, chaotic situation",
+          "type": "Indirect",
+          "points": 6
         }
       ]
     }
   ],
-  "id": "ClueChain-2026-06-24"
+  "id": "ClueChain-2026-03-01"
 }

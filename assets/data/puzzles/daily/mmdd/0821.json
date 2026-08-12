@@ -1,232 +1,239 @@
 {
-  "title": "Why ambitious people have (unrelated) hobbies",
+  "title": "Bio Bay",
   "date": "08-21",
-  "text": "Title: Why ambitious people have (unrelated) hobbies\n\nWinston Churchill was a mediocre painter and a worse bricklayer, but to these two hobbies, the world owes a great debt.\n\n“It is a pushing age,” Churchill wrote his mother as a young man, “and we must shove with the rest.” His ambition was legendary. Multiple times, he shoved his way to the top of British politics, when Britain was the world’s dominant power. Once he was there, he did not let up. During war-time, it was not uncommon \nfor him to work 110-hour weeks. Between 1940 and 1943, he traveled something like 110,000 miles by air and sea and car. A bodyguard once said that Churchill kept “less schedule than a forest fire and had less peace than a hurricane.”\n\nIt’s this exhausting workload that is worth examination in a time of “millennial burnout,” and digital distraction. More and more people fear that taking their foot off the gas for even a second will only cause them to fall further and further behind in a rigged economy that cares little for individual happiness. Certainly, it’s something I’ve wrestled with as I look back on my very busy twenties (six books and three careers) and look forward towards my thirties with children.",
+  "text": "Title: Bio Bay\n\nTHAT NIGHT WHEN WE tied up to a buoy in the middle of Bio Bay, the only sign of change \nI saw was a few streetlights on the hills to the north, not yet so much competition that \nthe planktonic glow was diminished. Otherwise, everything was exactly as it had been on my\nfirst visit five years ago. The constellation Orion still dominated the southern sky, the \nold hunter holding up his animal-skin shield (\"Uh, yeah, I think I see it\"), forever poised \nto clash with his bullet-headed foe Taurus. \nThen those of us who wished slipped quietly into the water.",
   "hiddenWords": [
     {
-      "word": "fire",
+      "word": "night",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Time for rest",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Period of darkness",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The opposite of day",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "buoy",
       "difficulty": "Intermediate",
       "related_words": [],
       "clues": [
         {
-          "clue": "A force that can both create and destroy, often symbolizing passion or chaos.",
+          "clue": "Floating signal for sailors",
           "type": "Indirect",
           "points": 6
         },
         {
-          "clue": "Something that can be found in a hearth or used for warmth, but also associated with intense energy.",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "A rapid, persistent chemical reaction that releases heat, light, and energy.",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "power",
-      "difficulty": "Intermediate",
-      "related_words": [
-        "economy"
-      ],
-      "clues": [
-        {
-          "clue": "The ability to influence others, much like a gentle stream that can carve through stone over time.",
-          "type": "Indirect",
-          "points": 6
-        },
-        {
-          "clue": "The capacity to act or produce an effect, often tied to positions of authority or control.",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "The ability or capacity to do something.",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "economy",
-      "difficulty": "Hard",
-      "related_words": [
-        "power"
-      ],
-      "clues": [
-        {
-          "clue": "A delicate balance of give and take, where one person's gain can be another's loss, like the ebb and flow of the tides.",
-          "type": "Indirect",
-          "points": 7
-        },
-        {
-          "clue": "A system of production, distribution, and exchange of goods and services, influencing the lives of individuals and nations.",
+          "clue": " Marker in the water",
           "type": "Suggestive",
           "points": 4
         },
         {
-          "clue": "The state of a country's or region's financial affairs.",
+          "clue": "A floating device",
           "type": "Straight",
-          "points": 1
+          "points": 2
         }
       ]
     },
     {
-      "word": "digital",
+      "word": "hills",
       "difficulty": "Easy",
       "related_words": [],
       "clues": [
         {
-          "clue": "Relating to or characterized by the use of computer technology, especially for storing or processing information.",
+          "clue": "Natural elevations",
           "type": "Indirect",
           "points": 5
         },
         {
-          "clue": "Using or relating to computers or electronic devices.",
+          "clue": "Landforms that rise above surroundings",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "Using or relating to computers.",
+          "clue": "Small mountains",
           "type": "Straight",
           "points": 1
         }
       ]
     },
     {
-      "word": "distraction",
-      "difficulty": "Intermediate",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "A thing that diverts attention away from something else, like a fleeting shadow on a moonlit night.",
-          "type": "Indirect",
-          "points": 6
-        },
-        {
-          "clue": "Something that interferes with concentration or attention.",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "Something that takes your attention away from something else.",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "workload",
-      "difficulty": "Easy",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "The amount of work that someone is expected to do, like a weight that can either be carried with ease or crush under its burden.",
-          "type": "Indirect",
-          "points": 5
-        },
-        {
-          "clue": "The amount of work to be done by someone or something.",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "The amount of work someone has to do.",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "exhausting",
-      "difficulty": "Intermediate",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "Causing a feeling of extreme tiredness, like running a marathon without rest.",
-          "type": "Indirect",
-          "points": 6
-        },
-        {
-          "clue": "Physically or mentally tiring.",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "Very tiring.",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "millennial",
+      "word": "planktonic",
       "difficulty": "Hard",
-      "related_words": [],
+      "related_words": [
+        "water"
+      ],
       "clues": [
         {
-          "clue": "A person born in the 1980s or 1990s, part of a generation that grew up with the internet and social media, like a plant that blooms in the digital garden.",
+          "clue": "Tiny organisms in the ocean",
           "type": "Indirect",
           "points": 7
         },
         {
-          "clue": "A member of the generation born between the early 1980s and the mid-1990s.",
+          "clue": "Relating to small aquatic life",
           "type": "Suggestive",
           "points": 4
         },
         {
-          "clue": "A person born between 1981 and 1996.",
+          "clue": "A type of marine organism",
           "type": "Straight",
-          "points": 1
+          "points": 2
         }
       ]
     },
     {
-      "word": "burnout",
-      "difficulty": "Intermediate",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "A state of emotional, mental, and physical exhaustion caused by excessive and prolonged stress, like a flame that burns out from lack of fuel.",
-          "type": "Indirect",
-          "points": 6
-        },
-        {
-          "clue": "A state of physical, emotional, or mental exhaustion.",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "A state of emotional and physical tiredness.",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "happiness",
+      "word": "water",
       "difficulty": "Easy",
-      "related_words": [],
+      "related_words": [
+        "planktonic"
+      ],
       "clues": [
         {
-          "clue": "A feeling of joy or contentment, like a warm sunshine on a cloudy day.",
+          "clue": "Essential for life",
           "type": "Indirect",
           "points": 5
         },
         {
-          "clue": "A feeling of joy, contentment, or well-being.",
+          "clue": "Clear liquid substance",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "A feeling of great joy.",
+          "clue": "H2O",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "constellation",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "Orion"
+      ],
+      "clues": [
+        {
+          "clue": "Group of stars in a pattern",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Formation of celestial bodies",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A pattern of stars",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "Orion",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "constellation",
+        "Taurus"
+      ],
+      "clues": [
+        {
+          "clue": "Hunter in the sky",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A pattern of stars named after a hunter",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A constellation",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "Taurus",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "Orion"
+      ],
+      "clues": [
+        {
+          "clue": "Bull in the sky",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A constellation named after an animal",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A zodiac sign",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "shield",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Protection from harm",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Defensive device",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A protective barrier",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "animal",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Living creature",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Organism that moves and feeds",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A creature",
           "type": "Straight",
           "points": 1
         }
       ]
     }
   ],
-  "id": "ClueChain-2026-08-21"
+  "id": "ClueChain-2026-02-01"
 }

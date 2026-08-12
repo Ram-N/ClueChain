@@ -1,232 +1,237 @@
 {
-  "title": "The (cheap) tools that will transform your cooking",
+  "title": "Weddings in Georgia",
   "date": "02-20",
-  "text": "You don't need a fancy equipment to be a good cook. The good news is that there is no five hundred dollar blender, no state of the art oven, that is standing between you and making a decent meal today. If you love your sous vide or your Instant Pot, great — I feel pretty evangelical about my KitchenAid Mini stand mixer. But I also feel that way about my wooden spoons. The items that give us confidence in the kitchen, that make the act of preparing food a pleasure instead of a chore, are often the smallest, simplest things.\n\nThe holidays, like wedding season, seem to make our minds collectively turn longingly to extravagant, big ticket appliances. Yet the rest of the time, too many of us appear to try to bravely get by on our one spatula with a slightly melted handle. Maybe it's a false sense of toughness, or a fear of looking like some loser whose life is cluttered with useless unitaskers. But if among your New Year's resolutions is to step up your culinary game in 2022, can I suggest — why not do it by embracing some legitimately useful, joy-sparking tools, none of which cost more than a few dollars?",
+  "text": "Title: Weddings in Georgia\n\nAbout ten minutes after my plane landed in Tbilisi, I had three weddings to go to. There was Wi-Fi in the airport, and as I stood in line at passport control I paged through two e-mails delivering the excited news that village weddings had been discovered, and that, in accordance with the old Georgian saying “A guest is a gift from God,” I was to be an honored visitor at each. Some of the Georgians I had reached out to before the trip had mentioned that it was actually sort of hard to go to Georgia and not find yourself invited to one wedding or another",
   "hiddenWords": [
     {
-      "word": "spoons",
+      "word": "plane",
       "difficulty": "Easy",
-      "related_words": [
-        "spatula"
-      ],
+      "related_words": [],
       "clues": [
         {
-          "clue": "Utensils that are often used to mix or serve food",
-          "type": "Indirect",
-          "points": 6
-        },
-        {
-          "clue": "Kitchen items used for eating or serving",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "Tableware used for eating",
+          "clue": "A mode of transport that flies",
           "type": "Straight",
           "points": 1
-        }
-      ]
-    },
-    {
-      "word": "spatula",
-      "difficulty": "Easy",
-      "related_words": [
-        "spoons"
-      ],
-      "clues": [
+        },
         {
-          "clue": "A flat tool used to flip or scrape food",
+          "clue": "Often has wings, but not the kind that flap",
           "type": "Indirect",
           "points": 5
         },
         {
-          "clue": "A kitchen item used for flipping or scraping",
+          "clue": "Common way to travel long distances quickly",
           "type": "Suggestive",
           "points": 3
-        },
-        {
-          "clue": "Flat kitchen tool",
-          "type": "Straight",
-          "points": 1
         }
       ]
     },
     {
-      "word": "handle",
+      "word": "village",
       "difficulty": "Intermediate",
-      "related_words": [],
+      "related_words": [
+        "guest",
+        "trip"
+      ],
       "clues": [
         {
-          "clue": "A part that's grasped, yet sometimes melted",
+          "clue": "A small group of houses and associated buildings",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "Where you might find a strong sense of community",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Not a city, but still a place people call home",
           "type": "Indirect",
           "points": 6
-        },
-        {
-          "clue": "It's often found at the end of a long, flat extension",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "A grip or holder",
-          "type": "Straight",
-          "points": 1
         }
       ]
     },
     {
-      "word": "kitchen",
+      "word": "guest",
       "difficulty": "Intermediate",
-      "related_words": [],
+      "related_words": [
+        "village",
+        "trip"
+      ],
       "clues": [
         {
-          "clue": "A room where meals are prepared, often with a sense of warmth and comfort",
-          "type": "Indirect",
-          "points": 6
-        },
-        {
-          "clue": "The room in a house where food is prepared",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "Room for food preparation",
+          "clue": "Someone who is invited to a wedding",
           "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "confidence",
-      "difficulty": "Intermediate",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "A feeling of self-assurance, often gained through experience or practice",
-          "type": "Indirect",
-          "points": 6
+          "points": 2
         },
         {
-          "clue": "A feeling of faith in one's abilities",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "Faith in one's abilities",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "pleasure",
-      "difficulty": "Intermediate",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "A feeling of enjoyment or satisfaction, often derived from a particular activity",
-          "type": "Indirect",
-          "points": 6
-        },
-        {
-          "clue": "A feeling of enjoyment or delight",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "A feeling of enjoyment",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "extravagant",
-      "difficulty": "Hard",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "A description of something that is excessively elaborate or expensive, often in a way that is considered wasteful or unnecessary",
-          "type": "Indirect",
-          "points": 7
-        },
-        {
-          "clue": "Something that is luxurious or overly elaborate",
+          "clue": "A person who is treated with hospitality",
           "type": "Suggestive",
           "points": 4
         },
         {
-          "clue": "Excessively elaborate or expensive",
-          "type": "Straight",
-          "points": 1
+          "clue": "According to an old saying, a gift from above",
+          "type": "Indirect",
+          "points": 6
         }
       ]
     },
     {
-      "word": "appliances",
-      "difficulty": "Hard",
-      "related_words": [],
+      "word": "trip",
+      "difficulty": "Easy",
+      "related_words": [
+        "village",
+        "guest"
+      ],
       "clues": [
         {
-          "clue": "Machines or devices that are designed to perform a specific function, often in a domestic setting",
-          "type": "Indirect",
-          "points": 7
-        },
-        {
-          "clue": "Machines that perform a specific function in the home",
-          "type": "Suggestive",
-          "points": 4
-        },
-        {
-          "clue": "Machines for domestic use",
+          "clue": "A journey or excursion",
           "type": "Straight",
           "points": 1
+        },
+        {
+          "clue": "Something you might plan for vacation",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Not just a fall, but a whole journey",
+          "type": "Indirect",
+          "points": 5
         }
       ]
     },
     {
-      "word": "unitaskers",
-      "difficulty": "Hard",
+      "word": "Wi-Fi",
+      "difficulty": "Easy",
       "related_words": [],
       "clues": [
         {
-          "clue": "Items that have only one specific use, often considered to be less versatile or less valuable than items with multiple uses",
-          "type": "Indirect",
-          "points": 7
-        },
-        {
-          "clue": "Items with only one specific use",
-          "type": "Suggestive",
-          "points": 4
-        },
-        {
-          "clue": "Items with a single function",
+          "clue": "A way to connect to the internet",
           "type": "Straight",
           "points": 1
+        },
+        {
+          "clue": "Often found in public places",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Not a type of coffee, but similar idea",
+          "type": "Indirect",
+          "points": 5
         }
       ]
     },
     {
-      "word": "resolutions",
-      "difficulty": "Hard",
+      "word": "airport",
+      "difficulty": "Intermediate",
       "related_words": [],
       "clues": [
         {
-          "clue": "Promises or decisions made to change or improve something, often at the start of a new year",
-          "type": "Indirect",
-          "points": 7
+          "clue": "Where you go to catch a flight",
+          "type": "Straight",
+          "points": 2
         },
         {
-          "clue": "Decisions to change or improve something",
+          "clue": "A place with security checks and gates",
           "type": "Suggestive",
           "points": 4
         },
         {
-          "clue": "Decisions to change",
+          "clue": "Not just a place to fly, but also to wait",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "word": "e-mails",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Electronic messages sent through the internet",
           "type": "Straight",
           "points": 1
+        },
+        {
+          "clue": "A common way to communicate with others",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Not letters, but still a way to send messages",
+          "type": "Indirect",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "word": "news",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Recently discovered information",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "Something you might find in a newspaper",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Not always good, but always current",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "word": "line",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A row of people waiting",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "Something you might wait in at the store",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Not just a shape, but a way to wait",
+          "type": "Indirect",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "word": "passport",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A document that proves your identity",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "Something you need to travel abroad",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Not just a book, but a key to travel",
+          "type": "Indirect",
+          "points": 6
         }
       ]
     }
   ],
-  "id": "ClueChain-2026-02-20"
+  "id": "ClueChain-2026-04-01"
 }

@@ -1,237 +1,237 @@
 {
-  "title": "Here Are Ghosts",
+  "title": "Holy Water (Esquire)",
   "date": "06-23",
-  "text": "Title: Here Are Ghosts\n\nIn the great cities we see so little of the world, we drift into our minority. In the little towns and villages there \nare no minorities; people are not numerous enough. You must see the world there, perforce. Every man is himself a class; \nevery hour carries its new challenge. When you pass the inn at the end of the village you leave your favorite whimsy behind you; \nfor you will meet no one who can share it. We listen to eloquent speaking, read books and write them, settle all the affairs of the universe. \nThe dumb village multitudes pass on unchanging; the feel of the spade in the hand is no different for all our talk: good seasons and bad \nfollow each other as of old. The dumb multitudes are no more concerned with us than is the old horse peering through the rusty gate of the village \npound. The ancient map-makers wrote across unexplored regions, “Here are lions.” Across the villages of fishermen and turners of the earth,\n so different are these from us, we can write but one line that is certain, “Here are ghosts.”\n W. B. Yeats, The Celtic Twilight: Faerie and Folklore",
+  "text": "Title: Holy Water (Esquire)\nUnder the whirling vortex of the Milky Way, billions and billions of tiny enzyme \nbombs blew up against our ship. We blasted back with a volley of photon torpedoes--\nshoom! shoom!--that wriggled away at hyperwarp speed. Or so it looked from the deck of \nthe electric boat silently carrying us out into Bioluminescent Bay. No doubt it was the \nconflict between the locals and the U. S. Navy here on Vieques that made me see explosions \nin the luminous suds of the boat's wake, and torpedoes in the spooked fish that shot away \nin eerie blue-green streaks.",
   "hiddenWords": [
     {
-      "word": "village",
-      "difficulty": "Easy",
-      "related_words": [
-        "towns",
-        "cities"
-      ],
-      "clues": [
-        {
-          "clue": "A place where everyone knows each other.",
-          "type": "Indirect",
-          "points": 5
-        },
-        {
-          "clue": "A small settlement, often in a rural area.",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "A small group of houses and associated buildings.",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "towns",
-      "difficulty": "Easy",
-      "related_words": [
-        "village",
-        "cities"
-      ],
-      "clues": [
-        {
-          "clue": "Places with more people than villages, but less than cities.",
-          "type": "Indirect",
-          "points": 5
-        },
-        {
-          "clue": "Small urban areas with a local government.",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "A populated area with fixed boundaries.",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "cities",
-      "difficulty": "Easy",
-      "related_words": [
-        "village",
-        "towns"
-      ],
-      "clues": [
-        {
-          "clue": "Bigger and more crowded than towns or villages.",
-          "type": "Indirect",
-          "points": 5
-        },
-        {
-          "clue": "Large human settlements with a high population density.",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "A large human settlement.",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "seasons",
-      "difficulty": "Intermediate",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "Periods of the year with distinct weather patterns.",
-          "type": "Indirect",
-          "points": 6
-        },
-        {
-          "clue": "Times of the year with characteristic activities or holidays.",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "A time of year characterized by specific weather or activities.",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "earth",
-      "difficulty": "Intermediate",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "The planet we live on, or the ground beneath our feet.",
-          "type": "Indirect",
-          "points": 6
-        },
-        {
-          "clue": "The physical land or soil.",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "The planet we inhabit.",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "multitudes",
+      "word": "vortex",
       "difficulty": "Hard",
-      "related_words": [],
+      "related_words": [
+        "ship",
+        "torpedoes"
+      ],
       "clues": [
         {
-          "clue": "Large groups of people, often faceless or anonymous.",
+          "clue": "A spinning mass that pulls everything in.",
           "type": "Indirect",
-          "points": 7
+          "points": 6
         },
         {
-          "clue": "A large, indefinite number of people.",
+          "clue": "A weather phenomenon characterized by a rotating air mass.",
           "type": "Suggestive",
           "points": 4
         },
         {
-          "clue": "A great number of people.",
+          "clue": "A whirlpool.",
           "type": "Straight",
-          "points": 1
+          "points": 2
         }
       ]
     },
     {
-      "word": "challenge",
+      "word": "enzyme",
       "difficulty": "Intermediate",
       "related_words": [],
       "clues": [
         {
-          "clue": "A difficult or demanding situation that requires effort to overcome.",
+          "clue": "A tiny factory that helps break down food.",
           "type": "Indirect",
-          "points": 6
+          "points": 5
         },
         {
-          "clue": "A test of one's abilities or strength.",
+          "clue": "A biological molecule that speeds up chemical reactions.",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "A difficult task or situation.",
+          "clue": "A protein that acts as a catalyst.",
           "type": "Straight",
           "points": 1
         }
       ]
     },
     {
-      "word": "minority",
+      "word": "ship",
+      "difficulty": "Easy",
+      "related_words": [
+        "vortex",
+        "torpedoes"
+      ],
+      "clues": [
+        {
+          "clue": "A large vessel that sails across the sea.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A mode of transportation used for travel or trade.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A boat.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "torpedoes",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "vortex",
+        "ship"
+      ],
+      "clues": [
+        {
+          "clue": "Explosive devices used in naval warfare.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Weapons that are self-propelled underwater.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Missiles that are launched from a submarine.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "photon",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A particle that has no mass but carries energy.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "A type of elementary particle.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A quantum of light.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "electric",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A type of energy that powers devices.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A form of energy that is used to power homes.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A type of power.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "bioluminescent",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Giving off light as a result of a chemical reaction.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A phenomenon where living organisms produce light.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Glowing with a natural light.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "conflict",
       "difficulty": "Intermediate",
       "related_words": [],
       "clues": [
         {
-          "clue": "A smaller group within a larger population, often with less power or influence.",
+          "clue": "A state of opposition or disagreement.",
           "type": "Indirect",
-          "points": 6
+          "points": 5
         },
         {
-          "clue": "A group that is smaller than the rest of the population.",
+          "clue": "A clash of interests or ideas.",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "The smaller part of a group or population.",
+          "clue": "A fight.",
           "type": "Straight",
           "points": 1
         }
       ]
     },
     {
-      "word": "eloquent",
-      "difficulty": "Hard",
+      "word": "locals",
+      "difficulty": "Easy",
       "related_words": [],
       "clues": [
         {
-          "clue": "Having a powerful and expressive way of speaking or writing.",
+          "clue": "People who live in a particular area.",
           "type": "Indirect",
-          "points": 7
+          "points": 5
         },
         {
-          "clue": "Fluent and persuasive in speech or writing.",
+          "clue": "Residents of a specific region.",
           "type": "Suggestive",
-          "points": 4
+          "points": 3
         },
         {
-          "clue": "Having a fluent quality.",
+          "clue": "Native people.",
           "type": "Straight",
           "points": 1
         }
       ]
     },
     {
-      "word": "ghosts",
-      "difficulty": "Hard",
+      "word": "navy",
+      "difficulty": "Intermediate",
       "related_words": [],
       "clues": [
         {
-          "clue": "Supernatural beings or spirits, often thought to haunt a place.",
+          "clue": "A branch of the military that operates at sea.",
           "type": "Indirect",
-          "points": 7
+          "points": 6
         },
         {
-          "clue": "The spirits of dead people, often believed to exist after death.",
+          "clue": "A group of ships that are used for defense.",
           "type": "Suggestive",
           "points": 4
         },
         {
-          "clue": "The spirit of a dead person.",
+          "clue": "A maritime force.",
           "type": "Straight",
-          "points": 1
+          "points": 2
         }
       ]
     }
   ],
-  "id": "ClueChain-2026-06-23"
+  "id": "ClueChain-2026-01-01"
 }
