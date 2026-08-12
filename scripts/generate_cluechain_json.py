@@ -30,6 +30,11 @@ except ImportError as e:
     print("Please install dependencies: uv pip install -r requirements.txt")
     sys.exit(1)
 
+try:
+    import spacy as _spacy
+except ImportError:
+    _spacy = None  # spaCy is optional but enables leak validation
+
 # ---------------------------------------------------------------------------
 # Backend helpers
 # ---------------------------------------------------------------------------
@@ -118,6 +123,8 @@ def log_generation_failure(date: str, title: str, reason_code: str,
 class ClueChainGenerator:
     """Generates ClueChain JSON files using Groq backend."""
 
+    _nlp = None  # lazy-loaded spaCy model (class-level, shared across instances)
+
     def __init__(self, groq_key: Optional[str] = None,
                  groq_key2: Optional[str] = None,
                  groq_key3: Optional[str] = None):
@@ -130,6 +137,20 @@ class ClueChainGenerator:
 
         if not groq_key:
             raise ValueError("GROQ_API_KEY required")
+
+    @classmethod
+    def _get_nlp(cls):
+        """Lazy-load spaCy model for leak validation."""
+        if cls._nlp is None:
+            if _spacy is None:
+                return None
+            try:
+                cls._nlp = _spacy.load("en_core_web_sm")
+            except OSError:
+                print("Warning: spaCy model not found. Skipping leak validation.")
+                print("  Install with: python -m spacy download en_core_web_sm")
+                return None
+        return cls._nlp
 
     def _client_and_model(self):
         return _make_groq_client(self._active_groq_key), GROQ_MODEL
@@ -159,12 +180,63 @@ class ClueChainGenerator:
     # ------------------------------------------------------------------
 
     def _title_word_violations(self, data: Dict, title: str) -> List[str]:
-        """Return hidden words that appear in the title."""
+        """Return hidden words that appear in the title (exact or stemming match)."""
         title_words = {w.lower() for w in re.findall(r"[a-zA-Z]+", title)}
-        return [
-            w["word"] for w in data.get("hiddenWords", [])
-            if w.get("word", "").lower() in title_words
-        ]
+        violations = []
+
+        nlp = self._get_nlp()
+
+        for w in data.get("hiddenWords", []):
+            hw = w.get("word", "").lower()
+            # Exact match
+            if hw in title_words:
+                violations.append(w["word"])
+                continue
+
+            # Stemming-aware match (requires spaCy)
+            if nlp and len(hw) >= 4:
+                try:
+                    from score_paragraphs import _get_lemma, _shared_prefix_len, _FALSE_PREFIX_ROOTS
+                    hw_lemma = _get_lemma(nlp, hw)
+                    for tw in title_words:
+                        if len(tw) < 4:
+                            continue
+                        tw_lemma = _get_lemma(nlp, tw)
+                        # Lemma match
+                        if hw_lemma == tw_lemma:
+                            violations.append(w["word"])
+                            break
+                        # Shared prefix of 5+ chars
+                        if len(hw) >= 5 and len(tw) >= 5:
+                            plen = _shared_prefix_len(hw, tw)
+                            if plen >= 5 and hw[:plen] not in _FALSE_PREFIX_ROOTS:
+                                violations.append(w["word"])
+                                break
+                except ImportError:
+                    pass  # score_paragraphs not available, skip stemming check
+
+        return violations
+
+    def _check_clue_leaks(self, data: Dict) -> List[str]:
+        """Check all clues for hidden word leaks. Returns list of leak descriptions."""
+        nlp = self._get_nlp()
+        if nlp is None:
+            return []  # Can't check without spaCy
+
+        try:
+            from score_paragraphs import _clue_word_leaks
+        except ImportError:
+            return []  # score_paragraphs not available
+
+        leaks = []
+        for hw in data.get("hiddenWords", []):
+            word = hw["word"]
+            for clue_obj in hw.get("clues", []):
+                clue_text = clue_obj.get("clue", "")
+                leaked = _clue_word_leaks(nlp, word, clue_text)
+                if leaked:
+                    leaks.append(f'"{word}" {clue_obj["type"]} clue has "{leaked}"')
+        return leaks
 
     def _validate_json(self, data: Dict) -> None:
         required_keys = {"title", "date", "text", "hiddenWords"}
@@ -295,6 +367,17 @@ class ClueChainGenerator:
                 last_error = attempt_error
                 log_generation_failure(date, title_text,
                                        _classify_gen_error(attempt_error),
+                                       attempt, _time.time() - attempt_start,
+                                       attempt_error)
+                continue
+
+            # Post-validation: check for clue leaks (spaCy-based)
+            clue_leak_issues = self._check_clue_leaks(result)
+            if clue_leak_issues:
+                attempt_error = f"Clue leaks detected: {clue_leak_issues}"
+                last_error = attempt_error
+                print(f"       ⚠️  {attempt_error} — retrying")
+                log_generation_failure(date, title_text, "CLUE_LEAK",
                                        attempt, _time.time() - attempt_start,
                                        attempt_error)
                 continue

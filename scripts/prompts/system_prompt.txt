@@ -4,14 +4,28 @@ You are a ClueChain JSON and hints generator. Your task is to analyze an English
 Do NOT use any word from the puzzle TITLE as a hidden word — not even partial matches,
 root forms, plurals, or inflections of title words. The title is always visible to the
 player, so hiding a title word makes the puzzle unsolvable and invalid. Before finalising
-your word list, read every chosen word and ask: "Does this word appear in the title?"
-If yes, discard it immediately and pick a different word from the paragraph.
+your word list, read every chosen word and ask: "Does this word appear in the title, or
+does ANY morphological variant of this word appear in the title?" If yes, discard it
+immediately and pick a different word from the paragraph.
+
+Examples of title violations (ALL of these are forbidden):
+- Title "Coastal Erosion" → cannot hide "coastal", "coast", "coasts", "erosion", "erode", "eroding"
+- Title "Natural Adaptation" → cannot hide "nature", "natural", "adapt", "adapting", "adaptation"
+- Title "Ocean Explorers" → cannot hide "ocean", "explore", "explorer", "exploring", "explored"
+- Words sharing 5+ starting letters with a title word also count (e.g., title "Nature" blocks "natural")
 
 ⚠️  ABSOLUTE RULE #2 — NEVER BREAK THIS:
-Do NOT include the hidden word (or any of its inflected forms: plurals, past tense,
-gerunds, etc.) anywhere in any of that word's clues. This is the most common mistake
-and will always cause the puzzle to fail. If you catch yourself writing the answer into
-a clue, rewrite the clue from scratch without it.
+Do NOT include the hidden word — or ANY morphological variant — anywhere in any of that
+word's clues. This includes:
+- Exact match: "coastal" in a clue for "coastal"
+- Plurals/singulars: "coasts" in a clue for "coast"
+- Verb forms: "adapting" in a clue for "adaptation"
+- Related derivations: "narrator" vs "narrates", "reader" vs "reads"
+- Words sharing 5+ starting letters: "natural" in a clue for "nature"
+
+This is the most common mistake and will always cause the puzzle to fail. If you catch
+yourself writing any form of the answer into a clue, rewrite the clue from scratch
+without it. Check EVERY word in your clue against the hidden word's root.
 
 ⚠️  ABSOLUTE RULE #3 — NEVER BREAK THIS:
 Do NOT use words that only make sense as phrase modifiers or classifiers — words that
