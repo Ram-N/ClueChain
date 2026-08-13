@@ -1,232 +1,237 @@
 {
-  "title": "List of conspiracy theories — Weather and earthquake control projects",
+  "title": "The Gadsden Region (Francisco Cantu)",
   "date": "05-04",
-  "text": "Title: List of conspiracy theories — Weather and earthquake control projects\nNumerous theories pertain to real or alleged weather-controlling projects. Theories include the debunked assertion that HAARP, a radio-technology research program funded by the US government, is a secret weather-controlling system. Some theorists have blamed 2005's Hurricane Katrina and 2024's Helene and Milton on HAARP. HAARP has also been suggested to have somehow caused earthquakes, such as the 2010 Haiti earthquake, the 2011 Tōhoku earthquake and tsunami, the 2013 Saravan earthquake or the 2023 Turkey–Syria earthquakes. Some HAARP-related claims refer to mind-control technology. Also, of interest to conspiracy theorists are cloud-seeding technologies. These include a debunked allegation that the British military's Project Cumulus caused the fatal 1952 Lynmouth Flood in Devon, England, California drought manipulation conspiracy theory, and claims concerning a secret project said to have caused the 2010 Pakistan floods.",
+  "text": "Title: The Gadsden Region (Francisco Cantu)\n\nLike much of the American West, the Gadsden region bears unmistakable scars of our nation’s drive for expansion and control. Today, it is dotted with ghost towns and gaping open-pit mines, its rivers are in various stages of death and diversion, and its land has been divided up according to innumerable private and public interests, forming a patchwork of national monuments and state parks, militarized borderlands and for-profit prisons, fiercely defended ranches and sovereign Indigenous nations.",
   "hiddenWords": [
     {
-      "word": "flood",
+      "word": "expansion",
       "difficulty": "Intermediate",
       "related_words": [],
       "clues": [
         {
-          "clue": "Deluge that devastates a town, perhaps caused by a breached dam or stormy skies",
+          "clue": "A process that changes the size of something",
           "type": "Indirect",
           "points": 6
         },
         {
-          "clue": "Disaster that can occur when excess water overflows into an area, often causing damage and destruction",
+          "clue": "Growth or increase in size, extent, or degree",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "Overflow of water that submerges land",
+          "clue": "The act of becoming larger",
           "type": "Straight",
           "points": 1
         }
       ]
     },
     {
-      "word": "debunked",
-      "difficulty": "Hard",
-      "related_words": [],
+      "word": "rivers",
+      "difficulty": "Easy",
+      "related_words": [
+        "diversion",
+        "land"
+      ],
       "clues": [
         {
-          "clue": "Proven to be false through careful examination",
-          "type": "Indirect",
-          "points": 7
-        },
-        {
-          "clue": "Discredited or disproven idea",
-          "type": "Suggestive",
-          "points": 4
-        },
-        {
-          "clue": "Officially declared to be false",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "alleged",
-      "difficulty": "Intermediate",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "Claimed, though not necessarily proven",
+          "clue": "Places where you might find a fish",
           "type": "Indirect",
           "points": 5
         },
         {
-          "clue": "Reported or asserted, but not verified",
+          "clue": "Natural flowing bodies of water",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "Stated or declared, possibly without proof",
+          "clue": "Bodies of water that flow into oceans",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "diversion",
+      "difficulty": "Hard",
+      "related_words": [
+        "rivers",
+        "land"
+      ],
+      "clues": [
+        {
+          "clue": "Something that takes your attention away from something else",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "The act of changing the course of something",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A change in direction or use",
           "type": "Straight",
           "points": 2
         }
       ]
     },
     {
-      "word": "radio",
+      "word": "land",
       "difficulty": "Easy",
-      "related_words": [],
+      "related_words": [
+        "rivers",
+        "diversion"
+      ],
       "clues": [
         {
-          "clue": "A way to send sound through the air without wires",
+          "clue": "The part of the Earth's surface that is not water",
           "type": "Indirect",
           "points": 5
         },
         {
-          "clue": "A common method for broadcasting music",
+          "clue": "A part of the Earth's surface",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "A device that sends and receives signals",
+          "clue": "The ground or soil",
           "type": "Straight",
           "points": 1
         }
       ]
     },
     {
-      "word": "funded",
+      "word": "monuments",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Structures that honor a person or event",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Objects or buildings that serve as reminders of the past",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Buildings or statues that commemorate something",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "parks",
       "difficulty": "Easy",
       "related_words": [],
       "clues": [
         {
-          "clue": "Provided with money for a specific purpose",
+          "clue": "Places where people go to relax or have fun",
           "type": "Indirect",
-          "points": 6
+          "points": 5
         },
         {
-          "clue": "Supported financially",
+          "clue": "Areas of land used for recreation or conservation",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "Given money for a project",
+          "clue": "Public areas for recreation",
           "type": "Straight",
           "points": 1
         }
       ]
     },
     {
-      "word": "secret",
+      "word": "prisons",
       "difficulty": "Intermediate",
       "related_words": [],
       "clues": [
         {
-          "clue": "Hidden from public knowledge or view",
+          "clue": "Places where people are kept as punishment",
           "type": "Indirect",
           "points": 6
         },
         {
-          "clue": "Not openly acknowledged or disclosed",
+          "clue": "Institutions that house people who have broken the law",
           "type": "Suggestive",
           "points": 4
         },
         {
-          "clue": "Kept hidden or confidential",
+          "clue": "Buildings where people are confined as punishment",
           "type": "Straight",
           "points": 2
         }
       ]
     },
     {
-      "word": "mind",
-      "difficulty": "Hard",
+      "word": "ranches",
+      "difficulty": "Easy",
       "related_words": [],
       "clues": [
         {
-          "clue": "The center of thought and consciousness",
+          "clue": "Large areas of land used for farming or raising animals",
           "type": "Indirect",
-          "points": 7
+          "points": 5
         },
         {
-          "clue": "The source of a person's thoughts and feelings",
+          "clue": "Large areas of land used for agriculture or livestock",
           "type": "Suggestive",
-          "points": 4
+          "points": 3
         },
         {
-          "clue": "The element of a person that thinks and reasons",
+          "clue": "Farms or areas where animals are raised",
           "type": "Straight",
           "points": 1
         }
       ]
     },
     {
-      "word": "technologies",
+      "word": "nations",
       "difficulty": "Intermediate",
-      "related_words": [
-        "technologists"
-      ],
+      "related_words": [],
       "clues": [
         {
-          "clue": "Methods and tools developed from scientific knowledge",
+          "clue": "Large groups of people who share a common culture or government",
           "type": "Indirect",
           "points": 6
         },
         {
-          "clue": "Advanced methods and tools for a particular field",
+          "clue": "Countries or states with their own governments",
           "type": "Suggestive",
           "points": 4
         },
         {
-          "clue": "Scientific methods and tools for practical use",
+          "clue": "Countries or states",
           "type": "Straight",
           "points": 2
         }
       ]
     },
     {
-      "word": "technologists",
-      "difficulty": "Hard",
-      "related_words": [
-        "technologies"
-      ],
-      "clues": [
-        {
-          "clue": "People who develop and apply scientific knowledge",
-          "type": "Indirect",
-          "points": 7
-        },
-        {
-          "clue": "Experts in the practical application of science",
-          "type": "Suggestive",
-          "points": 4
-        },
-        {
-          "clue": "Experts in applied sciences",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "manipulation",
+      "word": "control",
       "difficulty": "Hard",
       "related_words": [],
       "clues": [
         {
-          "clue": "Influencing something in a clever or dishonest way",
+          "clue": "The power to influence or direct something",
           "type": "Indirect",
           "points": 7
         },
         {
-          "clue": "The act of controlling or influencing something",
+          "clue": "The ability to regulate or command something",
           "type": "Suggestive",
           "points": 4
         },
         {
-          "clue": "The action of skillfully controlling or influencing",
+          "clue": "The power to direct or command",
           "type": "Straight",
-          "points": 1
+          "points": 2
         }
       ]
     }
   ],
-  "id": "ClueChain-2026-05-04"
+  "id": "ClueChain-2026-02-01"
 }

@@ -1,232 +1,237 @@
 {
-  "title": "Nelly Sachs — Overview",
+  "title": "The Border Wall is Rising Up (Francisco Cantu)",
   "date": "01-27",
-  "text": "Title: Nelly Sachs — Overview\n\nNelly Sachs (German pronunciation: [ˈnɛliː zaks] ; 10 December 1891 – 12 May 1970) was a German–Swedish poet and playwright. Her experiences resulting from the rise of the Nazis in World War II Europe transformed her into a poignant spokesperson for the grief and yearnings of her fellow Jews. Her best-known play is Eli: Ein Mysterienspiel vom Leiden Israels (1950) (lit: Eli: A Mystery Play of Israel's Suffering); other works include the poems \"Zeichen im Sand\" (1962), \"Verzauberung\" (1970), and the collections of poetry In den Wohnungen des Todes (1947), Flucht und Verwandlung (1959), Fahrt ins Staublose (1961), and Suche nach Lebenden (1971). She was awarded the 1966 Nobel Prize in Literature.",
+  "text": "Title: The Border Wall is Rising Up (Francisco Cantu)\n\nTUCSON, Arizona — My earliest childhood memories are of the wind sweeping across the deserts of West Texas, over the rolling hills and stone peaks of the Guadalupe Mountains National Park, where my mother worked as a ranger for the National Park Service. Her duties were not just to protect and preserve places of natural beauty but also to interpret their landscape to visitors through stories — stories she would share with me on a daily basis at home, on hikes, in the car, even weaving them into the songs she sang to me at bedtime.",
   "hiddenWords": [
     {
-      "word": "poet",
+      "word": "memories",
       "difficulty": "Easy",
       "related_words": [],
       "clues": [
         {
-          "clue": "A person who crafts verses with skill and artistry",
-          "type": "Indirect",
-          "points": 6
+          "clue": "What we recall from the past.",
+          "type": "Straight",
+          "points": 1
         },
         {
-          "clue": "Writes creative works in verse",
+          "clue": "Fond recollections of childhood.",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "A person who creates verse",
-          "type": "Straight",
-          "points": 1
+          "clue": "Echoes of love and laughter.",
+          "type": "Indirect",
+          "points": 5
         }
       ]
     },
     {
-      "word": "playwright",
+      "word": "ranger",
       "difficulty": "Intermediate",
-      "related_words": [],
+      "related_words": [
+        "park",
+        "service"
+      ],
       "clues": [
         {
-          "clue": "The creator of theatrical performances",
-          "type": "Indirect",
-          "points": 6
+          "clue": "A person who protects the environment.",
+          "type": "Straight",
+          "points": 2
         },
         {
-          "clue": "Writes scripts for theater",
+          "clue": "Someone who works in conservation.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A guardian of the wild.",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "word": "park",
+      "difficulty": "Easy",
+      "related_words": [
+        "ranger",
+        "service"
+      ],
+      "clues": [
+        {
+          "clue": "A green area for recreation.",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "A place for outdoor activities.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Nature's haven within the city.",
+          "type": "Indirect",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "word": "service",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "ranger",
+        "park"
+      ],
+      "clues": [
+        {
+          "clue": "An organization that helps the environment.",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "A group that preserves natural beauty.",
           "type": "Suggestive",
           "points": 4
         },
         {
-          "clue": "A writer of plays",
-          "type": "Straight",
-          "points": 1
+          "clue": "Dedicated to the conservation of our planet.",
+          "type": "Indirect",
+          "points": 6
         }
       ]
     },
     {
-      "word": "experiences",
-      "difficulty": "Intermediate",
+      "word": "deserts",
+      "difficulty": "Hard",
       "related_words": [],
       "clues": [
         {
-          "clue": "Events that shape a person's life",
-          "type": "Indirect",
-          "points": 5
-        },
-        {
-          "clue": "Things that happen to someone",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "Personal events or happenings",
+          "clue": "Arid lands that stretch far and wide.",
           "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "grief",
-      "difficulty": "Hard",
-      "related_words": [
-        "yearnings"
-      ],
-      "clues": [
+          "points": 2
+        },
         {
-          "clue": "A feeling that weighs heavily on the heart",
+          "clue": "Regions of extreme heat and dryness.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Barren landscapes that hold secrets of the past.",
           "type": "Indirect",
           "points": 7
-        },
-        {
-          "clue": "A feeling of deep sorrow",
-          "type": "Suggestive",
-          "points": 4
-        },
-        {
-          "clue": "Intense sorrow",
-          "type": "Straight",
-          "points": 1
         }
       ]
     },
     {
-      "word": "yearnings",
-      "difficulty": "Hard",
-      "related_words": [
-        "grief"
-      ],
-      "clues": [
-        {
-          "clue": "Longings that cannot be fulfilled",
-          "type": "Indirect",
-          "points": 6
-        },
-        {
-          "clue": "Deeply felt desires",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "Strong desires",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "mystery",
-      "difficulty": "Intermediate",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "Something that is difficult to understand",
-          "type": "Indirect",
-          "points": 5
-        },
-        {
-          "clue": "A puzzle or enigma",
-          "type": "Suggestive",
-          "points": 4
-        },
-        {
-          "clue": "A secret or enigma",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "suffering",
-      "difficulty": "Hard",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "Pain that is hard to bear",
-          "type": "Indirect",
-          "points": 6
-        },
-        {
-          "clue": "A state of undergoing pain or hardship",
-          "type": "Suggestive",
-          "points": 4
-        },
-        {
-          "clue": "Pain or distress",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "collections",
+      "word": "hills",
       "difficulty": "Easy",
       "related_words": [],
       "clues": [
         {
-          "clue": "Gathered items",
-          "type": "Indirect",
-          "points": 5
+          "clue": "Gentle slopes in the countryside.",
+          "type": "Straight",
+          "points": 1
         },
         {
-          "clue": "Groups of items gathered together",
+          "clue": "Rolling landscapes that evoke serenity.",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "Sets of items",
-          "type": "Straight",
-          "points": 1
+          "clue": "Nature's own work of art.",
+          "type": "Indirect",
+          "points": 5
         }
       ]
     },
     {
-      "word": "literature",
+      "word": "peaks",
       "difficulty": "Intermediate",
       "related_words": [],
       "clues": [
         {
-          "clue": "Written works of art",
-          "type": "Indirect",
-          "points": 6
-        },
-        {
-          "clue": "Written works, especially those considered to be of high quality",
-          "type": "Suggestive",
-          "points": 4
-        },
-        {
-          "clue": "Written works, such as novels and poems",
+          "clue": "The highest points of mountains.",
           "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "prize",
-      "difficulty": "Easy",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "A reward for achievement",
-          "type": "Indirect",
-          "points": 5
+          "points": 2
         },
         {
-          "clue": "An award given for outstanding work",
+          "clue": "Summits that touch the sky.",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "An award or reward",
+          "clue": "Challenging climbs for the brave.",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "word": "stories",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Tales that are told and retold.",
           "type": "Straight",
           "points": 1
+        },
+        {
+          "clue": "Narratives that capture our imagination.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The threads that weave our heritage.",
+          "type": "Indirect",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "word": "basis",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A foundation or starting point.",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "The underlying principle of something.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "The root from which everything grows.",
+          "type": "Indirect",
+          "points": 7
+        }
+      ]
+    },
+    {
+      "word": "bedtime",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The time to go to sleep.",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "A moment for rest and dreams.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "When the day's journey comes to an end.",
+          "type": "Indirect",
+          "points": 6
         }
       ]
     }
   ],
-  "id": "ClueChain-2026-01-27"
+  "id": "ClueChain-2026-05-01"
 }

@@ -1,237 +1,237 @@
 {
-  "title": "Knowledge base — Properties",
+  "title": "Manifest Destiny (Francisco Cantu)",
   "date": "03-02",
-  "text": "The term knowledge base was coined to distinguish this form of knowledge store from the more common and widely used term database. During the 1970s, virtually all large management information systems stored their data in some type of hierarchical or relational database. At this point in the history of information technology, the distinction between a database and a knowledge-base was clear and unambiguous. A database had the following properties:",
+  "text": "Title: Manifest Destiny (Francisco Cantu)\n\nNowhere is this more apparent than in his depiction of the Oklahoma land run—the iconic scene of mounted pilgrims stampeding across an open prairie, staking flags to claim their own hundred-and-sixty-acre parcels, freshly prepared for the taking by the U.S. Land Office. The moment is eminently cinematic, and has been portrayed in monuments, novels, and films, including Ron Howard’s 1992 epic, “Far and Away,” in which Tom Cruise holds a black claim flag up to the sky and cries out, “This land is mine! Mine by destiny!,” before being crushed by a falling horse and dying in the arms of Nicole Kidman.",
   "hiddenWords": [
     {
-      "word": "term",
-      "difficulty": "Easy",
-      "related_words": [],
+      "word": "pilgrims",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "prairie",
+        "monuments"
+      ],
       "clues": [
         {
-          "clue": "A word or phrase with a specific meaning",
+          "clue": "Travelers on a journey to a sacred place",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "People who undertake a long journey for religious reasons",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Worshipers on a journey",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "prairie",
+      "difficulty": "Easy",
+      "related_words": [
+        "pilgrims",
+        "monuments"
+      ],
+      "clues": [
+        {
+          "clue": "A vast, open area of grassland",
           "type": "Indirect",
           "points": 5
         },
         {
-          "clue": "Used to express a concept or idea",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "A word or expression",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "hierarchical",
-      "difficulty": "Hard",
-      "related_words": [
-        "relational",
-        "database"
-      ],
-      "clues": [
-        {
-          "clue": "Organized in a tree-like structure",
-          "type": "Indirect",
-          "points": 6
-        },
-        {
-          "clue": "A system with ranked or graded elements",
+          "clue": "Typical landscape of the American Midwest",
           "type": "Suggestive",
           "points": 4
         },
         {
-          "clue": "A type of database organization",
+          "clue": "Grassland with few trees",
           "type": "Straight",
           "points": 1
         }
       ]
     },
     {
-      "word": "relational",
+      "word": "monuments",
       "difficulty": "Intermediate",
       "related_words": [
-        "hierarchical",
-        "database"
+        "pilgrims",
+        "prairie"
       ],
       "clues": [
         {
-          "clue": "Describing a connection between things",
+          "clue": "Structures that commemorate important events or people",
           "type": "Indirect",
           "points": 6
         },
         {
-          "clue": "A type of database that stores data in tables",
+          "clue": "Symbols of historical significance",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "A type of database model",
+          "clue": "Statues or buildings that honor someone or something",
           "type": "Straight",
-          "points": 1
+          "points": 2
         }
       ]
     },
     {
-      "word": "database",
-      "difficulty": "Easy",
-      "related_words": [
-        "hierarchical",
-        "relational"
-      ],
-      "clues": [
-        {
-          "clue": "A collection of organized data",
-          "type": "Indirect",
-          "points": 5
-        },
-        {
-          "clue": "A system for storing and managing data",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "A repository of data",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "management",
-      "difficulty": "Intermediate",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "The act of supervising or controlling",
-          "type": "Indirect",
-          "points": 6
-        },
-        {
-          "clue": "The process of organizing and directing resources",
-          "type": "Suggestive",
-          "points": 4
-        },
-        {
-          "clue": "Administration or direction of resources",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "information",
-      "difficulty": "Easy",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "Knowledge or facts about something",
-          "type": "Indirect",
-          "points": 5
-        },
-        {
-          "clue": "Data or knowledge that is useful or interesting",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "Facts or knowledge",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "technology",
-      "difficulty": "Intermediate",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "The application of scientific knowledge",
-          "type": "Indirect",
-          "points": 6
-        },
-        {
-          "clue": "The use of scientific knowledge for practical purposes",
-          "type": "Suggestive",
-          "points": 4
-        },
-        {
-          "clue": "The use of science and engineering to solve problems",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "distinction",
+      "word": "cinematic",
       "difficulty": "Hard",
       "related_words": [],
       "clues": [
         {
-          "clue": "A difference or contrast between things",
+          "clue": "Like a movie, with a strong visual impact",
           "type": "Indirect",
           "points": 7
         },
         {
-          "clue": "The act of recognizing or establishing a difference",
+          "clue": "Relating to the art of filmmaking",
           "type": "Suggestive",
           "points": 4
         },
         {
-          "clue": "A difference or contrast",
+          "clue": "Pertaining to movies",
           "type": "Straight",
           "points": 1
         }
       ]
     },
     {
-      "word": "coined",
-      "difficulty": "Hard",
+      "word": "novels",
+      "difficulty": "Easy",
       "related_words": [],
       "clues": [
         {
-          "clue": "To create or invent a new word or phrase",
+          "clue": "Books with fictional stories",
           "type": "Indirect",
-          "points": 7
+          "points": 5
         },
         {
-          "clue": "To create a new term or expression",
+          "clue": "Long, written stories about imaginary events",
           "type": "Suggestive",
-          "points": 4
+          "points": 3
         },
         {
-          "clue": "To invent a new word",
+          "clue": "Fiction books",
           "type": "Straight",
-          "points": 1
+          "points": 2
         }
       ]
     },
     {
-      "word": "virtually",
+      "word": "epic",
       "difficulty": "Intermediate",
       "related_words": [],
       "clues": [
         {
-          "clue": "Almost or nearly completely",
+          "clue": "A long, heroic story or poem",
           "type": "Indirect",
           "points": 6
         },
         {
-          "clue": "In a way that is very close to being complete",
+          "clue": "A grand, dramatic story or film",
           "type": "Suggestive",
           "points": 4
         },
         {
-          "clue": "Almost or nearly",
+          "clue": "A long, exciting story",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "iconic",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A symbol or image that represents something",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Famous or well-known, often used as a symbol",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Very well-known and widely recognized",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "parcels",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Small pieces of land",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Areas of land that are divided and sold",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Pieces of land that are owned or sold",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "office",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A room or building where people work",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A place where business is conducted",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A workplace",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "moment",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A brief period of time",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A short, significant period of time",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A brief instant",
           "type": "Straight",
           "points": 1
         }
       ]
     }
   ],
-  "id": "ClueChain-2026-03-02"
+  "id": "ClueChain-2026-04-01"
 }

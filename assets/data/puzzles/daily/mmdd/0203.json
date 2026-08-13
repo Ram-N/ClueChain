@@ -1,228 +1,241 @@
 {
-  "title": "Science fiction noir",
+  "title": "The Hunger for Land (Francisco Cantu)",
   "date": "02-03",
-  "text": "Title: Science fiction noir\n\nBeginning in the 1960s, the most significant trend in film noir crossovers or hybrids has involved science fiction. In Jean-Luc Godard's\n Alphaville (1965), Lemmy Caution is the name of the old-school private eye in the city of tomorrow. The Groundstar Conspiracy (1972) centers\non another implacable investigator and an amnesiac named Welles. Soylent Green (1973), the first major American example, portrays a dystopian, \nnear-future world via a self-evidently noir detection plot; starring Charlton Heston (the lead in Touch of Evil), it also features classic noir \nstandbys Joseph Cotten, Edward G. Robinson, and Whit Bissell.",
+  "text": "Title: The Hunger for Land (Francisco Cantu)\n\nhe final piece of terrain to be incorporated into the contiguous United States was an oddly \nshaped strip stretching from Las Cruces, New Mexico, to Yuma, Arizona. Known as the Gadsden \nPurchase, the area was obtained from Mexico in 1854 for ten million dollars, adding nearly \nthirty thousand square miles to a nation still drunk with Manifest Destiny expansionism. The \nmotivations for acquiring the land were many—it contained huge deposits of ore and precious \nmetals, held vast agricultural potential in the soils of its fertile river valleys, and, \nmost important, had an arid climate that could allow a rail route to connect the coasts \nwhile remaining free from snowpack year-round.",
   "hiddenWords": [
     {
-      "word": "significant",
-      "difficulty": "Intermediate",
-      "related_words": [],
+      "word": "terrain",
+      "difficulty": "Easy",
+      "related_words": [
+        "valleys",
+        "climate"
+      ],
       "clues": [
         {
-          "clue": "What's the meaning when something truly matters?",
+          "clue": "A region's lay of the ground",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "Features that shape a landscape",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "What a map tries to model",
+          "type": "Indirect",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "word": "valleys",
+      "difficulty": "Easy",
+      "related_words": [
+        "terrain",
+        "climate"
+      ],
+      "clues": [
+        {
+          "clue": "Low areas between hills",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "Fertile regions often found near rivers",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Nature's own amphitheaters",
+          "type": "Indirect",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "word": "climate",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "terrain",
+        "valleys"
+      ],
+      "clues": [
+        {
+          "clue": "Weather patterns over time",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "A region's average atmospheric condition",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "What makes a place feel like home or not",
           "type": "Indirect",
           "points": 6
-        },
-        {
-          "clue": "This adjective describes something of great consequence or import.",
-          "type": "Suggestive",
-          "points": 4
-        },
-        {
-          "clue": "Important; noteworthy.",
-          "type": "Straight",
-          "points": 1
         }
       ]
     },
     {
-      "word": "trend",
-      "difficulty": "Easy",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "The current popular style or direction.",
-          "type": "Indirect",
-          "points": 5
-        },
-        {
-          "clue": "It's what the cool kids are doing.",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "A general direction in which something is developing or changing.",
-          "type": "Straight",
-          "points": 2
-        }
-      ]
-    },
-    {
-      "word": "hybrids",
-      "difficulty": "Intermediate",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "What do you call a lion and a tiger's offspring?",
-          "type": "Indirect",
-          "points": 7
-        },
-        {
-          "clue": "Often seen in botany, but also applicable to cinema.",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "A cross between two different things, often used in biology.",
-          "type": "Straight",
-          "points": 2
-        }
-      ]
-    },
-    {
-      "word": "involved",
-      "difficulty": "Easy",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "It can mean 'to take part in' or 'to affect'.",
-          "type": "Indirect",
-          "points": 5
-        },
-        {
-          "clue": "When you're 'in' something, you're this.",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "Included or connected.",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "tomorrow",
-      "difficulty": "Easy",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "If today is Tuesday, that would be Wednesday.",
-          "type": "Indirect",
-          "points": 5
-        },
-        {
-          "clue": "What one hopes for with a new day.",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "The day after today.",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "centers",
-      "difficulty": "Easy",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "Where the action is, the heart of the matter.",
-          "type": "Indirect",
-          "points": 5
-        },
-        {
-          "clue": "It is the main focus of a story.",
-          "type": "Suggestive",
-          "points": 4
-        },
-        {
-          "clue": "Focuses on; is based on.",
-          "type": "Straight",
-          "points": 2
-        }
-      ]
-    },
-    {
-      "word": "implacable",
+      "word": "expansionism",
       "difficulty": "Hard",
       "related_words": [],
       "clues": [
         {
-          "clue": "The opposite of forgiving; a hard heart.",
+          "clue": "A policy of extending a nation's power",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "A drive to increase territory or influence",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "When ambition knows no borders",
           "type": "Indirect",
           "points": 7
-        },
-        {
-          "clue": "This describes a character who will not be swayed.",
-          "type": "Suggestive",
-          "points": 4
-        },
-        {
-          "clue": "Unappeasable; relentless.",
-          "type": "Straight",
-          "points": 1
         }
       ]
     },
     {
-      "word": "amnesiac",
-      "difficulty": "Hard",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "They can't recall yesterday, or perhaps even this morning.",
-          "type": "Indirect",
-          "points": 6
-        },
-        {
-          "clue": "Suffering from memory loss.",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "A person who has forgotten their past",
-          "type": "Straight",
-          "points": 2
-        }
-      ]
-    },
-    {
-      "word": "dystopian",
+      "word": "ore",
       "difficulty": "Intermediate",
       "related_words": [],
       "clues": [
         {
-          "clue": "The opposite of utopia.",
+          "clue": "A mineral from which metal can be extracted",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "A valuable resource often mined",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The heart of a mountain's treasure",
           "type": "Indirect",
           "points": 5
-        },
-        {
-          "clue": "A society characterized by human misery, as squalor, oppression, disease, and overcrowding.",
-          "type": "Suggestive",
-          "points": 4
-        },
-        {
-          "clue": "Relating to or denoting an imagined place or state in which everything is unpleasant or bad, typically a totalitarian or environmentally degraded one.",
-          "type": "Straight",
-          "points": 2
         }
       ]
     },
     {
-      "word": "detection",
-      "difficulty": "Intermediate",
-      "related_words": [],
+      "word": "metals",
+      "difficulty": "Easy",
+      "related_words": [
+        "ore"
+      ],
       "clues": [
         {
-          "clue": "The process of identifying or discovering something.",
-          "type": "Indirect",
-          "points": 6
+          "clue": "Elements that are typically hard and shiny",
+          "type": "Straight",
+          "points": 1
         },
         {
-          "clue": "Process used to uncover hidden truths or solve mysteries",
+          "clue": "Materials used in a wide range of applications",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "The act of discovering something not easily noticed.",
+          "clue": "The building blocks of industry",
+          "type": "Indirect",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "word": "agricultural",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Relating to the production of food",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "Concerned with farming and livestock",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Where the earth meets our plates",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "word": "soils",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The upper layer of earth",
           "type": "Straight",
           "points": 1
+        },
+        {
+          "clue": "A medium for plant growth",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The foundation of our ecosystem",
+          "type": "Indirect",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "word": "fertile",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "valleys"
+      ],
+      "clues": [
+        {
+          "clue": "Capable of producing a large amount of crops",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "Rich in nutrients, ideal for growth",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Nature's own garden of plenty",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "word": "coasts",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The edges of a sea or ocean",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "Regions where land meets the sea",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The boundaries of our world's great waters",
+          "type": "Indirect",
+          "points": 5
         }
       ]
     }
   ],
-  "id": "ClueChain-2026-02-03"
+  "id": "ClueChain-2026-01-01"
 }

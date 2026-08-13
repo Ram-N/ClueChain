@@ -1,0 +1,232 @@
+{
+  "title": "Nelly Sachs — Overview",
+  "date": "01-27",
+  "text": "Title: Nelly Sachs — Overview\n\nNelly Sachs (German pronunciation: [ˈnɛliː zaks] ; 10 December 1891 – 12 May 1970) was a German–Swedish poet and playwright. Her experiences resulting from the rise of the Nazis in World War II Europe transformed her into a poignant spokesperson for the grief and yearnings of her fellow Jews. Her best-known play is Eli: Ein Mysterienspiel vom Leiden Israels (1950) (lit: Eli: A Mystery Play of Israel's Suffering); other works include the poems \"Zeichen im Sand\" (1962), \"Verzauberung\" (1970), and the collections of poetry In den Wohnungen des Todes (1947), Flucht und Verwandlung (1959), Fahrt ins Staublose (1961), and Suche nach Lebenden (1971). She was awarded the 1966 Nobel Prize in Literature.",
+  "hiddenWords": [
+    {
+      "word": "poet",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A person who crafts verses with skill and artistry",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Writes creative works in verse",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A person who creates verse",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "playwright",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The creator of theatrical performances",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Writes scripts for theater",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A writer of plays",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "experiences",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Events that shape a person's life",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Things that happen to someone",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Personal events or happenings",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "grief",
+      "difficulty": "Hard",
+      "related_words": [
+        "yearnings"
+      ],
+      "clues": [
+        {
+          "clue": "A feeling that weighs heavily on the heart",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "A feeling of deep sorrow",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Intense sorrow",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "yearnings",
+      "difficulty": "Hard",
+      "related_words": [
+        "grief"
+      ],
+      "clues": [
+        {
+          "clue": "Longings that cannot be fulfilled",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Deeply felt desires",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Strong desires",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "mystery",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Something that is difficult to understand",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A puzzle or enigma",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A secret or enigma",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "suffering",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Pain that is hard to bear",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A state of undergoing pain or hardship",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Pain or distress",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "collections",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Gathered items",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Groups of items gathered together",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Sets of items",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "literature",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Written works of art",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Written works, especially those considered to be of high quality",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Written works, such as novels and poems",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "prize",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A reward for achievement",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "An award given for outstanding work",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "An award or reward",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-01-27"
+}

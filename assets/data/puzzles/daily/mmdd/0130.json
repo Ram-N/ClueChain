@@ -1,237 +1,241 @@
 {
-  "title": "Miracle on Ice — Popular culture",
+  "title": "The Partition of India (Francisco Cantu)",
   "date": "01-30",
-  "text": "Title: Miracle on Ice — Popular culture\n\nMiracle on Ice, a made-for-TV movie starring Karl Malden as Brooks, Steve Guttenberg as Craig, Peter Horton as O'Callahan, and Andrew Stevens as Eruzione aired on ABC television in 1981. It incorporated actual game footage and original commentary from the 1980 Winter Games. In 2004, Walt Disney Pictures released the film Miracle, directed by Gavin O'Connor and starring Kurt Russell as Brooks. Al Michaels recreated his commentary for most of the games. The final ten seconds and his \"Do you believe in miracles? YES!\" call were from the original broadcast and used in the film since the filmmakers felt that they could not ask him to recreate the emotion he felt at that moment. The film was dedicated to Brooks, who died shortly after principal photography completed. Various documentary films have been produced about the Miracle on Ice and its lasting impact:",
+  "text": "Title: The Partition of India (Francisco Cantu)\n\nBritain’s postwar partition of India, completed in a mere handful of weeks during the summer of 1947 by Sir Cyril Radcliffe—a London lawyer who had never before been to India—from a dining-room table in Simla, British India’s “summer capital,” nestled in the foothills of the Himalayas. Radcliffe’s “bloody line” precipitated widespread exodus and carnage among Hindus, Sikhs, and Muslims and left a bewildering jumble of enclaves and exclaves on either side, islands within islands, where tens of thousands found themselves marooned in nations not their own. This, Winchester writes, is “land demarcation made insane,” the inevitable consequence of borders concocted by foreign minds.",
   "hiddenWords": [
     {
-      "word": "filmmakers",
-      "difficulty": "Intermediate",
+      "word": "summer",
+      "difficulty": "Easy",
       "related_words": [],
       "clues": [
         {
-          "clue": "They bring stories to life on the big screen, often using creativity and vision.",
-          "type": "Indirect",
-          "points": 6
+          "clue": "Time for vacation",
+          "type": "Straight",
+          "points": 1
         },
         {
-          "clue": "People who make movies, often working behind the scenes.",
+          "clue": "Season of warmth",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "Movie producers or directors.",
-          "type": "Straight",
-          "points": 1
+          "clue": "When school's out, fun's in",
+          "type": "Indirect",
+          "points": 5
         }
       ]
     },
     {
-      "word": "commentary",
-      "difficulty": "Easy",
+      "word": "Hindus",
+      "difficulty": "Intermediate",
       "related_words": [
-        "broadcast",
-        "games"
+        "Sikhs",
+        "Muslims"
       ],
       "clues": [
         {
-          "clue": "A sports event often features this to enhance the viewer experience.",
-          "type": "Indirect",
-          "points": 5
-        },
-        {
-          "clue": "Description or explanation of an event, often provided by an expert.",
+          "clue": "Majority in a certain nation",
           "type": "Suggestive",
           "points": 4
         },
         {
-          "clue": "Analysis or discussion of something, like a game.",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "broadcast",
-      "difficulty": "Intermediate",
-      "related_words": [
-        "commentary",
-        "games"
-      ],
-      "clues": [
-        {
-          "clue": "A television show is sent out to many people at the same time through this.",
-          "type": "Indirect",
-          "points": 6
-        },
-        {
-          "clue": "Transmission of a program for public reception.",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "Sending out a signal for others to receive.",
+          "clue": "Followers of a specific faith",
           "type": "Straight",
           "points": 2
+        },
+        {
+          "clue": "People with a distinctive cultural identity",
+          "type": "Indirect",
+          "points": 6
         }
       ]
     },
     {
-      "word": "games",
-      "difficulty": "Easy",
+      "word": "Sikhs",
+      "difficulty": "Intermediate",
       "related_words": [
-        "commentary",
-        "broadcast"
+        "Hindus",
+        "Muslims"
       ],
       "clues": [
         {
-          "clue": "Competitions where people play by rules, often for fun.",
-          "type": "Indirect",
-          "points": 5
-        },
-        {
-          "clue": "Activities or contests with rules, often played for enjoyment.",
+          "clue": "Turban-wearing community",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "Contests with rules and winners.",
+          "clue": "A specific ethnic group",
           "type": "Straight",
           "points": 1
+        },
+        {
+          "clue": "People with a unique spiritual practice",
+          "type": "Indirect",
+          "points": 5
         }
       ]
     },
     {
-      "word": "photography",
+      "word": "Muslims",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "Hindus",
+        "Sikhs"
+      ],
+      "clues": [
+        {
+          "clue": "Adherents of a major world religion",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "People with a rich cultural heritage",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A community with diverse traditions",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "word": "exodus",
       "difficulty": "Hard",
       "related_words": [],
       "clues": [
         {
-          "clue": "Capturing life's moments, one frame at a time, requires great skill and patience.",
+          "clue": "Mass migration of people",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "A significant event in history",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "When a large group leaves a place",
           "type": "Indirect",
           "points": 7
-        },
-        {
-          "clue": "The art of taking pictures, often requiring technical knowledge.",
-          "type": "Suggestive",
-          "points": 4
-        },
-        {
-          "clue": "Taking pictures with a camera.",
-          "type": "Straight",
-          "points": 1
         }
       ]
     },
     {
-      "word": "dedicated",
-      "difficulty": "Intermediate",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "A person fully committed to a cause might be described as this.",
-          "type": "Indirect",
-          "points": 6
-        },
-        {
-          "clue": "Completely giving time or effort to something.",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "Committed or devoted to something.",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "principal",
+      "word": "carnage",
       "difficulty": "Hard",
       "related_words": [],
       "clues": [
         {
-          "clue": "The main person in charge, like a head of a school, or the most important part of something.",
+          "clue": "Scene of utter devastation",
           "type": "Indirect",
           "points": 6
         },
         {
-          "clue": "Most important or main, often referring to a person or thing.",
+          "clue": "Result of intense violence",
           "type": "Suggestive",
           "points": 4
         },
         {
-          "clue": "Main or first in order of importance.",
+          "clue": "Bloodshed and destruction",
           "type": "Straight",
           "points": 2
         }
       ]
     },
     {
-      "word": "documentary",
-      "difficulty": "Intermediate",
-      "related_words": [],
+      "word": "enclaves",
+      "difficulty": "Hard",
+      "related_words": [
+        "exclaves"
+      ],
       "clues": [
         {
-          "clue": "A film that tells a true story, often with a serious tone, can be described as this.",
-          "type": "Indirect",
-          "points": 6
-        },
-        {
-          "clue": "A movie that shows real people and events, aiming to inform or educate.",
+          "clue": "Islands within a larger territory",
           "type": "Suggestive",
-          "points": 3
+          "points": 4
         },
         {
-          "clue": "A non-fiction film.",
+          "clue": "Small areas surrounded by another country",
           "type": "Straight",
           "points": 1
+        },
+        {
+          "clue": "Pockets of land with unique status",
+          "type": "Indirect",
+          "points": 7
         }
       ]
     },
     {
-      "word": "starring",
+      "word": "exclaves",
+      "difficulty": "Hard",
+      "related_words": [
+        "enclaves"
+      ],
+      "clues": [
+        {
+          "clue": "Territorial anomalies",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Discrete areas within another country",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Separate territories with special status",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "demarcation",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The act of setting boundaries",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "Marking the limits of an area",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "When lines are drawn in the sand",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "word": "foreign",
       "difficulty": "Easy",
       "related_words": [],
       "clues": [
         {
-          "clue": "Having a main role in a movie or play.",
+          "clue": "Not from around here",
           "type": "Indirect",
           "points": 5
         },
         {
-          "clue": "Featuring a particular actor in a main role.",
+          "clue": "Originating from another country",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "Having a leading actor.",
+          "clue": "From a different land",
           "type": "Straight",
           "points": 1
-        }
-      ]
-    },
-    {
-      "word": "various",
-      "difficulty": "Hard",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "A collection of different things can be described as this, showing diversity.",
-          "type": "Indirect",
-          "points": 7
-        },
-        {
-          "clue": "More than one kind or type, often showing a range of things.",
-          "type": "Suggestive",
-          "points": 4
-        },
-        {
-          "clue": "Different or diverse.",
-          "type": "Straight",
-          "points": 2
         }
       ]
     }
   ],
-  "id": "ClueChain-2026-01-30"
+  "id": "ClueChain-2026-03-01"
 }

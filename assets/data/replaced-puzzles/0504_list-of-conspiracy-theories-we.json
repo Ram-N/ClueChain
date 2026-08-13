@@ -1,0 +1,232 @@
+{
+  "title": "List of conspiracy theories — Weather and earthquake control projects",
+  "date": "05-04",
+  "text": "Title: List of conspiracy theories — Weather and earthquake control projects\nNumerous theories pertain to real or alleged weather-controlling projects. Theories include the debunked assertion that HAARP, a radio-technology research program funded by the US government, is a secret weather-controlling system. Some theorists have blamed 2005's Hurricane Katrina and 2024's Helene and Milton on HAARP. HAARP has also been suggested to have somehow caused earthquakes, such as the 2010 Haiti earthquake, the 2011 Tōhoku earthquake and tsunami, the 2013 Saravan earthquake or the 2023 Turkey–Syria earthquakes. Some HAARP-related claims refer to mind-control technology. Also, of interest to conspiracy theorists are cloud-seeding technologies. These include a debunked allegation that the British military's Project Cumulus caused the fatal 1952 Lynmouth Flood in Devon, England, California drought manipulation conspiracy theory, and claims concerning a secret project said to have caused the 2010 Pakistan floods.",
+  "hiddenWords": [
+    {
+      "word": "flood",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Deluge that devastates a town, perhaps caused by a breached dam or stormy skies",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Disaster that can occur when excess water overflows into an area, often causing damage and destruction",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Overflow of water that submerges land",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "debunked",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Proven to be false through careful examination",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Discredited or disproven idea",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Officially declared to be false",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "alleged",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Claimed, though not necessarily proven",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Reported or asserted, but not verified",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Stated or declared, possibly without proof",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "radio",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A way to send sound through the air without wires",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A common method for broadcasting music",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A device that sends and receives signals",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "funded",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Provided with money for a specific purpose",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Supported financially",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Given money for a project",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "secret",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Hidden from public knowledge or view",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Not openly acknowledged or disclosed",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Kept hidden or confidential",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "mind",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The center of thought and consciousness",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "The source of a person's thoughts and feelings",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "The element of a person that thinks and reasons",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "technologies",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "technologists"
+      ],
+      "clues": [
+        {
+          "clue": "Methods and tools developed from scientific knowledge",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Advanced methods and tools for a particular field",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Scientific methods and tools for practical use",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "technologists",
+      "difficulty": "Hard",
+      "related_words": [
+        "technologies"
+      ],
+      "clues": [
+        {
+          "clue": "People who develop and apply scientific knowledge",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Experts in the practical application of science",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Experts in applied sciences",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "manipulation",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Influencing something in a clever or dishonest way",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "The act of controlling or influencing something",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "The action of skillfully controlling or influencing",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-05-04"
+}
