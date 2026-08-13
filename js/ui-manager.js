@@ -247,11 +247,62 @@ export function addIncorrectGuessNotification(word, penalty = 0) {
  */
 export function showReplayWarning(score, maxScore) {
   const pct = maxScore > 0 ? Math.round((score / maxScore) * 100) : 0;
-  addNotification(
-    `You've already played this puzzle! Your score was ${pct}%. Playing again won't update your score.`,
-    "info",
-    true
-  );
+
+  // Build share text (same logic as end-game share)
+  const paragraph = getCurrentParagraph();
+  const puzzleTitle = paragraph?.title || "today's puzzle";
+  const mmdd = paragraph?.date?.replace('-', '') || null;
+  const puzzleUrl = window.location.origin + window.location.pathname
+    + (mmdd ? `?date=${mmdd}` : '');
+  const CHAIN = '\u{1F517}';
+  const challenge = pct === 100 ? 'Can you match me?' : 'Can you beat me?';
+  const G = '\u{1F7E2}', Y = '\u{1F7E1}', O = '\u{1F7E0}', R = '\u{1F534}', E = '\u{26AA}';
+  const filledCount = Math.round(pct / 20);
+  const fillColor = pct >= 95 ? G : pct >= 80 ? Y : pct >= 60 ? O : R;
+  const scoreBar = fillColor.repeat(filledCount) + E.repeat(5 - filledCount);
+  const dateStr = paragraph?.date
+    ? new Date(2024, parseInt(paragraph.date.split('-')[0]) - 1, parseInt(paragraph.date.split('-')[1]))
+        .toLocaleDateString('en-US', { month: 'short', day: 'numeric' })
+    : '';
+  const datePart = dateStr ? ` (${dateStr})` : '';
+  const shareText = `Hey! Have you played today's ClueChain?${datePart} ${CHAIN} "${puzzleTitle}" \u2014 I scored ${pct}% ${scoreBar} ${puzzleUrl} ${challenge}`;
+
+  const notificationContent = document.querySelector(".notification-content");
+  if (!notificationContent) return;
+
+  const card = document.createElement("div");
+  card.className = "notification-card notification-info";
+
+  const now = new Date();
+  const timeStr = now.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+
+  card.innerHTML = `
+    <span class="notification-text">You've already played this puzzle! Your score was ${pct}%. Playing again won't update your score.</span>
+    <span class="notification-time" style="font-size: 0.7em; color: #888; float: right;">${timeStr}</span>
+    <div class="share-btns" style="margin-top: 8px;">
+      <button class="share-btn" id="replay-whatsapp-btn"><i class="fab fa-whatsapp"></i> Share on WhatsApp</button>
+      <button class="copy-btn" id="replay-copy-btn"><i class="fas fa-copy"></i> Copy</button>
+    </div>
+  `;
+
+  notificationContent.prepend(card);
+
+  const waBtn = card.querySelector('#replay-whatsapp-btn');
+  if (waBtn) {
+    waBtn.addEventListener('click', () => {
+      window.open('https://wa.me/?text=' + encodeURIComponent(shareText), '_blank');
+    });
+  }
+
+  const copyBtn = card.querySelector('#replay-copy-btn');
+  if (copyBtn) {
+    copyBtn.addEventListener('click', () => {
+      navigator.clipboard.writeText(shareText).then(() => {
+        copyBtn.textContent = 'Copied!';
+        setTimeout(() => { copyBtn.innerHTML = '<i class="fas fa-copy"></i> Copy'; }, 2000);
+      });
+    });
+  }
 }
 
 /**
@@ -1243,7 +1294,7 @@ export async function showGameOver(lastWordRevealed = false) {
     : '';
   const datePart = dateStr ? ` (${dateStr})` : '';
   // Keep on one line — newlines cause iMessage to split into multiple bubbles
-  const shareText = `Hey! Have you played today's ClueChain?${datePart} ${CHAIN} "${puzzleTitle}" \u2014 I scored ${scorePercentage}%${flexSuffix} ${scoreBar} ${challenge} ${puzzleUrl}`;
+  const shareText = `Hey! Have you played today's ClueChain?${datePart} ${CHAIN} "${puzzleTitle}" \u2014 I scored ${scorePercentage}%${flexSuffix} ${scoreBar} ${puzzleUrl} ${challenge}`;
 
   const scoreClass = scorePercentage >= 80 ? 'score-high' : scorePercentage >= 50 ? 'score-mid' : 'score-low';
 

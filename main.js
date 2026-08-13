@@ -345,7 +345,42 @@ window.onload = async () => {
         renderCalendarDays();
       });
     }
-    
+
+    // "Today" button – jump straight to today's puzzle
+    const todayBtn = document.getElementById("today-button");
+    if (todayBtn) {
+      todayBtn.addEventListener("click", (e) => {
+        e.stopPropagation();
+        const today = new Date();
+        const todayStr = today.toISOString().split('T')[0];
+        const currentStr = currentDate.toISOString().split('T')[0];
+
+        // Already on today's puzzle – just close the calendar
+        if (todayStr === currentStr) {
+          customCalendar.classList.remove("show");
+          return;
+        }
+
+        const isGameInProgress =
+          document.querySelectorAll('#clues-list li.found').length > 0 ||
+          document.querySelectorAll('.letter-tile.purchased').length > 0 ||
+          document.querySelectorAll('.letter-tile.selected').length > 0;
+
+        if (isGameInProgress &&
+            !confirm("Changing the date will reset your current game progress. Continue?")) {
+          return;
+        }
+
+        currentDate = today;
+        updateDateDisplay(currentDate);
+        setDateInUrl(currentDate);
+        customCalendar.classList.remove("show");
+        const mmDD = `${String(today.getMonth() + 1).padStart(2, '0')}-${String(today.getDate()).padStart(2, '0')}`;
+        loadParagraphForDate(mmDD);
+        updateArrowStates();
+      });
+    }
+
   }
 
   // Helper function to check if a date is today or in the future
