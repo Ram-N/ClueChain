@@ -1,0 +1,245 @@
+{
+  "date": "01-15",
+  "title": "\"This Is Just To Say\" by William Carlos Williams. 1934",
+  "text": "I have eaten the plums that were in the icebox and which you were probably saving for breakfast Forgive me they were delicious so sweet and so cold",
+  "hiddenWords": [
+    {
+      "word": "eaten",
+      "difficulty": "Easy",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "What you do to a meal, or what a hungry person has done to all the snacks.",
+          "points": 3
+        },
+        {
+          "type": "Suggestive",
+          "clue": "Past participle of consuming food.",
+          "points": 2
+        },
+        {
+          "type": "Straight",
+          "clue": "Having consumed food.",
+          "points": 1
+        }
+      ],
+      "related_words": [
+        "plums",
+        "delicious"
+      ]
+    },
+    {
+      "word": "plums",
+      "difficulty": "Easy",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "These purple fruits are often found in tarts, or sometimes given as a desirable job.",
+          "points": 3
+        },
+        {
+          "type": "Suggestive",
+          "clue": "Sweet, juicy fruits with a single pit.",
+          "points": 2
+        },
+        {
+          "type": "Straight",
+          "clue": "Oval fleshy fruit which is typically purple, reddish-purple, or yellow when ripe, containing a flattened stone.",
+          "points": 1
+        }
+      ],
+      "related_words": [
+        "eaten",
+        "delicious"
+      ]
+    },
+    {
+      "word": "icebox",
+      "difficulty": "Intermediate",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "An old-fashioned chiller, before the era of modern refrigeration.",
+          "points": 5
+        },
+        {
+          "type": "Suggestive",
+          "clue": "A non-mechanical refrigerator cooled by ice.",
+          "points": 3
+        },
+        {
+          "type": "Straight",
+          "clue": "An insulated chest or cabinet cooled by a block of ice.",
+          "points": 1
+        }
+      ],
+      "related_words": [
+        "cold"
+      ]
+    },
+    {
+      "word": "saving",
+      "difficulty": "Intermediate",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "What you do with money for the future, or what a hero does for the day.",
+          "points": 5
+        },
+        {
+          "type": "Suggestive",
+          "clue": "Setting aside for future use or to keep from being lost.",
+          "points": 3
+        },
+        {
+          "type": "Straight",
+          "clue": "Keeping or storing up (something, especially money) for future use.",
+          "points": 1
+        }
+      ],
+      "related_words": []
+    },
+    {
+      "word": "breakfast",
+      "difficulty": "Easy",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "The first meal of the day, often featuring toast and coffee.",
+          "points": 3
+        },
+        {
+          "type": "Suggestive",
+          "clue": "The morning meal.",
+          "points": 2
+        },
+        {
+          "type": "Straight",
+          "clue": "A meal eaten in the morning, the first of the day.",
+          "points": 1
+        }
+      ],
+      "related_words": []
+    },
+    {
+      "word": "Forgive",
+      "difficulty": "Intermediate",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "What you might ask for after making a mistake, or what a kind heart offers.",
+          "points": 5
+        },
+        {
+          "type": "Suggestive",
+          "clue": "To stop feeling angry or resentful toward someone for an offense.",
+          "points": 3
+        },
+        {
+          "type": "Straight",
+          "clue": "Stop feeling angry or resentful towards (someone) for an offense, flaw, or mistake.",
+          "points": 1
+        }
+      ],
+      "related_words": []
+    },
+    {
+      "word": "delicious",
+      "difficulty": "Easy",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "A taste that makes your mouth happy, often paired with 'yummy'.",
+          "points": 3
+        },
+        {
+          "type": "Suggestive",
+          "clue": "Having a very pleasant taste or smell.",
+          "points": 2
+        },
+        {
+          "type": "Straight",
+          "clue": "Highly pleasant to the senses, especially to the taste.",
+          "points": 1
+        }
+      ],
+      "related_words": [
+        "eaten",
+        "plums",
+        "sweet"
+      ]
+    },
+    {
+      "word": "sweet",
+      "difficulty": "Easy",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "The taste of sugar, or a kind gesture.",
+          "points": 3
+        },
+        {
+          "type": "Suggestive",
+          "clue": "Having the pleasant taste characteristic of sugar or honey.",
+          "points": 2
+        },
+        {
+          "type": "Straight",
+          "clue": "Having the pleasant taste of sugar or honey.",
+          "points": 1
+        }
+      ],
+      "related_words": [
+        "delicious",
+        "cold"
+      ]
+    },
+    {
+      "word": "cold",
+      "difficulty": "Easy",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "The opposite of hot, often felt in winter or from a frosty gaze.",
+          "points": 3
+        },
+        {
+          "type": "Suggestive",
+          "clue": "Having a low temperature.",
+          "points": 2
+        },
+        {
+          "type": "Straight",
+          "clue": "Of or at a low or relatively low temperature, especially when compared with the human body.",
+          "points": 1
+        }
+      ],
+      "related_words": [
+        "icebox",
+        "sweet"
+      ]
+    },
+    {
+      "word": "probably",
+      "difficulty": "Hard",
+      "clues": [
+        {
+          "type": "Indirect",
+          "clue": "It's likely, but not certain, like predicting tomorrow's weather.",
+          "points": 7
+        },
+        {
+          "type": "Suggestive",
+          "clue": "Almost certainly; very likely.",
+          "points": 4
+        },
+        {
+          "clue": "Likely to happen or be the case",
+          "type": "Straight",
+          "points": 2
+        }
+      ],
+      "related_words": []
+    }
+  ]
+}

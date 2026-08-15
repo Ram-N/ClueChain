@@ -13,7 +13,7 @@ mmdd,new_file,new_title,old_file,old_title,match
 0112,0112.json,How to Treat Alzheimer's,,,
 0113,0113.json,"Abraham Lincoln, master inventor",,,
 0114,0114.json,The Glass Jar by Sylvia Plath (1963),,,
-0115,0115.json,"""This Is Just To Say"" by William Carlos Williams. 1934",,,
+0115,0115.json,A Romanian City ( Alina Stefanescu),0115.json,A Romanian City ( Alina Stefanescu),identical
 0116,0116.json,Kenyan Gourmet,01-16_Kenyan_Gourmet.json,Kenyan Gourmet,identical
 0117,0117.json,History of Geography,01-17_History_of_Geography.json,History of Geography,identical
 0118,0118.json,How Giant White Houses Took Over America,01-18-COLORS-how-giant-white-houses-took-over-america.json,How Giant White Houses Took Over America,identical
@@ -29,9 +29,9 @@ mmdd,new_file,new_title,old_file,old_title,match
 0128,0128.json,Destiny 2 — Sales,01-28-DESTINY-destiny-2-sales.json,Destiny 2 — Sales,identical
 0129,0129.json,Board game — Renaissance era,01-29-BOARD-GAMES-board-game-renaissance-era.json,Board game — Renaissance era,identical
 0130,0130.json,The Partition of India (Francisco Cantu),0130.json,The Partition of India (Francisco Cantu),identical
-0131,0131.json,Rhythm Heaven — Sequels and legacy,01-31-RHYTHM-rhythm-heaven-sequels-and-legacy.json,Rhythm Heaven — Sequels and legacy,identical
+0131,0131.json,Notes on going viral (Isaac James Richards),0131.json,Notes on going viral (Isaac James Richards),identical
 0201,0201.json,New Hope (Poland) — Ideology and position,02-01-RENEWAL-new-hope-poland-ideology-and-position.json,New Hope (Poland) — Ideology and position,identical
-0202,0202.json,Information — As of 2007,02-02-INFO-information-as-of-2007.json,Information — As of 2007,identical
+0202,0202.json,Three Pages of Don Quixote,0202.json,Three Pages of Don Quixote,identical
 0203,0203.json,The Hunger for Land (Francisco Cantu),0203.json,The Hunger for Land (Francisco Cantu),identical
 0204,0204.json,Land by Maggie O’Farrell,0204.json,Land by Maggie O’Farrell,identical
 0205,0205.json,List of conspiracy theories — Flat Earth,02-05-GK--list-of-conspiracy-theories-flat-earth.json,List of conspiracy theories — Flat Earth,identical
@@ -191,7 +191,7 @@ mmdd,new_file,new_title,old_file,old_title,match
 0708,0708.json,Sundial curiosity,07-08_Patti.json,The Videos That Rocked America. The Song That Knows Our Rage. ClueChain,different
 0709,0709.json,The Law of Compensation by Ralph Waldo Emerson,07-09.json,The Law of Compensation by Ralph Waldo Emerson,identical
 0710,0710.json,The Running Man,07-10_kitchen_sink.json,I Capture the Castle by Dodie Smith (1948),different
-0711,0711.json,Myth - Brain damage is always permanent,07-11_Solitude.json,One Hundred Years of Solitude by Gabriel García Márquez (1967),different
+0711,0711.json,The Death Years (Mahreen Sohail ),0711.json,The Death Years (Mahreen Sohail ),identical
 0712,0712.json,Neuroscience and baby brains,07-12_paradise.json,Paradise by Toni Morrison (1997),different
 0713,0713.json,The electric Horse,07-13_Tolstoy.json,Anna Karenina by Leo Tolstoy (1878),different
 0714,0714.json,Rhythm and blues — Afro-Cuban rhythmic influence,07-14_slaughterhouse.json,Slaughterhouse Five (Kurt Vonnegut) 1969,different
@@ -361,7 +361,7 @@ mmdd,new_file,new_title,old_file,old_title,match
 1225,1225.json,"Chardon, Ohio School Shooting",1225.json,"Chardon, Ohio School Shooting",identical
 1226,1226.json,Robot — Home automation for the elderly and disabled,12-26-ROBOTICS-robot-home-automation-for-the-elderly-and-disabled.json,Robot — Home automation for the elderly and disabled,identical
 1227,1227.json,Petrarch — Works,12-27-LYRICAL-petrarch-works.json,Petrarch — Works,identical
-1228,1228.json,Indiana Jones and the Dial of Destiny — Future,12-28-DESTINY-indiana-jones-and-the-dial-of-destiny-future.json,Indiana Jones and the Dial of Destiny — Future,identical
+1228,1228.json,On Loving Birds,1228.json,On Loving Birds,identical
 1229,1229.json,Anomia (game) — Design,12-29-BOARD-GAMES-anomia-game-design.json,Anomia (game) — Design,identical
 1230,1230.json,Moby Dick (1851),12-30-ishmael.json,Moby Dick (1851),identical
 1231,1231.json,Rhythm — Linguistics,12-31-RHYTHM-rhythm-linguistics.json,Rhythm — Linguistics,identical

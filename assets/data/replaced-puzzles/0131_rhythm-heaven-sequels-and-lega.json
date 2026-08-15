@@ -1,0 +1,233 @@
+{
+  "title": "Rhythm Heaven — Sequels and legacy",
+  "date": "01-31",
+  "text": "Title: Rhythm Heaven — Sequels and legacy\n\nRhythm Heaven was succeeded by Rhythm Heaven Fever for the Nintendo Wii in 2011; Nintendo president Satoru Iwata saw potential in the game in people's living rooms. He replied: \"When you see others play with the game and notice that he or she misses out on being perfectly in rhythm, it can also be surprisingly fun.\" Four years later, another Rhythm Heaven game was released for the Nintendo 3DS under the title of Rhythm Heaven Megamix. It features games from the DS installment, as well as rhythm games from Fever and the original Rhythm Tengoku along with brand-new ones. Rhythm Heaven is frequently referenced in the WarioWare and Super Smash Bros. series. In March 2025, Nintendo announced a new Rhythm Heaven game, Rhythm Heaven Groove. The game will release in 2026.",
+  "hiddenWords": [
+    {
+      "word": "fun",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The feeling you get from playing games with others.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "An enjoyable feeling or activity.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Amusement or enjoyment.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "living",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A place where you find your daily routines.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "The state of being alive or having life.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Existing or having life.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "rooms",
+      "difficulty": "Easy",
+      "related_words": [
+        "living"
+      ],
+      "clues": [
+        {
+          "clue": "You can find them in a house.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Spaces within a building for various activities.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Enclosed areas within a building.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "potential",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The possibility of something happening or being the case.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A person's natural ability or capacity.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "The possibility of something happening.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "features",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A part of something that makes it attractive or useful.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A distinctive part or characteristic of something.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A characteristic or attribute of something.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "installment",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A part of a story or a series that is published or broadcast at one time.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "A part of something that is paid or done at one time.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A part of a series or a whole.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "announced",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Made known or declared publicly.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "To declare or make known something officially.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "To declare or make known something.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "release",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "To set something free or allow it to move.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "To make something available to the public.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "To set something free.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "referenced",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Mentioned or alluded to something.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "To mention or allude to something.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "To mention something.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "series",
+      "difficulty": "Easy",
+      "related_words": [
+        "rooms",
+        "living"
+      ],
+      "clues": [
+        {
+          "clue": "A number of things that follow one after the other.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A set of related things or events.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A number of related things or events.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-01-31"
+}

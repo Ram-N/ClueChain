@@ -1,237 +1,237 @@
 {
-  "title": "Information — As of 2007",
+  "title": "Three Pages of Don Quixote",
   "date": "02-02",
-  "text": "It is estimated that the world's technological capacity to store information grew from 2.6 (optimally compressed) exabytes in 1986 – which is the informational equivalent to less than one 730-MB CD-ROM per person (539 MB per person) – to 295 (optimally compressed) exabytes in 2007. This is the informational equivalent of almost 61 CD-ROM per person in 2007. The world's combined technological capacity to receive information through one-way broadcast networks was the informational equivalent of 174 newspapers per person per day in 2007. The world's combined effective capacity to exchange information through two-way telecommunication networks was the informational equivalent of 6 newspapers per person per day in 2007. As of 2007, an estimated 90% of all new information is digital, mostly stored on hard drives.",
+  "text": "Title: Three Pages of Don Quixote\n\nImet Alexandra Bellow for the first time at the University of Chicago’s exclusive Quadrangle Club. She must have been eighty-four years old. I was twenty-nine. \n\nA friend from grad school had asked if I could take over from him as a tutor for a student. He explained this wasn’t a typical student, but an older woman who wanted to read Don Quixote, Miguel de Cervantes’ masterpiece. I was intrigued and quickly agreed, welcoming the idea of some extra cash. That day at the Club was my first meeting with Alexandra. It was also the first time I had ever been inside the Club. With its dimmed interior and wood-paneled walls, it had the aura of another era.",
   "hiddenWords": [
     {
-      "word": "capacity",
-      "difficulty": "Intermediate",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "Think of a bucket that's full to the brim, but not overflowing.",
-          "type": "Indirect",
-          "points": 6
-        },
-        {
-          "clue": "A measure of how much something can hold or produce.",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "The ability to contain or produce something.",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "estimated",
+      "word": "University",
       "difficulty": "Easy",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "Imagine taking a stab in the dark, but with math.",
-          "type": "Indirect",
-          "points": 5
-        },
-        {
-          "clue": "Using numbers to make a guess about something.",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "A rough calculation, not an exact figure.",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "technological",
-      "difficulty": "Intermediate",
       "related_words": [
-        "networks",
-        "telecommunication"
+        "Club",
+        "School"
       ],
       "clues": [
         {
-          "clue": "Think of a world where humans and machines work together.",
-          "type": "Indirect",
-          "points": 6
+          "clue": "A place for higher learning",
+          "type": "Straight",
+          "points": 1
         },
         {
-          "clue": "A field that's always changing and improving.",
+          "clue": "Often has a campus with various facilities",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "Involving the use of machines and computers.",
+          "clue": "Where you might find a quad, but not the kind you ride",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "word": "Club",
+      "difficulty": "Easy",
+      "related_words": [
+        "University",
+        "School"
+      ],
+      "clues": [
+        {
+          "clue": "A group of people with shared interests",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "Might have members who pay dues",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Not just for golf, though that's a popular kind",
+          "type": "Indirect",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "word": "School",
+      "difficulty": "Easy",
+      "related_words": [
+        "University",
+        "Club"
+      ],
+      "clues": [
+        {
+          "clue": "Where you go to learn, from elementary to grad",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "Has grades, and not just the kind you earn",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A place for growth, with lessons beyond books",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "word": "Masterpiece",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A work of art considered exceptionally good",
           "type": "Straight",
           "points": 2
-        }
-      ]
-    },
-    {
-      "word": "networks",
-      "difficulty": "Intermediate",
-      "related_words": [
-        "technological",
-        "telecommunication"
-      ],
-      "clues": [
-        {
-          "clue": "Imagine a web of strings that connect different points.",
-          "type": "Indirect",
-          "points": 5
         },
         {
-          "clue": "A group of interconnected things.",
+          "clue": "Something that showcases great skill or talent",
           "type": "Suggestive",
           "points": 4
         },
         {
-          "clue": "A system of connected devices or people.",
-          "type": "Straight",
-          "points": 1
+          "clue": "Like a symphony that resonates deep within",
+          "type": "Indirect",
+          "points": 5
         }
       ]
     },
     {
-      "word": "telecommunication",
-      "difficulty": "Hard",
-      "related_words": [
-        "technological",
-        "networks"
-      ],
+      "word": "Tutor",
+      "difficulty": "Intermediate",
+      "related_words": [],
       "clues": [
         {
-          "clue": "Think of a message in a bottle, but instead of water, it's sent through the air.",
+          "clue": "Someone who teaches or guides a student",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "Often provides individualized instruction",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A guide on the path to knowledge, one step at a time",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "word": "Cash",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Money in the form of coins or bills",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "Something you might find in a wallet or purse",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The sound of a register ringing up a sale",
+          "type": "Indirect",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "word": "Aura",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A subtle atmosphere or quality",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "Something that surrounds or emanates from a person or place",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Like the whisper of the past in a forgotten hall",
           "type": "Indirect",
           "points": 7
-        },
-        {
-          "clue": "A way of sending information over long distances.",
-          "type": "Suggestive",
-          "points": 4
-        },
-        {
-          "clue": "The process of exchanging information between devices.",
-          "type": "Straight",
-          "points": 2
         }
       ]
     },
     {
-      "word": "compressed",
-      "difficulty": "Hard",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "Imagine a spring that's been squeezed tight, but still has the same force.",
-          "type": "Indirect",
-          "points": 6
-        },
-        {
-          "clue": "Made smaller, but still keeping its original meaning.",
-          "type": "Suggestive",
-          "points": 4
-        },
-        {
-          "clue": "Reduced in size, but not in importance.",
-          "type": "Straight",
-          "points": 2
-        }
-      ]
-    },
-    {
-      "word": "exabytes",
-      "difficulty": "Hard",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "Think of a library that's so big, it has more books than you can count.",
-          "type": "Indirect",
-          "points": 7
-        },
-        {
-          "clue": "A huge amount of digital information.",
-          "type": "Suggestive",
-          "points": 4
-        },
-        {
-          "clue": "A unit of measurement for digital data.",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "newspapers",
-      "difficulty": "Easy",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "Imagine a daily delivery of stories and events.",
-          "type": "Indirect",
-          "points": 5
-        },
-        {
-          "clue": "A way to stay informed about what's happening in the world.",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "Publications that bring you the latest news.",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "digital",
+      "word": "Interior",
       "difficulty": "Intermediate",
       "related_words": [],
       "clues": [
         {
-          "clue": "Think of a world where everything is made up of 1s and 0s.",
-          "type": "Indirect",
-          "points": 6
+          "clue": "The inner part of a building or room",
+          "type": "Straight",
+          "points": 2
         },
         {
-          "clue": "A type of information that can be stored on devices.",
+          "clue": "Where you might find furniture and decor",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "Relating to computers and electronic devices.",
-          "type": "Straight",
-          "points": 2
+          "clue": "A space that can be both functional and beautiful",
+          "type": "Indirect",
+          "points": 5
         }
       ]
     },
     {
-      "word": "drives",
-      "difficulty": "Easy",
+      "word": "Panels",
+      "difficulty": "Hard",
       "related_words": [],
       "clues": [
         {
-          "clue": "Imagine a container that holds all your important documents.",
-          "type": "Indirect",
-          "points": 5
-        },
-        {
-          "clue": "A way to keep your files and data safe.",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "Devices that store digital information.",
+          "clue": "Flat sections, often made of wood or other materials",
           "type": "Straight",
-          "points": 1
+          "points": 2
+        },
+        {
+          "clue": "Used in construction, furniture, or even comics",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Like pieces of a puzzle coming together to form a whole",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "word": "Era",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A long period of time marked by significant events",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "A distinct age or stage in the development of something",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Like a chapter in the grand book of history",
+          "type": "Indirect",
+          "points": 7
         }
       ]
     }
   ],
-  "id": "ClueChain-2026-02-02"
+  "id": "ClueChain-2026-06-01"
 }

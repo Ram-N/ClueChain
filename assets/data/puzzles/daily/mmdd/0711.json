@@ -1,233 +1,237 @@
 {
-  "title": "Myth - Brain damage is always permanent",
+  "title": "The Death Years (Mahreen Sohail )",
   "date": "07-11",
-  "topic": "Science",
-  "themes": [
-    "Neuroscience",
-    "Myths",
-    "Brain Health"
-  ],
-  "text": "One of the most prevalent myths of neuroscience is that this damage is inevitably permanent and irreversible. It's sort of related to the myth that the brain stops developing once you reach a certain age. Neither is true.",
+  "text": "During the year that she was pregnant with me, my mother lost one of her uncles and her brother-in-law. They died in front of her; she saw their dead bodies. She was twenty-seven at the time. And then, after I was born as one of a set of twins, she lost my brother just a few hours after his birth. I think about the way death shadows my writing; and I wonder if some of the losses she faced while I was growing inside her were inherited by me. At times, I think about how much of my history my children will worry over. Will they sift through my life the way I want to sift through my mother’s past? The deaths that chased her the year she was pregnant eventually gave way to a period of happiness that lasted thirty-eight years, until my father’s death. This past year was the first year she forgot their wedding anniversary, seven years after he died.",
   "hiddenWords": [
     {
-      "word": "neither",
-      "difficulty": "Intermediate",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "A choice that's not one of two, yet still an option to consider, like a third path",
-          "type": "Indirect",
-          "points": 6
-        },
-        {
-          "clue": "Used to indicate an alternative that doesn't fit into two given categories",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "A term used to negate two preceding options",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "stops",
+      "word": "mother",
       "difficulty": "Easy",
-      "related_words": [],
+      "related_words": [
+        "children",
+        "father"
+      ],
       "clues": [
         {
-          "clue": "What a red light politely asks you to do.",
+          "clue": "A figure often depicted with a child in art",
           "type": "Indirect",
           "points": 5
         },
         {
-          "clue": "Causes something to cease or come to an end.",
+          "clue": "Female parent",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "Halts or brings to an end.",
+          "clue": "Female caregiver",
           "type": "Straight",
           "points": 1
         }
       ]
     },
     {
-      "word": "age",
+      "word": "children",
       "difficulty": "Easy",
-      "related_words": [],
+      "related_words": [
+        "mother",
+        "father"
+      ],
       "clues": [
         {
-          "clue": "What wine and cheese do well, but milk does not.",
+          "clue": "Offspring often play with toys",
           "type": "Indirect",
           "points": 5
         },
         {
-          "clue": "A particular period in a person's life or in history.",
+          "clue": "Young humans",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "How old someone or something is.",
+          "clue": "Kids",
           "type": "Straight",
           "points": 1
         }
       ]
     },
     {
-      "word": "prevalent",
-      "difficulty": "Intermediate",
-      "related_words": [],
+      "word": "father",
+      "difficulty": "Easy",
+      "related_words": [
+        "mother",
+        "children"
+      ],
       "clues": [
         {
-          "clue": "So common it's hard to walk a step without tripping over it.",
+          "clue": "Male figure often associated with authority",
           "type": "Indirect",
-          "points": 6
+          "points": 5
         },
         {
-          "clue": "Widely existing or occurring in a particular area or at a particular time.",
-          "type": "Suggestive",
-          "points": 4
-        },
-        {
-          "clue": "Widespread; commonly occurring.",
-          "type": "Straight",
-          "points": 2
-        }
-      ]
-    },
-    {
-      "word": "related",
-      "difficulty": "Intermediate",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "Siblings share this quality — they're more alike than strangers.",
-          "type": "Indirect",
-          "points": 6
-        },
-        {
-          "clue": "Connected or associated with something else.",
+          "clue": "Male parent",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "Having a connection or link to something.",
+          "clue": "Male caregiver",
           "type": "Straight",
-          "points": 2
+          "points": 1
         }
       ]
     },
     {
-      "word": "developing",
+      "word": "twins",
       "difficulty": "Intermediate",
       "related_words": [],
       "clues": [
         {
-          "clue": "What a darkroom photograph does — gradually emerging into something new.",
+          "clue": "Double the fun, or so they say",
           "type": "Indirect",
           "points": 6
         },
         {
-          "clue": "Growing or changing into a more advanced state.",
+          "clue": "Two babies born at the same time",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "Gradually growing or maturing over time.",
+          "clue": "Dual siblings",
           "type": "Straight",
-          "points": 2
+          "points": 1
         }
       ]
     },
     {
-      "word": "certain",
+      "word": "happiness",
       "difficulty": "Intermediate",
       "related_words": [],
       "clues": [
         {
-          "clue": "Death and taxes are said to share this quality.",
+          "clue": "A feeling often associated with smiles",
           "type": "Indirect",
           "points": 6
         },
         {
-          "clue": "Confident and without any doubt.",
+          "clue": "Emotional state of being content",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Joy",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "wedding",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "An event often marked with a white dress",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A ceremony where two people get married",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Marriage ceremony",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "anniversary",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A date that marks the passage of time since a special event",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "A yearly celebration of a couple's marriage",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Annual commemoration",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "brother",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A male sibling",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Male relative",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "Sure or definite; known without doubt.",
+          "clue": "Male sibling",
           "type": "Straight",
-          "points": 2
+          "points": 1
         }
       ]
     },
     {
-      "word": "neuroscience",
-      "difficulty": "Hard",
+      "word": "uncles",
+      "difficulty": "Intermediate",
       "related_words": [],
       "clues": [
         {
-          "clue": "The discipline that maps the mind's hardware — where biology meets thought.",
+          "clue": "Relatives who are often seen as cool",
           "type": "Indirect",
-          "points": 7
+          "points": 6
         },
         {
-          "clue": "The scientific study of the nervous system and how it processes information.",
+          "clue": "Brothers of one's parent",
           "type": "Suggestive",
           "points": 4
         },
         {
-          "clue": "The branch of science that studies the brain and nervous system.",
+          "clue": "Parent's brothers",
           "type": "Straight",
-          "points": 2
+          "points": 1
         }
       ]
     },
     {
-      "word": "inevitably",
+      "word": "pregnant",
       "difficulty": "Hard",
       "related_words": [],
       "clues": [
         {
-          "clue": "The sun rising each morning — you simply cannot stop what is bound to happen.",
+          "clue": "A state often marked by morning sickness",
           "type": "Indirect",
           "points": 7
         },
         {
-          "clue": "In a way that is certain to happen and cannot be avoided.",
+          "clue": "Carrying a developing fetus",
           "type": "Suggestive",
           "points": 4
         },
         {
-          "clue": "Unavoidably; as a certain outcome.",
-          "type": "Straight",
-          "points": 2
-        }
-      ]
-    },
-    {
-      "word": "irreversible",
-      "difficulty": "Hard",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "Like scrambled eggs — once done, you cannot go back to the shell.",
-          "type": "Indirect",
-          "points": 7
-        },
-        {
-          "clue": "Impossible to undo or change back to a previous state.",
-          "type": "Suggestive",
-          "points": 4
-        },
-        {
-          "clue": "Not able to be reversed or undone.",
+          "clue": "Expecting a child",
           "type": "Straight",
           "points": 2
         }
       ]
     }
-  ]
+  ],
+  "id": "ClueChain-2026-02-01"
 }

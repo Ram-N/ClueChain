@@ -1,237 +1,232 @@
 {
-  "title": "Indiana Jones and the Dial of Destiny — Future",
+  "title": "On Loving Birds",
   "date": "12-28",
-  "text": "Title: Indiana Jones and the Dial of Destiny — Future\n\nDisney CEO Bob Iger said in 2016 that the future of the franchise with Ford was unknown, but that the fifth film would not be the final installment in the franchise. In 2022, Kennedy reaffirmed earlier comments that Ford's role as Indiana Jones would not be recast, while Ford confirmed that the fifth film would be his last in the series. That November, Disney considered multiple options to continue the franchise, including additional films or a television series for Disney+. By March 2023, Lucasfilm was reported to have canceled Indiana Jones movies and television series because they wanted to focus on the Star Wars franchise; it would have been the second prequel series following The Young Indiana Jones Chronicles. Disney confirmed the following month that the film would indeed be the last in the franchise.",
+  "text": "Title: On Loving Birds\n\nI love birds, man. I love birds so much that my hardwired fear of rodents is eclipsed by my love \nfor them. Now, that’s deep, faithful, and abiding love—because rodents have snouts and tails \nthat make me want to freeze mid-jump until they’ve scurried several zip codes away. \nYou may wonder how I came to this realization. I’ll tell you. One time, a barred owl came \ninto the Wild Bird Fund with head trauma. I was tasked with feeding the poor guy. So, \nI cut up three baby mice, thinking the entire time, “Hantavirus, hantavirus; dear God, \nnot me in close proximity \nto hantavirus!” Blame my father for my neuroses. He’s a microbiologist.",
   "hiddenWords": [
     {
-      "word": "franchise",
-      "difficulty": "Intermediate",
-      "related_words": [
-        "series",
-        "television"
-      ],
+      "word": "fear",
+      "difficulty": "Easy",
+      "related_words": [],
       "clues": [
         {
-          "clue": "It's like a family tree, but for companies",
-          "type": "Indirect",
-          "points": 6
+          "clue": "A strong emotion caused by a perceived threat",
+          "type": "Straight",
+          "points": 1
         },
         {
-          "clue": "A business model with multiple locations",
+          "clue": "It can be rational or irrational, but it's always a powerful feeling",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "A type of business organization",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "series",
-      "difficulty": "Easy",
-      "related_words": [
-        "franchise",
-        "television"
-      ],
-      "clues": [
-        {
-          "clue": "Like a row of pearls, but made of episodes",
+          "clue": "A phobia is an intense version of this",
           "type": "Indirect",
           "points": 5
-        },
-        {
-          "clue": "A sequence of related events",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "A set of related television programs",
-          "type": "Straight",
-          "points": 1
         }
       ]
     },
     {
-      "word": "television",
+      "word": "trauma",
       "difficulty": "Intermediate",
       "related_words": [
-        "franchise",
-        "series"
+        "neuroses"
       ],
       "clues": [
         {
-          "clue": "It's like a window to another world, but in your living room",
-          "type": "Indirect",
-          "points": 6
+          "clue": "Physical injury, especially one that requires immediate attention",
+          "type": "Straight",
+          "points": 2
         },
         {
-          "clue": "A device for watching moving images",
+          "clue": "A person's emotional response to a distressing event",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "It can have lasting effects, changing a person's life forever",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "word": "neuroses",
+      "difficulty": "Hard",
+      "related_words": [
+        "trauma"
+      ],
+      "clues": [
+        {
+          "clue": "Mental disorders characterized by excessive anxiety",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "They can be triggered by past experiences or learned behaviors",
           "type": "Suggestive",
           "points": 4
         },
         {
-          "clue": "A medium for broadcasting videos",
-          "type": "Straight",
-          "points": 1
+          "clue": "A psychologist might study the human mind to understand these conditions",
+          "type": "Indirect",
+          "points": 7
         }
       ]
     },
     {
-      "word": "canceled",
+      "word": "microbiologist",
       "difficulty": "Hard",
       "related_words": [],
       "clues": [
         {
-          "clue": "Like a stamp, but for plans",
-          "type": "Indirect",
-          "points": 7
-        },
-        {
-          "clue": "To stop something from happening",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "To terminate or annul an event",
+          "clue": "A scientist who studies microorganisms",
           "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "options",
-      "difficulty": "Intermediate",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "Like a maze, but with possibilities",
-          "type": "Indirect",
-          "points": 6
+          "points": 2
         },
         {
-          "clue": "Choices, like flavors of ice cream",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "Alternatives or possibilities",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "reported",
-      "difficulty": "Easy",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "Like a messenger, but with information",
-          "type": "Indirect",
-          "points": 5
-        },
-        {
-          "clue": "Told or stated, like a news story",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "To give an account of something",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "considered",
-      "difficulty": "Intermediate",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "Like weighing options on a balance scale",
-          "type": "Indirect",
-          "points": 6
-        },
-        {
-          "clue": "Thought about, like a problem",
+          "clue": "They often work in laboratories, conducting experiments and analyzing data",
           "type": "Suggestive",
           "points": 4
         },
         {
-          "clue": "To think carefully about something",
-          "type": "Straight",
-          "points": 1
+          "clue": "Their work can lead to breakthroughs in medicine and our understanding of the natural world",
+          "type": "Indirect",
+          "points": 6
         }
       ]
     },
     {
-      "word": "multiple",
+      "word": "realization",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The act of becoming aware of something",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "It can be a sudden insight or a gradual understanding",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A moment of clarity that changes one's perspective",
+          "type": "Indirect",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "word": "snouts",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The projecting nose and mouth of an animal",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "Found on mammals, they are used for breathing and eating",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Some animals use them to sense their surroundings",
+          "type": "Indirect",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "word": "hantavirus",
       "difficulty": "Hard",
       "related_words": [],
       "clues": [
         {
-          "clue": "Like a bouquet of flowers, but with numbers",
-          "type": "Indirect",
-          "points": 7
-        },
-        {
-          "clue": "More than one, like siblings",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "Having many parts or elements",
+          "clue": "A type of virus that can be deadly to humans",
           "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "following",
-      "difficulty": "Easy",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "Like a path, but with footsteps",
-          "type": "Indirect",
-          "points": 5
+          "points": 2
         },
         {
-          "clue": "To come after something, like a shadow",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "To come after in time or order",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "confirmed",
-      "difficulty": "Intermediate",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "Like a stamp of approval, but with facts",
-          "type": "Indirect",
-          "points": 6
-        },
-        {
-          "clue": "To make something certain, like a guarantee",
+          "clue": "It is often transmitted through contact with infected rodents",
           "type": "Suggestive",
           "points": 4
         },
         {
-          "clue": "To establish the truth of something",
+          "clue": "Outbreaks can occur when the virus jumps from animals to people",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "word": "fund",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A sum of money saved or set aside for a particular purpose",
           "type": "Straight",
           "points": 1
+        },
+        {
+          "clue": "It can be used to support a cause or organization",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A financial resource that can be allocated and managed",
+          "type": "Indirect",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "word": "father",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A male parent",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "He plays an important role in a child's life",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "His influence can shape a person's values and personality",
+          "type": "Indirect",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "word": "owls",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Nocturnal birds known for their sharp vision",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "They have distinctive hooting calls and feathers",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "In mythology, they are often associated with wisdom",
+          "type": "Indirect",
+          "points": 6
         }
       ]
     }
   ],
-  "id": "ClueChain-2026-12-28"
+  "id": "ClueChain-2026-03-01"
 }

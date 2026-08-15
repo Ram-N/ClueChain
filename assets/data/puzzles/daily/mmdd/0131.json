@@ -1,233 +1,235 @@
 {
-  "title": "Rhythm Heaven — Sequels and legacy",
+  "title": "Notes on going viral (Isaac James Richards)",
   "date": "01-31",
-  "text": "Title: Rhythm Heaven — Sequels and legacy\n\nRhythm Heaven was succeeded by Rhythm Heaven Fever for the Nintendo Wii in 2011; Nintendo president Satoru Iwata saw potential in the game in people's living rooms. He replied: \"When you see others play with the game and notice that he or she misses out on being perfectly in rhythm, it can also be surprisingly fun.\" Four years later, another Rhythm Heaven game was released for the Nintendo 3DS under the title of Rhythm Heaven Megamix. It features games from the DS installment, as well as rhythm games from Fever and the original Rhythm Tengoku along with brand-new ones. Rhythm Heaven is frequently referenced in the WarioWare and Super Smash Bros. series. In March 2025, Nintendo announced a new Rhythm Heaven game, Rhythm Heaven Groove. The game will release in 2026.",
+  "text": "Title: Notes on going viral (Isaac James Richards)\nThey weren’t the first Telugu-speaking tourists I’d met that summer, nor would they be \nthe last, but for some reason they were particularly surprised to be greeted in their\n native language by a Caucasian American on the other side of the world. No one expects a \n short, blond-haired, blue-eyed graduate student with a mousey nose and large Adam’s apple \n from middle-of-nowhere Idaho to speak Telugu, a language that is often referred to by both\n  native speakers and foreigners as “the Italian of the East” (a term first coined by \n  Venetian explorer Niccolò de’ Conti who noticed that, like Italian ones, Telugu \n  words tend to end with vowels).\n As I greeted them, their mouths widened in shock and surprise.",
   "hiddenWords": [
     {
-      "word": "fun",
-      "difficulty": "Easy",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "The feeling you get from playing games with others.",
-          "type": "Indirect",
-          "points": 6
-        },
-        {
-          "clue": "An enjoyable feeling or activity.",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "Amusement or enjoyment.",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "living",
-      "difficulty": "Easy",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "A place where you find your daily routines.",
-          "type": "Indirect",
-          "points": 5
-        },
-        {
-          "clue": "The state of being alive or having life.",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "Existing or having life.",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "rooms",
-      "difficulty": "Easy",
+      "word": "Telugu",
+      "difficulty": "Intermediate",
       "related_words": [
-        "living"
+        "Italian",
+        "Idaho"
       ],
       "clues": [
         {
-          "clue": "You can find them in a house.",
+          "clue": "A language that's often associated with a European country known for love and pasta",
           "type": "Indirect",
           "points": 6
         },
         {
-          "clue": "Spaces within a building for various activities.",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "Enclosed areas within a building.",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "potential",
-      "difficulty": "Intermediate",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "The possibility of something happening or being the case.",
-          "type": "Indirect",
-          "points": 6
-        },
-        {
-          "clue": "A person's natural ability or capacity.",
+          "clue": "A Dravidian language spoken in India",
           "type": "Suggestive",
           "points": 4
         },
         {
-          "clue": "The possibility of something happening.",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "features",
-      "difficulty": "Intermediate",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "A part of something that makes it attractive or useful.",
-          "type": "Indirect",
-          "points": 6
-        },
-        {
-          "clue": "A distinctive part or characteristic of something.",
-          "type": "Suggestive",
-          "points": 4
-        },
-        {
-          "clue": "A characteristic or attribute of something.",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "installment",
-      "difficulty": "Hard",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "A part of a story or a series that is published or broadcast at one time.",
-          "type": "Indirect",
-          "points": 7
-        },
-        {
-          "clue": "A part of something that is paid or done at one time.",
-          "type": "Suggestive",
-          "points": 4
-        },
-        {
-          "clue": "A part of a series or a whole.",
+          "clue": "A language native to the Indian state of Andhra Pradesh",
           "type": "Straight",
           "points": 2
         }
       ]
     },
     {
-      "word": "announced",
-      "difficulty": "Intermediate",
-      "related_words": [],
+      "word": "Italian",
+      "difficulty": "Easy",
+      "related_words": [
+        "Telugu"
+      ],
       "clues": [
         {
-          "clue": "Made known or declared publicly.",
+          "clue": "A country famous for its pizza and pasta dishes",
           "type": "Indirect",
           "points": 5
         },
         {
-          "clue": "To declare or make known something officially.",
+          "clue": "A Romance language spoken in Europe",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "To declare or make known something.",
+          "clue": "A language spoken by over 65 million people",
           "type": "Straight",
           "points": 1
         }
       ]
     },
     {
-      "word": "release",
+      "word": "Idaho",
       "difficulty": "Intermediate",
-      "related_words": [],
+      "related_words": [
+        "Telugu"
+      ],
       "clues": [
         {
-          "clue": "To set something free or allow it to move.",
+          "clue": "A state in the United States known for its potatoes",
           "type": "Indirect",
           "points": 6
         },
         {
-          "clue": "To make something available to the public.",
+          "clue": "A state located in the northwestern United States",
           "type": "Suggestive",
           "points": 4
         },
         {
-          "clue": "To set something free.",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "referenced",
-      "difficulty": "Hard",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "Mentioned or alluded to something.",
-          "type": "Indirect",
-          "points": 7
-        },
-        {
-          "clue": "To mention or allude to something.",
-          "type": "Suggestive",
-          "points": 4
-        },
-        {
-          "clue": "To mention something.",
+          "clue": "A state with a population of around 1.8 million people",
           "type": "Straight",
           "points": 2
         }
       ]
     },
     {
-      "word": "series",
-      "difficulty": "Easy",
-      "related_words": [
-        "rooms",
-        "living"
-      ],
+      "word": "Caucasian",
+      "difficulty": "Hard",
+      "related_words": [],
       "clues": [
         {
-          "clue": "A number of things that follow one after the other.",
+          "clue": "A term used to describe people from a specific geographic region",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "A racial category used in anthropology",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A term used to describe people of European descent",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "graduate",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A person who has completed a degree",
           "type": "Indirect",
           "points": 5
         },
         {
-          "clue": "A set of related things or events.",
+          "clue": "A student who has finished their studies",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "A number of related things or events.",
+          "clue": "A person with a university degree",
           "type": "Straight",
           "points": 1
+        }
+      ]
+    },
+    {
+      "word": "blond",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A hair color often associated with Scandinavian countries",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A light hair color",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A hair color that is fair and light",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "blue",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A color often associated with the sky and ocean",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A color that is calming and soothing",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A primary color",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "mousey",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A term used to describe someone who is timid or shy",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "A word used to describe someone with a quiet demeanor",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A term used to describe someone who is unassuming",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "Adam",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A name that is often associated with the first man in the Bible",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A name that is commonly used in many cultures",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A masculine given name",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "Venetian",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A term used to describe something from a specific city in Italy",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "A word used to describe the culture of a specific region",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A term used to describe something related to Venice",
+          "type": "Straight",
+          "points": 2
         }
       ]
     }
   ],
-  "id": "ClueChain-2026-01-31"
+  "id": "ClueChain-2026-04-01"
 }
