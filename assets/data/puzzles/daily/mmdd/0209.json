@@ -1,245 +1,237 @@
 {
+  "title": "Rohingyas (Jidi Guo)",
   "date": "02-09",
-  "title": "\"This Is Just To Say\" by William Carlos Williams. 1934",
-  "text": "I have eaten the plums that were in the icebox and which you were probably saving for breakfast Forgive me they were delicious so sweet and so cold",
+  "text": "Title: Rohingyas (Jidi Guo)\nI spent a month filming inside the world’s largest refugee camp, located in Cox’s Bazar, \nBangladesh—during Ramadan. When I came across a call for documentary proposals about the\n holy month, I thought, how can it be that a documentary like that doesn’t already exist? \n More than a million Rohingya refugees, stuck in open-air confinement, surviving on \n minimal aid, still fasting, praying, carrying on. For all the research reports, \n fundraising campaigns, and officials \nannouncing new high watermarks in the crisis, daily life in the camps remains largely unseen.",
   "hiddenWords": [
     {
-      "word": "eaten",
+      "word": "month",
       "difficulty": "Easy",
+      "related_words": [],
       "clues": [
         {
-          "type": "Indirect",
-          "clue": "What you do to a meal, or what a hungry person has done to all the snacks.",
+          "clue": "A period of time with about thirty days",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "Time needed to complete a project, which can be divided into weeks",
+          "type": "Suggestive",
           "points": 3
         },
         {
-          "type": "Suggestive",
-          "clue": "Past participle of consuming food.",
-          "points": 2
-        },
-        {
-          "type": "Straight",
-          "clue": "Having consumed food.",
-          "points": 1
-        }
-      ],
-      "related_words": [
-        "plums",
-        "delicious"
-      ]
-    },
-    {
-      "word": "plums",
-      "difficulty": "Easy",
-      "clues": [
-        {
+          "clue": "Cycle of the moon, influencing tides",
           "type": "Indirect",
-          "clue": "These purple fruits are often found in tarts, or sometimes given as a desirable job.",
-          "points": 3
-        },
-        {
-          "type": "Suggestive",
-          "clue": "Sweet, juicy fruits with a single pit.",
-          "points": 2
-        },
-        {
-          "type": "Straight",
-          "clue": "Oval fleshy fruit which is typically purple, reddish-purple, or yellow when ripe, containing a flattened stone.",
-          "points": 1
-        }
-      ],
-      "related_words": [
-        "eaten",
-        "delicious"
-      ]
-    },
-    {
-      "word": "icebox",
-      "difficulty": "Intermediate",
-      "clues": [
-        {
-          "type": "Indirect",
-          "clue": "An old-fashioned chiller, before the era of modern refrigeration.",
           "points": 5
-        },
-        {
-          "type": "Suggestive",
-          "clue": "A non-mechanical refrigerator cooled by ice.",
-          "points": 3
-        },
-        {
-          "type": "Straight",
-          "clue": "An insulated chest or cabinet cooled by a block of ice.",
-          "points": 1
         }
-      ],
-      "related_words": [
-        "cold"
       ]
     },
     {
-      "word": "saving",
+      "word": "camp",
       "difficulty": "Intermediate",
-      "clues": [
-        {
-          "type": "Indirect",
-          "clue": "What you do with money for the future, or what a hero does for the day.",
-          "points": 5
-        },
-        {
-          "type": "Suggestive",
-          "clue": "Setting aside for future use or to keep from being lost.",
-          "points": 3
-        },
-        {
-          "type": "Straight",
-          "clue": "Keeping or storing up (something, especially money) for future use.",
-          "points": 1
-        }
+      "related_words": [
+        "refugee",
+        "crisis"
       ],
-      "related_words": []
-    },
-    {
-      "word": "breakfast",
-      "difficulty": "Easy",
       "clues": [
         {
-          "type": "Indirect",
-          "clue": "The first meal of the day, often featuring toast and coffee.",
-          "points": 3
-        },
-        {
-          "type": "Suggestive",
-          "clue": "The morning meal.",
+          "clue": "Temporary housing for people in need",
+          "type": "Straight",
           "points": 2
         },
         {
-          "type": "Straight",
-          "clue": "A meal eaten in the morning, the first of the day.",
-          "points": 1
+          "clue": "A place for outdoor activities, which can also be used as a shelter",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A group of people living together in a specific area, often due to unfortunate circumstances",
+          "type": "Indirect",
+          "points": 6
         }
-      ],
-      "related_words": []
+      ]
     },
     {
-      "word": "Forgive",
+      "word": "refugee",
       "difficulty": "Intermediate",
-      "clues": [
-        {
-          "type": "Indirect",
-          "clue": "What you might ask for after making a mistake, or what a kind heart offers.",
-          "points": 5
-        },
-        {
-          "type": "Suggestive",
-          "clue": "To stop feeling angry or resentful toward someone for an offense.",
-          "points": 3
-        },
-        {
-          "type": "Straight",
-          "clue": "Stop feeling angry or resentful towards (someone) for an offense, flaw, or mistake.",
-          "points": 1
-        }
+      "related_words": [
+        "camp",
+        "crisis"
       ],
-      "related_words": []
-    },
-    {
-      "word": "delicious",
-      "difficulty": "Easy",
       "clues": [
         {
-          "type": "Indirect",
-          "clue": "A taste that makes your mouth happy, often paired with 'yummy'.",
-          "points": 3
-        },
-        {
-          "type": "Suggestive",
-          "clue": "Having a very pleasant taste or smell.",
+          "clue": "Person forced to leave their home due to conflict or persecution",
+          "type": "Straight",
           "points": 2
         },
         {
-          "type": "Straight",
-          "clue": "Highly pleasant to the senses, especially to the taste.",
-          "points": 1
-        }
-      ],
-      "related_words": [
-        "eaten",
-        "plums",
-        "sweet"
-      ]
-    },
-    {
-      "word": "sweet",
-      "difficulty": "Easy",
-      "clues": [
-        {
-          "type": "Indirect",
-          "clue": "The taste of sugar, or a kind gesture.",
+          "clue": "Someone seeking safety and protection in a foreign country",
+          "type": "Suggestive",
           "points": 3
         },
         {
-          "type": "Suggestive",
-          "clue": "Having the pleasant taste characteristic of sugar or honey.",
-          "points": 2
-        },
-        {
-          "type": "Straight",
-          "clue": "Having the pleasant taste of sugar or honey.",
-          "points": 1
-        }
-      ],
-      "related_words": [
-        "delicious",
-        "cold"
-      ]
-    },
-    {
-      "word": "cold",
-      "difficulty": "Easy",
-      "clues": [
-        {
+          "clue": "Individual who had to flee their home, now living in uncertain conditions",
           "type": "Indirect",
-          "clue": "The opposite of hot, often felt in winter or from a frosty gaze.",
-          "points": 3
-        },
-        {
-          "type": "Suggestive",
-          "clue": "Having a low temperature.",
-          "points": 2
-        },
-        {
-          "type": "Straight",
-          "clue": "Of or at a low or relatively low temperature, especially when compared with the human body.",
-          "points": 1
+          "points": 6
         }
-      ],
-      "related_words": [
-        "icebox",
-        "sweet"
       ]
     },
     {
-      "word": "probably",
+      "word": "crisis",
       "difficulty": "Hard",
+      "related_words": [
+        "camp",
+        "refugee"
+      ],
       "clues": [
         {
-          "type": "Indirect",
-          "clue": "It's likely, but not certain, like predicting tomorrow's weather.",
-          "points": 7
+          "clue": "A time of great difficulty or danger",
+          "type": "Straight",
+          "points": 1
         },
         {
+          "clue": "An unstable situation that requires immediate attention",
           "type": "Suggestive",
-          "clue": "Almost certainly; very likely.",
           "points": 4
         },
         {
-          "clue": "More than just possible",
+          "clue": "When the consequences of inaction outweigh the costs of taking a risk",
+          "type": "Indirect",
+          "points": 7
+        }
+      ]
+    },
+    {
+      "word": "Ramadan",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A sacred month for fasting and spiritual reflection",
           "type": "Straight",
           "points": 2
+        },
+        {
+          "clue": "A time for Muslims to focus on their faith and community",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "When the moon is not visible, and the faithful abstain from earthly desires",
+          "type": "Indirect",
+          "points": 6
         }
-      ],
-      "related_words": []
+      ]
+    },
+    {
+      "word": "documentary",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A film that shows real people and events",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "A movie that aims to educate and inform the audience about a particular topic",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A cinematic representation of reality, often with a message or purpose",
+          "type": "Indirect",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "word": "fundraising",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The act of collecting money for a particular purpose",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "Efforts to gather financial support for a cause or organization",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A way to pool resources and make a positive impact on society",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "word": "research",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A systematic investigation into a subject or topic",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "The process of gathering and analyzing data to gain knowledge",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "An in-depth examination of a phenomenon, leading to new discoveries and insights",
+          "type": "Indirect",
+          "points": 7
+        }
+      ]
+    },
+    {
+      "word": "unseen",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Not visible or noticed",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "Hidden from view or awareness",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Existing but not perceived, like an invisible force",
+          "type": "Indirect",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "word": "confinement",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The state of being restricted or imprisoned",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "A situation where movement or freedom is limited",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A condition of being trapped, either physically or mentally",
+          "type": "Indirect",
+          "points": 7
+        }
+      ]
     }
-  ]
+  ],
+  "id": "ClueChain-2026-03-01"
 }

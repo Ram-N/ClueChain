@@ -1,228 +1,236 @@
 {
-  "title": "Knowledge base",
+  "title": "Graffiti Artist",
   "date": "12-02",
-  "text": "Title: Knowledge base\n\nIn computer science, a knowledge base (KB) is a set of sentences, each sentence given in a knowledge representation language, with interfaces \nto tell new sentences and to ask questions about what is known, where either of these interfaces might use inference. It is a technology used to store \ncomplex structured data used by a computer system. The initial use of the term was in connection with expert systems, which were the first knowledge-based systems.",
+  "text": "Title: Graffiti Artist\n I’m on a train in the French countryside. Sitting directly across from me is my brother \n Jim. We pass a centuries-old cottage in the middle of a field. \n The side of the cottage facing us features two words, each pitifully rendered in \n spray-paint on weathered stone. Before he settled down and started a family, Jim was once an \n extremely prolific graffiti artist whose work can still be viewed all over the post-industrial \n ruins of St. Louis City. He says that in the United States, you don’t normally see \n graffiti out in the country. It’s sort of an unwritten rule: writers don’t paint \n outside of metropolitan areas. I nod in agreement, adding that using historical\n  structures as your canvas is… \n offensive isn’t the word… inappropriate? Jim agrees, and the conversation ends there.",
   "hiddenWords": [
     {
-      "word": "computer",
+      "word": "train",
       "difficulty": "Easy",
       "related_words": [],
       "clues": [
         {
-          "clue": "It's the brain of the digital world, but it can't think for itself. It needs programs to function.",
+          "clue": "A common mode of transportation in Europe",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "Often has a dining car and sleeper cars",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Where you might find a quiet spot to read a book, unless the scenery outside is too distracting",
           "type": "Indirect",
           "points": 6
-        },
-        {
-          "clue": "An electronic device for storing and processing data.",
-          "type": "Suggestive",
-          "points": 4
-        },
-        {
-          "clue": "A programmable machine that performs calculations.",
-          "type": "Straight",
-          "points": 1
         }
       ]
     },
     {
-      "word": "science",
+      "word": "brother",
+      "difficulty": "Easy",
+      "related_words": [
+        "family"
+      ],
+      "clues": [
+        {
+          "clue": "A male sibling",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "Someone with whom you might have a close, lifelong bond",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A person who knows your secrets, and you know theirs",
+          "type": "Indirect",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "word": "cottage",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "field"
+      ],
+      "clues": [
+        {
+          "clue": "A small, cozy house in the countryside",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "Often surrounded by nature, and might have a garden",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "The kind of place where you might find a thatched roof and a white picket fence",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "word": "field",
+      "difficulty": "Easy",
+      "related_words": [
+        "cottage"
+      ],
+      "clues": [
+        {
+          "clue": "An open area of land, often used for farming or pasture",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "A place where you might see wildflowers blooming in the spring",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Where a horse might graze, or a crop might grow",
+          "type": "Indirect",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "word": "family",
+      "difficulty": "Easy",
+      "related_words": [
+        "brother"
+      ],
+      "clues": [
+        {
+          "clue": "A group of people related by blood or marriage",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "The people with whom you might spend holidays and special occasions",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A support system that can provide love and comfort",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "word": "ruins",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The remains of something that has been destroyed or fallen into disrepair",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "A place that might be explored by adventurers or historians",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Where the past and present might collide, in a state of decay",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "word": "city",
       "difficulty": "Easy",
       "related_words": [],
       "clues": [
         {
-          "clue": "Often pursued in labs and universities, it seeks to understand the world through observation and experimentation.",
-          "type": "Indirect",
-          "points": 5
+          "clue": "A large, urban area with a high population density",
+          "type": "Straight",
+          "points": 1
         },
         {
-          "clue": "A systematic enterprise that builds and organizes knowledge in the form of testable explanations and predictions about the universe.",
+          "clue": "A place with a diverse range of cultures, foods, and entertainment options",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The kind of place where you might find a skyscraper, a museum, and a park all in one day",
+          "type": "Indirect",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "word": "canvas",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A surface used for painting or drawing",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "A material that might be stretched over a frame, or attached to a wall",
           "type": "Suggestive",
           "points": 4
         },
         {
-          "clue": "The systematic study of the structure and behavior of the physical and natural world through observation and experiment.",
-          "type": "Straight",
-          "points": 2
-        }
-      ]
-    },
-    {
-      "word": "sentences",
-      "difficulty": "Intermediate",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "They can be short or long, simple or complex, and they all contribute to the art of communication.",
+          "clue": "Where an artist's imagination and creativity might come to life",
           "type": "Indirect",
-          "points": 5
-        },
-        {
-          "clue": "A set of words that is complete in itself, typically containing a subject and predicate, conveying a statement, question, exclamation, or command.",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "A grammatical unit that expresses a complete thought.",
-          "type": "Straight",
-          "points": 2
+          "points": 6
         }
       ]
     },
     {
-      "word": "language",
-      "difficulty": "Intermediate",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "It's the code of communication, the key to unlocking understanding, and the bridge between minds.",
-          "type": "Indirect",
-          "points": 7
-        },
-        {
-          "clue": "A system of communication used by a particular country or community.",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "A system of communication consisting of the use of words in a structured and conventional way.",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "interfaces",
+      "word": "inappropriate",
       "difficulty": "Hard",
       "related_words": [],
       "clues": [
         {
-          "clue": "They are the gateways, the points of contact, the bridges that allow systems to interact.",
-          "type": "Indirect",
-          "points": 6
-        },
-        {
-          "clue": "A point where two systems, subjects, organizations, etc., meet and interact.",
-          "type": "Suggestive",
-          "points": 4
-        },
-        {
-          "clue": "A device or program enabling a user to interact with a computer.",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "questions",
-      "difficulty": "Easy",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "They are the beginning of knowledge, the spark of curiosity, and the fuel for discovery.",
-          "type": "Indirect",
-          "points": 5
-        },
-        {
-          "clue": "A sentence worded or expressed so as to elicit information.",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "An inquiry for information.",
+          "clue": "Not suitable or proper for a particular situation or context",
           "type": "Straight",
           "points": 2
-        }
-      ]
-    },
-    {
-      "word": "technology",
-      "difficulty": "Intermediate",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "Modern marvels abound due to the evolution of this, from the printing press to the internet.",
-          "type": "Indirect",
-          "points": 5
         },
         {
-          "clue": "The application of scientific knowledge for practical purposes.",
+          "clue": "Something that might be considered rude, or in poor taste",
           "type": "Suggestive",
           "points": 4
         },
         {
-          "clue": "The application of scientific knowledge for practical purposes, especially in industry.",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "store",
-      "difficulty": "Easy",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "Where memories are kept, both real and virtual, for a later time.",
+          "clue": "A behavior or action that might make others feel uncomfortable, or offended",
           "type": "Indirect",
-          "points": 5
-        },
-        {
-          "clue": "To keep or accumulate something for future use.",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "To keep or accumulate (something) for future use.",
-          "type": "Straight",
-          "points": 2
+          "points": 7
         }
       ]
     },
     {
-      "word": "system",
-      "difficulty": "Intermediate",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "It's a structured approach, a planned method, a way of organizing things to achieve a goal.",
-          "type": "Indirect",
-          "points": 6
-        },
-        {
-          "clue": "A set of things working together as parts of a mechanism or an interconnecting network.",
-          "type": "Suggestive",
-          "points": 4
-        },
-        {
-          "clue": "A set of connected things or parts forming a complex whole, in particular.",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "expert",
+      "word": "metropolitan",
       "difficulty": "Hard",
       "related_words": [],
       "clues": [
         {
-          "clue": "They possess specialized knowledge, a deep understanding, and a mastery of their field.",
-          "type": "Indirect",
-          "points": 7
-        },
-        {
-          "clue": "A person with extensive knowledge or skill in a particular area.",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "A person who has a comprehensive and authoritative knowledge of or skill in a particular area.",
+          "clue": "Relating to a large city or urban area",
           "type": "Straight",
           "points": 2
+        },
+        {
+          "clue": "A place with a high level of cultural, economic, and social activity",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Where the rhythms of city life might be fast-paced, and the diversity of people and experiences is vast",
+          "type": "Indirect",
+          "points": 7
         }
       ]
     }
   ],
-  "id": "ClueChain-2026-12-02"
+  "id": "ClueChain-2026-05-01"
 }

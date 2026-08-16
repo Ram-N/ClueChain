@@ -1,232 +1,237 @@
 {
-  "title": "UK households bin 168m Christmas lights and ‘fast tech’ items a year — The Guardian",
+  "title": "refugee camp documentary (Jidi Guo)",
   "date": "09-06",
-  "text": "Title: UK households bin 168m Christmas lights and ‘fast tech’ items a year — The Guardian\n\nUK households have thrown away an estimated 168m light-up Christmas items and other “fast-tech” gifts over the past year, a study suggests. The research by the non-profit group Material Focus found about £1.7bn was spent last year on Christmas lighting, including 39m sets of fairy lights. Consumers bought a further 28m light-up items such as garlands, wreaths, stars and snow globes, along with 23m light-up figures and characters and 16m pre-lit Christmas trees. The research was based on information provided by 4,000 UK adults, who were asked how many cheap light-up electrical items they bought and how many were thrown away. This was then extrapolated to the UK population – giving a figure of 168m items consigned to the bin.",
+  "text": "Title: refugee camp documentary (Jidi Guo)\n\nWhen filming a documentary, I often have to think in two modes at once. One part of \nme wants to stay present and go along with what unfolds. The other worries about \ncontinuity, logistics, and whether what we’re capturing is authentic.\n\n We had made it clear to the family we were filming right at the start: please don’t \nprepare anything for us. We wanted it to be as if we weren’t there. No special \ntreatment, no extra food. It wasn’t just about honesty on camera, but about not \nadding strain to the already-stretched resources of a single, widowed mother in her \nmid-twenties caring for three children, \nsharing a temporary shelter with three other families. She nodded and said she understood.",
   "hiddenWords": [
     {
-      "word": "research",
-      "difficulty": "Intermediate",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "A thorough examination to find something out",
-          "type": "Indirect",
-          "points": 6
-        },
-        {
-          "clue": "A systematic investigation into a subject",
-          "type": "Suggestive",
-          "points": 4
-        },
-        {
-          "clue": "The act of searching for information",
-          "type": "Straight",
-          "points": 2
-        }
-      ]
-    },
-    {
-      "word": "figure",
+      "word": "present",
       "difficulty": "Easy",
       "related_words": [],
       "clues": [
         {
-          "clue": "A shape that is not a letter or symbol",
+          "clue": "Being there in the moment",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "A gift to show appreciation",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "What you get when you unwrap time",
           "type": "Indirect",
           "points": 5
-        },
-        {
-          "clue": "A person of importance or influence",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "A number or amount",
-          "type": "Straight",
-          "points": 1
         }
       ]
     },
     {
-      "word": "characters",
-      "difficulty": "Intermediate",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "The people in a story or play",
-          "type": "Indirect",
-          "points": 6
-        },
-        {
-          "clue": "A person's personality or nature",
-          "type": "Suggestive",
-          "points": 4
-        },
-        {
-          "clue": "A symbol or letter",
-          "type": "Straight",
-          "points": 2
-        }
-      ]
-    },
-    {
-      "word": "electrical",
-      "difficulty": "Hard",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "A silent spark that dances through wires, brightening winter nights without a flame.",
-          "type": "Indirect",
-          "points": 7
-        },
-        {
-          "clue": "Involves systems that conduct energy through wires for operation",
-          "type": "Suggestive",
-          "points": 4
-        },
-        {
-          "clue": "Connected to a power source",
-          "type": "Straight",
-          "points": 2
-        }
-      ]
-    },
-    {
-      "word": "garlands",
-      "difficulty": "Hard",
-      "related_words": [
-        "wreaths"
-      ],
-      "clues": [
-        {
-          "clue": "A long, thin piece of decoration",
-          "type": "Indirect",
-          "points": 7
-        },
-        {
-          "clue": "A decorative arrangement of flowers or greenery",
-          "type": "Suggestive",
-          "points": 4
-        },
-        {
-          "clue": "A type of floral arrangement",
-          "type": "Straight",
-          "points": 2
-        }
-      ]
-    },
-    {
-      "word": "wreaths",
-      "difficulty": "Intermediate",
-      "related_words": [
-        "garlands"
-      ],
-      "clues": [
-        {
-          "clue": "A circular decoration, often made of flowers",
-          "type": "Indirect",
-          "points": 6
-        },
-        {
-          "clue": "A type of arrangement used to honor or celebrate",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "A ring-shaped decoration",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "population",
-      "difficulty": "Hard",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "The total number of people living in a particular area",
-          "type": "Indirect",
-          "points": 7
-        },
-        {
-          "clue": "The people living in a particular area",
-          "type": "Suggestive",
-          "points": 4
-        },
-        {
-          "clue": "The total number of inhabitants",
-          "type": "Straight",
-          "points": 2
-        }
-      ]
-    },
-    {
-      "word": "estimated",
-      "difficulty": "Intermediate",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "Not exact, but close to the actual value",
-          "type": "Indirect",
-          "points": 6
-        },
-        {
-          "clue": "A rough calculation or guess",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "Approximately calculated",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "further",
+      "word": "family",
       "difficulty": "Easy",
-      "related_words": [],
+      "related_words": [
+        "mother",
+        "children"
+      ],
       "clues": [
         {
-          "clue": "To a greater degree or extent",
-          "type": "Indirect",
-          "points": 5
+          "clue": "People you're related to",
+          "type": "Straight",
+          "points": 1
         },
         {
-          "clue": "More or additional",
+          "clue": "A group of people living together",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "Beyond what has already been done",
-          "type": "Straight",
-          "points": 1
+          "clue": "The roots that hold a tree together",
+          "type": "Indirect",
+          "points": 5
         }
       ]
     },
     {
-      "word": "non-profit",
+      "word": "mother",
+      "difficulty": "Easy",
+      "related_words": [
+        "family",
+        "children"
+      ],
+      "clues": [
+        {
+          "clue": "The female parent",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "A caregiver and nurturer",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The one who brings life and love",
+          "type": "Indirect",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "word": "children",
+      "difficulty": "Easy",
+      "related_words": [
+        "family",
+        "mother"
+      ],
+      "clues": [
+        {
+          "clue": "Young humans",
+          "type": "Straight",
+          "points": 1
+        },
+        {
+          "clue": "The future of humanity",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Small bundles of joy and energy",
+          "type": "Indirect",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "word": "logistics",
       "difficulty": "Intermediate",
       "related_words": [],
       "clues": [
         {
-          "clue": "An organization that does not aim to make money",
-          "type": "Indirect",
-          "points": 6
+          "clue": "The process of planning and executing",
+          "type": "Suggestive",
+          "points": 3
         },
         {
-          "clue": "A group that operates for public benefit",
+          "clue": "Coordinating the details of an operation",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "The art of making the puzzle pieces fit",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "word": "authentic",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "True to one's nature",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Genuine and real",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "A treasure that's not imitation",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "word": "honesty",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The quality of being truthful",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "A virtue that builds trust",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The best policy, or so they say",
+          "type": "Indirect",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "word": "treatment",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The way someone or something is handled",
           "type": "Suggestive",
           "points": 4
         },
         {
-          "clue": "Not seeking financial gain",
+          "clue": "Medical care for a patient",
           "type": "Straight",
           "points": 2
+        },
+        {
+          "clue": "A process that's not always fair",
+          "type": "Indirect",
+          "points": 7
+        }
+      ]
+    },
+    {
+      "word": "resources",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Things that are available for use",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Assets that can be utilized",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "The puzzle pieces you need to solve the problem",
+          "type": "Indirect",
+          "points": 7
+        }
+      ]
+    },
+    {
+      "word": "shelter",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A place that provides protection",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A building that gives cover",
+          "type": "Straight",
+          "points": 2
+        },
+        {
+          "clue": "A haven from the stormy weather",
+          "type": "Indirect",
+          "points": 7
         }
       ]
     }
   ],
-  "id": "ClueChain-2026-09-06"
+  "id": "ClueChain-2026-04-01"
 }

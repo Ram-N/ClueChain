@@ -1,245 +1,237 @@
 {
-  "id": "ClueChain-01-14",
+  "title": "Reading Don Quixote",
   "date": "01-14",
-  "title": "The Glass Jar by Sylvia Plath (1963)",
-  "text": "“It was a queer, sultry summer, the summer they electrocuted the Rosenbergs, and I didn't know what I was doing in New York.”\nSo much of successful storytelling is about establishing time and place, and Plath does this beautifully with her opening line that delivers, if not an actual date and address, about as close as you can come. Her novel explores this clearly unsure narrator’s descent into depression, partly due to societal expectations.",
+  "text": "Title: Reading Don Quixote\n\nAlexandra retired from the Mathematics Department at Northwestern at the age of sixty-one, \nrelatively early for an academic. When I asked why, she explained that living under a \ndictatorship had deprived her of so much—books, films, and experiences. Growing up, \nshe hadn’t even been familiar with the Bible. She arrived in the West with voracious \ncuriosity, determined to make up for the time lost. After earning her doctorate at Yale \nand holding positions at prestigious universities across the country, she retired from \nteaching not to rest, but to become a full-time student. \nReading Don Quixote was one of her learning projects.",
   "hiddenWords": [
     {
-      "word": "sultry",
+      "word": "Mathematics",
       "difficulty": "Intermediate",
+      "related_words": [
+        "Academic",
+        "Doctorate"
+      ],
       "clues": [
         {
+          "clue": "A field where numbers are key",
           "type": "Indirect",
-          "clue": "Hot and humid, a stifling embrace, or alluringly passionate, with a certain grace.",
-          "points": 5
+          "points": 6
         },
         {
+          "clue": "Field of study involving numbers and quantities",
           "type": "Suggestive",
-          "clue": "Describes weather that is hot and humid, or a person who is attractive in a passionate way.",
           "points": 3
         },
         {
+          "clue": "Branch of science dealing with numbers",
           "type": "Straight",
-          "clue": "(Of the air or weather) hot and humid.",
           "points": 1
         }
-      ],
-      "related_words": [
-        "summer"
       ]
     },
     {
-      "word": "summer",
+      "word": "Academic",
       "difficulty": "Easy",
-      "clues": [
-        {
-          "type": "Indirect",
-          "clue": "The season of sun, of long days and bright, where warmth embraces, dispelling the night.",
-          "points": 4
-        },
-        {
-          "type": "Suggestive",
-          "clue": "The warmest season of the year, between spring and autumn.",
-          "points": 2
-        },
-        {
-          "type": "Straight",
-          "clue": "The warmest season of the year, in the northern hemisphere from June to August and in the southern hemisphere from December to February.",
-          "points": 1
-        }
-      ],
       "related_words": [
-        "sultry"
-      ]
-    },
-    {
-      "word": "electrocuted",
-      "difficulty": "Hard",
-      "clues": [
-        {
-          "type": "Indirect",
-          "clue": "Given a shocking end, by currents strong, life's final spark, where nothing can go wrong, but wrong it went.",
-          "points": 7
-        },
-        {
-          "clue": "Method of execution that uses a high-voltage current to cause death",
-          "type": "Suggestive",
-          "points": 4
-        },
-        {
-          "clue": "Killed by a high-voltage discharge",
-          "type": "Straight",
-          "points": 2
-        }
+        "Mathematics",
+        "Doctorate"
       ],
-      "related_words": []
-    },
-    {
-      "word": "knew",
-      "difficulty": "Easy",
       "clues": [
         {
+          "clue": "One who pursues knowledge",
           "type": "Indirect",
-          "clue": "Past tense of understanding, a fact once grasped, knowledge acquired, firmly clasped.",
-          "points": 4
-        },
-        {
-          "type": "Suggestive",
-          "clue": "Had information or understanding about something.",
-          "points": 2
-        },
-        {
-          "clue": "Was aware or informed about something",
-          "type": "Straight",
-          "points": 1
-        }
-      ],
-      "related_words": []
-    },
-    {
-      "word": "storytelling",
-      "difficulty": "Intermediate",
-      "clues": [
-        {
-          "type": "Indirect",
-          "clue": "The ancient art, weaving tales from afar, engaging listeners, like a guiding star.",
           "points": 5
         },
         {
+          "clue": "Person who works in a school or university",
           "type": "Suggestive",
-          "clue": "The activity of telling or writing stories.",
           "points": 3
         },
         {
+          "clue": "Scholar or teacher",
           "type": "Straight",
-          "clue": "The activity or occupation of composing text for books, articles, etc.",
           "points": 1
         }
-      ],
-      "related_words": []
+      ]
     },
     {
-      "word": "establishing",
+      "word": "Doctorate",
       "difficulty": "Hard",
+      "related_words": [
+        "Mathematics",
+        "Academic"
+      ],
       "clues": [
         {
+          "clue": "Highest degree one can achieve",
           "type": "Indirect",
-          "clue": "Laying foundations, setting things firm, creating a basis, weathering life's storm.",
           "points": 7
         },
         {
+          "clue": "Advanced degree beyond a master's",
           "type": "Suggestive",
-          "clue": "To set up (an organization, system, or set of rules) on a firm or permanent basis.",
           "points": 4
         },
         {
+          "clue": "Highest academic degree",
           "type": "Straight",
-          "clue": "Setting up (an organization, system, or set of rules) on a firm or permanent basis.",
           "points": 2
         }
-      ],
-      "related_words": [
-        "time",
-        "place"
       ]
     },
     {
-      "word": "time",
-      "difficulty": "Easy",
-      "clues": [
-        {
-          "type": "Indirect",
-          "clue": "A flowing river, forever unbound, measuring moments, without a sound.",
-          "points": 4
-        },
-        {
-          "type": "Suggestive",
-          "clue": "The indefinite continued progress of existence and events in the past, present, and future regarded as a whole.",
-          "points": 2
-        },
-        {
-          "type": "Straight",
-          "clue": "The indefinite continued progress of existence and events.",
-          "points": 1
-        }
-      ],
-      "related_words": [
-        "establishing",
-        "place"
-      ]
-    },
-    {
-      "word": "place",
-      "difficulty": "Easy",
-      "clues": [
-        {
-          "type": "Indirect",
-          "clue": "A specific location, a spatial design, where events unfold, in every line.",
-          "points": 4
-        },
-        {
-          "type": "Suggestive",
-          "clue": "A particular position, point, or area in space; a location.",
-          "points": 2
-        },
-        {
-          "type": "Straight",
-          "clue": "A particular position, point, or area in space; a location.",
-          "points": 1
-        }
-      ],
-      "related_words": [
-        "establishing",
-        "time"
-      ]
-    },
-    {
-      "word": "explores",
+      "word": "Curiosity",
       "difficulty": "Intermediate",
+      "related_words": [],
       "clues": [
         {
+          "clue": "A trait that drives one to learn",
           "type": "Indirect",
-          "clue": "Ventures into the depths, a journey of thought, uncovering insights, carefully sought.",
+          "points": 6
+        },
+        {
+          "clue": "Desire to learn or know something",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Interest in learning",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "Bible",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Sacred book of Christians",
+          "type": "Indirect",
           "points": 5
         },
         {
+          "clue": "Holy scripture of Christianity",
           "type": "Suggestive",
-          "clue": "To travel in or through (an unfamiliar country or area) in order to learn about or familiarize oneself with it.",
           "points": 3
         },
         {
+          "clue": "Christian holy book",
           "type": "Straight",
-          "clue": "Travels in or through (an unfamiliar country or area) in order to learn about or familiarize oneself with it.",
           "points": 1
         }
-      ],
-      "related_words": [
-        "descent"
       ]
     },
     {
-      "word": "descent",
+      "word": "Prestigious",
       "difficulty": "Hard",
+      "related_words": [],
       "clues": [
         {
+          "clue": "Having a high reputation",
           "type": "Indirect",
-          "clue": "A downward path, a lowering of state, a genetic lineage, sealed by fate.",
-          "points": 7
+          "points": 6
         },
         {
+          "clue": "Respected and admired for quality",
           "type": "Suggestive",
-          "clue": "An act of moving downwards, or a decline to a lower state.",
           "points": 4
         },
         {
+          "clue": "Highly respected",
           "type": "Straight",
-          "clue": "An act of moving downwards, dropping, or falling.",
           "points": 2
         }
-      ],
-      "related_words": [
-        "explores"
+      ]
+    },
+    {
+      "word": "Dictatorship",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Government by a single person with absolute power",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Authoritarian form of government",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Form of government where one person has total control",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "Voracious",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Having a strong desire to eat or learn",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Having a large appetite for something",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Extremely hungry or eager",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "Northwestern",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Direction or location",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "University name or direction",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Name of a US university",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "Yale",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Ivy League school",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "US university name",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Name of a prestigious US university",
+          "type": "Straight",
+          "points": 1
+        }
       ]
     }
-  ]
+  ],
+  "id": "ClueChain-2026-02-01"
 }

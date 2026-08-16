@@ -12,7 +12,7 @@ mmdd,new_file,new_title,old_file,old_title,match
 0111,0111.json,Does pollution poison the mind?,,,
 0112,0112.json,How to Treat Alzheimer's,,,
 0113,0113.json,"Abraham Lincoln, master inventor",,,
-0114,0114.json,The Glass Jar by Sylvia Plath (1963),,,
+0114,0114.json,Reading Don Quixote,0114.json,Reading Don Quixote,identical
 0115,0115.json,A Romanian City ( Alina Stefanescu),0115.json,A Romanian City ( Alina Stefanescu),identical
 0116,0116.json,Kenyan Gourmet,01-16_Kenyan_Gourmet.json,Kenyan Gourmet,identical
 0117,0117.json,History of Geography,01-17_History_of_Geography.json,History of Geography,identical
@@ -38,7 +38,7 @@ mmdd,new_file,new_title,old_file,old_title,match
 0206,0206.json,US banks announce UK expansion projects hours after budget  — The Guardian,02-06-HUMAN-BRAIN-us-banks-announce-uk-expansion-projects-hours-after-budget-the-guardian.json,US banks announce UK expansion projects hours after budget  — The Guardian,identical
 0207,0207.json,A Wrinkle in Time by Madeleine L'Engle (1962),02-07-07-21.json,A Wrinkle in Time by Madeleine L'Engle (1962),identical
 0208,0208.json,Orbit of the binary star,02-08-RHYTHM-rhythm-and-blues-afro-cuban-rhythmic-influence.json,Rhythm and blues — Afro-Cuban rhythmic influence,different
-0209,0209.json,"""This Is Just To Say"" by William Carlos Williams. 1934",02-09-07-06.json,"""This Is Just To Say"" by William Carlos Williams. 1934",identical
+0209,0209.json,Rohingyas (Jidi Guo),0209.json,Rohingyas (Jidi Guo),identical
 0210,0210.json,"Mob Justice Is Trampling Democratic Discourse (by Anne Applebaum, The Atlantic)",,,
 0211,0211.json,What makes humans intelligent?,,,
 0212,0212.json,AI Is Unlocking the Human Brain’s Secrets,,,
@@ -248,7 +248,7 @@ mmdd,new_file,new_title,old_file,old_title,match
 0903,0903.json,Neo-noir — Overview,09-03-NOIR-neo-noir-overview.json,Neo-noir — Overview,identical
 0904,0904.json,Who Dares Wins,0904.json,Who Dares Wins,identical
 0905,0905.json,General knowledge,09-05-GK--general-knowledge.json,General knowledge,identical
-0906,0906.json,UK households bin 168m Christmas lights and ‘fast tech’ items a year — The Guardian,09-06-HUMAN-BRAIN-uk-households-bin-168m-christmas-lights-and-fast-tech-items-a-year-the-guardian.json,UK households bin 168m Christmas lights and ‘fast tech’ items a year — The Guardian,identical
+0906,0906.json,refugee camp documentary (Jidi Guo),0906.json,refugee camp documentary (Jidi Guo),identical
 0907,0907.json,Finding Father Christmas review – Lenny Rush and James Buckley's chemistry is just wonderful,,,
 0908,0908.json,A Tale of Two Cities by Charles Dickens,,,
 0909,0909.json,The Law of Compensation by Ralph Waldo Emerson,,,
@@ -335,7 +335,7 @@ mmdd,new_file,new_title,old_file,old_title,match
 1129,1129.json,Arcs (board game) — Overview,11-29-BOARD-GAMES-arcs-board-game-overview.json,Arcs (board game) — Overview,identical
 1130,1130.json,Science explains why our brains aren’t just fancy computers,11-30-old_0811.json,Science explains why our brains aren’t just fancy computers,identical
 1201,1201.json,Urban renewal — Loss or change of character,12-01-RENEWAL-urban-renewal-loss-or-change-of-character.json,Urban renewal — Loss or change of character,identical
-1202,1202.json,Knowledge base,12-02-INFO-knowledge-base.json,Knowledge base,identical
+1202,1202.json,Graffiti Artist,1202.json,Graffiti Artist,identical
 1203,1203.json,Finding Harmony: A King’s Vision review – some of Charles’s ideas are strangely trippy,12-03-old_0807.json,Finding Harmony: A King’s Vision review – some of Charles’s ideas are strangely trippy,identical
 1204,1204.json,Mongolia Part 2,1204.json,Mongolia Part 2,identical
 1205,1205.json,Aromaticity — Etymology,12-05-GK--aromaticity-etymology.json,Aromaticity — Etymology,identical
