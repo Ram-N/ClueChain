@@ -757,6 +757,8 @@ function getStem(word) {
 
 /**
  * Finds an unfound word whose stem matches the guess's stem (near-miss detection).
+ * Also catches the case where the guess is the bare root and the target is
+ * guess + suffix (e.g. guess="machine", target="machines").
  * Returns null if no near miss, or if the guess is an exact match for that word.
  * @param {string} normalizedGuess - Lowercase trimmed guess
  * @returns {GameWord|null}
@@ -767,8 +769,25 @@ function findNearMissWord(normalizedGuess) {
   return getCurrentWords().find(w => {
     if (w.found || w.revealed) return false;
     if (w.word.toLowerCase() === normalizedGuess) return false; // exact match handled elsewhere
-    const wordStem = getStem(w.word.toLowerCase());
-    return wordStem === guessStem;
+    const targetLower = w.word.toLowerCase();
+    const wordStem = getStem(targetLower);
+
+    // Standard: both reduce to the same stem
+    if (wordStem === guessStem) return true;
+
+    // Direct prefix: target = guess + suffix (e.g. "machine" → "machines")
+    if (targetLower.startsWith(normalizedGuess)) {
+      const diff = targetLower.slice(normalizedGuess.length);
+      if (NEAR_MISS_SUFFIXES.includes(diff)) return true;
+    }
+
+    // Direct prefix: guess = target + suffix (e.g. "machines" → "machine")
+    if (normalizedGuess.startsWith(targetLower)) {
+      const diff = normalizedGuess.slice(targetLower.length);
+      if (NEAR_MISS_SUFFIXES.includes(diff)) return true;
+    }
+
+    return false;
   }) || null;
 }
 
