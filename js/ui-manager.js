@@ -231,7 +231,7 @@ export function addCorrectGuessNotification(word, points) {
  * @param {string} word - The player's near-miss guess
  */
 export function addNearMissNotification(word) {
-  const message = `${word.toUpperCase()} — Right idea! Check the word ending.`;
+  const message = `${word.toUpperCase()} — Right idea! Stem revealed — fix the ending.`;
   const notificationId = addNotification(message, "warning", true);
   const notification = document.getElementById(notificationId);
   if (notification) {

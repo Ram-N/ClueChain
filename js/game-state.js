@@ -491,7 +491,8 @@ export function setCurrentWords(words) {
     revealed: false,
     activeClueIndex: 0, // Default to the hardest clue (index 0)
     lowestClueIndexSeen: 0, // Track the easiest clue seen (0=hard, 1=medium, 2=easy)
-    nearMissWarned: false // Whether the player has received a near-miss warning for this word
+    nearMissWarned: false, // Whether the player has received a near-miss warning for this word
+    revealedPrefixLength: 0 // Chars from word start revealed by near-miss stem detection
   }));
 
   // Create engine instance now that we have both words and parameters
@@ -792,6 +793,36 @@ function findNearMissWord(normalizedGuess) {
 }
 
 /**
+ * Returns the number of leading characters shared between guess and target
+ * (the stem length to reveal on a near-miss).
+ * @param {string} normalizedGuess - Lowercase trimmed guess
+ * @param {string} targetWord - The target word (original case)
+ * @returns {number} Number of stem characters to reveal
+ */
+function getNearMissStemLength(normalizedGuess, targetWord) {
+  const targetLower = targetWord.toLowerCase();
+  const targetStem  = getStem(targetLower);
+  const guessStem   = getStem(normalizedGuess);
+
+  // Both reduce to the same stem via suffix stripping
+  if (targetStem === guessStem) return targetStem.length;
+
+  // target = guess + suffix  (e.g. guess "machine", target "machines")
+  if (targetLower.startsWith(normalizedGuess) &&
+      NEAR_MISS_SUFFIXES.includes(targetLower.slice(normalizedGuess.length))) {
+    return normalizedGuess.length;
+  }
+
+  // guess = target + suffix  (e.g. guess "machines", target "machine")
+  if (normalizedGuess.startsWith(targetLower) &&
+      NEAR_MISS_SUFFIXES.includes(normalizedGuess.slice(targetLower.length))) {
+    return targetLower.length;
+  }
+
+  return 0;
+}
+
+/**
  * Checks if a guess matches any hidden word.
  * Delegates scoring and completion logic to the engine; keeps local state in sync.
  * @param {string} guess - The player's guess
@@ -846,6 +877,14 @@ export function checkGuess(guess) {
     if (nearMissWord) {
       if (!nearMissWord.nearMissWarned) {
         nearMissWord.nearMissWarned = true;
+        // Reveal the stem in the paragraph
+        const stemLen = getNearMissStemLength(normalizedGuess, nearMissWord.word);
+        if (stemLen > 0) {
+          nearMissWord.revealedPrefixLength = Math.max(
+            nearMissWord.revealedPrefixLength,
+            stemLen
+          );
+        }
         return { success: false, gameComplete: false, pointsEarned: 0, nearMiss: true, penalty: 0 };
       }
       // Second wrong attempt after warning — clear the flag and fall through to penalty
@@ -879,6 +918,14 @@ export function checkGuess(guess) {
   if (nearMissWordFallback) {
     if (!nearMissWordFallback.nearMissWarned) {
       nearMissWordFallback.nearMissWarned = true;
+      // Reveal the stem in the paragraph
+      const stemLen = getNearMissStemLength(normalizedGuess, nearMissWordFallback.word);
+      if (stemLen > 0) {
+        nearMissWordFallback.revealedPrefixLength = Math.max(
+          nearMissWordFallback.revealedPrefixLength,
+          stemLen
+        );
+      }
       return { success: false, gameComplete: false, pointsEarned: 0, nearMiss: true, penalty: 0 };
     }
     nearMissWordFallback.nearMissWarned = false;
@@ -932,29 +979,35 @@ export function maskWordWithPurchases(word, vowel = "", wordIndex = -1) {
     return word
       .split("")
       .map((char, index) => {
+        // Reveal near-miss stem prefix
+        if (wordIndex >= 0 &&
+            index < (gameState.current.words[wordIndex]?.revealedPrefixLength ?? 0)) {
+          return char;
+        }
+
         const lowerChar = char.toLowerCase();
-        
+
         // Show the specified vowel if it matches
         if (vowel && lowerChar === vowel.toLowerCase()) {
           return char;
         }
-        
+
         // Show purchased consonants
         if (marketState.consonants.has(lowerChar)) {
           return char;
         }
-        
+
         // Show purchased vowels
         if (marketState.vowels.has(lowerChar)) {
           return char;
         }
-        
+
         // Show suffix letters if this character is part of a revealed suffix
         if (hasSuffix && index >= suffixStart) {
           console.log(`Revealing suffix character '${char}' at position ${index} in word "${word}"`);
           return char;
         }
-        
+
         // Mask everything else
         return "_";
       })
