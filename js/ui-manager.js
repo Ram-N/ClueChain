@@ -227,6 +227,19 @@ export function addCorrectGuessNotification(word, points) {
 }
 
 /**
+ * Adds a near-miss notification (right stem, wrong suffix — no penalty)
+ * @param {string} word - The player's near-miss guess
+ */
+export function addNearMissNotification(word) {
+  const message = `${word.toUpperCase()} — Right idea! Check the word ending.`;
+  const notificationId = addNotification(message, "warning", true);
+  const notification = document.getElementById(notificationId);
+  if (notification) {
+    notification.classList.add("notification-near-miss");
+  }
+}
+
+/**
  * Adds a notification for an incorrect guess
  * @param {string} word - The incorrectly guessed word
  */

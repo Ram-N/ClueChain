@@ -43,6 +43,7 @@ import {
   showInitialMessage,
   addCorrectGuessNotification,
   addIncorrectGuessNotification,
+  addNearMissNotification,
   handleGoldenKey,
   handleGoldenCoin,
   showLetterSelectionModal,
@@ -203,6 +204,22 @@ function handleGuess(e) {
       saveCompletion();
       showGameOver();
     }
+  } else if (result.nearMiss) {
+    input.classList.add("near-miss");
+    setTimeout(() => input.classList.remove("near-miss"), 1000);
+
+    // Show near-miss warning — no score penalty
+    addNearMissNotification(guess);
+
+    // Still reveal suffix and re-render so the player sees updated state
+    const suffixRevealed = revealNextSuffix();
+    if (suffixRevealed) {
+      console.log("Revealed new suffix after near-miss");
+    }
+
+    renderParagraph(getChosenVowel());
+    renderClues();
+    // No updateScore() — score unchanged on near-miss
   } else {
     input.classList.add("wrong");
     setTimeout(() => input.classList.remove("wrong"), 1000);
@@ -329,6 +346,22 @@ function setupGuessInput() {
         saveCompletion();
         showGameOver();
       }
+    } else if (result.nearMiss) {
+      input.classList.add("near-miss");
+      setTimeout(() => input.classList.remove("near-miss"), 1000);
+
+      // Show near-miss warning — no score penalty
+      addNearMissNotification(guess);
+
+      // Still reveal suffix and re-render
+      const suffixRevealed = revealNextSuffix();
+      if (suffixRevealed) {
+        console.log("Revealed new suffix after near-miss");
+      }
+
+      renderParagraph(getChosenVowel());
+      renderClues();
+      // No updateScore() — score unchanged on near-miss
     } else {
       input.classList.add("wrong");
       setTimeout(() => input.classList.remove("wrong"), 1000);
@@ -341,7 +374,7 @@ function setupGuessInput() {
       if (suffixRevealed) {
         console.log("Revealed new suffix after wrong guess");
       }
-      
+
       // Even for wrong guesses, we need to re-render clues to show newly revealed ones
       renderParagraph(getChosenVowel()); // Also re-render paragraph to show newly revealed suffix
       renderClues();

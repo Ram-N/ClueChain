@@ -490,7 +490,8 @@ export function setCurrentWords(words) {
     visibleClues: 0,
     revealed: false,
     activeClueIndex: 0, // Default to the hardest clue (index 0)
-    lowestClueIndexSeen: 0 // Track the easiest clue seen (0=hard, 1=medium, 2=easy)
+    lowestClueIndexSeen: 0, // Track the easiest clue seen (0=hard, 1=medium, 2=easy)
+    nearMissWarned: false // Whether the player has received a near-miss warning for this word
   }));
 
   // Create engine instance now that we have both words and parameters
@@ -737,6 +738,40 @@ function findBestConsonant() {
   return sorted.length > 0 ? sorted[0][0] : null;
 }
 
+/** Suffixes stripped longest-first to find a word's stem for near-miss detection */
+const NEAR_MISS_SUFFIXES = ['ings', 'ing', 'tions', 'tion', 'ness', 'ments', 'ment', 'ful', 'less', 'ical', 'ities', 'ity', 'ers', 'er', 'ed', 'ly', 'ic', 'ies', 'es', 's'];
+
+/**
+ * Returns the stem of a word by stripping the first matching suffix.
+ * @param {string} word - Lowercase word
+ * @returns {string} Stem (at least 3 chars), or the word itself if no suffix matched
+ */
+function getStem(word) {
+  for (const suffix of NEAR_MISS_SUFFIXES) {
+    if (word.endsWith(suffix) && word.length - suffix.length >= 3) {
+      return word.slice(0, word.length - suffix.length);
+    }
+  }
+  return word;
+}
+
+/**
+ * Finds an unfound word whose stem matches the guess's stem (near-miss detection).
+ * Returns null if no near miss, or if the guess is an exact match for that word.
+ * @param {string} normalizedGuess - Lowercase trimmed guess
+ * @returns {GameWord|null}
+ */
+function findNearMissWord(normalizedGuess) {
+  const guessStem = getStem(normalizedGuess);
+  if (guessStem.length < 3) return null;
+  return getCurrentWords().find(w => {
+    if (w.found || w.revealed) return false;
+    if (w.word.toLowerCase() === normalizedGuess) return false; // exact match handled elsewhere
+    const wordStem = getStem(w.word.toLowerCase());
+    return wordStem === guessStem;
+  }) || null;
+}
+
 /**
  * Checks if a guess matches any hidden word.
  * Delegates scoring and completion logic to the engine; keeps local state in sync.
@@ -787,6 +822,17 @@ export function checkGuess(guess) {
       return { success: true, gameComplete: allFound, pointsEarned };
     }
 
+    // Near-miss check — same stem, different suffix
+    const nearMissWord = findNearMissWord(normalizedGuess);
+    if (nearMissWord) {
+      if (!nearMissWord.nearMissWarned) {
+        nearMissWord.nearMissWarned = true;
+        return { success: false, gameComplete: false, pointsEarned: 0, nearMiss: true, penalty: 0 };
+      }
+      // Second wrong attempt after warning — clear the flag and fall through to penalty
+      nearMissWord.nearMissWarned = false;
+    }
+
     // Wrong guess — apply penalty through engine
     const penalty = getGameParameters()?.penalties?.wrongGuess ?? 5;
     gameState.current.score = Math.max(0, gameState.current.score - penalty);
@@ -809,6 +855,16 @@ export function checkGuess(guess) {
     const allFound = getCurrentWords().every((w) => w.found || w.revealed);
     return { success: true, gameComplete: allFound, pointsEarned };
   }
+  // Near-miss check in fallback path
+  const nearMissWordFallback = findNearMissWord(normalizedGuess);
+  if (nearMissWordFallback) {
+    if (!nearMissWordFallback.nearMissWarned) {
+      nearMissWordFallback.nearMissWarned = true;
+      return { success: false, gameComplete: false, pointsEarned: 0, nearMiss: true, penalty: 0 };
+    }
+    nearMissWordFallback.nearMissWarned = false;
+  }
+
   const params = getGameParameters();
   if (params?.penalties?.wrongGuess) {
     gameState.current.score = Math.max(0, gameState.current.score - params.penalties.wrongGuess);

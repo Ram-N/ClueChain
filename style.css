@@ -371,6 +371,11 @@ h1 {
   border-color: #ef5350;
 }
 
+#guess-input.near-miss {
+  background-color: #fff3e0;
+  border-color: #ff9800;
+}
+
 #guess-input.disabled,
 button.disabled {
   opacity: 0.5;
@@ -1071,6 +1076,17 @@ button:hover {
 
 .notification-wrong-guess .notification-text {
   color: #c62828;
+  font-weight: 600;
+}
+
+.notification-near-miss {
+  border-left-color: #ff9800;
+  background: #fff3e0;
+  border-left-width: 4px;
+}
+
+.notification-near-miss .notification-text {
+  color: #e65100;
   font-weight: 600;
 }
 
