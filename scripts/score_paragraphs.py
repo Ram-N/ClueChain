@@ -46,7 +46,7 @@ except ImportError:
 # Constants
 # ---------------------------------------------------------------------------
 
-GROQ_MODEL = "llama-3.3-70b-versatile"
+GROQ_MODEL = "openai/gpt-oss-120b"
 _SCRIPT_DIR = Path(__file__).parent
 _PROMPTS_DIR = _SCRIPT_DIR / "prompts"
 _OUTPUT_DIR = _SCRIPT_DIR / "output"
@@ -58,8 +58,9 @@ _RANKINGS_MD = _OUTPUT_DIR / "paragraph_rankings.md"
 
 # Weights for final score calculation
 WEIGHTS = {
-    "word_quality": 0.30,
+    "word_quality": 0.20,       # reduced from 0.30 to make room for readability
     "variety": 0.15,
+    "readability": 0.10,        # new: rule-based prose readability
     "connectivity": 0.20,
     "clueability": 0.15,
     "discovery_curve": 0.10,
@@ -116,7 +117,7 @@ for cat_words in CONCRETE_CATEGORIES.values():
 # ---------------------------------------------------------------------------
 
 NIM_BASE_URL = "https://integrate.api.nvidia.com/v1"
-NIM_MODEL = "nvidia/llama-3.3-nemotron-super-49b-v1.5"
+NIM_MODEL = "deepseek-ai/deepseek-v4-pro-0813"
 
 
 class LLMProvider:
@@ -478,6 +479,99 @@ def score_length_penalty(paragraph_data: Dict) -> Tuple[float, str]:
     return penalty, reason
 
 
+def score_readability(paragraph_data: Dict) -> Tuple[float, str]:
+    """
+    Score prose readability for a casual word-game player.
+    Uses average word length, average sentence length, and proportion of
+    very long words (10+ chars) as proxies — no syllable counting needed.
+
+    LaTeX tokens like "displaystyle" inflate average word length, which
+    naturally tanks the score for math-heavy paragraphs.
+
+    Returns (score 0-10, reason string).
+    """
+    text = paragraph_data.get("text", "")
+
+    # Alphabetic tokens only — ignores numbers, symbols, LaTeX punctuation
+    words = re.findall(r'[a-zA-Z]+', text)
+    if not words:
+        return 0.0, "no readable text"
+
+    sentences = [s.strip() for s in re.split(r'[.!?]+', text) if s.strip()]
+
+    avg_word_len = sum(len(w) for w in words) / len(words)
+    avg_sent_len = len(words) / max(len(sentences), 1)
+    long_word_ratio = sum(1 for w in words if len(w) >= 10) / len(words)
+
+    # Word length component (max 4 pts): ideal ≤4.5 chars, -1pt per 0.5 chars over
+    word_score = max(0.0, 4.0 - max(0.0, (avg_word_len - 4.5) * 1.2))
+
+    # Sentence length component (max 3 pts): ideal ≤15 words, -1pt per 5 words over
+    sent_score = max(0.0, 3.0 - max(0.0, (avg_sent_len - 15) / 5))
+
+    # Long-word ratio component (max 3 pts): ideal ≤5%, -1pt per 10pp over
+    ratio_score = max(0.0, 3.0 - max(0.0, (long_word_ratio - 0.05) / 0.10))
+
+    total = word_score + sent_score + ratio_score
+    score = round(min(10.0, max(0.0, total)), 1)
+
+    reason = (
+        f"avg word {avg_word_len:.1f} chars, "
+        f"avg sentence {avg_sent_len:.1f} words, "
+        f"{long_word_ratio:.0%} long words (≥10 chars)"
+    )
+    return score, reason
+
+
+def score_technical_notation_penalty(paragraph_data: Dict) -> Tuple[float, str]:
+    """
+    Penalize paragraphs that contain mathematical notation, LaTeX markup,
+    or heavy technical symbols — content that is unreadable for a casual player.
+
+    Returns (penalty <= 0, reason string).
+    """
+    text = paragraph_data.get("text", "")
+    indicators = []
+
+    # LaTeX displaystyle blocks — the strongest single signal
+    latex_display = len(re.findall(r'\{displaystyle', text))
+    if latex_display:
+        indicators.append(f"{latex_display} LaTeX displaystyle block(s)")
+
+    # LaTeX backslash commands: \frac, \sum, \alpha, \ldots, etc.
+    latex_cmds = re.findall(r'\\[a-zA-Z]{2,}', text)
+    if latex_cmds:
+        unique_cmds = sorted(set(latex_cmds))[:4]
+        indicators.append(f"LaTeX commands ({', '.join(unique_cmds)})")
+
+    # Subscript/superscript blocks: _{...} or ^{...}
+    if re.search(r'[_^]\{', text):
+        indicators.append("subscript/superscript blocks")
+
+    # Indexed variable sequences, e.g. "W 1 , W 2" or "S_1, S_2"
+    if re.search(r'\b[A-Z]\s*[0-9]\s*,\s*[A-Z]\s*[0-9]', text):
+        indicators.append("indexed variable sequences")
+
+    # Unicode mathematical symbols
+    math_syms = re.findall(r'[∑∫∏√∞≤≥≠≈∈∉⊂⊃∪∩∀∃∂∇±×÷→←↑↓⟨⟩…]', text)
+    if math_syms:
+        indicators.append(f"math Unicode symbols ({len(math_syms)})")
+
+    if not indicators:
+        return 0.0, "no technical notation"
+
+    # Penalty scales with severity; latex_display count is the primary driver
+    if latex_display >= 3 or len(indicators) >= 3:
+        penalty = -2.0
+    elif latex_display >= 1 or len(indicators) >= 2:
+        penalty = -1.5
+    else:
+        penalty = -1.0
+
+    reason = "Technical notation: " + "; ".join(indicators)
+    return round(penalty, 1), reason
+
+
 def score_clue_leaks(nlp, paragraph_data: Dict) -> Tuple[float, str]:
     """
     Penalize puzzles where a hidden word (or variant) appears in its own clues.
@@ -568,7 +662,8 @@ def compute_final_score(scores: Dict) -> float:
             total += scores[dim] * weight
 
     # Add raw penalties (deductions)
-    for penalty_key in ("catalog_penalty", "title_spoiler", "clue_leaks", "length_penalty"):
+    for penalty_key in ("catalog_penalty", "title_spoiler", "clue_leaks",
+                        "length_penalty", "technical_notation_penalty"):
         val = scores.get(penalty_key, 0)
         if val is not None:
             total += val
@@ -590,7 +685,8 @@ def compute_partial_score(scores: Dict) -> Tuple[float, float]:
             weight_used += weight
 
     penalties = 0.0
-    for penalty_key in ("catalog_penalty", "title_spoiler", "clue_leaks", "length_penalty"):
+    for penalty_key in ("catalog_penalty", "title_spoiler", "clue_leaks",
+                        "length_penalty", "technical_notation_penalty"):
         val = scores.get(penalty_key, 0) or 0
         penalties += val
 
@@ -718,6 +814,7 @@ def generate_rankings(all_scores: Dict) -> List[Dict]:
             "tier": classify_tier(final),
             "word_quality": scores.get("word_quality"),
             "variety": scores.get("variety"),
+            "readability": scores.get("readability"),
             "connectivity": scores.get("connectivity"),
             "clueability": scores.get("clueability"),
             "discovery_curve": scores.get("discovery_curve"),
@@ -726,6 +823,7 @@ def generate_rankings(all_scores: Dict) -> List[Dict]:
             "title_spoiler": scores.get("title_spoiler"),
             "clue_leaks": scores.get("clue_leaks"),
             "length_penalty": scores.get("length_penalty"),
+            "technical_notation_penalty": scores.get("technical_notation_penalty"),
         })
 
     rows.sort(key=lambda r: r["final_score"], reverse=True)
@@ -737,9 +835,11 @@ def write_rankings_csv(rows: List[Dict], output_path: Path):
     output_path.parent.mkdir(parents=True, exist_ok=True)
     fieldnames = ["rank", "filename", "title", "total_score", "overall_rating",
                   "final_score", "tier", "score_type",
-                  "word_quality", "variety", "connectivity", "clueability",
+                  "word_quality", "variety", "readability",
+                  "connectivity", "clueability",
                   "discovery_curve", "narrative_interest", "catalog_penalty",
-                  "title_spoiler", "clue_leaks", "length_penalty"]
+                  "title_spoiler", "clue_leaks", "length_penalty",
+                  "technical_notation_penalty"]
     with open(output_path, "w", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(f, fieldnames=fieldnames)
         writer.writeheader()
@@ -849,10 +949,16 @@ Examples:
     nlp = _load_spacy_model()
 
     # Load existing scores (checkpoint)
+    # When --force is combined with --file, only clear those specific files
+    # rather than wiping the entire store.
+    all_scores = load_scores(_SCORES_FILE)
     if args.force:
-        all_scores = {}
-    else:
-        all_scores = load_scores(_SCORES_FILE)
+        if args.file:
+            for file_path in args.file:
+                key = Path(file_path).name
+                all_scores.pop(key, None)
+        else:
+            all_scores = {}
 
     # Load paragraph files
     paragraphs = load_paragraph_files(_DATA_DIR, args.file)
@@ -886,6 +992,12 @@ Examples:
             rule_scored += 1
 
         print(f"Rule-based scores computed for {rule_scored} paragraphs")
+
+        # Readability scoring (rule-based, no spaCy needed)
+        for filename, data in paragraphs:
+            rd_score, rd_reason = score_readability(data)
+            all_scores[filename]["scores"]["readability"] = rd_score
+            all_scores[filename]["reasons"]["readability"] = rd_reason
 
         # Save after rule-based phase
         stamp_summary_fields(all_scores)
@@ -958,6 +1070,25 @@ Examples:
             length_penalty_count += 1
     if length_penalty_count:
         print(f"Length penalty applied to {length_penalty_count} paragraphs")
+
+    # Technical notation penalty (always runs — no spaCy or LLM needed)
+    notation_penalty_count = 0
+    for filename, data in paragraphs:
+        tn_score, tn_reason = score_technical_notation_penalty(data)
+        if filename not in all_scores:
+            all_scores[filename] = {
+                "title": data.get("title", ""),
+                "date": data.get("date", ""),
+                "scores": {},
+                "reasons": {},
+                "has_llm_scores": False,
+            }
+        all_scores[filename]["scores"]["technical_notation_penalty"] = tn_score
+        all_scores[filename]["reasons"]["technical_notation_penalty"] = tn_reason
+        if tn_score < 0:
+            notation_penalty_count += 1
+    if notation_penalty_count:
+        print(f"Technical notation penalty applied to {notation_penalty_count} paragraphs")
 
     stamp_summary_fields(all_scores)
     save_scores(all_scores, _SCORES_FILE)

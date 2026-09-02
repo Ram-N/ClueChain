@@ -26,18 +26,25 @@ Does solving some words help guess others (cascade/momentum effect)?
 - 1: No cascade — every word is an isolated puzzle
 
 ### Narrative Interest (weight: 10%)
-Is the prose engaging, vivid, and interesting to read?
-- 10: Compelling storytelling or fascinating subject matter; a pleasure to read
-- 7: Interesting and well-written; holds attention
-- 4: Serviceable but dry; reads like a textbook
+Is the prose engaging, vivid, and interesting to read for a **casual word-game player** (not a specialist)?
+
+- 10: Compelling storytelling or fascinating subject matter written accessibly; a genuine pleasure to read
+- 7: Interesting and well-written; holds the attention of a curious non-expert
+- 4: Serviceable but dry; reads like a textbook or encyclopedia entry
 - 1: Boring, confusing, or poorly written
 
+**Hard caps — these automatically limit narrative_interest regardless of subject matter:**
+- **Cap at 3**: The prose requires specialist domain knowledge to follow (advanced mathematics, dense legal/medical/scientific jargon), OR mathematical/scientific notation is present (LaTeX, formulas, subscripts, variable sequences like "W₁, W₂, …")
+- **Cap at 5**: Heavy academic or bureaucratic register that a non-expert would find tedious, even if the topic is superficially interesting
+
+The audience is a general adult player, not an academic. "Fascinating subject matter" only earns a high score if it is also *accessible* to a curious non-expert.
+
 ### Catalog Penalty (0 to -3 raw deduction)
-Penalize list-like, encyclopedic, or catalog-style writing:
-- 0: Natural, flowing prose
-- -1: Some enumeration but mostly narrative
-- -2: Heavily list-based or encyclopedic (reads like a Wikipedia article or reference list)
-- -3: Pure catalog/list with minimal narrative connective tissue
+Penalize list-like, encyclopedic, academic, or catalog-style writing that makes the puzzle feel like homework:
+- 0: Natural, flowing, accessible narrative prose
+- -1: Some enumeration or mildly academic tone but mostly narrative
+- -2: Heavily list-based, encyclopedic, reads like a Wikipedia article, or dense academic prose (papers, textbooks, reference material)
+- -3: Pure catalog/list/technical reference with minimal narrative connective tissue
 
 ## Response Format
 
@@ -52,4 +59,4 @@ Respond with a JSON object containing:
 }
 ```
 
-Be calibrated and honest. Most paragraphs should score 4-7. Reserve 8+ for truly excellent work and below 3 for genuinely poor quality.
+Be calibrated and honest. Most paragraphs should score 4-7. Reserve 8+ for truly excellent work and below 3 for genuinely poor quality. Apply the narrative_interest hard caps strictly — do not let an interesting topic override them.

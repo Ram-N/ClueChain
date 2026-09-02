@@ -42,10 +42,11 @@ MMDD_DIR = SCRIPT_DIR.parent / "assets" / "data" / "puzzles" / "daily" / "mmdd"
 
 # Sub-score dimensions to pull from paragraph_scores.json
 _SCORE_DIMS = [
-    "word_quality", "variety",
+    "word_quality", "variety", "readability",
     "connectivity", "clueability", "discovery_curve", "narrative_interest",
 ]
-_PENALTY_DIMS = ["title_spoiler", "clue_leaks", "length_penalty", "catalog_penalty"]
+_PENALTY_DIMS = ["title_spoiler", "clue_leaks", "length_penalty", "catalog_penalty",
+                 "technical_notation_penalty"]
 
 
 def _load_puzzle_stats(mmdd: str) -> dict:
