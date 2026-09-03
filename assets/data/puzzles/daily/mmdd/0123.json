@@ -1,237 +1,228 @@
 {
-  "title": "Ursula K. Le Guin on myths",
+  "title": "The Zest Barometer",
   "date": "01-23",
-  "text": "It’s hard to think of another living author who has written so well for so long in so many styles as Ursula K. Le Guin. Best known as a novelist of science fiction (“The Left Hand of Darkness”) and fantasy (“A Wizard of Earthsea”), Le Guin has also written award-winning short stories in numerous genres, literary criticism, poetry, a novel set in Rome in the age of “The Aeneid” (“Lavinia”), and angry, eloquent essays against Amazon. So her book on writing – “Steering the Craft: A 21st Century Guide to Sailing the Sea of Story” – is not something any aspiring fiction writer should ignore. The book – significantly revised from its original 1998 edition – avoids laying down strict rules, but takes a back-to-basics approach to prose writing. Each chapter includes examples of good writing to emulate, including Tolkien and a tale from a Native American tribe of Oregon, but with emphasis on writers like Kipling, Dickens and Virginia Woolf. The book, in short, is both open and in some ways resolutely old-fashioned.",
+  "text": "Title: The Zest Barometer\n\nYou pause. You ask: “Does what I’m doing energize me or exhaust me?” That’s the whole test.\nThe needle measures one thing: the gap between what you say you care about and what your body is reporting. Your nervous system keeps receipts. You’ve just been too busy to look at them.\nThe first time, they hedge. The second time, they equivocate. By the third, the performance drops, and the truth shows up.\nWhat they usually realize is that they’ve been pushing through something for months, sometimes years, that’s\n been quietly leaking energy the whole time. The part that’s hardest to swallow is that they really knew the truth all along. \n They just didn’t have a name for what they knew.",
   "hiddenWords": [
     {
-      "word": "book",
-      "difficulty": "Easy",
-      "related_words": [
-        "writing",
-        "story"
-      ],
-      "clues": [
-        {
-          "clue": "A collection of pages with a cover, often filled with stories or knowledge.",
-          "type": "Indirect",
-          "points": 6
-        },
-        {
-          "clue": "Something you read for entertainment or education.",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "A bound collection of printed or written pages.",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "writing",
-      "difficulty": "Intermediate",
-      "related_words": [
-        "book",
-        "story"
-      ],
-      "clues": [
-        {
-          "clue": "A creative outlet that might involve a quill, a keyboard, or a whispered tale.",
-          "type": "Indirect",
-          "points": 5
-        },
-        {
-          "clue": "A creative activity that involves expressing thoughts and ideas through language",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "The process of putting thoughts into permanent form",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "story",
-      "difficulty": "Easy",
-      "related_words": [
-        "book",
-        "writing"
-      ],
-      "clues": [
-        {
-          "clue": "A sequence of events that are told or written, often with a beginning, middle, and end.",
-          "type": "Indirect",
-          "points": 6
-        },
-        {
-          "clue": "A narrative that is told or written, often for entertainment.",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "A tale or account of events.",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "author",
-      "difficulty": "Intermediate",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "A person who creates written content, like a book or article, often requiring skill and creativity.",
-          "type": "Indirect",
-          "points": 5
-        },
-        {
-          "clue": "The person who writes a book or article.",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "A writer of a book or article.",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "fiction",
-      "difficulty": "Hard",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "A genre of writing that is not based on fact, often used to explore the human condition.",
-          "type": "Indirect",
-          "points": 7
-        },
-        {
-          "clue": "A type of writing that is not based on real events or people.",
-          "type": "Suggestive",
-          "points": 4
-        },
-        {
-          "clue": "Writing that is not factual.",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "genre",
-      "difficulty": "Hard",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "A category of writing or art, often defined by its style or subject matter.",
-          "type": "Indirect",
-          "points": 7
-        },
-        {
-          "clue": "A type of writing or art that is defined by its style or subject matter.",
-          "type": "Suggestive",
-          "points": 4
-        },
-        {
-          "clue": "A category of artistic work.",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "chapter",
+      "word": "pause",
       "difficulty": "Easy",
       "related_words": [],
       "clues": [
         {
-          "clue": "A division of a book, often with its own title or heading.",
+          "clue": "A momentary halt that lets the spinning wheel of thought catch its breath.",
           "type": "Indirect",
           "points": 6
         },
         {
-          "clue": "A part of a book that deals with a particular topic.",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "A section of a book.",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "prose",
-      "difficulty": "Intermediate",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "A type of writing that is not poetry, often used for everyday communication.",
-          "type": "Indirect",
-          "points": 5
-        },
-        {
-          "clue": "Writing that is not in verse.",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "Ordinary written language.",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "emulate",
-      "difficulty": "Hard",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "To try to equal or surpass someone or something, often by imitating their actions or style.",
-          "type": "Indirect",
-          "points": 7
-        },
-        {
-          "clue": "To copy or imitate someone or something, often in order to learn or improve.",
+          "clue": "You do this when you need to stop moving forward to assess your current state.",
           "type": "Suggestive",
           "points": 4
         },
         {
-          "clue": "To imitate or copy someone or something.",
+          "clue": "A brief stop or suspension of activity.",
           "type": "Straight",
           "points": 1
         }
       ]
     },
     {
-      "word": "tribe",
+      "word": "energize",
       "difficulty": "Intermediate",
       "related_words": [],
       "clues": [
         {
-          "clue": "A social group of people who share a common culture, language, or ancestry.",
+          "clue": "To fill the empty tank with lightning, turning heavy limbs into spring-loaded steps.",
           "type": "Indirect",
-          "points": 5
+          "points": 7
         },
         {
-          "clue": "A group of people who share a common culture or ancestry.",
+          "clue": "An action that boosts your vitality and makes daily tasks feel lighter.",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "A group of people with a common culture.",
+          "clue": "To give strength or vigor to someone or something.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "exhaust",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The final sip from an empty cup, leaving behind only a hollow shell where vigor once lived.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "To drain completely of strength or resources until nothing remains.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "To tire out completely through extreme exertion or stress.",
           "type": "Straight",
           "points": 1
+        }
+      ]
+    },
+    {
+      "word": "needle",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A slender pointer that wanders across a dial, pointing fingers at unspoken truths.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A thin indicator on a gauge that shifts position to show changing levels.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A pointed instrument used for sewing or an indicator on a measuring instrument.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "receipts",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Paper trails that remember every purchase, proving exactly what was spent and when.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Records that document past transactions and serve as proof of payment.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Written acknowledgments that money has been paid for goods or services.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "equivocate",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Dancing around the direct answer by offering vague phrases that lead nowhere.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "To use ambiguous language to conceal the truth or avoid committing to a position.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "To speak in a deliberately unclear or misleading way.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "performance",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The stage act you put on for others, often hiding the quiet struggle backstage.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "The manner in which a task or duty is executed or carried out.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "The action or process of carrying out or accomplishing an action, task, or function.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "realize",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "When the fog lifts and the hidden picture suddenly clicks into sharp focus.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "To become fully aware of something as a fact, often through sudden understanding.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "To understand or comprehend something clearly.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "leaking",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A slow drip from a hidden crack that quietly empties the reservoir over time.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Escaping gradually from a container or system through small openings or faults.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Allowing liquid or gas to escape unintentionally through a hole or crack.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "swallow",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Taking a bitter pill without complaint, letting it slide down into the depths.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "To accept or tolerate something unpleasant without showing resistance or protest.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "To cause food or liquid to pass down the throat into the stomach.",
+          "type": "Straight",
+          "points": 2
         }
       ]
     }
   ],
-  "id": "ClueChain-2026-01-23"
+  "id": "ClueChain-2026-01-01"
 }

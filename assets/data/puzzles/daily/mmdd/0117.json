@@ -1,232 +1,237 @@
 {
-  "title": "History of Geography",
+  "title": "In Search of Ouologuem",
   "date": "01-17",
-  "text": "History of geography\nNational Geographic\n\nOf course, the Greeks were not the only people interested in geography, nor were they the first. \nThroughout human history, most societies have sought to understand something about their \nplace in the world and the people and environments around them. Mesopotamian societies \ninscribed maps on clay tablets, some of which survive to this day. The earliest known \nattempt at mapping the world is a Babylonian clay tablet known as the Imago Mundi. \n\nThis map, created in the sixth century B.C.E., is more of a metaphorical and spiritual \nrepresentation of Babylonian society rather than an accurate depiction of geography. \nOther Mesopotamian maps were more practical, marking irrigation networks and landholdings.",
+  "text": "Title: In Search of Ouologuem\n\nUnique works of literature trigger deep amazement, and some suspicion: is this the work of a single mind? This must have been especially so in the case of a young black man who exhibited arrogance and confidence on every page. Ouologuem was not yet thirty when he authored his remarkable novel. No doubt, some felt that something did not add up and that there were things concealed from critics and readers pertaining to his work—a secret, a scandal.",
   "hiddenWords": [
     {
-      "word": "metaphorical",
-      "difficulty": "Intermediate",
+      "word": "Unique",
+      "difficulty": "Easy",
       "related_words": [],
       "clues": [
         {
-          "clue": "A way to describe something that's not literally true, but conveys a deeper meaning, like a poet's verse.",
-          "type": "Indirect",
-          "points": 6
-        },
-        {
-          "clue": "This concept is often used in art and literature to convey complex ideas or emotions, making it a useful tool for creatives.",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "A figure of speech that uses an object or idea to represent something else.",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "societies",
-      "difficulty": "Intermediate",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "Groups of people with shared customs and values.",
+          "clue": "No two fingerprints have ever matched; no snowflake has a twin.",
           "type": "Indirect",
           "points": 5
         },
         {
-          "clue": "Human groups with their own distinct culture and social structures.",
+          "clue": "Something that exists only once, belonging to no category but its own.",
           "type": "Suggestive",
-          "points": 4
+          "points": 3
         },
         {
-          "clue": "A group of people who share a common culture and social organization.",
+          "clue": "One of a kind; unlike anything else.",
           "type": "Straight",
-          "points": 1
+          "points": 2
         }
       ]
     },
     {
-      "word": "maps",
+      "word": "Novel",
       "difficulty": "Easy",
       "related_words": [
-        "societies"
+        "Literature",
+        "Critics"
       ],
       "clues": [
         {
-          "clue": "Visual representations of an area, used for navigation.",
+          "clue": "Before it became a genre, this word simply meant something refreshingly new.",
           "type": "Indirect",
           "points": 6
         },
         {
-          "clue": "Tools used to represent the layout of an area.",
+          "clue": "What a first-time invention is — and also what you'll find on the fiction shelf.",
           "type": "Suggestive",
-          "points": 3
+          "points": 4
         },
         {
-          "clue": "A visual representation of an area, typically on a flat surface.",
+          "clue": "A long work of fiction — or an adjective meaning fresh and new.",
           "type": "Straight",
-          "points": 1
+          "points": 2
         }
       ]
     },
     {
-      "word": "people",
+      "word": "Critics",
       "difficulty": "Easy",
       "related_words": [
-        "societies"
+        "Literature",
+        "Novel"
       ],
       "clues": [
         {
-          "clue": "Humans, with their unique experiences and perspectives.",
-          "type": "Indirect",
-          "points": 6
-        },
-        {
-          "clue": "Individuals who make up a society or community.",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "Human beings, as individuals or in groups.",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "environments",
-      "difficulty": "Intermediate",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "The natural world, including living and non-living components.",
+          "clue": "They attend every opening night but never take the stage.",
           "type": "Indirect",
           "points": 5
         },
         {
-          "clue": "The external surroundings in which an organism or ecosystem lives.",
-          "type": "Suggestive",
-          "points": 4
-        },
-        {
-          "clue": "The natural surroundings in which an organism or ecosystem lives.",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "place",
-      "difficulty": "Easy",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "A location or position, either physical or metaphorical.",
-          "type": "Indirect",
-          "points": 6
-        },
-        {
-          "clue": "A particular location or point in space.",
+          "clue": "Professionals who evaluate and publish opinions on art, film, or books.",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "A location or position in space.",
+          "clue": "People who judge and review creative works.",
           "type": "Straight",
-          "points": 1
+          "points": 2
         }
       ]
     },
     {
-      "word": "world",
+      "word": "Page",
       "difficulty": "Easy",
       "related_words": [],
       "clues": [
         {
-          "clue": "The planet we inhabit, with all its diverse features and inhabitants.",
-          "type": "Indirect",
-          "points": 6
-        },
-        {
-          "clue": "The Earth, including its physical features, human populations, and natural environments.",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "The planet Earth, with its diverse features and inhabitants.",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": " networks",
-      "difficulty": "Intermediate",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "Complex systems of interconnected components.",
+          "clue": "In a castle, they ran errands for royalty; in a library, you turn them one by one.",
           "type": "Indirect",
           "points": 5
         },
         {
-          "clue": "Systems of interconnected things, such as roads or rivers.",
+          "clue": "A single leaf in a book, or a young attendant in a royal court.",
           "type": "Suggestive",
-          "points": 4
+          "points": 3
         },
         {
-          "clue": "A system of interconnected things or people.",
+          "clue": "One side of a sheet in a book or document.",
           "type": "Straight",
           "points": 1
         }
       ]
     },
     {
-      "word": "landholdings",
+      "word": "Literature",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "Novel",
+        "Critics"
+      ],
+      "clues": [
+        {
+          "clue": "Written words that outlive their creators, building bridges across centuries.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "The collective body of written works valued for artistic merit and intellectual depth.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Written works, especially those considered of superior or lasting artistic merit.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "Amazement",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The gasp that escapes when reality defies all expectation.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A feeling of great surprise or wonder, often triggered by something extraordinary.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A strong feeling of surprise or wonder.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "Suspicion",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A quiet doubt that whispers when facts refuse to align.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "An uneasy feeling that something is wrong or hidden, without concrete proof.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A feeling or belief that something is wrong or that someone is guilty of something.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "Concealed",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Hidden in plain sight, waiting for a keen eye to reveal the truth.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Kept out of sight or secret from others, often intentionally.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Kept from being seen; hidden.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "Arrogance",
       "difficulty": "Hard",
       "related_words": [],
       "clues": [
         {
-          "clue": "Areas of land owned or controlled by individuals or groups.",
+          "clue": "A crown made of pride that blinds the wearer to reality.",
           "type": "Indirect",
           "points": 7
         },
         {
-          "clue": "Portions of land that are owned or managed by someone.",
+          "clue": "An exaggerated sense of self-importance that often pushes others away.",
           "type": "Suggestive",
           "points": 4
         },
         {
-          "clue": "Areas of land that are owned or controlled by someone.",
+          "clue": "An attitude of superiority manifested in an overbearing way.",
           "type": "Straight",
-          "points": 1
+          "points": 2
         }
       ]
     },
     {
-      "word": "century",
+      "word": "Scandal",
       "difficulty": "Hard",
       "related_words": [],
       "clues": [
         {
-          "clue": "A period of 100 years, used to measure time.",
+          "clue": "Whispers that turn into shouts, tarnishing a reputation overnight.",
           "type": "Indirect",
-          "points": 7
+          "points": 6
         },
         {
-          "clue": "A unit of time, equal to 100 years.",
+          "clue": "An action or event that causes public outrage due to perceived immorality or wrongdoing.",
           "type": "Suggestive",
           "points": 4
         },
         {
-          "clue": "A period of 100 years.",
+          "clue": "An action regarded as socially offensive and causing public outrage.",
           "type": "Straight",
-          "points": 1
+          "points": 2
         }
       ]
     }
   ],
-  "id": "ClueChain-2026-01-17"
+  "id": "ClueChain-2026-02-01"
 }

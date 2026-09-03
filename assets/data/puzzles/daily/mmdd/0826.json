@@ -1,232 +1,237 @@
 {
-  "title": "Robotic surgery — Gastrointestinal",
+  "title": "The Thirst",
   "date": "08-26",
-  "text": "Multiple types of procedures have been performed with either the 'Zeus' or da Vinci robot systems, including bariatric surgery and gastrectomy for cancer. Surgeons at various universities initially published case series demonstrating different techniques and the feasibility of GI surgery using the robotic devices. Specific procedures have been more fully evaluated, specifically esophageal fundoplication for the treatment of gastroesophageal reflux and Heller myotomy for the treatment of achalasia. Robot-assisted pancreatectomies have been found to be associated with \"longer operating time, lower estimated blood loss, a higher spleen-preservation rate, and shorter hospital stay[s]\" than laparoscopic pancreatectomies; there was \"no significant difference in transfusion, conversion to open surgery, overall complications, severe complications, pancreatic fistula, severe pancreatic fistula, ICU stay, total cost, and 30-day mortality between the two groups.\"",
+  "text": "Title: The Thirst\n\nIn the vast emptiness of the Namib Desert, a small black beetle waits every morning for a cold Atlantic fog. Perched at the dune’s crest, it contorts itself into an improbable headstand, hind legs stretched skyward, patient for droplets to condense and drip from its bumpy shell into its mouth. In this place—one of Earth’s oldest deserts, receiving less than half an inch of rain annually—this is survival and the beetle knows no other way.",
   "hiddenWords": [
     {
-      "word": "procedures",
+      "word": "emptiness",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "When a crowded theater clears out, you are left staring at rows of vacant seats and hollow space.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Often described as a void or vacuum, this state lacks any visible objects or life.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A complete lack of contents or occupants.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "beetle",
       "difficulty": "Easy",
       "related_words": [],
       "clues": [
         {
-          "clue": "A series of actions taken to achieve a specific goal.",
+          "clue": "I wear a hard coat and six walking sticks, often mistaken for a tiny armored tank.",
           "type": "Indirect",
-          "points": 6
+          "points": 7
         },
         {
-          "clue": "Methods used to accomplish a task or treatment.",
+          "clue": "A small insect known for its tough outer covering and chewing mouthparts.",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "Actions or steps taken to accomplish something.",
+          "clue": "A type of insect with hardened forewings.",
           "type": "Straight",
           "points": 1
         }
       ]
     },
     {
-      "word": "fistula",
+      "word": "perched",
       "difficulty": "Intermediate",
       "related_words": [],
       "clues": [
         {
-          "clue": "A tunnel or pipe that's not for transport, but a medical issue to report.",
+          "clue": "Like a sparrow on a telephone wire, you sit high up on a narrow edge without falling.",
           "type": "Indirect",
-          "points": 6
+          "points": 5
         },
         {
-          "clue": "This condition can arise after certain operations, causing concern for patients and doctors alike.",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "An abnormal connection or passageway between two body parts.",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "universities",
-      "difficulty": "Intermediate",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "Institutions where knowledge is gained through higher education.",
-          "type": "Indirect",
-          "points": 6
-        },
-        {
-          "clue": "Places where research and learning take place.",
+          "clue": "To rest or sit on a high, often narrow, support.",
           "type": "Suggestive",
           "points": 4
         },
         {
-          "clue": "Institutions of higher learning.",
+          "clue": "Positioned on a raised surface.",
           "type": "Straight",
           "points": 2
         }
       ]
     },
     {
-      "word": "esophageal",
+      "word": "contorts",
       "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Twist your body into strange shapes, much like a pretzel being bent out of its normal form.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "To bend or twist something out of its natural shape.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Distorts or twists into awkward positions.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "improbable",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A story about a talking toaster winning the presidency feels wildly unlikely to happen.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Not expected to happen; seeming very unlikely or unreasonable.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Unlikely to be true or happen.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "droplets",
+      "difficulty": "Intermediate",
       "related_words": [
-        "reflux"
+        "condense",
+        "survival"
       ],
       "clues": [
         {
-          "clue": "A tube that carries food from the throat to the stomach.",
-          "type": "Indirect",
-          "points": 7
-        },
-        {
-          "clue": "Relating to the part of the digestive system that connects the throat and stomach.",
-          "type": "Suggestive",
-          "points": 4
-        },
-        {
-          "clue": "Relating to the tube that carries food from the throat to the stomach",
-          "type": "Straight",
-          "points": 2
-        }
-      ]
-    },
-    {
-      "word": "cancer",
-      "difficulty": "Intermediate",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "Cellular chaos that's unwelcome, a troublesome growth to abate.",
+          "clue": "Tiny spheres of water fall from the clouds, each one a miniature mirror reflecting the sky.",
           "type": "Indirect",
           "points": 6
         },
         {
-          "clue": "A condition that might require surgical intervention, such as gastrectomy.",
+          "clue": "Small drops of liquid, often formed by moisture gathering on a surface.",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "A malignant disease.",
+          "clue": "Tiny drops of liquid.",
           "type": "Straight",
           "points": 1
         }
       ]
     },
     {
-      "word": "reflux",
+      "word": "condense",
       "difficulty": "Intermediate",
       "related_words": [
-        "esophageal"
+        "droplets",
+        "survival"
       ],
       "clues": [
         {
-          "clue": "A condition where liquid flows back into a container or the body.",
+          "clue": "When your breath turns into a cloud on a cold window, this physical change has just occurred.",
           "type": "Indirect",
-          "points": 6
+          "points": 5
         },
         {
-          "clue": "A condition where stomach acid flows back into the esophagus.",
+          "clue": "To change from a gas into a liquid state.",
           "type": "Suggestive",
           "points": 4
         },
         {
-          "clue": "The act of flowing back.",
+          "clue": "To make something denser or change vapor into liquid.",
           "type": "Straight",
           "points": 2
         }
       ]
     },
     {
-      "word": "pancreatectomies",
-      "difficulty": "Hard",
-      "related_words": [],
+      "word": "survival",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "droplets",
+        "condense"
+      ],
       "clues": [
         {
-          "clue": "Surgical removal of a specific organ.",
+          "clue": "Staying alive through harsh winters or scarce food requires nothing less than this relentless drive.",
           "type": "Indirect",
           "points": 7
         },
         {
-          "clue": "A surgical procedure often used to treat tumors or cysts in a vital organ near the stomach and small intestine.",
+          "clue": "The state of continuing to live or exist, especially in difficult conditions.",
           "type": "Suggestive",
-          "points": 4
+          "points": 3
         },
         {
-          "clue": "Surgical procedure to remove a specific organ",
+          "clue": "The fact of continuing to live or exist.",
           "type": "Straight",
-          "points": 2
+          "points": 1
         }
       ]
     },
     {
-      "word": "laparoscopic",
-      "difficulty": "Intermediate",
+      "word": "annually",
+      "difficulty": "Easy",
       "related_words": [],
       "clues": [
         {
-          "clue": "A minimally invasive surgical procedure using a camera.",
+          "clue": "You pay this insurance premium once every twelve months, marking the turn of the calendar.",
           "type": "Indirect",
           "points": 6
         },
         {
-          "clue": "A type of surgery that uses small incisions and a camera.",
+          "clue": "Happening once every year or on a yearly basis.",
           "type": "Suggestive",
           "points": 4
         },
         {
-          "clue": "Minimally invasive surgical technique using small incisions",
+          "clue": "Once a year.",
           "type": "Straight",
           "points": 2
         }
       ]
     },
     {
-      "word": "complications",
-      "difficulty": "Intermediate",
+      "word": "skyward",
+      "difficulty": "Easy",
       "related_words": [],
       "clues": [
         {
-          "clue": "Problems that arise during or after a process.",
+          "clue": "Look up toward the clouds and birds, following the path that rockets take when they launch.",
           "type": "Indirect",
-          "points": 6
+          "points": 5
         },
         {
-          "clue": "Unfavorable conditions that can develop during a disease or treatment.",
+          "clue": "Directed or moving upward toward the heavens.",
           "type": "Suggestive",
           "points": 4
         },
         {
-          "clue": "Difficulties or problems that arise.",
+          "clue": "Toward the sky.",
           "type": "Straight",
-          "points": 2
-        }
-      ]
-    },
-    {
-      "word": "mortality",
-      "difficulty": "Hard",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "The state of being subject to death.",
-          "type": "Indirect",
-          "points": 7
-        },
-        {
-          "clue": "The number of deaths in a given area or period.",
-          "type": "Suggestive",
-          "points": 4
-        },
-        {
-          "clue": "Death rate or the number of deaths in a given area or period",
-          "type": "Straight",
-          "points": 2
+          "points": 1
         }
       ]
     }
   ],
-  "id": "ClueChain-2026-08-26"
+  "id": "ClueChain-2026-03-01"
 }

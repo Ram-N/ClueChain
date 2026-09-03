@@ -1,234 +1,236 @@
 {
-  "title": "Renewal theory — Interpretation",
+  "title": "To Remember",
   "date": "09-01",
-  "text": "Title: Renewal theory — Interpretation\n\nIn the context of the above interpretation of the holding times as the time between successive malfunctions of a machine, the \"rewards\" W 1 , W 2 , … {displaystyle W_{1},W_{2},ldots } (which in this case happen to be negative) may be viewed as the successive repair costs incurred as a result of the successive malfunctions. An alternative analogy is that we have a magic goose which lays eggs at intervals (holding times) distributed as S i {displaystyle S_{i}} . Sometimes it lays golden eggs of random weight, and sometimes it lays toxic eggs (also of random weight) which require responsible (and costly) disposal. The \"rewards\" W i {displaystyle W_{i}} are the successive (random) financial losses/gains resulting from successive eggs (i = 1,2,3,...) and Y t {displaystyle Y_{t}} records the total financial \"reward\" at time t.",
+  "text": "Title: To Remember\n\nI shot my first roll of film when I was in Class 6 on a store-bought plastic camera. A senior I liked had asked if \nI would photograph her best friend’s birthday party. I agreed, not knowing how to use a film camera or load and \nshoot film. There was no one to teach me and the internet didn’t exist—at least not for us, in the South Indian \ntown of Madurai in the early 2000s. We were still learning how to make a small triangle move \nupwards and sideways in computer class, and I only paid attention because I had a massive crush on the teacher. But I digress.",
   "hiddenWords": [
     {
-      "word": "machine",
+      "word": "camera",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "photograph"
+      ],
+      "clues": [
+        {
+          "clue": "A glass-eyed eye that captures moments without blinking, waiting patiently for the shutter to click.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "This handheld device uses lenses to record light onto a sensitive surface, preserving memories for future viewing.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A device for taking photographs.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "photograph",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "camera"
+      ],
+      "clues": [
+        {
+          "clue": "To freeze a fleeting second in time, trapping light and shadow on a flat surface so the moment never truly fades.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Capturing an image using a specialized lens and light-sensitive medium.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "To take a picture.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "internet",
       "difficulty": "Easy",
       "related_words": [],
       "clues": [
         {
-          "clue": "A device or system that performs a repeating mechanical or automated process.",
+          "clue": "A vast digital web connecting billions of minds across oceans, yet completely absent in our sleepy town back then.",
           "type": "Indirect",
-          "points": 6
+          "points": 7
         },
         {
-          "clue": "A tool that makes work easier",
+          "clue": "A global network of computers that allows instant sharing of information, emails, and websites.",
           "type": "Suggestive",
-          "points": 3
+          "points": 4
         },
         {
-          "clue": "Device with moving parts",
+          "clue": "The worldwide system of interconnected computer networks.",
           "type": "Straight",
           "points": 1
         }
       ]
     },
     {
-      "word": "malfunctions",
+      "word": "triangle",
       "difficulty": "Intermediate",
       "related_words": [
-        "machine",
-        "repair"
+        "computer"
       ],
       "clues": [
         {
-          "clue": "The reason you need a repair kit, because something went terribly wrong",
+          "clue": "Three straight lines meeting at three corners, forming the simplest shape that can enclose space.",
           "type": "Indirect",
-          "points": 5
+          "points": 6
         },
         {
-          "clue": "A breakdown or failure of a system",
+          "clue": "A geometric figure with exactly three sides and three angles.",
           "type": "Suggestive",
-          "points": 3
+          "points": 4
         },
         {
-          "clue": "When something stops working as expected",
+          "clue": "A three-sided polygon.",
           "type": "Straight",
-          "points": 2
+          "points": 1
         }
       ]
     },
     {
-      "word": "repair",
-      "difficulty": "Intermediate",
+      "word": "computer",
+      "difficulty": "Easy",
       "related_words": [
-        "machine",
-        "malfunctions"
+        "triangle"
       ],
       "clues": [
         {
-          "clue": "What you do when your machine stops working, or when a goose lays a toxic egg",
-          "type": "Indirect",
-          "points": 7
-        },
-        {
-          "clue": "The process of restoring something to working condition",
-          "type": "Suggestive",
-          "points": 4
-        },
-        {
-          "clue": "Fixing something that's broken",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "costly",
-      "difficulty": "Hard",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "Like the price of gold, but not as shiny",
-          "type": "Indirect",
-          "points": 6
-        },
-        {
-          "clue": "Requiring a lot of money or resources",
-          "type": "Suggestive",
-          "points": 4
-        },
-        {
-          "clue": "Something that is expensive",
-          "type": "Straight",
-          "points": 2
-        }
-      ]
-    },
-    {
-      "word": "financial",
-      "difficulty": "Intermediate",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "Relating to money, banking, or the management of funds and assets.",
+          "clue": "A silicon brain that processes ones and zeros, turning silent circuits into moving pixels on a glowing screen.",
           "type": "Indirect",
           "points": 5
         },
         {
-          "clue": "Concerning the management of money",
+          "clue": "An electronic machine that stores, processes, and displays data according to programmed instructions.",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "Related to money or wealth",
+          "clue": "An electronic device for manipulating and processing data.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "attention",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The spotlight of the mind that chooses which whisper to hear and which noise to ignore.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Mental focus directed toward a particular object, sound, or person.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Notice or interest paid to something.",
           "type": "Straight",
           "points": 1
         }
       ]
     },
     {
-      "word": "intervals",
-      "difficulty": "Hard",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "Periods of time between successive events or occurrences.",
-          "type": "Indirect",
-          "points": 7
-        },
-        {
-          "clue": "Gaps or spaces between things",
-          "type": "Suggestive",
-          "points": 4
-        },
-        {
-          "clue": "A period of time between events",
-          "type": "Straight",
-          "points": 2
-        }
-      ]
-    },
-    {
-      "word": "distributed",
-      "difficulty": "Hard",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "Like the eggs laid by a magic goose, they follow a pattern",
-          "type": "Indirect",
-          "points": 6
-        },
-        {
-          "clue": "Arranged or divided in a particular way",
-          "type": "Suggestive",
-          "points": 4
-        },
-        {
-          "clue": "Spread out or scattered",
-          "type": "Straight",
-          "points": 2
-        }
-      ]
-    },
-    {
-      "word": "responsible",
+      "word": "massive",
       "difficulty": "Intermediate",
       "related_words": [],
       "clues": [
         {
-          "clue": "Like the owner of a magic goose, you must take care of its eggs",
+          "clue": "When a feeling grows so heavy it could sink a ship, yet floats effortlessly in a teenager's heart.",
           "type": "Indirect",
           "points": 5
         },
         {
-          "clue": "Being accountable for something",
+          "clue": "Extremely large in scale, extent, or intensity.",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "Having control or authority",
+          "clue": "Very large or great in scale or amount.",
           "type": "Straight",
           "points": 1
         }
       ]
     },
     {
-      "word": "disposal",
-      "difficulty": "Hard",
+      "word": "crush",
+      "difficulty": "Easy",
       "related_words": [],
       "clues": [
         {
-          "clue": "What you do with toxic eggs, but not the golden ones",
+          "clue": "A secret storm of butterflies that blooms in the chest whenever a specific face walks into the room.",
           "type": "Indirect",
           "points": 6
         },
         {
-          "clue": "A way of throwing away or removing waste",
+          "clue": "A temporary but intense infatuation or romantic attraction, often experienced during adolescence.",
           "type": "Suggestive",
           "points": 4
         },
         {
-          "clue": "The act of getting rid of something",
+          "clue": "An intense but short-lived romantic attraction.",
           "type": "Straight",
           "points": 2
         }
       ]
     },
     {
-      "word": "successive",
+      "word": "teacher",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A guide who plants seeds of knowledge in young minds, hoping they bloom long after the chalk dust settles.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "A professional who instructs students in a school or academic setting.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A person who instructs, especially in a school.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "digress",
       "difficulty": "Hard",
       "related_words": [],
       "clues": [
         {
-          "clue": "Like the eggs laid by a magic goose, each one is a surprise",
+          "clue": "To wander down a scenic side path only to realize the main road has been waiting patiently for your return.",
           "type": "Indirect",
           "points": 7
         },
         {
-          "clue": "Happening or done one after the other",
+          "clue": "To leave the main subject temporarily in speaking or writing.",
           "type": "Suggestive",
           "points": 4
         },
         {
-          "clue": "Following one after another",
+          "clue": "To deviate from the main topic.",
           "type": "Straight",
           "points": 2
         }
       ]
     }
   ],
-  "id": "ClueChain-2026-09-01"
+  "id": "ClueChain-2026-04-01"
 }

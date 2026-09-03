@@ -1,0 +1,232 @@
+{
+  "title": "Robotic surgery — Gastrointestinal",
+  "date": "08-26",
+  "text": "Multiple types of procedures have been performed with either the 'Zeus' or da Vinci robot systems, including bariatric surgery and gastrectomy for cancer. Surgeons at various universities initially published case series demonstrating different techniques and the feasibility of GI surgery using the robotic devices. Specific procedures have been more fully evaluated, specifically esophageal fundoplication for the treatment of gastroesophageal reflux and Heller myotomy for the treatment of achalasia. Robot-assisted pancreatectomies have been found to be associated with \"longer operating time, lower estimated blood loss, a higher spleen-preservation rate, and shorter hospital stay[s]\" than laparoscopic pancreatectomies; there was \"no significant difference in transfusion, conversion to open surgery, overall complications, severe complications, pancreatic fistula, severe pancreatic fistula, ICU stay, total cost, and 30-day mortality between the two groups.\"",
+  "hiddenWords": [
+    {
+      "word": "procedures",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A series of actions taken to achieve a specific goal.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Methods used to accomplish a task or treatment.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Actions or steps taken to accomplish something.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "fistula",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A tunnel or pipe that's not for transport, but a medical issue to report.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "This condition can arise after certain operations, causing concern for patients and doctors alike.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "An abnormal connection or passageway between two body parts.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "universities",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Institutions where knowledge is gained through higher education.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Places where research and learning take place.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Institutions of higher learning.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "esophageal",
+      "difficulty": "Hard",
+      "related_words": [
+        "reflux"
+      ],
+      "clues": [
+        {
+          "clue": "A tube that carries food from the throat to the stomach.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Relating to the part of the digestive system that connects the throat and stomach.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Relating to the tube that carries food from the throat to the stomach",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "cancer",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Cellular chaos that's unwelcome, a troublesome growth to abate.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A condition that might require surgical intervention, such as gastrectomy.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A malignant disease.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "reflux",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "esophageal"
+      ],
+      "clues": [
+        {
+          "clue": "A condition where liquid flows back into a container or the body.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A condition where stomach acid flows back into the esophagus.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "The act of flowing back.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "pancreatectomies",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Surgical removal of a specific organ.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "A surgical procedure often used to treat tumors or cysts in a vital organ near the stomach and small intestine.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Surgical procedure to remove a specific organ",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "laparoscopic",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "A minimally invasive surgical procedure using a camera.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "A type of surgery that uses small incisions and a camera.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Minimally invasive surgical technique using small incisions",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "complications",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Problems that arise during or after a process.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Unfavorable conditions that can develop during a disease or treatment.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Difficulties or problems that arise.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "mortality",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The state of being subject to death.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "The number of deaths in a given area or period.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Death rate or the number of deaths in a given area or period",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    }
+  ],
+  "id": "ClueChain-2026-08-26"
+}
