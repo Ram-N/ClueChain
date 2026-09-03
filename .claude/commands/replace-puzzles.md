@@ -47,18 +47,23 @@ Generate new puzzles from an input text file, score them, compare against the lo
 
 6. Show the user the paragraph count and titles from the dry-run output. If `--dry-run` was passed in `$ARGUMENTS`, stop here.
 
-7. Ask the user: "Found N paragraphs. Proceed with generation? (This will make API calls.)"
+7. Tell the user the paragraph count from the dry-run and give them the generation command to run themselves:
 
-8. If user confirms, **generate** into staging:
-   ```bash
+   ```
+   Found N paragraphs. Run this command to generate (makes Groq API calls):
+
    python scripts/batch_generate_cluechain_json.py \
      --file scripts/input/{filename} \
      --category REPLACE --day 1 \
      --output-dir assets/data/staging \
      --continue-on-error --delay 15
+
+   Let me know when it's done (paste the output or just say "done").
    ```
 
-9. Report success/failure counts. If any failed, warn but continue to Stage 2 if at least one file was generated. If zero files generated, stop.
+   **Stop and wait for the user to run it and report back.**
+
+8. Once the user confirms completion, ask them for the success/failure counts if not already clear from their output. If any failed, warn but continue to Stage 2 if at least one file was generated. If zero files generated, stop.
 
 ---
 
