@@ -1,7 +1,7 @@
 // Main entry point for ParaSight
 import { initializeGame, getAvailableDates } from "./js/game-controller.js?v=1.1";
-import { setupHelpButton } from "./assets/js/help-modal.js";
-import { DailyCalendar } from "./assets/js/daily-calendar.js";
+import { setupHelpButton } from "../shared/components/help-modal.js";
+import { DailyCalendar } from "../shared/components/daily-calendar.js";
 
 // Initialize the game when the window loads
 window.onload = async () => {
