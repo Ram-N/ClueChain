@@ -1,236 +1,239 @@
 {
-  "title": "ClueChain Challenge",
+  "title": "Morocco Communications",
   "date": "06-11",
-  "text": "Title: Our brains may be special, but they are mostly soft, squishy bundles of fat, water and various proteins and carbohydrates. Obviously, we need a rock-hard skull to protect all this precious matter, but sometimes our brains still get damaged.",
+  "topic": "Culture",
+  "themes": [
+    "travel",
+    "Morocco",
+    "community",
+    "communication"
+  ],
+  "summary": "Michael Chabon's family discovers that Morocco has an uncanny informal network — information about visiting strangers seems to travel ahead of them wherever they go.",
+  "text": "The next village was indistinguishable from the first, but here, for some reason, we barely drew a glance from the schoolchildren. It was as if all the relevant data on us had been gathered by the first group and transmitted to the second by no visible means. Word simply seemed to have spread: six Americans; Brad Pitt or Malia Obama not among them. Somehow, in the midst of our own lostness and ignorance, we found ourselves abruptly known.\n\nThat kind of thing happened to us all the time in Morocco. If we stiffed a kid at the far end of the medina for \"helping\" us find the way to a square that we already knew how to get to, a kid over in our end of town would seem to have heard about it and try to collect. When Abe felt sick on a hike in the foothills of the Atlas mountains, a muleteer appeared, seemingly out of nowhere, and set Abe onto his ready-saddled mule so we could carry on.",
   "hiddenWords": [
     {
-      "word": "special",
+      "word": "glance",
       "difficulty": "Easy",
       "related_words": [],
       "clues": [
         {
-          "clue": "One of a kind, in a way",
+          "clue": "Less than a stare, more than nothing — the eye's brief brush with something.",
           "type": "Indirect",
           "points": 5
         },
         {
-          "clue": "Having a unique quality",
+          "clue": "A quick, casual look.",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "Unique or exceptional",
+          "clue": "A brief look.",
           "type": "Straight",
           "points": 1
         }
       ]
     },
     {
-      "word": "squishy",
-      "difficulty": "Intermediate",
+      "word": "spread",
+      "difficulty": "Easy",
       "related_words": [
-        "soft"
+        "transmitted"
       ],
       "clues": [
         {
-          "clue": "Like a certain type of toy",
+          "clue": "Gossip does it, butter does it, wildfire does it — all without permission.",
           "type": "Indirect",
           "points": 6
         },
         {
-          "clue": "Having a yielding nature",
-          "type": "Suggestive",
-          "points": 4
-        },
-        {
-          "clue": "Not firm or solid",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "soft",
-      "difficulty": "Easy",
-      "related_words": [
-        "squishy"
-      ],
-      "clues": [
-        {
-          "clue": "Gentle as a summer breeze",
-          "type": "Indirect",
-          "points": 5
-        },
-        {
-          "clue": "Lacking in firmness",
+          "clue": "To move outward from a source, reaching more people or places.",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "Not hard or rigid",
+          "clue": "To move across a wider area.",
           "type": "Straight",
           "points": 1
         }
       ]
     },
     {
-      "word": "bundles",
+      "word": "foothills",
+      "difficulty": "Easy",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Where mountains begin to introduce themselves before the real conversation starts.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "The low hills at the base of a mountain range.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Low hills at the edge of a mountain range.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "transmitted",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "spread"
+      ],
+      "clues": [
+        {
+          "clue": "What a radio station does, and what a crowd seems to do with information using no technology at all.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Sent from one person or place to another.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Sent or passed along to someone else.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "relevant",
       "difficulty": "Intermediate",
       "related_words": [],
       "clues": [
         {
-          "clue": "Like a bunch of sticks tied together",
+          "clue": "The quality that separates useful information from noise.",
           "type": "Indirect",
           "points": 6
         },
         {
-          "clue": "A collection of things tied or wrapped together",
+          "clue": "Directly connected to the matter at hand.",
           "type": "Suggestive",
-          "points": 4
+          "points": 3
         },
         {
-          "clue": "A group of things gathered together",
+          "clue": "Applicable or pertinent to the situation.",
           "type": "Straight",
-          "points": 2
+          "points": 1
         }
       ]
     },
     {
-      "word": "proteins",
-      "difficulty": "Hard",
-      "related_words": [
-        "carbohydrates"
-      ],
+      "word": "abruptly",
+      "difficulty": "Intermediate",
+      "related_words": [],
       "clues": [
         {
-          "clue": "Building blocks of life, in a way",
+          "clue": "How a conversation ends when someone says the wrong thing.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Suddenly and without warning.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Suddenly and unexpectedly.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "ignorance",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The tourists carry it like luggage — heavy, obvious, visible to everyone but themselves.",
           "type": "Indirect",
           "points": 7
         },
         {
-          "clue": "Complex molecules essential for life",
+          "clue": "A lack of awareness or knowledge about something.",
           "type": "Suggestive",
           "points": 4
         },
         {
-          "clue": "Large biological molecules",
+          "clue": "The state of being uninformed.",
           "type": "Straight",
           "points": 2
         }
       ]
     },
     {
-      "word": "carbohydrates",
-      "difficulty": "Hard",
-      "related_words": [
-        "proteins"
-      ],
-      "clues": [
-        {
-          "clue": "Energy sources for the body",
-          "type": "Indirect",
-          "points": 6
-        },
-        {
-          "clue": "Common source of energy for the human body, found in foods like bread and pasta",
-          "type": "Suggestive",
-          "points": 4
-        },
-        {
-          "clue": "A type of biomolecule",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "precious",
-      "difficulty": "Intermediate",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "Like a treasure beyond measure",
-          "type": "Indirect",
-          "points": 6
-        },
-        {
-          "clue": "Highly valued or cherished",
-          "type": "Suggestive",
-          "points": 4
-        },
-        {
-          "clue": "Of great worth or importance",
-          "type": "Straight",
-          "points": 2
-        }
-      ]
-    },
-    {
-      "word": "skull",
-      "difficulty": "Easy",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "The bony case of the head",
-          "type": "Indirect",
-          "points": 5
-        },
-        {
-          "clue": "A protective casing for the brain",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "The bony structure that encloses the brain",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "damaged",
-      "difficulty": "Intermediate",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "Like a broken vase",
-          "type": "Indirect",
-          "points": 6
-        },
-        {
-          "clue": "Having suffered harm or injury",
-          "type": "Suggestive",
-          "points": 4
-        },
-        {
-          "clue": "Hurt or injured in some way",
-          "type": "Straight",
-          "points": 2
-        }
-      ]
-    },
-    {
-      "word": "obviously",
+      "word": "indistinguishable",
       "difficulty": "Hard",
       "related_words": [],
       "clues": [
         {
-          "clue": "As clear as a sunny day",
+          "clue": "What identical twins are to strangers, and what one suburb is to another.",
           "type": "Indirect",
           "points": 7
         },
         {
-          "clue": "Evident or apparent to the senses",
+          "clue": "So similar to something else that it cannot be told apart.",
           "type": "Suggestive",
           "points": 4
         },
         {
-          "clue": "Clearly evident or manifest",
+          "clue": "Impossible to tell apart from something else.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "stiffed",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "What happens to a waiter who gets a lousy tip, or a contractor who never gets paid.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "To have cheated someone out of payment or fair treatment.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Cheated someone of expected payment.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "muleteer",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Before roads, he was the delivery driver, the taxi, and the moving company all in one.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "A person who drives or tends mules as an occupation.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A mule driver.",
           "type": "Straight",
           "points": 2
         }
       ]
     }
-  ],
-  "id": "ClueChain-2026-06-11"
+  ]
 }

@@ -1,237 +1,247 @@
 {
-  "title": "Destiny 2 — Sales",
+  "title": "The Source of All Things",
   "date": "01-28",
-  "text": "Title: Destiny 2 — Sales\n\nDestiny 2 sold 50,263 copies on PlayStation 4 within its first week on sale in Japan, which placed it at number one on the weekly sales charts. The weekend consisting of September 23, Destiny 2 took the number 1 spot on the UK sales chart. Destiny 2 was also the second highest-grossing console game of 2017 in North America (behind Call of Duty: WWII), and was also Activision's biggest PC release based on units sold. Digital downloads for Destiny 2 account for more than half of the total sales of the game. Despite strong unit sales, the game failed to generate the recurring revenue that Activision wanted. As a result, Activision ended its publishing deal with Bungie in 2019. 2023 saw Bungie cut 8% of their staff due to a projected revenue miss of 45%.",
+  "topic": "Nature",
+  "themes": [
+    "hiking",
+    "family",
+    "wilderness",
+    "aging"
+  ],
+  "summary": "A writer climbs to 9,000 feet in a wildfire summer with her aging father, who drove up from Las Vegas to join her in the Idaho backcountry she grew up in.",
+  "text": "It's July, and hotter than hell on the sage-covered slopes, where wildfires will char more than 130,000 acres by summer's end. But we're up high, climbing to 9,000 feet, and my dad thinks this heat feels cooler than the heat in Las Vegas, where he lives. Four days ago, he met me in Twin Falls, a town 140 miles south of here where I grew up, after driving north across Nevada, past other fires, including one on the Idaho border. The air is thin, the terrain rugged, and his body—64 years old, bowlegged, and 15 pounds overweight—seems tired and heavy to me. He struggled the last half-mile, stopping every few feet to catch his breath",
   "hiddenWords": [
     {
-      "word": "weekend",
+      "word": "climbing",
+      "difficulty": "Easy",
+      "related_words": [
+        "slopes"
+      ],
+      "clues": [
+        {
+          "clue": "What a career does when it's going well, and what legs do when the path goes up.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Ascending upward, whether on a mountain or a corporate ladder.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Moving upward by effort.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "slopes",
+      "difficulty": "Easy",
+      "related_words": [
+        "climbing"
+      ],
+      "clues": [
+        {
+          "clue": "Skiers love them in winter; hikers curse them in summer.",
+          "type": "Indirect",
+          "points": 5
+        },
+        {
+          "clue": "Inclined surfaces on a hillside or mountain.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "The angled sides of a hill.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "struggled",
       "difficulty": "Easy",
       "related_words": [],
       "clues": [
         {
-          "clue": "A time for relaxation",
+          "clue": "What the body announces when the spirit is still willing.",
           "type": "Indirect",
           "points": 6
         },
         {
-          "clue": "A period of two days",
+          "clue": "To have made a great effort against difficulty, with limited success.",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "Saturday and Sunday",
+          "clue": "Had difficulty doing something.",
           "type": "Straight",
           "points": 1
         }
       ]
     },
     {
-      "word": "console",
+      "word": "wildfires",
       "difficulty": "Intermediate",
       "related_words": [
-        "game",
-        "digital"
+        "char"
       ],
       "clues": [
         {
-          "clue": "Where you find your favorite games",
-          "type": "Indirect",
-          "points": 5
-        },
-        {
-          "clue": "An electronic device for playing games",
-          "type": "Suggestive",
-          "points": 4
-        },
-        {
-          "clue": "A device for playing video games",
-          "type": "Straight",
-          "points": 2
-        }
-      ]
-    },
-    {
-      "word": "digital",
-      "difficulty": "Intermediate",
-      "related_words": [
-        "console",
-        "game"
-      ],
-      "clues": [
-        {
-          "clue": "The way of the future",
+          "clue": "They spread faster than rumors and leave the same kind of scar.",
           "type": "Indirect",
           "points": 6
         },
         {
-          "clue": "Relating to computers",
+          "clue": "Uncontrolled blazes that sweep through forests and scrubland.",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "In a binary format",
+          "clue": "Large uncontrolled fires in the wild.",
           "type": "Straight",
           "points": 1
         }
       ]
     },
     {
-      "word": "game",
-      "difficulty": "Easy",
+      "word": "terrain",
+      "difficulty": "Intermediate",
       "related_words": [
-        "console",
-        "digital"
+        "rugged"
       ],
       "clues": [
         {
-          "clue": "Something fun to play",
+          "clue": "A general's first concern, a hiker's daily reality.",
           "type": "Indirect",
-          "points": 5
+          "points": 6
         },
         {
-          "clue": "An activity for entertainment",
+          "clue": "The physical features and character of a stretch of land.",
           "type": "Suggestive",
-          "points": 4
+          "points": 3
         },
         {
-          "clue": "A form of play or sport",
+          "clue": "The landscape or ground conditions of an area.",
           "type": "Straight",
           "points": 1
         }
       ]
     },
     {
-      "word": "revenue",
+      "word": "rugged",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "terrain"
+      ],
+      "clues": [
+        {
+          "clue": "The adjective that makes a landscape sound exciting and a man sound attractive.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Uneven, harsh, and demanding — describing land or constitution.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Rough and difficult to traverse.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "overweight",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "What luggage becomes when it costs extra, and what a body becomes when it carries more than intended.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Exceeding the recommended or healthy weight.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Above the normal or desired weight.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "char",
       "difficulty": "Hard",
-      "related_words": [],
+      "related_words": [
+        "wildfires"
+      ],
       "clues": [
         {
-          "clue": "The lifeblood of any business",
+          "clue": "A cook does it on purpose to a steak; a wildfire does it to a forest without asking.",
           "type": "Indirect",
           "points": 7
         },
         {
-          "clue": "Income from sales or services",
+          "clue": "To partially burn a surface, blackening it.",
           "type": "Suggestive",
           "points": 4
         },
         {
-          "clue": "The amount of money earned",
+          "clue": "To scorch or burn to a black residue.",
           "type": "Straight",
           "points": 2
         }
       ]
     },
     {
-      "word": "result",
-      "difficulty": "Intermediate",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "The outcome of a decision",
-          "type": "Indirect",
-          "points": 6
-        },
-        {
-          "clue": "A consequence or effect",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "The end or outcome of something",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "projected",
+      "word": "bowlegged",
       "difficulty": "Hard",
       "related_words": [],
       "clues": [
         {
-          "clue": "A forecast or prediction",
-          "type": "Indirect",
-          "points": 6
-        },
-        {
-          "clue": "Estimated or forecasted",
-          "type": "Suggestive",
-          "points": 4
-        },
-        {
-          "clue": "Thrown forward or outward",
-          "type": "Straight",
-          "points": 2
-        }
-      ]
-    },
-    {
-      "word": "staff",
-      "difficulty": "Easy",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "The people who work for a company",
-          "type": "Indirect",
-          "points": 5
-        },
-        {
-          "clue": "A group of employees",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "The workers or employees",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "units",
-      "difficulty": "Intermediate",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "A single thing or item",
-          "type": "Indirect",
-          "points": 6
-        },
-        {
-          "clue": "A quantity or amount",
-          "type": "Suggestive",
-          "points": 4
-        },
-        {
-          "clue": "A single item or thing",
-          "type": "Straight",
-          "points": 2
-        }
-      ]
-    },
-    {
-      "word": "percentage",
-      "difficulty": "Hard",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "A part of a whole",
+          "clue": "A lifetime of horses, saddles, or circumstance bends a person this way.",
           "type": "Indirect",
           "points": 7
         },
         {
-          "clue": "A proportion or fraction",
+          "clue": "Having legs that curve outward at the knees when standing.",
           "type": "Suggestive",
           "points": 4
         },
         {
-          "clue": "A number or quantity expressed as a fraction",
+          "clue": "Having outward-curving legs.",
           "type": "Straight",
           "points": 2
+        }
+      ]
+    },
+    {
+      "word": "border",
+      "difficulty": "Hard",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "Where one thing ends and another begins — on a map, or in a garden.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "The line dividing two territories, states, or countries.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "A boundary between two areas.",
+          "type": "Straight",
+          "points": 1
         }
       ]
     }
-  ],
-  "id": "ClueChain-2026-01-28"
+  ]
 }

@@ -1,237 +1,243 @@
 {
-  "title": "Pollution and Mistakes",
+  "title": "A Delicious Meal in Morocco",
   "date": "10-12",
-  "text": "Title: Pollution and Mistakes\n\nStudies in Israel and in China have shown both short-term and long-term exposure to air pollution can lead to lower standardized test scores. And a paper published in September of this year found that chess players in Germany make more mistakes, as measured by a computer program’s suggested moves,  when there is more fine particulate matter in the air.",
+  "topic": "Culture",
+  "themes": [
+    "food",
+    "travel",
+    "Morocco",
+    "happiness"
+  ],
+  "summary": "Michael Chabon describes the transcendent lunch his family ate at an unremarkable roadside butcher shop in Morocco — the best kefta of the trip, in the least likely of places.",
+  "text": "I have eaten good food in unprepossessing locales, but I doubt the disparity between the crude, shabby atmosphere of that nameless cement-block dispensary of protein and redemption and the quality of the lunch laid on by the butcher of Zegota will ever be matched. When it arrived, the kefta was easily the best we ate during our two weeks in Morocco—and we ate a lot of kefta. The tagine arrived sizzling in its Munchkin-hat clay oven, the long green peppers delivering a welcome and overdue burn. The ubiquitous mint tea was neither oversweetened nor bitter. The day was bright and cool, and after the meal we lingered a moment on that gritty concrete terrace, six Jews sitting in the sunshine between a mosque and a shambles, grooving on the mingled aftertastes of sugar and mint and barbecue and chiles, as happy, collectively, as we had been in Morocco or might ever be again in our lives.",
   "hiddenWords": [
     {
-      "word": "Israel",
+      "word": "shabby",
       "difficulty": "Easy",
       "related_words": [
-        "China",
-        "Germany"
+        "gritty"
       ],
       "clues": [
         {
-          "clue": "A place where you might find the Dead Sea",
+          "clue": "What a coat looks like after too many winters, and what a lie looks like after too many tellings.",
           "type": "Indirect",
           "points": 6
         },
         {
-          "clue": "Country in the Middle East",
+          "clue": "Worn out and in poor condition; or mean and unfair in treatment.",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "A nation in Western Asia",
+          "clue": "In poor condition through wear or neglect.",
           "type": "Straight",
           "points": 1
         }
       ]
     },
     {
-      "word": "China",
+      "word": "sizzling",
       "difficulty": "Easy",
-      "related_words": [
-        "Israel",
-        "Germany"
-      ],
+      "related_words": [],
       "clues": [
         {
-          "clue": "Where the Great Wall is located",
+          "clue": "The sound a pan makes when it's doing its best work.",
           "type": "Indirect",
           "points": 5
         },
         {
-          "clue": "The most populous country in the world",
+          "clue": "Making the crackling sound of something frying in hot fat.",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "A country in East Asia",
+          "clue": "Making a hissing sound from heat.",
           "type": "Straight",
           "points": 1
         }
       ]
     },
     {
-      "word": "Germany",
+      "word": "bitter",
       "difficulty": "Easy",
-      "related_words": [
-        "Israel",
-        "China"
-      ],
+      "related_words": [],
       "clues": [
         {
-          "clue": "Famous for its beer festivals",
+          "clue": "Coffee without sugar, a rivalry unresolved, a winter wind — all share this quality.",
           "type": "Indirect",
           "points": 6
         },
         {
-          "clue": "A country in Central Europe",
+          "clue": "Having a sharp, unpleasant taste — or a resentful, angry feeling.",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "The birthplace of Bach",
+          "clue": "Sharp and unpleasant in taste, or resentful in feeling.",
           "type": "Straight",
-          "points": 2
+          "points": 1
         }
       ]
     },
     {
-      "word": "standardized",
+      "word": "redemption",
       "difficulty": "Intermediate",
       "related_words": [],
       "clues": [
         {
-          "clue": "Like a ruler with marked measurements",
+          "clue": "A coupon promises a small one; a great meal or a great act can offer a larger one.",
           "type": "Indirect",
           "points": 7
         },
         {
-          "clue": "Meant to be consistent",
+          "clue": "Being saved from failure, sin, or unworthiness — or the act of claiming something owed.",
           "type": "Suggestive",
           "points": 4
         },
         {
-          "clue": "Officially approved or accepted",
+          "clue": "The act of saving or being saved from error or harm.",
           "type": "Straight",
           "points": 2
         }
       ]
     },
     {
-      "word": "exposure",
+      "word": "overdue",
       "difficulty": "Intermediate",
       "related_words": [],
       "clues": [
         {
-          "clue": "Like being out in the open",
+          "clue": "What a library book becomes, what a compliment feels like, what a good meal can be after a long day.",
           "type": "Indirect",
           "points": 6
         },
         {
-          "clue": "The state of being open to something",
+          "clue": "Past the expected or scheduled time; having been needed or awaited for too long.",
           "type": "Suggestive",
           "points": 3
         },
         {
-          "clue": "Coming into contact with something",
+          "clue": "Past due or long awaited.",
           "type": "Straight",
           "points": 1
         }
       ]
     },
     {
-      "word": "particulate",
+      "word": "gritty",
+      "difficulty": "Intermediate",
+      "related_words": [
+        "shabby"
+      ],
+      "clues": [
+        {
+          "clue": "A city neighborhood and a determined athlete both earn this word.",
+          "type": "Indirect",
+          "points": 6
+        },
+        {
+          "clue": "Coarse and rough to the touch — or showing tough, unpolished determination.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Sandy or rough in texture; or tough and resilient.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "aftertastes",
+      "difficulty": "Intermediate",
+      "related_words": [],
+      "clues": [
+        {
+          "clue": "The flavor memory that stays once the plate is cleared — and the emotional residue that stays once the day is done.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Residual flavors that linger in the mouth once a meal is finished.",
+          "type": "Suggestive",
+          "points": 3
+        },
+        {
+          "clue": "Residual tastes that linger once the food is gone.",
+          "type": "Straight",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "word": "unprepossessing",
+      "difficulty": "Hard",
+      "related_words": [
+        "disparity"
+      ],
+      "clues": [
+        {
+          "clue": "The word for a plain face that hides an extraordinary mind, or a drab door that opens into a palace.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "Not attractive or impressive at first appearance.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "Unimpressive or unattractive in appearance.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "disparity",
+      "difficulty": "Hard",
+      "related_words": [
+        "unprepossessing"
+      ],
+      "clues": [
+        {
+          "clue": "The gap between the wrapper and what's inside — or between promise and reality.",
+          "type": "Indirect",
+          "points": 7
+        },
+        {
+          "clue": "A great difference or inequality between two things.",
+          "type": "Suggestive",
+          "points": 4
+        },
+        {
+          "clue": "A noticeable difference or inequality.",
+          "type": "Straight",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "word": "ubiquitous",
       "difficulty": "Hard",
       "related_words": [],
       "clues": [
         {
-          "clue": "A tiny thing that makes up a larger whole",
+          "clue": "The smartphone is this. So is pop music. So is mint tea in Morocco.",
           "type": "Indirect",
           "points": 7
         },
         {
-          "clue": "A component of air quality",
+          "clue": "Seeming to appear everywhere at once.",
           "type": "Suggestive",
           "points": 4
         },
         {
-          "clue": "Matter that is broken down into smaller units",
+          "clue": "Present or found everywhere.",
           "type": "Straight",
           "points": 2
-        }
-      ]
-    },
-    {
-      "word": "chess",
-      "difficulty": "Easy",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "A game of strategy and skill",
-          "type": "Indirect",
-          "points": 5
-        },
-        {
-          "clue": "A popular board game",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "A game played with pieces",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "program",
-      "difficulty": "Intermediate",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "A set of instructions for a computer",
-          "type": "Indirect",
-          "points": 6
-        },
-        {
-          "clue": "A series of steps to achieve something",
-          "type": "Suggestive",
-          "points": 4
-        },
-        {
-          "clue": "A piece of software",
-          "type": "Straight",
-          "points": 2
-        }
-      ]
-    },
-    {
-      "word": "suggested",
-      "difficulty": "Intermediate",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "Recommended or advised",
-          "type": "Indirect",
-          "points": 7
-        },
-        {
-          "clue": "Proposed as a possibility",
-          "type": "Suggestive",
-          "points": 4
-        },
-        {
-          "clue": "Put forward as an idea",
-          "type": "Straight",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "word": "September",
-      "difficulty": "Easy",
-      "related_words": [],
-      "clues": [
-        {
-          "clue": "The month of the autumnal equinox",
-          "type": "Indirect",
-          "points": 6
-        },
-        {
-          "clue": "The ninth month of the year",
-          "type": "Suggestive",
-          "points": 3
-        },
-        {
-          "clue": "A month in the calendar",
-          "type": "Straight",
-          "points": 1
         }
       ]
     }
-  ],
-  "id": "ClueChain-2026-10-12"
+  ]
 }
